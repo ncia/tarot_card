@@ -148,7 +148,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get readingIntroSubtitle => '신비로운 힘이 당신을 기다립니다...';
 
   @override
-  String get readingIntroButton => '운명 확인하기';
+  String get readingIntroButton => '내 운명 확인하기';
 
   @override
   String get readingSpreadTitle => '운명의\n열쇠';

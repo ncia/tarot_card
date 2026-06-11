@@ -67,7 +67,7 @@ class MeaningsScreen extends StatelessWidget {
       padding: const EdgeInsets.all(16.0),
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
-        childAspectRatio: 0.50, // 세로로 더 긴 카드 비율 (텍스트 많음)
+        childAspectRatio: 0.46, // 세로 비율 조금 조절
         crossAxisSpacing: 16,
         mainAxisSpacing: 16,
       ),
@@ -89,55 +89,63 @@ class MeaningsScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Expanded(
+                AspectRatio(
+                  aspectRatio: 2 / 3.4, // Making it slightly taller to accommodate bottom text better
                   child: Hero(
-                    tag: 'card_\${card.id}',
+                    tag: 'card_${card.id}',
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(8),
                       child: Image.asset(
                         card.imagePath,
-                        fit: BoxFit.cover,
+                        fit: BoxFit.contain,
                       ),
                     ),
                   ),
                 ),
-              const SizedBox(height: 12),
-              Text(
-                TarotLocalizations.getName(context, card.id),
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 13,
+                const SizedBox(height: 12),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Text(
+                        TarotLocalizations.getName(context, card.id),
+                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13,
+                        ),
+                        textAlign: TextAlign.center,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        '⬆️ ${TarotLocalizations.getUpright(context, card.id)}',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: Colors.white,
+                          fontSize: 11,
+                        ),
+                        textAlign: TextAlign.left,
+                        maxLines: 3,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      const SizedBox(height: 4),
+                      Text(
+                        '⬇️ ${TarotLocalizations.getReversed(context, card.id)}',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: Colors.white70,
+                          fontSize: 11,
+                        ),
+                        textAlign: TextAlign.left,
+                        maxLines: 3,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
+                  ),
                 ),
-                textAlign: TextAlign.center,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-              ),
-              const SizedBox(height: 8),
-              Text(
-                '⬆️ ${TarotLocalizations.getUpright(context, card.id)}',
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Colors.white,
-                  fontSize: 11,
-                ),
-                textAlign: TextAlign.left,
-                maxLines: 3,
-                overflow: TextOverflow.ellipsis,
-              ),
-              const SizedBox(height: 4),
-              Text(
-                '⬇️ ${TarotLocalizations.getReversed(context, card.id)}',
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: Colors.white70,
-                  fontSize: 11,
-                ),
-                textAlign: TextAlign.left,
-                maxLines: 3,
-                overflow: TextOverflow.ellipsis,
-              ),
-              const SizedBox(height: 4),
-            ],
+              ],
+            ),
           ),
-        ));
+        );
       },
     );
   }

@@ -6,7 +6,8 @@ import '../widgets/glass_container.dart';
 import 'reading_screen.dart';
 
 class SpreadSelectionScreen extends StatelessWidget {
-  const SpreadSelectionScreen({super.key});
+  final bool showBackButton;
+  const SpreadSelectionScreen({super.key, this.showBackButton = false});
 
   @override
   Widget build(BuildContext context) {
@@ -19,10 +20,22 @@ class SpreadSelectionScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Text(
-                  AppLocalizations.of(context)!.spreadSelectionTitle,
-                  style: Theme.of(context).textTheme.displayLarge,
-                  textAlign: TextAlign.center,
+                Row(
+                  children: [
+                    if (showBackButton)
+                      IconButton(
+                        icon: const Icon(Icons.arrow_back, color: Colors.white),
+                        onPressed: () => Navigator.pop(context),
+                      ),
+                    Expanded(
+                      child: Text(
+                        AppLocalizations.of(context)!.spreadSelectionTitle,
+                        style: Theme.of(context).textTheme.displayLarge,
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    if (showBackButton) const SizedBox(width: 48), // Balance for centering
+                  ],
                 ),
                 const SizedBox(height: 12),
                 Text(

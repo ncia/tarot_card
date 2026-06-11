@@ -52,6 +52,11 @@ class AppTheme {
         unselectedItemColor: Colors.white54,
         type: BottomNavigationBarType.fixed,
       ),
+      snackBarTheme: const SnackBarThemeData(
+        backgroundColor: Color(0xFF320064), // Dark deep purple
+        contentTextStyle: TextStyle(color: Colors.white),
+        actionTextColor: accentColor,
+      ),
     );
   }
 }

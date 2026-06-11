@@ -9,6 +9,10 @@ import '../data/tarot_data.dart';
 import '../data/spread_type.dart';
 import '../widgets/spread_layouts.dart';
 import 'card_detail_screen.dart';
+import 'package:share_plus/share_plus.dart';
+import 'package:flutter_tarot/l10n/tarot_localizations.dart';
+import '../services/audio_service.dart';
+import 'diary_edit_screen.dart';
 
 enum ReadingState { intro, picking, result }
 
@@ -80,6 +84,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   }
 
   void _startPicking() {
+    AudioService().playThunderSound();
     setState(() {
       _currentState = ReadingState.picking;
     });
@@ -432,43 +437,136 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
             ),
             const SizedBox(height: 40),
             if (!widget.isForChat)
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  OutlinedButton(
-                    onPressed: () {
-                      Navigator.pop(context);
-                    },
-                    style: OutlinedButton.styleFrom(
-                      foregroundColor: Colors.white,
-                      side: const BorderSide(color: Colors.white54),
-                      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    OutlinedButton.icon(
+                      onPressed: () {
+                        _shareReadingResult();
+                      },
+                      icon: const Icon(Icons.share, size: 18),
+                      label: const Text('공유하기'),
+                      style: OutlinedButton.styleFrom(
+                        foregroundColor: Colors.amberAccent,
+                        side: const BorderSide(color: Colors.amberAccent),
+                        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                      ),
                     ),
-                    child: const Text('다른 배열법 선택'),
-                  ),
-                  const SizedBox(width: 16),
-                  ElevatedButton(
-                    onPressed: () {
-                      Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => ReadingScreen(spreadType: widget.spreadType),
-                        ),
-                      );
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.deepPurpleAccent,
-                      foregroundColor: Colors.white,
-                      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                    const SizedBox(width: 12),
+                    OutlinedButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      style: OutlinedButton.styleFrom(
+                        foregroundColor: Colors.white,
+                        side: const BorderSide(color: Colors.white54),
+                        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                      ),
+                      child: const Text('다른 배열법 선택'),
                     ),
-                    child: const Text('다시 뽑기'),
-                  ),
-                ],
+                    const SizedBox(width: 12),
+                    ElevatedButton(
+                      onPressed: () {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ReadingScreen(spreadType: widget.spreadType),
+                          ),
+                        );
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.deepPurpleAccent,
+                        foregroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                      ),
+                      child: const Text('다시 뽑기'),
+                    ),
+                    const SizedBox(width: 12),
+                    ElevatedButton(
+                      onPressed: () {
+                        List<TarotCardData> cards = [];
+                        List<bool> reversals = [];
+                        List<String> labels = [];
+                        List<String> meanings = [];
+                        
+                        // Spread-specific labels
+                        List<String> spreadLabels = [];
+                        if (widget.spreadType.name == 'oneCard') {
+                          spreadLabels = ['오늘의 점괘'];
+                        } else if (widget.spreadType.name == 'threeCard') {
+                          spreadLabels = ['1. 과거', '2. 현재', '3. 미래'];
+                        } else if (widget.spreadType.name == 'fourCard') {
+                          spreadLabels = ['1. 현재 상황 및 문제', '2. 문제의 원인', '3. 해결을 위한 조언', '4. 예상되는 결과'];
+                        } else if (widget.spreadType.name == 'fiveCard') {
+                          spreadLabels = ['1. 현재', '2. 과거', '3. 미래', '4. 원인', '5. 잠재력'];
+                        } else if (widget.spreadType.name == 'celticCross') {
+                          spreadLabels = ['1. 현재 상황', '2. 방해물', '3. 무의식', '4. 과거', '5. 의식적 목표', '6. 가까운 미래', '7. 태도', '8. 외부 환경', '9. 희망과 두려움', '10. 최종 결과'];
+                        } else if (widget.spreadType.name == 'hexagram') {
+                          spreadLabels = ['1. 과거', '2. 현재', '3. 미래', '4. 조언', '5. 주변 환경', '6. 결과'];
+                        } else {
+                          spreadLabels = List.generate(widget.spreadType.cardCount, (i) => '포지션 ${i + 1}');
+                        }
+                        
+                        for (int i = 0; i < widget.spreadType.cardCount; i++) {
+                          final idx = _selectedCardIndices[i];
+                          cards.add(_shuffledDeck[idx]);
+                          reversals.add(_shuffledReversed[idx]);
+                          labels.add(spreadLabels.length > i ? spreadLabels[i] : '포지션 ${i + 1}');
+                          meanings.add(!_shuffledReversed[idx] ? _shuffledDeck[idx].uprightDesc : _shuffledDeck[idx].reversedDesc);
+                        }
+
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => DiaryEditScreen(
+                              cards: cards,
+                              cardReversals: reversals,
+                              positionLabels: labels,
+                              cardMeanings: meanings,
+                              spreadType: widget.spreadType.name,
+                            ),
+                          ),
+                        );
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.pinkAccent,
+                        foregroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                      ),
+                      child: const Text('일기에 저장하기', style: TextStyle(fontWeight: FontWeight.bold)),
+                    ),
+                  ],
+                ),
               ),
           ],
         ),
       ),
     );
+  }
+
+  void _shareReadingResult() {
+    final buffer = StringBuffer();
+    buffer.writeln('🔮 나의 타로 점괘 결과 🔮');
+    buffer.writeln('배열법: \${widget.spreadType.name}'); // You can localize spread type name if needed
+    buffer.writeln('----------------------');
+
+    for (int i = 0; i < widget.spreadType.cardCount; i++) {
+      final cardIndex = _selectedCardIndices[i];
+      final card = _shuffledDeck[cardIndex];
+      final isRev = _shuffledReversed[cardIndex];
+      final cardName = TarotLocalizations.getName(context, card.id);
+      final direction = isRev ? '역방향 (Reversed)' : '정방향 (Upright)';
+      
+      buffer.writeln('\${i + 1}. $cardName ($direction)');
+    }
+
+    buffer.writeln('----------------------');
+    buffer.writeln('Flutter Tarot 앱에서 공유됨');
+
+    Share.share(buffer.toString());
   }
 }
 

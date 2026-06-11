@@ -129,7 +129,7 @@ Widget _buildCardItem(BuildContext context, {
           builder: (context) => CardDetailScreen(
             card: card,
             initialIsReversed: isRev,
-            heroTag: 'reading_result_card_${card.id}_$index',
+            heroTag: 'reading_result_card_${card.id}_0',
           ),
         ),
       );
@@ -150,7 +150,7 @@ Widget _buildCardItem(BuildContext context, {
           const SizedBox(height: 4),
         ],
         Hero(
-          tag: 'reading_result_card_${card.id}_$index',
+          tag: 'reading_result_card_${card.id}_0',
           child: FlipCardWidget(
             frontImagePath: card.imagePath,
             isReversed: isRev,
@@ -249,7 +249,10 @@ class _OneCardLayout extends StatelessWidget {
               ),
               const SizedBox(width: 16),
               Expanded(
-                child: Column(
+                child: GestureDetector(
+                  behavior: HitTestBehavior.opaque,
+                  onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => CardDetailScreen(card: card, initialIsReversed: isRev, heroTag: 'reading_result_card_${card.id}_0'))),
+                  child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
@@ -266,6 +269,7 @@ class _OneCardLayout extends StatelessWidget {
                       style: const TextStyle(color: Colors.white70, fontSize: 14),
                     ),
                   ],
+                ),
                 ),
               ),
             ],
@@ -362,7 +366,10 @@ class _ThreeCardLayout extends StatelessWidget {
                   ),
                   const SizedBox(width: 16),
                   Expanded(
-                    child: Column(
+                    child: GestureDetector(
+                      behavior: HitTestBehavior.opaque,
+                      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => CardDetailScreen(card: card, initialIsReversed: isRev, heroTag: 'reading_result_card_${card.id}_$index'))),
+                      child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
@@ -379,6 +386,7 @@ class _ThreeCardLayout extends StatelessWidget {
                           style: const TextStyle(color: Colors.white70, fontSize: 14),
                         ),
                       ],
+                    ),
                     ),
                   ),
                 ],
@@ -479,7 +487,10 @@ class _FourCardLayout extends StatelessWidget {
                   ),
                   const SizedBox(width: 16),
                   Expanded(
-                    child: Column(
+                    child: GestureDetector(
+                      behavior: HitTestBehavior.opaque,
+                      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => CardDetailScreen(card: card, initialIsReversed: isRev, heroTag: 'reading_result_card_${card.id}_$index'))),
+                      child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
@@ -496,6 +507,7 @@ class _FourCardLayout extends StatelessWidget {
                           style: const TextStyle(color: Colors.white70, fontSize: 14),
                         ),
                       ],
+                    ),
                     ),
                   ),
                 ],
@@ -580,7 +592,10 @@ class _TwoCardLayout extends StatelessWidget {
                   ),
                   const SizedBox(width: 16),
                   Expanded(
-                    child: Column(
+                    child: GestureDetector(
+                      behavior: HitTestBehavior.opaque,
+                      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => CardDetailScreen(card: card, initialIsReversed: isRev, heroTag: 'reading_result_card_${card.id}_$index'))),
+                      child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
@@ -597,6 +612,7 @@ class _TwoCardLayout extends StatelessWidget {
                           style: const TextStyle(color: Colors.white70, fontSize: 14),
                         ),
                       ],
+                    ),
                     ),
                   ),
                 ],
@@ -695,7 +711,10 @@ class _FiveCardLayout extends StatelessWidget {
                   ),
                   const SizedBox(width: 16),
                   Expanded(
-                    child: Column(
+                    child: GestureDetector(
+                      behavior: HitTestBehavior.opaque,
+                      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => CardDetailScreen(card: card, initialIsReversed: isRev, heroTag: 'reading_result_card_${card.id}_$index'))),
+                      child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
@@ -712,6 +731,7 @@ class _FiveCardLayout extends StatelessWidget {
                           style: const TextStyle(color: Colors.white70, fontSize: 14),
                         ),
                       ],
+                    ),
                     ),
                   ),
                 ],
@@ -781,7 +801,10 @@ class _CelticCrossLayout extends StatelessWidget {
                   ),
                   const SizedBox(width: 16),
                   Expanded(
-                    child: Column(
+                    child: GestureDetector(
+                      behavior: HitTestBehavior.opaque,
+                      onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => CardDetailScreen(card: card, initialIsReversed: isRev, heroTag: 'reading_result_card_${card.id}_$index'))),
+                      child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
@@ -798,6 +821,7 @@ class _CelticCrossLayout extends StatelessWidget {
                           style: const TextStyle(color: Colors.white70, fontSize: 14),
                         ),
                       ],
+                    ),
                     ),
                   ),
                 ],
