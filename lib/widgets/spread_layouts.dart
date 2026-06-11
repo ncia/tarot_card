@@ -180,8 +180,11 @@ class _OneCardLayout extends StatelessWidget {
       children: [
         // 상단 미니 맵
         Container(
+          height: 300,
           margin: const EdgeInsets.only(bottom: 30),
+          alignment: Alignment.center,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 label,
@@ -272,10 +275,12 @@ class _ThreeCardLayout extends StatelessWidget {
       children: [
         // 상단 미니 맵 (3장 가로 정렬)
         Container(
+          height: 300,
           margin: const EdgeInsets.only(bottom: 30),
+          alignment: Alignment.center,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: List.generate(3, (index) {
               final cardIndex = selectedCardIndices[index];
               final card = shuffledDeck[cardIndex];

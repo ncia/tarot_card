@@ -233,23 +233,25 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   }
 
   Widget _buildPickingView() {
-    return SafeArea(
-      key: const ValueKey('picking'),
-      child: LayoutBuilder(
-        builder: (context, constraints) {
-          final double screenWidth = constraints.maxWidth;
-          final double screenHeight = constraints.maxHeight;
-          final double slotWidth = 90.0;
-          final double slotHeight = 140.0;
-          final double spacing = (screenWidth - (slotWidth * 3)) / 4;
-          
-          // 상단 빈 슬롯이 시작되는 정확한 Y 좌표
-          // Padding top 20 + 상단 텍스트Row 대략 30 + SizedBox 20 = 70
-          final double slotsTopY = 70.0; 
+    return Stack(
+      children: [
+        SafeArea(
+          key: const ValueKey('picking'),
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              final double screenWidth = constraints.maxWidth;
+              final double screenHeight = constraints.maxHeight;
+              final double slotWidth = 90.0;
+              final double slotHeight = 140.0;
+              final double spacing = (screenWidth - (slotWidth * 3)) / 4;
+              
+              // 상단 빈 슬롯이 시작되는 정확한 Y 좌표
+              // Padding top 20 + 상단 텍스트Row 대략 30 + SizedBox 20 = 70
+              final double slotsTopY = 70.0; 
 
-          return Stack(
-            clipBehavior: Clip.none,
-            children: [
+              return Stack(
+                clipBehavior: Clip.none,
+                children: [
               // 1. 배경 및 UI 요소 레이어
               Column(
                 children: [
@@ -357,44 +359,47 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                   ),
                 );
               }),
-              
-              // 3. 번개 이펙트 레이어 (카드가 모두 선택된 후 3초간 표시)
-              if (_showLightning) ...[
-                // 화면 전체가 어두워지는 효과 (검은 배경 매칭)
-                Positioned.fill(
-                  child: AnimatedBuilder(
-                    animation: _lightningAnimController,
-                    builder: (context, child) {
-                      return Container(
-                        color: Colors.black.withOpacity(0.85 + (_lightningAnimController.value * 0.15)), // 0.85 ~ 1.0
-                      );
-                    },
+                ],
+              );
+            },
+          ),
+        ),
+        
+        // 3. 번개 이펙트 레이어 (카드가 모두 선택된 후 3초간 표시)
+        // 화면 전체를 덮도록 SafeArea 외부에 배치
+        if (_showLightning) ...[
+          // 화면 전체가 어두워지는 효과 (검은 배경 매칭)
+          Positioned.fill(
+            child: AnimatedBuilder(
+              animation: _lightningAnimController,
+              builder: (context, child) {
+                return Container(
+                  color: Colors.black.withOpacity(0.85 + (_lightningAnimController.value * 0.15)), // 0.85 ~ 1.0
+                );
+              },
+            ),
+          ),
+          // 번개 이미지
+          Positioned.fill(
+            child: AnimatedBuilder(
+              animation: _lightningAnimController,
+              builder: (context, child) {
+                return Opacity(
+                  opacity: 0.6 + (_lightningAnimController.value * 0.4),
+                  child: Container(
+                    decoration: const BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/lightning2.jpg'),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
                   ),
-                ),
-                // 번개 이미지
-                Positioned.fill(
-                  child: AnimatedBuilder(
-                    animation: _lightningAnimController,
-                    builder: (context, child) {
-                      return Opacity(
-                        opacity: 0.6 + (_lightningAnimController.value * 0.4),
-                        child: Container(
-                          decoration: const BoxDecoration(
-                            image: DecorationImage(
-                              image: AssetImage('assets/images/lightning2.jpg'),
-                              fit: BoxFit.contain,
-                            ),
-                          ),
-                        ),
-                      );
-                    },
-                  ),
-                ),
-              ],
-            ],
-          );
-        },
-      ),
+                );
+              },
+            ),
+          ),
+        ],
+      ],
     );
   }
 
