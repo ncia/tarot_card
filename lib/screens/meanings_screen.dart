@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import '../data/tarot_data.dart';
 
 class MeaningsScreen extends StatelessWidget {
@@ -89,7 +90,7 @@ class MeaningsScreen extends StatelessWidget {
               ),
               const SizedBox(height: 12),
               Text(
-                card.name,
+                TarotLocalizations.getName(context, card.id),
                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
                   fontWeight: FontWeight.bold,
                   fontSize: 13,
@@ -100,7 +101,7 @@ class MeaningsScreen extends StatelessWidget {
               ),
               const SizedBox(height: 8),
               Text(
-                '정: ${card.uprightDesc}',
+                '⬆️ ${TarotLocalizations.getUpright(context, card.id)}',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: Colors.white,
                   fontSize: 11,
@@ -111,7 +112,7 @@ class MeaningsScreen extends StatelessWidget {
               ),
               const SizedBox(height: 4),
               Text(
-                '역: ${card.reversedDesc}',
+                '⬇️ ${TarotLocalizations.getReversed(context, card.id)}',
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: Colors.white70,
                   fontSize: 11,

@@ -4,6 +4,7 @@ import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import '../widgets/flip_card.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import '../data/tarot_data.dart';
 
 enum ReadingState { intro, picking, result }
@@ -136,22 +137,17 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
       key: const ValueKey('intro'),
       children: [
         Positioned.fill(
-          child: AnimatedBuilder(
-            animation: _scaleAnimation,
-            builder: (context, child) {
-              return Transform.scale(
-                scale: _scaleAnimation.value,
-                child: Image.asset(
-                  'assets/images/fortune_teller.jpg',
-                  fit: BoxFit.cover,
-                  alignment: Alignment.center,
-                  errorBuilder: (context, error, stackTrace) => const Center(
-                    child: Icon(Icons.error, color: Colors.white54, size: 50),
-                  ),
-                ),
-              );
-            },
+          child: Image.asset(
+            'assets/images/fortune_teller.jpg',
+            fit: BoxFit.cover,
+            alignment: Alignment.center,
+            errorBuilder: (context, error, stackTrace) => const Center(
+              child: Icon(Icons.error, color: Colors.white54, size: 50),
+            ),
           ),
+        ),
+        const Positioned.fill(
+          child: GlowingLights(),
         ),
         Positioned.fill(
           child: Container(
@@ -405,8 +401,6 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     );
   }
 
-
-
   Widget _buildResultView() {
     return SafeArea(
       key: const ValueKey('result'),
@@ -452,7 +446,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                     SizedBox(
                       width: 90,
                       child: Text(
-                        card.name.split(" (").first,
+                        TarotLocalizations.getName(context, card.id).split(" (").first,
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 12,
@@ -482,7 +476,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                         final cardIndex = _selectedCardIndices[i];
                         final card = _shuffledDeck[cardIndex];
                         final isRev = _shuffledReversed[cardIndex];
-                        pickedInfos.add('${card.name} (${isRev ? "역방향" : "정방향"})');
+                        pickedInfos.add('${TarotLocalizations.getName(context, card.id)} (${isRev ? "Reversed" : "Upright"})');
                       }
                       widget.onCardsPicked!(pickedInfos);
                     }
@@ -528,4 +522,85 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
       ),
     );
   }
+}
+
+class GlowingLights extends StatefulWidget {
+  const GlowingLights({super.key});
+
+  @override
+  _GlowingLightsState createState() => _GlowingLightsState();
+}
+
+class _GlowingLightsState extends State<GlowingLights> with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  final math.Random _random = math.Random();
+  late List<LightParticle> _particles;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(vsync: this, duration: const Duration(seconds: 10))..repeat();
+    _particles = List.generate(20, (index) => LightParticle(_random));
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedBuilder(
+      animation: _controller,
+      builder: (context, child) {
+        return CustomPaint(
+          painter: LightsPainter(_particles, _controller.value),
+          size: Size.infinite,
+        );
+      },
+    );
+  }
+}
+
+class LightParticle {
+  final double x;
+  final double y;
+  final double size;
+  final double speed;
+  final double phase;
+
+  LightParticle(math.Random random)
+      : x = random.nextDouble(),
+        y = random.nextDouble(),
+        size = random.nextDouble() * 20 + 10,
+        speed = random.nextDouble() * 2 + 1,
+        phase = random.nextDouble() * math.pi * 2;
+}
+
+class LightsPainter extends CustomPainter {
+  final List<LightParticle> particles;
+  final double time;
+
+  LightsPainter(this.particles, this.time);
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    for (var p in particles) {
+      final double opacity = (math.sin(time * math.pi * 2 * p.speed + p.phase) + 1) / 2;
+      
+      final paint = Paint()
+        ..color = Colors.purpleAccent.withOpacity(opacity * 0.4)
+        ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 15);
+      canvas.drawCircle(Offset(p.x * size.width, p.y * size.height), p.size, paint);
+      
+      final innerPaint = Paint()
+        ..color = Colors.white.withOpacity(opacity * 0.6)
+        ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 5);
+      canvas.drawCircle(Offset(p.x * size.width, p.y * size.height), p.size * 0.3, innerPaint);
+    }
+  }
+
+  @override
+  bool shouldRepaint(LightsPainter oldDelegate) => true;
 }
