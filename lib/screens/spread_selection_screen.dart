@@ -4,10 +4,13 @@ import '../data/spread_type.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import 'reading_screen.dart';
+import '../data/witch_data.dart';
+import '../services/economy_service.dart';
 
 class SpreadSelectionScreen extends StatelessWidget {
   final bool showBackButton;
-  const SpreadSelectionScreen({super.key, this.showBackButton = false});
+  final Witch? selectedWitch;
+  const SpreadSelectionScreen({super.key, this.showBackButton = false, this.selectedWitch});
 
   @override
   Widget build(BuildContext context) {
@@ -109,13 +112,59 @@ class SpreadSelectionScreen extends StatelessWidget {
 
   Widget _buildSpreadCard(BuildContext context, {required String title, required String description, required IconData icon, required SpreadType type}) {
     return GestureDetector(
-      onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => ReadingScreen(spreadType: type),
+      onTap: () async {
+        final economy = EconomyService();
+        if (economy.coins < 1) {
+          showDialog(
+            context: context,
+            builder: (ctx) => AlertDialog(
+              backgroundColor: Colors.deepPurple.shade900,
+              title: const Text('코인 부족', style: TextStyle(color: Colors.white)),
+              content: const Text('코인이 부족합니다. 타로 리딩에는 코인 1개가 필요합니다.', style: TextStyle(color: Colors.white70)),
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(ctx),
+                  child: const Text('확인', style: TextStyle(color: Colors.amberAccent)),
+                ),
+              ],
+            ),
+          );
+          return;
+        }
+
+        final confirm = await showDialog<bool>(
+          context: context,
+          builder: (ctx) => AlertDialog(
+            backgroundColor: Colors.deepPurple.shade900,
+            title: const Text('타로 리딩 진행', style: TextStyle(color: Colors.white)),
+            content: const Text('코인 1개를 소모하여 리딩을 진행하시겠습니까?', style: TextStyle(color: Colors.white70)),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(ctx, false),
+                child: const Text('취소', style: TextStyle(color: Colors.white54)),
+              ),
+              ElevatedButton(
+                onPressed: () => Navigator.pop(ctx, true),
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.purpleAccent),
+                child: const Text('진행', style: TextStyle(color: Colors.white)),
+              ),
+            ],
           ),
         );
+
+        if (confirm != true) return;
+
+        final success = await economy.deductCoin(1);
+        if (!success) return;
+
+        if (context.mounted) {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => ReadingScreen(spreadType: type, selectedWitch: selectedWitch, skipIntro: true),
+            ),
+          );
+        }
       },
       child: GlassContainer(
         padding: const EdgeInsets.all(20),

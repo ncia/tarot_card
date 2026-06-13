@@ -81,19 +81,25 @@ class DiaryScreen extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.all(20.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              child: Stack(
+                alignment: Alignment.center,
                 children: [
-                  Text('나의 타로 일기', style: Theme.of(context).textTheme.displayLarge),
-                  Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
-                    decoration: BoxDecoration(
-                      color: Colors.redAccent.withOpacity(0.2),
-                      borderRadius: BorderRadius.circular(20),
-                      border: Border.all(color: Colors.redAccent.withOpacity(0.5)),
+                  Align(
+                    alignment: Alignment.center,
+                    child: Text('나의 타로 일기', style: Theme.of(context).textTheme.displayLarge),
+                  ),
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: Colors.redAccent.withOpacity(0.2),
+                        borderRadius: BorderRadius.circular(20),
+                        border: Border.all(color: Colors.redAccent.withOpacity(0.5)),
+                      ),
+                      child: const Text('파이어베이스 미연결 (미리보기)', style: TextStyle(color: Colors.redAccent, fontSize: 12)),
                     ),
-                    child: const Text('파이어베이스 미연결 (미리보기)', style: TextStyle(color: Colors.redAccent, fontSize: 12)),
-                  )
+                  ),
                 ],
               ),
             ),
@@ -229,14 +235,20 @@ class DiaryScreen extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.all(20.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              child: Stack(
+                alignment: Alignment.center,
                 children: [
-                  Text('나의 타로 일기', style: Theme.of(context).textTheme.displayLarge),
-                  IconButton(
-                    icon: const Icon(Icons.logout, color: Colors.white),
-                    onPressed: () => FirebaseAuth.instance.signOut(),
-                  )
+                  Align(
+                    alignment: Alignment.center,
+                    child: Text('나의 타로 일기', style: Theme.of(context).textTheme.displayLarge),
+                  ),
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: IconButton(
+                      icon: const Icon(Icons.logout, color: Colors.white),
+                      onPressed: () => FirebaseAuth.instance.signOut(),
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -255,7 +267,7 @@ class DiaryScreen extends StatelessWidget {
 
                   if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
                     return const Center(
-                      child: Text('아직 작성된 일기가 없습니다.\\n오늘의 점괘를 확인하고 일기를 남겨보세요!', 
+                      child: Text('아직 작성된 일기가 없습니다.\n오늘의 점괘를 확인하고 일기를 남겨보세요!', 
                         textAlign: TextAlign.center, 
                         style: TextStyle(color: Colors.white70),
                       ),
@@ -345,8 +357,10 @@ class DiaryScreen extends StatelessWidget {
                   BoxShadow(color: Colors.black45, blurRadius: 4, offset: Offset(2, 0))
                 ]
               ),
-              child:
-                          _buildDiaryThumbnails(diary),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(8),
+                child: Image.asset(card.imagePath, width: 60, height: 90, fit: BoxFit.cover),
+              ),
             ),
           );
         }),

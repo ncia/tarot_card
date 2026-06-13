@@ -6,6 +6,7 @@ import 'my_menu_screen.dart';
 import 'diary_screen.dart';
 import '../widgets/custom_image_icon.dart';
 import '../widgets/coin_widget.dart';
+import '../widgets/magic_dust_widget.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import '../services/audio_service.dart';
 import '../widgets/animated_volume_control.dart';
@@ -69,6 +70,7 @@ class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     AnimatedVolumeControl(),
+                    MagicDustWidget(),
                     CoinWidget(),
                   ],
                 ),

@@ -11,10 +11,19 @@ import '../data/spread_type.dart';
 import '../widgets/spread_layouts.dart';
 import 'card_detail_screen.dart';
 import 'package:share_plus/share_plus.dart';
+import 'dart:ui' as ui;
+import 'package:flutter/rendering.dart';
+import 'dart:io';
+import 'package:path_provider/path_provider.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import '../services/audio_service.dart';
 import '../services/economy_service.dart';
 import 'diary_edit_screen.dart';
+import '../data/witch_data.dart';
+import '../services/tarot_ai_service.dart';
+import '../services/tarot_ai_service.dart';
+import '../services/tts_service.dart';
+import '../widgets/witch_profile_dialog.dart';
 
 enum ReadingState { intro, picking, result }
 
@@ -22,12 +31,16 @@ class ReadingScreen extends StatefulWidget {
   final bool isForChat;
   final SpreadType spreadType;
   final void Function(List<String>)? onCardsPicked;
+  final Witch? selectedWitch;
+  final bool skipIntro;
 
   const ReadingScreen({
     super.key,
     this.isForChat = false,
     this.spreadType = SpreadType.threeCard,
     this.onCardsPicked,
+    this.selectedWitch,
+    this.skipIntro = false,
   });
 
   @override
@@ -39,6 +52,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   late AnimationController _introAnimController;
   late AnimationController _lightningAnimController;
   late Animation<double> _scaleAnimation;
+  final GlobalKey _repaintBoundaryKey = GlobalKey();
   
   // Card Picking State
   bool _isFanSpread = true; // 레이아웃 토글
@@ -50,11 +64,16 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   late List<bool> _shuffledReversed;
   late String _currentBackgroundImage;
   bool _isInit = false;
+  
+  final TarotAiService _aiService = TarotAiService();
+  final TtsService _ttsService = TtsService();
+  String _aiReadingText = '';
+  bool _isAiTyping = false;
 
   @override
   void initState() {
     super.initState();
-    if (widget.isForChat) {
+    if (widget.isForChat || widget.skipIntro) {
       _currentState = ReadingState.picking;
     }
     _introAnimController = AnimationController(
@@ -83,21 +102,26 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
   void didChangeDependencies() {
     super.didChangeDependencies();
     if (!_isInit) {
-      final allowedWitches = getLocalizedWitches(context).where((w) => w.id == 'morgan' || w.id == 'karen').toList();
-      _currentBackgroundImage = allowedWitches[math.Random().nextInt(allowedWitches.length)].imagePath;
+      if (widget.selectedWitch != null) {
+        _currentBackgroundImage = widget.selectedWitch!.imagePath;
+      } else {
+        final allowedWitches = getLocalizedWitches(context).where((w) => w.id == 'morgan' || w.id == 'karen').toList();
+        _currentBackgroundImage = allowedWitches[math.Random().nextInt(allowedWitches.length)].imagePath;
+      }
       _isInit = true;
     }
   }
 
   @override
   void dispose() {
+    _ttsService.stop();
     _introAnimController.dispose();
     _lightningAnimController.dispose();
     super.dispose();
   }
 
   void _startPicking() async {
-    if (!widget.isForChat) {
+    if (!widget.isForChat && !widget.skipIntro) {
       final economy = EconomyService();
       if (economy.coins < 1) {
         showDialog(
@@ -174,6 +198,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
               });
               
               if (!widget.isForChat) {
+                _generateAiReading();
                 await EconomyService().addMagicDust(10);
                 if (mounted) {
                   ScaffoldMessenger.of(context).showSnackBar(
@@ -189,6 +214,40 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
           });
         }
       });
+    }
+  }
+
+  void _generateAiReading() async {
+    if (widget.selectedWitch == null) return;
+    setState(() {
+      _isAiTyping = true;
+      _aiReadingText = '';
+    });
+    
+    List<String> pickedCards = [];
+    for (int i = 0; i < widget.spreadType.cardCount; i++) {
+      pickedCards.add(_shuffledDeck[_selectedCardIndices[i]].id);
+    }
+    
+    String spreadName = widget.spreadType.name;
+    String prompt = "사용자가 질문 없이 $spreadName 배열법으로 타로 카드를 뽑았습니다. 뽑힌 카드들을 배열법의 각 위치에 맞게 해석하고 전반적인 운세와 조언을 해주세요. 답변은 반드시 타이틀 없이 '네, 뽑으신 카드들을 보죠.' 라는 문장으로 바로 시작해주세요.";
+    
+    final stream = _aiService.getTarotReadingStream(prompt, pickedCards, widget.selectedWitch!.personalityPrompt, Localizations.localeOf(context).languageCode);
+    
+    await for (final chunk in stream) {
+      if (mounted) {
+        setState(() {
+          _aiReadingText += chunk;
+        });
+      }
+    }
+    if (mounted) {
+      setState(() {
+        _isAiTyping = false;
+      });
+      // 마크다운 제거
+      String cleanText = _aiReadingText.replaceAll(RegExp(r'[*#]+'), '').trim();
+      _ttsService.speakLongText(widget.selectedWitch!, cleanText, Localizations.localeOf(context).languageCode);
     }
   }
 
@@ -496,24 +555,78 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
-              AppLocalizations.of(context)!.readingSpreadTitle,
-              textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.displayLarge,
-            ),
-            const SizedBox(height: 8),
-            Text(
-              AppLocalizations.of(context)!.readingSpreadSubtitle,
-              style: Theme.of(context).textTheme.bodyMedium,
-            ),
-            const SizedBox(height: 30),
-            SpreadLayoutBuilder(
-              spreadType: widget.spreadType,
-              selectedCardIndices: _selectedCardIndices,
-              shuffledDeck: _shuffledDeck,
-              shuffledReversed: _shuffledReversed,
-              isForChat: widget.isForChat,
-              onCardsPicked: widget.onCardsPicked,
+            RepaintBoundary(
+              key: _repaintBoundaryKey,
+              child: Container(
+                padding: const EdgeInsets.all(16.0),
+                decoration: BoxDecoration(
+                  color: Colors.transparent,
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: Column(
+                  children: [
+                    Text(
+                      AppLocalizations.of(context)!.readingSpreadTitle,
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context).textTheme.displayLarge,
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      AppLocalizations.of(context)!.readingSpreadSubtitle,
+                      style: Theme.of(context).textTheme.bodyMedium,
+                    ),
+                    const SizedBox(height: 30),
+                    SpreadLayoutBuilder(
+                      spreadType: widget.spreadType,
+                      selectedCardIndices: _selectedCardIndices,
+                      shuffledDeck: _shuffledDeck,
+                      shuffledReversed: _shuffledReversed,
+                      isForChat: widget.isForChat,
+                      onCardsPicked: widget.onCardsPicked,
+                    ),
+                    const SizedBox(height: 20),
+                    if (!widget.isForChat && widget.selectedWitch != null)
+                      GlassContainer(
+                        padding: const EdgeInsets.all(16),
+                        borderRadius: 16,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            Row(
+                              children: [
+                                GestureDetector(
+                                  onTap: () {
+                                    showWitchProfileDialog(context, widget.selectedWitch!);
+                                  },
+                                  child: CircleAvatar(
+                                    backgroundImage: AssetImage(widget.selectedWitch!.imagePath),
+                                    radius: 16,
+                                  ),
+                                ),
+                                const SizedBox(width: 8),
+                                Text(
+                                  '${widget.selectedWitch!.name}의 타로점',
+                                  style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+                                ),
+                                const Spacer(),
+                                if (_isAiTyping)
+                                  const SizedBox(
+                                    width: 16, height: 16,
+                                    child: CircularProgressIndicator(strokeWidth: 2, color: Colors.purpleAccent),
+                                  ),
+                              ],
+                            ),
+                            const SizedBox(height: 12),
+                            Text(
+                              _aiReadingText.isEmpty && _isAiTyping ? '운명의 조각들을 읽어내고 있어요.' : _aiReadingText,
+                              style: const TextStyle(color: Colors.white, fontSize: 15, height: 1.5),
+                            ),
+                          ],
+                        ),
+                      ),
+                  ],
+                ),
+              ),
             ),
             const SizedBox(height: 40),
             if (!widget.isForChat)
@@ -627,26 +740,33 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     );
   }
 
-  void _shareReadingResult() {
-    final buffer = StringBuffer();
-    buffer.writeln('🔮 나의 타로 점괘 결과 🔮');
-    buffer.writeln('배열법: ${widget.spreadType.name}'); // You can localize spread type name if needed
-    buffer.writeln('----------------------');
-
-    for (int i = 0; i < widget.spreadType.cardCount; i++) {
-      final cardIndex = _selectedCardIndices[i];
-      final card = _shuffledDeck[cardIndex];
-      final isRev = _shuffledReversed[cardIndex];
-      final cardName = TarotLocalizations.getName(context, card.id);
-      final direction = isRev ? '역방향 (Reversed)' : '정방향 (Upright)';
+  void _shareReadingResult() async {
+    try {
+      final boundary = _repaintBoundaryKey.currentContext?.findRenderObject() as RenderRepaintBoundary?;
+      if (boundary == null) return;
       
-      buffer.writeln('${i + 1}. $cardName ($direction)');
+      // Capture image
+      final image = await boundary.toImage(pixelRatio: 2.0);
+      final byteData = await image.toByteData(format: ui.ImageByteFormat.png);
+      if (byteData == null) return;
+      
+      final pngBytes = byteData.buffer.asUint8List();
+      
+      // Save temporarily
+      final tempDir = await getTemporaryDirectory();
+      final file = File('${tempDir.path}/tarot_result.png');
+      await file.writeAsBytes(pngBytes);
+      
+      // Share text and image
+      final text = '🔮 내 타로 점괘 결과를 확인해보세요!\n\n자세한 점괘 내용이 궁금하다면 타로마녀 앱을 설치해서 직접 타로 점을 확인해 보세요!\n👉 다운로드: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+      
+      await Share.shareXFiles(
+        [XFile(file.path)],
+        text: text,
+      );
+    } catch (e) {
+      print('Error sharing image: $e');
     }
-
-    buffer.writeln('----------------------');
-    buffer.writeln('Flutter Tarot 앱에서 공유됨');
-
-    Share.share(buffer.toString());
   }
 }
 

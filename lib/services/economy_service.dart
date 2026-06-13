@@ -1,12 +1,18 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
+import 'dart:async';
 
 class EconomyService extends ChangeNotifier {
   static final EconomyService _instance = EconomyService._internal();
   factory EconomyService() => _instance;
+  
+  StreamSubscription<DocumentSnapshot>? _firestoreSubscription;
+
   EconomyService._internal() {
-    _initListener();
+    FirebaseAuth.instance.authStateChanges().listen((user) {
+      _initListener(user);
+    });
   }
 
   int _coins = 0;
@@ -19,10 +25,10 @@ class EconomyService extends ChangeNotifier {
   int get worldTreeExp => _worldTreeExp;
   int get crystalBallExp => _crystalBallExp;
 
-  void _initListener() {
-    final user = FirebaseAuth.instance.currentUser;
+  void _initListener(User? user) {
+    _firestoreSubscription?.cancel();
     if (user != null) {
-      FirebaseFirestore.instance
+      _firestoreSubscription = FirebaseFirestore.instance
           .collection('users')
           .doc(user.uid)
           .snapshots()
@@ -34,12 +40,24 @@ class EconomyService extends ChangeNotifier {
           _worldTreeExp = data['worldTreeExp'] ?? 0;
           _crystalBallExp = data['crystalBallExp'] ?? 0;
           notifyListeners();
+        } else {
+          _coins = 0;
+          _magicDust = 0;
+          _worldTreeExp = 0;
+          _crystalBallExp = 0;
+          notifyListeners();
         }
       });
+    } else {
+      _coins = 0;
+      _magicDust = 0;
+      _worldTreeExp = 0;
+      _crystalBallExp = 0;
+      notifyListeners();
     }
   }
 
-  // Initialize new user with 5 coins if they don't have the document or fields yet
+  // Initialize new user with 3 coins if they don't have the document or fields yet
   Future<void> initializeNewUser() async {
     final user = FirebaseAuth.instance.currentUser;
     if (user != null) {
@@ -47,7 +65,7 @@ class EconomyService extends ChangeNotifier {
       final doc = await docRef.get();
       if (!doc.exists) {
         await docRef.set({
-          'coins': 5,
+          'coins': 3,
           'magicDust': 0,
           'worldTreeExp': 0,
           'crystalBallExp': 0,
@@ -55,10 +73,10 @@ class EconomyService extends ChangeNotifier {
           'role': 'user',
         }, SetOptions(merge: true));
       } else {
-        // If doc exists but no coins field, give them 5
+        // If doc exists but no coins field, give them 3
         final data = doc.data()!;
         if (!data.containsKey('coins')) {
-          await docRef.update({'coins': 5});
+          await docRef.update({'coins': 3});
         }
       }
     }

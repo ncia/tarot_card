@@ -220,18 +220,20 @@ class _OneCardLayout extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 12),
-              Container(
-                width: 140,
-                height: 220,
-                decoration: BoxDecoration(
-                  border: Border.all(color: Colors.white30, width: 2),
-                  borderRadius: BorderRadius.circular(8),
-                  image: DecorationImage(
-                    image: AssetImage(card.imagePath),
-                    fit: BoxFit.cover,
+              Transform.rotate(
+                angle: isRev ? 3.14159 : 0,
+                child: Container(
+                  width: 140,
+                  height: 220,
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.white30, width: 2),
+                    borderRadius: BorderRadius.circular(8),
+                    image: DecorationImage(
+                      image: AssetImage(card.imagePath),
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
-                child: isRev ? Transform.rotate(angle: 3.14159, child: Container()) : null,
               ),
             ],
           ),
@@ -326,18 +328,20 @@ class _ThreeCardLayout extends StatelessWidget {
                     textAlign: TextAlign.center,
                   ),
                   const SizedBox(height: 8),
-                  Container(
-                    width: 70,
-                    height: 110,
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Colors.white30, width: 1),
-                      borderRadius: BorderRadius.circular(4),
-                      image: DecorationImage(
-                        image: AssetImage(card.imagePath),
-                        fit: BoxFit.cover,
+                  Transform.rotate(
+                    angle: isRev ? 3.14159 : 0,
+                    child: Container(
+                      width: 70,
+                      height: 110,
+                      decoration: BoxDecoration(
+                        border: Border.all(color: Colors.white30, width: 1),
+                        borderRadius: BorderRadius.circular(4),
+                        image: DecorationImage(
+                          image: AssetImage(card.imagePath),
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
-                    child: isRev ? Transform.rotate(angle: 3.14159, child: Container()) : null,
                   ),
                 ],
               );

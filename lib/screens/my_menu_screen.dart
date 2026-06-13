@@ -37,6 +37,7 @@ class MyMenuScreen extends StatelessWidget {
       children: [
         Text(
           AppLocalizations.of(context)?.navMyMenu ?? '내 정보',
+          textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.displayLarge?.copyWith(fontSize: 32),
         ),
         const SizedBox(height: 30),

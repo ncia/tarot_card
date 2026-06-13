@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/audio_service.dart';
 import 'glass_container.dart'; // We have GlassContainer from before
+import '../services/tts_service.dart';
 
 class AnimatedVolumeControl extends StatefulWidget {
   const AnimatedVolumeControl({super.key});
@@ -64,6 +65,9 @@ class _AnimatedVolumeControlState extends State<AnimatedVolumeControl> {
               onTap: () {
                 setState(() {
                   AudioService().toggleMute();
+                  if (AudioService().isMuted) {
+                    TtsService().stop();
+                  }
                 });
               },
               child: Container(
