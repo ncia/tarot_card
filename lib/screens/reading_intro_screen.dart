@@ -123,10 +123,9 @@ class _ReadingIntroScreenState extends State<ReadingIntroScreen> with SingleTick
           SafeArea(
             child: Column(
               children: [
-                const SizedBox(height: 20),
                 // Witch Selector
                 Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                  padding: const EdgeInsets.all(16.0),
                   child: GlassContainer(
                     padding: const EdgeInsets.all(16),
                     borderRadius: 20,
