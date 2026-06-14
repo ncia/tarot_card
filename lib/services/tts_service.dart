@@ -4,6 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:audioplayers/audioplayers.dart';
 import 'package:path_provider/path_provider.dart';
 import 'dart:io';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import '../data/witch_data.dart';
 import 'audio_service.dart';
 
@@ -100,18 +101,24 @@ class TtsService {
 
         final Uint8List audioBytes = base64Decode(base64Audio);
         
-        // Save to temp file to avoid BytesSource crash on Windows
-        final tempDir = await getTemporaryDirectory();
-        // Use Platform.pathSeparator for cross-platform compatibility
-        final String safePath = '${tempDir.path}${Platform.pathSeparator}tts_temp_${DateTime.now().millisecondsSinceEpoch}.mp3';
-        final tempFile = File(safePath);
-        await tempFile.writeAsBytes(audioBytes);
-        
-        print('Saved TTS MP3 to: $safePath, Size: ${audioBytes.length} bytes');
+        if (kIsWeb) {
+          await AudioService().pauseBgm();
+          final double ttsVolume = AudioService().isMuted ? 0.0 : 0.5;
+          await _audioPlayer.play(BytesSource(audioBytes), volume: ttsVolume);
+        } else {
+          // Save to temp file to avoid BytesSource crash on Windows
+          final tempDir = await getTemporaryDirectory();
+          // Use Platform.pathSeparator for cross-platform compatibility
+          final String safePath = '${tempDir.path}${Platform.pathSeparator}tts_temp_${DateTime.now().millisecondsSinceEpoch}.mp3';
+          final tempFile = File(safePath);
+          await tempFile.writeAsBytes(audioBytes);
+          
+          print('Saved TTS MP3 to: $safePath, Size: ${audioBytes.length} bytes');
 
-        await AudioService().pauseBgm();
-        final double ttsVolume = AudioService().isMuted ? 0.0 : 0.5;
-        await _audioPlayer.play(DeviceFileSource(safePath), volume: ttsVolume);
+          await AudioService().pauseBgm();
+          final double ttsVolume = AudioService().isMuted ? 0.0 : 0.5;
+          await _audioPlayer.play(DeviceFileSource(safePath), volume: ttsVolume);
+        }
       } else {
         print('Speechify API Error: ${response.statusCode}');
         print('Response body: ${response.body}');

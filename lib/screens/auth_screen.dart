@@ -7,8 +7,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:math';
 import '../data/nickname_data.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'dart:io' show Platform;
-import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter/foundation.dart' show kIsWeb, defaultTargetPlatform, TargetPlatform;
 
 class AuthScreen extends StatefulWidget {
   const AuthScreen({super.key});
@@ -42,7 +41,7 @@ class _AuthScreenState extends State<AuthScreen> {
   }
 
   Future<void> _signInWithGoogle() async {
-    if (!kIsWeb && Platform.isWindows) {
+    if (!kIsWeb && defaultTargetPlatform == TargetPlatform.windows) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text('미리보기 환경(Windows)에서는 구글 로그인을 지원하지 않습니다. 안드로이드 기기나 웹을 이용해주세요.')),

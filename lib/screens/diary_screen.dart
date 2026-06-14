@@ -248,13 +248,7 @@ class DiaryScreen extends StatelessWidget {
                     alignment: Alignment.center,
                     child: Text('나의 타로 일기', style: Theme.of(context).textTheme.displayLarge),
                   ),
-                  Align(
-                    alignment: Alignment.centerRight,
-                    child: IconButton(
-                      icon: const Icon(Icons.logout, color: Colors.white),
-                      onPressed: () => FirebaseAuth.instance.signOut(),
-                    ),
-                  ),
+
                 ],
               ),
             ),

@@ -64,7 +64,7 @@ class ShopScreen extends StatelessWidget {
 
   Widget _buildCoinGrid(BuildContext context) {
     final List<Map<String, dynamic>> coinPackages = [
-      {'coins': 5, 'price': '₩5,000', 'bonus': null},
+      {'coins': 5, 'price': '₩5,000', 'bonus': '보너스 1개'},
       {'coins': 10, 'price': '₩10,000', 'bonus': '보너스 2개'},
       {'coins': 50, 'price': '₩50,000', 'bonus': '보너스 15개'},
       {'coins': 100, 'price': '₩100,000', 'bonus': '보너스 50개'},

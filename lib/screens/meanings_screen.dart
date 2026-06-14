@@ -104,9 +104,10 @@ class MeaningsScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 12),
                 Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
+                  child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
                       Text(
                         TarotLocalizations.getName(context, card.id),
                         style: Theme.of(context).textTheme.titleMedium?.copyWith(
@@ -162,7 +163,8 @@ class MeaningsScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-              ],
+              ),
+            ],
             ),
           ),
         );

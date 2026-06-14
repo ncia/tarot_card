@@ -26,11 +26,11 @@ class ChatScreen extends StatefulWidget {
 }
 
 class _ChatScreenState extends State<ChatScreen> {
-  final TextEditingController _textController = TextEditingController();
-  final ScrollController _scrollController = ScrollController();
-  final List<ChatMessage> _messages = [];
-  final TarotAiService _aiService = TarotAiService();
-  final TtsService _ttsService = TtsService();
+  late final TextEditingController _textController;
+  late final ScrollController _scrollController;
+  late final List<ChatMessage> _messages;
+  late final TarotAiService _aiService;
+  late final TtsService _ttsService;
   
   bool _isWaitingForCards = false;
   bool _isTyping = false;
@@ -38,6 +38,22 @@ class _ChatScreenState extends State<ChatScreen> {
   late List<Witch> _witches;
   late Witch _selectedWitch;
   bool _isInit = false;
+  
+  String? _initError;
+
+  @override
+  void initState() {
+    super.initState();
+    try {
+      _textController = TextEditingController();
+      _scrollController = ScrollController();
+      _messages = [];
+      _aiService = TarotAiService();
+      _ttsService = TtsService();
+    } catch (e, st) {
+      _initError = '$e\n$st';
+    }
+  }
 
   @override
   void didChangeDependencies() {
@@ -387,157 +403,188 @@ class _ChatScreenState extends State<ChatScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return GradientBackground(
-      child: SafeArea(
-        child: Column(
-          children: [
-            // Header
-            Padding(
-              padding: const EdgeInsets.fromLTRB(16, 60, 16, 16),
-              child: GlassContainer(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
-                borderRadius: 20,
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Row(
-                      children: [
-                        GestureDetector(
-                          onTap: _showWitchProfile,
-                          child: Container(
-                            width: 48,
-                            height: 48,
-                            decoration: BoxDecoration(
-                              shape: BoxShape.circle,
-                              color: Colors.purpleAccent,
-                              image: DecorationImage(
-                                image: AssetImage(_selectedWitch.imagePath),
-                                fit: BoxFit.cover,
+    if (_initError != null) {
+      return Container(
+        color: Colors.black,
+        child: Center(
+          child: SingleChildScrollView(
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Text(
+                '초기화 오류 발생:\n$_initError',
+                style: const TextStyle(color: Colors.red, fontSize: 14),
+              ),
+            ),
+          ),
+        ),
+      );
+    }
+    
+    try {
+      return GradientBackground(
+        child: SafeArea(
+          child: Column(
+            children: [
+              // Header
+              Padding(
+                padding: const EdgeInsets.fromLTRB(16, 60, 16, 16),
+                child: GlassContainer(
+                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+                  borderRadius: 20,
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Row(
+                        children: [
+                          GestureDetector(
+                            onTap: _showWitchProfile,
+                            child: Container(
+                              width: 48,
+                              height: 48,
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                color: Colors.purpleAccent,
+                                image: DecorationImage(
+                                  image: AssetImage(_selectedWitch.imagePath),
+                                  fit: BoxFit.cover,
+                                ),
                               ),
                             ),
                           ),
+                          const SizedBox(width: 16),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Row(
+                                  children: [
+                                    Text(
+                                      _selectedWitch.name,
+                                      style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold, fontSize: 18),
+                                    ),
+                                    const SizedBox(width: 8),
+                                    Text(
+                                      _selectedWitch.title,
+                                      style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Colors.pinkAccent),
+                                    ),
+                                  ],
+                                ),
+                                const SizedBox(height: 4),
+                                Text(
+                                  AppLocalizations.of(context)!.chatProfileTapHint,
+                                  style: const TextStyle(fontSize: 11, color: Colors.white54),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 12),
+                      Container(
+                        height: 44,
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        decoration: BoxDecoration(
+                          color: Colors.white.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(12),
+                          border: Border.all(color: Colors.white24),
                         ),
-                        const SizedBox(width: 16),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Row(
-                                children: [
-                                  Text(
-                                    _selectedWitch.name,
-                                    style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold, fontSize: 18),
-                                  ),
-                                  const SizedBox(width: 8),
-                                  Text(
-                                    _selectedWitch.title,
-                                    style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Colors.pinkAccent),
-                                  ),
-                                ],
-                              ),
-                              const SizedBox(height: 4),
-                              Text(
-                                AppLocalizations.of(context)!.chatProfileTapHint,
-                                style: const TextStyle(fontSize: 11, color: Colors.white54),
-                              ),
-                            ],
+                        child: DropdownButtonHideUnderline(
+                          child: DropdownButton<Witch>(
+                            value: _selectedWitch,
+                            dropdownColor: Colors.deepPurple.shade900,
+                            icon: const Icon(Icons.arrow_drop_down, color: Colors.white),
+                            isExpanded: true,
+                            style: const TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
+                            onChanged: (Witch? newValue) {
+                              if (newValue != null && newValue != _selectedWitch) {
+                                _changeWitch(newValue);
+                              }
+                            },
+                            items: _witches.map<DropdownMenuItem<Witch>>((Witch witch) {
+                              return DropdownMenuItem<Witch>(
+                                value: witch,
+                                child: Text('${witch.name} - ${witch.title}'),
+                              );
+                            }).toList(),
                           ),
                         ),
-                      ],
-                    ),
-                    const SizedBox(height: 12),
-                    Container(
-                      height: 44,
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      decoration: BoxDecoration(
-                        color: Colors.white.withOpacity(0.1),
-                        borderRadius: BorderRadius.circular(12),
-                        border: Border.all(color: Colors.white24),
                       ),
-                      child: DropdownButtonHideUnderline(
-                        child: DropdownButton<Witch>(
-                          value: _selectedWitch,
-                          dropdownColor: Colors.deepPurple.shade900,
-                          icon: const Icon(Icons.arrow_drop_down, color: Colors.white),
-                          isExpanded: true,
-                          style: const TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold),
-                          onChanged: (Witch? newValue) {
-                            if (newValue != null && newValue != _selectedWitch) {
-                              _changeWitch(newValue);
-                            }
-                          },
-                          items: _witches.map<DropdownMenuItem<Witch>>((Witch witch) {
-                            return DropdownMenuItem<Witch>(
-                              value: witch,
-                              child: Text('${witch.name} - ${witch.title}'),
-                            );
-                          }).toList(),
-                        ),
-                      ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
-            ),
-            
-            // Message List
-            Expanded(
-              child: ListView.builder(
-                controller: _scrollController,
-                padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                itemCount: _messages.length,
-                itemBuilder: (context, index) {
-                  return _buildMessage(_messages[index]);
-                },
+              
+              // Message List
+              Expanded(
+                child: ListView.builder(
+                  controller: _scrollController,
+                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                  itemCount: _messages.length,
+                  itemBuilder: (context, index) {
+                    return _buildMessage(_messages[index]);
+                  },
+                ),
               ),
-            ),
-            
-            // Typing Indicator
-            if (_isTyping && _messages.isNotEmpty && _messages.last.text.isEmpty)
-              const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: CircularProgressIndicator(color: Colors.purpleAccent),
-              ),
+              
+              // Typing Indicator
+              if (_isTyping && _messages.isNotEmpty && _messages.last.text.isEmpty)
+                const Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: CircularProgressIndicator(color: Colors.purpleAccent),
+                ),
 
-            // Input Area
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: GlassContainer(
-                borderRadius: 30,
-                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: TextField(
-                        controller: _textController,
-                        style: const TextStyle(color: Colors.white),
-                        minLines: 1,
-                        maxLines: 4,
-                        keyboardType: TextInputType.multiline,
-                        decoration: InputDecoration(
-                          hintText: _isWaitingForCards ? AppLocalizations.of(context)!.chatHintPickCardsFirst : AppLocalizations.of(context)!.chatHintWriteConcern,
-                          hintStyle: const TextStyle(color: Colors.white54),
-                          border: InputBorder.none,
-                          contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              // Input Area
+              Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: GlassContainer(
+                  borderRadius: 30,
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: TextField(
+                          controller: _textController,
+                          style: const TextStyle(color: Colors.white),
+                          minLines: 1,
+                          maxLines: 4,
+                          keyboardType: TextInputType.multiline,
+                          decoration: InputDecoration(
+                            hintText: _isWaitingForCards ? AppLocalizations.of(context)!.chatHintPickCardsFirst : AppLocalizations.of(context)!.chatHintWriteConcern,
+                            hintStyle: const TextStyle(color: Colors.white54),
+                            border: InputBorder.none,
+                            contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                          ),
+                          enabled: !_isWaitingForCards && !_isTyping,
                         ),
-                        enabled: !_isWaitingForCards && !_isTyping,
-                        // onSubmitted는 엔터키 동작이므로 멀티라인에서는 줄바꿈 역할로 변경될 수 있습니다.
-                        // 보통 멀티라인 모드에서는 전송 버튼으로만 보내게 하거나 별도 처리가 필요할 수 있습니다.
-                        // 기본적으로 키보드의 '완료/엔터' 키를 줄바꿈으로 사용하도록 onSubmitted를 제거하는 것이 좋습니다.
                       ),
-                    ),
-                    IconButton(
-                      icon: const Icon(Icons.send, color: Colors.pinkAccent),
-                      onPressed: (_isWaitingForCards || _isTyping) ? null : _sendMessage,
-                    ),
-                  ],
+                      IconButton(
+                        icon: const Icon(Icons.send, color: Colors.pinkAccent),
+                        onPressed: (_isWaitingForCards || _isTyping) ? null : _sendMessage,
+                      ),
+                    ],
+                  ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
-      ),
-    );
+      );
+    } catch (e, stackTrace) {
+      return Container(
+        color: Colors.black,
+        child: Center(
+          child: SingleChildScrollView(
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Text(
+                '오류 발생:\n$e\n\n$stackTrace',
+                style: const TextStyle(color: Colors.red, fontSize: 14),
+              ),
+            ),
+          ),
+        ),
+      );
+    }
   }
 }

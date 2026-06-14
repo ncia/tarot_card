@@ -51,8 +51,8 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                           labelColor: Colors.amberAccent,
                           unselectedLabelColor: Colors.white54,
                           tabs: const [
-                            Tab(text: '세계수 키우기', icon: Icon(Icons.park)),
                             Tab(text: '수정구 강화', icon: Icon(Icons.lens_blur)),
+                            Tab(text: '세계수 키우기', icon: Icon(Icons.park)),
                           ],
                         ),
                       ],
@@ -62,8 +62,8 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                     child: TabBarView(
                       controller: _tabController,
                       children: const [
-                        _WorldTreeTab(),
                         _CrystalBallTab(),
+                        _WorldTreeTab(),
                       ],
                     ),
                   ),

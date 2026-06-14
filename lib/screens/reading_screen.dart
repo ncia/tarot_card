@@ -26,6 +26,7 @@ import '../services/tts_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../widgets/witch_profile_dialog.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 
 enum ReadingState { intro, picking, result }
 
@@ -740,6 +741,14 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
 
   void _shareReadingResult() async {
     try {
+      final text = '🔮 내 타로 점괘 결과를 확인해보세요!\n\n자세한 점괘 내용이 궁금하다면 타로마녀 앱을 설치해서 직접 타로 점을 확인해 보세요!\n👉 다운로드: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
+
+      if (kIsWeb) {
+        // 웹에서는 파일 시스템 접근이 불가능하므로 텍스트만 공유
+        await Share.share(text);
+        return;
+      }
+
       final boundary = _repaintBoundaryKey.currentContext?.findRenderObject() as RenderRepaintBoundary?;
       if (boundary == null) return;
       
@@ -754,9 +763,6 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
       final tempDir = await getTemporaryDirectory();
       final file = File('${tempDir.path}/tarot_result.png');
       await file.writeAsBytes(pngBytes);
-      
-      // Share text and image
-      final text = '🔮 내 타로 점괘 결과를 확인해보세요!\n\n자세한 점괘 내용이 궁금하다면 타로마녀 앱을 설치해서 직접 타로 점을 확인해 보세요!\n👉 다운로드: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
       
       await Share.shareXFiles(
         [XFile(file.path)],

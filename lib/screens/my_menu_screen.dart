@@ -35,12 +35,7 @@ class MyMenuScreen extends StatelessWidget {
     return ListView(
       padding: const EdgeInsets.fromLTRB(24, 60, 24, 30),
       children: [
-        Text(
-          AppLocalizations.of(context)?.navMyMenu ?? '내 정보',
-          textAlign: TextAlign.center,
-          style: Theme.of(context).textTheme.displayLarge?.copyWith(fontSize: 32),
-        ),
-        const SizedBox(height: 30),
+
         // User Profile Section
         if (!isFirebaseInitialized)
           InkWell(
