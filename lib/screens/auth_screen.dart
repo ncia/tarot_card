@@ -10,7 +10,8 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter/foundation.dart' show kIsWeb, defaultTargetPlatform, TargetPlatform;
 
 class AuthScreen extends StatefulWidget {
-  const AuthScreen({super.key});
+  final bool isInline;
+  const AuthScreen({super.key, this.isInline = false});
 
   @override
   State<AuthScreen> createState() => _AuthScreenState();
@@ -82,7 +83,9 @@ class _AuthScreenState extends State<AuthScreen> {
           });
         }
         if (mounted) {
-          Navigator.pop(context);
+          if (!widget.isInline) {
+            Navigator.pop(context);
+          }
         }
       }
     } on FirebaseAuthException catch (e) {
@@ -178,7 +181,9 @@ class _AuthScreenState extends State<AuthScreen> {
           }
         }
       }
-      if (mounted) Navigator.pop(context);
+      if (mounted && !widget.isInline) {
+        Navigator.pop(context);
+      }
     } on FirebaseAuthException catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -192,18 +197,10 @@ class _AuthScreenState extends State<AuthScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        iconTheme: const IconThemeData(color: Colors.white),
-      ),
-      body: GradientBackground(
-        child: Center(
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.all(24),
-            child: GlassContainer(
+    final formContent = Center(
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.all(24),
+        child: GlassContainer(
               padding: const EdgeInsets.all(24),
               borderRadius: 16,
               child: Column(
@@ -334,12 +331,12 @@ class _AuthScreenState extends State<AuthScreen> {
                         minimumSize: const Size.fromHeight(50),
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                       ),
-                      child: const Row(
+                      child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.g_mobiledata, size: 32, color: Colors.black),
-                          SizedBox(width: 8),
-                          Text('Google로 시작하기', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                          Image.asset('assets/images/google_logo.png', width: 24, height: 24),
+                          const SizedBox(width: 8),
+                          const Text('Google로 시작하기', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
                         ],
                       ),
                     ),
@@ -347,7 +344,21 @@ class _AuthScreenState extends State<AuthScreen> {
               ),
             ),
           ),
-        ),
+        );
+
+    if (widget.isInline) {
+      return formContent;
+    }
+
+    return Scaffold(
+      extendBodyBehindAppBar: true,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        iconTheme: const IconThemeData(color: Colors.white),
+      ),
+      body: GradientBackground(
+        child: formContent,
       ),
     );
   }

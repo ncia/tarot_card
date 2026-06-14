@@ -6,6 +6,9 @@ import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import '../data/tarot_diary.dart';
 import '../data/tarot_data.dart';
+import '../data/witch_data.dart';
+import '../widgets/witch_profile_dialog.dart';
+import 'diary_detail_screen.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 import 'package:intl/intl.dart';
 import 'auth_screen.dart';
@@ -114,11 +117,29 @@ class DiaryScreen extends StatelessWidget {
                   return Padding(
                     padding: const EdgeInsets.only(bottom: 16.0),
                     child: GlassContainer(
-                      padding: const EdgeInsets.all(16),
                       borderRadius: 16,
-                      child: Row(
+                      child: InkWell(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => DiaryDetailScreen(diary: diary),
+                            ),
+                          );
+                        },
+                        borderRadius: BorderRadius.circular(16),
+                        child: Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Row(
                             children: [
-                              _buildDiaryThumbnails(diary),
+                              Column(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  _buildWitchAvatar(context, diary.witchId),
+                                  const SizedBox(height: 8),
+                                  _buildDiaryThumbnails(diary),
+                                ],
+                              ),
                               const SizedBox(width: 16),
                               Expanded(
                                 child: Column(
@@ -169,6 +190,8 @@ class DiaryScreen extends StatelessWidget {
                                 ),
                               ),
                             ],
+                          ),
+                        ),
                       ),
                     ),
                   );
@@ -286,11 +309,29 @@ class DiaryScreen extends StatelessWidget {
                       return Padding(
                         padding: const EdgeInsets.only(bottom: 16.0),
                         child: GlassContainer(
-                          padding: const EdgeInsets.all(16),
                           borderRadius: 16,
-                          child: Row(
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => DiaryDetailScreen(diary: diary),
+                                ),
+                              );
+                            },
+                            borderRadius: BorderRadius.circular(16),
+                            child: Padding(
+                              padding: const EdgeInsets.all(16),
+                              child: Row(
                             children: [
-                              _buildDiaryThumbnails(diary),
+                              Column(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  _buildWitchAvatar(context, diary.witchId),
+                                  const SizedBox(height: 8),
+                                  _buildDiaryThumbnails(diary),
+                                ],
+                              ),
                               const SizedBox(width: 16),
                               Expanded(
                                 child: Column(
@@ -343,7 +384,9 @@ class DiaryScreen extends StatelessWidget {
                             ],
                           ),
                         ),
-                      );
+                      ),
+                    ),
+                  );
                     },
                   );
                 },
@@ -364,21 +407,28 @@ class DiaryScreen extends StatelessWidget {
       );
     }
 
-    final displayCount = diary.cardIds.length > 4 ? 4 : diary.cardIds.length;
+    final displayCount = diary.cardIds.length;
+    
+    // 기본 간격은 15.0, 하지만 카드가 많아지면 겹치는 간격을 좁혀서 최대 가로폭이 120.0을 넘지 않게 조절
+    double offset = 15.0;
+    if (displayCount > 4) {
+      offset = 60.0 / (displayCount - 1);
+    }
+
     return SizedBox(
-      width: 60.0 + (displayCount - 1) * 15.0,
+      width: 60.0 + (displayCount - 1) * offset,
       height: 90,
       child: Stack(
         children: List.generate(displayCount, (index) {
           final cardId = diary.cardIds[index];
           final card = tarotDeck.firstWhere((c) => c.id == cardId, orElse: () => tarotDeck.first);
           return Positioned(
-            left: index * 15.0,
+            left: index * offset,
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(8),
                 boxShadow: [
-                  BoxShadow(color: Colors.black45, blurRadius: 4, offset: Offset(2, 0))
+                  BoxShadow(color: Colors.black45, blurRadius: 4, offset: const Offset(2, 0))
                 ]
               ),
               child: ClipRRect(
@@ -388,6 +438,29 @@ class DiaryScreen extends StatelessWidget {
             ),
           );
         }),
+      ),
+    );
+  }
+
+  Widget _buildWitchAvatar(BuildContext context, String? witchId) {
+    final witches = getLocalizedWitches(context);
+    // If witchId is null or not found, fallback to the first witch (e.g. Morgan)
+    final witch = witches.firstWhere((w) => w.id == witchId, orElse: () => witches.first);
+    return GestureDetector(
+      onTap: () {
+        showWitchProfileDialog(context, witch);
+      },
+      child: Container(
+        width: 40,
+        height: 40,
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          border: Border.all(color: Colors.purpleAccent, width: 2),
+          image: DecorationImage(
+            image: AssetImage(witch.imagePath),
+            fit: BoxFit.cover,
+          ),
+        ),
       ),
     );
   }

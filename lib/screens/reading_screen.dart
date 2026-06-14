@@ -303,6 +303,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
           'cardReversals': reversals,
           'positionLabels': labels,
           'cardMeanings': meanings,
+          'witchId': widget.selectedWitch?.id,
         });
       }
     } catch (e) {
@@ -719,6 +720,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                       ),
                       child: const Text('스프레드 선택'),
                     ),
+                    const SizedBox(width: 12),
                     ElevatedButton(
                       onPressed: () {
                         Navigator.popUntil(context, (route) => route.isFirst);

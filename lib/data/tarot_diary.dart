@@ -15,6 +15,7 @@ class TarotDiary {
   final String spreadType;
   final String myNote;
   final DateTime date;
+  final String? witchId;
 
   TarotDiary({
     required this.id,
@@ -27,6 +28,7 @@ class TarotDiary {
     this.cardReversals = const [],
     this.positionLabels = const [],
     this.cardMeanings = const [],
+    this.witchId,
   });
 
   factory TarotDiary.fromFirestore(DocumentSnapshot doc) {
@@ -47,6 +49,7 @@ class TarotDiary {
       cardReversals: data['cardReversals'] != null ? List<bool>.from(data['cardReversals']) : [false],
       positionLabels: data['positionLabels'] != null ? List<String>.from(data['positionLabels']) : ['현재 상황'],
       cardMeanings: data['cardMeanings'] != null ? List<String>.from(data['cardMeanings']) : [legacyResultText],
+      witchId: data['witchId'],
     );
   }
 
@@ -61,6 +64,7 @@ class TarotDiary {
       'cardReversals': cardReversals,
       'positionLabels': positionLabels,
       'cardMeanings': cardMeanings,
+      'witchId': witchId,
     };
   }
 }

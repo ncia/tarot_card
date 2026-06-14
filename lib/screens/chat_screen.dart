@@ -354,6 +354,7 @@ class _ChatScreenState extends State<ChatScreen> {
           'cardReversals': List.generate(pickedCards.length, (_) => false), // 현재 채팅에서는 역방향 지원 미구현이므로 전부 false
           'positionLabels': List.generate(pickedCards.length, (i) => '포지션 ${i + 1}'),
           'cardMeanings': List.generate(pickedCards.length, (_) => ''), // 의미는 상담 내용 안에 포함됨
+          'witchId': _selectedWitch.id,
         });
       }
     } catch (e) {

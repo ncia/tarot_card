@@ -23,6 +23,11 @@ class MyMenuScreen extends StatelessWidget {
             builder: (context, snapshot) {
               final user = snapshot.data;
               final isLoggedIn = user != null;
+              
+              if (!isLoggedIn) {
+                return const AuthScreen(isInline: true);
+              }
+              
               return _buildMenuList(context, isFirebaseInitialized: true, isLoggedIn: isLoggedIn, user: user);
             }
           )
@@ -85,7 +90,6 @@ class MyMenuScreen extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const Icon(Icons.login, color: Colors.amberAccent),
                 ],
               ),
             ),
@@ -162,9 +166,7 @@ class MyMenuScreen extends StatelessWidget {
                     ),
                   ),
                   if (isLoggedIn) 
-                    const Icon(Icons.edit, color: Colors.white54)
-                  else 
-                    const Icon(Icons.login, color: Colors.amberAccent),
+                    const Icon(Icons.edit, color: Colors.white54),
                 ],
               ),
             ),
