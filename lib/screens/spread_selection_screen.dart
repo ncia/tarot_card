@@ -19,7 +19,7 @@ class SpreadSelectionScreen extends StatelessWidget {
       body: GradientBackground(
         child: SafeArea(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 30.0),
+            padding: const EdgeInsets.fromLTRB(20.0, 60.0, 20.0, 30.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [

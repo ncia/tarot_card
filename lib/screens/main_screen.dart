@@ -5,12 +5,13 @@ import 'meanings_screen.dart';
 import 'my_menu_screen.dart';
 import 'diary_screen.dart';
 import 'growth_screen.dart';
+import 'shop_screen.dart';
 import '../widgets/custom_image_icon.dart';
 import '../widgets/coin_widget.dart';
 import '../widgets/magic_dust_widget.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import '../services/audio_service.dart';
-import '../widgets/animated_volume_control.dart';
+import '../widgets/top_floating_icons.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -21,13 +22,13 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
   int _currentIndex = 0;
+  Widget? _overlayScreen;
 
   final List<Widget> _screens = [
     const ReadingTabNavigator(),
     const ChatScreen(),
     const DiaryScreen(),
     const MeaningsScreen(),
-    const GrowthScreen(),
     const MyMenuScreen(),
   ];
 
@@ -63,21 +64,24 @@ class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
       body: Stack(
         children: [
           _screens[_currentIndex],
-          const SafeArea(
-            child: Align(
-              alignment: Alignment.topRight,
-              child: Padding(
-                padding: EdgeInsets.only(top: 16.0, right: 16.0),
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    AnimatedVolumeControl(),
-                    MagicDustWidget(),
-                    CoinWidget(),
-                  ],
-                ),
-              ),
-            ),
+          if (_overlayScreen != null) _overlayScreen!,
+          TopFloatingIcons(
+            showBackButton: false,
+            onBack: () {
+              setState(() {
+                _overlayScreen = null;
+              });
+            },
+            onShop: () {
+              setState(() {
+                _overlayScreen = const ShopScreen();
+              });
+            },
+            onGrowth: () {
+              setState(() {
+                _overlayScreen = const GrowthScreen();
+              });
+            },
           ),
         ],
       ),
@@ -90,6 +94,7 @@ class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
         onTap: (index) {
           setState(() {
             _currentIndex = index;
+            _overlayScreen = null;
           });
         },
         items: [
@@ -108,11 +113,6 @@ class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
           BottomNavigationBarItem(
             icon: const CustomImageIcon('assets/images/ic_reading.png'),
             label: AppLocalizations.of(context)!.navMeanings,
-          ),
-          const BottomNavigationBarItem(
-            icon: Icon(Icons.storefront_outlined, size: 24),
-            activeIcon: Icon(Icons.storefront, size: 24),
-            label: '상점',
           ),
           BottomNavigationBarItem(
             icon: const CustomImageIcon('assets/images/ic_account.png'),

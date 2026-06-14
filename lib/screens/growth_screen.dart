@@ -29,34 +29,49 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
   Widget build(BuildContext context) {
     return Scaffold(
       extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        toolbarHeight: 80,
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-        title: const Padding(
-          padding: EdgeInsets.only(top: 20.0),
-          child: Text('성장 콘텐츠', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
-        ),
-        centerTitle: true,
-        bottom: TabBar(
-          controller: _tabController,
-          indicatorColor: Colors.amberAccent,
-          labelColor: Colors.amberAccent,
-          unselectedLabelColor: Colors.white54,
-          tabs: const [
-            Tab(text: '세계수 키우기', icon: Icon(Icons.park)),
-            Tab(text: '수정구 강화', icon: Icon(Icons.lens_blur)),
-          ],
-        ),
-      ),
-      body: GradientBackground(
-        child: TabBarView(
-          controller: _tabController,
-          children: const [
-            _WorldTreeTab(),
-            _CrystalBallTab(),
-          ],
-        ),
+      body: Stack(
+        children: [
+          GradientBackground(
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 60, 16, 10),
+                    child: Column(
+                      children: [
+                        const Text(
+                          '성장',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 32),
+                        ),
+                        const SizedBox(height: 24),
+                        TabBar(
+                          controller: _tabController,
+                          indicatorColor: Colors.amberAccent,
+                          labelColor: Colors.amberAccent,
+                          unselectedLabelColor: Colors.white54,
+                          tabs: const [
+                            Tab(text: '세계수 키우기', icon: Icon(Icons.park)),
+                            Tab(text: '수정구 강화', icon: Icon(Icons.lens_blur)),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: TabBarView(
+                      controller: _tabController,
+                      children: const [
+                        _WorldTreeTab(),
+                        _CrystalBallTab(),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
