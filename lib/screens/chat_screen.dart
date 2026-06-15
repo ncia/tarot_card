@@ -428,7 +428,7 @@ class _ChatScreenState extends State<ChatScreen> {
             children: [
               // Header
               Padding(
-                padding: const EdgeInsets.fromLTRB(16, 60, 16, 16),
+                padding: const EdgeInsets.fromLTRB(16, 64, 16, 16),
                 child: GlassContainer(
                   padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
                   borderRadius: 20,

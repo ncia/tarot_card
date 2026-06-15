@@ -29,6 +29,19 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
   Widget build(BuildContext context) {
     return Scaffold(
       extendBodyBehindAppBar: true,
+      appBar: PreferredSize(
+        preferredSize: const Size.fromHeight(kToolbarHeight + 65),
+        child: Column(
+          children: [
+            const SizedBox(height: 65),
+            AppBar(
+              backgroundColor: Colors.transparent,
+              elevation: 0,
+              iconTheme: const IconThemeData(color: Colors.white),
+            ),
+          ],
+        ),
+      ),
       body: Stack(
         children: [
           GradientBackground(
@@ -36,7 +49,7 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(16, 60, 16, 10),
+                    padding: const EdgeInsets.fromLTRB(16, 80, 16, 10),
                     child: Column(
                       children: [
                         const Text(

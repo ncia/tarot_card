@@ -8,6 +8,11 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'theme/app_theme.dart';
 import 'screens/main_screen.dart';
 import 'services/economy_service.dart';
+import 'widgets/top_floating_icons.dart';
+import 'screens/shop_screen.dart';
+import 'screens/growth_screen.dart';
+
+final GlobalKey<NavigatorState> globalNavigatorKey = GlobalKey<NavigatorState>();
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -107,6 +112,44 @@ class TarotApp extends StatelessWidget {
         }
         // 3. 일치하는 언어가 없으면 기본값(영어) 사용
         return const Locale('en');
+      },
+      navigatorKey: globalNavigatorKey,
+      builder: (context, child) {
+        return Overlay(
+          initialEntries: [
+            OverlayEntry(
+              builder: (context) => Stack(
+                children: [
+                  if (child != null) child,
+                  Positioned(
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    child: Material(
+                      type: MaterialType.transparency,
+                      child: TopFloatingIcons(
+                        onShop: () {
+                          if (globalNavigatorKey.currentContext == null) return;
+                          Navigator.push(
+                            globalNavigatorKey.currentContext!,
+                            MaterialPageRoute(builder: (context) => const ShopScreen()),
+                          );
+                        },
+                        onGrowth: () {
+                          if (globalNavigatorKey.currentContext == null) return;
+                          Navigator.push(
+                            globalNavigatorKey.currentContext!,
+                            MaterialPageRoute(builder: (context) => const GrowthScreen()),
+                          );
+                        },
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        );
       },
       home: const MainScreen(),
     );

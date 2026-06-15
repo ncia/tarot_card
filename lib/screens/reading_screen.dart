@@ -448,8 +448,8 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
               final double spacing = (screenWidth - (slotWidth * 3)) / 4;
               
               // 상단 빈 슬롯이 시작되는 정확한 Y 좌표
-              // Padding top 60 + 상단 텍스트Row 대략 30 + SizedBox 20 = 110
-              final double slotsTopY = 110.0; 
+              // Padding top 80 + 상단 텍스트Row 대략 30 + SizedBox 20 = 130
+              final double slotsTopY = 130.0; 
 
               return Stack(
                 clipBehavior: Clip.none,
@@ -458,7 +458,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
               Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(top: 60.0, left: 24.0, right: 24.0),
+                    padding: const EdgeInsets.only(top: 80.0, left: 24.0, right: 24.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -611,7 +611,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     return SafeArea(
       key: const ValueKey('result'),
       child: SingleChildScrollView(
-        padding: const EdgeInsets.fromLTRB(20.0, 60.0, 20.0, 30.0),
+        padding: const EdgeInsets.fromLTRB(20.0, 80.0, 20.0, 30.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [

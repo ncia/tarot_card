@@ -21,7 +21,7 @@ class MeaningsScreen extends StatelessWidget {
           child: Column(
             children: [
               Padding(
-                padding: const EdgeInsets.fromLTRB(24, 60, 24, 10),
+                padding: const EdgeInsets.fromLTRB(24, 80, 24, 10),
                 child: Column(
                   children: [
                     Text(

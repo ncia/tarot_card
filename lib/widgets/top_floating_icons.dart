@@ -6,15 +6,11 @@ import 'magic_dust_widget.dart';
 import 'coin_widget.dart';
 
 class TopFloatingIcons extends StatelessWidget {
-  final bool showBackButton;
-  final VoidCallback? onBack;
   final VoidCallback? onShop;
   final VoidCallback? onGrowth;
 
   const TopFloatingIcons({
     super.key,
-    this.showBackButton = false,
-    this.onBack,
     this.onShop,
     this.onGrowth,
   });
@@ -55,11 +51,7 @@ class TopFloatingIcons extends StatelessWidget {
                             settings: const RouteSettings(name: '/shop'),
                           );
                           
-                          if (showBackButton) {
-                            Navigator.pushReplacement(context, route);
-                          } else {
-                            Navigator.push(context, route);
-                          }
+                          Navigator.push(context, route);
                         },
                         child: const Icon(Icons.storefront_outlined, color: Colors.amberAccent, size: 20),
                       ),
@@ -84,34 +76,13 @@ class TopFloatingIcons extends StatelessWidget {
                             settings: const RouteSettings(name: '/growth'),
                           );
 
-                          if (showBackButton) {
-                            Navigator.pushReplacement(context, route);
-                          } else {
-                            Navigator.push(context, route);
-                          }
+                          Navigator.push(context, route);
                         },
                         child: const Icon(Icons.spa_outlined, color: Colors.lightGreenAccent, size: 20),
                       ),
                     ),
                   ],
                 ),
-                if (showBackButton) ...[
-                  const SizedBox(height: 8),
-                  Container(
-                    width: 38,
-                    height: 38,
-                    decoration: BoxDecoration(
-                      color: Colors.black.withOpacity(0.5),
-                      shape: BoxShape.circle,
-                      border: Border.all(color: Colors.white24),
-                    ),
-                    child: InkWell(
-                      borderRadius: BorderRadius.circular(19),
-                      onTap: onBack ?? () => Navigator.pop(context),
-                      child: const Icon(Icons.arrow_back, color: Colors.white, size: 20),
-                    ),
-                  ),
-                ],
               ],
             ),
             // 우측 상단 플로팅 아이콘들 (스피커, 마력, 코인)

@@ -22,7 +22,6 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
   int _currentIndex = 0;
-  Widget? _overlayScreen;
 
   final List<Widget> _screens = [
     const ReadingTabNavigator(),
@@ -64,25 +63,6 @@ class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
       body: Stack(
         children: [
           _screens[_currentIndex],
-          if (_overlayScreen != null) _overlayScreen!,
-          TopFloatingIcons(
-            showBackButton: false,
-            onBack: () {
-              setState(() {
-                _overlayScreen = null;
-              });
-            },
-            onShop: () {
-              setState(() {
-                _overlayScreen = const ShopScreen();
-              });
-            },
-            onGrowth: () {
-              setState(() {
-                _overlayScreen = const GrowthScreen();
-              });
-            },
-          ),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -94,7 +74,6 @@ class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
         onTap: (index) {
           setState(() {
             _currentIndex = index;
-            _overlayScreen = null;
           });
         },
         items: [

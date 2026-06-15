@@ -66,10 +66,18 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        title: Text(widget.card.name),
-        backgroundColor: Colors.transparent,
-        elevation: 0,
+      appBar: PreferredSize(
+        preferredSize: const Size.fromHeight(kToolbarHeight + 65),
+        child: Column(
+          children: [
+            const SizedBox(height: 65),
+            AppBar(
+              title: Text(widget.card.name),
+              backgroundColor: Colors.transparent,
+              elevation: 0,
+            ),
+          ],
+        ),
       ),
       body: GradientBackground(
         child: _isLoading 
