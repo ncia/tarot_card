@@ -71,13 +71,34 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
       final newNickname = _nicknameController.text.trim();
       final newEmail = _emailController.text.trim();
 
-      // 1. 닉네임 및 사진 Firestore 업데이트
-      if (newNickname.isNotEmpty) {
-        await FirebaseFirestore.instance.collection('users').doc(widget.user.uid).update({
-          'nickname': newNickname,
-          'profileImage': _selectedImage,
-        });
+      // 1. 닉네임 중복 검사 및 정보 업데이트
+      if (newNickname.isEmpty) {
+        if (mounted) ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('닉네임을 입력해주세요.')));
+        setState(() => _isLoading = false);
+        return;
       }
+
+      if (newNickname != widget.currentNickname) {
+        final querySnapshot = await FirebaseFirestore.instance
+            .collection('users')
+            .where('nickname', isEqualTo: newNickname)
+            .get();
+            
+        if (querySnapshot.docs.isNotEmpty) {
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text('이미 사용 중인 닉네임입니다. 다른 닉네임을 입력해주세요.')),
+            );
+          }
+          setState(() => _isLoading = false);
+          return;
+        }
+      }
+
+      await FirebaseFirestore.instance.collection('users').doc(widget.user.uid).update({
+        'nickname': newNickname,
+        'profileImage': _selectedImage,
+      });
 
       // 2. 이메일 변경 처리 (소셜 로그인이 아니며, 기존 이메일과 다르고, 비어있지 않을 때)
       if (!_isSocialLoginUser && newEmail != widget.user.email && newEmail.isNotEmpty) {

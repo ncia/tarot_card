@@ -108,59 +108,66 @@ class MyMenuScreen extends StatelessWidget {
                 profileImage = data['profileImage'] ?? profileImage;
               }
               
-              return InkWell(
-                onTap: () {
-                  showDialog(
-                    context: context,
-                    builder: (context) => ProfileEditDialog(
-                      user: user,
-                      currentNickname: displayName,
-                      currentProfileImage: profileImage,
+              return GlassContainer(
+                padding: const EdgeInsets.all(20),
+                borderRadius: 20,
+                child: Row(
+                  children: [
+                    Container(
+                      width: 70,
+                      height: 70,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: Colors.indigo.shade900,
+                        image: DecorationImage(
+                          image: AssetImage(profileImage),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                     ),
-                  );
-                },
-                borderRadius: BorderRadius.circular(20),
-                child: GlassContainer(
-                  padding: const EdgeInsets.all(20),
-                  borderRadius: 20,
-                  child: Row(
-                    children: [
-                      Container(
-                        width: 70,
-                        height: 70,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: Colors.indigo.shade900,
-                          image: DecorationImage(
-                            image: AssetImage(profileImage),
-                            fit: BoxFit.cover,
+                    const SizedBox(width: 20),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            displayName,
+                            style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold),
+                            overflow: TextOverflow.ellipsis,
                           ),
+                          const SizedBox(height: 4),
+                          Text(
+                            user.email ?? '',
+                            style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 12),
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          const SizedBox(height: 8),
+                          _EmailVerificationBadge(user: user),
+                        ],
+                      ),
+                    ),
+                      GestureDetector(
+                        onTap: () {
+                          showDialog(
+                            context: context,
+                            builder: (context) => ProfileEditDialog(
+                              user: user,
+                              currentNickname: displayName,
+                              currentProfileImage: profileImage,
+                            ),
+                          );
+                        },
+                        child: Container(
+                          padding: const EdgeInsets.all(10),
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: Colors.white10,
+                            border: Border.all(color: Colors.white24),
+                          ),
+                          child: const Icon(Icons.edit, color: Colors.white, size: 20),
                         ),
                       ),
-                      const SizedBox(width: 20),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              displayName,
-                              style: const TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.bold),
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                            const SizedBox(height: 4),
-                            Text(
-                              user.email ?? '',
-                              style: TextStyle(color: Colors.white.withOpacity(0.6), fontSize: 12),
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                            const SizedBox(height: 8),
-                            _EmailVerificationBadge(user: user),
-                          ],
-                        ),
-                      ),
-                      const Icon(Icons.edit, color: Colors.white54),
-                    ],
-                  ),
+                  ],
                 ),
               );
             },
