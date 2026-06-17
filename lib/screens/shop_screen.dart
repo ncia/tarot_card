@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
+import '../widgets/top_floating_icons.dart';
+import '../widgets/shared_bottom_nav_bar.dart';
+import 'main_screen.dart';
 
 class ShopScreen extends StatelessWidget {
   const ShopScreen({super.key});
@@ -11,19 +14,6 @@ class ShopScreen extends StatelessWidget {
       length: 2,
       child: Scaffold(
         extendBodyBehindAppBar: true,
-        appBar: PreferredSize(
-          preferredSize: const Size.fromHeight(kToolbarHeight + 65),
-          child: Column(
-            children: [
-              const SizedBox(height: 65),
-              AppBar(
-                backgroundColor: Colors.transparent,
-                elevation: 0,
-                iconTheme: const IconThemeData(color: Colors.white),
-              ),
-            ],
-          ),
-        ),
         body: Stack(
           children: [
             GradientBackground(
@@ -31,7 +21,7 @@ class ShopScreen extends StatelessWidget {
                 child: Column(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.fromLTRB(16, 80, 16, 10),
+                      padding: const EdgeInsets.fromLTRB(16, 60, 16, 10),
                       child: Column(
                         children: [
                           Text(
@@ -41,7 +31,7 @@ class ShopScreen extends StatelessWidget {
                           ),
                           const SizedBox(height: 8),
                           Text(
-                            '코인과 스킨을 구매하세요',
+                            '코인과 테마를 구매하세요',
                             style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.white70),
                           ),
                           const SizedBox(height: 24),
@@ -51,7 +41,7 @@ class ShopScreen extends StatelessWidget {
                             unselectedLabelColor: Colors.white54,
                             tabs: [
                               Tab(text: '코인'),
-                              Tab(text: '스킨'),
+                              Tab(text: '테마'),
                             ],
                           ),
                         ],
@@ -69,7 +59,24 @@ class ShopScreen extends StatelessWidget {
                 ),
               ),
             ),
+            Positioned(
+              top: 0,
+              left: 0,
+              right: 0,
+              child: SafeArea(
+                child: TopFloatingIcons(
+                  onShop: () {}, // 이미 상점 화면이므로 동작 안 함
+                ),
+              ),
+            ),
           ],
+        ),
+        bottomNavigationBar: SharedBottomNavBar(
+          currentIndex: mainScreenKey.currentState?.currentIndex ?? 0,
+          onTap: (index) {
+            mainScreenKey.currentState?.switchTab(index);
+            Navigator.popUntil(context, (route) => route.isFirst);
+          },
         ),
       ),
     );

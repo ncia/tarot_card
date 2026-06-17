@@ -3,6 +3,7 @@ import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import '../services/economy_service.dart';
 import '../widgets/shared_bottom_nav_bar.dart';
+import '../widgets/top_floating_icons.dart';
 import 'main_screen.dart';
 
 class GrowthScreen extends StatefulWidget {
@@ -40,7 +41,17 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                     padding: const EdgeInsets.fromLTRB(16, 60, 16, 10),
                     child: Column(
                       children: [
-
+                        Text(
+                          '성장',
+                          textAlign: TextAlign.center,
+                          style: Theme.of(context).textTheme.displayLarge,
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          '마력을 모아 타로의 힘을 강화하세요',
+                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.white70),
+                        ),
+                        const SizedBox(height: 24),
                         TabBar(
                           controller: _tabController,
                           indicatorColor: Colors.amberAccent,
@@ -82,6 +93,16 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                     ),
                   ),
                 ],
+              ),
+            ),
+          ),
+          Positioned(
+            top: 0,
+            left: 0,
+            right: 0,
+            child: SafeArea(
+              child: TopFloatingIcons(
+                onGrowth: () {}, // 이미 성장 화면이므로 동작 안 함
               ),
             ),
           ),
