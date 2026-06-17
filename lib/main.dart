@@ -13,6 +13,7 @@ import 'services/economy_service.dart';
 import 'widgets/top_floating_icons.dart';
 import 'screens/shop_screen.dart';
 import 'screens/growth_screen.dart';
+import 'services/theme_manager.dart';
 
 final GlobalKey<NavigatorState> globalNavigatorKey = GlobalKey<NavigatorState>();
 
@@ -51,6 +52,8 @@ void main() async {
   } catch (e) {
     debugPrint('Firebase initialization failed (not configured yet?): $e');
   }
+
+  await ThemeManager.instance.init();
 
   runApp(const TarotApp());
 }

@@ -8,6 +8,8 @@ import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'auth_screen.dart'; // AuthScreen 임포트 추가
 import 'package:firebase_messaging/firebase_messaging.dart';
 import '../widgets/profile_edit_dialog.dart';
+import 'main_screen.dart';
+import 'theme_selection_screen.dart';
 
 class MyMenuScreen extends StatelessWidget {
   const MyMenuScreen({super.key});
@@ -223,14 +225,18 @@ class MyMenuScreen extends StatelessWidget {
         const SizedBox(height: 30),
         // Menu Items
         _buildSectionTitle('나의 기록'),
-        _buildMenuItem(Icons.history_edu, '과거 점괘 보관함', '저장된 점괘를 확인하세요.'),
+        _buildMenuItem(Icons.history_edu, '타로 일기 보관함', '저장된 일기를 확인하세요.', onTap: () {
+          mainScreenKey.currentState?.switchTab(2);
+        }),
         _buildMenuItem(Icons.star_border, '즐겨찾는 카드', '내가 가장 좋아하는 카드 목록'),
         
         const SizedBox(height: 20),
         _buildSectionTitle('앱 설정'),
         if (isLoggedIn && user != null) _PushSettingsTile(userId: user.uid),
         _buildMenuItem(Icons.language, '언어 설정', '한국어'),
-        _buildMenuItem(Icons.dark_mode_outlined, '테마 설정', '다크/라이트 모드'),
+        _buildMenuItem(Icons.dark_mode_outlined, '테마 설정', '배경 이미지 변경', onTap: () {
+          Navigator.pushNamed(context, '/theme_selection');
+        }),
         
         const SizedBox(height: 20),
         _buildSectionTitle('고객 지원'),

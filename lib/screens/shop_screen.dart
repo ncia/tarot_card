@@ -3,6 +3,8 @@ import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import '../widgets/top_floating_icons.dart';
 import '../widgets/shared_bottom_nav_bar.dart';
+import '../services/theme_manager.dart';
+import '../services/economy_service.dart';
 import 'main_screen.dart';
 
 class ShopScreen extends StatelessWidget {
@@ -262,73 +264,126 @@ class ShopScreen extends StatelessWidget {
   }
 
   Widget _buildSkinGrid(BuildContext context) {
-    final List<Map<String, dynamic>> skinPackages = [
-      {'name': '원조 클래식 덱', 'price': '보유중', 'color': Colors.blueGrey},
-      {'name': '황금 태양 덱', 'price': '100 코인', 'color': Colors.amber},
-      {'name': '칠흑의 심연 덱', 'price': '150 코인', 'color': Colors.deepPurple},
-      {'name': '봄의 정령 덱', 'price': '120 코인', 'color': Colors.lightGreen},
-    ];
+    return ValueListenableBuilder<List<String>>(
+      valueListenable: ThemeManager.instance.unlockedThemesNotifier,
+      builder: (context, unlockedThemes, _) {
+        final bool hasMagicBook = unlockedThemes.contains('assets/images/theme/magic_book.png');
+        final bool hasBlackCat = unlockedThemes.contains('assets/images/theme/black_cat.png');
+        
+        final List<Map<String, dynamic>> skinPackages = [
+          {
+            'name': '마법책',
+            'price': hasMagicBook ? '보유중' : '10 코인',
+            'cost': 10,
+            'image': 'assets/images/theme/magic_book.png',
+            'isTheme': true,
+          },
+          {
+            'name': '검은 고양이',
+            'price': hasBlackCat ? '보유중' : '10 코인',
+            'cost': 10,
+            'image': 'assets/images/theme/black_cat.png',
+            'isTheme': true,
+          },
+          {'name': '원조 클래식 덱', 'price': '보유중', 'color': Colors.blueGrey},
+          {'name': '황금 태양 덱', 'price': '100 코인', 'color': Colors.amber},
+          {'name': '칠흑의 심연 덱', 'price': '150 코인', 'color': Colors.deepPurple},
+          {'name': '봄의 정령 덱', 'price': '120 코인', 'color': Colors.lightGreen},
+        ];
 
-    return GridView.builder(
-      padding: const EdgeInsets.all(16.0),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        childAspectRatio: 0.75,
-        crossAxisSpacing: 16,
-        mainAxisSpacing: 16,
-      ),
-      itemCount: skinPackages.length,
-      itemBuilder: (context, index) {
-        final skin = skinPackages[index];
-        return GlassContainer(
-          padding: const EdgeInsets.all(12),
-          borderRadius: 16,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Expanded(
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: skin['color'].withOpacity(0.3),
-                    borderRadius: BorderRadius.circular(12),
-                    border: Border.all(color: skin['color'], width: 2),
-                  ),
-                  child: Center(
-                    child: Icon(Icons.style, color: skin['color'], size: 48),
-                  ),
-                ),
-              ),
-              const SizedBox(height: 12),
-              Text(
-                skin['name'],
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 14,
-                  fontWeight: FontWeight.bold,
-                ),
-                textAlign: TextAlign.center,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-              ),
-              const SizedBox(height: 8),
-              ElevatedButton(
-                onPressed: () {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text('${skin['name']} 구매/적용 기능은 준비 중입니다.')),
-                  );
-                },
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: skin['price'] == '보유중' ? Colors.white24 : Colors.amber.shade700,
-                  foregroundColor: Colors.white,
-                  minimumSize: const Size(double.infinity, 32),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-                child: Text(skin['price'], style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13)),
-              ),
-            ],
+        return GridView.builder(
+          padding: const EdgeInsets.all(16.0),
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+            childAspectRatio: 0.75,
+            crossAxisSpacing: 16,
+            mainAxisSpacing: 16,
           ),
+          itemCount: skinPackages.length,
+          itemBuilder: (context, index) {
+            final skin = skinPackages[index];
+            return GlassContainer(
+              padding: const EdgeInsets.all(12),
+              borderRadius: 16,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Expanded(
+                    child: skin.containsKey('image')
+                        ? ClipRRect(
+                            borderRadius: BorderRadius.circular(12),
+                            child: Image.asset(
+                              skin['image'],
+                              fit: BoxFit.cover,
+                            ),
+                          )
+                        : Container(
+                            decoration: BoxDecoration(
+                              color: skin['color'].withOpacity(0.3),
+                              borderRadius: BorderRadius.circular(12),
+                              border: Border.all(color: skin['color'], width: 2),
+                            ),
+                            child: Center(
+                              child: Icon(Icons.style, color: skin['color'], size: 48),
+                            ),
+                          ),
+                  ),
+                  const SizedBox(height: 12),
+                  Text(
+                    skin['name'],
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    textAlign: TextAlign.center,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                  const SizedBox(height: 8),
+                  ElevatedButton(
+                    onPressed: () async {
+                      if (skin['price'] == '보유중') {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          const SnackBar(content: Text('이미 보유하고 있습니다. 테마 설정에서 적용해보세요!')),
+                        );
+                        return;
+                      }
+
+                      if (skin['isTheme'] == true) {
+                        // 실제 구매 로직
+                        final int cost = skin['cost'];
+                        final success = await EconomyService().deductCoin(cost);
+                        if (success) {
+                          await ThemeManager.instance.unlockTheme(skin['image']);
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(content: Text('${skin['name']} 구매 성공! 테마 설정에서 확인하세요.')),
+                          );
+                        } else {
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            const SnackBar(content: Text('코인이 부족합니다.')),
+                          );
+                        }
+                      } else {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(content: Text('${skin['name']} 구매/적용 기능은 준비 중입니다.')),
+                        );
+                      }
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: skin['price'] == '보유중' ? Colors.white24 : Colors.amber.shade700,
+                      foregroundColor: Colors.white,
+                      minimumSize: const Size(double.infinity, 32),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                    ),
+                    child: Text(skin['price'], style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 13)),
+                  ),
+                ],
+              ),
+            );
+          },
         );
       },
     );

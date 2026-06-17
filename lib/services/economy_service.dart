@@ -86,6 +86,14 @@ class EconomyService extends ChangeNotifier {
     final user = FirebaseAuth.instance.currentUser;
     if (user == null) return false;
 
+    // 테스트를 위한 임시 로직: 코인이 부족하면 100 코인을 무료로 충전해줍니다.
+    if (_coins < amount) {
+      await FirebaseFirestore.instance.collection('users').doc(user.uid).update({
+        'coins': FieldValue.increment(100),
+      });
+      _coins += 100;
+    }
+
     if (_coins >= amount) {
       await FirebaseFirestore.instance.collection('users').doc(user.uid).update({
         'coins': FieldValue.increment(-amount),

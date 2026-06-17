@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../services/theme_manager.dart';
 
 class GradientBackground extends StatelessWidget {
   final Widget child;
@@ -31,10 +32,17 @@ class GradientBackground extends StatelessWidget {
         children: [
           Positioned.fill(
             child: Opacity(
-              opacity: 0.25,
-              child: Image.asset(
-                'assets/images/magic_circle.png',
-                fit: BoxFit.cover,
+              opacity: 0.15,
+              child: ValueListenableBuilder<String>(
+                valueListenable: ThemeManager.instance.themeNotifier,
+                builder: (context, themePath, child) {
+                  return Image.asset(
+                    themePath,
+                    fit: BoxFit.cover,
+                    width: double.infinity,
+                    height: double.infinity,
+                  );
+                },
               ),
             ),
           ),
