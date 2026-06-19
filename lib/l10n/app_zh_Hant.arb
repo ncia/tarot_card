@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "變更電子郵件時將發送驗證電子郵件。",
   "profileEditPassword": "目前密碼（用於電子郵件更改驗證）",
   "profileEditCancel": "取消",
-  "profileEditSave": "節省"
+  "profileEditSave": "節省",
+  "spreadUpright": "正位 (Upright)",
+  "spreadReversed": "逆位 (Reversed)"
 }

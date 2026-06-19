@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Sähköpostia vaihdettaessa lähetetään vahvistussähköposti.",
   "profileEditPassword": "Nykyinen salasana (sähköpostin muutoksen vahvistusta varten)",
   "profileEditCancel": "Peruuttaa",
-  "profileEditSave": "Tallentaa"
+  "profileEditSave": "Tallentaa",
+  "spreadUpright": "Oikein päin (Upright)",
+  "spreadReversed": "Käännettynä (Reversed)"
 }

@@ -119,12 +119,12 @@ class SpreadSelectionScreen extends StatelessWidget {
             context: context,
             builder: (ctx) => AlertDialog(
               backgroundColor: Colors.deepPurple.shade900,
-              title: const Text('코인 부족', style: TextStyle(color: Colors.white)),
-              content: const Text('코인이 부족합니다. 타로 리딩에는 코인 1개가 필요합니다.', style: TextStyle(color: Colors.white70)),
+              title: Text(AppLocalizations.of(context)!.coinShortageTitle, style: const TextStyle(color: Colors.white)),
+              content: Text(AppLocalizations.of(context)!.coinShortageContent, style: const TextStyle(color: Colors.white70)),
               actions: [
                 TextButton(
                   onPressed: () => Navigator.pop(ctx),
-                  child: const Text('확인', style: TextStyle(color: Colors.amberAccent)),
+                  child: Text(AppLocalizations.of(context)!.dialogOk, style: const TextStyle(color: Colors.amberAccent)),
                 ),
               ],
             ),
@@ -136,17 +136,17 @@ class SpreadSelectionScreen extends StatelessWidget {
           context: context,
           builder: (ctx) => AlertDialog(
             backgroundColor: Colors.deepPurple.shade900,
-            title: const Text('타로 리딩 진행', style: TextStyle(color: Colors.white)),
-            content: const Text('코인 1개를 소모하여 리딩을 진행하시겠습니까?', style: TextStyle(color: Colors.white70)),
+            title: Text(AppLocalizations.of(context)!.proceedReadingTitle, style: const TextStyle(color: Colors.white)),
+            content: Text(AppLocalizations.of(context)!.proceedReadingContent, style: const TextStyle(color: Colors.white70)),
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(ctx, false),
-                child: const Text('취소', style: TextStyle(color: Colors.white54)),
+                child: Text(AppLocalizations.of(context)!.dialogCancel, style: const TextStyle(color: Colors.white54)),
               ),
               ElevatedButton(
                 onPressed: () => Navigator.pop(ctx, true),
                 style: ElevatedButton.styleFrom(backgroundColor: Colors.purpleAccent),
-                child: const Text('진행', style: TextStyle(color: Colors.white)),
+                child: Text(AppLocalizations.of(context)!.dialogProceed, style: const TextStyle(color: Colors.white)),
               ),
             ],
           ),

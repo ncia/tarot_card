@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Ett verifieringsmail kommer att skickas när du ändrar e-post.",
   "profileEditPassword": "Aktuellt lösenord (för verifiering av e-poständring)",
   "profileEditCancel": "Avboka",
-  "profileEditSave": "Spara"
+  "profileEditSave": "Spara",
+  "spreadUpright": "upprätt (Upright)",
+  "spreadReversed": "omvänt (Reversed)"
 }

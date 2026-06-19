@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Під час зміни електронної адреси буде надіслано електронний лист для підтвердження.",
   "profileEditPassword": "Поточний пароль (для підтвердження зміни електронної пошти)",
   "profileEditCancel": "Скасувати",
-  "profileEditSave": "зберегти"
+  "profileEditSave": "зберегти",
+  "spreadUpright": "Вертикальний (Upright)",
+  "spreadReversed": "перевернута (Reversed)"
 }

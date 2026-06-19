@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "هنگام تغییر ایمیل یک ایمیل تأیید ارسال خواهد شد.",
   "profileEditPassword": "رمز عبور فعلی (برای تأیید تغییر ایمیل)",
   "profileEditCancel": "لغو کنید",
-  "profileEditSave": "ذخیره کنید"
+  "profileEditSave": "ذخیره کنید",
+  "spreadUpright": "ایستاده (Upright)",
+  "spreadReversed": "معکوس (Reversed)"
 }

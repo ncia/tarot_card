@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "W przypadku zmiany adresu e-mail zostanie wysłany e-mail weryfikacyjny.",
   "profileEditPassword": "Aktualne hasło (w celu weryfikacji zmiany adresu e-mail)",
   "profileEditCancel": "Anulować",
-  "profileEditSave": "Ratować"
+  "profileEditSave": "Ratować",
+  "spreadUpright": "pionowo (Upright)",
+  "spreadReversed": "odwrócony (Reversed)"
 }

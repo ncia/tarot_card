@@ -270,7 +270,7 @@ class _OneCardLayout extends StatelessWidget {
                       style: const TextStyle(color: Colors.white, fontSize: 18),
                     ),
                     Text(
-                      isRev ? "역방향 (Reversed)" : "정방향 (Upright)",
+                      isRev ? AppLocalizations.of(context)!.spreadReversed : AppLocalizations.of(context)!.spreadUpright,
                       style: const TextStyle(color: Colors.white70, fontSize: 14),
                     ),
                   ],
@@ -389,7 +389,7 @@ class _ThreeCardLayout extends StatelessWidget {
                           style: const TextStyle(color: Colors.white, fontSize: 18),
                         ),
                         Text(
-                          isRev ? "역방향 (Reversed)" : "정방향 (Upright)",
+                          isRev ? AppLocalizations.of(context)!.spreadReversed : AppLocalizations.of(context)!.spreadUpright,
                           style: const TextStyle(color: Colors.white70, fontSize: 14),
                         ),
                       ],
@@ -510,7 +510,7 @@ class _FourCardLayout extends StatelessWidget {
                           style: const TextStyle(color: Colors.white, fontSize: 18),
                         ),
                         Text(
-                          isRev ? "역방향 (Reversed)" : "정방향 (Upright)",
+                          isRev ? AppLocalizations.of(context)!.spreadReversed : AppLocalizations.of(context)!.spreadUpright,
                           style: const TextStyle(color: Colors.white70, fontSize: 14),
                         ),
                       ],
@@ -615,7 +615,7 @@ class _TwoCardLayout extends StatelessWidget {
                           style: const TextStyle(color: Colors.white, fontSize: 18),
                         ),
                         Text(
-                          isRev ? "역방향 (Reversed)" : "정방향 (Upright)",
+                          isRev ? AppLocalizations.of(context)!.spreadReversed : AppLocalizations.of(context)!.spreadUpright,
                           style: const TextStyle(color: Colors.white70, fontSize: 14),
                         ),
                       ],
@@ -734,7 +734,7 @@ class _FiveCardLayout extends StatelessWidget {
                           style: const TextStyle(color: Colors.white, fontSize: 18),
                         ),
                         Text(
-                          isRev ? "역방향 (Reversed)" : "정방향 (Upright)",
+                          isRev ? AppLocalizations.of(context)!.spreadReversed : AppLocalizations.of(context)!.spreadUpright,
                           style: const TextStyle(color: Colors.white70, fontSize: 14),
                         ),
                       ],
@@ -824,7 +824,7 @@ class _CelticCrossLayout extends StatelessWidget {
                           style: const TextStyle(color: Colors.white, fontSize: 18),
                         ),
                         Text(
-                          isRev ? "역방향 (Reversed)" : "정방향 (Upright)",
+                          isRev ? AppLocalizations.of(context)!.spreadReversed : AppLocalizations.of(context)!.spreadUpright,
                           style: const TextStyle(color: Colors.white70, fontSize: 14),
                         ),
                       ],

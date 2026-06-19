@@ -3897,6 +3897,59 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get profileEditSave => '节省';
+
+  @override
+  String get coinShortageTitle => 'Not Enough Coins';
+
+  @override
+  String get coinShortageContent =>
+      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+
+  @override
+  String get dialogOk => 'OK';
+
+  @override
+  String get proceedReadingTitle => 'Proceed Tarot Reading';
+
+  @override
+  String get proceedReadingContent =>
+      'Do you want to consume 1 coin to proceed with the reading?';
+
+  @override
+  String get dialogCancel => 'Cancel';
+
+  @override
+  String get dialogProceed => 'Proceed';
+
+  @override
+  String pickCardsText(int count) {
+    return 'Pick $count cards';
+  }
+
+  @override
+  String get layoutFan => 'Fan Shape';
+
+  @override
+  String get layoutStacked => 'Stacked';
+
+  @override
+  String get readingFateFragments => 'Reading the fragments of destiny.';
+
+  @override
+  String witchTarotReading(String witchName) {
+    return '$witchName\'s Tarot Reading';
+  }
+
+  @override
+  String magicDustObtained(int amount) {
+    return 'Obtained +$amount Magic Dust! ✨';
+  }
+
+  @override
+  String get spreadUpright => '正位 (Upright)';
+
+  @override
+  String get spreadReversed => '逆位 (Reversed)';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -7797,6 +7850,12 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
 
   @override
   String get profileEditSave => '节省';
+
+  @override
+  String get spreadUpright => '直立 (Upright)';
+
+  @override
+  String get spreadReversed => '逆位 (Reversed)';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -11693,4 +11752,10 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get profileEditSave => '節省';
+
+  @override
+  String get spreadUpright => '正位 (Upright)';
+
+  @override
+  String get spreadReversed => '逆位 (Reversed)';
 }

@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Při změně emailu bude zaslán ověřovací email.",
   "profileEditPassword": "Aktuální heslo (pro ověření změny e-mailu)",
   "profileEditCancel": "Zrušit",
-  "profileEditSave": "Uložit"
+  "profileEditSave": "Uložit",
+  "spreadUpright": "vzpřímený (Upright)",
+  "spreadReversed": "obráceno (Reversed)"
 }

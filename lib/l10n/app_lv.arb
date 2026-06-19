@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Mainot e-pastu, tiks nosūtīts verifikācijas e-pasts.",
   "profileEditPassword": "Pašreizējā parole (e-pasta maiņas apstiprināšanai)",
   "profileEditCancel": "Atcelt",
-  "profileEditSave": "Saglabāt"
+  "profileEditSave": "Saglabāt",
+  "spreadUpright": "stāvus (Upright)",
+  "spreadReversed": "apgriezts (Reversed)"
 }

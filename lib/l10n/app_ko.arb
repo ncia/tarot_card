@@ -1378,5 +1378,41 @@
   "profileEditEmailChangeHint": "이메일 변경 시 확인 메일이 발송됩니다.",
   "profileEditPassword": "현재 비밀번호 (이메일 변경 확인용)",
   "profileEditCancel": "취소",
-  "profileEditSave": "저장"
+  "profileEditSave": "저장",
+  "coinShortageTitle": "코인 부족",
+  "coinShortageContent": "코인이 부족합니다. 타로 리딩에는 코인 1개가 필요합니다.",
+  "dialogOk": "확인",
+  "proceedReadingTitle": "타로 리딩 진행",
+  "proceedReadingContent": "코인 1개를 소모하여 리딩을 진행하시겠습니까?",
+  "dialogCancel": "취소",
+  "dialogProceed": "진행",
+  "pickCardsText": "{count}장의 카드를 뽑으세요",
+  "@pickCardsText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "layoutFan": "부채꼴",
+  "layoutStacked": "겹친 모양",
+  "readingFateFragments": "운명의 조각들을 읽어내고 있어요.",
+  "witchTarotReading": "{witchName}의 타로점",
+  "@witchTarotReading": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "magicDustObtained": "마력의 가루 +{amount} 획득! ✨",
+  "@magicDustObtained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "spreadUpright": "정방향 (Upright)",
+  "spreadReversed": "역방향 (Reversed)"
 }

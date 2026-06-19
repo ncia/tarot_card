@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "При изменении адреса электронной почты будет отправлено письмо с подтверждением.",
   "profileEditPassword": "Текущий пароль (для подтверждения смены адреса электронной почты)",
   "profileEditCancel": "Отмена",
-  "profileEditSave": "Сохранять"
+  "profileEditSave": "Сохранять",
+  "spreadUpright": "вертикальный (Upright)",
+  "spreadReversed": "перевернутый (Reversed)"
 }

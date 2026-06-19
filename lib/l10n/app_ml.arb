@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "ഇമെയിൽ മാറ്റുമ്പോൾ ഒരു സ്ഥിരീകരണ ഇമെയിൽ അയയ്ക്കും.",
   "profileEditPassword": "നിലവിലെ പാസ്‌വേഡ് (ഇമെയിൽ മാറ്റം സ്ഥിരീകരണത്തിന്)",
   "profileEditCancel": "റദ്ദാക്കുക",
-  "profileEditSave": "സംരക്ഷിക്കുക"
+  "profileEditSave": "സംരക്ഷിക്കുക",
+  "spreadUpright": "നേരെയുള്ള (Upright)",
+  "spreadReversed": "വിപരീത (Reversed)"
 }

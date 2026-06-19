@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Ob spremembi e-pošte bo poslano potrditveno e-poštno sporočilo.",
   "profileEditPassword": "Trenutno geslo (za preverjanje spremembe e-pošte)",
   "profileEditCancel": "Prekliči",
-  "profileEditSave": "Shrani"
+  "profileEditSave": "Shrani",
+  "spreadUpright": "pokončno (Upright)",
+  "spreadReversed": "obrnjeno (Reversed)"
 }

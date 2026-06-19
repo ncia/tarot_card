@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Se enviará un correo electrónico de verificación al cambiar el correo electrónico.",
   "profileEditPassword": "Contraseña actual (para verificación de cambio de correo electrónico)",
   "profileEditCancel": "Cancelar",
-  "profileEditSave": "Ahorrar"
+  "profileEditSave": "Ahorrar",
+  "spreadUpright": "vertical (Upright)",
+  "spreadReversed": "invertido (Reversed)"
 }

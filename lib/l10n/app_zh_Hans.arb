@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "更改电子邮件时将发送验证电子邮件。",
   "profileEditPassword": "当前密码（用于电子邮件更改验证）",
   "profileEditCancel": "取消",
-  "profileEditSave": "节省"
+  "profileEditSave": "节省",
+  "spreadUpright": "直立 (Upright)",
+  "spreadReversed": "逆位 (Reversed)"
 }

@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Порука за верификацију ће бити послата када промените имејл.",
   "profileEditPassword": "Тренутна лозинка (за верификацију промене е-поште)",
   "profileEditCancel": "Откажи",
-  "profileEditSave": "Сачувај"
+  "profileEditSave": "Сачувај",
+  "spreadUpright": "усправно (Upright)",
+  "spreadReversed": "обрнуто (Reversed)"
 }

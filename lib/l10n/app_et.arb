@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "E-posti aadressi muutmisel saadetakse kinnitusmeil.",
   "profileEditPassword": "Praegune parool (e-posti aadressi muutmise kinnitamiseks)",
   "profileEditCancel": "Tühista",
-  "profileEditSave": "Salvesta"
+  "profileEditSave": "Salvesta",
+  "spreadUpright": "püsti (Upright)",
+  "spreadReversed": "tagurpidi (Reversed)"
 }

@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "En bekræftelses-e-mail vil blive sendt, når du ændrer e-mail.",
   "profileEditPassword": "Nuværende adgangskode (til bekræftelse af e-mailændring)",
   "profileEditCancel": "Ophæve",
-  "profileEditSave": "Spare"
+  "profileEditSave": "Spare",
+  "spreadUpright": "opretstående (Upright)",
+  "spreadReversed": "omvendt (Reversed)"
 }

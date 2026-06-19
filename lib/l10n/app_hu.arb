@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Az e-mail cím megváltoztatásakor visszaigazoló e-mailt küldünk.",
   "profileEditPassword": "Jelenlegi jelszó (az e-mail módosítás ellenőrzéséhez)",
   "profileEditCancel": "Mégsem",
-  "profileEditSave": "Megtakarítás"
+  "profileEditSave": "Megtakarítás",
+  "spreadUpright": "felálló (Upright)",
+  "spreadReversed": "fordítva (Reversed)"
 }

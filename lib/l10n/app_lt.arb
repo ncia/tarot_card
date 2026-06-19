@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Pakeitus el. pašto adresą, bus išsiųstas patvirtinimo el.",
   "profileEditPassword": "Dabartinis slaptažodis (el. pašto keitimo patvirtinimui)",
   "profileEditCancel": "Atšaukti",
-  "profileEditSave": "Išsaugoti"
+  "profileEditSave": "Išsaugoti",
+  "spreadUpright": "stačiai (Upright)",
+  "spreadReversed": "atvirkščiai (Reversed)"
 }

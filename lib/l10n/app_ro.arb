@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "La schimbarea e-mailului va fi trimis un e-mail de verificare.",
   "profileEditPassword": "Parola curentă (pentru verificarea modificării e-mailului)",
   "profileEditCancel": "Anula",
-  "profileEditSave": "Salva"
+  "profileEditSave": "Salva",
+  "spreadUpright": "Drept (Upright)",
+  "spreadReversed": "inversat (Reversed)"
 }

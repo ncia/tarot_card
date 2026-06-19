@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "ईमेल बदलते समय एक सत्यापन ईमेल भेजा जाएगा.",
   "profileEditPassword": "वर्तमान पासवर्ड (ईमेल परिवर्तन सत्यापन के लिए)",
   "profileEditCancel": "रद्द करना",
-  "profileEditSave": "बचाना"
+  "profileEditSave": "बचाना",
+  "spreadUpright": "ईमानदार (Upright)",
+  "spreadReversed": "उलट (Reversed)"
 }

@@ -1405,5 +1405,41 @@
   "profileEditEmailChangeHint": "A verification email will be sent when changing email.",
   "profileEditPassword": "Current Password (for email change verification)",
   "profileEditCancel": "Cancel",
-  "profileEditSave": "Save"
+  "profileEditSave": "Save",
+  "coinShortageTitle": "Not Enough Coins",
+  "coinShortageContent": "You don't have enough coins. 1 coin is required for a tarot reading.",
+  "dialogOk": "OK",
+  "proceedReadingTitle": "Proceed Tarot Reading",
+  "proceedReadingContent": "Do you want to consume 1 coin to proceed with the reading?",
+  "dialogCancel": "Cancel",
+  "dialogProceed": "Proceed",
+  "pickCardsText": "Pick {count} cards",
+  "@pickCardsText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "layoutFan": "Fan Shape",
+  "layoutStacked": "Stacked",
+  "readingFateFragments": "Reading the fragments of destiny.",
+  "witchTarotReading": "{witchName}'s Tarot Reading",
+  "@witchTarotReading": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "magicDustObtained": "Obtained +{amount} Magic Dust! ✨",
+  "@magicDustObtained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "spreadUpright": "Upright",
+  "spreadReversed": "Reversed"
 }

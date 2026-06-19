@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Էլփոստը փոխելիս կուղարկվի հաստատման նամակ:",
   "profileEditPassword": "Ընթացիկ գաղտնաբառը (էլեկտրոնային փոստի փոփոխության ստուգման համար)",
   "profileEditCancel": "Չեղարկել",
-  "profileEditSave": "Պահպանել"
+  "profileEditSave": "Պահպանել",
+  "spreadUpright": "Ուղիղ (Upright)",
+  "spreadReversed": "Շրջված (Reversed)"
 }

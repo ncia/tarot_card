@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Пры змене электроннай пошты будзе адпраўлена праверка.",
   "profileEditPassword": "Бягучы пароль (для праверкі змены электроннай пошты)",
   "profileEditCancel": "Адмяніць",
-  "profileEditSave": "Захаваць"
+  "profileEditSave": "Захаваць",
+  "spreadUpright": "вертыкальна (Upright)",
+  "spreadReversed": "перавернуты (Reversed)"
 }

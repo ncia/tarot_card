@@ -73,7 +73,7 @@ class _DiaryEditScreenState extends State<DiaryEditScreen> {
         final label = widget.positionLabels.length > index ? widget.positionLabels[index] : '포지션 $index';
         final meaning = widget.cardMeanings.length > index ? widget.cardMeanings[index] : '';
         final isRev = widget.cardReversals.length > index ? widget.cardReversals[index] : false;
-        final revText = isRev ? '역방향' : '정방향';
+        final revText = isRev ? AppLocalizations.of(context)!.spreadReversed : AppLocalizations.of(context)!.spreadUpright;
 
         return GlassContainer(
           margin: const EdgeInsets.only(bottom: 16),

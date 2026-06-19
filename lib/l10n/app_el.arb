@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Θα σταλεί ένα email επαλήθευσης κατά την αλλαγή του email.",
   "profileEditPassword": "Τρέχων κωδικός πρόσβασης (για επαλήθευση αλλαγής email)",
   "profileEditCancel": "Ματαίωση",
-  "profileEditSave": "Εκτός"
+  "profileEditSave": "Εκτός",
+  "spreadUpright": "Όρθιος (Upright)",
+  "spreadReversed": "Αντίστροφη (Reversed)"
 }

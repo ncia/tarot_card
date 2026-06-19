@@ -1406,5 +1406,7 @@
   "profileEditEmailChangeHint": "อีเมลยืนยันจะถูกส่งไปเมื่อมีการเปลี่ยนอีเมล",
   "profileEditPassword": "รหัสผ่านปัจจุบัน (สำหรับการยืนยันการเปลี่ยนแปลงอีเมล)",
   "profileEditCancel": "ยกเลิก",
-  "profileEditSave": "บันทึก"
+  "profileEditSave": "บันทึก",
+  "spreadUpright": "정정향 (ตรง) (Upright)",
+  "spreadReversed": "역성향 (กลับด้าน) (Reversed)"
 }

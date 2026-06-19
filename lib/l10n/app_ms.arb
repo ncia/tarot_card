@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "E-mel pengesahan akan dihantar apabila menukar e-mel.",
   "profileEditPassword": "Kata Laluan Semasa (untuk pengesahan penukaran e-mel)",
   "profileEditCancel": "Batal",
-  "profileEditSave": "Jimat"
+  "profileEditSave": "Jimat",
+  "spreadUpright": "Tegak (Upright)",
+  "spreadReversed": "Terbalik (Reversed)"
 }

@@ -21,6 +21,7 @@ class TtsService {
   final List<String> _textQueue = [];
   bool _isPlaying = false;
   Witch? _currentWitch;
+  String _currentLocale = 'ko';
 
   TtsService._internal() {
     _audioPlayer.onPlayerComplete.listen((event) {
@@ -32,6 +33,7 @@ class TtsService {
     stop();
     WakelockPlus.enable();
     _currentWitch = witch;
+    _currentLocale = localeCode;
     _textQueue.add(text);
     _playNextInQueue();
   }
@@ -40,6 +42,7 @@ class TtsService {
     stop();
     WakelockPlus.enable();
     _currentWitch = witch;
+    _currentLocale = localeCode;
     
     // Split into paragraphs to respect API limits and provide natural pauses
     final paragraphs = text.split('\n');
@@ -84,7 +87,8 @@ class TtsService {
         'input': text,
         'voice_id': _currentWitch!.speechifyVoiceId,
         'audio_format': 'mp3',
-        'model': 'simba-multilingual'
+        'model': 'simba-multilingual',
+        'language': _currentLocale
       });
 
       final response = await http.post(

@@ -3904,4 +3904,55 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get profileEditSave => '저장';
+
+  @override
+  String get coinShortageTitle => '코인 부족';
+
+  @override
+  String get coinShortageContent => '코인이 부족합니다. 타로 리딩에는 코인 1개가 필요합니다.';
+
+  @override
+  String get dialogOk => '확인';
+
+  @override
+  String get proceedReadingTitle => '타로 리딩 진행';
+
+  @override
+  String get proceedReadingContent => '코인 1개를 소모하여 리딩을 진행하시겠습니까?';
+
+  @override
+  String get dialogCancel => '취소';
+
+  @override
+  String get dialogProceed => '진행';
+
+  @override
+  String pickCardsText(int count) {
+    return '$count장의 카드를 뽑으세요';
+  }
+
+  @override
+  String get layoutFan => '부채꼴';
+
+  @override
+  String get layoutStacked => '겹친 모양';
+
+  @override
+  String get readingFateFragments => '운명의 조각들을 읽어내고 있어요.';
+
+  @override
+  String witchTarotReading(String witchName) {
+    return '$witchName의 타로점';
+  }
+
+  @override
+  String magicDustObtained(int amount) {
+    return '마력의 가루 +$amount 획득! ✨';
+  }
+
+  @override
+  String get spreadUpright => '정방향 (Upright)';
+
+  @override
+  String get spreadReversed => '역방향 (Reversed)';
 }

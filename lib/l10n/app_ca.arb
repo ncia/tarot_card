@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "S'enviarà un correu electrònic de verificació quan es canviï el correu electrònic.",
   "profileEditPassword": "Contrasenya actual (per a la verificació del canvi de correu electrònic)",
   "profileEditCancel": "Cancel·la",
-  "profileEditSave": "Desa"
+  "profileEditSave": "Desa",
+  "spreadUpright": "Vertical (Upright)",
+  "spreadReversed": "invertit (Reversed)"
 }

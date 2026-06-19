@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Một email xác minh sẽ được gửi khi thay đổi email.",
   "profileEditPassword": "Mật khẩu hiện tại (để xác minh thay đổi email)",
   "profileEditCancel": "Hủy bỏ",
-  "profileEditSave": "Cứu"
+  "profileEditSave": "Cứu",
+  "spreadUpright": "Đứng thẳng (Upright)",
+  "spreadReversed": "Đảo ngược (Reversed)"
 }

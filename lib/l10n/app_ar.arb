@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "سيتم إرسال بريد إلكتروني للتحقق عند تغيير البريد الإلكتروني.",
   "profileEditPassword": "كلمة المرور الحالية (للتحقق من تغيير البريد الإلكتروني)",
   "profileEditCancel": "يلغي",
-  "profileEditSave": "يحفظ"
+  "profileEditSave": "يحفظ",
+  "spreadUpright": "تستقيم (Upright)",
+  "spreadReversed": "معكوس (Reversed)"
 }

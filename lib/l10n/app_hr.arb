@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "E-pošta za potvrdu bit će poslana prilikom promjene e-pošte.",
   "profileEditPassword": "Trenutna lozinka (za provjeru promjene e-pošte)",
   "profileEditCancel": "Otkazati",
-  "profileEditSave": "Uštedjeti"
+  "profileEditSave": "Uštedjeti",
+  "spreadUpright": "Uspravno (Upright)",
+  "spreadReversed": "obrnuto (Reversed)"
 }

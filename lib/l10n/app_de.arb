@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Bei einer E-Mail-Änderung wird eine Bestätigungs-E-Mail gesendet.",
   "profileEditPassword": "Aktuelles Passwort (zur Überprüfung der E-Mail-Änderung)",
   "profileEditCancel": "Stornieren",
-  "profileEditSave": "Speichern"
+  "profileEditSave": "Speichern",
+  "spreadUpright": "aufrecht (Upright)",
+  "spreadReversed": "Umgekehrt (Reversed)"
 }

@@ -1405,5 +1405,41 @@
   "profileEditEmailChangeHint": "メールアドレスを変更すると確認メールが送信されます。",
   "profileEditPassword": "現在のパスワード (メールアドレス変更確認用)",
   "profileEditCancel": "キャンセル",
-  "profileEditSave": "保存"
+  "profileEditSave": "保存",
+  "coinShortageTitle": "コイン不足",
+  "coinShortageContent": "コインが不足しています。タロットリーディングにはコインが1枚必要です。",
+  "dialogOk": "確認",
+  "proceedReadingTitle": "タロットリーディングを進める",
+  "proceedReadingContent": "コインを1枚消費してリーディングを進めますか？",
+  "dialogCancel": "キャンセル",
+  "dialogProceed": "進める",
+  "pickCardsText": "{count}枚のカードを引いてください",
+  "@pickCardsText": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "layoutFan": "扇形",
+  "layoutStacked": "重ねた形",
+  "readingFateFragments": "運命の欠片を読み解いています。",
+  "witchTarotReading": "{witchName}のタロット占い",
+  "@witchTarotReading": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  },
+  "magicDustObtained": "魔力の粉 +{amount} 獲得! ✨",
+  "@magicDustObtained": {
+    "placeholders": {
+      "amount": {
+        "type": "int"
+      }
+    }
+  },
+  "spreadUpright": "直立 (Upright)",
+  "spreadReversed": "反転 (Reversed)"
 }

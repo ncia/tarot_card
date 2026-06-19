@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Magpapadala ng email sa pagpapatunay kapag binabago ang email.",
   "profileEditPassword": "Kasalukuyang Password (para sa pag-verify ng pagbabago ng email)",
   "profileEditCancel": "Kanselahin",
-  "profileEditSave": "I-save"
+  "profileEditSave": "I-save",
+  "spreadUpright": "Tumayo (Upright)",
+  "spreadReversed": "Baliktad (Reversed)"
 }

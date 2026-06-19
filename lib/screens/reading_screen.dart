@@ -133,12 +133,12 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
           context: context,
           builder: (ctx) => AlertDialog(
             backgroundColor: Colors.deepPurple.shade900,
-            title: const Text('코인 부족', style: TextStyle(color: Colors.white)),
-            content: const Text('코인이 부족합니다. 타로 리딩에는 코인 1개가 필요합니다.', style: TextStyle(color: Colors.white70)),
+            title: Text(AppLocalizations.of(context)!.coinShortageTitle, style: const TextStyle(color: Colors.white)),
+            content: Text(AppLocalizations.of(context)!.coinShortageContent, style: const TextStyle(color: Colors.white70)),
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(ctx),
-                child: const Text('확인', style: TextStyle(color: Colors.amberAccent)),
+                child: Text(AppLocalizations.of(context)!.dialogOk, style: const TextStyle(color: Colors.amberAccent)),
               ),
             ],
           ),
@@ -150,17 +150,17 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
         context: context,
         builder: (ctx) => AlertDialog(
           backgroundColor: Colors.deepPurple.shade900,
-          title: const Text('타로 리딩 진행', style: TextStyle(color: Colors.white)),
-          content: const Text('코인 1개를 소모하여 리딩을 진행하시겠습니까?', style: TextStyle(color: Colors.white70)),
+          title: Text(AppLocalizations.of(context)!.proceedReadingTitle, style: const TextStyle(color: Colors.white)),
+          content: Text(AppLocalizations.of(context)!.proceedReadingContent, style: const TextStyle(color: Colors.white70)),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(ctx, false),
-              child: const Text('취소', style: TextStyle(color: Colors.white54)),
+              child: Text(AppLocalizations.of(context)!.dialogCancel, style: const TextStyle(color: Colors.white54)),
             ),
             ElevatedButton(
               onPressed: () => Navigator.pop(ctx, true),
               style: ElevatedButton.styleFrom(backgroundColor: Colors.purpleAccent),
-              child: const Text('진행', style: TextStyle(color: Colors.white)),
+              child: Text(AppLocalizations.of(context)!.dialogProceed, style: const TextStyle(color: Colors.white)),
             ),
           ],
         ),
@@ -207,10 +207,10 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                 await EconomyService().addMagicDust(10);
                 if (mounted) {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                      content: Text('마력의 가루 +10 획득! ✨', style: TextStyle(fontWeight: FontWeight.bold)),
+                    SnackBar(
+                      content: Text(AppLocalizations.of(context)!.magicDustObtained(10), style: const TextStyle(fontWeight: FontWeight.bold)),
                       backgroundColor: Colors.purple,
-                      duration: Duration(seconds: 3),
+                      duration: const Duration(seconds: 3),
                     ),
                   );
                 }
@@ -444,7 +444,6 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
               final double screenHeight = constraints.maxHeight;
               final double slotWidth = 90.0;
               final double slotHeight = 140.0;
-              final double spacing = (screenWidth - (slotWidth * 3)) / 4;
               
               // 상단 빈 슬롯이 시작되는 정확한 Y 좌표
               // Padding top 80 + 상단 텍스트Row 대략 30 + SizedBox 20 = 130
@@ -463,7 +462,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                       children: [
                         Expanded(
                           child: Text(
-                            '${widget.spreadType.cardCount}장의 카드를 뽑으세요',
+                            AppLocalizations.of(context)!.pickCardsText(widget.spreadType.cardCount),
                             style: Theme.of(context).textTheme.titleLarge,
                           ),
                         ),
@@ -475,7 +474,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                           },
                           icon: const Icon(Icons.swap_horiz, color: Colors.white),
                           label: Text(
-                            _isFanSpread ? '부채꼴' : '겹친 모양',
+                            _isFanSpread ? AppLocalizations.of(context)!.layoutFan : AppLocalizations.of(context)!.layoutStacked,
                             style: const TextStyle(color: Colors.white),
                           ),
                           style: TextButton.styleFrom(
@@ -670,7 +669,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                                 ),
                                 const SizedBox(width: 8),
                                 Text(
-                                  '${widget.selectedWitch!.name}의 타로점',
+                                  AppLocalizations.of(context)!.witchTarotReading(widget.selectedWitch!.name),
                                   style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
                                 ),
                                 const Spacer(),
@@ -683,7 +682,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
                             ),
                             const SizedBox(height: 12),
                             Text(
-                              _aiReadingText.isEmpty && _isAiTyping ? '운명의 조각들을 읽어내고 있어요.' : _aiReadingText,
+                              _aiReadingText.isEmpty && _isAiTyping ? AppLocalizations.of(context)!.readingFateFragments : _aiReadingText,
                               style: const TextStyle(color: Colors.white, fontSize: 15, height: 1.5),
                             ),
                           ],

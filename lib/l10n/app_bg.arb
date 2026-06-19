@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "При промяна на имейла ще бъде изпратен имейл за потвърждение.",
   "profileEditPassword": "Текуща парола (за потвърждение на промяна на имейл)",
   "profileEditCancel": "Отказ",
-  "profileEditSave": "Запазване"
+  "profileEditSave": "Запазване",
+  "spreadUpright": "изправен (Upright)",
+  "spreadReversed": "обърнат (Reversed)"
 }

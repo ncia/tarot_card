@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "Email verifikasi akan dikirim saat mengganti email.",
   "profileEditPassword": "Kata Sandi Saat Ini (untuk verifikasi perubahan email)",
   "profileEditCancel": "Membatalkan",
-  "profileEditSave": "Menyimpan"
+  "profileEditSave": "Menyimpan",
+  "spreadUpright": "Tegak (Upright)",
+  "spreadReversed": "Terbalik (Reversed)"
 }

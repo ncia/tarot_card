@@ -1,24 +1,31 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'dart:io';
 
 void main() async {
-  final response = await http.post(
-    Uri.parse('https://api.speechify.ai/v1/audio/speech'),
-    headers: {
-      'Authorization': 'Bearer sk_ka15z2n9phv842hw1fvt0b634fb8cesaj1czhfm4cv0',
-      'Content-Type': 'application/json'
-    },
-    body: jsonEncode({
-      'input': 'Hello there, my name is Morgan. Nice to meet you.',
-      'voice_id': 'min-seo',
-      'audio_format': 'mp3',
-      'model': 'simba-multilingual'
-    })
-  );
-  print(response.statusCode);
-  if (response.statusCode == 200) {
-      print('SUCCESS, size: ${response.bodyBytes.length}');
-  } else {
-      print(response.body);
+  final apiKey = Platform.environment['SPEECHIFY_API_KEY'];
+  if (apiKey == null) {
+    print('No API key');
+    return;
   }
+  final baseUrl = 'https://api.speechify.ai/v1/audio/speech';
+  final requestBody = jsonEncode({
+    'input': 'สวัสดี',
+    'voice_id': 'karen',
+    'audio_format': 'mp3',
+    'model': 'simba-multilingual',
+    'language': 'th'
+  });
+
+  final response = await http.post(
+    Uri.parse(baseUrl),
+    headers: {
+      'Authorization': 'Bearer $apiKey',
+      'Content-Type': 'application/json',
+    },
+    body: requestBody,
+  );
+  
+  print('Status: ${response.statusCode}');
+  // print(response.body);
 }

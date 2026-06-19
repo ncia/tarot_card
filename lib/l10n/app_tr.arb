@@ -1405,5 +1405,7 @@
   "profileEditEmailChangeHint": "E-postayı değiştirirken bir doğrulama e-postası gönderilecektir.",
   "profileEditPassword": "Mevcut Şifre (e-posta değişikliği doğrulaması için)",
   "profileEditCancel": "İptal etmek",
-  "profileEditSave": "Kaydetmek"
+  "profileEditSave": "Kaydetmek",
+  "spreadUpright": "Dik (Upright)",
+  "spreadReversed": "Tersine çevrilmiş (Reversed)"
 }

@@ -3905,4 +3905,55 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get profileEditSave => '保存';
+
+  @override
+  String get coinShortageTitle => 'コイン不足';
+
+  @override
+  String get coinShortageContent => 'コインが不足しています。タロットリーディングにはコインが1枚必要です。';
+
+  @override
+  String get dialogOk => '確認';
+
+  @override
+  String get proceedReadingTitle => 'タロットリーディングを進める';
+
+  @override
+  String get proceedReadingContent => 'コインを1枚消費してリーディングを進めますか？';
+
+  @override
+  String get dialogCancel => 'キャンセル';
+
+  @override
+  String get dialogProceed => '進める';
+
+  @override
+  String pickCardsText(int count) {
+    return '$count枚のカードを引いてください';
+  }
+
+  @override
+  String get layoutFan => '扇形';
+
+  @override
+  String get layoutStacked => '重ねた形';
+
+  @override
+  String get readingFateFragments => '運命の欠片を読み解いています。';
+
+  @override
+  String witchTarotReading(String witchName) {
+    return '$witchNameのタロット占い';
+  }
+
+  @override
+  String magicDustObtained(int amount) {
+    return '魔力の粉 +$amount 獲得! ✨';
+  }
+
+  @override
+  String get spreadUpright => '直立 (Upright)';
+
+  @override
+  String get spreadReversed => '反転 (Reversed)';
 }

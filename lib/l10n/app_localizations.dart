@@ -7841,6 +7841,96 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Save'**
   String get profileEditSave;
+
+  /// No description provided for @coinShortageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Not Enough Coins'**
+  String get coinShortageTitle;
+
+  /// No description provided for @coinShortageContent.
+  ///
+  /// In en, this message translates to:
+  /// **'You don\'t have enough coins. 1 coin is required for a tarot reading.'**
+  String get coinShortageContent;
+
+  /// No description provided for @dialogOk.
+  ///
+  /// In en, this message translates to:
+  /// **'OK'**
+  String get dialogOk;
+
+  /// No description provided for @proceedReadingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Proceed Tarot Reading'**
+  String get proceedReadingTitle;
+
+  /// No description provided for @proceedReadingContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you want to consume 1 coin to proceed with the reading?'**
+  String get proceedReadingContent;
+
+  /// No description provided for @dialogCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get dialogCancel;
+
+  /// No description provided for @dialogProceed.
+  ///
+  /// In en, this message translates to:
+  /// **'Proceed'**
+  String get dialogProceed;
+
+  /// No description provided for @pickCardsText.
+  ///
+  /// In en, this message translates to:
+  /// **'Pick {count} cards'**
+  String pickCardsText(int count);
+
+  /// No description provided for @layoutFan.
+  ///
+  /// In en, this message translates to:
+  /// **'Fan Shape'**
+  String get layoutFan;
+
+  /// No description provided for @layoutStacked.
+  ///
+  /// In en, this message translates to:
+  /// **'Stacked'**
+  String get layoutStacked;
+
+  /// No description provided for @readingFateFragments.
+  ///
+  /// In en, this message translates to:
+  /// **'Reading the fragments of destiny.'**
+  String get readingFateFragments;
+
+  /// No description provided for @witchTarotReading.
+  ///
+  /// In en, this message translates to:
+  /// **'{witchName}\'s Tarot Reading'**
+  String witchTarotReading(String witchName);
+
+  /// No description provided for @magicDustObtained.
+  ///
+  /// In en, this message translates to:
+  /// **'Obtained +{amount} Magic Dust! ✨'**
+  String magicDustObtained(int amount);
+
+  /// No description provided for @spreadUpright.
+  ///
+  /// In en, this message translates to:
+  /// **'Upright'**
+  String get spreadUpright;
+
+  /// No description provided for @spreadReversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Reversed'**
+  String get spreadReversed;
 }
 
 class _AppLocalizationsDelegate
