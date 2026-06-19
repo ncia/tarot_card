@@ -26,12 +26,12 @@ class _AnimatedVolumeControlState extends State<AnimatedVolumeControl> {
         height: 38,
         child: Stack(
           clipBehavior: Clip.none,
-          alignment: Alignment.centerRight,
+          alignment: Alignment.centerLeft, // Expand to the right
           children: [
             AnimatedPositioned(
               duration: const Duration(milliseconds: 200),
               curve: Curves.easeInOut,
-              right: 0,
+              left: 0, // Pin to the left
               width: _isHovered ? 160 : 38,
               height: 38,
               child: Container(
@@ -42,34 +42,8 @@ class _AnimatedVolumeControlState extends State<AnimatedVolumeControl> {
                 ),
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
-                  mainAxisAlignment: MainAxisAlignment.end,
+                  mainAxisAlignment: MainAxisAlignment.start, // Start from the left
                   children: [
-            if (_isHovered)
-              Expanded(
-                child: SliderTheme(
-                  data: SliderTheme.of(context).copyWith(
-                    trackHeight: 2.0,
-                    thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 6.0),
-                    overlayShape: const RoundSliderOverlayShape(overlayRadius: 12.0),
-                    activeTrackColor: Colors.amberAccent,
-                    inactiveTrackColor: Colors.white24,
-                    thumbColor: Colors.amberAccent,
-                  ),
-                  child: Slider(
-                    value: isMuted ? 0.0 : volume,
-                    min: 0.0,
-                    max: 1.0,
-                    onChanged: (val) {
-                      setState(() {
-                        if (isMuted && val > 0) {
-                          AudioService().toggleMute(); // Unmute if dragging up
-                        }
-                        AudioService().setVolume(val);
-                      });
-                    },
-                  ),
-                ),
-              ),
             GestureDetector(
               onTap: () {
                 setState(() {
@@ -96,6 +70,32 @@ class _AnimatedVolumeControlState extends State<AnimatedVolumeControl> {
                 ),
               ),
             ),
+            if (_isHovered)
+              Expanded(
+                child: SliderTheme(
+                  data: SliderTheme.of(context).copyWith(
+                    trackHeight: 2.0,
+                    thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 6.0),
+                    overlayShape: const RoundSliderOverlayShape(overlayRadius: 12.0),
+                    activeTrackColor: Colors.amberAccent,
+                    inactiveTrackColor: Colors.white24,
+                    thumbColor: Colors.amberAccent,
+                  ),
+                  child: Slider(
+                    value: isMuted ? 0.0 : volume,
+                    min: 0.0,
+                    max: 1.0,
+                    onChanged: (val) {
+                      setState(() {
+                        if (isMuted && val > 0) {
+                          AudioService().toggleMute(); // Unmute if dragging up
+                        }
+                        AudioService().setVolume(val);
+                      });
+                    },
+                  ),
+                ),
+              ),
                   ], // children of Row
                 ), // Row
               ), // Container

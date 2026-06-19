@@ -324,7 +324,7 @@ class MyMenuScreen extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         borderRadius: 16,
         child: Material(
-          color: Colors.transparent,
+          color: Colors.black12,
           child: ListTile(
             contentPadding: EdgeInsets.zero,
             leading: Container(
@@ -417,7 +417,7 @@ class _PushSettingsTileState extends State<_PushSettingsTile> {
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         borderRadius: 16,
         child: Material(
-          color: Colors.transparent,
+          color: Colors.black12,
           child: ListTile(
             contentPadding: EdgeInsets.zero,
             leading: Container(

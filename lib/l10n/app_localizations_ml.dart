@@ -2928,4 +2928,1345 @@ class AppLocalizationsMl extends AppLocalizations {
 
   @override
   String get themePaid => 'പണമടച്ചുള്ള തീം';
+
+  @override
+  String get diaryEmpty =>
+      'ഇതുവരെ ഡയറി കുറിപ്പുകളൊന്നുമില്ല.\nഇന്ന് നിങ്ങളുടെ ഭാഗ്യം പരിശോധിച്ച് ഒരു ഡയറി എഴുതൂ!';
+
+  @override
+  String get diaryTarotConsult => 'ടാരറ്റ് കൺസൾട്ടേഷൻ';
+
+  @override
+  String get diaryTarotReading => 'ടാരറ്റ് വായന';
+
+  @override
+  String diaryAndMore(int count) {
+    return 'കൂടാതെ $count കൂടുതൽ';
+  }
+
+  @override
+  String diaryDaysAgo(int days) {
+    return '$daysദിവസം മുമ്പ്';
+  }
+
+  @override
+  String diaryHoursAgo(int hours) {
+    return '$hoursമണിക്കൂർ മുമ്പ്';
+  }
+
+  @override
+  String diaryMinutesAgo(int minutes) {
+    return '$minutesമിനിറ്റ് മുമ്പ്';
+  }
+
+  @override
+  String get diaryJustNow => 'ഇപ്പോള്';
+
+  @override
+  String get diaryNoEntryForDate => 'ഈ തീയതിക്ക് വായന രേഖകളൊന്നുമില്ല.';
+
+  @override
+  String get diaryMyQuestion => 'എൻ്റെ ചോദ്യം';
+
+  @override
+  String get diaryWitchReading => 'ൻ്റെ ടാരറ്റ് വായന';
+
+  @override
+  String get diaryNoResult => 'ഫലങ്ങളൊന്നും ലഭ്യമല്ല.';
+
+  @override
+  String get diaryFollowUpTitle => 'ഫോളോ-അപ്പ് കുറിപ്പ്';
+
+  @override
+  String get diaryFollowUpHint =>
+      'കുറച്ച് ദിവസങ്ങൾക്ക് ശേഷം വായന കൃത്യമാണോ എന്ന് രേഖപ്പെടുത്തുക.';
+
+  @override
+  String get diaryFollowUpPlaceholder => 'വായന എങ്ങനെ മാറി?';
+
+  @override
+  String get diaryFollowUpSave => 'ഫോളോ-അപ്പ് സംരക്ഷിക്കുക';
+
+  @override
+  String get diaryFollowUpSaved => 'ഫോളോ-അപ്പ് സംരക്ഷിച്ചു!';
+
+  @override
+  String get diaryFollowUpEdit => 'ഫോളോ-അപ്പ് എഡിറ്റ് ചെയ്യുക';
+
+  @override
+  String get diaryTagTitle => 'ടാഗുകൾ';
+
+  @override
+  String get diaryTagAddHint => 'പുതിയ ടാഗ് നൽകുക';
+
+  @override
+  String get diaryTagDeleteConfirm => 'ഈ ടാഗ് ഇല്ലാതാക്കണോ?';
+
+  @override
+  String get diaryTagDelete => 'ഇല്ലാതാക്കുക';
+
+  @override
+  String get diaryDeleteTitle => 'ഡയറി ഇല്ലാതാക്കുക';
+
+  @override
+  String get diaryDeleteConfirm =>
+      'ഈ ഡയറി കുറിപ്പ് ഇല്ലാതാക്കണോ? ഇത് പഴയപടിയാക്കാനാകില്ല.';
+
+  @override
+  String get communityTitle => 'സമൂഹം';
+
+  @override
+  String get communityErrorLoading =>
+      'ഡാറ്റ ലോഡുചെയ്യുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു.';
+
+  @override
+  String get communityEmptyFeed =>
+      'ഇതുവരെ പൊതു ടാരറ്റ് ഡയറികളൊന്നുമില്ല.\nനിങ്ങളുടെ ഡയറി പങ്കിടുന്ന ആദ്യത്തെയാളാകൂ!';
+
+  @override
+  String get communityNoInterpretation => 'വ്യാഖ്യാനമില്ല.';
+
+  @override
+  String get communityLike => 'ഇഷ്ടപ്പെടുക';
+
+  @override
+  String get communityComments => 'അഭിപ്രായങ്ങൾ';
+
+  @override
+  String get communityFirstCommentPrompt =>
+      'ഒരു അഭിപ്രായം ഇടുന്ന ആദ്യത്തെയാളാകൂ!';
+
+  @override
+  String get communityCommentInputHint => 'ഒരു അഭിപ്രായം എഴുതൂ...';
+
+  @override
+  String get communityCommentFailed => 'അഭിപ്രായം ചേർക്കുന്നതിൽ പരാജയപ്പെട്ടു:';
+
+  @override
+  String get communityLoginRequired => 'ലോഗിൻ ആവശ്യമാണ്.';
+
+  @override
+  String get communityReportTitle => 'റിപ്പോർട്ട് ചെയ്യുക';
+
+  @override
+  String get communityReportHint => 'റിപ്പോർട്ട് ചെയ്യാനുള്ള കാരണം നൽകുക';
+
+  @override
+  String get communityReportCancel => 'റദ്ദാക്കുക';
+
+  @override
+  String get communityReportSubmit => 'റിപ്പോർട്ട് ചെയ്യുക';
+
+  @override
+  String get communityReportSuccess => 'റിപ്പോർട്ട് സമർപ്പിച്ചിട്ടുണ്ട്.';
+
+  @override
+  String get communityTarotQuestion => 'ചോദ്യം. ടാരറ്റ് ചോദ്യം';
+
+  @override
+  String get communityNoName => 'പേരില്ലാത്ത മന്ത്രവാദിനി';
+
+  @override
+  String get diaryShareToCommunity => 'കമ്മ്യൂണിറ്റിയിലേക്ക് പങ്കിടുക';
+
+  @override
+  String get diarySharedSuccess => 'സമൂഹവുമായി പങ്കിട്ടു.';
+
+  @override
+  String get diaryPrivateSuccess => 'സ്വകാര്യമായി സജ്ജമാക്കുക.';
+
+  @override
+  String get growthTitle => 'വളർച്ച';
+
+  @override
+  String get growthSubtitle =>
+      'ടാരറ്റ് കാർഡുകൾ ശക്തിപ്പെടുത്താൻ മാന്ത്രിക ശക്തി ശേഖരിക്കുക';
+
+  @override
+  String get growthTabCrystalBall => 'ക്രിസ്റ്റൽ ബോൾ നവീകരണം';
+
+  @override
+  String get growthTabWorldTree => 'വേൾഡ് ട്രീ വളർത്തുക';
+
+  @override
+  String growthWorldTreeLevel(int level) {
+    return 'വേൾഡ് ട്രീ ലെവൽ $level';
+  }
+
+  @override
+  String get growthExp => 'കാലഹരണപ്പെടൽ:';
+
+  @override
+  String get growthWaterFree => 'സൗജന്യമായി വെള്ളം';
+
+  @override
+  String get growthWaterSuccess => 'വേൾഡ് ട്രീ നനച്ചു! കാലഹരണപ്പെടൽ +10 💧';
+
+  @override
+  String growthDustOwned(int dust) {
+    return 'മാന്ത്രിക പൊടിയുടെ ഉടമസ്ഥതയിലുള്ളത്: $dust';
+  }
+
+  @override
+  String growthCrystalBallLevel(int level) {
+    return 'മിസ്റ്റിക് ക്രിസ്റ്റൽ ബോൾ ലെവൽ $level';
+  }
+
+  @override
+  String get growthUpgradeButton => 'നവീകരിക്കുക (10 പൊടി)';
+
+  @override
+  String get growthUpgradeSuccess => 'ക്രിസ്റ്റൽ ബോൾ അപ്‌ഗ്രേഡ് വിജയകരം! ✨';
+
+  @override
+  String get growthUpgradeNotEnough =>
+      'മതിയായ മാന്ത്രിക പൊടി ഇല്ല. (ആവശ്യമുള്ളത്: 10)';
+
+  @override
+  String get diaryViewList => 'ലിസ്റ്റ് കാഴ്ച';
+
+  @override
+  String get diaryViewCalendar => 'കലണ്ടർ കാഴ്ച';
+
+  @override
+  String get tarotMajor00Name => 'വിഡ്ഢി';
+
+  @override
+  String get tarotMajor00Upright =>
+      'പുതിയ തുടക്കങ്ങൾ, സാഹസികത, അനന്തമായ സാധ്യതകൾ, സ്വാതന്ത്ര്യം, നിരപരാധിത്വം';
+
+  @override
+  String get tarotMajor00Reversed =>
+      'അശ്രദ്ധ, മണ്ടത്തരം, ശ്രദ്ധയില്ലായ്മ, വലിയ അപകടസാധ്യത, പ്രായോഗികമല്ലാത്തത്.';
+
+  @override
+  String get tarotMajor01Name => 'മാന്ത്രികൻ';
+
+  @override
+  String get tarotMajor01Upright =>
+      'സർഗ്ഗാത്മകത, ഇച്ഛാശക്തി, കഴിവ്, പുതിയ തുടക്കങ്ങളുടെ ശക്തി, നിശ്ചയദാർഢ്യം';
+
+  @override
+  String get tarotMajor01Reversed =>
+      'വഞ്ചന, പാഴായ കഴിവ്, കബളിപ്പിക്കൽ, ആത്മവിശ്വാസമില്ലായ്മ, ഒളിഞ്ഞിരിക്കുന്ന ലക്ഷ്യങ്ങൾ.';
+
+  @override
+  String get tarotMajor02Name => 'പ്രധാന പുരോഹിത';
+
+  @override
+  String get tarotMajor02Upright =>
+      'അന്തർജ്ഞാനം, അബോധാവസ്ഥ, രഹസ്യം, ജ്ഞാനം, ഉള്ളിലെ ശബ്ദം';
+
+  @override
+  String get tarotMajor02Reversed =>
+      'അന്തർജ്ഞാനം അവഗണിക്കുക, ആഴം കുറഞ്ഞ അറിവ്, ഒളിഞ്ഞിരിക്കുന്ന ശത്രുക്കൾ, രഹസ്യങ്ങൾ ചോർത്തൽ';
+
+  @override
+  String get tarotMajor03Name => 'മഹാറാണി';
+
+  @override
+  String get tarotMajor03Upright =>
+      'സമൃദ്ധി, മാതൃത്വം, സൗന്ദര്യം, സ്വാഭാവിക ഫലപ്രാപ്തി, സർഗ്ഗാത്മകത';
+
+  @override
+  String get tarotMajor03Reversed =>
+      'അമിത സംരക്ഷണം, ആശ്രയം, സർഗ്ഗാത്മകതയുടെ കുറവ്, മടി, സ്തംഭനാവസ്ഥ';
+
+  @override
+  String get tarotMajor04Name => 'ചക്രവർത്തി';
+
+  @override
+  String get tarotMajor04Upright =>
+      'അധികാരം, ഘടന, സ്ഥിരത, പിതൃസ്നേഹം, നിയന്ത്രണം, ഉത്തരവാദിത്തം';
+
+  @override
+  String get tarotMajor04Reversed =>
+      'ഏകാധിപത്യം, ആധിപത്യം സ്ഥാപിക്കാനുള്ള ആഗ്രഹം, അയവില്ലായ്മ, കഴിവില്ലായ്മ, അടിച്ചമർത്തൽ';
+
+  @override
+  String get tarotMajor05Name => 'ഹൈറോഫന്റ്';
+
+  @override
+  String get tarotMajor05Upright =>
+      'പാരമ്പര്യം, വിശ്വാസം, വിദ്യാഭ്യാസം, ആത്മീയ മാർഗ്ഗനിർദ്ദേശം, യാഥാസ്ഥിതികത്വം';
+
+  @override
+  String get tarotMajor05Reversed =>
+      'വിപ്ലവം, പതിവ് തെറ്റിക്കൽ, യാഥാസ്ഥിതികത്വം, പഴയ ആശയങ്ങൾ, മോശം ഉപദേശം.';
+
+  @override
+  String get tarotMajor06Name => 'പ്രണയികൾ';
+
+  @override
+  String get tarotMajor06Upright =>
+      'സ്നേഹം, ഐക്യം, ബന്ധങ്ങൾ, പ്രധാനപ്പെട്ട തിരഞ്ഞെടുപ്പുകൾ, വിശ്വാസം';
+
+  @override
+  String get tarotMajor06Reversed =>
+      'അസന്തുഷ്ടി, മോശം തിരഞ്ഞെടുപ്പുകൾ, വിശ്വാസക്കുറവ്, പ്രലോഭനം, അസന്തുലിതാവസ്ഥ.';
+
+  @override
+  String get tarotMajor07Name => 'രഥം';
+
+  @override
+  String get tarotMajor07Upright =>
+      'ഇച്ഛാശക്തി, വിജയം, നിശ്ചയദാർഢ്യം, ദിശാബോധം, വിജയത്തിലേക്കുള്ള മുന്നേറ്റം';
+
+  @override
+  String get tarotMajor07Reversed =>
+      'നിയന്ത്രണം നഷ്ടപ്പെടുക, ദിശാബോധമില്ലായ്മ, നിസ്സഹായത, ആക്രമണം, തടസ്സങ്ങൾ';
+
+  @override
+  String get tarotMajor08Name => 'ശക്തി';
+
+  @override
+  String get tarotMajor08Upright =>
+      'ധൈര്യം, സ്ഥിരോത്സാഹം, ആന്തരിക ശക്തി, സൗമ്യമായ നിയന്ത്രണം, ദയ.';
+
+  @override
+  String get tarotMajor08Reversed =>
+      'ഭയം, ബലഹീനത, ആത്മനിയന്ത്രണം നഷ്ടപ്പെടൽ, എടുത്തുചാട്ടം, അഹങ്കാരം.';
+
+  @override
+  String get tarotMajor09Name => 'സന്യാസി';
+
+  @override
+  String get tarotMajor09Upright =>
+      'ആന്തരിക പര്യവേക്ഷണം, ജ്ഞാനം, ഏകാന്തത, പ്രബുദ്ധത, ആത്മീയ ഉപദേഷ്ടാവ്';
+
+  @override
+  String get tarotMajor09Reversed =>
+      'ഒറ്റപ്പെടൽ, ഏകാന്തത, ഒളിച്ചോട്ടം, മണ്ടൻ വാശി, seclusion';
+
+  @override
+  String get tarotMajor10Name => 'ഭാഗ്യചക്രം';
+
+  @override
+  String get tarotMajor10Upright =>
+      'വഴിത്തിരിവ്, വിധി, ഭാഗ്യം, നിരന്തരമായ മാറ്റം, അവസരം';
+
+  @override
+  String get tarotMajor10Reversed =>
+      'നിർഭാഗ്യം, ചെറുത്തുനിൽപ്പ്, അനിയന്ത്രിതമായ മാറ്റം, നിർഭാഗ്യത്തിന്റെ ആവർത്തനം';
+
+  @override
+  String get tarotMajor11Name => 'നീതി';
+
+  @override
+  String get tarotMajor11Upright =>
+      'നീതി, സത്യം, പ്രതികാരം, സന്തുലിതാവസ്ഥ, യുക്തിപരമായ തീരുമാനം';
+
+  @override
+  String get tarotMajor11Reversed =>
+      'അനീതി, പക്ഷപാതം, സത്യസന്ധതയില്ലായ്മ, അനിവാര്യമായ ശിക്ഷ, അസന്തുലിതാവസ്ഥ';
+
+  @override
+  String get tarotMajor12Name => 'തൂക്കിക്കൊല്ലപ്പെട്ട മനുഷ്യൻ';
+
+  @override
+  String get tarotMajor12Upright =>
+      'ത്യാഗം, പുതിയ കാഴ്ചപ്പാട്, കാത്തിരിപ്പ്, ഉൾക്കാഴ്ച, താൽക്കാലിക വിരാമം.';
+
+  @override
+  String get tarotMajor12Reversed =>
+      'അർത്ഥമില്ലാത്ത ത്യാഗം, കാലതാമസം, പുരോഗതി നിഷേധിക്കൽ, സ്വാർത്ഥത';
+
+  @override
+  String get tarotMajor13Name => 'മരണം';
+
+  @override
+  String get tarotMajor13Upright =>
+      'അവസാനവും പുതിയ തുടക്കവും, മാറ്റം, സംക്രമണം, ഭൂതകാലത്തെ ഇല്ലാതാക്കൽ';
+
+  @override
+  String get tarotMajor13Reversed =>
+      'മാറ്റത്തോടുള്ള പ്രതിരോധം, സ്തംഭനാവസ്ഥ, പഴയതിനോടുള്ള അഭിനിവേശം, ഭയം';
+
+  @override
+  String get tarotMajor14Name => 'സംയമനം';
+
+  @override
+  String get tarotMajor14Upright =>
+      'ഐക്യം, സന്തുലിതാവസ്ഥ, മിതത്വം, രോഗശാന്തി, ലക്ഷ്യബോധം';
+
+  @override
+  String get tarotMajor14Reversed =>
+      'അസന്തുലിതാവസ്ഥ, അതിരുവിട്ട പെരുമാറ്റം, അക്രമ സ്വഭാവം, അസ്വാസ്ഥ്യം, സംഘർഷം';
+
+  @override
+  String get tarotMajor15Name => 'പിശാച്';
+
+  @override
+  String get tarotMajor15Upright =>
+      'അഭിനിവേശം, ഭൗതികവാദം, ബന്ധനം, പ്രലോഭനം, വിനാശകരമായ ആഗ്രഹങ്ങൾ.';
+
+  @override
+  String get tarotMajor15Reversed =>
+      'വിമോചനം, ബന്ധനത്തിൽ നിന്നുള്ള സ്വാതന്ത്ര്യം, സ്വാതന്ത്ര്യം, പ്രബുദ്ധത, സ്വാതന്ത്ര്യം';
+
+  @override
+  String get tarotMajor16Name => 'ഗോപുരം';
+
+  @override
+  String get tarotMajor16Upright =>
+      'അപ്രതീക്ഷിത മാറ്റം, നാശം, വിമോചനം, വെളിപ്പെടുത്തൽ, തകർച്ച';
+
+  @override
+  String get tarotMajor16Reversed =>
+      'ദുരന്തം ഒഴിവാക്കുക, അനിവാര്യമായ മാറ്റം വൈകിപ്പിക്കുക, മുന്നറിയിപ്പുകൾ അവഗണിക്കുക';
+
+  @override
+  String get tarotMajor17Name => 'നക്ഷത്രം';
+
+  @override
+  String get tarotMajor17Upright =>
+      'പ്രതീക്ഷ, പ്രചോദനം, ശാന്തത, രോഗശാന്തിയും സ്ഥിരീകരണവും, ആത്മീയ മാർഗ്ഗനിർദ്ദേശം';
+
+  @override
+  String get tarotMajor17Reversed =>
+      'നിരാശ, നിരാശ, പ്രചോദനമില്ലായ്മ, നിഷേധാത്മക ചിന്ത, ആശയക്കുഴപ്പം';
+
+  @override
+  String get tarotMajor18Name => 'ചന്ദ്രൻ';
+
+  @override
+  String get tarotMajor18Upright =>
+      'ഉത്കണ്ഠ, മിഥ്യാബോധം, ഉൾക്കാഴ്ച, മറഞ്ഞിരിക്കുന്ന സത്യം, വഞ്ചന';
+
+  @override
+  String get tarotMajor18Reversed =>
+      'ഭയം അതിജീവിക്കുക, രഹസ്യങ്ങൾ കണ്ടെത്തുക, ഉത്കണ്ഠ കുറയ്ക്കുക, സത്യം വെളിപ്പെടുത്തുക';
+
+  @override
+  String get tarotMajor19Name => 'സൂര്യൻ';
+
+  @override
+  String get tarotMajor19Upright =>
+      'വിജയം, പോസിറ്റീവ് ചിന്ത, ഊർജ്ജം, സന്തോഷവും നേട്ടവും, ആനന്ദം';
+
+  @override
+  String get tarotMajor19Reversed =>
+      'വൈകിയ വിജയത്തിന്റെ മറുവശം, അതിശയോക്തി, ഊർജ്ജമില്ലായ്മ, ദുഃഖം.';
+
+  @override
+  String get tarotMajor20Name => 'ന്യായവിധി';
+
+  @override
+  String get tarotMajor20Upright =>
+      'പുനരുത്ഥാനം, നിശ്ചയദാർഢ്യം, ക്ഷമ, പുതിയ വിളി, ആന്തരിക ഉണർവ്';
+
+  @override
+  String get tarotMajor20Reversed =>
+      'പശ്ചാത്താപം, ആത്മസംശയം, മാറ്റത്തോടുള്ള ഭയം, ഖേദം, ശിക്ഷ';
+
+  @override
+  String get tarotMajor21Name => 'ലോകം';
+
+  @override
+  String get tarotMajor21Upright =>
+      'പൂർത്തീകരണം, നേട്ടം, ഏകീകരണം, പുതിയ തലം, വിജയകരമായ പൂർത്തീകരണം';
+
+  @override
+  String get tarotMajor21Reversed =>
+      'അപൂർണ്ണത, മാറ്റിവെക്കൽ, സ്തംഭനാവസ്ഥ, വിജയത്തെക്കുറിച്ചുള്ള ഭയം, മടി.';
+
+  @override
+  String get tarotCups01Name => 'ഏസ് ഓഫ് കപ്പുകൾ';
+
+  @override
+  String get tarotCups01Upright =>
+      'പുതിയ വികാരങ്ങൾ, പ്രണയത്തിന്റെ തുടക്കം, ഉൾക്കാഴ്ച, ആത്മീയ പൂർണ്ണത';
+
+  @override
+  String get tarotCups01Reversed =>
+      'തടസ്സപ്പെട്ട വികാരങ്ങൾ, സ്നേഹമില്ലായ്മ, ശൂന്യത, ദുഃഖം.';
+
+  @override
+  String get tarotCups02Name => 'രണ്ട് കപ്പുകൾ';
+
+  @override
+  String get tarotCups02Upright =>
+      'ബന്ധങ്ങളിലെ ഐക്യം, ഒരുമ, സ്നേഹം, പരസ്പര ബഹുമാനം, സഹകരണം';
+
+  @override
+  String get tarotCups02Reversed =>
+      'ബന്ധങ്ങളിലെ അസന്തുഷ്ടി, വേർപാട്, തെറ്റിദ്ധാരണ, അസന്തുലിതാവസ്ഥ, പ്രതികരിക്കാത്ത സ്നേഹം';
+
+  @override
+  String get tarotCups03Name => 'മൂന്ന് കപ്പുകൾ';
+
+  @override
+  String get tarotCups03Upright =>
+      'ആഘോഷം, സൗഹൃദം, സമൂഹം, സന്തോഷം, സർഗ്ഗാത്മക ഫലപ്രാപ്തി.';
+
+  @override
+  String get tarotCups03Reversed =>
+      'അമിത മദ്യപാനം, അകൽച്ച, സംഘങ്ങൾ, പ്രണയ ത്രികോണങ്ങൾ, ഉത്സവങ്ങൾ റദ്ദാക്കൽ.';
+
+  @override
+  String get tarotCups04Name => 'നാല് കപ്പുകൾ';
+
+  @override
+  String get tarotCups04Upright =>
+      'നിസ്സംഗത, വിരസത, ധ്യാനം, നഷ്ടപ്പെട്ട അവസരങ്ങൾ, ആന്തരിക പ്രതിഫലനം.';
+
+  @override
+  String get tarotCups04Reversed =>
+      'പുതിയ അവബോധം, അവസരങ്ങൾ മുതലെടുക്കുക, പുനരുജ്ജീവിപ്പിക്കൽ, ഉണർവ്';
+
+  @override
+  String get tarotCups05Name => 'അഞ്ച് കപ്പുകൾ';
+
+  @override
+  String get tarotCups05Upright =>
+      'നഷ്ടം, ദുഃഖം, ഭൂതകാലത്തെക്കുറിച്ചുള്ള ഖേദം, നിഷേധാത്മക ചിന്ത';
+
+  @override
+  String get tarotCups05Reversed =>
+      'നഷ്ടം അതിജീവിക്കുക, അംഗീകാരം, രോഗശാന്തി, പുതിയ പ്രതീക്ഷ കണ്ടെത്തൽ';
+
+  @override
+  String get tarotCups06Name => 'ആറ് കപ്പുകൾ';
+
+  @override
+  String get tarotCups06Upright =>
+      'ഭൂതകാലത്തെക്കുറിച്ചുള്ള ഗൃഹാതുരത, ബാല്യം, നിരപരാധിത്വം, പഴയ സുഹൃത്തുക്കൾ, ഓർമ്മകൾ';
+
+  @override
+  String get tarotCups06Reversed =>
+      'ഭൂതകാലത്തിൽ കുടുങ്ങിക്കിടക്കുക, ഭാവിയെ അവഗണിക്കുക, സ്വാതന്ത്ര്യം, വളർച്ച';
+
+  @override
+  String get tarotCups07Name => 'ഏഴ് കപ്പുകൾ';
+
+  @override
+  String get tarotCups07Upright =>
+      'ഫാന്റസി, സ്വപ്നം, തിരഞ്ഞെടുപ്പിലെ ആശയക്കുഴപ്പം, ഒളിച്ചോട്ടം, ദിവാസ്വപ്നം';
+
+  @override
+  String get tarotCups07Reversed =>
+      'യാഥാർത്ഥ്യത്തെ അഭിമുഖീകരിക്കുക, വ്യക്തമായ ലക്ഷ്യങ്ങൾ, മിഥ്യാധാരണകളിൽ നിന്ന് ഉണരുക, നിശ്ചയദാർഢ്യം';
+
+  @override
+  String get tarotCups08Name => 'എട്ട് കപ്പുകൾ';
+
+  @override
+  String get tarotCups08Upright =>
+      'നിരാശ, ഉപേക്ഷിക്കൽ, കൂടുതൽ ആഴത്തിലുള്ള അർത്ഥം തേടി ഉപേക്ഷിക്കുകയും രാജിവെക്കുകയും ചെയ്യുക.';
+
+  @override
+  String get tarotCups08Reversed =>
+      'വിട്ടുപോകാൻ കഴിയാതെ, ഭൂതകാലത്തിൽ മുറുകെ പിടിക്കുക, ബന്ധങ്ങൾ പുനഃസ്ഥാപിക്കുക, ഭയം';
+
+  @override
+  String get tarotCups09Name => 'ഒമ്പത് കപ്പുകൾ';
+
+  @override
+  String get tarotCups09Upright =>
+      'ആഗ്രഹം നിറവേറ്റൽ, സംതൃപ്തി, ലൈംഗിക ആനന്ദം, ആത്മാഭിമാനം, സന്തോഷം';
+
+  @override
+  String get tarotCups09Reversed =>
+      'അസംതൃപ്തി, വ്യർത്ഥത, ഉപരിപ്ലവമായ വിജയം, അത്യാഗ്രഹം, അത്യാഗ്രഹം.';
+
+  @override
+  String get tarotCups10Name => 'പത്ത് കപ്പുകൾ';
+
+  @override
+  String get tarotCups10Upright =>
+      'കുടുംബ സന്തോഷം, സമാധാനം, വൈകാരിക പൂർണ്ണത, സൗഹൃദപരമായ ബന്ധങ്ങൾ';
+
+  @override
+  String get tarotCups10Reversed =>
+      'കുടുംബത്തിലെ കലഹം, തകർന്ന വീട്, അസന്തുഷ്ടി, സമാധാനം നഷ്ടപ്പെടൽ';
+
+  @override
+  String get tarotCups11Name => 'പേജ് ഓഫ് കപ്പുകൾ';
+
+  @override
+  String get tarotCups11Upright =>
+      'പുതിയ പ്രചോദനം, സർഗ്ഗാത്മകത, വൈകാരിക സന്ദേശം, ഉൾക്കാഴ്ച';
+
+  @override
+  String get tarotCups11Reversed =>
+      'വൈകാരിക പക്വതയില്ലായ്മ, സർഗ്ഗാത്മക തടസ്സം, മോശം വാർത്ത, ക്ഷോഭം.';
+
+  @override
+  String get tarotCups12Name => 'നൈറ്റ് ഓഫ് കപ്പുകൾ';
+
+  @override
+  String get tarotCups12Upright =>
+      'പ്രണയം, ആകർഷണം, വൈകാരിക പ്രവേശനം, ഭാവന, ധീരത';
+
+  @override
+  String get tarotCups12Reversed =>
+      'യാഥാർത്ഥ്യമില്ലായ്മ, ചാഞ്ചാട്ടം, അസൂയ, വിശ്വാസ്യതയില്ലായ്മ, വഞ്ചന';
+
+  @override
+  String get tarotCups13Name => 'ക്വീൻ ഓഫ് കപ്പുകൾ';
+
+  @override
+  String get tarotCups13Upright =>
+      'സഹാനുഭൂതി, ദയ, ആത്മീയ ഉൾക്കാഴ്ച, വൈകാരിക സ്ഥിരത, പരിഗണന';
+
+  @override
+  String get tarotCups13Reversed =>
+      'അമിതമായ വൈകാരികത, അസ്ഥിരത, ആശ്രയം, ഇരയാകാനുള്ള ഭാവം';
+
+  @override
+  String get tarotCups14Name => 'കിംഗ് ഓഫ് കപ്പുകൾ';
+
+  @override
+  String get tarotCups14Upright =>
+      'വൈകാരിക നിയന്ത്രണം, സന്തുലിതാവസ്ഥ, നയതന്ത്രം, സഹിഷ്ണുത, വിവേകപൂർണ്ണമായ ഉപദേശം.';
+
+  @override
+  String get tarotCups14Reversed =>
+      'വൈകാരികമായി ചൂഷണം ചെയ്യുന്ന, നിഷ്കരുണം, അസ്ഥിരമായ, പെട്ടെന്ന് ദേഷ്യം വരുന്ന, ദയയില്ലാത്ത.';
+
+  @override
+  String get tarotPentacles01Name => 'ഏസ് ഓഫ് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles01Upright =>
+      'പുതിയ അവസരങ്ങൾ, സാമ്പത്തിക തുടക്കങ്ങൾ, സമൃദ്ധി, യഥാർത്ഥ നേട്ടങ്ങൾ.';
+
+  @override
+  String get tarotPentacles01Reversed =>
+      'നഷ്ടപ്പെട്ട അവസരങ്ങൾ, സാമ്പത്തിക നഷ്ടങ്ങൾ, കാലതാമസം, മോശം നിക്ഷേപങ്ങൾ.';
+
+  @override
+  String get tarotPentacles02Name => 'രണ്ട് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles02Upright =>
+      'സന്തുലിതാവസ്ഥ, പൊരുത്തപ്പെടാനുള്ള കഴിവ്, സമയം/സാമ്പത്തിക മാനേജ്മെന്റ്, വഴക്കം';
+
+  @override
+  String get tarotPentacles02Reversed =>
+      'അസന്തുലിതാവസ്ഥ, ഭാരം, സാമ്പത്തിക ബുദ്ധിമുട്ടുകൾ, സമ്മർദ്ദം';
+
+  @override
+  String get tarotPentacles03Name => 'മൂന്ന് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles03Upright =>
+      'ടീം വർക്ക്, സഹകരണം, സാങ്കേതികവിദ്യ, അംഗീകരിക്കപ്പെട്ട പരിശ്രമം, വാസ്തുവിദ്യ';
+
+  @override
+  String get tarotPentacles03Reversed =>
+      'സഹകരണമില്ലായ്മ, കഴിവില്ലായ്മ, അംഗീകാരമില്ലായ്മ, അഭിപ്രായവ്യത്യാസം.';
+
+  @override
+  String get tarotPentacles04Name => 'നാല് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles04Upright =>
+      'സ്ഥിരത, കൈവശാവകാശം, യാഥാസ്ഥിതികത്വം, പിശുക്ക്, ശേഖരണം';
+
+  @override
+  String get tarotPentacles04Reversed =>
+      'അത്യാഗ്രഹത്തിന്റെ വില ഉപേക്ഷിക്കുക, നഷ്ടം, സാമ്പത്തിക അവഗണന, അഭിനിവേശം.';
+
+  @override
+  String get tarotPentacles05Name => 'അഞ്ച് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles05Upright =>
+      'വിലക്ക്, സാമ്പത്തിക/വൈകാരിക വിലക്ക്, ഒറ്റപ്പെടൽ, പ്രതികൂല സാഹചര്യങ്ങൾ';
+
+  @override
+  String get tarotPentacles05Reversed =>
+      'സാമ്പത്തിക വീണ്ടെടുക്കൽ, സഹായം, പ്രതികൂല സാഹചര്യങ്ങളെ അതിജീവിക്കൽ, നല്ല മാറ്റം.';
+
+  @override
+  String get tarotPentacles06Name => 'ആറ് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles06Upright =>
+      'ദാനധർമ്മം, പങ്കുവെക്കൽ, സ്പോൺസർഷിപ്പ്, നീതി, കൊടുക്കലും വാങ്ങലും';
+
+  @override
+  String get tarotPentacles06Reversed =>
+      'സ്വാർത്ഥത, കടം, അസമത്വം, താഴ്ത്തിക്കെട്ടൽ, ചൂഷണം';
+
+  @override
+  String get tarotPentacles07Name => 'ഏഴ് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles07Upright =>
+      'ക്ഷമ, ദീർഘകാല കാഴ്ചപ്പാട്, പ്രയത്നത്തിനുള്ള പ്രതിഫലം കാത്തിരിക്കുക, മൂല്യനിർണ്ണയം';
+
+  @override
+  String get tarotPentacles07Reversed =>
+      'ക്ഷമയില്ലായ്മ, ഫലമില്ലാത്ത ശ്രമങ്ങൾ, കാലതാമസം, നിരാശ, പരാജയപ്പെട്ട നിക്ഷേപങ്ങൾ.';
+
+  @override
+  String get tarotPentacles08Name => 'എട്ട് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles08Upright =>
+      'കരകൗശലം, പ്രതിബദ്ധത, വിശദാംശങ്ങളിലുള്ള ശ്രദ്ധ, വൈദഗ്ദ്ധ്യം.';
+
+  @override
+  String get tarotPentacles08Reversed =>
+      'വിരസത, പൂർണ്ണതയുടെ കെണി, മടി, അഭിനിവേശം നഷ്ടപ്പെടൽ.';
+
+  @override
+  String get tarotPentacles09Name => 'ഒമ്പത് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles09Upright =>
+      'നേട്ടം, സ്വാതന്ത്ര്യം, ഒഴിവുസമയം, സാമ്പത്തിക സുരക്ഷിതത്വം, സ്വയം പ്രതിഫലം';
+
+  @override
+  String get tarotPentacles09Reversed =>
+      'അമിത ചിലവ്, ഉപരിപ്ലവമായ ആർഭാടം, ആശ്രയം, സാമ്പത്തിക അരക്ഷിതാവസ്ഥ';
+
+  @override
+  String get tarotPentacles10Name => 'പത്ത് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles10Upright =>
+      'കുടുംബ ബിസിനസ്സ്, സമ്പത്ത് ശേഖരണം, പാരമ്പര്യം, സ്ഥിരമായ ജീവിതം, പാരമ്പര്യം';
+
+  @override
+  String get tarotPentacles10Reversed =>
+      'സ്വത്ത് നഷ്ടപ്പെടൽ, കുടുംബ വഴക്ക്, പാരമ്പര്യത്തിനെതിരായ കലാപം, അസ്ഥിരത.';
+
+  @override
+  String get tarotPentacles11Name => 'പേജ് ഓഫ് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles11Upright =>
+      'യഥാർത്ഥ ലക്ഷ്യങ്ങൾ, പുതിയ പഠനങ്ങൾ, അവസരങ്ങൾ, പ്രായോഗികത, ആസൂത്രണം';
+
+  @override
+  String get tarotPentacles11Reversed =>
+      'ആസൂത്രണത്തിലെ കാലതാമസം, പ്രായോഗികതയില്ലായ്മ, മടി, കാര്യങ്ങൾ നീട്ടിവെക്കൽ.';
+
+  @override
+  String get tarotPentacles12Name => 'നൈറ്റ് ഓഫ് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles12Upright =>
+      'ആത്മാർത്ഥത, ഉത്തരവാദിത്തം, സ്ഥിരോത്സാഹം, ക്രമാനുഗതമായ വികസനം, വിശ്വാസ്യത';
+
+  @override
+  String get tarotPentacles12Reversed =>
+      'വാശി, ആലസ്യം, അമിത ജോലി, വഴക്കമില്ലായ്മ, സ്തംഭനാവസ്ഥ';
+
+  @override
+  String get tarotPentacles13Name => 'ക്വീൻ ഓഫ് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles13Upright =>
+      'പ്രായോഗിക പരിചരണം, പ്രായോഗിക ഉപദേശം, സമൃദ്ധി, ഔദാര്യം, ആശ്വാസം.';
+
+  @override
+  String get tarotPentacles13Reversed =>
+      'അമിത നിയന്ത്രണം, കൈവശാവകാശം, സ്വാർത്ഥത, സാമ്പത്തിക അരക്ഷിതാവസ്ഥ, അമിത ചിലവ്.';
+
+  @override
+  String get tarotPentacles14Name => 'കിംഗ് ഓഫ് പെന്റക്കിൾസ്';
+
+  @override
+  String get tarotPentacles14Upright =>
+      'സമ്പത്ത്, വിജയം, ബിസിനസ്സ് ബുദ്ധി, അധികാരം, ശക്തനായ പിന്തുണക്കാരൻ.';
+
+  @override
+  String get tarotPentacles14Reversed =>
+      'ഭൗതികവാദം, അഴിമതി, അത്യാഗ്രഹം, വാശി, അടിച്ചമർത്തുന്ന അധികാരം';
+
+  @override
+  String get tarotSwords01Name => 'ഏസ് ഓഫ് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords01Upright =>
+      'വ്യക്തമായ ഉൾക്കാഴ്ച, പുതിയ ചിന്തകൾ, സത്യം, ആത്മീയമായ മുന്നേറ്റം';
+
+  @override
+  String get tarotSwords01Reversed =>
+      'ആശയക്കുഴപ്പം, തെറ്റായ വിവരങ്ങൾ, വിവേകം നഷ്ടപ്പെടുക, ആശയവിനിമയമില്ലായ്മ';
+
+  @override
+  String get tarotSwords02Name => 'രണ്ട് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords02Upright =>
+      'തീരുമാനമില്ലായ്മ, അന്ധത, വികാരങ്ങളെ തടസ്സപ്പെടുത്തുക, ബുദ്ധിമുട്ടുള്ള തീരുമാനങ്ങൾ ഒഴിവാക്കുക.';
+
+  @override
+  String get tarotSwords02Reversed =>
+      'തീരുമാനങ്ങൾ എടുക്കുക, വസ്തുതകളെ നേരിടുക, വിവരങ്ങളുടെ അഭാവം മൂലം തെറ്റുകൾ വരുത്തുക';
+
+  @override
+  String get tarotSwords03Name => 'മൂന്ന് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords03Upright =>
+      'മനസ്സുഖം, ദുഃഖം, വേർപാട്, മുറിവ്, വേദനാജനകമായ സത്യം.';
+
+  @override
+  String get tarotSwords03Reversed =>
+      'വേദന അതിജീവിക്കുക, രോഗശാന്തി, ക്ഷമ, ദുഃഖം ഉപേക്ഷിക്കുക';
+
+  @override
+  String get tarotSwords04Name => 'നാല് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords04Upright =>
+      'വിശ്രമം, സുഖം പ്രാപിക്കൽ, ധ്യാനം, സമ്മർദ്ദം കുറയ്ക്കൽ, ആന്തരിക സമാധാനം';
+
+  @override
+  String get tarotSwords04Reversed =>
+      'ക്ഷീണം, സുഖം പ്രാപിക്കാൻ വിസമ്മതിക്കുക, നിർബന്ധിത വിശ്രമം, അമിത സമ്മർദ്ദം.';
+
+  @override
+  String get tarotSwords05Name => 'അഞ്ച് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords05Upright =>
+      'വേദനാജനകമായ വിജയം, വഞ്ചന, സംഘർഷം, ശത്രുത, നിസ്സാരത്വം.';
+
+  @override
+  String get tarotSwords05Reversed =>
+      'സംഘർഷം പരിഹരിക്കുക, അനുരഞ്ജനം, വിട്ടുവീഴ്ച, തോൽവി സമ്മതിക്കുക, പ്രതികാരം ഉപേക്ഷിക്കുക';
+
+  @override
+  String get tarotSwords06Name => 'ആറ് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords06Upright =>
+      'സംക്രമണം, വേദനയിൽ നിന്നുള്ള മോചനം, രോഗശാന്തി യാത്ര, ചലനം, യാത്ര';
+
+  @override
+  String get tarotSwords06Reversed =>
+      'മാറ്റത്തോടുള്ള പ്രതിരോധം, ഭൂതകാലത്തിലെ മുറിവുകൾ പിന്നോട്ട് വലിക്കുക, കാര്യങ്ങൾ നീട്ടിവെക്കൽ';
+
+  @override
+  String get tarotSwords07Name => 'ഏഴ് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords07Upright =>
+      'വഞ്ചന, കബളിപ്പിക്കൽ, തന്ത്രം, ഒളിവിൽ പോകൽ, രക്ഷപ്പെടൽ';
+
+  @override
+  String get tarotSwords07Reversed =>
+      'കുറ്റസമ്മതം, രഹസ്യങ്ങൾ വെളിപ്പെടുത്തുക, വഞ്ചന കണ്ടെത്തുക, കുറ്റബോധം, കാര്യങ്ങളെ നേരിട്ട് അഭിമുഖീകരിക്കുക.';
+
+  @override
+  String get tarotSwords08Name => 'എട്ട് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords08Upright =>
+      'ആത്മകേന്ദ്രീകരണം, നിസ്സഹായത, പരിമിതമായ ചിന്ത, ഭയത്തിന്റെ തടവറ';
+
+  @override
+  String get tarotSwords08Reversed =>
+      'വിമോചനം, സ്വന്തം തടവറയിൽ നിന്ന് മോചിതനാകുക, ഒരു പുതിയ കാഴ്ചപ്പാട്';
+
+  @override
+  String get tarotSwords09Name => 'ഒമ്പത് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords09Upright =>
+      'ഉത്കണ്ഠ, നിരാശ, ഉറക്കമില്ലായ്മ, കുറ്റബോധം, ആന്തരിക ഭയം.';
+
+  @override
+  String get tarotSwords09Reversed =>
+      'ഭയം അതിജീവിക്കുക, പ്രതീക്ഷയുടെ കിരണം, ഉറക്കമില്ലായ്മ കുറയ്ക്കുക, വസ്തുതകളെ നേരിടുക';
+
+  @override
+  String get tarotSwords10Name => 'പത്ത് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords10Upright =>
+      'നാശം, ആഴത്തിലുള്ള മുറിവുകൾ, വഞ്ചന, ഏറ്റവും താഴ്ന്ന നിലയിൽ എത്തുക, അവസാനം വരുന്നു.';
+
+  @override
+  String get tarotSwords10Reversed =>
+      'നാശത്തിൽ നിന്നുള്ള വീണ്ടെടുക്കൽ, ഏറ്റവും മോശം കഴിഞ്ഞു, അതിജീവനം, പുനർനിർമ്മാണം';
+
+  @override
+  String get tarotSwords11Name => 'പേജ് ഓഫ് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords11Upright =>
+      'കൗതുകം, മികച്ച വിശകലന ശേഷി, സത്യം തേടൽ, പുതിയ ആശയങ്ങൾ';
+
+  @override
+  String get tarotSwords11Reversed =>
+      'അവിവേകം, ക്ഷമയില്ലായ്മ, നിഷേധാത്മക ചിന്ത, അടിസ്ഥാനമില്ലാത്ത കിംവദന്തികൾ, പരുഷമായ പെരുമാറ്റം';
+
+  @override
+  String get tarotSwords12Name => 'നൈറ്റ് ഓഫ് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords12Upright =>
+      'കുതിച്ചുചാട്ടം, അഭിലാഷം, ബൗദ്ധികമായ മുന്നേറ്റം, വേഗമേറിയതും നിർണ്ണായകവുമായ പ്രവർത്തനം';
+
+  @override
+  String get tarotSwords12Reversed =>
+      'അശ്രദ്ധ, ആക്രമണം, അവിവേകപരമായ വാക്കുകളും പ്രവൃത്തികളും, എടുത്തുചാട്ടം, ദയയില്ലായ്മ';
+
+  @override
+  String get tarotSwords13Name => 'ക്വീൻ ഓഫ് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords13Upright =>
+      'സ്വാതന്ത്ര്യം, വ്യക്തമായ ആശയവിനിമയം, മികച്ച വിവേകം, സത്യസന്ധത, നിഷ്പക്ഷത';
+
+  @override
+  String get tarotSwords13Reversed =>
+      'ഹൃദയമില്ലായ്മ, ദയയില്ലായ്മ, അമിതമായ വിമർശനം, നീരസം, ഒറ്റപ്പെടൽ';
+
+  @override
+  String get tarotSwords14Name => 'കിംഗ് ഓഫ് സ്വോർഡ്സ്';
+
+  @override
+  String get tarotSwords14Upright =>
+      'അധികാരം, ബൗദ്ധിക ഉൾക്കാഴ്ച, യുക്തി, നീതി, തത്വങ്ങൾ, വിദഗ്ദ്ധൻ';
+
+  @override
+  String get tarotSwords14Reversed =>
+      'അധികാര ദുർവിനിയോഗം, യുക്തിയില്ലായ്മ, ക്രൂരത, നിയന്ത്രണത്തിനായുള്ള ആഗ്രഹം, ഏകാധിപത്യം';
+
+  @override
+  String get tarotWands01Name => 'ഏസ് ഓഫ് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands01Upright =>
+      'അഭിനിവേശം, പ്രചോദനം, സർഗ്ഗാത്മക ശക്തി, പുതിയ സാധ്യതകൾ, ഊർജ്ജം';
+
+  @override
+  String get tarotWands01Reversed =>
+      'വൈകിയ ആവേശം, പ്രചോദനമില്ലായ്മ, പ്രചോദനം നഷ്ടപ്പെടൽ, വ്യക്തിത്വ ആശയക്കുഴപ്പം.';
+
+  @override
+  String get tarotWands02Name => 'രണ്ട് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands02Upright =>
+      'ആസൂത്രണം, കാഴ്ചപ്പാട്, ദീർഘകാല ലക്ഷ്യങ്ങൾ, നിശ്ചയദാർഢ്യം, പര്യവേക്ഷണം';
+
+  @override
+  String get tarotWands02Reversed =>
+      'ആസൂത്രണത്തിന്റെ അഭാവം, കാര്യങ്ങൾ നീട്ടിവെക്കൽ, ഭയം മൂലം സ്തംഭനാവസ്ഥ, പരിമിതമായ കാഴ്ചപ്പാട്.';
+
+  @override
+  String get tarotWands03Name => 'മൂന്ന് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands03Upright =>
+      'പ്രതീക്ഷകളുടെ സാക്ഷാത്കാരം, പുരോഗതി, വിപുലീകരണം, ദീർഘവീക്ഷണം, നേതൃത്വം';
+
+  @override
+  String get tarotWands03Reversed =>
+      'വളർച്ചയുടെ മാന്ദ്യം, തിരിച്ചടികൾ, അപ്രതീക്ഷിത വൈകല്യങ്ങൾ, അസഹിഷ്ണുത';
+
+  @override
+  String get tarotWands04Name => 'നാല് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands04Upright =>
+      'ആഘോഷം, ആശ്വാസം, നേട്ടത്തിന്റെ സന്തോഷം, സ്വാഗതം, ഗാർഹിക പരിപാടികൾ';
+
+  @override
+  String get tarotWands04Reversed =>
+      'റദ്ദാക്കിയ പരിപാടികൾ, കുടുംബ വഴക്ക്, താൽക്കാലിക സ്ഥിരത, വൈകിയ ആഘോഷങ്ങൾ.';
+
+  @override
+  String get tarotWands05Name => 'അഞ്ച് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands05Upright =>
+      'മത്സരം, സംഘർഷം, അഭിപ്രായവ്യത്യാസം, വഴക്ക്, വെല്ലുവിളി';
+
+  @override
+  String get tarotWands05Reversed =>
+      'വിട്ടുവീഴ്ച, സംഘർഷം ഒഴിവാക്കൽ, സഹകരണം, സമാധാനം തേടൽ, കലഹം ശമിപ്പിക്കൽ';
+
+  @override
+  String get tarotWands06Name => 'ആറ് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands06Upright =>
+      'വിജയം, പൊതു അംഗീകാരം, വിജയം, ആത്മവിശ്വാസം, നേതാവിന്റെ ഉദയം.';
+
+  @override
+  String get tarotWands06Reversed =>
+      'തോൽവി, അപമാനം, അംഗീകാരമില്ലായ്മ, അഹങ്കാരം, പ്രശസ്തി നഷ്ടപ്പെടൽ';
+
+  @override
+  String get tarotWands07Name => 'ഏഴ് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands07Upright =>
+      'ധൈര്യം, പ്രതിരോധം, മത്സരത്തെ നേരിടുക, ഉറച്ച ബോധ്യം, സ്ഥിരോത്സാഹം.';
+
+  @override
+  String get tarotWands07Reversed =>
+      'ഉപേക്ഷിക്കുക, ഭാരം ഏറ്റെടുക്കുക, വിട്ടുവീഴ്ച ചെയ്യുക, ആത്മവിശ്വാസം നഷ്ടപ്പെടുക, ഭീരുത്വം.';
+
+  @override
+  String get tarotWands08Name => 'എട്ട് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands08Upright =>
+      'വേഗതയേറിയ, പെട്ടെന്നുള്ള അന്ത്യം, വാർത്ത, ചടുലത, വേഗത.';
+
+  @override
+  String get tarotWands08Reversed =>
+      'കാലതാമസം, ആശയക്കുഴപ്പം, തിടുക്കം മൂലം തെറ്റുകൾ, ആശയവിനിമയം നടത്താനുള്ള കഴിവില്ലായ്മ';
+
+  @override
+  String get tarotWands09Name => 'ഒമ്പത് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands09Upright =>
+      'പ്രതിരോധശേഷി, പ്രതിരോധം, ക്ഷീണിച്ചാലും തുടരുക, ജാഗ്രത, സ്റ്റാമിന പരിശോധന.';
+
+  @override
+  String get tarotWands09Reversed =>
+      'ക്ഷീണം, ഭ്രാന്തമായ സംശയം, ഉപേക്ഷിക്കൽ, വാശി, അനാവശ്യമായ പ്രതിരോധം.';
+
+  @override
+  String get tarotWands10Name => 'പത്ത് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands10Upright =>
+      'അമിത ഭാരം, കടുത്ത സമ്മർദ്ദം, ഉത്തരവാദിത്തം, സമ്മർദ്ദം, പരിമിതികൾ.';
+
+  @override
+  String get tarotWands10Reversed =>
+      'ഉപേക്ഷിക്കുക, ഉത്തരവാദിത്തം ഒഴിവാക്കുക, ക്ഷീണം, ചുമതലകൾ ഏൽപ്പിക്കുക, അതിജീവിക്കുക.';
+
+  @override
+  String get tarotWands11Name => 'പേജ് ഓഫ് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands11Upright =>
+      'പര്യവേക്ഷണം, കണ്ടെത്തൽ, തീവ്രമായ ആശയങ്ങൾ, ഊർജ്ജം, ആകർഷണം';
+
+  @override
+  String get tarotWands11Reversed =>
+      'ദിശാബോധം നഷ്ടപ്പെടുക, പക്വതയില്ലായ്മ, എളുപ്പത്തിൽ മടുക്കുക, വ്യർത്ഥമായ മിഥ്യാധാരണകൾ, ഉത്തരവാദിത്തമില്ലായ്മ';
+
+  @override
+  String get tarotWands12Name => 'നൈറ്റ് ഓഫ് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands12Upright =>
+      'തീവ്രമായ മുന്നേറ്റം, സാഹസിക മനോഭാവം, പ്രവർത്തനം, ഊർജ്ജം, ആത്മവിശ്വാസം';
+
+  @override
+  String get tarotWands12Reversed =>
+      'എടുത്തുചാടിയുള്ള പെരുമാറ്റം, അഹങ്കാരം, ചാഞ്ചാട്ടം, കോപം, ആസൂത്രണമില്ലായ്മ.';
+
+  @override
+  String get tarotWands13Name => 'ക്വീൻ ഓഫ് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands13Upright =>
+      'ആകർഷണീയത, ധൈര്യം, സ്വാതന്ത്ര്യം, തിളക്കം, ആകർഷണം, ഊർജ്ജസ്വലത';
+
+  @override
+  String get tarotWands13Reversed =>
+      'സ്വാർത്ഥത, പ്രദർശന മോഹം, അസൂയ, ചാഞ്ചാട്ടം, ആക്രമണം';
+
+  @override
+  String get tarotWands14Name => 'കിംഗ് ഓഫ് വാണ്ട്സ്';
+
+  @override
+  String get tarotWands14Upright =>
+      'ആകർഷണീയമായ നേതൃത്വം, കാഴ്ചപ്പാട്, പ്രചോദനം, ധൈര്യം, സംരംഭകൻ';
+
+  @override
+  String get tarotWands14Reversed =>
+      'ഏകാധിപത്യം, എടുത്തുചാടിയുള്ള കോപം, യാഥാർത്ഥ്യമില്ലായ്മ, അഹങ്കാരം, ദയയില്ലായ്മ';
+
+  @override
+  String get nicknamePrefixes =>
+      'നിഗൂഢമായ, ശാന്തമായ, വിശുദ്ധമായ, ഇരുണ്ട, തിളങ്ങുന്ന, തണുത്ത, ചൂടുള്ള, ആകർഷകമായ, ക്രൂരമായ, ശുദ്ധമായ, പരുക്കൻ, സൗമ്യമായ, മനോഹരമായ, വിചിത്രമായ, മഹത്തായ, മോശം, നിത്യമായ, മറന്നുപോയ, തിളക്കമുള്ള, ദുഃഖിതനായ, സന്തോഷവാനായ, സ്വപ്നതുല്യമായ, അധഃപതിച്ച, ശുദ്ധമായ വെളുപ്പ്, കറുത്ത, രക്തച്ചുവപ്പുള്ള, ചാരനിറമുള്ള, സ്വർണ്ണനിറമുള്ള, വെള്ളിനിറമുള്ള, നീല, ചുവപ്പ്, മഞ്ഞ, കറുപ്പ്, വെളുപ്പ്, സുതാര്യമായ, ഏകാന്തമായ, ശബ്ദമുള്ള, ശാന്തമായ, ഊഷ്മളമായ, തണുത്ത. ഏകാന്തമായ, ഏകാന്തമായ, സന്തോഷമുള്ള, സന്തോഷമുള്ള, വിഷാദമുള്ള, നിരാശയുള്ള, പ്രതീക്ഷയുള്ള, മിന്നുന്ന, സന്ധ്യയുള്ള, ഇരുണ്ട, വിജനമായ, രഹസ്യമായ, രഹസ്യമായ, പവിത്രമായ, അശുദ്ധമായ, അഹങ്കാരിയായ, എളിമയുള്ള, ജ്ഞാനമുള്ള, ഏകാന്തമായ, മണ്ടൻ, ശക്തൻ, ദുർബലൻ, ധീരൻ, ഭീരു, ദൂരെയുള്ള, അടുത്തുള്ള, പിൻവാങ്ങുന്ന, അടുക്കുന്ന, അപ്രത്യക്ഷമാകുന്ന, പ്രത്യക്ഷപ്പെടുന്ന, ഉണരുന്ന, ഉറങ്ങുന്ന, സ്വപ്നം കാണുന്ന, അലഞ്ഞുതിരിയുന്ന, അലഞ്ഞുതിരിയുന്ന, താമസിക്കുന്ന, ഒഴുകിനടക്കുന്ന, ഞാൻ മടങ്ങിവരുന്നു, കാത്തിരിക്കുന്നു, അന്വേഷിക്കുന്നു, മറഞ്ഞിരിക്കുന്നു, വെളിപ്പെടുത്തിയിരിക്കുന്നു, ഉപേക്ഷിക്കപ്പെട്ടു, തിരഞ്ഞെടുക്കപ്പെട്ടു, അനുഗ്രഹിക്കപ്പെട്ടു, ശപിക്കപ്പെട്ടു, സ്നേഹിക്കപ്പെട്ടു, വെറുക്കപ്പെട്ടു, ഓർക്കുന്നു, മറക്കുന്നു, നക്ഷത്രവെളിച്ചത്തിന്റെ, നിലാവിന്റെ, സൂര്യപ്രകാശത്തിന്റെ, പ്രപഞ്ചത്തിന്റെ, ഭൂമിയുടെ, കടലിന്റെ, ആകാശത്തിന്റെ, മേഘങ്ങളുടെ, കാറ്റിന്റെ, മഴയുടെ, മഞ്ഞിന്റെ, ഐസിന്റെ, തീയുടെ, വെള്ളത്തിന്റെ, മണ്ണിന്റെ, മരങ്ങളുടെ, കാടുകളുടെ, പർവതങ്ങളുടെ, നദികളുടെ, തടാകങ്ങളുടെ, സമയത്തിന്റെ, സ്ഥലത്തിന്റെ, മാനങ്ങളുടെ, വിധിയുടെ, നിയതിയുടെ, ശത്രുക്കളുടെ ഊർജ്ജം, മാന്ത്രികതയുടെ, പുരാണത്തിന്റെ, ഐതിഹ്യത്തിന്റെ, സത്യത്തിന്റെ, നുണകളുടെ, ഫാന്റസിയുടെ, സ്വപ്നങ്ങളുടെ, പേടിസ്വപ്നങ്ങളുടെ, നാശത്തിന്റെ, സൃഷ്ടിയുടെ, ജീവിതത്തിന്റെ, മരണത്തിന്റെ, ആത്മാവിന്റെ, മാംസത്തിന്റെ, യുക്തിയുടെ, വികാരത്തിന്റെ, സ്നേഹത്തിന്റെ, വെറുപ്പിന്റെ, ദുഃഖത്തിന്റെ. സന്തോഷത്തിന്റെ, കോപത്തിന്റെ, സമാധാനത്തിന്റെ, യുദ്ധത്തിന്റെ, അരാജകത്വത്തിന്റെ, ക്രമത്തിന്റെ, വെളിച്ചത്തിന്റെ, ഇരുട്ടിന്റെ, സന്ധ്യയുടെ, പ്രഭാതത്തിന്റെ, മധ്യാഹ്നത്തിന്റെ, അർദ്ധരാത്രിയുടെ, ഭൂതകാലത്തിന്റെ, വർത്തമാനകാലത്തിന്റെ, ഭാവിയുടെ, ഉത്ഭവത്തിന്റെ, അന്ത്യത്തിന്റെ, അനന്തമായ, പരിമിതമായ, നിശ്ശബ്ദതയുടെ. ശബ്ദത്തിന്റെ, പാടുന്ന, നൃത്തം ചെയ്യുന്ന, കരയുന്ന, ചിരിക്കുന്ന, മന്ത്രിക്കുന്ന, അലറുന്ന, പ്രാർത്ഥിക്കുന്ന, യാചിക്കുന്ന, കൽപിക്കുന്ന, അനുസരിക്കുന്ന, ഭരിക്കുന്ന, സേവിക്കുന്ന, നയിക്കുന്ന, പിന്തുടരുന്ന, പഠിപ്പിക്കുന്ന, പഠിക്കുന്ന, ഓർമ്മയുടെ, ഓർമ്മകളുടെ, മുറിവുകളുടെ, രോഗശാന്തിയുടെ, വിഷത്തിന്റെ, മരുന്നിന്റെ, മിഥ്യാധാരണയുടെ, പദാർത്ഥത്തിന്റെ, ആദർശത്തിന്റെ, യാഥാർത്ഥ്യത്തിന്റെ, വെർച്വൽ, സ്വാഭാവികമായ, കൃത്രിമമായ, ആദിമമായ, നിത്യതയുടെ, നിമിഷത്തിന്റെ, ക്ഷണികമായ, നിത്യമായ, മാറ്റം, നിർത്തുക. ഒഴുകുന്ന, നിലച്ച, കത്തുന്ന, തണുപ്പിക്കുന്ന, പൂക്കുന്ന, വാടുന്ന, വളരുന്ന, മരിക്കുന്ന, ശ്വാസമെടുക്കുന്ന, ശ്വാസം മുട്ടിക്കുന്ന, തിളക്കമുള്ള, സൂക്ഷ്മമായ, ഇരുണ്ട, മങ്ങിയ, സുതാര്യമായ, നേർത്ത, കണ്ണഞ്ചിപ്പിക്കുന്ന, വിചിത്രമായ. അതുല്യമായ, പ്രത്യേകമായ, ഉന്നതമായ, ശുദ്ധമായ, അഴിമതി നിറഞ്ഞ, ഏകാന്തമായ, ഏകാന്തമായ, വിജനമായ, ദൂരെയുള്ള, കഠിനമായ, ക്രൂരമായ, ക്രൂരമായ, മഹത്തായ, ശക്തമായ, ഉറച്ച, വഴക്കമുള്ള, വേഗമേറിയ, സാവധാനമുള്ള, ശാന്തമായ, അരാജകമായ, ഓർമ്മ, സാങ്കൽപ്പികമായ, നിശ്ശബ്ദമായ, മന്ത്രിക്കുന്ന, പാടുന്ന, നൃത്തം ചെയ്യുന്ന, തേങ്ങുന്ന, പുഞ്ചിരിക്കുന്ന, പരിഹസിക്കുന്ന, ആലോചിക്കുന്ന, അലഞ്ഞുതിരിയുന്ന, അലഞ്ഞുതിരിയുന്ന, ഉണർന്ന, ഉറങ്ങിയ, സ്വപ്നം കാണുന്ന, ദിവാസ്വപ്നം കാണുന്ന. ചെയ്യുന്ന, വ്യാമോഹമുള്ള, പ്രാർത്ഥിക്കുന്ന, ആത്മാർത്ഥമായ, ഹൃദയഭേദകമായ, ഹൃദയഭേദകമായ, ഉദാത്തമായ, ദുഷ്ടനായ, നീചനായ, അഹങ്കാരിയായ, എളിമയുള്ള, ദയയുള്ള, ഊഷ്മളമായ, തണുത്ത, ഭയാനകമായ, വിചിത്രമായ, ഭീതിജനകമായ, ആഹ്ലാദകരമായ, ആകർഷകമായ, തലകറങ്ങുന്ന, മധുരമുള്ള, മധുരവും കയ്പ്പുമുള്ള, കയ്പ്പുള്ള, മുള്ളുള്ള, മൂർച്ചയുള്ള, മങ്ങിയ, പരുക്കൻ, മൃദുവായ, സുഖകരമായ, സൗകര്യപ്രദമായ, അപകടകരമായ, അസ്വസ്ഥമായ, നിർഭയമായ, സമാധാനപരമായ, മന്ദഗതിയിലുള്ള, മടുപ്പിക്കുന്ന, അഭിനിവേശമുള്ള, നിസ്സംഗനായ, ശാന്തമായ, ഭയങ്കരമായ, ഭയങ്കരമായ, ഭ്രാന്തൻ, ഭ്രാന്തൻ, യുക്തിസഹമായ, വൈകാരികമായ, ശാന്തബുദ്ധിയായ, ജ്ഞാനിയായ, മണ്ടനായ, നിഷ്കളങ്കനായ, തന്ത്രശാലിയായ, വഞ്ചകനായ, ശുദ്ധമായ വെളുപ്പ്, കറുത്ത, സ്വർണ്ണനിറമുള്ള, വെള്ളിനിറമുള്ള, രക്തം നിറഞ്ഞ';
+
+  @override
+  String get nicknameSuffixes =>
+      'പ്രവാചകൻ, മാന്ത്രികൻ, മന്ത്രവാദിനി, നൈറ്റ്, യോദ്ധാവ്, ആർച്ചർ, റോക്ക്, കൊലയാളി, പാലാഡിൻ, പുരോഹിതൻ, പുരോഹിത, സന്യാസി, ഷാമൻ, ആൽക്കെമിസ്റ്റ്, നെക്രോമാൻസർ, എലമെന്റലിസ്റ്റ്, സുമനർ, ഇല്യൂഷനിസ്റ്റ്, രോഗശാന്തിക്കാരൻ, സന്യാസി, പണ്ഡിതൻ, ഗവേഷകൻ, പര്യവേക്ഷകൻ, യാത്രക്കാരൻ, ഭരണാധികാരി, അലഞ്ഞുതിരിയുന്നവൻ, അലഞ്ഞുതിരിയുന്നവൻ, തീർത്ഥാടകൻ, അന്വേഷകൻ, നിരീക്ഷകൻ, രേഖപ്പെടുത്തുന്നവൻ, ദൂതൻ, കാവൽക്കാരൻ, കാവൽക്കാരൻ, കാവൽക്കാരൻ, വാതിൽക്കാവൽക്കാരൻ, ന്യായാധിപൻ, ആരാച്ചാർ, ഭരണാധികാരി, ഭരണാധികാരി, രാജാവ്, രാജ്ഞി, ചക്രവർത്തി, ചക്രവർത്തിനി, പ്രഭു, പ്രഭു, നൈറ്റ് കമാൻഡർ, കൂലിപ്പടയാളി, കടൽക്കൊള്ളക്കാരൻ, കള്ളൻ, തട്ടിപ്പുകാരൻ, കോമാളി, മണ്ടൻ, സന്യാസി, മതഭ്രഷ്ടൻ, രാജ്യദ്രോഹി, രാജ്യദ്രോഹി, നായകൻ, രക്ഷകൻ, വിമോചകൻ, നശിപ്പിക്കുന്നവൻ, സ്രഷ്ടാവ്, ദൈവം, ദേവി, മാലാഖ, പിശാച്, ആത്മാവ്, യക്ഷി, രാക്ഷസൻ, മൃഗം, ഡ്രാഗൺ, പ്രേതം, പ്രേതം, അൺഡെഡ്, വാമ്പയർ. , വെയർവോൾഫ്, മത്സ്യകന്യക, സൈറൺ, അപ്സരസ്, ഗോബ്ലിൻ, ഓർക്ക്, ട്രോൾ, എൽഫ്, ഡ്വാർഫ്, ഭീമൻ, ഡ്വാർഫ്, മനുഷ്യൻ, മൃഗരൂപൻ, ചേരുന്നവൻ, മത്സ്യരൂപൻ, ഡ്രാഗൺ, ദുഷ്ടാത്മാവ്, സൂര, അഗാധം, സ്വർഗ്ഗം, അധോലോകം, മറ്റ് ലോകം, അഗാധം, അരാജകത്വം, ക്രമം, വെളിച്ചം, ഇരുട്ട്, അന്വേഷകൻ, തീർത്ഥാടകൻ, അലഞ്ഞുതിരിയുന്നവൻ, സന്യാസി, മതഭ്രഷ്ടൻ, രാജ്യദ്രോഹി, മുന്നോടി, വിജയി, ഭരണാധികാരി, ഏകോപിപ്പിക്കുന്നവൻ, കാവൽക്കാരൻ, നിരീക്ഷകൻ, നിരീക്ഷകൻ, രേഖപ്പെടുത്തുന്നവൻ, ദൂതൻ, വഴികാട്ടി, വഴികാട്ടി, രക്ഷകൻ, നശിപ്പിക്കുന്നവൻ, സ്രഷ്ടാവ്, പ്രേതം, പ്രേതം, പ്രേതം, ദുഷ്ടാത്മാവ്. , ആത്മാവ്, യക്ഷി, മാന്ത്രിക മൃഗം, വിശുദ്ധ മൃഗം, ഫാന്റം മൃഗം, ദിവ്യ മൃഗം, വാളേന്തിയവൻ, നൈറ്റ്, ആർച്ചർ, കള്ളൻ, കൊലയാളി, മാന്ത്രികൻ, ഷാമൻ, ആൽക്കെമിസ്റ്റ്, നെക്രോമാൻസർ, പുരോഹിതൻ, പണ്ഡിതൻ, ഗവേഷകൻ, പര്യവേക്ഷകൻ, യാത്രക്കാരൻ, കലാകാരൻ, വിദൂഷകൻ, കവി, വ്യാപാരി, കരകൗശലക്കാരൻ, കർഷകൻ, കാക്ക, മൂങ്ങ, കഴുകൻ, പരുന്ത്, ചെന്നായ, കുറുക്കൻ, കരടി, സിംഹം, കടുവ, പുള്ളിപ്പുലി, കറുത്ത പുള്ളിപ്പുലി, പൂച്ച, പൂച്ച, നായക്കുട്ടി, പാമ്പ്, പല്ലി, ആമ, മുതല, ഡ്രാഗൺ, യൂണികോൺ, പെഗാസസ്, ഗ്രിഫോൺ, ഗാർഗോയിൽ, ഗോബ്ലിൻ. , ഓർക്ക്, ട്രോൾ, ഓഗ്രെ, സ്ലൈം, അസ്ഥികൂടം, സോംബി, ഗുൾ, വാമ്പയർ, വെയർവോൾഫ്, മിനോട്ടോർ, സെന്റോർ, ഹാർപി, സൈറൺ, ക്രാക്കൻ, ലെവിയാത്തൻ, വാൾ, പരിച, കുന്തം, അമ്പ്, ദണ്ഡ്, മോതിരം, മാല, കിരീടം, വിശുദ്ധ ഗ്രെയിൽ.';
+
+  @override
+  String get eulaTitle => 'അന്തിമ ഉപയോക്തൃ ലൈസൻസ് കരാർ (EULA)';
+
+  @override
+  String get eulaArticle1 =>
+      'ആർട്ടിക്കിൾ 1 (ലൈസൻസ് അനുവദിക്കൽ)\nഈ ആപ്പ് (“Tarot Witch”) വ്യക്തിപരമായ, വാണിജ്യേതര ഉപയോഗത്തിന് മാത്രമാണ് അനുവാദം നൽകിയിരിക്കുന്നത്, ആപ്പിന്റെ ഉടമസ്ഥാവകാശമോ ബൗദ്ധിക സ്വത്തവകാശമോ കൈമാറ്റം ചെയ്യപ്പെടുന്നില്ല.';
+
+  @override
+  String get eulaArticle2 =>
+      'ആർട്ടിക്കിൾ 2 (വിലക്കപ്പെട്ട ഉപയോഗം)\nഉപയോക്താക്കൾക്ക് ഈ സേവനം നിയമവിരുദ്ധമായ കാര്യങ്ങൾക്കോ മറ്റുള്ളവരുടെ അവകാശങ്ങൾ ലംഘിക്കുന്നതിനോ ഉപയോഗിക്കാൻ പാടില്ല, കൂടാതെ സിസ്റ്റങ്ങളോ ഡാറ്റയോ ഏകപക്ഷീയമായി കൈകാര്യം ചെയ്യാനോ റിവേഴ്സ് എഞ്ചിനീയറിംഗ് ചെയ്യാനോ പാടില്ല.';
+
+  @override
+  String get eulaArticle3 =>
+      'ആർട്ടിക്കിൾ 3 (ഡാറ്റ ശേഖരണവും സംഭരണ കാലയളവും)\nസുഗമമായ സേവനം നൽകുന്നതിന്, ഉപയോക്താക്കൾ എഴുതിയ ടാരോട്ട് ഡയറികളും അനുബന്ധ ഭാഗ്യം പറയുന്ന ഡാറ്റയും സൃഷ്ടിച്ച തീയതി മുതൽ മൂന്ന് വർഷത്തേക്ക് സുരക്ഷിതമായി സൂക്ഷിക്കുന്നു.';
+
+  @override
+  String get eulaArticle4 =>
+      'ആർട്ടിക്കിൾ 4 (ദീർഘകാല നിഷ്ക്രിയ ഡോർമന്റ് അക്കൗണ്ടുകൾ കൈകാര്യം ചെയ്യൽ)\nഒരു ഉപയോക്താവ് ഒരു വർഷത്തിൽ (365 ദിവസം) കൂടുതൽ സേവനം ഉപയോഗിക്കാതിരുന്നാൽ, അക്കൗണ്ട് നിഷ്ക്രിയ അക്കൗണ്ടായി മാറും, കൂടാതെ വ്യക്തിഗത വിവരങ്ങൾ സംരക്ഷിക്കുന്നതിനും സുഗമമായ സെർവർ പരിസ്ഥിതി നിലനിർത്തുന്നതിനും ഉപയോക്താവിന്റെ എല്ലാ ഡാറ്റയും മുൻകൂർ അറിയിപ്പില്ലാതെ സ്വയമേവ ഇല്ലാതാക്കപ്പെടും.';
+
+  @override
+  String get eulaArticle5 =>
+      'ആർട്ടിക്കിൾ 5 (ഡാറ്റ നശിപ്പിക്കലും വീണ്ടെടുക്കാൻ കഴിയായ്കയും)\nആർട്ടിക്കിൾ 3-ൽ പറഞ്ഞിരിക്കുന്ന സംഭരണ കാലയളവ് കഴിഞ്ഞതോ ആർട്ടിക്കിൾ 4 അനുസരിച്ച് ഇല്ലാതാക്കിയതോ ആയ ഡാറ്റ സ്ഥിരമായി നശിപ്പിക്കപ്പെടും, ഒരു കാരണവശാലും വീണ്ടെടുക്കാൻ കഴിയില്ല.';
+
+  @override
+  String get eulaArticle6 =>
+      'ആർട്ടിക്കിൾ 6 (വാറന്റി നിരാകരണവും നഷ്ടപരിഹാരവും)\nഈ ആപ്പ് നൽകുന്ന ടാരോട്ട് വായനകളും വ്യാഖ്യാനങ്ങളും വിനോദ ആവശ്യങ്ങൾക്ക് മാത്രമുള്ളതാണ്, നിയമപരമോ, വൈദ്യപരമോ, സാമ്പത്തികപരമോ ആയ ഉപദേശത്തിന് പകരമല്ല. സേവനത്തിന്റെ ഉപയോഗത്തിൽ നിന്ന് ഉണ്ടാകുന്ന ഏതെങ്കിലും നേരിട്ടുള്ളതോ അല്ലാത്തതോ ആയ നാശനഷ്ടങ്ങൾക്ക് ഡെവലപ്പർ ഉത്തരവാദിയായിരിക്കില്ല.';
+
+  @override
+  String get eulaAgreement =>
+      'ആപ്പ് ഉപയോഗിക്കുന്നതിന് മുകളിൽ പറഞ്ഞിരിക്കുന്ന EULA ഉള്ളടക്കങ്ങളും ഡാറ്റാ മാനേജ്‌മെന്റ് നയവും നിർബന്ധമായും അംഗീകരിക്കേണ്ട കാര്യങ്ങളാണ്.';
+
+  @override
+  String get closeButton => 'അടയ്ക്കുക';
+
+  @override
+  String get pushTermsTitle =>
+      'ഇവന്റ്, മാർക്കറ്റിംഗ് അറിയിപ്പുകൾ ലഭിക്കാൻ സമ്മതം നൽകുക';
+
+  @override
+  String get pushArticle1 =>
+      'ആർട്ടിക്കിൾ 1 (ലക്ഷ്യം)\nപുഷ് അറിയിപ്പുകളിലൂടെ ഇവന്റുകൾ, പ്രമോഷനുകൾ, പുതിയ ജാതക അപ്‌ഡേറ്റുകൾ എന്നിങ്ങനെയുള്ള പരസ്യ വിവരങ്ങൾ ഉപയോക്താക്കൾക്ക് പ്രയോജനകരമാകുന്ന രീതിയിൽ അയയ്ക്കാൻ ടാരോട്ട് വിച്ച് സേവനത്തിനുള്ള സമ്മതമാണിത്.';
+
+  @override
+  String get pushArticle2 =>
+      'ആർട്ടിക്കിൾ 2 (അറിയിപ്പ് പിൻവലിക്കൽ)\nആപ്പിനുള്ളിലെ [എന്റെ മെനു > ആപ്പ് ക്രമീകരണങ്ങൾ] വഴി ഉപയോക്താക്കൾക്ക് എപ്പോൾ വേണമെങ്കിലും ഈ സമ്മതം പിൻവലിക്കാം. സമ്മതം പിൻവലിച്ചാലും, സേവനത്തിന്റെ അടിസ്ഥാന പ്രവർത്തനങ്ങൾ (അത്യാവശ്യ സേവനങ്ങൾ) സാധാരണപോലെ ഉപയോഗിക്കാൻ കഴിയും.';
+
+  @override
+  String get pushArticle3 =>
+      'ആർട്ടിക്കിൾ 3 (അറിയിപ്പിന്റെ ഉള്ളടക്കം)\nഅയയ്ക്കുന്ന അറിയിപ്പുകളിൽ പ്രത്യേക ഇൻ-ആപ്പ് ഡിസ്കൗണ്ട് ഓഫറുകൾ, പരിമിതകാല ഇവന്റുകൾ, വ്യക്തിഗതമാക്കിയ ജാതക ശുപാർശകൾ എന്നിവ പോലുള്ള പരസ്യം ചെയ്യലും മാർക്കറ്റിംഗ് സ്വഭാവമുള്ള ഉള്ളടക്കങ്ങളും ഉൾപ്പെട്ടേക്കാം.';
+
+  @override
+  String get pushAgreement =>
+      'മുകളിൽ പറഞ്ഞിരിക്കുന്നത് ഉപയോക്താവിനുള്ള ഒരു ഓപ്ഷണൽ കാര്യമാണ്, സമ്മതം നൽകിയില്ലെങ്കിലും ടാരോട്ട് സേവനം ഉപയോഗിക്കുന്നതിന് യാതൊരു ദോഷവുമില്ല.';
+
+  @override
+  String get windowsNoGoogleLogin =>
+      'പ്രിവ്യൂ എൻവയോൺമെന്റിൽ (വിൻഡോസ്) Google ലോഗിൻ പിന്തുണയ്ക്കുന്നില്ല. ഒരു Android ഉപകരണമോ വെബോ ഉപയോഗിക്കുക.';
+
+  @override
+  String get signupTermsRequired =>
+      'മെമ്പർഷിപ്പ് രജിസ്ട്രേഷനുമായി മുന്നോട്ട് പോകാൻ, നിങ്ങൾ ഡാറ്റാ സംഭരണ നിബന്ധനകളും വ്യവസ്ഥകളും അംഗീകരിക്കണം.';
+
+  @override
+  String googleLoginError(String error) {
+    return 'Google ലോഗിൻ പിശക്: $error';
+  }
+
+  @override
+  String get googleLoginUnknownError =>
+      'Google-ൽ ലോഗിൻ ചെയ്യുമ്പോൾ ഒരു അജ്ഞാത പിശക് സംഭവിച്ചു.';
+
+  @override
+  String get windowsNoFirebase =>
+      'പ്രിവ്യൂ എൻവയോൺമെന്റിൽ (വിൻഡോസ്) Firebase ലോഗിൻ പിന്തുണയ്ക്കുന്നില്ല.';
+
+  @override
+  String get emailVerificationRequired =>
+      'ഇമെയിൽ സ്ഥിരീകരണം ആവശ്യമാണ്. നിങ്ങൾ സൈൻ അപ്പ് ചെയ്ത ഇമെയിൽ പരിശോധിക്കുക.';
+
+  @override
+  String get resendEmail => 'വീണ്ടും അയയ്ക്കുക';
+
+  @override
+  String get verificationEmailSent =>
+      'സ്ഥിരീകരണ ഇമെയിൽ വീണ്ടും അയച്ചിട്ടുണ്ട്.';
+
+  @override
+  String get passwordMismatch =>
+      'പാസ്‌വേഡ് പൊരുത്തപ്പെടുന്നില്ല. ദയവായി വീണ്ടും പരിശോധിക്കുക.';
+
+  @override
+  String get signupSuccess =>
+      'മെമ്പർഷിപ്പ് രജിസ്ട്രേഷൻ പൂർത്തിയായി. സ്ഥിരീകരണം പൂർത്തിയാക്കാൻ അയച്ച ഇമെയിൽ പരിശോധിക്കുക.';
+
+  @override
+  String get authError => 'ഒരു പ്രാമാണീകരണ പിശക് സംഭവിച്ചു.';
+
+  @override
+  String get authLoginTitle => 'ലോഗിൻ ചെയ്യുക';
+
+  @override
+  String get authSignupTitle => 'മെമ്പർഷിപ്പിൽ ചേരുക';
+
+  @override
+  String get authTarotNickname => 'ടാരോട്ട് ലോകത്തിലെ വിളിപ്പേരുകൾ';
+
+  @override
+  String get authRerollNickname => 'വീണ്ടും ഒരു വിളിപ്പേര് തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get authEmail => 'ഇമെയിൽ';
+
+  @override
+  String get authPassword => 'പാസ്‌വേഡ്';
+
+  @override
+  String get authConfirmPassword => 'പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക';
+
+  @override
+  String get authKeepLoggedIn => 'ലോഗിൻ ആയി തുടരുക';
+
+  @override
+  String get authAgreeEula =>
+      'അന്തിമ ഉപയോക്തൃ ലൈസൻസ് കരാർ (EULA) ഞാൻ അംഗീകരിക്കുന്നു. (അത്യാവശ്യം)';
+
+  @override
+  String get authViewContent => '[ഉള്ളടക്കം കാണുക]';
+
+  @override
+  String get authAgreePush =>
+      'പുതിയ ടാരോട്ട് വായനകളെയും ഇവന്റുകളെയും കുറിച്ചുള്ള അറിയിപ്പുകൾ ലഭിക്കാൻ ഞാൻ സമ്മതിക്കുന്നു. (തിരഞ്ഞെടുക്കുക)';
+
+  @override
+  String get authBtnLogin => 'ലോഗിൻ ചെയ്യുക';
+
+  @override
+  String get authBtnSignup => 'സൈൻ അപ്പ് ചെയ്യുക';
+
+  @override
+  String get authSwitchToSignup => 'അക്കൗണ്ടില്ലേ? മെമ്പർഷിപ്പിൽ ചേരുക';
+
+  @override
+  String get authSwitchToLogin => 'നേരത്തെ അക്കൗണ്ടില്ലേ? ലോഗിൻ ചെയ്യുക';
+
+  @override
+  String get authGoogleSignIn => 'Google ഉപയോഗിച്ച് ആരംഭിക്കുക';
+
+  @override
+  String get cardDetailNotReady => 'ഈ വ്യാഖ്യാനം ഇതുവരെ തയ്യാറായിട്ടില്ല.';
+
+  @override
+  String get cardDetailLoadError =>
+      'ഡാറ്റ ലോഡ് ചെയ്യുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു.';
+
+  @override
+  String get cardDetailTabUpright => 'നേരെയുള്ള';
+
+  @override
+  String get cardDetailTabReversed => 'വിപരീത';
+
+  @override
+  String get cardDetailNoInterpretation => 'വ്യാഖ്യാനമൊന്നുമില്ല.';
+
+  @override
+  String get cardDetailSectionKeywords => 'കീവേഡുകൾ';
+
+  @override
+  String get cardDetailSectionGeneral => 'പൊതുവായ വ്യാഖ്യാനം';
+
+  @override
+  String get cardDetailSectionLove => 'പ്രണയ ഭാഗ്യം';
+
+  @override
+  String get cardDetailSectionCareer => 'പണം/കരിയർ';
+
+  @override
+  String get cardDetailSectionHealth => 'ആരോഗ്യം';
+
+  @override
+  String get cardDetailSectionSpirituality => 'ആത്മീയത (അകത്ത്)';
+
+  @override
+  String get chatDustShortageTitle => 'പൊടി അഭാവം';
+
+  @override
+  String get chatDustShortageContent =>
+      'മതിയായ മാന്ത്രിക പൊടി ഇല്ല. ടാരറ്റ് വായനയ്ക്ക് 1 പൊടി ആവശ്യമാണ്.';
+
+  @override
+  String get chatConfirmBtn => 'പരിശോധിക്കുക';
+
+  @override
+  String get chatStartReadingTitle => 'ടാരറ്റ് വായന ആരംഭിക്കുക';
+
+  @override
+  String get chatStartReadingContent =>
+      'ഒരു ടാരറ്റ് റീഡിംഗ് ആരംഭിക്കാൻ നിങ്ങൾക്ക് 1 പൊടി ചെലവഴിക്കാൻ താൽപ്പര്യമുണ്ടോ?';
+
+  @override
+  String get chatCancelBtn => 'റദ്ദാക്കൽ';
+
+  @override
+  String get chatStartBtn => 'ആരംഭിക്കുക';
+
+  @override
+  String get chatShufflingCards => 'ടാരറ്റ് കാർഡുകൾ ഷഫിൾ ചെയ്യുന്നു...';
+
+  @override
+  String get profileEditEmptyNickname => 'ദയവായി ഒരു വിളിപ്പേര് നൽകുക.';
+
+  @override
+  String get profileEditDuplicateNickname =>
+      'വിളിപ്പേര് ഇതിനകം ഉപയോഗത്തിലുണ്ട്. ദയവായി മറ്റൊരു വിളിപ്പേര് നൽകുക.';
+
+  @override
+  String get profileEditEmptyPassword =>
+      'നിങ്ങളുടെ ഇമെയിൽ മാറ്റാൻ നിങ്ങളുടെ നിലവിലെ പാസ്‌വേഡ് നൽകുക.';
+
+  @override
+  String get profileEditEmailSent =>
+      'സ്ഥിരീകരണ ഇമെയിൽ അയച്ചു. നിങ്ങളുടെ പുതിയ ഇമെയിൽ ഇൻബോക്സിൽ സ്ഥിരീകരണം പൂർത്തിയാക്കുക.';
+
+  @override
+  String get profileEditSuccess => 'പ്രൊഫൈൽ സംരക്ഷിച്ചു.';
+
+  @override
+  String get profileEditErrorDefault => 'ഒരു പിശക് സംഭവിച്ചു.';
+
+  @override
+  String get profileEditErrorWrongPassword => 'തെറ്റായ പാസ്‌വേഡ്.';
+
+  @override
+  String get profileEditErrorInvalidEmail => 'ഇമെയിൽ ഫോർമാറ്റ് അസാധുവാണ്.';
+
+  @override
+  String get profileEditErrorEmailInUse => 'ഇമെയിൽ ഇതിനകം ഉപയോഗത്തിലാണ്.';
+
+  @override
+  String get profileEditErrorRecentLogin =>
+      'സുരക്ഷാ കാരണങ്ങളാൽ, വീണ്ടും ലോഗിൻ ചെയ്‌ത് ശ്രമിക്കുക.';
+
+  @override
+  String profileEditErrorUnknown(String error) {
+    return 'സംരക്ഷിക്കുമ്പോൾ അജ്ഞാത പിശക് സംഭവിച്ചു: $error';
+  }
+
+  @override
+  String get profileEditTitle => 'പ്രൊഫൈൽ എഡിറ്റ് ചെയ്യുക';
+
+  @override
+  String get profileEditPhoto => 'പ്രൊഫൈൽ ഫോട്ടോ';
+
+  @override
+  String get profileEditNickname => 'വിളിപ്പേര്';
+
+  @override
+  String get profileEditEmail => 'ഇമെയിൽ വിലാസം';
+
+  @override
+  String get profileEditEmailSocialHint =>
+      'Google/Apple ലിങ്ക് ചെയ്‌ത അക്കൗണ്ടുകൾക്ക് ഇമെയിൽ മാറ്റാൻ കഴിയില്ല.';
+
+  @override
+  String get profileEditEmailChangeHint =>
+      'ഇമെയിൽ മാറ്റുമ്പോൾ ഒരു സ്ഥിരീകരണ ഇമെയിൽ അയയ്ക്കും.';
+
+  @override
+  String get profileEditPassword =>
+      'നിലവിലെ പാസ്‌വേഡ് (ഇമെയിൽ മാറ്റം സ്ഥിരീകരണത്തിന്)';
+
+  @override
+  String get profileEditCancel => 'റദ്ദാക്കുക';
+
+  @override
+  String get profileEditSave => 'സംരക്ഷിക്കുക';
 }

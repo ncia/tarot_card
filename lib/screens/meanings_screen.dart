@@ -11,8 +11,8 @@ class MeaningsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final majors = tarotDeck.where((c) => c.isMajor).toList();
-    final minors = tarotDeck.where((c) => !c.isMajor).toList();
+    final majors = getTarotDeck(context).where((c) => c.isMajor).toList();
+    final minors = getTarotDeck(context).where((c) => !c.isMajor).toList();
 
     return DefaultTabController(
       length: 2,

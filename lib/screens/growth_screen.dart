@@ -5,6 +5,7 @@ import '../services/economy_service.dart';
 import '../widgets/shared_bottom_nav_bar.dart';
 import '../widgets/top_floating_icons.dart';
 import 'main_screen.dart';
+import 'package:flutter_tarot/l10n/app_localizations.dart';
 
 class GrowthScreen extends StatefulWidget {
   const GrowthScreen({super.key});
@@ -42,13 +43,17 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                     child: Column(
                       children: [
                         Text(
-                          '성장',
+                          AppLocalizations.of(context)!.growthTitle,
                           textAlign: TextAlign.center,
-                          style: Theme.of(context).textTheme.displayLarge,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                         const SizedBox(height: 8),
                         Text(
-                          '마력을 모아 타로의 힘을 강화하세요',
+                          AppLocalizations.of(context)!.growthSubtitle,
                           style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Colors.white70),
                         ),
                         const SizedBox(height: 24),
@@ -57,14 +62,14 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                           indicatorColor: Colors.amberAccent,
                           labelColor: Colors.amberAccent,
                           unselectedLabelColor: Colors.white54,
-                          tabs: const [
+                          tabs: [
                             Tab(
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  Icon(Icons.lens_blur),
-                                  SizedBox(width: 8),
-                                  Text('수정구 강화'),
+                                  const Icon(Icons.lens_blur),
+                                  const SizedBox(width: 8),
+                                  Text(AppLocalizations.of(context)!.growthTabCrystalBall),
                                 ],
                               ),
                             ),
@@ -72,9 +77,9 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  Icon(Icons.park),
-                                  SizedBox(width: 8),
-                                  Text('세계수 키우기'),
+                                  const Icon(Icons.park),
+                                  const SizedBox(width: 8),
+                                  Text(AppLocalizations.of(context)!.growthTabWorldTree),
                                 ],
                               ),
                             ),
@@ -136,7 +141,7 @@ class _WorldTreeTabState extends State<_WorldTreeTab> {
     await EconomyService().addWorldTreeExp(10);
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('세계수에 물을 주어 경험치가 10 상승했습니다! 💧')),
+        SnackBar(content: Text(AppLocalizations.of(context)!.growthWaterSuccess)),
       );
       setState(() {
         _isWatering = false;
@@ -162,7 +167,7 @@ class _WorldTreeTabState extends State<_WorldTreeTab> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('세계수 레벨 $level', style: Theme.of(context).textTheme.displayLarge),
+              Text(AppLocalizations.of(context)!.growthWorldTreeLevel(level), style: Theme.of(context).textTheme.displayLarge),
               const SizedBox(height: 20),
               // 세계수 이미지 (레벨에 따라 다른 이미지 등을 보여줄 수 있음)
               Icon(
@@ -183,7 +188,7 @@ class _WorldTreeTabState extends State<_WorldTreeTab> {
                       borderRadius: BorderRadius.circular(6),
                     ),
                     const SizedBox(height: 8),
-                    Text('경험치: ${exp % 50} / 50', style: const TextStyle(color: Colors.white70)),
+                    Text('${AppLocalizations.of(context)!.growthExp}${exp % 50} / 50', style: const TextStyle(color: Colors.white70)),
                   ],
                 ),
               ),
@@ -191,7 +196,7 @@ class _WorldTreeTabState extends State<_WorldTreeTab> {
               ElevatedButton.icon(
                 onPressed: _isWatering ? null : _waterTree,
                 icon: const Icon(Icons.water_drop),
-                label: const Text('무료로 물 주기'),
+                label: Text(AppLocalizations.of(context)!.growthWaterFree),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blueAccent,
                   foregroundColor: Colors.white,
@@ -226,13 +231,13 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
     if (success) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('수정구 강화 성공! ✨')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.growthUpgradeSuccess)),
         );
       }
     } else {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('마력의 가루가 부족합니다. (필요: 10개)')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.growthUpgradeNotEnough)),
         );
       }
     }
@@ -259,12 +264,12 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
                 padding: const EdgeInsets.all(16),
                 borderRadius: 20,
                 child: Text(
-                  '보유 마력의 가루: $dust 개',
+                  AppLocalizations.of(context)!.growthDustOwned(dust),
                   style: const TextStyle(color: Colors.purpleAccent, fontSize: 18, fontWeight: FontWeight.bold),
                 ),
               ),
               const SizedBox(height: 40),
-              Text('신비의 수정구 레벨 $level', style: Theme.of(context).textTheme.displayLarge),
+              Text(AppLocalizations.of(context)!.growthCrystalBallLevel(level), style: Theme.of(context).textTheme.displayLarge),
               const SizedBox(height: 30),
               Image.asset(
                 'assets/images/crystal_ball.png',
@@ -276,7 +281,7 @@ class _CrystalBallTabState extends State<_CrystalBallTab> {
               ElevatedButton.icon(
                 onPressed: _isUpgrading ? null : _upgradeBall,
                 icon: const Icon(Icons.auto_awesome),
-                label: const Text('강화하기 (가루 10개)'),
+                label: Text(AppLocalizations.of(context)!.growthUpgradeButton),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.purple,
                   foregroundColor: Colors.white,

@@ -10,6 +10,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:flutter/foundation.dart' show kIsWeb, defaultTargetPlatform, TargetPlatform;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter_tarot/l10n/app_localizations.dart';
 
 class AuthScreen extends StatefulWidget {
   final bool isInline;
@@ -47,10 +48,12 @@ class _AuthScreenState extends State<AuthScreen> {
 
   void _generateRandomNickname() {
     final random = Random();
-    _prefixIndex = random.nextInt(nicknamePrefixes.length);
-    _suffixIndex = random.nextInt(nicknameSuffixes.length);
-    final prefix = nicknamePrefixes[_prefixIndex!];
-    final suffix = nicknameSuffixes[_suffixIndex!];
+    final prefixes = getNicknamePrefixes(context);
+    final suffixes = getNicknameSuffixes(context);
+    _prefixIndex = random.nextInt(prefixes.length);
+    _suffixIndex = random.nextInt(suffixes.length);
+    final prefix = prefixes[_prefixIndex!];
+    final suffix = suffixes[_suffixIndex!];
     _nicknameController.text = '$prefix $suffix';
     _isCustomNickname = false;
   }
@@ -61,29 +64,17 @@ class _AuthScreenState extends State<AuthScreen> {
       builder: (context) {
         return AlertDialog(
           backgroundColor: Colors.grey[900],
-          title: const Text('최종 사용자 라이선스 계약 (EULA)', style: TextStyle(color: Colors.white, fontSize: 18)),
-          content: const SingleChildScrollView(
+          title: Text(AppLocalizations.of(context)!.eulaTitle, style: const TextStyle(color: Colors.white, fontSize: 18)),
+          content: SingleChildScrollView(
             child: Text(
-              '제1조 (라이선스 허여)\n'
-              '본 앱("타로마녀")은 개인적, 비상업적 용도에 한해 사용 권한을 부여하며, 앱의 소유권이나 지적재산권은 이전되지 않습니다.\n\n'
-              '제2조 (금지된 사용)\n'
-              '사용자는 본 서비스를 불법적이거나 타인의 권리를 침해하는 목적으로 사용할 수 없으며, 시스템이나 데이터를 임의로 조작하거나 리버스 엔지니어링할 수 없습니다.\n\n'
-              '제3조 (데이터 수집 및 보관 기간)\n'
-              '원활한 서비스 제공을 위해 사용자가 작성한 타로 일기 및 관련 점괘 데이터는 작성일로부터 기본 3년간 안전하게 보관됩니다.\n\n'
-              '제4조 (장기 미접속 휴면 계정 처리)\n'
-              '사용자가 1년(365일) 이상 서비스에 접속하지 않을 경우 휴면 계정으로 전환되며, 개인정보 보호 및 원활한 서버 환경 유지를 위해 해당 사용자의 모든 데이터는 사전 고지 없이 자동 삭제 처리됩니다.\n\n'
-              '제5조 (데이터 파기 및 복구 불가)\n'
-              '제3조의 보관 기간이 경과하거나 제4조에 의해 삭제된 데이터는 영구 파기되며 어떠한 경우에도 복구할 수 없습니다.\n\n'
-              '제6조 (보증 부인 및 면책)\n'
-              '본 앱이 제공하는 타로 점괘 및 해석은 오락 목적으로만 제공되며, 법적, 의학적, 재정적 조언을 대체하지 않습니다. 서비스 이용으로 인해 발생하는 어떠한 직간접적인 손해에 대해서도 개발자는 책임을 지지 않습니다.\n\n'
-              '위 EULA 내용 및 데이터 관리 정책은 앱 사용을 위해 필수적으로 동의해야 하는 항목입니다.',
+              AppLocalizations.of(context)!.eulaArticle1 + AppLocalizations.of(context)!.eulaArticle2 + AppLocalizations.of(context)!.eulaArticle3 + AppLocalizations.of(context)!.eulaArticle4 + AppLocalizations.of(context)!.eulaArticle5 + AppLocalizations.of(context)!.eulaArticle6 + AppLocalizations.of(context)!.eulaAgreement,
               style: TextStyle(color: Colors.white70, height: 1.5, fontSize: 13),
             ),
           ),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),
-              child: const Text('닫기', style: TextStyle(color: Colors.amberAccent)),
+              child: Text(AppLocalizations.of(context)!.closeButton, style: const TextStyle(color: Colors.amberAccent)),
             ),
           ],
         );
@@ -97,23 +88,17 @@ class _AuthScreenState extends State<AuthScreen> {
       builder: (context) {
         return AlertDialog(
           backgroundColor: Colors.grey[900],
-          title: const Text('이벤트 및 마케팅 알림 수신 동의', style: TextStyle(color: Colors.white, fontSize: 18)),
-          content: const SingleChildScrollView(
+          title: Text(AppLocalizations.of(context)!.pushTermsTitle, style: const TextStyle(color: Colors.white, fontSize: 18)),
+          content: SingleChildScrollView(
             child: Text(
-              '제1조 (목적)\n'
-              '본 동의는 타로마녀 서비스가 사용자에게 유익한 이벤트, 프로모션, 새로운 운세 업데이트 등의 광고성 정보를 푸시 알림으로 전송하기 위함입니다.\n\n'
-              '제2조 (수신 철회)\n'
-              '사용자는 본 수신 동의를 언제든지 앱 내 [내 메뉴 > 앱 설정]에서 철회할 수 있습니다. 동의를 철회하더라도 서비스의 기본 기능(필수 서비스)은 정상적으로 이용 가능합니다.\n\n'
-              '제3조 (알림의 내용)\n'
-              '전송되는 알림에는 앱 내 특별 할인 혜택, 기간 한정 이벤트, 맞춤형 운세 추천 등 광고 및 마케팅 성격의 내용이 포함될 수 있습니다.\n\n'
-              '위 내용은 사용자의 선택적 동의 사항이며, 미동의 시에도 타로 서비스 이용에는 불이익이 없습니다.',
+              AppLocalizations.of(context)!.pushArticle1 + AppLocalizations.of(context)!.pushArticle2 + AppLocalizations.of(context)!.pushArticle3 + AppLocalizations.of(context)!.pushAgreement,
               style: TextStyle(color: Colors.white70, height: 1.5, fontSize: 13),
             ),
           ),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),
-              child: const Text('닫기', style: TextStyle(color: Colors.amberAccent)),
+              child: Text(AppLocalizations.of(context)!.closeButton, style: const TextStyle(color: Colors.amberAccent)),
             ),
           ],
         );
@@ -125,7 +110,7 @@ class _AuthScreenState extends State<AuthScreen> {
     if (!kIsWeb && defaultTargetPlatform == TargetPlatform.windows) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('미리보기 환경(Windows)에서는 구글 로그인을 지원하지 않습니다. 안드로이드 기기나 웹을 이용해주세요.')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.windowsNoGoogleLogin)),
         );
       }
       return;
@@ -134,7 +119,7 @@ class _AuthScreenState extends State<AuthScreen> {
     if (!_isLogin && !_agreedToTerms) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('회원가입을 진행하려면 데이터 보관 약관에 동의해야 합니다.')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.signupTermsRequired)),
         );
       }
       return;
@@ -161,10 +146,12 @@ class _AuthScreenState extends State<AuthScreen> {
         final docSnapshot = await FirebaseFirestore.instance.collection('users').doc(user.uid).get();
         if (!docSnapshot.exists) {
           final random = Random();
-          final prefixIndex = random.nextInt(nicknamePrefixes.length);
-          final suffixIndex = random.nextInt(nicknameSuffixes.length);
-          final prefix = nicknamePrefixes[prefixIndex];
-          final suffix = nicknameSuffixes[suffixIndex];
+          final prefixes = getNicknamePrefixes(context);
+          final suffixes = getNicknameSuffixes(context);
+          final prefixIndex = random.nextInt(prefixes.length);
+          final suffixIndex = random.nextInt(suffixes.length);
+          final prefix = prefixes[prefixIndex];
+          final suffix = suffixes[suffixIndex];
           
           await FirebaseFirestore.instance.collection('users').doc(user.uid).set({
             'email': user.email,
@@ -198,13 +185,13 @@ class _AuthScreenState extends State<AuthScreen> {
     } on FirebaseAuthException catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('구글 로그인 오류: ${e.message}')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.googleLoginError(e.message ?? 'Unknown'))),
         );
       }
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('구글 로그인 중 알 수 없는 오류가 발생했습니다.')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.googleLoginUnknownError)),
         );
       }
     } finally {
@@ -218,7 +205,7 @@ class _AuthScreenState extends State<AuthScreen> {
     if (Firebase.apps.isEmpty) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('미리보기 환경(Windows)에서는 파이어베이스 로그인을 지원하지 않습니다.')),
+          SnackBar(content: Text(AppLocalizations.of(context)!.windowsNoFirebase)),
         );
         setState(() => _isLoading = false);
       }
@@ -237,12 +224,12 @@ class _AuthScreenState extends State<AuthScreen> {
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
               SnackBar(
-                content: const Text('이메일 인증이 필요합니다. 가입하신 이메일함을 확인해주세요.'),
+                content: Text(AppLocalizations.of(context)!.emailVerificationRequired),
                 action: SnackBarAction(
-                  label: '재발송',
+                  label: AppLocalizations.of(context)!.resendEmail,
                   onPressed: () async {
                     await userCredential.user!.sendEmailVerification();
-                    if (mounted) ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('인증 메일이 재발송되었습니다.')));
+                    if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.verificationEmailSent)));
                   },
                 ),
                 duration: const Duration(seconds: 5),
@@ -260,7 +247,7 @@ class _AuthScreenState extends State<AuthScreen> {
         if (_passwordController.text != _confirmPasswordController.text) {
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(content: Text('비밀번호가 일치하지 않습니다. 다시 확인해 주세요.')),
+              SnackBar(content: Text(AppLocalizations.of(context)!.passwordMismatch)),
             );
           }
           setState(() => _isLoading = false);
@@ -270,7 +257,7 @@ class _AuthScreenState extends State<AuthScreen> {
         if (!_agreedToTerms) {
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(content: Text('회원가입을 진행하려면 데이터 보관 약관에 동의해야 합니다.')),
+              SnackBar(content: Text(AppLocalizations.of(context)!.signupTermsRequired)),
             );
           }
           setState(() => _isLoading = false);
@@ -329,7 +316,7 @@ class _AuthScreenState extends State<AuthScreen> {
     } on FirebaseAuthException catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(e.message ?? '인증 오류가 발생했습니다.')),
+          SnackBar(content: Text(e.message ?? AppLocalizations.of(context)!.authError)),
         );
       }
     } finally {
@@ -349,7 +336,7 @@ class _AuthScreenState extends State<AuthScreen> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Text(
-                    _isLogin ? '로그인' : '회원가입',
+                    _isLogin ? AppLocalizations.of(context)!.authLoginTitle : AppLocalizations.of(context)!.authSignupTitle,
                     style: Theme.of(context).textTheme.displayLarge?.copyWith(fontSize: 28),
                   ),
                   const SizedBox(height: 24),
@@ -363,14 +350,14 @@ class _AuthScreenState extends State<AuthScreen> {
                         });
                       },
                       decoration: InputDecoration(
-                        labelText: '타로 세계의 닉네임',
+                        labelText: AppLocalizations.of(context)!.authTarotNickname,
                         labelStyle: const TextStyle(color: Colors.amberAccent),
                         enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
                         focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
                         suffixIcon: IconButton(
                           icon: const Icon(Icons.refresh, color: Colors.amberAccent),
                           onPressed: () => setState(() => _generateRandomNickname()),
-                          tooltip: '닉네임 다시 뽑기',
+                          tooltip: AppLocalizations.of(context)!.authRerollNickname,
                         ),
                       ),
                     ),
@@ -379,11 +366,11 @@ class _AuthScreenState extends State<AuthScreen> {
                   TextField(
                     controller: _emailController,
                     style: const TextStyle(color: Colors.white),
-                    decoration: const InputDecoration(
-                      labelText: '이메일',
-                      labelStyle: TextStyle(color: Colors.white70),
-                      enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
-                      focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                    decoration: InputDecoration(
+                      labelText: AppLocalizations.of(context)!.authEmail,
+                      labelStyle: const TextStyle(color: Colors.white70),
+                      enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
+                      focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
                     ),
                     keyboardType: TextInputType.emailAddress,
                   ),
@@ -392,7 +379,7 @@ class _AuthScreenState extends State<AuthScreen> {
                     controller: _passwordController,
                     style: const TextStyle(color: Colors.white),
                     decoration: InputDecoration(
-                      labelText: '비밀번호',
+                      labelText: AppLocalizations.of(context)!.authPassword,
                       labelStyle: const TextStyle(color: Colors.white70),
                       enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
                       focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
@@ -417,7 +404,7 @@ class _AuthScreenState extends State<AuthScreen> {
                       controller: _confirmPasswordController,
                       style: const TextStyle(color: Colors.white),
                       decoration: InputDecoration(
-                        labelText: '비밀번호 확인',
+                        labelText: AppLocalizations.of(context)!.authConfirmPassword,
                         labelStyle: const TextStyle(color: Colors.white70),
                         enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
                         focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
@@ -454,8 +441,8 @@ class _AuthScreenState extends State<AuthScreen> {
                             onTap: () {
                               setState(() => _keepLoggedIn = !_keepLoggedIn);
                             },
-                            child: const Text(
-                              '로그인 상태 유지',
+                            child: Text(
+                              AppLocalizations.of(context)!.authKeepLoggedIn,
                               style: TextStyle(color: Colors.white70, fontSize: 14),
                             ),
                           ),
@@ -481,8 +468,8 @@ class _AuthScreenState extends State<AuthScreen> {
                             onTap: () {
                               setState(() => _agreedToTerms = !_agreedToTerms);
                             },
-                            child: const Text(
-                              '최종 사용자 라이선스 계약(EULA)에 동의합니다. (필수)',
+                            child: Text(
+                              AppLocalizations.of(context)!.authAgreeEula,
                               style: TextStyle(color: Colors.white70, fontSize: 13),
                             ),
                           ),
@@ -493,7 +480,7 @@ class _AuthScreenState extends State<AuthScreen> {
                             padding: const EdgeInsets.symmetric(horizontal: 4),
                             minimumSize: Size.zero,
                           ),
-                          child: const Text('[내용 보기]', style: TextStyle(color: Colors.amberAccent, fontSize: 12)),
+                          child: Text(AppLocalizations.of(context)!.authViewContent, style: const TextStyle(color: Colors.amberAccent, fontSize: 12)),
                         ),
                       ],
                     ),
@@ -512,8 +499,8 @@ class _AuthScreenState extends State<AuthScreen> {
                             onTap: () {
                               setState(() => _agreedToPush = !_agreedToPush);
                             },
-                            child: const Text(
-                              '새로운 타로점 및 이벤터 알림수신에 동의합니다. (선택)',
+                            child: Text(
+                              AppLocalizations.of(context)!.authAgreePush,
                               style: TextStyle(color: Colors.white70, fontSize: 13),
                             ),
                           ),
@@ -524,7 +511,7 @@ class _AuthScreenState extends State<AuthScreen> {
                             padding: const EdgeInsets.symmetric(horizontal: 4),
                             minimumSize: Size.zero,
                           ),
-                          child: const Text('[내용 보기]', style: TextStyle(color: Colors.amberAccent, fontSize: 12)),
+                          child: Text(AppLocalizations.of(context)!.authViewContent, style: const TextStyle(color: Colors.amberAccent, fontSize: 12)),
                         ),
                       ],
                     ),
@@ -542,7 +529,7 @@ class _AuthScreenState extends State<AuthScreen> {
                         minimumSize: const Size.fromHeight(50),
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                       ),
-                      child: Text(_isLogin ? '로그인하기' : '가입하기', style: const TextStyle(fontSize: 16)),
+                      child: Text(_isLogin ? AppLocalizations.of(context)!.authBtnLogin : AppLocalizations.of(context)!.authBtnSignup, style: const TextStyle(fontSize: 16)),
                     ),
                   const SizedBox(height: 16),
                   TextButton(
@@ -555,7 +542,7 @@ class _AuthScreenState extends State<AuthScreen> {
                       });
                     },
                     child: Text(
-                      _isLogin ? '계정이 없으신가요? 회원가입' : '이미 계정이 있으신가요? 로그인',
+                      _isLogin ? AppLocalizations.of(context)!.authSwitchToSignup : AppLocalizations.of(context)!.authSwitchToLogin,
                       style: const TextStyle(color: Colors.amberAccent),
                     ),
                   ),
@@ -576,7 +563,7 @@ class _AuthScreenState extends State<AuthScreen> {
                         children: [
                           Image.asset('assets/images/google_logo.png', width: 24, height: 24),
                           const SizedBox(width: 8),
-                          const Text('Google로 시작하기', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                          Text(AppLocalizations.of(context)!.authGoogleSignIn, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
                         ],
                       ),
                     ),

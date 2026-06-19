@@ -107,6 +107,10 @@ class TtsService {
 
         final Uint8List audioBytes = base64Decode(base64Audio);
         
+        // 카르엔(Karen) 마녀일 경우 노파 목소리를 위해 피치/재생속도를 낮춤
+        final double playbackRate = _currentWitch?.id == 'karen' ? 0.85 : 1.0;
+        await _audioPlayer.setPlaybackRate(playbackRate);
+
         if (kIsWeb) {
           await AudioService().pauseBgm();
           final double ttsVolume = AudioService().isMuted ? 0.0 : 0.5;
@@ -114,7 +118,6 @@ class TtsService {
         } else {
           // Save to temp file to avoid BytesSource crash on Windows
           final tempDir = await getTemporaryDirectory();
-          // Use Platform.pathSeparator for cross-platform compatibility
           final String safePath = '${tempDir.path}${Platform.pathSeparator}tts_temp_${DateTime.now().millisecondsSinceEpoch}.mp3';
           final tempFile = File(safePath);
           await tempFile.writeAsBytes(audioBytes);

@@ -5591,6 +5591,2256 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Paid Theme'**
   String get themePaid;
+
+  /// No description provided for @diaryEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No diary entries yet.\nCheck your fortune today and leave a diary!'**
+  String get diaryEmpty;
+
+  /// No description provided for @diaryTarotConsult.
+  ///
+  /// In en, this message translates to:
+  /// **'Tarot Consultation'**
+  String get diaryTarotConsult;
+
+  /// No description provided for @diaryTarotReading.
+  ///
+  /// In en, this message translates to:
+  /// **'Tarot Reading'**
+  String get diaryTarotReading;
+
+  /// No description provided for @diaryAndMore.
+  ///
+  /// In en, this message translates to:
+  /// **'and {count} more'**
+  String diaryAndMore(int count);
+
+  /// No description provided for @diaryDaysAgo.
+  ///
+  /// In en, this message translates to:
+  /// **'{days}d ago'**
+  String diaryDaysAgo(int days);
+
+  /// No description provided for @diaryHoursAgo.
+  ///
+  /// In en, this message translates to:
+  /// **'{hours}h ago'**
+  String diaryHoursAgo(int hours);
+
+  /// No description provided for @diaryMinutesAgo.
+  ///
+  /// In en, this message translates to:
+  /// **'{minutes}m ago'**
+  String diaryMinutesAgo(int minutes);
+
+  /// No description provided for @diaryJustNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Just now'**
+  String get diaryJustNow;
+
+  /// No description provided for @diaryNoEntryForDate.
+  ///
+  /// In en, this message translates to:
+  /// **'No reading records for this date.'**
+  String get diaryNoEntryForDate;
+
+  /// No description provided for @diaryMyQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'My Question'**
+  String get diaryMyQuestion;
+
+  /// No description provided for @diaryWitchReading.
+  ///
+  /// In en, this message translates to:
+  /// **'\'s Tarot Reading'**
+  String get diaryWitchReading;
+
+  /// No description provided for @diaryNoResult.
+  ///
+  /// In en, this message translates to:
+  /// **'No results available.'**
+  String get diaryNoResult;
+
+  /// No description provided for @diaryFollowUpTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Follow-up Note'**
+  String get diaryFollowUpTitle;
+
+  /// No description provided for @diaryFollowUpHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Record whether the reading was accurate a few days later.'**
+  String get diaryFollowUpHint;
+
+  /// No description provided for @diaryFollowUpPlaceholder.
+  ///
+  /// In en, this message translates to:
+  /// **'How did the reading turn out?'**
+  String get diaryFollowUpPlaceholder;
+
+  /// No description provided for @diaryFollowUpSave.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Follow-up'**
+  String get diaryFollowUpSave;
+
+  /// No description provided for @diaryFollowUpSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Follow-up saved!'**
+  String get diaryFollowUpSaved;
+
+  /// No description provided for @diaryFollowUpEdit.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Follow-up'**
+  String get diaryFollowUpEdit;
+
+  /// No description provided for @diaryTagTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Tags'**
+  String get diaryTagTitle;
+
+  /// No description provided for @diaryTagAddHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter new tag'**
+  String get diaryTagAddHint;
+
+  /// No description provided for @diaryTagDeleteConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete this tag?'**
+  String get diaryTagDeleteConfirm;
+
+  /// No description provided for @diaryTagDelete.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get diaryTagDelete;
+
+  /// No description provided for @diaryDeleteTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Diary'**
+  String get diaryDeleteTitle;
+
+  /// No description provided for @diaryDeleteConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete this diary entry? This cannot be undone.'**
+  String get diaryDeleteConfirm;
+
+  /// No description provided for @communityTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Community'**
+  String get communityTitle;
+
+  /// No description provided for @communityErrorLoading.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while loading data.\n'**
+  String get communityErrorLoading;
+
+  /// No description provided for @communityEmptyFeed.
+  ///
+  /// In en, this message translates to:
+  /// **'No public tarot diaries yet.\nBe the first to share your diary!'**
+  String get communityEmptyFeed;
+
+  /// No description provided for @communityNoInterpretation.
+  ///
+  /// In en, this message translates to:
+  /// **'No interpretation.'**
+  String get communityNoInterpretation;
+
+  /// No description provided for @communityLike.
+  ///
+  /// In en, this message translates to:
+  /// **'Like'**
+  String get communityLike;
+
+  /// No description provided for @communityComments.
+  ///
+  /// In en, this message translates to:
+  /// **'Comments'**
+  String get communityComments;
+
+  /// No description provided for @communityFirstCommentPrompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Be the first to leave a comment!'**
+  String get communityFirstCommentPrompt;
+
+  /// No description provided for @communityCommentInputHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Write a comment...'**
+  String get communityCommentInputHint;
+
+  /// No description provided for @communityCommentFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to add comment: '**
+  String get communityCommentFailed;
+
+  /// No description provided for @communityLoginRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Login required.'**
+  String get communityLoginRequired;
+
+  /// No description provided for @communityReportTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Report'**
+  String get communityReportTitle;
+
+  /// No description provided for @communityReportHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the reason for reporting'**
+  String get communityReportHint;
+
+  /// No description provided for @communityReportCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get communityReportCancel;
+
+  /// No description provided for @communityReportSubmit.
+  ///
+  /// In en, this message translates to:
+  /// **'Report'**
+  String get communityReportSubmit;
+
+  /// No description provided for @communityReportSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Report has been submitted.'**
+  String get communityReportSuccess;
+
+  /// No description provided for @communityTarotQuestion.
+  ///
+  /// In en, this message translates to:
+  /// **'Q. Tarot Question'**
+  String get communityTarotQuestion;
+
+  /// No description provided for @communityNoName.
+  ///
+  /// In en, this message translates to:
+  /// **'Nameless Witch'**
+  String get communityNoName;
+
+  /// No description provided for @diaryShareToCommunity.
+  ///
+  /// In en, this message translates to:
+  /// **'Share to Community'**
+  String get diaryShareToCommunity;
+
+  /// No description provided for @diarySharedSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Shared to the community.'**
+  String get diarySharedSuccess;
+
+  /// No description provided for @diaryPrivateSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Set to private.'**
+  String get diaryPrivateSuccess;
+
+  /// No description provided for @growthTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Growth'**
+  String get growthTitle;
+
+  /// No description provided for @growthSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Gather magic power to strengthen tarot cards'**
+  String get growthSubtitle;
+
+  /// No description provided for @growthTabCrystalBall.
+  ///
+  /// In en, this message translates to:
+  /// **'Crystal Ball Upgrade'**
+  String get growthTabCrystalBall;
+
+  /// No description provided for @growthTabWorldTree.
+  ///
+  /// In en, this message translates to:
+  /// **'Grow World Tree'**
+  String get growthTabWorldTree;
+
+  /// No description provided for @growthWorldTreeLevel.
+  ///
+  /// In en, this message translates to:
+  /// **'World Tree Level {level}'**
+  String growthWorldTreeLevel(int level);
+
+  /// No description provided for @growthExp.
+  ///
+  /// In en, this message translates to:
+  /// **'Exp: '**
+  String get growthExp;
+
+  /// No description provided for @growthWaterFree.
+  ///
+  /// In en, this message translates to:
+  /// **'Water for Free'**
+  String get growthWaterFree;
+
+  /// No description provided for @growthWaterSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Watered the World Tree! Exp +10 💧'**
+  String get growthWaterSuccess;
+
+  /// No description provided for @growthDustOwned.
+  ///
+  /// In en, this message translates to:
+  /// **'Magic Dust Owned: {dust}'**
+  String growthDustOwned(int dust);
+
+  /// No description provided for @growthCrystalBallLevel.
+  ///
+  /// In en, this message translates to:
+  /// **'Mystic Crystal Ball Level {level}'**
+  String growthCrystalBallLevel(int level);
+
+  /// No description provided for @growthUpgradeButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Upgrade (10 Dust)'**
+  String get growthUpgradeButton;
+
+  /// No description provided for @growthUpgradeSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Crystal Ball Upgrade Successful! ✨'**
+  String get growthUpgradeSuccess;
+
+  /// No description provided for @growthUpgradeNotEnough.
+  ///
+  /// In en, this message translates to:
+  /// **'Not enough magic dust. (Need: 10)'**
+  String get growthUpgradeNotEnough;
+
+  /// No description provided for @diaryViewList.
+  ///
+  /// In en, this message translates to:
+  /// **'List View'**
+  String get diaryViewList;
+
+  /// No description provided for @diaryViewCalendar.
+  ///
+  /// In en, this message translates to:
+  /// **'Calendar View'**
+  String get diaryViewCalendar;
+
+  /// No description provided for @tarotMajor00Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Fool'**
+  String get tarotMajor00Name;
+
+  /// No description provided for @tarotMajor00Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'New beginnings, adventure, infinite possibilities, freedom, innocence'**
+  String get tarotMajor00Upright;
+
+  /// No description provided for @tarotMajor00Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Recklessness, foolishness, carelessness, taking too great a risk, impracticality.'**
+  String get tarotMajor00Reversed;
+
+  /// No description provided for @tarotMajor01Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Magician'**
+  String get tarotMajor01Name;
+
+  /// No description provided for @tarotMajor01Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Creativity, will, ability, power of new beginnings, determination'**
+  String get tarotMajor01Upright;
+
+  /// No description provided for @tarotMajor01Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Manipulation, wasted talent, deception, lack of confidence, hidden agendas.'**
+  String get tarotMajor01Reversed;
+
+  /// No description provided for @tarotMajor02Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The High Priestess'**
+  String get tarotMajor02Name;
+
+  /// No description provided for @tarotMajor02Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Intuition, unconsciousness, mystery, wisdom, inner voice'**
+  String get tarotMajor02Upright;
+
+  /// No description provided for @tarotMajor02Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Ignoring intuition, shallow knowledge, hidden enemies, leaking secrets'**
+  String get tarotMajor02Reversed;
+
+  /// No description provided for @tarotMajor03Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Empress'**
+  String get tarotMajor03Name;
+
+  /// No description provided for @tarotMajor03Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Abundance, maternal love, beauty, natural fruition, creativity'**
+  String get tarotMajor03Upright;
+
+  /// No description provided for @tarotMajor03Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Overprotection, dependence, creative deficiency, laziness, stagnation'**
+  String get tarotMajor03Reversed;
+
+  /// No description provided for @tarotMajor04Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Emperor'**
+  String get tarotMajor04Name;
+
+  /// No description provided for @tarotMajor04Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Authority, structure, stability, paternal love, control, responsibility'**
+  String get tarotMajor04Upright;
+
+  /// No description provided for @tarotMajor04Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Dictatorship, desire to dominate, lack of flexibility, incompetence, oppression'**
+  String get tarotMajor04Reversed;
+
+  /// No description provided for @tarotMajor05Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Hierophant'**
+  String get tarotMajor05Name;
+
+  /// No description provided for @tarotMajor05Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Tradition, faith, education, spiritual guidance, conservatism'**
+  String get tarotMajor05Upright;
+
+  /// No description provided for @tarotMajor05Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Rebellion, breaking convention, dogmatism, old ideas, bad advice.'**
+  String get tarotMajor05Reversed;
+
+  /// No description provided for @tarotMajor06Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Lovers'**
+  String get tarotMajor06Name;
+
+  /// No description provided for @tarotMajor06Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Love, harmony, relationships, important choices, trust'**
+  String get tarotMajor06Upright;
+
+  /// No description provided for @tarotMajor06Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Discord, bad choices, loss of trust, temptation, imbalance.'**
+  String get tarotMajor06Reversed;
+
+  /// No description provided for @tarotMajor07Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Chariot'**
+  String get tarotMajor07Name;
+
+  /// No description provided for @tarotMajor07Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Will, victory, determination, direction, drive toward success'**
+  String get tarotMajor07Upright;
+
+  /// No description provided for @tarotMajor07Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Loss of control, disorientation, helplessness, aggression, obstacles'**
+  String get tarotMajor07Reversed;
+
+  /// No description provided for @tarotMajor08Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Strength'**
+  String get tarotMajor08Name;
+
+  /// No description provided for @tarotMajor08Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Courage, perseverance, inner strength, gentle control, mercy.'**
+  String get tarotMajor08Upright;
+
+  /// No description provided for @tarotMajor08Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Fear, weakness, loss of self-control, impulsiveness, pride.'**
+  String get tarotMajor08Reversed;
+
+  /// No description provided for @tarotMajor09Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Hermit'**
+  String get tarotMajor09Name;
+
+  /// No description provided for @tarotMajor09Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Inner exploration, wisdom, solitude, enlightenment, spiritual advisor'**
+  String get tarotMajor09Upright;
+
+  /// No description provided for @tarotMajor09Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Isolation, loneliness, escapism, foolish stubbornness, seclusion'**
+  String get tarotMajor09Reversed;
+
+  /// No description provided for @tarotMajor10Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Wheel of Fortune'**
+  String get tarotMajor10Name;
+
+  /// No description provided for @tarotMajor10Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Turning point, destiny, luck, constant change, opportunity'**
+  String get tarotMajor10Upright;
+
+  /// No description provided for @tarotMajor10Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Misfortune, resistance, uncontrollable change, repetition of misfortune'**
+  String get tarotMajor10Reversed;
+
+  /// No description provided for @tarotMajor11Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Justice'**
+  String get tarotMajor11Name;
+
+  /// No description provided for @tarotMajor11Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Fairness, truth, retribution, balance, rational decision'**
+  String get tarotMajor11Upright;
+
+  /// No description provided for @tarotMajor11Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'unfairness, prejudice, dishonesty, inevitable punishment, imbalance'**
+  String get tarotMajor11Reversed;
+
+  /// No description provided for @tarotMajor12Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Hanged Man'**
+  String get tarotMajor12Name;
+
+  /// No description provided for @tarotMajor12Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Sacrifice, new perspective, waiting, insight, temporary pause.'**
+  String get tarotMajor12Upright;
+
+  /// No description provided for @tarotMajor12Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Pointless sacrifice, delay, refusal to progress, selfishness'**
+  String get tarotMajor12Reversed;
+
+  /// No description provided for @tarotMajor13Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Death'**
+  String get tarotMajor13Name;
+
+  /// No description provided for @tarotMajor13Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'End and new beginning, change, transition, clearing up the past'**
+  String get tarotMajor13Upright;
+
+  /// No description provided for @tarotMajor13Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Resistance to change, stagnation, obsession with the old, fear'**
+  String get tarotMajor13Reversed;
+
+  /// No description provided for @tarotMajor14Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Temperance'**
+  String get tarotMajor14Name;
+
+  /// No description provided for @tarotMajor14Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Harmony, balance, moderation, healing, purposefulness'**
+  String get tarotMajor14Upright;
+
+  /// No description provided for @tarotMajor14Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Imbalance, intemperance, extreme behavior, disharmony, conflict'**
+  String get tarotMajor14Reversed;
+
+  /// No description provided for @tarotMajor15Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Devil'**
+  String get tarotMajor15Name;
+
+  /// No description provided for @tarotMajor15Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Obsession, materialism, bondage, temptation, destructive desires.'**
+  String get tarotMajor15Upright;
+
+  /// No description provided for @tarotMajor15Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Liberation, freedom from bondage, independence, enlightenment, freedom'**
+  String get tarotMajor15Reversed;
+
+  /// No description provided for @tarotMajor16Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Tower'**
+  String get tarotMajor16Name;
+
+  /// No description provided for @tarotMajor16Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'sudden change, destruction, liberation, revelation, collapse'**
+  String get tarotMajor16Upright;
+
+  /// No description provided for @tarotMajor16Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Avoiding disaster, delaying inevitable change, ignoring warnings'**
+  String get tarotMajor16Reversed;
+
+  /// No description provided for @tarotMajor17Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Star'**
+  String get tarotMajor17Name;
+
+  /// No description provided for @tarotMajor17Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Hope, Inspiration, Serenity, Healing and Affirmation, Spiritual Guidance'**
+  String get tarotMajor17Upright;
+
+  /// No description provided for @tarotMajor17Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Despair, disappointment, lack of inspiration, pessimism, confusion'**
+  String get tarotMajor17Reversed;
+
+  /// No description provided for @tarotMajor18Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Moon'**
+  String get tarotMajor18Name;
+
+  /// No description provided for @tarotMajor18Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Anxiety, illusion, intuition, hidden truth, deception'**
+  String get tarotMajor18Upright;
+
+  /// No description provided for @tarotMajor18Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Overcoming fear, discovering secrets, relieving anxiety, uncovering the truth'**
+  String get tarotMajor18Reversed;
+
+  /// No description provided for @tarotMajor19Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The Sun'**
+  String get tarotMajor19Name;
+
+  /// No description provided for @tarotMajor19Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Success, positivity, vitality, happiness and achievement, joy'**
+  String get tarotMajor19Upright;
+
+  /// No description provided for @tarotMajor19Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'The other side of delayed success, exaggeration, lack of energy, and sadness.'**
+  String get tarotMajor19Reversed;
+
+  /// No description provided for @tarotMajor20Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Judgement'**
+  String get tarotMajor20Name;
+
+  /// No description provided for @tarotMajor20Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Resurrection, determination, forgiveness, new calling, inner awakening'**
+  String get tarotMajor20Upright;
+
+  /// No description provided for @tarotMajor20Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Regret, self-doubt, fear of change, regret, punishment'**
+  String get tarotMajor20Reversed;
+
+  /// No description provided for @tarotMajor21Name.
+  ///
+  /// In en, this message translates to:
+  /// **'The World'**
+  String get tarotMajor21Name;
+
+  /// No description provided for @tarotMajor21Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'completion, achievement, integration, new level, successful finish'**
+  String get tarotMajor21Upright;
+
+  /// No description provided for @tarotMajor21Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Incompleteness, postponement, stagnation, fear of success, procrastination.'**
+  String get tarotMajor21Reversed;
+
+  /// No description provided for @tarotCups01Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Ace of Cups'**
+  String get tarotCups01Name;
+
+  /// No description provided for @tarotCups01Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'New emotions, beginnings of love, intuition, spiritual fulfillment'**
+  String get tarotCups01Upright;
+
+  /// No description provided for @tarotCups01Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Blocked emotions, feeling unloved, feeling empty, sad.'**
+  String get tarotCups01Reversed;
+
+  /// No description provided for @tarotCups02Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Two of Cups'**
+  String get tarotCups02Name;
+
+  /// No description provided for @tarotCups02Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Harmony in relationships, union, love, mutual respect, cooperation'**
+  String get tarotCups02Upright;
+
+  /// No description provided for @tarotCups02Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Relationship discord, separation, misunderstanding, imbalance, unrequited love'**
+  String get tarotCups02Reversed;
+
+  /// No description provided for @tarotCups03Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Three of Cups'**
+  String get tarotCups03Name;
+
+  /// No description provided for @tarotCups03Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Celebration, friendship, community, joy, creative fruition.'**
+  String get tarotCups03Upright;
+
+  /// No description provided for @tarotCups03Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Excessive drinking, alienation, cliques, love triangles, cancellation of festivals.'**
+  String get tarotCups03Reversed;
+
+  /// No description provided for @tarotCups04Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Four of Cups'**
+  String get tarotCups04Name;
+
+  /// No description provided for @tarotCups04Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Apathy, boredom, meditation, missed opportunities, inner reflection.'**
+  String get tarotCups04Upright;
+
+  /// No description provided for @tarotCups04Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'New awareness, seizing opportunities, revitalization, awakening'**
+  String get tarotCups04Reversed;
+
+  /// No description provided for @tarotCups05Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Five of Cups'**
+  String get tarotCups05Name;
+
+  /// No description provided for @tarotCups05Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Loss, sadness, regret about the past, pessimism'**
+  String get tarotCups05Upright;
+
+  /// No description provided for @tarotCups05Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Overcoming loss, acceptance, healing, and finding new hope'**
+  String get tarotCups05Reversed;
+
+  /// No description provided for @tarotCups06Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Six of Cups'**
+  String get tarotCups06Name;
+
+  /// No description provided for @tarotCups06Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Nostalgia of the past, childhood, innocence, old friends, memories'**
+  String get tarotCups06Upright;
+
+  /// No description provided for @tarotCups06Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Stuck in the past, ignoring the future, independence, growth'**
+  String get tarotCups06Reversed;
+
+  /// No description provided for @tarotCups07Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Seven of Cups'**
+  String get tarotCups07Name;
+
+  /// No description provided for @tarotCups07Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Fantasy, dream, confusion of choice, escapism, daydream'**
+  String get tarotCups07Upright;
+
+  /// No description provided for @tarotCups07Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Facing reality, clear goals, waking up from illusions, determination'**
+  String get tarotCups07Reversed;
+
+  /// No description provided for @tarotCups08Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Eight of Cups'**
+  String get tarotCups08Name;
+
+  /// No description provided for @tarotCups08Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Disappointment, leaving, giving up and resignation in search of deeper meaning.'**
+  String get tarotCups08Upright;
+
+  /// No description provided for @tarotCups08Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to leave, clinging to the past, restoring relationships, fear'**
+  String get tarotCups08Reversed;
+
+  /// No description provided for @tarotCups09Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Nine of Cups'**
+  String get tarotCups09Name;
+
+  /// No description provided for @tarotCups09Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Wish fulfillment, satisfaction, sensual pleasure, self-esteem, happiness'**
+  String get tarotCups09Upright;
+
+  /// No description provided for @tarotCups09Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Dissatisfaction, vanity, superficial success, greed, greed.'**
+  String get tarotCups09Reversed;
+
+  /// No description provided for @tarotCups10Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Ten of Cups'**
+  String get tarotCups10Name;
+
+  /// No description provided for @tarotCups10Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Family happiness, peace, emotional fulfillment, harmonious relationships'**
+  String get tarotCups10Upright;
+
+  /// No description provided for @tarotCups10Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Conflict within the family, broken home, discord, loss of peace'**
+  String get tarotCups10Reversed;
+
+  /// No description provided for @tarotCups11Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Page of Cups'**
+  String get tarotCups11Name;
+
+  /// No description provided for @tarotCups11Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'New inspiration, creativity, emotional message, intuition'**
+  String get tarotCups11Upright;
+
+  /// No description provided for @tarotCups11Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Emotional immaturity, creative block, bad news, irritability.'**
+  String get tarotCups11Reversed;
+
+  /// No description provided for @tarotCups12Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Knight of Cups'**
+  String get tarotCups12Name;
+
+  /// No description provided for @tarotCups12Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Romance, charm, emotional access, imagination, chivalry'**
+  String get tarotCups12Upright;
+
+  /// No description provided for @tarotCups12Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'unreality, fickleness, jealousy, unreliability, deceit'**
+  String get tarotCups12Reversed;
+
+  /// No description provided for @tarotCups13Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Queen of Cups'**
+  String get tarotCups13Name;
+
+  /// No description provided for @tarotCups13Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Empathy, kindness, spiritual intuition, emotional stability, consideration'**
+  String get tarotCups13Upright;
+
+  /// No description provided for @tarotCups13Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Hyperemotionality, instability, dependence, victim cosplay'**
+  String get tarotCups13Reversed;
+
+  /// No description provided for @tarotCups14Name.
+  ///
+  /// In en, this message translates to:
+  /// **'King of Cups'**
+  String get tarotCups14Name;
+
+  /// No description provided for @tarotCups14Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Emotional control, balance, diplomacy, tolerance, wise counsel.'**
+  String get tarotCups14Upright;
+
+  /// No description provided for @tarotCups14Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Emotionally manipulative, callous, unstable, moody, ruthless.'**
+  String get tarotCups14Reversed;
+
+  /// No description provided for @tarotPentacles01Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Ace of Pentacles'**
+  String get tarotPentacles01Name;
+
+  /// No description provided for @tarotPentacles01Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'New opportunities, financial beginnings, abundance, realistic achievements.'**
+  String get tarotPentacles01Upright;
+
+  /// No description provided for @tarotPentacles01Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Lost opportunities, financial losses, delays, bad investments.'**
+  String get tarotPentacles01Reversed;
+
+  /// No description provided for @tarotPentacles02Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Two of Pentacles'**
+  String get tarotPentacles02Name;
+
+  /// No description provided for @tarotPentacles02Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Balance, adaptability, time/financial management, flexibility'**
+  String get tarotPentacles02Upright;
+
+  /// No description provided for @tarotPentacles02Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Imbalance, overwhelming, financial difficulties, stress'**
+  String get tarotPentacles02Reversed;
+
+  /// No description provided for @tarotPentacles03Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Three of Pentacles'**
+  String get tarotPentacles03Name;
+
+  /// No description provided for @tarotPentacles03Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Teamwork, collaboration, technology, recognized effort, architecture'**
+  String get tarotPentacles03Upright;
+
+  /// No description provided for @tarotPentacles03Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Lack of collaboration, lack of skills, lack of recognition, conflict of opinions.'**
+  String get tarotPentacles03Reversed;
+
+  /// No description provided for @tarotPentacles04Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Four of Pentacles'**
+  String get tarotPentacles04Name;
+
+  /// No description provided for @tarotPentacles04Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Stability, possessiveness, conservatism, stinginess, accumulation'**
+  String get tarotPentacles04Upright;
+
+  /// No description provided for @tarotPentacles04Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Let go of the price of greed, loss, financial neglect, and obsession.'**
+  String get tarotPentacles04Reversed;
+
+  /// No description provided for @tarotPentacles05Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Five of Pentacles'**
+  String get tarotPentacles05Name;
+
+  /// No description provided for @tarotPentacles05Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Deprivation, financial/emotional deprivation, alienation, adversity'**
+  String get tarotPentacles05Upright;
+
+  /// No description provided for @tarotPentacles05Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Financial recovery, a helping hand, overcoming adversity, positive change.'**
+  String get tarotPentacles05Reversed;
+
+  /// No description provided for @tarotPentacles06Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Six of Pentacles'**
+  String get tarotPentacles06Name;
+
+  /// No description provided for @tarotPentacles06Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Charity, sharing, sponsorship, fairness, giving and receiving'**
+  String get tarotPentacles06Upright;
+
+  /// No description provided for @tarotPentacles06Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Selfishness, debt, inequality, condescension, exploitation'**
+  String get tarotPentacles06Reversed;
+
+  /// No description provided for @tarotPentacles07Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Seven of Pentacles'**
+  String get tarotPentacles07Name;
+
+  /// No description provided for @tarotPentacles07Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Patience, long-term vision, waiting for rewards for effort, evaluation'**
+  String get tarotPentacles07Upright;
+
+  /// No description provided for @tarotPentacles07Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Impatience, fruitless efforts, delays, frustration, and failed investments.'**
+  String get tarotPentacles07Reversed;
+
+  /// No description provided for @tarotPentacles08Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Eight of Pentacles'**
+  String get tarotPentacles08Name;
+
+  /// No description provided for @tarotPentacles08Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Craftsmanship, commitment, attention to detail, skill.'**
+  String get tarotPentacles08Upright;
+
+  /// No description provided for @tarotPentacles08Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Boredom, the perfectionism trap, laziness, loss of passion.'**
+  String get tarotPentacles08Reversed;
+
+  /// No description provided for @tarotPentacles09Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Nine of Pentacles'**
+  String get tarotPentacles09Name;
+
+  /// No description provided for @tarotPentacles09Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Achievement, independence, leisure, financial comfort, self-reward'**
+  String get tarotPentacles09Upright;
+
+  /// No description provided for @tarotPentacles09Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Overspending, superficial extravagance, dependency, financial insecurity'**
+  String get tarotPentacles09Reversed;
+
+  /// No description provided for @tarotPentacles10Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Ten of Pentacles'**
+  String get tarotPentacles10Name;
+
+  /// No description provided for @tarotPentacles10Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Family business, accumulation of wealth, legacy, stable life, tradition'**
+  String get tarotPentacles10Upright;
+
+  /// No description provided for @tarotPentacles10Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Loss of property, family strife, rebellion against tradition, instability.'**
+  String get tarotPentacles10Reversed;
+
+  /// No description provided for @tarotPentacles11Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Page of Pentacles'**
+  String get tarotPentacles11Name;
+
+  /// No description provided for @tarotPentacles11Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Realistic goals, new studies, opportunities, practicality, planning'**
+  String get tarotPentacles11Upright;
+
+  /// No description provided for @tarotPentacles11Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Delay in planning, lack of practicality, laziness, procrastination.'**
+  String get tarotPentacles11Reversed;
+
+  /// No description provided for @tarotPentacles12Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Knight of Pentacles'**
+  String get tarotPentacles12Name;
+
+  /// No description provided for @tarotPentacles12Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Sincerity, responsibility, persistence, gradual development, reliability'**
+  String get tarotPentacles12Upright;
+
+  /// No description provided for @tarotPentacles12Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Stubbornness, lethargy, workaholism, lack of flexibility, stagnation'**
+  String get tarotPentacles12Reversed;
+
+  /// No description provided for @tarotPentacles13Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Queen of Pentacles'**
+  String get tarotPentacles13Name;
+
+  /// No description provided for @tarotPentacles13Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Practical care, practical advice, abundance, generosity, comfort.'**
+  String get tarotPentacles13Upright;
+
+  /// No description provided for @tarotPentacles13Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Overcontrol, possessiveness, selfishness, financial insecurity, overspending.'**
+  String get tarotPentacles13Reversed;
+
+  /// No description provided for @tarotPentacles14Name.
+  ///
+  /// In en, this message translates to:
+  /// **'King of Pentacles'**
+  String get tarotPentacles14Name;
+
+  /// No description provided for @tarotPentacles14Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Wealth, success, business acumen, authority, and strong supporter.'**
+  String get tarotPentacles14Upright;
+
+  /// No description provided for @tarotPentacles14Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Materialism, corruption, greed, stubbornness, oppressive authority'**
+  String get tarotPentacles14Reversed;
+
+  /// No description provided for @tarotSwords01Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Ace of Swords'**
+  String get tarotSwords01Name;
+
+  /// No description provided for @tarotSwords01Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear insight, new thoughts, truth, spiritual breakthrough'**
+  String get tarotSwords01Upright;
+
+  /// No description provided for @tarotSwords01Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Confusion, misinformation, loss of judgment, lack of communication'**
+  String get tarotSwords01Reversed;
+
+  /// No description provided for @tarotSwords02Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Two of Swords'**
+  String get tarotSwords02Name;
+
+  /// No description provided for @tarotSwords02Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Indecisiveness, blindness, blocking emotions, avoidance of difficult decisions.'**
+  String get tarotSwords02Upright;
+
+  /// No description provided for @tarotSwords02Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Making decisions, facing facts, making mistakes due to lack of information'**
+  String get tarotSwords02Reversed;
+
+  /// No description provided for @tarotSwords03Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Three of Swords'**
+  String get tarotSwords03Name;
+
+  /// No description provided for @tarotSwords03Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Heartache, sadness, separation, hurt, painful truth.'**
+  String get tarotSwords03Upright;
+
+  /// No description provided for @tarotSwords03Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Overcoming pain, healing, forgiveness, letting go of sadness'**
+  String get tarotSwords03Reversed;
+
+  /// No description provided for @tarotSwords04Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Four of Swords'**
+  String get tarotSwords04Name;
+
+  /// No description provided for @tarotSwords04Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Relaxation, recovery, meditation, stress relief, inner peace'**
+  String get tarotSwords04Upright;
+
+  /// No description provided for @tarotSwords04Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Exhaustion, refusal to recover, forced rest, extreme stress.'**
+  String get tarotSwords04Reversed;
+
+  /// No description provided for @tarotSwords05Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Five of Swords'**
+  String get tarotSwords05Name;
+
+  /// No description provided for @tarotSwords05Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Victory that only hurts, betrayal, conflict, hostility, and meanness.'**
+  String get tarotSwords05Upright;
+
+  /// No description provided for @tarotSwords05Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Conflict resolution, reconciliation, compromise, admitting defeat, giving up revenge'**
+  String get tarotSwords05Reversed;
+
+  /// No description provided for @tarotSwords06Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Six of Swords'**
+  String get tarotSwords06Name;
+
+  /// No description provided for @tarotSwords06Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Transition, release from pain, healing journey, movement, travel'**
+  String get tarotSwords06Upright;
+
+  /// No description provided for @tarotSwords06Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Resistance to change, past hurts holding you back, procrastination'**
+  String get tarotSwords06Reversed;
+
+  /// No description provided for @tarotSwords07Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Seven of Swords'**
+  String get tarotSwords07Name;
+
+  /// No description provided for @tarotSwords07Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'deception, trickery, strategy, stealth, escape'**
+  String get tarotSwords07Upright;
+
+  /// No description provided for @tarotSwords07Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Confession, revealing secrets, discovering deception, guilt, confronting things head on.'**
+  String get tarotSwords07Reversed;
+
+  /// No description provided for @tarotSwords08Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Eight of Swords'**
+  String get tarotSwords08Name;
+
+  /// No description provided for @tarotSwords08Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Self-centeredness, helplessness, limited thinking, prison of fear'**
+  String get tarotSwords08Upright;
+
+  /// No description provided for @tarotSwords08Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Liberation, breaking free from one\'s own prison, a new perspective'**
+  String get tarotSwords08Reversed;
+
+  /// No description provided for @tarotSwords09Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Nine of Swords'**
+  String get tarotSwords09Name;
+
+  /// No description provided for @tarotSwords09Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Anxiety, despair, insomnia, guilt, inner fear.'**
+  String get tarotSwords09Upright;
+
+  /// No description provided for @tarotSwords09Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Overcoming fear, ray of hope, relieving insomnia, facing facts'**
+  String get tarotSwords09Reversed;
+
+  /// No description provided for @tarotSwords10Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Ten of Swords'**
+  String get tarotSwords10Name;
+
+  /// No description provided for @tarotSwords10Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Destruction, deep wounds, betrayal, hitting rock bottom, the end comes.'**
+  String get tarotSwords10Upright;
+
+  /// No description provided for @tarotSwords10Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Recovery from destruction, the worst is over, survival, rebuilding'**
+  String get tarotSwords10Reversed;
+
+  /// No description provided for @tarotSwords11Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Page of Swords'**
+  String get tarotSwords11Name;
+
+  /// No description provided for @tarotSwords11Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Curiosity, keen analytical skills, seeking truth, new ideas'**
+  String get tarotSwords11Upright;
+
+  /// No description provided for @tarotSwords11Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Indiscretion, impatience, cynicism, groundless rumors, rudeness'**
+  String get tarotSwords11Reversed;
+
+  /// No description provided for @tarotSwords12Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Knight of Swords'**
+  String get tarotSwords12Name;
+
+  /// No description provided for @tarotSwords12Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Dash, ambition, intellectual drive, quick and decisive action'**
+  String get tarotSwords12Upright;
+
+  /// No description provided for @tarotSwords12Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Recklessness, aggression, inconsiderate words and actions, impulsiveness, ruthlessness'**
+  String get tarotSwords12Reversed;
+
+  /// No description provided for @tarotSwords13Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Queen of Swords'**
+  String get tarotSwords13Name;
+
+  /// No description provided for @tarotSwords13Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Independence, clear communication, keen judgment, honesty, objectivity'**
+  String get tarotSwords13Upright;
+
+  /// No description provided for @tarotSwords13Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Heartlessness, ruthlessness, excessive criticism, resentment, isolation'**
+  String get tarotSwords13Reversed;
+
+  /// No description provided for @tarotSwords14Name.
+  ///
+  /// In en, this message translates to:
+  /// **'King of Swords'**
+  String get tarotSwords14Name;
+
+  /// No description provided for @tarotSwords14Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Authority, intellectual insight, logic, fairness, principles, expert'**
+  String get tarotSwords14Upright;
+
+  /// No description provided for @tarotSwords14Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Abuse of power, irrationality, cruelty, desire for control, dictatorship'**
+  String get tarotSwords14Reversed;
+
+  /// No description provided for @tarotWands01Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Ace of Wands'**
+  String get tarotWands01Name;
+
+  /// No description provided for @tarotWands01Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Passion, inspiration, creative power, new potential, vitality'**
+  String get tarotWands01Upright;
+
+  /// No description provided for @tarotWands01Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Delayed enthusiasm, lack of inspiration, loss of motivation, and identity confusion.'**
+  String get tarotWands01Reversed;
+
+  /// No description provided for @tarotWands02Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Two of Wands'**
+  String get tarotWands02Name;
+
+  /// No description provided for @tarotWands02Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Planning, vision, long-term goals, determination, exploration'**
+  String get tarotWands02Upright;
+
+  /// No description provided for @tarotWands02Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Lack of planning, procrastination, stagnation due to fear, limited vision.'**
+  String get tarotWands02Reversed;
+
+  /// No description provided for @tarotWands03Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Three of Wands'**
+  String get tarotWands03Name;
+
+  /// No description provided for @tarotWands03Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Realization of expectations, progress, expansion, foresight, leadership'**
+  String get tarotWands03Upright;
+
+  /// No description provided for @tarotWands03Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Retardation of growth, setbacks, unexpected disabilities, intolerance'**
+  String get tarotWands03Reversed;
+
+  /// No description provided for @tarotWands04Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Four of Wands'**
+  String get tarotWands04Name;
+
+  /// No description provided for @tarotWands04Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Celebration, comfort, joy of accomplishment, welcome, household events'**
+  String get tarotWands04Upright;
+
+  /// No description provided for @tarotWands04Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Canceled events, family strife, temporary stability, delayed celebrations.'**
+  String get tarotWands04Reversed;
+
+  /// No description provided for @tarotWands05Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Five of Wands'**
+  String get tarotWands05Name;
+
+  /// No description provided for @tarotWands05Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Competition, conflict, disagreement, quarrel, challenge'**
+  String get tarotWands05Upright;
+
+  /// No description provided for @tarotWands05Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Compromise, avoidance of conflict, cooperation, pursuit of peace, calming chaos'**
+  String get tarotWands05Reversed;
+
+  /// No description provided for @tarotWands06Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Six of Wands'**
+  String get tarotWands06Name;
+
+  /// No description provided for @tarotWands06Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Success, public recognition, victory, confidence, rise of leader.'**
+  String get tarotWands06Upright;
+
+  /// No description provided for @tarotWands06Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Defeat, dishonor, disapproval, pride, loss of reputation'**
+  String get tarotWands06Reversed;
+
+  /// No description provided for @tarotWands07Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Seven of Wands'**
+  String get tarotWands07Name;
+
+  /// No description provided for @tarotWands07Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Courage, defense, facing competition, firm conviction, perseverance.'**
+  String get tarotWands07Upright;
+
+  /// No description provided for @tarotWands07Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Giving up, being overwhelmed, compromising, losing confidence, cowardice.'**
+  String get tarotWands07Reversed;
+
+  /// No description provided for @tarotWands08Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Eight of Wands'**
+  String get tarotWands08Name;
+
+  /// No description provided for @tarotWands08Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Fast paced, quick ending, news, agility, speed.'**
+  String get tarotWands08Upright;
+
+  /// No description provided for @tarotWands08Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Delays, confusion, mistakes due to haste, inability to communicate'**
+  String get tarotWands08Reversed;
+
+  /// No description provided for @tarotWands09Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Nine of Wands'**
+  String get tarotWands09Name;
+
+  /// No description provided for @tarotWands09Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Resilience, defensiveness, continuing even when exhausted, vigilance, testing of stamina.'**
+  String get tarotWands09Upright;
+
+  /// No description provided for @tarotWands09Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Fatigue, paranoia, giving up, stubbornness, unnecessary resistance.'**
+  String get tarotWands09Reversed;
+
+  /// No description provided for @tarotWands10Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Ten of Wands'**
+  String get tarotWands10Name;
+
+  /// No description provided for @tarotWands10Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Excessive burden, extreme pressure, responsibility, pressure, limitations.'**
+  String get tarotWands10Upright;
+
+  /// No description provided for @tarotWands10Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Letting go, avoiding responsibility, exhaustion, delegating, overcoming.'**
+  String get tarotWands10Reversed;
+
+  /// No description provided for @tarotWands11Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Page of Wands'**
+  String get tarotWands11Name;
+
+  /// No description provided for @tarotWands11Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Exploration, discovery, passionate ideas, energy, charm'**
+  String get tarotWands11Upright;
+
+  /// No description provided for @tarotWands11Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Loss of direction, immaturity, getting bored easily, vain delusions, irresponsibility'**
+  String get tarotWands11Reversed;
+
+  /// No description provided for @tarotWands12Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Knight of Wands'**
+  String get tarotWands12Name;
+
+  /// No description provided for @tarotWands12Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Passionate forward movement, adventurous spirit, action, energy, confidence'**
+  String get tarotWands12Upright;
+
+  /// No description provided for @tarotWands12Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Impulsive behavior, arrogance, capriciousness, anger, and lack of planning.'**
+  String get tarotWands12Reversed;
+
+  /// No description provided for @tarotWands13Name.
+  ///
+  /// In en, this message translates to:
+  /// **'Queen of Wands'**
+  String get tarotWands13Name;
+
+  /// No description provided for @tarotWands13Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Charisma, courage, independence, brightness, charm, vitality'**
+  String get tarotWands13Upright;
+
+  /// No description provided for @tarotWands13Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Selfishness, exhibitionism, jealousy, capriciousness, aggression'**
+  String get tarotWands13Reversed;
+
+  /// No description provided for @tarotWands14Name.
+  ///
+  /// In en, this message translates to:
+  /// **'King of Wands'**
+  String get tarotWands14Name;
+
+  /// No description provided for @tarotWands14Upright.
+  ///
+  /// In en, this message translates to:
+  /// **'Charismatic leadership, vision, inspiration, boldness, entrepreneur'**
+  String get tarotWands14Upright;
+
+  /// No description provided for @tarotWands14Reversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Dictatorship, impulsive anger, unreality, arrogance, ruthlessness'**
+  String get tarotWands14Reversed;
+
+  /// No description provided for @nicknamePrefixes.
+  ///
+  /// In en, this message translates to:
+  /// **'Mysterious, serene, holy, dark, shining, cold, hot, captivating, brutal, pure, rough, gentle, beautiful, strange, great, shabby, eternal, forgotten, brilliant , sad, happy, dreamy, decadent, pure white, jet black, blood red, gray, golden, silvery, blue, red, yellow, black, white, transparent, lonely, noisy, quiet, warm, cold. lonely, lonely, joyful, happy, gloomy, hopeless, hopeful, dazzling, dusky, dark, desolate, secret, secret, sacred, profane, arrogant, humble, wise lonely, foolish, strong, weak, brave, cowardly, distant, near, receding, approaching, disappearing, appearing, waking, sleeping, dreaming, wandering, wandering, staying, floating I am returning, waiting, seeking, hidden, revealed, abandoned, chosen, blessed, cursed, loved, hated, remembering, forgetting, of starlight, of moonlight, of sunlight, of the universe, Of the earth, sea, sky, clouds, wind, rain, snow, ice, fire, water, soil, trees, forests, mountains, rivers, lakes, time, space, dimensions, fate, destiny, energy Of enemies, of magic, of myth, of legend, of truth, of lies, of fantasy, of dreams, of nightmares, of destruction, of creation, of life, of death, of soul, of flesh, of reason, of emotion, of love, of hate, of sorrow. Of joy, anger, peace, war, chaos, order, light, darkness, twilight, dawn, noon, midnight, past, present, future, origin, apocalypse, infinite, finite, silence. of noise, singing, dancing, crying, laughing, whispering, shouting, praying, pleading, commanding, obeying, ruling, serving, leading, following, teaching, learning, Of memory, memories, wounds, healing, poison, medicine, illusion, substance, ideal, reality, virtual, natural, artificial, primordial, eternity, moment, fleeting, eternal, change, stop. ,flowing,stopped,burning,cooling,blooming,withering,growing,dying,breathing,suffocating,brilliant,subtle,dark,dim,transparent,faint,dazzling,strange. unique, special, noble, pure, corrupted, solitary, lonely, desolate, distant, harsh, cruel, cruel, great, strong, firm, flexible, quick, slow, quiet ,chaotic,memory,imaginary,silent,whispering,singing,dancing,sobbing,smiling,smirking,contemplating,wandering,wandering,awake,asleep,dreaming,daydreaming. Doing, delusional, praying, earnest, heartbreaking, heartbreaking, sublime, evil, mean, arrogant, humble, kind, warm, cool, creepy, bizarre, eerie, ecstatic, fascinating , dizzying, sweet, bittersweet, bitter, prickly, sharp, dull, rough, soft, cozy, comfortable, precarious, uneasy, carefree, peaceful, languid, bored, passionate ,indifferent, calm, fierce, fierce, crazy, crazy, rational, emotional, cool-headed, wise, foolish, naive, cunning, insidious, pure white, jet black, golden, silver, bloody'**
+  String get nicknamePrefixes;
+
+  /// No description provided for @nicknameSuffixes.
+  ///
+  /// In en, this message translates to:
+  /// **'Prophet, Wizard, Witch, Knight, Warrior, Archer, Rogue, Assassin, Paladin, Priest, Priestess, Monk, Shaman, Alchemist, Necromancer, Elementalist, Summoner, Illusionist, Healer, Sage, Scholar, Researcher, Explorer, Traveler ruler, wanderer, wanderer, pilgrim, seeker, observer, recorder, messenger, guardian, sentinel, guard, gatekeeper, judge, executioner, ruler, ruler, king, queen, emperor, empress, noble, lord, knight commander, mercenary, pirate , thief, trickster, clown, fool, hermit, heretic, traitor, traitor, hero, savior, liberator, destroyer, creator, god, goddess, angel, devil, spirit, fairy, monster, beast, dragon, ghost, wraith, undead, vampire. , werewolf, mermaid, siren, nymph, goblin, orc, troll, elf, dwarf, giant, dwarf, human, beastman, joiner, fishman, dragon, evil spirit, Sura, abyss, heaven, underworld, other world, abyss, chaos, order, light, darkness, seeker , pilgrim, wanderer, hermit, heretic, traitor, pioneer, conqueror, ruler, coordinator, guardian, watcher, observer, recorder, messenger, guide, guide, savior, destroyer, creator, ghost, ghost, ghost, evil spirit. , spirit, fairy, magical beast, holy beast, phantom beast, divine beast, swordsman, knight, archer, thief, assassin, wizard, shaman, alchemist, necromancer, priest, scholar, researcher, explorer, traveler, artist, jester, bard, merchant, artisan, Farmer, crow, owl, eagle, hawk, wolf, fox, bear, lion, tiger, leopard, black panther, cat, cat, puppy, snake, lizard, turtle, crocodile, dragon, unicorn, pegasus, griffon, gargoyle, goblin. , Orc, Troll, Ogre, Slime, Skeleton, Zombie, Ghoul, Vampire, Werewolf, Minotaur, Centaur, Harpy, Siren, Kraken, Leviathan, Sword, Shield, Spear, Bow, Staff, Ring, Necklace, Crown, Holy Grail.'**
+  String get nicknameSuffixes;
+
+  /// No description provided for @eulaTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'End User License Agreement (EULA)'**
+  String get eulaTitle;
+
+  /// No description provided for @eulaArticle1.
+  ///
+  /// In en, this message translates to:
+  /// **'Article 1 (Grant of License)\nPermission to use this app (“Tarot Witch”) is granted for personal, non-commercial use only, and no ownership or intellectual property rights in the app are transferred.'**
+  String get eulaArticle1;
+
+  /// No description provided for @eulaArticle2.
+  ///
+  /// In en, this message translates to:
+  /// **'Article 2 (Prohibited Use)\nUsers may not use this service for purposes that are illegal or infringe upon the rights of others, and may not arbitrarily manipulate or reverse engineer systems or data.'**
+  String get eulaArticle2;
+
+  /// No description provided for @eulaArticle3.
+  ///
+  /// In en, this message translates to:
+  /// **'Article 3 (Data collection and storage period)\nTo provide smooth service, tarot diaries and related fortune telling data written by users are safely stored for three years from the date of creation.'**
+  String get eulaArticle3;
+
+  /// No description provided for @eulaArticle4.
+  ///
+  /// In en, this message translates to:
+  /// **'Article 4 (Handling of long-term inactive dormant accounts)\nIf a user does not access the service for more than one year (365 days), the account will be converted to a dormant account, and all data of the user will be automatically deleted without prior notice to protect personal information and maintain a smooth server environment.'**
+  String get eulaArticle4;
+
+  /// No description provided for @eulaArticle5.
+  ///
+  /// In en, this message translates to:
+  /// **'Article 5 (Data destruction and recovery impossible)\nData that has elapsed the retention period in Article 3 or has been deleted in accordance with Article 4 will be permanently destroyed and cannot be recovered under any circumstances.'**
+  String get eulaArticle5;
+
+  /// No description provided for @eulaArticle6.
+  ///
+  /// In en, this message translates to:
+  /// **'Article 6 (Disclaimer of Warranty and Indemnification)\nThe tarot readings and interpretations provided by this app are for entertainment purposes only and are not a substitute for legal, medical, or financial advice. The developer is not responsible for any direct or indirect damages arising from the use of the service.'**
+  String get eulaArticle6;
+
+  /// No description provided for @eulaAgreement.
+  ///
+  /// In en, this message translates to:
+  /// **'The above EULA contents and data management policy are mandatory items that must be agreed to in order to use the app.'**
+  String get eulaAgreement;
+
+  /// No description provided for @closeButton.
+  ///
+  /// In en, this message translates to:
+  /// **'close'**
+  String get closeButton;
+
+  /// No description provided for @pushTermsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Opt-in to receive event and marketing notifications'**
+  String get pushTermsTitle;
+
+  /// No description provided for @pushArticle1.
+  ///
+  /// In en, this message translates to:
+  /// **'Article 1 (Purpose)\nThis consent is for the Tarot Witch service to send advertising information such as events, promotions, and new horoscope updates that are beneficial to users through push notifications.'**
+  String get pushArticle1;
+
+  /// No description provided for @pushArticle2.
+  ///
+  /// In en, this message translates to:
+  /// **'Article 2 (Withdrawal of receipt)\nUsers may withdraw this consent at any time through [My Menu > App Settings] within the app. Even if you withdraw your consent, you can still use the basic functions (essential services) of the service as normal.'**
+  String get pushArticle2;
+
+  /// No description provided for @pushArticle3.
+  ///
+  /// In en, this message translates to:
+  /// **'Article 3 (Contents of Notification)\nNotifications sent may include advertising and marketing in nature, such as special in-app discount offers, limited-time events, and personalized horoscope recommendations.'**
+  String get pushArticle3;
+
+  /// No description provided for @pushAgreement.
+  ///
+  /// In en, this message translates to:
+  /// **'The above is optional for the user, and even if consent is not given, there is no disadvantage in using the tarot service.'**
+  String get pushAgreement;
+
+  /// No description provided for @windowsNoGoogleLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Google login is not supported in the preview environment (Windows). Please use an Android device or the web.'**
+  String get windowsNoGoogleLogin;
+
+  /// No description provided for @signupTermsRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'To proceed with membership registration, you must agree to the data storage terms and conditions.'**
+  String get signupTermsRequired;
+
+  /// No description provided for @googleLoginError.
+  ///
+  /// In en, this message translates to:
+  /// **'Google login error: {error}'**
+  String googleLoginError(String error);
+
+  /// No description provided for @googleLoginUnknownError.
+  ///
+  /// In en, this message translates to:
+  /// **'An unknown error occurred while logging in to Google.'**
+  String get googleLoginUnknownError;
+
+  /// No description provided for @windowsNoFirebase.
+  ///
+  /// In en, this message translates to:
+  /// **'Firebase login is not supported in the preview environment (Windows).'**
+  String get windowsNoFirebase;
+
+  /// No description provided for @emailVerificationRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Email verification is required. Please check the email you signed up with.'**
+  String get emailVerificationRequired;
+
+  /// No description provided for @resendEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Resend'**
+  String get resendEmail;
+
+  /// No description provided for @verificationEmailSent.
+  ///
+  /// In en, this message translates to:
+  /// **'The verification email has been resent.'**
+  String get verificationEmailSent;
+
+  /// No description provided for @passwordMismatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Password does not match. Please check again.'**
+  String get passwordMismatch;
+
+  /// No description provided for @signupSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Membership registration has been completed. Please check the email sent to complete verification.'**
+  String get signupSuccess;
+
+  /// No description provided for @authError.
+  ///
+  /// In en, this message translates to:
+  /// **'An authentication error occurred.'**
+  String get authError;
+
+  /// No description provided for @authLoginTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'log in'**
+  String get authLoginTitle;
+
+  /// No description provided for @authSignupTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'join the membership'**
+  String get authSignupTitle;
+
+  /// No description provided for @authTarotNickname.
+  ///
+  /// In en, this message translates to:
+  /// **'Nicknames in the Tarot World'**
+  String get authTarotNickname;
+
+  /// No description provided for @authRerollNickname.
+  ///
+  /// In en, this message translates to:
+  /// **'Pick a nickname again'**
+  String get authRerollNickname;
+
+  /// No description provided for @authEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'email'**
+  String get authEmail;
+
+  /// No description provided for @authPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'password'**
+  String get authPassword;
+
+  /// No description provided for @authConfirmPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'verify password'**
+  String get authConfirmPassword;
+
+  /// No description provided for @authKeepLoggedIn.
+  ///
+  /// In en, this message translates to:
+  /// **'Stay logged in'**
+  String get authKeepLoggedIn;
+
+  /// No description provided for @authAgreeEula.
+  ///
+  /// In en, this message translates to:
+  /// **'I agree to the End User License Agreement (EULA). (essential)'**
+  String get authAgreeEula;
+
+  /// No description provided for @authViewContent.
+  ///
+  /// In en, this message translates to:
+  /// **'[View content]'**
+  String get authViewContent;
+
+  /// No description provided for @authAgreePush.
+  ///
+  /// In en, this message translates to:
+  /// **'I agree to receive notifications of new tarot readings and events. (select)'**
+  String get authAgreePush;
+
+  /// No description provided for @authBtnLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Log in'**
+  String get authBtnLogin;
+
+  /// No description provided for @authBtnSignup.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign up'**
+  String get authBtnSignup;
+
+  /// No description provided for @authSwitchToSignup.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account? join the membership'**
+  String get authSwitchToSignup;
+
+  /// No description provided for @authSwitchToLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account? log in'**
+  String get authSwitchToLogin;
+
+  /// No description provided for @authGoogleSignIn.
+  ///
+  /// In en, this message translates to:
+  /// **'Get started with Google'**
+  String get authGoogleSignIn;
+
+  /// No description provided for @cardDetailNotReady.
+  ///
+  /// In en, this message translates to:
+  /// **'This interpretation is not yet ready.'**
+  String get cardDetailNotReady;
+
+  /// No description provided for @cardDetailLoadError.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while loading data.'**
+  String get cardDetailLoadError;
+
+  /// No description provided for @cardDetailTabUpright.
+  ///
+  /// In en, this message translates to:
+  /// **'Upright'**
+  String get cardDetailTabUpright;
+
+  /// No description provided for @cardDetailTabReversed.
+  ///
+  /// In en, this message translates to:
+  /// **'Reversed'**
+  String get cardDetailTabReversed;
+
+  /// No description provided for @cardDetailNoInterpretation.
+  ///
+  /// In en, this message translates to:
+  /// **'There is no interpretation.'**
+  String get cardDetailNoInterpretation;
+
+  /// No description provided for @cardDetailSectionKeywords.
+  ///
+  /// In en, this message translates to:
+  /// **'Keywords'**
+  String get cardDetailSectionKeywords;
+
+  /// No description provided for @cardDetailSectionGeneral.
+  ///
+  /// In en, this message translates to:
+  /// **'General interpretation'**
+  String get cardDetailSectionGeneral;
+
+  /// No description provided for @cardDetailSectionLove.
+  ///
+  /// In en, this message translates to:
+  /// **'love luck'**
+  String get cardDetailSectionLove;
+
+  /// No description provided for @cardDetailSectionCareer.
+  ///
+  /// In en, this message translates to:
+  /// **'money career'**
+  String get cardDetailSectionCareer;
+
+  /// No description provided for @cardDetailSectionHealth.
+  ///
+  /// In en, this message translates to:
+  /// **'health'**
+  String get cardDetailSectionHealth;
+
+  /// No description provided for @cardDetailSectionSpirituality.
+  ///
+  /// In en, this message translates to:
+  /// **'spirituality inside'**
+  String get cardDetailSectionSpirituality;
+
+  /// No description provided for @chatDustShortageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'lack of powder'**
+  String get chatDustShortageTitle;
+
+  /// No description provided for @chatDustShortageContent.
+  ///
+  /// In en, this message translates to:
+  /// **'There is not enough magic powder. Tarot reading requires 1 powder.'**
+  String get chatDustShortageContent;
+
+  /// No description provided for @chatConfirmBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'check'**
+  String get chatConfirmBtn;
+
+  /// No description provided for @chatStartReadingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Start tarot reading'**
+  String get chatStartReadingTitle;
+
+  /// No description provided for @chatStartReadingContent.
+  ///
+  /// In en, this message translates to:
+  /// **'Would you like to spend 1 powder to start a tarot reading?'**
+  String get chatStartReadingContent;
+
+  /// No description provided for @chatCancelBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'cancellation'**
+  String get chatCancelBtn;
+
+  /// No description provided for @chatStartBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'start'**
+  String get chatStartBtn;
+
+  /// No description provided for @chatShufflingCards.
+  ///
+  /// In en, this message translates to:
+  /// **'Shuffling tarot cards...'**
+  String get chatShufflingCards;
+
+  /// No description provided for @profileEditEmptyNickname.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a nickname.'**
+  String get profileEditEmptyNickname;
+
+  /// No description provided for @profileEditDuplicateNickname.
+  ///
+  /// In en, this message translates to:
+  /// **'Nickname is already in use. Please enter a different nickname.'**
+  String get profileEditDuplicateNickname;
+
+  /// No description provided for @profileEditEmptyPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your current password to change your email.'**
+  String get profileEditEmptyPassword;
+
+  /// No description provided for @profileEditEmailSent.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification email has been sent. Please complete verification in your new email inbox.'**
+  String get profileEditEmailSent;
+
+  /// No description provided for @profileEditSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile has been saved.'**
+  String get profileEditSuccess;
+
+  /// No description provided for @profileEditErrorDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred.'**
+  String get profileEditErrorDefault;
+
+  /// No description provided for @profileEditErrorWrongPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect password.'**
+  String get profileEditErrorWrongPassword;
+
+  /// No description provided for @profileEditErrorInvalidEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid email format.'**
+  String get profileEditErrorInvalidEmail;
+
+  /// No description provided for @profileEditErrorEmailInUse.
+  ///
+  /// In en, this message translates to:
+  /// **'Email is already in use.'**
+  String get profileEditErrorEmailInUse;
+
+  /// No description provided for @profileEditErrorRecentLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'For security reasons, please log in again and try.'**
+  String get profileEditErrorRecentLogin;
+
+  /// No description provided for @profileEditErrorUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown error occurred while saving: {error}'**
+  String profileEditErrorUnknown(String error);
+
+  /// No description provided for @profileEditTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Profile'**
+  String get profileEditTitle;
+
+  /// No description provided for @profileEditPhoto.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile Photo'**
+  String get profileEditPhoto;
+
+  /// No description provided for @profileEditNickname.
+  ///
+  /// In en, this message translates to:
+  /// **'Nickname'**
+  String get profileEditNickname;
+
+  /// No description provided for @profileEditEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Email Address'**
+  String get profileEditEmail;
+
+  /// No description provided for @profileEditEmailSocialHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Google/Apple linked accounts cannot change email.'**
+  String get profileEditEmailSocialHint;
+
+  /// No description provided for @profileEditEmailChangeHint.
+  ///
+  /// In en, this message translates to:
+  /// **'A verification email will be sent when changing email.'**
+  String get profileEditEmailChangeHint;
+
+  /// No description provided for @profileEditPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'Current Password (for email change verification)'**
+  String get profileEditPassword;
+
+  /// No description provided for @profileEditCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get profileEditCancel;
+
+  /// No description provided for @profileEditSave.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get profileEditSave;
 }
 
 class _AppLocalizationsDelegate

@@ -5,7 +5,7 @@ import '../data/tarot_data.dart';
 import '../data/tarot_detail_data.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
-
+import 'package:flutter_tarot/l10n/app_localizations.dart';
 class CardDetailScreen extends StatefulWidget {
   final TarotCardData card;
   final bool initialIsReversed;
@@ -56,7 +56,7 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
       }
     } catch (e) {
       setState(() {
-        _error = '데이터를 불러오는 중 오류가 발생했습니다.';
+        _error = AppLocalizations.of(context)!.cardDetailLoadError;
         _isLoading = false;
       });
     }
@@ -110,13 +110,13 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
                     ),
                   ),
                   const SizedBox(height: 20),
-                  const TabBar(
+                  TabBar(
                     indicatorColor: Colors.white,
                     labelColor: Colors.white,
                     unselectedLabelColor: Colors.white54,
                     tabs: [
-                      Tab(text: '정방향 (Upright)'),
-                      Tab(text: '역방향 (Reversed)'),
+                      Tab(text: AppLocalizations.of(context)!.cardDetailTabUpright),
+                      Tab(text: AppLocalizations.of(context)!.cardDetailTabReversed),
                     ],
                   ),
                   Expanded(
@@ -145,12 +145,12 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
     return ListView(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
       children: [
-        _buildSection('핵심 키워드', detail.keyMeanings),
-        _buildSection('일반 해석', detail.general),
-        _buildSection('연애 및 관계', detail.love),
-        _buildSection('금전 및 커리어', detail.career),
-        _buildSection('건강', detail.health),
-        _buildSection('영성 및 내면', detail.spirituality),
+        _buildSection(AppLocalizations.of(context)!.cardDetailSectionKeywords, detail.keyMeanings),
+        _buildSection(AppLocalizations.of(context)!.cardDetailSectionGeneral, detail.general),
+        _buildSection(AppLocalizations.of(context)!.cardDetailSectionLove, detail.love),
+        _buildSection(AppLocalizations.of(context)!.cardDetailSectionCareer, detail.career),
+        _buildSection(AppLocalizations.of(context)!.cardDetailSectionHealth, detail.health),
+        _buildSection(AppLocalizations.of(context)!.cardDetailSectionSpirituality, detail.spirituality),
       ],
     );
   }

@@ -2886,4 +2886,1241 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get themePaid => 'الموضوع المدفوع';
+
+  @override
+  String get diaryEmpty =>
+      'لا يوجد إدخالات يومية حتى الآن.\nتحقق من ثروتك اليوم واترك مذكراتك!';
+
+  @override
+  String get diaryTarotConsult => 'استشارة التارو';
+
+  @override
+  String get diaryTarotReading => 'قراءة التاروت';
+
+  @override
+  String diaryAndMore(int count) {
+    return 'و$count المزيد';
+  }
+
+  @override
+  String diaryDaysAgo(int days) {
+    return '$daysقبل يوم';
+  }
+
+  @override
+  String diaryHoursAgo(int hours) {
+    return '$hoursقبل ساعة';
+  }
+
+  @override
+  String diaryMinutesAgo(int minutes) {
+    return 'منذ $minutesمنذ دقيقة';
+  }
+
+  @override
+  String get diaryJustNow => 'الآن';
+
+  @override
+  String get diaryNoEntryForDate => 'لا توجد سجلات القراءة لهذا التاريخ.';
+
+  @override
+  String get diaryMyQuestion => 'سؤالي';
+
+  @override
+  String get diaryWitchReading => 'قراءة التاروت';
+
+  @override
+  String get diaryNoResult => 'لا توجد نتائج متاحة.';
+
+  @override
+  String get diaryFollowUpTitle => 'ملاحظة المتابعة';
+
+  @override
+  String get diaryFollowUpHint =>
+      'سجل ما إذا كانت القراءة دقيقة بعد بضعة أيام.';
+
+  @override
+  String get diaryFollowUpPlaceholder => 'كيف أصبحت القراءة؟';
+
+  @override
+  String get diaryFollowUpSave => 'حفظ المتابعة';
+
+  @override
+  String get diaryFollowUpSaved => 'تم حفظ المتابعة!';
+
+  @override
+  String get diaryFollowUpEdit => 'تحرير المتابعة';
+
+  @override
+  String get diaryTagTitle => 'العلامات';
+
+  @override
+  String get diaryTagAddHint => 'أدخل علامة جديدة';
+
+  @override
+  String get diaryTagDeleteConfirm => 'هل تريد حذف هذه العلامة؟';
+
+  @override
+  String get diaryTagDelete => 'يمسح';
+
+  @override
+  String get diaryDeleteTitle => 'حذف اليوميات';
+
+  @override
+  String get diaryDeleteConfirm =>
+      'هل تريد حذف إدخال اليوميات هذا؟ لا يمكن التراجع عن هذا.';
+
+  @override
+  String get communityTitle => 'مجتمع';
+
+  @override
+  String get communityErrorLoading => 'حدث خطأ أثناء تحميل البيانات.';
+
+  @override
+  String get communityEmptyFeed =>
+      'لا توجد يوميات التارو العامة حتى الآن.\nكن أول من يشارك يومياتك!';
+
+  @override
+  String get communityNoInterpretation => 'لا تفسير.';
+
+  @override
+  String get communityLike => 'يحب';
+
+  @override
+  String get communityComments => 'تعليقات';
+
+  @override
+  String get communityFirstCommentPrompt => 'كن أول من يترك تعليقا!';
+
+  @override
+  String get communityCommentInputHint => 'أكتب تعليق...';
+
+  @override
+  String get communityCommentFailed => 'فشل في إضافة تعليق:';
+
+  @override
+  String get communityLoginRequired => 'تسجيل الدخول مطلوب.';
+
+  @override
+  String get communityReportTitle => 'تقرير';
+
+  @override
+  String get communityReportHint => 'أدخل سبب الإبلاغ';
+
+  @override
+  String get communityReportCancel => 'يلغي';
+
+  @override
+  String get communityReportSubmit => 'تقرير';
+
+  @override
+  String get communityReportSuccess => 'تم تقديم التقرير.';
+
+  @override
+  String get communityTarotQuestion => 'س: سؤال التارو';
+
+  @override
+  String get communityNoName => 'ساحرة بلا اسم';
+
+  @override
+  String get diaryShareToCommunity => 'شارك في المجتمع';
+
+  @override
+  String get diarySharedSuccess => 'مشتركة للمجتمع.';
+
+  @override
+  String get diaryPrivateSuccess => 'اضبط على خاص.';
+
+  @override
+  String get growthTitle => 'نمو';
+
+  @override
+  String get growthSubtitle => 'جمع القوة السحرية لتعزيز بطاقات التارو';
+
+  @override
+  String get growthTabCrystalBall => 'ترقية الكرة البلورية';
+
+  @override
+  String get growthTabWorldTree => 'تنمو شجرة العالم';
+
+  @override
+  String growthWorldTreeLevel(int level) {
+    return 'مستوى الشجرة العالمية $level';
+  }
+
+  @override
+  String get growthExp => 'الخبرة:';
+
+  @override
+  String get growthWaterFree => 'الماء مجانا';
+
+  @override
+  String get growthWaterSuccess => 'سقي شجرة العالم! تجربة +10 💧';
+
+  @override
+  String growthDustOwned(int dust) {
+    return 'الغبار السحري مملوك: $dust';
+  }
+
+  @override
+  String growthCrystalBallLevel(int level) {
+    return 'مستوى الكرة البلورية الغامضة $level';
+  }
+
+  @override
+  String get growthUpgradeButton => 'ترقية (10 غبار)';
+
+  @override
+  String get growthUpgradeSuccess => 'تمت ترقية الكرة البلورية بنجاح! ✨';
+
+  @override
+  String get growthUpgradeNotEnough =>
+      'لا يوجد ما يكفي من الغبار السحري. (الحاجة: 10)';
+
+  @override
+  String get diaryViewList => 'عرض القائمة';
+
+  @override
+  String get diaryViewCalendar => 'عرض التقويم';
+
+  @override
+  String get tarotMajor00Name => 'الأحمق';
+
+  @override
+  String get tarotMajor00Upright => 'مستلزمات شخصية';
+
+  @override
+  String get tarotMajor00Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotMajor01Name => 'الساحر';
+
+  @override
+  String get tarotMajor01Upright => 'مرحبا بكم في مكان آخر';
+
+  @override
+  String get tarotMajor01Reversed => 'مرحبا بكم في مكان قريب';
+
+  @override
+  String get tarotMajor02Name => 'الكاهنة العليا';
+
+  @override
+  String get tarotMajor02Upright => 'نعم، نعم، نعم، نعم، نعم';
+
+  @override
+  String get tarotMajor02Reversed => 'شكرا لك, شكرا لك, مرحبا بك, مرحبا بكم';
+
+  @override
+  String get tarotMajor03Name => 'الإمبراطورة';
+
+  @override
+  String get tarotMajor03Upright =>
+      'هانغتشو، هانغتشو، هانغتشو، هانغتشو، هانغتشو، هانغتشو';
+
+  @override
+  String get tarotMajor03Reversed => '과잉보호، 의존성، 창조적 결핍، 으름، 정체기';
+
+  @override
+  String get tarotMajor04Name => 'الامبراطور';
+
+  @override
+  String get tarotMajor04Upright => '권위، 구조، 안정، 부성애، 통제력، 책임감';
+
+  @override
+  String get tarotMajor04Reversed => 'شكرا لك';
+
+  @override
+  String get tarotMajor05Name => 'الهيروفانت';
+
+  @override
+  String get tarotMajor05Upright => 'ترفيه، ترفيه، ترفيه، ترفيه، ترفيه';
+
+  @override
+  String get tarotMajor05Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotMajor06Name => 'العشاق';
+
+  @override
+  String get tarotMajor06Upright => 'نعم، نعم، نعم، نعم، نعم، نعم';
+
+  @override
+  String get tarotMajor06Reversed => '불못된 선택، 신뢰 상실، 유혹، 불균형';
+
+  @override
+  String get tarotMajor07Name => 'العربة';
+
+  @override
+  String get tarotMajor07Upright => 'مرحبا بكم في المنزل';
+
+  @override
+  String get tarotMajor07Reversed =>
+      'المفروشات, المفروشات, المفروشات, المفروشات, المفروشات';
+
+  @override
+  String get tarotMajor08Name => 'قوة';
+
+  @override
+  String get tarotMajor08Upright => 'مرحبا بكم في مكان آخر';
+
+  @override
+  String get tarotMajor08Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotMajor09Name => 'الناسك';
+
+  @override
+  String get tarotMajor09Upright =>
+      'مغامرات، مغامرات، مغامرات، مغامرات، مغامرات';
+
+  @override
+  String get tarotMajor09Reversed => 'نعم، نعم، نعم، نعم، نعم، نعم';
+
+  @override
+  String get tarotMajor10Name => 'عجلة الحظ';
+
+  @override
+  String get tarotMajor10Upright =>
+      'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
+
+  @override
+  String get tarotMajor10Reversed => 'مرحباً بك, مرحباً بك, مرحباً بك';
+
+  @override
+  String get tarotMajor11Name => 'عدالة';
+
+  @override
+  String get tarotMajor11Upright => 'السفر، السفر، السفر، السفر، السفر';
+
+  @override
+  String get tarotMajor11Reversed => '불공평، 편견، 부정직، 피할 없는 처벌، 불균형';
+
+  @override
+  String get tarotMajor12Name => 'الرجل المشنوق';
+
+  @override
+  String get tarotMajor12Upright => '희생، 새로운 시각، 다림، 통찰، 일시적 정지';
+
+  @override
+  String get tarotMajor12Reversed => 'مستلزمات شخصية';
+
+  @override
+  String get tarotMajor13Name => 'موت';
+
+  @override
+  String get tarotMajor13Upright => '끝과 새로운 시작، 변화، 전환기، 과거 청산';
+
+  @override
+  String get tarotMajor13Reversed =>
+      'أفضل ما في الأمر، أفضل ما في الأمر، أفضل ما في الأمر،';
+
+  @override
+  String get tarotMajor14Name => 'الاعتدال';
+
+  @override
+  String get tarotMajor14Upright => '조화، 균형، 중용، 치유، 목적 의식';
+
+  @override
+  String get tarotMajor14Reversed =>
+      'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
+
+  @override
+  String get tarotMajor15Name => 'الشيطان';
+
+  @override
+  String get tarotMajor15Upright => 'شكرا لك';
+
+  @override
+  String get tarotMajor15Reversed => '해방، 속박에서 벗어남، 독립، 깨달음، 자유';
+
+  @override
+  String get tarotMajor16Name => 'البرج';
+
+  @override
+  String get tarotMajor16Upright =>
+      'فصول السنة، فصول السنة، فصول السنة، فصول السنة، فصول السنة';
+
+  @override
+  String get tarotMajor16Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotMajor17Name => 'النجم';
+
+  @override
+  String get tarotMajor17Upright => 'نعم، نعم، نعم، نعم، نعم، نعم';
+
+  @override
+  String get tarotMajor17Reversed => 'نعم، نعم، نعم، نعم، نعم';
+
+  @override
+  String get tarotMajor18Name => 'القمر';
+
+  @override
+  String get tarotMajor18Upright => 'نعم، نعم، نعم، نعم، نعم';
+
+  @override
+  String get tarotMajor18Reversed => '두려움의 극복، 비밀의 발견، 불안 해소، 진실 규명';
+
+  @override
+  String get tarotMajor19Name => 'الشمس';
+
+  @override
+  String get tarotMajor19Upright =>
+      'الصفحة الرئيسية، الصفحة الرئيسية، الصفحة الرئيسية، الصفحة الرئيسية، الصفحة الرئيسية';
+
+  @override
+  String get tarotMajor19Reversed =>
+      'معلومات عنا، معلومات عنا، معلومات عنا، معلومات عنا';
+
+  @override
+  String get tarotMajor20Name => 'الحكم';
+
+  @override
+  String get tarotMajor20Upright =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotMajor20Reversed => '후회, 자기 의심, 변화에 대한 두려움, 미련, 형벌';
+
+  @override
+  String get tarotMajor21Name => 'العالم';
+
+  @override
+  String get tarotMajor21Upright => 'أنت، أنت، أنت، أنت، أنت، أنت';
+
+  @override
+  String get tarotMajor21Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotCups01Name => 'الآس الكؤوس';
+
+  @override
+  String get tarotCups01Upright => 'المكافآت، المكافآت، المكافآت، المكافآت';
+
+  @override
+  String get tarotCups01Reversed =>
+      'ماكينات القمار, ماكينات القمار, ماكينات القمار, ماكينات القمار';
+
+  @override
+  String get tarotCups02Name => 'اثنان من الكؤوس';
+
+  @override
+  String get tarotCups02Upright => '관계의 조화، 결합، 사랑، 상호 존중، 협력';
+
+  @override
+  String get tarotCups02Reversed => '관계의 불화، 이별، 오해، 불균형، 짝사랑';
+
+  @override
+  String get tarotCups03Name => 'ثلاث كؤوس';
+
+  @override
+  String get tarotCups03Upright =>
+      'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
+
+  @override
+  String get tarotCups03Reversed => '과음، 소외، 파벌، 삼각관계، 축제의 취소';
+
+  @override
+  String get tarotCups04Name => 'أربعة من الكؤوس';
+
+  @override
+  String get tarotCups04Upright =>
+      'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
+
+  @override
+  String get tarotCups04Reversed =>
+      'معلومات عنا، معلومات عنا، معلومات عنا، معلومات عنا';
+
+  @override
+  String get tarotCups05Name => 'خمسة كؤوس';
+
+  @override
+  String get tarotCups05Upright => 'نعم، نعم، أفضل، أفضل، أفضل';
+
+  @override
+  String get tarotCups05Reversed => 'المكافآت، المكافآت، المكافآت، المكافآت';
+
+  @override
+  String get tarotCups06Name => 'ستة أكواب';
+
+  @override
+  String get tarotCups06Upright => '과거의 향수، 어린 시절، 순수함، 옛 친구، 추억';
+
+  @override
+  String get tarotCups06Reversed => '과거에 얽매임، 미래를 면함، 독립، 성장';
+
+  @override
+  String get tarotCups07Name => 'سبعة أكواب';
+
+  @override
+  String get tarotCups07Upright => 'نعم، نعم، أفضل، أفضل، أفضل، أفضل';
+
+  @override
+  String get tarotCups07Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotCups08Name => 'ثمانية أكواب';
+
+  @override
+  String get tarotCups08Upright => 'حسنًا، حسنًا، هذا هو ما تبحث عنه';
+
+  @override
+  String get tarotCups08Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotCups09Name => 'تسعة أكواب';
+
+  @override
+  String get tarotCups09Upright =>
+      'بطاقة الائتمان، بطاقة الائتمان، بطاقة الائتمان، بطاقة الائتمان، بطاقة الائتمان';
+
+  @override
+  String get tarotCups09Reversed => 'مرحبا بكم في مكان قريب';
+
+  @override
+  String get tarotCups10Name => 'عشرة أكواب';
+
+  @override
+  String get tarotCups10Upright =>
+      'كل ما عليك فعله هو أن تكون قادرًا على القيام بذلك.';
+
+  @override
+  String get tarotCups10Reversed => 'هذا هو السبب في أن هذا هو السبب وراء ذلك.';
+
+  @override
+  String get tarotCups11Name => 'صفحة الكؤوس';
+
+  @override
+  String get tarotCups11Upright =>
+      'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
+
+  @override
+  String get tarotCups11Reversed =>
+      'كل ما عليك فعله هو أن تكون قادرًا على القيام بذلك.';
+
+  @override
+  String get tarotCups12Name => 'فارس الكؤوس';
+
+  @override
+  String get tarotCups12Upright => 'شكرا لك, شكرا لك, أفضل, أفضل, أفضل';
+
+  @override
+  String get tarotCups12Reversed =>
+      'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
+
+  @override
+  String get tarotCups13Name => 'ملكة الكؤوس';
+
+  @override
+  String get tarotCups13Upright => 'هذا هو السبب في أن هذا هو السبب وراء ذلك.';
+
+  @override
+  String get tarotCups13Reversed => 'كل شيء, أفضل, أفضل, أفضل الأسعار';
+
+  @override
+  String get tarotCups14Name => 'ملك الكؤوس';
+
+  @override
+  String get tarotCups14Upright => '감정적 통제، 균형، 외교، 관용، 지혜로운 조언';
+
+  @override
+  String get tarotCups14Reversed => 'كل شيء, أفضل, أفضل, أفضل, أفضل';
+
+  @override
+  String get tarotPentacles01Name => 'الآس الخماسي';
+
+  @override
+  String get tarotPentacles01Upright =>
+      'مستلزمات شخصية، مستلزمات شخصية، مستلزمات شخصية، مستلزمات شخصية';
+
+  @override
+  String get tarotPentacles01Reversed =>
+      'مستلزمات شخصية, مستلزمات شخصية, مستلزمات شخصية, مستلزمات شخصية';
+
+  @override
+  String get tarotPentacles02Name => 'اثنان من الخماسي';
+
+  @override
+  String get tarotPentacles02Upright => '균형، 적응력، 시간/재정 관리، 유연성';
+
+  @override
+  String get tarotPentacles02Reversed =>
+      'في حين أن هناك الكثير من الأشياء التي يمكنك القيام بها، فهي رائعة.';
+
+  @override
+  String get tarotPentacles03Name => 'ثلاثة من الخماسي';
+
+  @override
+  String get tarotPentacles03Upright => '팀워크، 협업، 기술، 인정받는 노력، 건축';
+
+  @override
+  String get tarotPentacles03Reversed => 'أفضل, أفضل, أفضل, أفضل, أفضل';
+
+  @override
+  String get tarotPentacles04Name => 'أربعة من الخماسي';
+
+  @override
+  String get tarotPentacles04Upright => '안정، 소유욕، 보수성، 인색함، 축적';
+
+  @override
+  String get tarotPentacles04Reversed => 'كل شيء, أفضل, أفضل, أفضل';
+
+  @override
+  String get tarotPentacles05Name => 'خمسة من الخماسي';
+
+  @override
+  String get tarotPentacles05Upright => '궁핍, 재정적/정서적 결핍, 소외, 역경';
+
+  @override
+  String get tarotPentacles05Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotPentacles06Name => 'ستة من الخماسي';
+
+  @override
+  String get tarotPentacles06Upright => 'أنت، أنت، أنت، أنت، أنت، أنت';
+
+  @override
+  String get tarotPentacles06Reversed => 'مدينة، مدينة، مدينة، مدينة، مدينة';
+
+  @override
+  String get tarotPentacles07Name => 'سبعة من الخماسي';
+
+  @override
+  String get tarotPentacles07Upright => 'شكرا لك';
+
+  @override
+  String get tarotPentacles07Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotPentacles08Name => 'ثمانية من الخماسي';
+
+  @override
+  String get tarotPentacles08Upright =>
+      'بطاقة الائتمان، بطاقة الائتمان، بطاقة الائتمان، بطاقة الائتمان،';
+
+  @override
+  String get tarotPentacles08Reversed =>
+      'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
+
+  @override
+  String get tarotPentacles09Name => 'تسعة من الخماسي';
+
+  @override
+  String get tarotPentacles09Upright => 'أنت، أنت، أنت، أنت، أنت، أنت';
+
+  @override
+  String get tarotPentacles09Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotPentacles10Name => 'عشرة من الخماسي';
+
+  @override
+  String get tarotPentacles10Upright => '가업، 부의 축적، 유산، 안정된 삶، 전통';
+
+  @override
+  String get tarotPentacles10Reversed =>
+      'بطاقة الائتمان, بطاقة الائتمان, بطاقة الائتمان, بطاقة الائتمان';
+
+  @override
+  String get tarotPentacles11Name => 'صفحة الخماسي';
+
+  @override
+  String get tarotPentacles11Upright => 'مستلزمات شخصية';
+
+  @override
+  String get tarotPentacles11Reversed =>
+      'كل ما عليك فعله هو الذهاب إلى المنزل أو السفر أو السفر أو السفر';
+
+  @override
+  String get tarotPentacles12Name => 'فارس الخماسي';
+
+  @override
+  String get tarotPentacles12Upright => 'مرحبا بكم في مكان قريب';
+
+  @override
+  String get tarotPentacles12Reversed =>
+      'مغامرات، مغامرات، مغامرات، مغامرات، مغامرات';
+
+  @override
+  String get tarotPentacles13Name => 'ملكة الخماسي';
+
+  @override
+  String get tarotPentacles13Upright =>
+      'مستلزمات شخصية, مستلزمات شخصية, مستلزمات, مستلزمات, رعاية';
+
+  @override
+  String get tarotPentacles13Reversed => '과잉 통제، 소유욕، 이기심، 재정적 불안، 과소비';
+
+  @override
+  String get tarotPentacles14Name => 'ملك الخماسي';
+
+  @override
+  String get tarotPentacles14Upright =>
+      'مرحبا بكم في المنزل, في الخارج, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotPentacles14Reversed => '물질주의، 부패، 탐욕، 고집불통، 억압적 권위';
+
+  @override
+  String get tarotSwords01Name => 'الآس السيوف';
+
+  @override
+  String get tarotSwords01Upright =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotSwords01Reversed =>
+      'مرحبا بكم في المنزل، في الخارج، في الخارج، في الخارج';
+
+  @override
+  String get tarotSwords02Name => 'اثنان من السيوف';
+
+  @override
+  String get tarotSwords02Upright => 'شكرا لك, شكرا لك, أفضل, أفضل ما لديك';
+
+  @override
+  String get tarotSwords02Reversed => 'هذا هو السبب في أن هذا هو ما يحدث الآن';
+
+  @override
+  String get tarotSwords03Name => 'ثلاثة من السيوف';
+
+  @override
+  String get tarotSwords03Upright => 'مرحبا بكم في المنزل';
+
+  @override
+  String get tarotSwords03Reversed =>
+      'التخفيضات، التخفيضات، التخفيضات، التخفيضات';
+
+  @override
+  String get tarotSwords04Name => 'أربعة من السيوف';
+
+  @override
+  String get tarotSwords04Upright => 'مرحبا بكم في المنزل';
+
+  @override
+  String get tarotSwords04Reversed => 'هاها، هانغتشو، هانغتشو، هانغتشو';
+
+  @override
+  String get tarotSwords05Name => 'خمسة من السيوف';
+
+  @override
+  String get tarotSwords05Upright =>
+      'مغامرات، مغامرات، مغامرات، مغامرات، مغامرات';
+
+  @override
+  String get tarotSwords05Reversed => '갈등 해결، 화해، 타협، 패배 인정، 복수 포기';
+
+  @override
+  String get tarotSwords06Name => 'ستة من السيوف';
+
+  @override
+  String get tarotSwords06Upright =>
+      'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
+
+  @override
+  String get tarotSwords06Reversed =>
+      'أفضل ما في الأمر هو أن تكون قادرًا على القيام بذلك';
+
+  @override
+  String get tarotSwords07Name => 'سبعة من السيوف';
+
+  @override
+  String get tarotSwords07Upright => 'نعم، نعم، نعم، نعم، نعم';
+
+  @override
+  String get tarotSwords07Reversed => 'مرحبا بكم في مكان آخر';
+
+  @override
+  String get tarotSwords08Name => 'ثمانية من السيوف';
+
+  @override
+  String get tarotSwords08Upright =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotSwords08Reversed =>
+      'هل يمكن أن يكون هذا هو الحال بالنسبة لك؟';
+
+  @override
+  String get tarotSwords09Name => 'تسعة من السيوف';
+
+  @override
+  String get tarotSwords09Upright => 'نعم، نعم، نعم، نعم، نعم';
+
+  @override
+  String get tarotSwords09Reversed => '공포 극복, 희망의 빛, 불면증 해소, 사망의 빛';
+
+  @override
+  String get tarotSwords10Name => 'عشرة من السيوف';
+
+  @override
+  String get tarotSwords10Upright => 'نعم، نعم، نعم، نعم، نعم';
+
+  @override
+  String get tarotSwords10Reversed => 'المكافآت، المكافآت، المكافآت، المكافآت';
+
+  @override
+  String get tarotSwords11Name => 'صفحة السيوف';
+
+  @override
+  String get tarotSwords11Upright => 'مغامرات، مغامرات، مغامرات، مغامرات';
+
+  @override
+  String get tarotSwords11Reversed => 'مرحبا بكم في المنزل';
+
+  @override
+  String get tarotSwords12Name => 'فارس السيوف';
+
+  @override
+  String get tarotSwords12Upright => 'نعم، نعم، نعم، نعم، شكرا لك';
+
+  @override
+  String get tarotSwords12Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get tarotSwords13Name => 'ملكة السيوف';
+
+  @override
+  String get tarotSwords13Upright => 'مرحباً بكم في هذا الموقع';
+
+  @override
+  String get tarotSwords13Reversed => '비정함، 냉혹함، 과도한 비판، 원한، 고립';
+
+  @override
+  String get tarotSwords14Name => 'ملك السيوف';
+
+  @override
+  String get tarotSwords14Upright => '권위، 지적 통찰، 논리، 공정함، 원칙، 전문가';
+
+  @override
+  String get tarotSwords14Reversed => '권력 남용، 비합리성، 잔인함، 통제욕، 독재';
+
+  @override
+  String get tarotWands01Name => 'الآس الصولجانات';
+
+  @override
+  String get tarotWands01Upright =>
+      'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
+
+  @override
+  String get tarotWands01Reversed =>
+      'معلومات عنا، معلومات عنا، معلومات عنا، معلومات عنا';
+
+  @override
+  String get tarotWands02Name => 'اثنان من الصولجانات';
+
+  @override
+  String get tarotWands02Upright => '계획، 비전، 목표، 결단력، 탐험';
+
+  @override
+  String get tarotWands02Reversed =>
+      'أفضل ما في الأمر، أفضل ما في الأمر، أفضل ما في الأمر، ما هو أفضل';
+
+  @override
+  String get tarotWands03Name => 'ثلاثة من الصولجانات';
+
+  @override
+  String get tarotWands03Upright =>
+      'فصول السنة، فصول السنة، فصول السنة، فصول السنة، فصول السنة';
+
+  @override
+  String get tarotWands03Reversed =>
+      'مستلزماتك، مستلزماتك، مستلزماتك، مستلزماتك';
+
+  @override
+  String get tarotWands04Name => 'أربعة من الصولجانات';
+
+  @override
+  String get tarotWands04Upright =>
+      'مغامرات، مغامرات، مغامرات، مغامرات، مغامرات';
+
+  @override
+  String get tarotWands04Reversed =>
+      'أفضل ما في الأمر، أفضل ما في الأمر، ما هو أفضل، ما هو أفضل';
+
+  @override
+  String get tarotWands05Name => 'خمسة من الصولجانات';
+
+  @override
+  String get tarotWands05Upright => 'نعم، نعم، نعم، نعم، نعم';
+
+  @override
+  String get tarotWands05Reversed => '타협, 갈등의 회피, 협력, 평화 추구, 혼란 진정';
+
+  @override
+  String get tarotWands06Name => 'ستة من الصولجانات';
+
+  @override
+  String get tarotWands06Upright =>
+      'مرحبا بكم في المنزل، في المنزل، في المنزل، في المنزل';
+
+  @override
+  String get tarotWands06Reversed => 'مرحبا بكم في مكان قريب';
+
+  @override
+  String get tarotWands07Name => 'سبعة من الصولجانات';
+
+  @override
+  String get tarotWands07Upright => 'مرحبا بكم في مكان قريب';
+
+  @override
+  String get tarotWands07Reversed =>
+      'في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق، في الهواء الطلق';
+
+  @override
+  String get tarotWands08Name => 'ثمانية من الصولجانات';
+
+  @override
+  String get tarotWands08Upright => 'مستلزمات شخصية';
+
+  @override
+  String get tarotWands08Reversed => 'مرحبا بكم في مكان آخر';
+
+  @override
+  String get tarotWands09Name => 'تسعة من الصولجانات';
+
+  @override
+  String get tarotWands09Upright =>
+      'مغامرات، مغامرات، مغامرات، مغامرات، مغامرات';
+
+  @override
+  String get tarotWands09Reversed => '불필요한 저항';
+
+  @override
+  String get tarotWands10Name => 'عشرة من الصولجانات';
+
+  @override
+  String get tarotWands10Upright => '과도한 짐، 부담، 책임감، 압박، 한계점';
+
+  @override
+  String get tarotWands10Reversed => 'مستلزمات شخصية في الرياض مستلزمات رياضية';
+
+  @override
+  String get tarotWands11Name => 'صفحة الصولجانات';
+
+  @override
+  String get tarotWands11Upright => '탐험, 발견, 열정적인 아이디어, 에너지, 매력';
+
+  @override
+  String get tarotWands11Reversed => 'مستلزمات شخصية';
+
+  @override
+  String get tarotWands12Name => 'فارس الصولجانات';
+
+  @override
+  String get tarotWands12Upright => 'مستلزمات شخصية';
+
+  @override
+  String get tarotWands12Reversed => '충동적 행동، 변덕، 분노، 무계획';
+
+  @override
+  String get tarotWands13Name => 'ملكة الصولجانات';
+
+  @override
+  String get tarotWands13Upright => 'شكرا لك';
+
+  @override
+  String get tarotWands13Reversed =>
+      'الصفحة الرئيسية، الصفحة الرئيسية، الصفحة الرئيسية، الصفحة الرئيسية، الصفحة الرئيسية';
+
+  @override
+  String get tarotWands14Name => 'ملك الصولجانات';
+
+  @override
+  String get tarotWands14Upright => 'شكرا جزيلا لك';
+
+  @override
+  String get tarotWands14Reversed =>
+      'في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق, في الهواء الطلق';
+
+  @override
+  String get nicknamePrefixes =>
+      '신비한,고요한,거룩한,어두운,빛나는,차가운,뜨거운,매혹적인,잔혹한,순 فصول دراسية ,슬픈,기쁜,몽환적인,타락한,순백의,칠흑의,핏빛의,잿빛의,황금빛,은빛 ,푸른,붉은,노란,검은,하얀,투명한,고독한,시끄러운,조용한,따뜻한,싸늘 한,외로운,쓸쓸한,즐거운,행복한,우울한,절망적인,희망찬,눈부신,어스름 한,캄캄한,적막한,은밀한,비밀스러운,성스러운,불경한,오만한,겸손한,지혜 شكرا لك 가오는, 사라지는, 나타나는, 깨어난, 잠든, 꿈꾸는, 헤매는, 방황하는, 머무는, 떠 나는، 돌아 오는، 기다리는، 찾는، 숨 은، 드러난، 버려진، 선택된، 축복받은، 저주 받은,사랑받는,미움받는,기억하는,망각하는,별빛의,달빛의,햇빛의,우주의, شكرا لك ,나무의,숲의,산의,강의,호수의,시간의,공간의,차원의,운명의,숙명의,기 적의,마법의,신화의,전설의,진실의,거짓의,환상의,꿈의,악몽의,파멸의, معلومات عنا ,기쁨의,분노의,평화의,전쟁의,혼돈의,질서의,빛의,어둠의,황혼의,새벽의 ,정오의,자정의,과거의,현재의,미래의,기원의,종말의,무한의,유한의,침묵 مساعدة أو, أو, أو, أو, أو, أو, أو, أو, أو, أو, أو, أو, 기억의,추억의,상처의,치유의,독의,약의,환영의,실체의,이상의,현실의, 가상의، 자 연의، 인공의، 태초의، 영겁의، 순간의، 찰나 의، 영속의، 변화의، 정지의 ,흐르는,멈춘,타오르는,식어가는,피어나는,시드는,자라나는,죽어가는,숨 쉬는، 질식하는، 찬란한، 은은한، 아 스라한، 아련한، 투명한، 희미한، 눈부신، 기묘 한,독특한,특별한,고귀한,순수한,타락한,고독한,쓸쓸한,적막한,아득한,가 혹한، 냉혹한، 잔인한، 위대한، 강인한، 굳건한، 유연한، 재빠른، 느릿한، 고요속의 ,혼돈속의,기억속의,상상속의,침묵하는,속삭이는,노래하는,춤추는,흐느끼 미소짓는، 비웃는، 관조 하는، 방황하는، 헤매는، 깨어 있는، 잠든، 꿈꾸는، 몽상 하는,망상하는,기도하는,간절한,애절한,처절한,숭고한,사악한,비열한,거 만한,겸손한,다정한,따뜻한,서늘한,오싹한,기괴한,섬뜩한,황홀한,매혹적인 ,아찔한,달콤한,쌉싸름한,씁쓸한,가시돋친,날카로운,무딘,거친,부드러운 ,포근한,안락한,위태로운,불안한,평온한,안온한,나른한,권태로운,열정적인 ,무심한,차분한,격렬한,맹렬한,광적인,미쳐버린,이 성적인,감성적인,냉철한 ,현명한,어리석은,순진한,교활한,음흉한,순백의,칠흑의,황금빛,은빛,핏빛';
+
+  @override
+  String get nicknameSuffixes =>
+      '예언자، 마법사، 마녀، 기사، 전사، 궁수، 도적، 암살자، 성기사، 사제، 여사제، 수도사، 주술 사,연금술사,강령술사,정령사,소환사,환술사,치유사,현자,학자,연구자,탐험가,여행 자، 방랑자، 유랑자، 순례자، 구도자، 관찰자، 기록자، 전달자، 수호자، 파수꾼، 병، 문지 기,심판관,집행관,통치자,지배자,왕,여왕,황제,여제,귀족,영주,기사단장,용병,해적 ,도둑,사기꾼,광대,바보,은둔자,이단자,배신자,반역자,영웅,구원자,해방자,파괴자 ,창조자,신,여신,천사,악마,정령,요정,괴물,마수,드래곤,유령,망령,언데드,흡혈귀 ,늑대인간,인어,세이렌,님프,고블린,오크,트롤,엘프,드워프,거인,소인,인간,수인 ,조인,어인,용인,악령,수라,나락,천상,명계,이계,심연,혼돈,질서,빛,어둠,구도자 ,순례자، 방랑자، 은둔자، 이단아، 반역자، 개척자، 정복자، 지배자، 조율자، 수호자، 감시자 ,관찰자,기록자,전달자,안내자,인도자,구원자,파괴자,창조자,망령,유령,원혼,악령 ,정령,요정,마수,성수,환수,신수,검사,기사,궁수,도적,암살자,마법사,주술사,연 금술사، 강령술사، 사제، 학자، 연구자، 탐험가، 여행가، 예술가، 광대، 음유시인، 상인، 장인، 농부, 까마귀, 부엉이, 올빼미, 독수리, 매, 늑대, 여우, 곰, 사자, 호랑이, 표범, 흑표범, 살 쏅، 양이، 강아 지، 뱀، 도마뱀، 거북이، 악어، 용، 유니콘، 페가 수스، 그리폰، 가고일، 고블린 ,오크,트롤,오거,슬라임,스켈레톤,좀비,구울,뱀파이어,웨 어울프,미노타우로스,켄타 معلومات عنا';
+
+  @override
+  String get eulaTitle =>
+      'اتفاقية ترخيص المستخدم النهائي (اتفاقية ترخيص المستخدم النهائي)';
+
+  @override
+  String get eulaArticle1 =>
+      '제1조 (라이선스 허여)\n본 앱(\"타로마녀\") هذا هو السبب في أن هذا هو ما يحدث.';
+
+  @override
+  String get eulaArticle2 =>
+      '제2조 (금지된 사용)\nقم بتمديد الوقت الذي ستستغرقه في الحصول على بطاقة الائتمان الخاصة بك في الحقيقة, هناك الكثير من الأشياء التي يجب عليك القيام بها.';
+
+  @override
+  String get eulaArticle3 =>
+      '제3조 (تم اختياره من قبل 및 보관 기간)\nيجب أن تكون قادرًا على الحصول على بطاقة الائتمان الخاصة بك تم تطويره على مدار 3 سنوات.';
+
+  @override
+  String get eulaArticle4 =>
+      '제4조 (장기 미접속 휴면 계정 처리)\nالرقم 1 (365 일) هو رقم قياسي للرقم 1 في عداد المفقودين, يجب أن تكون على دراية بكيفية التعامل مع هذه المشكلة هذا هو السبب في أن هذا هو ما يحدث.';
+
+  @override
+  String get eulaArticle5 =>
+      '제5조 (데이터 파기 및 복구 불가)\nيمكن أن يكون هناك 3 أنواع من المفاجآت في 4 أنواع من المغامرات التي لا يمكن التغلب عليها. هذا أمر طبيعي.';
+
+  @override
+  String get eulaArticle6 =>
+      '제6조 (보증 부인 및 면책)\nتم تطوير هذا التطبيق من قبل شركة ناشئة ومبتكرة ومبتكرة, هذا هو السبب في أن هذا هو ما يحدث. ما عليك فعله هو الحصول على بطاقة الائتمان الخاصة بك من خلال شراء بطاقة الائتمان الخاصة بك تم تطوير هذا التطبيق.';
+
+  @override
+  String get eulaAgreement =>
+      'اتفاقية ترخيص المستخدم النهائي (EULA) هي اتفاقية ترخيص المستخدم النهائي بالتأكيد.';
+
+  @override
+  String get closeButton => 'نعم';
+
+  @override
+  String get pushTermsTitle => 'أفضل ما في الأمر هو الحصول على المال';
+
+  @override
+  String get pushArticle1 =>
+      '제1조 (목적)\nأفضل ما في الأمر هو أن تكون على دراية بالأشياء التي تحتاجها, من الأفضل أن تكون قادرًا على ذلك هذا هو السبب في أن هذا هو ما يحدث الآن.';
+
+  @override
+  String get pushArticle2 =>
+      '제2조 (수신 철회)\nتم إنشاء هذا التطبيق من قبل شركة [내 메뉴 > 앱 설정] من خلال تطبيق 철회할. هذا هو السبب في أن هذا هو ما يحدث في المستقبل.';
+
+  @override
+  String get pushArticle3 =>
+      '제3조 (알림의 내용)\nقم بزيارة موقع الويب الخاص بك, قم بزيارة موقع الويب الخاص بك, قم بزيارة موقع الويب الخاص بك هذا هو ما يحدث الآن.';
+
+  @override
+  String get pushAgreement =>
+      'إذا كنت ترغب في الحصول على بطاقة الائتمان الخاصة بك, أو الحصول على بطاقة الائتمان الخاصة بك شكرا جزيلا.';
+
+  @override
+  String get windowsNoGoogleLogin =>
+      'تم إنشاء هذا التطبيق بواسطة Windows (Windows). هذا هو السبب في أن هذا هو ما يحدث.';
+
+  @override
+  String get signupTermsRequired => 'هذا هو السبب في أن هذا هو ما يحدث الآن.';
+
+  @override
+  String googleLoginError(String error) {
+    return 'خطأ في الخطأ: $error';
+  }
+
+  @override
+  String get googleLoginUnknownError =>
+      'هذا هو السبب في أن هذا هو ما يحدث الآن.';
+
+  @override
+  String get windowsNoFirebase =>
+      'يعمل هذا البرنامج على نظام التشغيل Windows (Windows).';
+
+  @override
+  String get emailVerificationRequired => 'شكرا جزيلا. 가입하신 이메일함을 확인해주세요.';
+
+  @override
+  String get resendEmail => 'شكرا';
+
+  @override
+  String get verificationEmailSent => 'شكرا جزيلا.';
+
+  @override
+  String get passwordMismatch => 'شكرا جزيلا. شكرا جزيلا.';
+
+  @override
+  String get signupSuccess => 'شكرا جزيلا. هذا هو السبب في أن هذا هو ما يحدث.';
+
+  @override
+  String get authError => 'شكرا جزيلا.';
+
+  @override
+  String get authLoginTitle => 'شكرا';
+
+  @override
+  String get authSignupTitle => 'شكرا جزيلا';
+
+  @override
+  String get authTarotNickname => 'شكرا جزيلا';
+
+  @override
+  String get authRerollNickname => 'هذا هو الحال';
+
+  @override
+  String get authEmail => 'شكرا';
+
+  @override
+  String get authPassword => 'شكرا';
+
+  @override
+  String get authConfirmPassword => 'شكرا جزيلا';
+
+  @override
+  String get authKeepLoggedIn => 'شكرا لك';
+
+  @override
+  String get authAgreeEula =>
+      'تم إلغاء اتفاقية ترخيص المستخدم النهائي (اتفاقية ترخيص المستخدم النهائي) (EULA). (필수)';
+
+  @override
+  String get authViewContent => '[내용 보기]';
+
+  @override
+  String get authAgreePush => 'هذا هو السبب في أن هذا هو ما يحدث. (선택)';
+
+  @override
+  String get authBtnLogin => 'شكرا جزيلا';
+
+  @override
+  String get authBtnSignup => 'شكرا جزيلا';
+
+  @override
+  String get authSwitchToSignup => 'ما هو الحل؟ شكرا جزيلا';
+
+  @override
+  String get authSwitchToLogin => 'ما الذي تبحث عنه؟ شكرا';
+
+  @override
+  String get authGoogleSignIn => 'جوجل 로 시작하기';
+
+  @override
+  String get cardDetailNotReady => 'تم إنشاء هذا التطبيق من قبل 않았 습니다.';
+
+  @override
+  String get cardDetailLoadError => 'هذا هو ما يحدث الآن.';
+
+  @override
+  String get cardDetailTabUpright => '정방향 (تستقيم)';
+
+  @override
+  String get cardDetailTabReversed => '역방향 (معكوس)';
+
+  @override
+  String get cardDetailNoInterpretation => 'شكرا جزيلا.';
+
+  @override
+  String get cardDetailSectionKeywords => 'شكرا لك';
+
+  @override
+  String get cardDetailSectionGeneral => 'شكرا لك';
+
+  @override
+  String get cardDetailSectionLove => 'هذا هو';
+
+  @override
+  String get cardDetailSectionCareer => 'هذا هو الحال';
+
+  @override
+  String get cardDetailSectionHealth => '건강';
+
+  @override
+  String get cardDetailSectionSpirituality => 'هذا هو الحال';
+
+  @override
+  String get chatDustShortageTitle => 'نقص المسحوق';
+
+  @override
+  String get chatDustShortageContent =>
+      'ليس هناك ما يكفي من المسحوق السحري. تتطلب قراءة التارو مسحوقًا واحدًا.';
+
+  @override
+  String get chatConfirmBtn => 'يفحص';
+
+  @override
+  String get chatStartReadingTitle => 'ابدأ بقراءة التاروت';
+
+  @override
+  String get chatStartReadingContent =>
+      'هل ترغب في إنفاق مسحوق واحد لبدء قراءة التارو؟';
+
+  @override
+  String get chatCancelBtn => 'إلغاء';
+
+  @override
+  String get chatStartBtn => 'يبدأ';
+
+  @override
+  String get chatShufflingCards => 'خلط أوراق التاروت...';
+
+  @override
+  String get profileEditEmptyNickname => 'الرجاء إدخال اللقب.';
+
+  @override
+  String get profileEditDuplicateNickname =>
+      'اللقب قيد الاستخدام بالفعل. الرجاء إدخال لقب مختلف.';
+
+  @override
+  String get profileEditEmptyPassword =>
+      'الرجاء إدخال كلمة المرور الحالية لتغيير بريدك الإلكتروني.';
+
+  @override
+  String get profileEditEmailSent =>
+      'تم إرسال البريد الإلكتروني للتحقق. يرجى إكمال عملية التحقق في صندوق بريدك الإلكتروني الجديد.';
+
+  @override
+  String get profileEditSuccess => 'تم حفظ الملف الشخصي.';
+
+  @override
+  String get profileEditErrorDefault => 'حدث خطأ.';
+
+  @override
+  String get profileEditErrorWrongPassword => 'كلمة مرور غير صحيحة.';
+
+  @override
+  String get profileEditErrorInvalidEmail =>
+      'تنسيق البريد الإلكتروني غير صالح.';
+
+  @override
+  String get profileEditErrorEmailInUse =>
+      'البريد الإلكتروني قيد الاستخدام بالفعل.';
+
+  @override
+  String get profileEditErrorRecentLogin =>
+      'لأسباب أمنية، يرجى تسجيل الدخول مرة أخرى والمحاولة.';
+
+  @override
+  String profileEditErrorUnknown(String error) {
+    return 'حدث خطأ غير معروف أثناء الحفظ: $error';
+  }
+
+  @override
+  String get profileEditTitle => 'تحرير الملف الشخصي';
+
+  @override
+  String get profileEditPhoto => 'صورة الملف الشخصي';
+
+  @override
+  String get profileEditNickname => 'كنية';
+
+  @override
+  String get profileEditEmail => 'عنوان البريد الإلكتروني';
+
+  @override
+  String get profileEditEmailSocialHint =>
+      'لا يمكن للحسابات المرتبطة بـ Google/Apple تغيير البريد الإلكتروني.';
+
+  @override
+  String get profileEditEmailChangeHint =>
+      'سيتم إرسال بريد إلكتروني للتحقق عند تغيير البريد الإلكتروني.';
+
+  @override
+  String get profileEditPassword =>
+      'كلمة المرور الحالية (للتحقق من تغيير البريد الإلكتروني)';
+
+  @override
+  String get profileEditCancel => 'يلغي';
+
+  @override
+  String get profileEditSave => 'يحفظ';
 }

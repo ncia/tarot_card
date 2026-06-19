@@ -26,6 +26,8 @@ import '../services/tts_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../widgets/witch_profile_dialog.dart';
+import '../services/diary_service.dart';
+import '../data/tarot_diary.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
 enum ReadingState { intro, picking, result }
@@ -97,7 +99,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     
     _lightningAnimController.repeat(reverse: true);
     
-    _shuffledDeck = List.from(tarotDeck)..shuffle();
+    _shuffledDeck = List.from(getTarotDeck(context))..shuffle();
     _shuffledReversed = List.generate(78, (_) => math.Random().nextBool());
   }
 
@@ -259,58 +261,54 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
 
   void _autoSaveDiary(List<String> pickedCards, String cleanText) async {
     try {
-      final user = FirebaseAuth.instance.currentUser;
-      if (user != null) {
-        List<bool> reversals = [];
-        List<String> labels = [];
-        List<String> meanings = [];
-        
-        List<String> spreadLabels = [];
-        if (widget.spreadType.name == 'oneCard') {
-          spreadLabels = ['오늘의 점괘'];
-        } else if (widget.spreadType.name == 'threeCard') {
-          spreadLabels = ['1. 과거', '2. 현재', '3. 미래'];
-        } else if (widget.spreadType.name == 'fourCard') {
-          spreadLabels = ['1. 현재 상황 및 문제', '2. 문제의 원인', '3. 해결을 위한 조언', '4. 예상되는 결과'];
-        } else if (widget.spreadType.name == 'fiveCard') {
-          spreadLabels = ['1. 현재', '2. 과거', '3. 미래', '4. 원인', '5. 잠재력'];
-        } else if (widget.spreadType.name == 'celticCross') {
-          spreadLabels = ['1. 현재 상황', '2. 방해물', '3. 무의식', '4. 과거', '5. 의식적 목표', '6. 가까운 미래', '7. 태도', '8. 외부 환경', '9. 희망과 두려움', '10. 최종 결과'];
-        } else if (widget.spreadType.name == 'hexagram') {
-          spreadLabels = ['1. 과거', '2. 현재', '3. 미래', '4. 조언', '5. 주변 환경', '6. 결과'];
-        } else {
-          spreadLabels = List.generate(widget.spreadType.cardCount, (i) => '포지션 ${i + 1}');
-        }
-        
-        for (int i = 0; i < widget.spreadType.cardCount; i++) {
-          final idx = _selectedCardIndices[i];
-          reversals.add(_shuffledReversed[idx]);
-          labels.add(spreadLabels.length > i ? spreadLabels[i] : '포지션 ${i + 1}');
-          meanings.add(!_shuffledReversed[idx] ? _shuffledDeck[idx].uprightDesc : _shuffledDeck[idx].reversedDesc);
-        }
-
-        await FirebaseFirestore.instance
-            .collection('users')
-            .doc(user.uid)
-            .collection('diaries')
-            .add({
-          'cardId': pickedCards.isNotEmpty ? pickedCards[0] : '',
-          'spreadType': widget.spreadType.name,
-          'myNote': '타로 리딩',
-          'resultText': cleanText,
-          'date': FieldValue.serverTimestamp(),
-          'expiresAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365 * 3))), // 3년 뒤 개별 데이터 자동 파기
-          'cardIds': pickedCards,
-          'cardReversals': reversals,
-          'positionLabels': labels,
-          'cardMeanings': meanings,
-          'witchId': widget.selectedWitch?.id,
-        });
+      List<bool> reversals = [];
+      List<String> labels = [];
+      List<String> meanings = [];
+      
+      List<String> spreadLabels = [];
+      if (widget.spreadType.name == 'oneCard') {
+        spreadLabels = ['오늘의 점괘'];
+      } else if (widget.spreadType.name == 'threeCard') {
+        spreadLabels = ['1. 과거', '2. 현재', '3. 미래'];
+      } else if (widget.spreadType.name == 'fourCard') {
+        spreadLabels = ['1. 현재 상황 및 문제', '2. 문제의 원인', '3. 해결을 위한 조언', '4. 예상되는 결과'];
+      } else if (widget.spreadType.name == 'fiveCard') {
+        spreadLabels = ['1. 현재', '2. 과거', '3. 미래', '4. 원인', '5. 잠재력'];
+      } else if (widget.spreadType.name == 'celticCross') {
+        spreadLabels = ['1. 현재 상황', '2. 방해물', '3. 무의식', '4. 과거', '5. 의식적 목표', '6. 가까운 미래', '7. 태도', '8. 외부 환경', '9. 희망과 두려움', '10. 최종 결과'];
+      } else if (widget.spreadType.name == 'hexagram') {
+        spreadLabels = ['1. 과거', '2. 현재', '3. 미래', '4. 조언', '5. 주변 환경', '6. 결과'];
+      } else {
+        spreadLabels = List.generate(widget.spreadType.cardCount, (i) => '포지션 ${i + 1}');
       }
+      
+      for (int i = 0; i < widget.spreadType.cardCount; i++) {
+        final idx = _selectedCardIndices[i];
+        reversals.add(_shuffledReversed[idx]);
+        labels.add(spreadLabels.length > i ? spreadLabels[i] : '포지션 ${i + 1}');
+        meanings.add(!_shuffledReversed[idx] ? _shuffledDeck[idx].uprightDesc : _shuffledDeck[idx].reversedDesc);
+      }
+
+      final diary = TarotDiary(
+        id: DateTime.now().millisecondsSinceEpoch.toString(),
+        cardId: pickedCards.isNotEmpty ? pickedCards[0] : '',
+        spreadType: widget.spreadType.name,
+        myNote: '타로 리딩',
+        resultText: cleanText,
+        date: DateTime.now(),
+        cardIds: pickedCards,
+        cardReversals: reversals,
+        positionLabels: labels,
+        cardMeanings: meanings,
+        witchId: widget.selectedWitch?.id,
+      );
+
+      await DiaryService.instance.saveDiary(diary);
     } catch (e) {
       debugPrint('Error auto-saving diary: $e');
     }
   }
+
 
   @override
   Widget build(BuildContext context) {

@@ -2922,4 +2922,1340 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get themePaid => 'Maksullinen teema';
+
+  @override
+  String get diaryEmpty =>
+      'Ei vielä päiväkirjamerkintöjä.\nTarkista omaisuutesi tänään ja jätä päiväkirja!';
+
+  @override
+  String get diaryTarotConsult => 'Tarot konsultaatio';
+
+  @override
+  String get diaryTarotReading => 'Tarot lukeminen';
+
+  @override
+  String diaryAndMore(int count) {
+    return 'ja $count muuta';
+  }
+
+  @override
+  String diaryDaysAgo(int days) {
+    return '${days}pv sitten';
+  }
+
+  @override
+  String diaryHoursAgo(int hours) {
+    return '${hours}h sitten';
+  }
+
+  @override
+  String diaryMinutesAgo(int minutes) {
+    return '$minutes min sitten';
+  }
+
+  @override
+  String get diaryJustNow => 'Juuri nyt';
+
+  @override
+  String get diaryNoEntryForDate => 'Ei lukutietueita tälle päivälle.';
+
+  @override
+  String get diaryMyQuestion => 'Kysymykseni';
+
+  @override
+  String get diaryWitchReading => 'Tarot lukeminen';
+
+  @override
+  String get diaryNoResult => 'Ei tuloksia saatavilla.';
+
+  @override
+  String get diaryFollowUpTitle => 'Jatkohuomautus';
+
+  @override
+  String get diaryFollowUpHint =>
+      'Kirjaa muutaman päivän kuluttua muistiin, oliko lukema tarkka.';
+
+  @override
+  String get diaryFollowUpPlaceholder => 'Miten lukeminen sujui?';
+
+  @override
+  String get diaryFollowUpSave => 'Tallenna seuranta';
+
+  @override
+  String get diaryFollowUpSaved => 'Seuranta tallennettu!';
+
+  @override
+  String get diaryFollowUpEdit => 'Muokkaa seurantaa';
+
+  @override
+  String get diaryTagTitle => 'Tunnisteet';
+
+  @override
+  String get diaryTagAddHint => 'Syötä uusi tunniste';
+
+  @override
+  String get diaryTagDeleteConfirm => 'Poistetaanko tämä tunniste?';
+
+  @override
+  String get diaryTagDelete => 'Poistaa';
+
+  @override
+  String get diaryDeleteTitle => 'Poista päiväkirja';
+
+  @override
+  String get diaryDeleteConfirm =>
+      'Poistetaanko tämä päiväkirjamerkintä? Tätä ei voi kumota.';
+
+  @override
+  String get communityTitle => 'yhteisössä';
+
+  @override
+  String get communityErrorLoading => 'Dataa ladattaessa tapahtui virhe.';
+
+  @override
+  String get communityEmptyFeed =>
+      'Ei vielä julkisia tarot-päiväkirjoja.\nOle ensimmäinen, joka jakaa päiväkirjasi!';
+
+  @override
+  String get communityNoInterpretation => 'Ei tulkintaa.';
+
+  @override
+  String get communityLike => 'Pitää';
+
+  @override
+  String get communityComments => 'Kommentit';
+
+  @override
+  String get communityFirstCommentPrompt =>
+      'Ole ensimmäinen, joka jättää kommentin!';
+
+  @override
+  String get communityCommentInputHint => 'Kirjoita kommentti...';
+
+  @override
+  String get communityCommentFailed => 'Kommentin lisääminen epäonnistui:';
+
+  @override
+  String get communityLoginRequired => 'Kirjautuminen vaaditaan.';
+
+  @override
+  String get communityReportTitle => 'Raportoi';
+
+  @override
+  String get communityReportHint => 'Syötä ilmoittamisen syy';
+
+  @override
+  String get communityReportCancel => 'Peruuttaa';
+
+  @override
+  String get communityReportSubmit => 'Raportoi';
+
+  @override
+  String get communityReportSuccess => 'Raportti on toimitettu.';
+
+  @override
+  String get communityTarotQuestion => 'K. Tarot-kysymys';
+
+  @override
+  String get communityNoName => 'Nimetön noita';
+
+  @override
+  String get diaryShareToCommunity => 'Jaa yhteisölle';
+
+  @override
+  String get diarySharedSuccess => 'Jaettu yhteisölle.';
+
+  @override
+  String get diaryPrivateSuccess => 'Aseta yksityiseksi.';
+
+  @override
+  String get growthTitle => 'Kasvu';
+
+  @override
+  String get growthSubtitle =>
+      'Kerää taikavoimaa tarot-korttien vahvistamiseksi';
+
+  @override
+  String get growthTabCrystalBall => 'Kristallipallon päivitys';
+
+  @override
+  String get growthTabWorldTree => 'Kasvata maailmanpuuta';
+
+  @override
+  String growthWorldTreeLevel(int level) {
+    return 'Maailmanpuun taso $level';
+  }
+
+  @override
+  String get growthExp => 'Päättyy:';
+
+  @override
+  String get growthWaterFree => 'Vesi ilmaiseksi';
+
+  @override
+  String get growthWaterSuccess => 'Kastellaan Maailmanpuuta! Exp +10 💧';
+
+  @override
+  String growthDustOwned(int dust) {
+    return 'Magic Dust omistama: $dust';
+  }
+
+  @override
+  String growthCrystalBallLevel(int level) {
+    return 'Mystinen kristallipallon taso $level';
+  }
+
+  @override
+  String get growthUpgradeButton => 'Päivitys (10 Dust)';
+
+  @override
+  String get growthUpgradeSuccess => 'Kristallipallon päivitys onnistui! ✨';
+
+  @override
+  String get growthUpgradeNotEnough => 'Maaginen pöly ei riitä. (Tarve: 10)';
+
+  @override
+  String get diaryViewList => 'Luettelonäkymä';
+
+  @override
+  String get diaryViewCalendar => 'Kalenterinäkymä';
+
+  @override
+  String get tarotMajor00Name => 'Narri';
+
+  @override
+  String get tarotMajor00Upright =>
+      'Uudet alut, seikkailu, äärettömät mahdollisuudet, vapaus, viattomuus';
+
+  @override
+  String get tarotMajor00Reversed =>
+      'Holtittomuus, typeryys, huolimattomuus, liian suuri riski, epäkäytännöllisyys.';
+
+  @override
+  String get tarotMajor01Name => 'Maagikko';
+
+  @override
+  String get tarotMajor01Upright =>
+      'Luovuus, tahto, kyky, uusien alkujen voima, päättäväisyys';
+
+  @override
+  String get tarotMajor01Reversed =>
+      'Manipulaatio, hukattu lahjakkuus, petos, itseluottamuksen puute, piilotetut tavoitteet.';
+
+  @override
+  String get tarotMajor02Name => 'Ylipapitar';
+
+  @override
+  String get tarotMajor02Upright =>
+      'Intuitio, alitajunta, mysteeri, viisaus, sisäinen ääni';
+
+  @override
+  String get tarotMajor02Reversed =>
+      'Intuitio sivuuttaminen, pinnallinen tieto, piilotetut viholliset, vuotavat salaisuudet';
+
+  @override
+  String get tarotMajor03Name => 'Keisarinna';
+
+  @override
+  String get tarotMajor03Upright =>
+      'Runsaus, äidinrakkaus, kauneus, luonnollinen hedelmällisyys, luovuus';
+
+  @override
+  String get tarotMajor03Reversed =>
+      'Ylihuolehtiminen, riippuvuus, luovan kyvyn puute, laiskuus, pysähtyneisyys';
+
+  @override
+  String get tarotMajor04Name => 'Keisari';
+
+  @override
+  String get tarotMajor04Upright =>
+      'Valta, rakenne, vakaus, isällinen rakkaus, kontrolli, vastuullisuus';
+
+  @override
+  String get tarotMajor04Reversed =>
+      'Diktatuuri, halu hallita, joustamattomuus, epäpätevyys, sorto';
+
+  @override
+  String get tarotMajor05Name => 'Ylipappi';
+
+  @override
+  String get tarotMajor05Upright =>
+      'Perinne, usko, koulutus, henkinen ohjaus, konservatiivisuus';
+
+  @override
+  String get tarotMajor05Reversed =>
+      'Kapina, perinteiden rikkominen, dogmatismi, vanhat ajatukset, huono neuvo.';
+
+  @override
+  String get tarotMajor06Name => 'Rakastavaiset';
+
+  @override
+  String get tarotMajor06Upright =>
+      'Rakkaus, harmonia, ihmissuhteet, tärkeät valinnat, luottamus';
+
+  @override
+  String get tarotMajor06Reversed =>
+      'Epäsopu, huonot valinnat, luottamuksen menetys, kiusaus, epätasapaino.';
+
+  @override
+  String get tarotMajor07Name => 'Vaunut';
+
+  @override
+  String get tarotMajor07Upright =>
+      'Tahto, voitto, päättäväisyys, suunta, menestykseen pyrkimys';
+
+  @override
+  String get tarotMajor07Reversed =>
+      'Hallinnan menetys, desorientaatio, avuttomuus, aggressio, esteet';
+
+  @override
+  String get tarotMajor08Name => 'Voima';
+
+  @override
+  String get tarotMajor08Upright =>
+      'Rohkeus, sinnikkyys, sisäinen voima, lempeä kontrolli, armo.';
+
+  @override
+  String get tarotMajor08Reversed =>
+      'Pelko, heikkous, itsehillinnän menetys, impulsiivisuus, ylpeys.';
+
+  @override
+  String get tarotMajor09Name => 'Erakko';
+
+  @override
+  String get tarotMajor09Upright =>
+      'Sisäinen tutkimusmatka, viisaus, yksinäisyys, valaistuminen, henkinen neuvonantaja';
+
+  @override
+  String get tarotMajor09Reversed =>
+      'Eristäytyminen, yksinäisyys, pako todellisuudesta, typerä itsepäisyys, eristäytyminen';
+
+  @override
+  String get tarotMajor10Name => 'Kohtalonpyörä';
+
+  @override
+  String get tarotMajor10Upright =>
+      'Käännekohta, kohtalo, onni, jatkuva muutos, mahdollisuus';
+
+  @override
+  String get tarotMajor10Reversed =>
+      'Epäonni, vastustus, hallitsematon muutos, epäonnen toistuminen';
+
+  @override
+  String get tarotMajor11Name => 'Oikeus';
+
+  @override
+  String get tarotMajor11Upright =>
+      'Oikeudenmukaisuus, totuus, rangaistus, tasapaino, rationaalinen päätös';
+
+  @override
+  String get tarotMajor11Reversed =>
+      'Epäoikeudenmukaisuus, ennakkoluulo, epärehellisyys, väistämätön rangaistus, epätasapaino';
+
+  @override
+  String get tarotMajor12Name => 'Hirtetty mies';
+
+  @override
+  String get tarotMajor12Upright =>
+      'Uhraus, uusi näkökulma, odottaminen, oivallus, väliaikainen tauko.';
+
+  @override
+  String get tarotMajor12Reversed =>
+      'Turha uhraus, viivästys, etenemisen kieltäminen, itsekkyys';
+
+  @override
+  String get tarotMajor13Name => 'Kuolema';
+
+  @override
+  String get tarotMajor13Upright =>
+      'Loppu ja uusi alku, muutos, siirtymä, menneisyyden selvittäminen';
+
+  @override
+  String get tarotMajor13Reversed =>
+      'Muutoksen vastustus, pysähtyneisyys, vanhan pakkomielle, pelko';
+
+  @override
+  String get tarotMajor14Name => 'Kohtuus';
+
+  @override
+  String get tarotMajor14Upright =>
+      'Harmonia, tasapaino, kohtuus, parantuminen, päämäärätietoisuus';
+
+  @override
+  String get tarotMajor14Reversed =>
+      'Epätasapaino, kohtuuttomuus, äärimmäinen käytös, epäsopu, konflikti';
+
+  @override
+  String get tarotMajor15Name => 'Paholainen';
+
+  @override
+  String get tarotMajor15Upright =>
+      'Pakkomielle, materialismi, sidonnaisuus, houkutus, tuhoisat halut.';
+
+  @override
+  String get tarotMajor15Reversed =>
+      'Vapautuminen, vapaus sidonnaisuudesta, itsenäisyys, valaistuminen, vapaus';
+
+  @override
+  String get tarotMajor16Name => 'Torni';
+
+  @override
+  String get tarotMajor16Upright =>
+      'Äkillinen muutos, tuho, vapautuminen, ilmestys, romahdus';
+
+  @override
+  String get tarotMajor16Reversed =>
+      'Katastrofin välttäminen, väistämättömän muutoksen viivyttäminen, varoitusten sivuuttaminen';
+
+  @override
+  String get tarotMajor17Name => 'Tähti';
+
+  @override
+  String get tarotMajor17Upright =>
+      'Toivo, inspiraatio, tyyneys, parantuminen ja vahvistuminen, henkinen ohjaus';
+
+  @override
+  String get tarotMajor17Reversed =>
+      'Epätoivo, pettymys, inspiraation puute, pessimismi, hämmennys';
+
+  @override
+  String get tarotMajor18Name => 'Kuu';
+
+  @override
+  String get tarotMajor18Upright =>
+      'Ahdistus, illuusio, intuitio, piilotettu totuus, petos';
+
+  @override
+  String get tarotMajor18Reversed =>
+      'Pelon voittaminen, salaisuuksien paljastuminen, ahdistuksen lievittyminen, totuuden paljastuminen';
+
+  @override
+  String get tarotMajor19Name => 'Aurinko';
+
+  @override
+  String get tarotMajor19Upright =>
+      'Menestys, positiivisuus, elinvoima, onnellisuus ja saavutus, ilo';
+
+  @override
+  String get tarotMajor19Reversed =>
+      'Viivästyneen menestyksen kääntöpuoli, liioittelu, energian puute ja suru.';
+
+  @override
+  String get tarotMajor20Name => 'Tuomio';
+
+  @override
+  String get tarotMajor20Upright =>
+      'Ylösnousemus, päättäväisyys, anteeksianto, uusi kutsumus, sisäinen herääminen';
+
+  @override
+  String get tarotMajor20Reversed =>
+      'Katuminen, itseluottamuksen puute, muutoksen pelko, katumus, rangaistus';
+
+  @override
+  String get tarotMajor21Name => 'Maailma';
+
+  @override
+  String get tarotMajor21Upright =>
+      'Valmistuminen, saavutus, integraatio, uusi taso, onnistunut loppu';
+
+  @override
+  String get tarotMajor21Reversed =>
+      'Epätäydellisyys, lykkäys, pysähtyneisyys, menestyksen pelko, viivyttely.';
+
+  @override
+  String get tarotCups01Name => 'Maljojen ässä';
+
+  @override
+  String get tarotCups01Upright =>
+      'Uudet tunteet, rakkauden alku, intuitio, henkinen täyttymys';
+
+  @override
+  String get tarotCups01Reversed =>
+      'Blokatut tunteet, tunne ettei ole rakastettu, tyhjyyden tunne, surullisuus.';
+
+  @override
+  String get tarotCups02Name => 'Maljojen kakkonen';
+
+  @override
+  String get tarotCups02Upright =>
+      'Harmonia ihmissuhteissa, liitto, rakkaus, keskinäinen kunnioitus, yhteistyö';
+
+  @override
+  String get tarotCups02Reversed =>
+      'Riita suhteessa, ero, väärinkäsitys, epätasapaino, vastarakkaudeton rakkaus';
+
+  @override
+  String get tarotCups03Name => 'Maljojen kolmonen';
+
+  @override
+  String get tarotCups03Upright =>
+      'Juhla, ystävyys, yhteisö, ilo, luova hedelmällisyys.';
+
+  @override
+  String get tarotCups03Reversed =>
+      'Liiallinen juominen, vieraantuminen, klikit, kolmiodraamat, juhlien peruutus.';
+
+  @override
+  String get tarotCups04Name => 'Maljojen nelonen';
+
+  @override
+  String get tarotCups04Upright =>
+      'Apatia, ikävystyminen, meditaatio, menneet tilaisuudet, sisäinen pohdinta.';
+
+  @override
+  String get tarotCups04Reversed =>
+      'Uusi tietoisuus, tilaisuuksiin tarttuminen, elvyttäminen, herääminen';
+
+  @override
+  String get tarotCups05Name => 'Maljojen viitonen';
+
+  @override
+  String get tarotCups05Upright =>
+      'Menetys, suru, menneisyyden katuminen, pessimismi';
+
+  @override
+  String get tarotCups05Reversed =>
+      'Menetyksen voittaminen, hyväksyntä, parantuminen ja uuden toivon löytäminen';
+
+  @override
+  String get tarotCups06Name => 'Maljojen kuutonen';
+
+  @override
+  String get tarotCups06Upright =>
+      'Menneisyyden nostalgia, lapsuus, viattomuus, vanhat ystävät, muistot';
+
+  @override
+  String get tarotCups06Reversed =>
+      'Jumiutuminen menneisyyteen, tulevaisuuden sivuuttaminen, itsenäisyys, kasvu';
+
+  @override
+  String get tarotCups07Name => 'Maljojen seitsemän';
+
+  @override
+  String get tarotCups07Upright =>
+      'Fantasia, unelma, valintojen hämmennys, pako todellisuudesta, päiväunelma';
+
+  @override
+  String get tarotCups07Reversed =>
+      'Todellisuuden kohtaaminen, selkeät tavoitteet, illuusioista herääminen, päättäväisyys';
+
+  @override
+  String get tarotCups08Name => 'Maljojen kahdeksan';
+
+  @override
+  String get tarotCups08Upright =>
+      'Pettymys, lähteminen, luopuminen ja resignaatio syvemmän merkityksen etsinnässä.';
+
+  @override
+  String get tarotCups08Reversed =>
+      'Kyvyttömyys lähteä, menneisyyteen takertuminen, suhteiden palauttaminen, pelko';
+
+  @override
+  String get tarotCups09Name => 'Maljojen yhdeksän';
+
+  @override
+  String get tarotCups09Upright =>
+      'Toiveiden täyttyminen, tyytyväisyys, aistillinen nautinto, itsetunto, onnellisuus';
+
+  @override
+  String get tarotCups09Reversed =>
+      'Tyytyväisyys, turhamaisuus, pinnallinen menestys, ahneus.';
+
+  @override
+  String get tarotCups10Name => 'Maljojen kymmenen';
+
+  @override
+  String get tarotCups10Upright =>
+      'Perheonni, rauha, emotionaalinen täyttymys, harmoniset suhteet';
+
+  @override
+  String get tarotCups10Reversed =>
+      'Konflikti perheessä, särkynyt koti, epäsopu, rauhan menetys';
+
+  @override
+  String get tarotCups11Name => 'Maljojen lähetti';
+
+  @override
+  String get tarotCups11Upright =>
+      'Uusi inspiraatio, luovuus, emotionaalinen viesti, intuitio';
+
+  @override
+  String get tarotCups11Reversed =>
+      'Emotionaalinen epäkypsyys, luova tukos, huonoja uutisia, ärtyneisyys.';
+
+  @override
+  String get tarotCups12Name => 'Maljojen ritari';
+
+  @override
+  String get tarotCups12Upright =>
+      'Romantiikka, viehätys, emotionaalinen avoimuus, mielikuvitus, ritarillisuus';
+
+  @override
+  String get tarotCups12Reversed =>
+      'Epätodellisuus, oikullisuus, mustasukkaisuus, epäluotettavuus, petos';
+
+  @override
+  String get tarotCups13Name => 'Maljojen kuningatar';
+
+  @override
+  String get tarotCups13Upright =>
+      'Empatia, ystävällisyys, henkinen intuitio, emotionaalinen vakaus, huomaavaisuus';
+
+  @override
+  String get tarotCups13Reversed =>
+      'Yliemotionaalisuus, epävakaus, riippuvuus, uhrin esittäminen';
+
+  @override
+  String get tarotCups14Name => 'Maljojen kuningas';
+
+  @override
+  String get tarotCups14Upright =>
+      'Emotionaalinen kontrolli, tasapaino, diplomatia, suvaitsevaisuus, viisas neuvo.';
+
+  @override
+  String get tarotCups14Reversed =>
+      'Emotionaalisesti manipuloiva, tunteeton, epävakaa, ailahteleva, armoton.';
+
+  @override
+  String get tarotPentacles01Name => 'Kolikoiden ässä';
+
+  @override
+  String get tarotPentacles01Upright =>
+      'Uusia mahdollisuuksia, taloudellisia alkuja, runsautta, realistisia saavutuksia.';
+
+  @override
+  String get tarotPentacles01Reversed =>
+      'Menetettyjä mahdollisuuksia, taloudellisia tappioita, viivästyksiä, huonoja sijoituksia.';
+
+  @override
+  String get tarotPentacles02Name => 'Kolikoiden kakkonen';
+
+  @override
+  String get tarotPentacles02Upright =>
+      'Tasapaino, sopeutumiskyky, aika-/taloushallinta, joustavuus';
+
+  @override
+  String get tarotPentacles02Reversed =>
+      'Epätasapaino, ylivoimainen, taloudelliset vaikeudet, stressi';
+
+  @override
+  String get tarotPentacles03Name => 'Kolikoiden kolmonen';
+
+  @override
+  String get tarotPentacles03Upright =>
+      'Tiimityö, yhteistyö, teknologia, tunnustettu ponnistus, arkkitehtuuri';
+
+  @override
+  String get tarotPentacles03Reversed =>
+      'Yhteistyön puute, taitojen puute, tunnustuksen puute, mielipide-erimielisyydet.';
+
+  @override
+  String get tarotPentacles04Name => 'Kolikoiden nelonen';
+
+  @override
+  String get tarotPentacles04Upright =>
+      'Vakaus, omistushalu, konservatiivisuus, kitsaus, kerääminen';
+
+  @override
+  String get tarotPentacles04Reversed =>
+      'Päästä irti ahneuden, menetyksen, taloudellisen laiminlyönnin ja pakkomielteen hinnasta.';
+
+  @override
+  String get tarotPentacles05Name => 'Kolikoiden viitonen';
+
+  @override
+  String get tarotPentacles05Upright =>
+      'Puute, taloudellinen/emotionaalinen puute, vieraantuminen, vastoinkäymiset';
+
+  @override
+  String get tarotPentacles05Reversed =>
+      'Taloudellinen toipuminen, auttava käsi, vastoinkäymisten voittaminen, positiivinen muutos.';
+
+  @override
+  String get tarotPentacles06Name => 'Kolikoiden kuutonen';
+
+  @override
+  String get tarotPentacles06Upright =>
+      'Hyväntekeväisyys, jakaminen, sponsorointi, oikeudenmukaisuus, antaminen ja vastaanottaminen';
+
+  @override
+  String get tarotPentacles06Reversed =>
+      'Itsekkyys, velka, epätasa-arvo, holhoaminen, hyväksikäyttö';
+
+  @override
+  String get tarotPentacles07Name => 'Kolikoiden seitsemän';
+
+  @override
+  String get tarotPentacles07Upright =>
+      'Kärsivällisyys, pitkän aikavälin visio, palkkioiden odottaminen ponnisteluista, arviointi';
+
+  @override
+  String get tarotPentacles07Reversed =>
+      'Kärsimättömyys, hedelmättömät ponnistelut, viivästykset, turhautuminen ja epäonnistuneet sijoitukset.';
+
+  @override
+  String get tarotPentacles08Name => 'Kolikoiden kahdeksan';
+
+  @override
+  String get tarotPentacles08Upright =>
+      'Käsityötaito, sitoutuminen, tarkkuus, taito.';
+
+  @override
+  String get tarotPentacles08Reversed =>
+      'Ikävystyminen, perfektionismin ansa, laiskuus, intohimon menetys.';
+
+  @override
+  String get tarotPentacles09Name => 'Kolikoiden yhdeksän';
+
+  @override
+  String get tarotPentacles09Upright =>
+      'Saavutus, itsenäisyys, vapaa-aika, taloudellinen mukavuus, itsensä palkitseminen';
+
+  @override
+  String get tarotPentacles09Reversed =>
+      'Liiallinen kulutus, pinnallinen ylellisyys, riippuvuus, taloudellinen epävarmuus';
+
+  @override
+  String get tarotPentacles10Name => 'Kolikoiden kymmenen';
+
+  @override
+  String get tarotPentacles10Upright =>
+      'Perheyritys, varallisuuden kerääminen, perintö, vakaa elämä, perinne';
+
+  @override
+  String get tarotPentacles10Reversed =>
+      'Omaisuuden menetys, perheriidat, kapina perinteitä vastaan, epävakaus.';
+
+  @override
+  String get tarotPentacles11Name => 'Kolikoiden lähetti';
+
+  @override
+  String get tarotPentacles11Upright =>
+      'Realistiset tavoitteet, uudet tutkimukset, mahdollisuudet, käytännöllisyys, suunnittelu';
+
+  @override
+  String get tarotPentacles11Reversed =>
+      'Suunnittelun viivästyminen, käytännöllisyyden puute, laiskuus, viivyttely.';
+
+  @override
+  String get tarotPentacles12Name => 'Kolikoiden ritari';
+
+  @override
+  String get tarotPentacles12Upright =>
+      'Vilpittömyys, vastuullisuus, sinnikkyys, asteittainen kehitys, luotettavuus';
+
+  @override
+  String get tarotPentacles12Reversed =>
+      'Itsepäisyys, letargia, työnarkomania, joustavuuden puute, pysähtyneisyys';
+
+  @override
+  String get tarotPentacles13Name => 'Kolikoiden kuningatar';
+
+  @override
+  String get tarotPentacles13Upright =>
+      'Käytännöllinen huolenpito, käytännölliset neuvot, runsaus, anteliaisuus, mukavuus.';
+
+  @override
+  String get tarotPentacles13Reversed =>
+      'Ylikontrolli, omistushalu, itsekkyys, taloudellinen epävarmuus, liiallinen kulutus.';
+
+  @override
+  String get tarotPentacles14Name => 'Kolikoiden kuningas';
+
+  @override
+  String get tarotPentacles14Upright =>
+      'Varallisuus, menestys, liiketoimintaosaaminen, auktoriteetti ja vahva tukija.';
+
+  @override
+  String get tarotPentacles14Reversed =>
+      'Materialismi, korruptio, ahneus, itsepäisyys, sortava auktoriteetti';
+
+  @override
+  String get tarotSwords01Name => 'Miekkojen ässä';
+
+  @override
+  String get tarotSwords01Upright =>
+      'Selkeä oivallus, uudet ajatukset, totuus, henkinen läpimurto';
+
+  @override
+  String get tarotSwords01Reversed =>
+      'Hämmennys, väärä tieto, harkintakyvyn menetys, kommunikaation puute';
+
+  @override
+  String get tarotSwords02Name => 'Miekkojen kakkonen';
+
+  @override
+  String get tarotSwords02Upright =>
+      'Päättämättömyys, sokeus, tunteiden tukahduttaminen, vaikeiden päätösten välttäminen.';
+
+  @override
+  String get tarotSwords02Reversed =>
+      'Päätösten tekeminen, tosiasioiden kohtaaminen, virheiden tekeminen tiedon puutteen vuoksi';
+
+  @override
+  String get tarotSwords03Name => 'Miekkojen kolmonen';
+
+  @override
+  String get tarotSwords03Upright =>
+      'Sydänsärky, suru, ero, loukkaus, tuskallinen totuus.';
+
+  @override
+  String get tarotSwords03Reversed =>
+      'Kivun voittaminen, paraneminen, anteeksianto, surusta luopuminen';
+
+  @override
+  String get tarotSwords04Name => 'Miekkojen nelonen';
+
+  @override
+  String get tarotSwords04Upright =>
+      'Rentoutuminen, toipuminen, meditaatio, stressin lievitys, sisäinen rauha';
+
+  @override
+  String get tarotSwords04Reversed =>
+      'Uupumus, kieltäytyminen toipumasta, pakotettu lepo, äärimmäinen stressi.';
+
+  @override
+  String get tarotSwords05Name => 'Miekkojen viitonen';
+
+  @override
+  String get tarotSwords05Upright =>
+      'Voitto, joka vain satuttaa, petturuus, konflikti, vihamielisyys ja ilkeys.';
+
+  @override
+  String get tarotSwords05Reversed =>
+      'Konfliktin ratkaisu, sovinto, kompromissi, tappion myöntäminen, kostosta luopuminen';
+
+  @override
+  String get tarotSwords06Name => 'Miekkojen kuutonen';
+
+  @override
+  String get tarotSwords06Upright =>
+      'Siirtymä, vapautuminen kivusta, paranemismatka, liike, matkustus';
+
+  @override
+  String get tarotSwords06Reversed =>
+      'Muutoksen vastustus, menneisyyden haavat pidättelevät, viivyttely';
+
+  @override
+  String get tarotSwords07Name => 'Miekkojen seitsemän';
+
+  @override
+  String get tarotSwords07Upright =>
+      'Petos, juoni, strategia, salakavaluus, pako';
+
+  @override
+  String get tarotSwords07Reversed =>
+      'Tunnustus, salaisuuksien paljastaminen, petoksen paljastuminen, syyllisyys, asioiden kohtaaminen suoraan.';
+
+  @override
+  String get tarotSwords08Name => 'Miekkojen kahdeksan';
+
+  @override
+  String get tarotSwords08Upright =>
+      'Itsekeskeisyys, avuttomuus, rajoitettu ajattelu, pelon vankila';
+
+  @override
+  String get tarotSwords08Reversed =>
+      'Vapautuminen, irtautuminen omasta vankilasta, uusi näkökulma';
+
+  @override
+  String get tarotSwords09Name => 'Miekkojen yhdeksän';
+
+  @override
+  String get tarotSwords09Upright =>
+      'Ahdistus, epätoivo, unettomuus, syyllisyys, sisäinen pelko.';
+
+  @override
+  String get tarotSwords09Reversed =>
+      'Pelon voittaminen, toivon säde, unettomuuden lievitys, tosiasioiden kohtaaminen';
+
+  @override
+  String get tarotSwords10Name => 'Miekkojen kymmenen';
+
+  @override
+  String get tarotSwords10Upright =>
+      'Tuho, syvät haavat, petturuus, pohjakosketus, loppu koittaa.';
+
+  @override
+  String get tarotSwords10Reversed =>
+      'Toipuminen tuhosta, pahin on ohi, selviytyminen, jälleenrakennus';
+
+  @override
+  String get tarotSwords11Name => 'Miekkojen lähetti';
+
+  @override
+  String get tarotSwords11Upright =>
+      'Uteliaisuus, terävät analyyttiset taidot, totuuden etsintä, uudet ideat';
+
+  @override
+  String get tarotSwords11Reversed =>
+      'Tarkkaamattomuus, kärsimättömyys, kyynisyys, perusteettomat huhut, töykeys';
+
+  @override
+  String get tarotSwords12Name => 'Miekkojen ritari';
+
+  @override
+  String get tarotSwords12Upright =>
+      'Vauhti, kunnianhimo, älyllinen pyrkimys, nopea ja päättäväinen toiminta';
+
+  @override
+  String get tarotSwords12Reversed =>
+      'Holtittomuus, aggressio, harkitsemattomat sanat ja teot, impulsiivisuus, armottomuus';
+
+  @override
+  String get tarotSwords13Name => 'Miekkojen kuningatar';
+
+  @override
+  String get tarotSwords13Upright =>
+      'Itsenäisyys, selkeä kommunikaatio, terävä harkintakyky, rehellisyys, objektiivisuus';
+
+  @override
+  String get tarotSwords13Reversed =>
+      'Sydämettömyys, armottomuus, liiallinen kritiikki, kauna, eristäytyminen';
+
+  @override
+  String get tarotSwords14Name => 'Miekkojen kuningas';
+
+  @override
+  String get tarotSwords14Upright =>
+      'Auktoriteetti, älyllinen oivallus, logiikka, oikeudenmukaisuus, periaatteet, asiantuntija';
+
+  @override
+  String get tarotSwords14Reversed =>
+      'Vallan väärinkäyttö, irrationaalisuus, julmuus, kontrollin halu, diktatuuri';
+
+  @override
+  String get tarotWands01Name => 'Sauvojen ässä';
+
+  @override
+  String get tarotWands01Upright =>
+      'Intohimo, inspiraatio, luova voima, uusi potentiaali, elinvoima';
+
+  @override
+  String get tarotWands01Reversed =>
+      'Viivästynyt innostus, inspiraation puute, motivaation menetys ja identiteettisekaannus.';
+
+  @override
+  String get tarotWands02Name => 'Sauvojen kakkonen';
+
+  @override
+  String get tarotWands02Upright =>
+      'Suunnittelu, visio, pitkän aikavälin tavoitteet, päättäväisyys, tutkimusmatkailu';
+
+  @override
+  String get tarotWands02Reversed =>
+      'Suunnittelun puute, viivyttely, pelosta johtuva pysähtyneisyys, rajoitettu visio.';
+
+  @override
+  String get tarotWands03Name => 'Sauvojen kolmonen';
+
+  @override
+  String get tarotWands03Upright =>
+      'Odotusten toteutuminen, edistys, laajentuminen, kaukonäköisyys, johtajuus';
+
+  @override
+  String get tarotWands03Reversed =>
+      'Kasvun hidastuminen, takaiskut, odottamattomat esteet, suvaitsemattomuus';
+
+  @override
+  String get tarotWands04Name => 'Sauvojen nelonen';
+
+  @override
+  String get tarotWands04Upright =>
+      'Juhla, mukavuus, saavutuksen ilo, tervetuloa, kotitaloustapahtumat';
+
+  @override
+  String get tarotWands04Reversed =>
+      'Peruutettuja tapahtumia, perheriitaa, väliaikaista vakautta, viivästyneitä juhlia.';
+
+  @override
+  String get tarotWands05Name => 'Sauvojen viitonen';
+
+  @override
+  String get tarotWands05Upright =>
+      'Kilpailu, konflikti, erimielisyys, riita, haaste';
+
+  @override
+  String get tarotWands05Reversed =>
+      'Kompromissi, konfliktien välttäminen, yhteistyö, rauhan tavoittelu, kaaoksen rauhoittaminen';
+
+  @override
+  String get tarotWands06Name => 'Sauvojen kuutonen';
+
+  @override
+  String get tarotWands06Upright =>
+      'Menestys, julkinen tunnustus, voitto, itseluottamus, johtajan nousu.';
+
+  @override
+  String get tarotWands06Reversed =>
+      'Tappio, häpeä, paheksunta, ylpeys, maineen menetys';
+
+  @override
+  String get tarotWands07Name => 'Sauvojen seitsemän';
+
+  @override
+  String get tarotWands07Upright =>
+      'Rohkeus, puolustus, kilpailun kohtaaminen, vakaa vakaumus, sinnikkyys.';
+
+  @override
+  String get tarotWands07Reversed =>
+      'Luovuttaminen, ylivoimainen olo, kompromissit, itseluottamuksen menetys, pelkuruus.';
+
+  @override
+  String get tarotWands08Name => 'Sauvojen kahdeksan';
+
+  @override
+  String get tarotWands08Upright =>
+      'Nopeatempoinen, nopea loppu, uutiset, ketteryys, nopeus.';
+
+  @override
+  String get tarotWands08Reversed =>
+      'Viivästykset, hämmennys, kiireestä johtuvat virheet, kyvyttömyys kommunikoida';
+
+  @override
+  String get tarotWands09Name => 'Sauvojen yhdeksän';
+
+  @override
+  String get tarotWands09Upright =>
+      'Sinnikkyys, puolustuskykyisyys, jatkaminen uupuneenakin, valppaus, kestävyyden koetus.';
+
+  @override
+  String get tarotWands09Reversed =>
+      'Väsymys, vainoharhaisuus, luovuttaminen, itsepäisyys, tarpeeton vastustus.';
+
+  @override
+  String get tarotWands10Name => 'Sauvojen kymmenen';
+
+  @override
+  String get tarotWands10Upright =>
+      'Liiallinen taakka, äärimmäinen paine, vastuullisuus, paine, rajoitukset.';
+
+  @override
+  String get tarotWands10Reversed =>
+      'Irtipäästäminen, vastuun välttäminen, uupumus, delegointi, voittaminen.';
+
+  @override
+  String get tarotWands11Name => 'Sauvojen lähetti';
+
+  @override
+  String get tarotWands11Upright =>
+      'Tutkimusmatkailu, löytö, intohimoiset ideat, energia, viehätys';
+
+  @override
+  String get tarotWands11Reversed =>
+      'Suunnan menetys, epäkypsyys, helppo ikävystyminen, turhat harhaluulot, vastuuttomuus';
+
+  @override
+  String get tarotWands12Name => 'Sauvojen ritari';
+
+  @override
+  String get tarotWands12Upright =>
+      'Intohimoinen eteenpäin pyrkimys, seikkailunhalu, toiminta, energia, itseluottamus';
+
+  @override
+  String get tarotWands12Reversed =>
+      'Impulsiivinen käytös, ylimielisyys, oikullisuus, viha ja suunnittelun puute.';
+
+  @override
+  String get tarotWands13Name => 'Sauvojen kuningatar';
+
+  @override
+  String get tarotWands13Upright =>
+      'Karisma, rohkeus, itsenäisyys, kirkkaus, viehätys, elinvoima';
+
+  @override
+  String get tarotWands13Reversed =>
+      'Itsekkyys, ekshibitionismi, mustasukkaisuus, oikullisuus, aggressio';
+
+  @override
+  String get tarotWands14Name => 'Sauvojen kuningas';
+
+  @override
+  String get tarotWands14Upright =>
+      'Karismaattinen johtajuus, visio, inspiraatio, rohkeus, yrittäjä';
+
+  @override
+  String get tarotWands14Reversed =>
+      'Diktatuuri, impulsiivinen viha, epätodellisuus, ylimielisyys, armottomuus';
+
+  @override
+  String get nicknamePrefixes =>
+      'Salaperäinen, tyyni, pyhä, synkkä, hohtava, kylmä, kuuma, valloittava, julma, puhdas, karhea, lempeä, kaunis, outo, suuri, nuhruinen, ikuinen, unohdettu, loistava, surullinen, onnellinen, unelias, dekadentti, puhtaanvalkoinen, pikimusta, verenpunainen, harmaa, kultainen, hopeinen, sininen, punainen, keltainen, musta, valkoinen, läpinäkyvä, yksinäinen, meluisa, hiljainen, lämmin, alakuloinen, toivoton, toiveikas, häikäisevä, hämärä, autio, salainen, rienaava, ylimielinen, nöyrä, viisas, typerä, vahva, heikko, rohkea, pelkurimainen, kaukainen, lähellä, perääntyvä, lähestyvä, katoava, ilmestyvä, heräävä, nukkuva, uneksiva, vaeltava, pysyvä, leijuva, palaava, odottava, etsivä, piilotettu, paljastettu, hylätty, valittu, siunattu, kirottu, rakastettu, vihattu, muistava, unohtava, tähdenvalon, kuunvalon, auringonvalon, universumin, Maan, meren, taivaan, pilvien, tuulen, sateen, lumen, jään, tulen, veden, maan, puiden, metsien, vuorten, jokien, järvien, ajan, avaruuden, ulottuvuuksien, kohtalon, energian, Vihollisten, magian, myytin, legendan, totuuden, valheiden, fantasian, unien, painajaisten, tuhon, luomisen, elämän, kuoleman, sielun, lihan, järjen, tunteiden, rakkauden, vihan, surun, Ilon, kiukun, rauhan, sodan, kaaoksen, järjestyksen, valon, pimeyden, hämärän, aamunkoiton, keskipäivän, keskiyön, menneisyyden, nykyisyyden, tulevaisuuden, alkuperän, apokalypsin, äärettömän, äärellisen, hiljaisuuden, melun, laulavan, tanssivan, itkevän, nauravan, kuiskivan, huutavan, rukoilevan, anovan, käskevän, tottelevan, hallitsevan, palvelevan, johtavan, seuraavan, opettavan, oppivan, Muistin, muistojen, haavojen, parantumisen, myrkyn, lääkkeen, illuusion, aineen, ihanteellisen, todellisuuden, virtuaalisen, luonnollisen, keinotekoisen, alkukantaisen, ikuisuuden, hetken, ohimenevän, ikuisen, muutoksen, pysähdyksen, virtaava, pysähtynyt, palava, jäähtyvä, kukkiva, kuihtuva, kasvava, kuoleva, hengittävä, tukehtuva, hienovarainen, tumma, himmeä, kalpea, ainutlaatuinen, erityinen, jalo, turmeltunut, etäinen, ankara, luja, joustava, nopea, hidas, kaoottinen, kuviteltu, kuiskaava, nyyhkivä, hymyilevä, virnistelevä, mietiskelevä, hereillä oleva, päiväuneksiva, tekevä, harhainen, vilpitön, sydäntäsärkevä, ylevä, paha, ilkeä, ystävällinen, viileä, aavemainen, karmiva, hurmioitunut, kiehtova, huimaava, makea, karvaanmakea, katkera, piikikäs, terävä, tylsä, pehmeä, viihtyisä, mukava, epävarma, levoton, huoleton, rauhallinen, veltto, kyllästynyt, intohimoinen, välinpitämätön, raivokas, hullu, järkevä, tunteellinen, viileäpäinen, naiivi, ovela, salakavala, verinen';
+
+  @override
+  String get nicknameSuffixes =>
+      'Profeetta, velho, noita, ritari, soturi, jousiampuja, roisto, salamurhaaja, paladiini, pappi, papitar, munkki, shamaani, alkemisti, nekromantikko, elementalisti, kutsuja, illuusionisti, parantaja, viisas, oppinut, tutkija, tutkimusmatkailija, matkustaja, hallitsija, vaeltaja, pyhiinvaeltaja, etsijä, tarkkailija, tallentaja, lähetti, vartija, vartiomies, portinvartija, tuomari, pyöveli, kuningas, kuningatar, keisari, keisarinna, aatelinen, herra, ritarikomentaja, palkkasoturi, merirosvo, varas, huijari, pelle, narri, erakko, kerettiläinen, petturi, sankari, pelastaja, vapauttaja, tuhoaja, luoja, jumala, jumalatar, enkeli, paholainen, henki, keiju, hirviö, peto, lohikäärme, aave, epäkuollut, vampyyri, ihmissusi, merenneito, seireeni, nymfi, peikko, örkki, trolli, haltija, kääpiö, jättiläinen, ihminen, petoihminen, kalaihminen, paha henki, Sura, syvyys, taivas, alamaailma, toinen maailma, kaaos, järjestys, valo, pimeys, pioneeri, valloittaja, koordinaattori, tarkkailija, opas, miekkamies, jousimies, velho, shamaani, alkemisti, nekromantikko, pappi, oppinut, tutkija, tutkimusmatkailija, matkustaja, taiteilija, hupimies, bardi, kauppias, käsityöläinen, maanviljelijä, varis, pöllö, kotka, haukka, susi, kettu, karhu, leijona, tiikeri, leopardi, musta pantteri, kissa, pentu, käärme, lisko, kilpikonna, krokotiili, yksisarvinen, pegasus, aarnikotka, gargoili, ogre, lima, luuranko, zombi, ghoul, minotaurus, kentauri, harpyia, seireeni, kraken, leviathan, miekka, kilpi, keihäs, jousi, sauva, sormus, kaulakoru, kruunu, pyhä graali.';
+
+  @override
+  String get eulaTitle => 'Loppukäyttäjäsopimus (EULA)';
+
+  @override
+  String get eulaArticle1 =>
+      'Artikla 1 (Käyttöoikeuden myöntäminen)\nLupa käyttää tätä sovellusta (”Tarot Witch”) myönnetään vain henkilökohtaiseen, ei-kaupalliseen käyttöön, eikä mitään sovelluksen omistus- tai immateriaalioikeuksia siirretä.';
+
+  @override
+  String get eulaArticle2 =>
+      'Artikla 2 (Kielletty käyttö)\nKäyttäjät eivät saa käyttää tätä palvelua tarkoituksiin, jotka ovat laittomia tai loukkaavat muiden oikeuksia, eivätkä saa mielivaltaisesti manipuloida tai takaisinmallintaa järjestelmiä tai tietoja.';
+
+  @override
+  String get eulaArticle3 =>
+      'Artikla 3 (Tietojen kerääminen ja säilytysaika)\nJotta palvelu olisi sujuvaa, käyttäjien kirjoittamat tarot-päiväkirjat ja niihin liittyvät ennustustiedot säilytetään turvallisesti kolme vuotta luomisajankohdasta.';
+
+  @override
+  String get eulaArticle4 =>
+      'Artikla 4 (Pitkäaikaisesti passiivisten ja lepotilassa olevien tilien käsittely)\nJos käyttäjä ei käytä palvelua yli vuoteen (365 päivään), tili muutetaan lepotilassa olevaksi tiliksi, ja kaikki käyttäjän tiedot poistetaan automaattisesti ilman ennakkoilmoitusta henkilötietojen suojaamiseksi ja sujuvan palvelinympäristön ylläpitämiseksi.';
+
+  @override
+  String get eulaArticle5 =>
+      'Artikla 5 (Tietojen tuhoaminen ja palauttamattomuus)\nArtiklassa 3 mainitun säilytysajan ylittäneet tai artiklan 4 mukaisesti poistetut tiedot tuhotaan pysyvästi, eikä niitä voida palauttaa missään olosuhteissa.';
+
+  @override
+  String get eulaArticle6 =>
+      'Artikla 6 (Vastuuvapauslauseke ja vahingonkorvaus)\nTämän sovelluksen tarjoamat tarot-luvut ja tulkinnat ovat vain viihdetarkoituksiin, eivätkä ne korvaa oikeudellista, lääketieteellistä tai taloudellista neuvontaa. Kehittäjä ei ole vastuussa mistään suorista tai epäsuorista vahingoista, jotka johtuvat palvelun käytöstä.';
+
+  @override
+  String get eulaAgreement =>
+      'Yllä mainitut EULA-sisällöt ja tietojenhallintapolitiikka ovat pakollisia kohtia, jotka on hyväksyttävä, jotta sovellusta voi käyttää.';
+
+  @override
+  String get closeButton => 'sulje';
+
+  @override
+  String get pushTermsTitle => 'Hyväksy tapahtuma- ja markkinointi-ilmoitukset';
+
+  @override
+  String get pushArticle1 =>
+      'Artikla 1 (Tarkoitus)\nTämä suostumus koskee Tarot Witch -palvelua lähettämään mainostietoja, kuten tapahtumia, kampanjoita ja uusia horoskooppipäivityksiä, jotka ovat hyödyllisiä käyttäjille push-ilmoituksilla.';
+
+  @override
+  String get pushArticle2 =>
+      'Artikla 2 (Vastaanoton peruuttaminen)\nKäyttäjät voivat peruuttaa tämän suostumuksen milloin tahansa sovelluksen [Oma valikko > Sovellusasetukset] -kohdasta. Vaikka peruutat suostumuksesi, voit silti käyttää palvelun perustoimintoja (välttämättömiä palveluja) normaalisti.';
+
+  @override
+  String get pushArticle3 =>
+      'Artikla 3 (Ilmoituksen sisältö)\nLähetetyt ilmoitukset voivat sisältää mainos- ja markkinointiluonteista tietoa, kuten erityisiä sovelluksen sisäisiä alennustarjouksia, rajoitetun ajan tapahtumia ja henkilökohtaisia horoskooppisuosituksia.';
+
+  @override
+  String get pushAgreement =>
+      'Edellä mainittu on käyttäjälle valinnainen, ja vaikka suostumusta ei anneta, tarot-palvelun käytöstä ei aiheudu haittaa.';
+
+  @override
+  String get windowsNoGoogleLogin =>
+      'Google-kirjautumista ei tueta esikatseluympäristössä (Windows). Käytäthän Android-laitetta tai verkkoselainta.';
+
+  @override
+  String get signupTermsRequired =>
+      'Jäsenrekisteröinnin jatkamiseksi sinun on hyväksyttävä tietojen tallennusehdot.';
+
+  @override
+  String googleLoginError(String error) {
+    return 'Google-kirjautumisvirhe: $error';
+  }
+
+  @override
+  String get googleLoginUnknownError =>
+      'Tuntematon virhe tapahtui kirjautuessa Googleen.';
+
+  @override
+  String get windowsNoFirebase =>
+      'Firebase-kirjautumista ei tueta esikatseluympäristössä (Windows).';
+
+  @override
+  String get emailVerificationRequired =>
+      'Sähköpostivahvistus vaaditaan. Tarkista sähköpostiosoite, jolla rekisteröidyit.';
+
+  @override
+  String get resendEmail => 'Lähetä uudelleen';
+
+  @override
+  String get verificationEmailSent =>
+      'Vahvistussähköposti on lähetetty uudelleen.';
+
+  @override
+  String get passwordMismatch => 'Salasana ei täsmää. Tarkista uudelleen.';
+
+  @override
+  String get signupSuccess =>
+      'Jäsenrekisteröinti on suoritettu. Tarkista lähetetty sähköposti vahvistuksen viimeistelemiseksi.';
+
+  @override
+  String get authError => 'Todennusvirhe tapahtui.';
+
+  @override
+  String get authLoginTitle => 'Kirjaudu sisään';
+
+  @override
+  String get authSignupTitle => 'Liity jäseneksi';
+
+  @override
+  String get authTarotNickname => 'Nimimerkit Tarot-maailmassa';
+
+  @override
+  String get authRerollNickname => 'Valitse nimimerkki uudelleen';
+
+  @override
+  String get authEmail => 'sähköposti';
+
+  @override
+  String get authPassword => 'salasana';
+
+  @override
+  String get authConfirmPassword => 'vahvista salasana';
+
+  @override
+  String get authKeepLoggedIn => 'Pysy kirjautuneena';
+
+  @override
+  String get authAgreeEula =>
+      'Hyväksyn loppukäyttäjäsopimuksen (EULA). (pakollinen)';
+
+  @override
+  String get authViewContent => '[Katso sisältö]';
+
+  @override
+  String get authAgreePush =>
+      'Hyväksyn uusien tarot-lukujen ja tapahtumien ilmoitusten vastaanottamisen. (valinnainen)';
+
+  @override
+  String get authBtnLogin => 'Kirjaudu sisään';
+
+  @override
+  String get authBtnSignup => 'Rekisteröidy';
+
+  @override
+  String get authSwitchToSignup => 'Eikö sinulla ole tiliä? Liity jäseneksi';
+
+  @override
+  String get authSwitchToLogin => 'Onko sinulla jo tili? Kirjaudu sisään';
+
+  @override
+  String get authGoogleSignIn => 'Aloita Googlella';
+
+  @override
+  String get cardDetailNotReady => 'Tämä tulkinta ei ole vielä valmis.';
+
+  @override
+  String get cardDetailLoadError => 'Virhe tapahtui tietoja ladattaessa.';
+
+  @override
+  String get cardDetailTabUpright => 'Oikein päin';
+
+  @override
+  String get cardDetailTabReversed => 'Käännettynä';
+
+  @override
+  String get cardDetailNoInterpretation => 'Tulkintaa ei ole.';
+
+  @override
+  String get cardDetailSectionKeywords => 'Avainsanat';
+
+  @override
+  String get cardDetailSectionGeneral => 'Yleinen tulkinta';
+
+  @override
+  String get cardDetailSectionLove => 'Rakkaus onni';
+
+  @override
+  String get cardDetailSectionCareer => 'Raha & Ura';
+
+  @override
+  String get cardDetailSectionHealth => 'Terveys';
+
+  @override
+  String get cardDetailSectionSpirituality => 'Sisäinen henkisyys';
+
+  @override
+  String get chatDustShortageTitle => 'jauheen puute';
+
+  @override
+  String get chatDustShortageContent =>
+      'Taikajauhetta ei ole tarpeeksi. Tarotin lukemiseen tarvitaan 1 jauhe.';
+
+  @override
+  String get chatConfirmBtn => 'tarkista';
+
+  @override
+  String get chatStartReadingTitle => 'Aloita tarotin lukeminen';
+
+  @override
+  String get chatStartReadingContent =>
+      'Haluaisitko käyttää yhden jauheen aloittaaksesi tarot-lukemisen?';
+
+  @override
+  String get chatCancelBtn => 'peruutus';
+
+  @override
+  String get chatStartBtn => 'aloita';
+
+  @override
+  String get chatShufflingCards => 'Tarot-korttien sekoittaminen...';
+
+  @override
+  String get profileEditEmptyNickname => 'Please enter a nickname.';
+
+  @override
+  String get profileEditDuplicateNickname =>
+      'Lempinimi on jo käytössä. Anna toinen lempinimi.';
+
+  @override
+  String get profileEditEmptyPassword =>
+      'Anna nykyinen salasanasi vaihtaaksesi sähköpostiosoitteesi.';
+
+  @override
+  String get profileEditEmailSent =>
+      'Vahvistussähköposti on lähetetty. Suorita vahvistus uuteen sähköpostiisi.';
+
+  @override
+  String get profileEditSuccess => 'Profiili on tallennettu.';
+
+  @override
+  String get profileEditErrorDefault => 'Tapahtui virhe.';
+
+  @override
+  String get profileEditErrorWrongPassword => 'Väärä salasana.';
+
+  @override
+  String get profileEditErrorInvalidEmail => 'Virheellinen sähköpostimuoto.';
+
+  @override
+  String get profileEditErrorEmailInUse => 'Sähköposti on jo käytössä.';
+
+  @override
+  String get profileEditErrorRecentLogin =>
+      'Turvallisuussyistä kirjaudu sisään uudelleen ja yritä.';
+
+  @override
+  String profileEditErrorUnknown(String error) {
+    return 'Tallennettaessa tapahtui tuntematon virhe: $error';
+  }
+
+  @override
+  String get profileEditTitle => 'Muokkaa profiilia';
+
+  @override
+  String get profileEditPhoto => 'Profiilikuva';
+
+  @override
+  String get profileEditNickname => 'Lempinimi';
+
+  @override
+  String get profileEditEmail => 'Sähköpostiosoite';
+
+  @override
+  String get profileEditEmailSocialHint =>
+      'Google/Apple linkitetyt tilit eivät voi vaihtaa sähköpostia.';
+
+  @override
+  String get profileEditEmailChangeHint =>
+      'Sähköpostia vaihdettaessa lähetetään vahvistussähköposti.';
+
+  @override
+  String get profileEditPassword =>
+      'Nykyinen salasana (sähköpostin muutoksen vahvistusta varten)';
+
+  @override
+  String get profileEditCancel => 'Peruuttaa';
+
+  @override
+  String get profileEditSave => 'Tallentaa';
 }

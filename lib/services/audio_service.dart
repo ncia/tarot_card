@@ -45,7 +45,7 @@ class AudioService {
   Future<void> playThunderSound() async {
     if (_isMuted) return;
     try {
-      await _sfxPlayer.play(AssetSource('audio/thunder.ogg'), volume: _volume * 2.0); // Make it slightly louder than BGM
+      await _sfxPlayer.play(AssetSource('audio/thunder.ogg'), volume: _volume * 2.0);
     } catch (e) {
       print("Error playing thunder sound: $e");
     }

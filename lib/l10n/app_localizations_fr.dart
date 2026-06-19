@@ -2920,4 +2920,1350 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get themePaid => 'Thème payant';
+
+  @override
+  String get diaryEmpty =>
+      'Aucune entrée de journal pour l’instant.\nVérifiez votre fortune aujourd\'hui et laissez un journal !';
+
+  @override
+  String get diaryTarotConsult => 'Consultation de tarot';
+
+  @override
+  String get diaryTarotReading => 'Lecture du Tarot';
+
+  @override
+  String diaryAndMore(int count) {
+    return 'et $count plus';
+  }
+
+  @override
+  String diaryDaysAgo(int days) {
+    return '${days}il y a quelques jours';
+  }
+
+  @override
+  String diaryHoursAgo(int hours) {
+    return '${hours}il y a 1 heures';
+  }
+
+  @override
+  String diaryMinutesAgo(int minutes) {
+    return '${minutes}il y a quelques mois';
+  }
+
+  @override
+  String get diaryJustNow => 'Tout à l\' heure';
+
+  @override
+  String get diaryNoEntryForDate =>
+      'Aucun enregistrement de lecture pour cette date.';
+
+  @override
+  String get diaryMyQuestion => 'Ma question';
+
+  @override
+  String get diaryWitchReading => 'Lecture du Tarot';
+
+  @override
+  String get diaryNoResult => 'Aucun résultat disponible.';
+
+  @override
+  String get diaryFollowUpTitle => 'Note de suivi';
+
+  @override
+  String get diaryFollowUpHint =>
+      'Notez si la lecture était exacte quelques jours plus tard.';
+
+  @override
+  String get diaryFollowUpPlaceholder => 'Comment s’est déroulée la lecture ?';
+
+  @override
+  String get diaryFollowUpSave => 'Enregistrer le suivi';
+
+  @override
+  String get diaryFollowUpSaved => 'Suivi enregistré !';
+
+  @override
+  String get diaryFollowUpEdit => 'Modifier le suivi';
+
+  @override
+  String get diaryTagTitle => 'Balises';
+
+  @override
+  String get diaryTagAddHint => 'Entrez une nouvelle balise';
+
+  @override
+  String get diaryTagDeleteConfirm => 'Supprimer cette balise ?';
+
+  @override
+  String get diaryTagDelete => 'Supprimer';
+
+  @override
+  String get diaryDeleteTitle => 'Supprimer le journal';
+
+  @override
+  String get diaryDeleteConfirm =>
+      'Supprimer cette entrée de journal ? Cela ne peut pas être annulé.';
+
+  @override
+  String get communityTitle => 'Communauté';
+
+  @override
+  String get communityErrorLoading =>
+      'Une erreur s\'est produite lors du chargement des données.';
+
+  @override
+  String get communityEmptyFeed =>
+      'Il n\'y a pas encore de journaux de tarot publics.\nSoyez le premier à partager votre journal !';
+
+  @override
+  String get communityNoInterpretation => 'Aucune interprétation.';
+
+  @override
+  String get communityLike => 'Comme';
+
+  @override
+  String get communityComments => 'Commentaires';
+
+  @override
+  String get communityFirstCommentPrompt =>
+      'Soyez le premier à laisser un commentaire !';
+
+  @override
+  String get communityCommentInputHint => 'Écrivez un commentaire...';
+
+  @override
+  String get communityCommentFailed => 'Échec de l\'ajout du commentaire :';
+
+  @override
+  String get communityLoginRequired => 'Connexion requise.';
+
+  @override
+  String get communityReportTitle => 'Rapport';
+
+  @override
+  String get communityReportHint => 'Entrez la raison du signalement';
+
+  @override
+  String get communityReportCancel => 'Annuler';
+
+  @override
+  String get communityReportSubmit => 'Rapport';
+
+  @override
+  String get communityReportSuccess => 'Le rapport a été soumis.';
+
+  @override
+  String get communityTarotQuestion => 'Q. Question de Tarot';
+
+  @override
+  String get communityNoName => 'Sorcière sans nom';
+
+  @override
+  String get diaryShareToCommunity => 'Partager avec la communauté';
+
+  @override
+  String get diarySharedSuccess => 'Partagé avec la communauté.';
+
+  @override
+  String get diaryPrivateSuccess => 'Définir sur privé.';
+
+  @override
+  String get growthTitle => 'Croissance';
+
+  @override
+  String get growthSubtitle =>
+      'Rassemblez du pouvoir magique pour renforcer les cartes de tarot';
+
+  @override
+  String get growthTabCrystalBall => 'Mise à niveau de la boule de cristal';
+
+  @override
+  String get growthTabWorldTree => 'Cultiver l\'arbre du monde';
+
+  @override
+  String growthWorldTreeLevel(int level) {
+    return 'Niveau de l\'arbre mondial $level';
+  }
+
+  @override
+  String get growthExp => 'Expérience :';
+
+  @override
+  String get growthWaterFree => 'De l\'eau gratuitement';
+
+  @override
+  String get growthWaterSuccess =>
+      'J\'ai arrosé l\'arbre du monde ! Exp +10 💧';
+
+  @override
+  String growthDustOwned(int dust) {
+    return 'Poussière magique appartenant : $dust';
+  }
+
+  @override
+  String growthCrystalBallLevel(int level) {
+    return 'Boule de cristal mystique niveau $level';
+  }
+
+  @override
+  String get growthUpgradeButton => 'Mise à niveau (10 poussières)';
+
+  @override
+  String get growthUpgradeSuccess =>
+      'Mise à niveau de la boule de cristal réussie ! ✨';
+
+  @override
+  String get growthUpgradeNotEnough =>
+      'Pas assez de poussière magique. (Besoin : 10)';
+
+  @override
+  String get diaryViewList => 'Vue en liste';
+
+  @override
+  String get diaryViewCalendar => 'Vue du calendrier';
+
+  @override
+  String get tarotMajor00Name => 'Le Fou';
+
+  @override
+  String get tarotMajor00Upright =>
+      'Nouveaux commencements, aventure, possibilités infinies, liberté, innocence';
+
+  @override
+  String get tarotMajor00Reversed =>
+      'Témérité, folie, insouciance, prise de risque excessive, impraticabilité.';
+
+  @override
+  String get tarotMajor01Name => 'Le Magicien';
+
+  @override
+  String get tarotMajor01Upright =>
+      'Créativité, volonté, capacité, pouvoir de nouveaux commencements, détermination';
+
+  @override
+  String get tarotMajor01Reversed =>
+      'Manipulation, talent gâché, tromperie, manque de confiance, arrière-pensées.';
+
+  @override
+  String get tarotMajor02Name => 'La Grande Prêtresse';
+
+  @override
+  String get tarotMajor02Upright =>
+      'Intuition, inconscience, mystère, sagesse, voix intérieure';
+
+  @override
+  String get tarotMajor02Reversed =>
+      'Ignorer l\'intuition, connaissances superficielles, ennemis cachés, fuite de secrets';
+
+  @override
+  String get tarotMajor03Name => 'L\'Impératrice';
+
+  @override
+  String get tarotMajor03Upright =>
+      'Abondance, amour maternel, beauté, épanouissement naturel, créativité';
+
+  @override
+  String get tarotMajor03Reversed =>
+      'Surprotection, dépendance, déficience créative, paresse, stagnation';
+
+  @override
+  String get tarotMajor04Name => 'L\'Empereur';
+
+  @override
+  String get tarotMajor04Upright =>
+      'Autorité, structure, stabilité, amour paternel, contrôle, responsabilité';
+
+  @override
+  String get tarotMajor04Reversed =>
+      'Dictature, désir de dominer, manque de flexibilité, incompétence, oppression';
+
+  @override
+  String get tarotMajor05Name => 'Le Hiérophante';
+
+  @override
+  String get tarotMajor05Upright =>
+      'Tradition, foi, éducation, guidance spirituelle, conservatisme';
+
+  @override
+  String get tarotMajor05Reversed =>
+      'Rébellion, rupture des conventions, dogmatisme, vieilles idées, mauvais conseils.';
+
+  @override
+  String get tarotMajor06Name => 'Les Amoureux';
+
+  @override
+  String get tarotMajor06Upright =>
+      'Amour, harmonie, relations, choix importants, confiance';
+
+  @override
+  String get tarotMajor06Reversed =>
+      'Discorde, mauvais choix, perte de confiance, tentation, déséquilibre.';
+
+  @override
+  String get tarotMajor07Name => 'Le Chariot';
+
+  @override
+  String get tarotMajor07Upright =>
+      'Volonté, victoire, détermination, direction, impulsion vers le succès';
+
+  @override
+  String get tarotMajor07Reversed =>
+      'Perte de contrôle, désorientation, impuissance, agressivité, obstacles';
+
+  @override
+  String get tarotMajor08Name => 'La Force';
+
+  @override
+  String get tarotMajor08Upright =>
+      'Courage, persévérance, force intérieure, contrôle doux, miséricorde.';
+
+  @override
+  String get tarotMajor08Reversed =>
+      'Peur, faiblesse, perte de maîtrise de soi, impulsivité, orgueil.';
+
+  @override
+  String get tarotMajor09Name => 'L\'Hermite';
+
+  @override
+  String get tarotMajor09Upright =>
+      'Exploration intérieure, sagesse, solitude, illumination, conseiller spirituel';
+
+  @override
+  String get tarotMajor09Reversed =>
+      'Isolement, solitude, évasion, entêtement insensé, réclusion';
+
+  @override
+  String get tarotMajor10Name => 'La Roue de Fortune';
+
+  @override
+  String get tarotMajor10Upright =>
+      'Tournant, destin, chance, changement constant, opportunité';
+
+  @override
+  String get tarotMajor10Reversed =>
+      'Malheur, résistance, changement incontrôlable, répétition du malheur';
+
+  @override
+  String get tarotMajor11Name => 'La Justice';
+
+  @override
+  String get tarotMajor11Upright =>
+      'Équité, vérité, rétribution, équilibre, décision rationnelle';
+
+  @override
+  String get tarotMajor11Reversed =>
+      'Injustice, préjudice, malhonnêteté, punition inévitable, déséquilibre';
+
+  @override
+  String get tarotMajor12Name => 'Le Pendu';
+
+  @override
+  String get tarotMajor12Upright =>
+      'Sacrifice, nouvelle perspective, attente, perspicacité, pause temporaire.';
+
+  @override
+  String get tarotMajor12Reversed =>
+      'Sacrifice inutile, retard, refus de progresser, égoïsme';
+
+  @override
+  String get tarotMajor13Name => 'La Mort';
+
+  @override
+  String get tarotMajor13Upright =>
+      'Fin et nouveau commencement, changement, transition, faire table rase du passé';
+
+  @override
+  String get tarotMajor13Reversed =>
+      'Résistance au changement, stagnation, obsession du passé, peur';
+
+  @override
+  String get tarotMajor14Name => 'La Tempérance';
+
+  @override
+  String get tarotMajor14Upright =>
+      'Harmonie, équilibre, modération, guérison, détermination';
+
+  @override
+  String get tarotMajor14Reversed =>
+      'Déséquilibre, intempérance, comportement extrême, disharmonie, conflit';
+
+  @override
+  String get tarotMajor15Name => 'Le Diable';
+
+  @override
+  String get tarotMajor15Upright =>
+      'Obsession, matérialisme, servitude, tentation, désirs destructeurs.';
+
+  @override
+  String get tarotMajor15Reversed =>
+      'Libération, liberté de la servitude, indépendance, illumination, liberté';
+
+  @override
+  String get tarotMajor16Name => 'La Tour';
+
+  @override
+  String get tarotMajor16Upright =>
+      'Changement soudain, destruction, libération, révélation, effondrement';
+
+  @override
+  String get tarotMajor16Reversed =>
+      'Éviter le désastre, retarder le changement inévitable, ignorer les avertissements';
+
+  @override
+  String get tarotMajor17Name => 'L\'Étoile';
+
+  @override
+  String get tarotMajor17Upright =>
+      'Espoir, Inspiration, Sérénité, Guérison et Affirmation, Guidance Spirituelle';
+
+  @override
+  String get tarotMajor17Reversed =>
+      'Désespoir, déception, manque d\'inspiration, pessimisme, confusion';
+
+  @override
+  String get tarotMajor18Name => 'La Lune';
+
+  @override
+  String get tarotMajor18Upright =>
+      'Anxiété, illusion, intuition, vérité cachée, tromperie';
+
+  @override
+  String get tarotMajor18Reversed =>
+      'Surmonter la peur, découvrir des secrets, soulager l\'anxiété, révéler la vérité';
+
+  @override
+  String get tarotMajor19Name => 'Le Soleil';
+
+  @override
+  String get tarotMajor19Upright =>
+      'Succès, positivité, vitalité, bonheur et accomplissement, joie';
+
+  @override
+  String get tarotMajor19Reversed =>
+      'L\'autre face du succès retardé, exagération, manque d\'énergie et tristesse.';
+
+  @override
+  String get tarotMajor20Name => 'Le Jugement';
+
+  @override
+  String get tarotMajor20Upright =>
+      'Résurrection, détermination, pardon, nouvel appel, éveil intérieur';
+
+  @override
+  String get tarotMajor20Reversed =>
+      'Regret, doute de soi, peur du changement, remords, punition';
+
+  @override
+  String get tarotMajor21Name => 'Le Monde';
+
+  @override
+  String get tarotMajor21Upright =>
+      'Achèvement, accomplissement, intégration, nouveau niveau, fin réussie';
+
+  @override
+  String get tarotMajor21Reversed =>
+      'Inachèvement, report, stagnation, peur du succès, procrastination.';
+
+  @override
+  String get tarotCups01Name => 'As de Coupes';
+
+  @override
+  String get tarotCups01Upright =>
+      'Nouvelles émotions, débuts amoureux, intuition, épanouissement spirituel';
+
+  @override
+  String get tarotCups01Reversed =>
+      'Émotions bloquées, se sentir mal aimé, se sentir vide, triste.';
+
+  @override
+  String get tarotCups02Name => 'Deux de Coupes';
+
+  @override
+  String get tarotCups02Upright =>
+      'Harmonie dans les relations, union, amour, respect mutuel, coopération';
+
+  @override
+  String get tarotCups02Reversed =>
+      'Discorde relationnelle, séparation, incompréhension, déséquilibre, amour non partagé';
+
+  @override
+  String get tarotCups03Name => 'Trois de Coupes';
+
+  @override
+  String get tarotCups03Upright =>
+      'Célébration, amitié, communauté, joie, épanouissement créatif.';
+
+  @override
+  String get tarotCups03Reversed =>
+      'Consommation excessive d\'alcool, aliénation, cliques, triangles amoureux, annulation de fêtes.';
+
+  @override
+  String get tarotCups04Name => 'Quatre de Coupes';
+
+  @override
+  String get tarotCups04Upright =>
+      'Apathie, ennui, méditation, occasions manquées, réflexion intérieure.';
+
+  @override
+  String get tarotCups04Reversed =>
+      'Nouvelle conscience, saisie d\'opportunités, revitalisation, éveil';
+
+  @override
+  String get tarotCups05Name => 'Cinq de Coupes';
+
+  @override
+  String get tarotCups05Upright =>
+      'Perte, tristesse, regret du passé, pessimisme';
+
+  @override
+  String get tarotCups05Reversed =>
+      'Surmonter la perte, acceptation, guérison et retrouver un nouvel espoir';
+
+  @override
+  String get tarotCups06Name => 'Six de Coupes';
+
+  @override
+  String get tarotCups06Upright =>
+      'Nostalgie du passé, enfance, innocence, vieux amis, souvenirs';
+
+  @override
+  String get tarotCups06Reversed =>
+      'Bloqué dans le passé, ignorer l\'avenir, indépendance, croissance';
+
+  @override
+  String get tarotCups07Name => 'Sept de Coupes';
+
+  @override
+  String get tarotCups07Upright =>
+      'Fantaisie, rêve, confusion des choix, évasion, rêverie';
+
+  @override
+  String get tarotCups07Reversed =>
+      'Faire face à la réalité, objectifs clairs, sortir des illusions, détermination';
+
+  @override
+  String get tarotCups08Name => 'Huit de Coupes';
+
+  @override
+  String get tarotCups08Upright =>
+      'Déception, départ, abandon et résignation à la recherche d\'un sens plus profond.';
+
+  @override
+  String get tarotCups08Reversed =>
+      'Incapable de partir, s\'accrocher au passé, restaurer des relations, peur';
+
+  @override
+  String get tarotCups09Name => 'Neuf de Coupes';
+
+  @override
+  String get tarotCups09Upright =>
+      'Réalisation des souhaits, satisfaction, plaisir sensuel, estime de soi, bonheur';
+
+  @override
+  String get tarotCups09Reversed =>
+      'Insatisfaction, vanité, succès superficiel, cupidité, avidité.';
+
+  @override
+  String get tarotCups10Name => 'Dix de Coupes';
+
+  @override
+  String get tarotCups10Upright =>
+      'Bonheur familial, paix, épanouissement émotionnel, relations harmonieuses';
+
+  @override
+  String get tarotCups10Reversed =>
+      'Conflit familial, foyer brisé, discorde, perte de paix';
+
+  @override
+  String get tarotCups11Name => 'Valet de Coupes';
+
+  @override
+  String get tarotCups11Upright =>
+      'Nouvelle inspiration, créativité, message émotionnel, intuition';
+
+  @override
+  String get tarotCups11Reversed =>
+      'Immaturité émotionnelle, blocage créatif, mauvaises nouvelles, irritabilité.';
+
+  @override
+  String get tarotCups12Name => 'Cavalier de Coupes';
+
+  @override
+  String get tarotCups12Upright =>
+      'Romance, charme, accès émotionnel, imagination, chevalerie';
+
+  @override
+  String get tarotCups12Reversed =>
+      'Irréalité, inconstance, jalousie, manque de fiabilité, tromperie';
+
+  @override
+  String get tarotCups13Name => 'Reine de Coupes';
+
+  @override
+  String get tarotCups13Upright =>
+      'Empathie, gentillesse, intuition spirituelle, stabilité émotionnelle, considération';
+
+  @override
+  String get tarotCups13Reversed =>
+      'Hyperémotivité, instabilité, dépendance, victimisation';
+
+  @override
+  String get tarotCups14Name => 'Roi de Coupes';
+
+  @override
+  String get tarotCups14Upright =>
+      'Contrôle émotionnel, équilibre, diplomatie, tolérance, sages conseils.';
+
+  @override
+  String get tarotCups14Reversed =>
+      'Manipulateur émotionnel, insensible, instable, lunatique, impitoyable.';
+
+  @override
+  String get tarotPentacles01Name => 'As de Deniers';
+
+  @override
+  String get tarotPentacles01Upright =>
+      'Nouvelles opportunités, débuts financiers, abondance, réalisations réalistes.';
+
+  @override
+  String get tarotPentacles01Reversed =>
+      'Occasions manquées, pertes financières, retards, mauvais investissements.';
+
+  @override
+  String get tarotPentacles02Name => 'Deux de Deniers';
+
+  @override
+  String get tarotPentacles02Upright =>
+      'Équilibre, adaptabilité, gestion du temps/financière, flexibilité';
+
+  @override
+  String get tarotPentacles02Reversed =>
+      'Déséquilibre, accablement, difficultés financières, stress';
+
+  @override
+  String get tarotPentacles03Name => 'Trois de Deniers';
+
+  @override
+  String get tarotPentacles03Upright =>
+      'Travail d\'équipe, collaboration, technologie, effort reconnu, architecture';
+
+  @override
+  String get tarotPentacles03Reversed =>
+      'Manque de collaboration, manque de compétences, manque de reconnaissance, conflit d\'opinions.';
+
+  @override
+  String get tarotPentacles04Name => 'Quatre de Deniers';
+
+  @override
+  String get tarotPentacles04Upright =>
+      'Stabilité, possessivité, conservatisme, avarice, accumulation';
+
+  @override
+  String get tarotPentacles04Reversed =>
+      'Lâcher le prix de l\'avidité, perte, négligence financière et obsession.';
+
+  @override
+  String get tarotPentacles05Name => 'Cinq de Deniers';
+
+  @override
+  String get tarotPentacles05Upright =>
+      'Privation, privation financière/émotionnelle, aliénation, adversité';
+
+  @override
+  String get tarotPentacles05Reversed =>
+      'Reprise financière, coup de main, surmonter l\'adversité, changement positif.';
+
+  @override
+  String get tarotPentacles06Name => 'Six de Deniers';
+
+  @override
+  String get tarotPentacles06Upright =>
+      'Charité, partage, parrainage, équité, donner et recevoir';
+
+  @override
+  String get tarotPentacles06Reversed =>
+      'Égoïsme, dette, inégalité, condescendance, exploitation';
+
+  @override
+  String get tarotPentacles07Name => 'Sept de Deniers';
+
+  @override
+  String get tarotPentacles07Upright =>
+      'Patience, vision à long terme, attente des récompenses de l\'effort, évaluation';
+
+  @override
+  String get tarotPentacles07Reversed =>
+      'Impatience, efforts infructueux, retards, frustration et investissements ratés.';
+
+  @override
+  String get tarotPentacles08Name => 'Huit de Deniers';
+
+  @override
+  String get tarotPentacles08Upright =>
+      'Artisanat, engagement, attention aux détails, compétence.';
+
+  @override
+  String get tarotPentacles08Reversed =>
+      'Ennui, piège du perfectionnisme, paresse, perte de passion.';
+
+  @override
+  String get tarotPentacles09Name => 'Neuf de Deniers';
+
+  @override
+  String get tarotPentacles09Upright =>
+      'Accomplissement, indépendance, loisirs, confort financier, auto-récompense';
+
+  @override
+  String get tarotPentacles09Reversed =>
+      'Dépenses excessives, extravagance superficielle, dépendance, insécurité financière';
+
+  @override
+  String get tarotPentacles10Name => 'Dix de Deniers';
+
+  @override
+  String get tarotPentacles10Upright =>
+      'Entreprise familiale, accumulation de richesse, héritage, vie stable, tradition';
+
+  @override
+  String get tarotPentacles10Reversed =>
+      'Perte de biens, conflit familial, rébellion contre la tradition, instabilité.';
+
+  @override
+  String get tarotPentacles11Name => 'Valet de Deniers';
+
+  @override
+  String get tarotPentacles11Upright =>
+      'Objectifs réalistes, nouvelles études, opportunités, praticité, planification';
+
+  @override
+  String get tarotPentacles11Reversed =>
+      'Retard dans la planification, manque de praticité, paresse, procrastination.';
+
+  @override
+  String get tarotPentacles12Name => 'Cavalier de Deniers';
+
+  @override
+  String get tarotPentacles12Upright =>
+      'Sincérité, responsabilité, persévérance, développement progressif, fiabilité';
+
+  @override
+  String get tarotPentacles12Reversed =>
+      'Entêtement, léthargie, dépendance au travail, manque de flexibilité, stagnation';
+
+  @override
+  String get tarotPentacles13Name => 'Reine de Deniers';
+
+  @override
+  String get tarotPentacles13Upright =>
+      'Soins pratiques, conseils pratiques, abondance, générosité, confort.';
+
+  @override
+  String get tarotPentacles13Reversed =>
+      'Contrôle excessif, possessivité, égoïsme, insécurité financière, dépenses excessives.';
+
+  @override
+  String get tarotPentacles14Name => 'Roi de Deniers';
+
+  @override
+  String get tarotPentacles14Upright =>
+      'Richesse, succès, sens des affaires, autorité et soutien solide.';
+
+  @override
+  String get tarotPentacles14Reversed =>
+      'Matérialisme, corruption, avidité, entêtement, autorité oppressive';
+
+  @override
+  String get tarotSwords01Name => 'As d\'Épées';
+
+  @override
+  String get tarotSwords01Upright =>
+      'Clarté d\'esprit, nouvelles pensées, vérité, percée spirituelle';
+
+  @override
+  String get tarotSwords01Reversed =>
+      'Confusion, désinformation, perte de jugement, manque de communication';
+
+  @override
+  String get tarotSwords02Name => 'Deux d\'Épées';
+
+  @override
+  String get tarotSwords02Upright =>
+      'Indécision, aveuglement, blocage des émotions, évitement des décisions difficiles.';
+
+  @override
+  String get tarotSwords02Reversed =>
+      'Prendre des décisions, faire face aux faits, commettre des erreurs par manque d\'informations';
+
+  @override
+  String get tarotSwords03Name => 'Trois d\'Épées';
+
+  @override
+  String get tarotSwords03Upright =>
+      'Chagrin, tristesse, séparation, blessure, vérité douloureuse.';
+
+  @override
+  String get tarotSwords03Reversed =>
+      'Surmonter la douleur, guérison, pardon, lâcher prise de la tristesse';
+
+  @override
+  String get tarotSwords04Name => 'Quatre d\'Épées';
+
+  @override
+  String get tarotSwords04Upright =>
+      'Détente, récupération, méditation, soulagement du stress, paix intérieure';
+
+  @override
+  String get tarotSwords04Reversed =>
+      'Épuisement, refus de récupérer, repos forcé, stress extrême.';
+
+  @override
+  String get tarotSwords05Name => 'Cinq d\'Épées';
+
+  @override
+  String get tarotSwords05Upright =>
+      'Victoire qui ne fait que blesser, trahison, conflit, hostilité et mesquinerie.';
+
+  @override
+  String get tarotSwords05Reversed =>
+      'Résolution de conflit, réconciliation, compromis, admettre la défaite, renoncer à la vengeance';
+
+  @override
+  String get tarotSwords06Name => 'Six d\'Épées';
+
+  @override
+  String get tarotSwords06Upright =>
+      'Transition, libération de la douleur, voyage de guérison, mouvement, voyage';
+
+  @override
+  String get tarotSwords06Reversed =>
+      'Résistance au changement, blessures passées vous retenant, procrastination';
+
+  @override
+  String get tarotSwords07Name => 'Sept d\'Épées';
+
+  @override
+  String get tarotSwords07Upright =>
+      'Tromperie, ruse, stratégie, furtivité, évasion';
+
+  @override
+  String get tarotSwords07Reversed =>
+      'Confession, révélation de secrets, découverte de tromperie, culpabilité, affronter les choses de front.';
+
+  @override
+  String get tarotSwords08Name => 'Huit d\'Épées';
+
+  @override
+  String get tarotSwords08Upright =>
+      'Égocentrisme, impuissance, pensée limitée, prison de la peur';
+
+  @override
+  String get tarotSwords08Reversed =>
+      'Libération, se libérer de sa propre prison, une nouvelle perspective';
+
+  @override
+  String get tarotSwords09Name => 'Neuf d\'Épées';
+
+  @override
+  String get tarotSwords09Upright =>
+      'Anxiété, désespoir, insomnie, culpabilité, peur intérieure.';
+
+  @override
+  String get tarotSwords09Reversed =>
+      'Surmonter la peur, rayon d\'espoir, soulager l\'insomnie, faire face aux faits';
+
+  @override
+  String get tarotSwords10Name => 'Dix d\'Épées';
+
+  @override
+  String get tarotSwords10Upright =>
+      'Destruction, blessures profondes, trahison, toucher le fond, la fin arrive.';
+
+  @override
+  String get tarotSwords10Reversed =>
+      'Récupération après la destruction, le pire est passé, survie, reconstruction';
+
+  @override
+  String get tarotSwords11Name => 'Valet d\'Épées';
+
+  @override
+  String get tarotSwords11Upright =>
+      'Curiosité, grandes capacités d\'analyse, recherche de la vérité, nouvelles idées';
+
+  @override
+  String get tarotSwords11Reversed =>
+      'Indiscrétion, impatience, cynisme, rumeurs infondées, impolitesse';
+
+  @override
+  String get tarotSwords12Name => 'Cavalier d\'Épées';
+
+  @override
+  String get tarotSwords12Upright =>
+      'Élan, ambition, dynamisme intellectuel, action rapide et décisive';
+
+  @override
+  String get tarotSwords12Reversed =>
+      'Témérité, agressivité, paroles et actions inconsidérées, impulsivité, cruauté';
+
+  @override
+  String get tarotSwords13Name => 'Reine d\'Épées';
+
+  @override
+  String get tarotSwords13Upright =>
+      'Indépendance, communication claire, jugement aiguisé, honnêteté, objectivité';
+
+  @override
+  String get tarotSwords13Reversed =>
+      'Froideur, cruauté, critique excessive, ressentiment, isolement';
+
+  @override
+  String get tarotSwords14Name => 'Roi d\'Épées';
+
+  @override
+  String get tarotSwords14Upright =>
+      'Autorité, perspicacité intellectuelle, logique, équité, principes, expert';
+
+  @override
+  String get tarotSwords14Reversed =>
+      'Abus de pouvoir, irrationalité, cruauté, désir de contrôle, dictature';
+
+  @override
+  String get tarotWands01Name => 'As de Bâtons';
+
+  @override
+  String get tarotWands01Upright =>
+      'Passion, inspiration, pouvoir créatif, nouveau potentiel, vitalité';
+
+  @override
+  String get tarotWands01Reversed =>
+      'Enthousiasme retardé, manque d\'inspiration, perte de motivation et confusion d\'identité.';
+
+  @override
+  String get tarotWands02Name => 'Deux de Bâtons';
+
+  @override
+  String get tarotWands02Upright =>
+      'Planification, vision, objectifs à long terme, détermination, exploration';
+
+  @override
+  String get tarotWands02Reversed =>
+      'Manque de planification, procrastination, stagnation due à la peur, vision limitée.';
+
+  @override
+  String get tarotWands03Name => 'Trois de Bâtons';
+
+  @override
+  String get tarotWands03Upright =>
+      'Réalisation des attentes, progrès, expansion, prévoyance, leadership';
+
+  @override
+  String get tarotWands03Reversed =>
+      'Retard de croissance, revers, handicaps inattendus, intolérance';
+
+  @override
+  String get tarotWands04Name => 'Quatre de Bâtons';
+
+  @override
+  String get tarotWands04Upright =>
+      'Célébration, confort, joie de l\'accomplissement, accueil, événements domestiques';
+
+  @override
+  String get tarotWands04Reversed =>
+      'Événements annulés, conflits familiaux, stabilité temporaire, célébrations retardées.';
+
+  @override
+  String get tarotWands05Name => 'Cinq de Bâtons';
+
+  @override
+  String get tarotWands05Upright =>
+      'Compétition, conflit, désaccord, querelle, défi';
+
+  @override
+  String get tarotWands05Reversed =>
+      'Compromis, évitement des conflits, coopération, recherche de la paix, apaisement du chaos';
+
+  @override
+  String get tarotWands06Name => 'Six de Bâtons';
+
+  @override
+  String get tarotWands06Upright =>
+      'Succès, reconnaissance publique, victoire, confiance, ascension du leader.';
+
+  @override
+  String get tarotWands06Reversed =>
+      'Défaite, déshonneur, désapprobation, orgueil, perte de réputation';
+
+  @override
+  String get tarotWands07Name => 'Sept de Bâtons';
+
+  @override
+  String get tarotWands07Upright =>
+      'Courage, défense, faire face à la compétition, conviction ferme, persévérance.';
+
+  @override
+  String get tarotWands07Reversed =>
+      'Abandonner, être dépassé, faire des compromis, perdre confiance, lâcheté.';
+
+  @override
+  String get tarotWands08Name => 'Huit de Bâtons';
+
+  @override
+  String get tarotWands08Upright =>
+      'Rythme rapide, fin rapide, nouvelles, agilité, vitesse.';
+
+  @override
+  String get tarotWands08Reversed =>
+      'Retards, confusion, erreurs dues à la hâte, incapacité à communiquer';
+
+  @override
+  String get tarotWands09Name => 'Neuf de Bâtons';
+
+  @override
+  String get tarotWands09Upright =>
+      'Résilience, défensive, continuer même épuisé, vigilance, test d\'endurance.';
+
+  @override
+  String get tarotWands09Reversed =>
+      'Fatigue, paranoïa, abandon, entêtement, résistance inutile.';
+
+  @override
+  String get tarotWands10Name => 'Dix de Bâtons';
+
+  @override
+  String get tarotWands10Upright =>
+      'Fardeau excessif, pression extrême, responsabilité, contraintes, limitations.';
+
+  @override
+  String get tarotWands10Reversed =>
+      'Lâcher prise, éviter les responsabilités, épuisement, délégation, surmonter.';
+
+  @override
+  String get tarotWands11Name => 'Valet de Bâtons';
+
+  @override
+  String get tarotWands11Upright =>
+      'Exploration, découverte, idées passionnées, énergie, charme';
+
+  @override
+  String get tarotWands11Reversed =>
+      'Perte de direction, immaturité, s\'ennuyer facilement, vaines illusions, irresponsabilité';
+
+  @override
+  String get tarotWands12Name => 'Cavalier de Bâtons';
+
+  @override
+  String get tarotWands12Upright =>
+      'Mouvement passionné vers l\'avant, esprit aventureux, action, énergie, confiance';
+
+  @override
+  String get tarotWands12Reversed =>
+      'Comportement impulsif, arrogance, caprice, colère et manque de planification.';
+
+  @override
+  String get tarotWands13Name => 'Reine de Bâtons';
+
+  @override
+  String get tarotWands13Upright =>
+      'Charisme, courage, indépendance, éclat, charme, vitalité';
+
+  @override
+  String get tarotWands13Reversed =>
+      'Égoïsme, exhibitionnisme, jalousie, caprice, agressivité';
+
+  @override
+  String get tarotWands14Name => 'Roi de Bâtons';
+
+  @override
+  String get tarotWands14Upright =>
+      'Leadership charismatique, vision, inspiration, audace, entrepreneur';
+
+  @override
+  String get tarotWands14Reversed =>
+      'Dictature, colère impulsive, irréalité, arrogance, cruauté';
+
+  @override
+  String get nicknamePrefixes =>
+      'Mystérieux, serein, sacré, sombre, brillant, froid, chaud, captivant, brutal, pur, rude, doux, beau, étrange, grand, minable, éternel, oublié, brillant, triste, heureux, rêveur, décadent, blanc pur, noir de jais, rouge sang, gris, doré, argenté, bleu, rouge, jaune, noir, blanc, transparent, solitaire, bruyant, calme, chaud, froid, joyeux, lugubre, désespéré, plein d\'espoir, éblouissant, crépusculaire, désolé, secret, secret, sacré, profane, arrogant, humble, solitaire et sage, insensé, fort, faible, courageux, lâche, lointain, proche, reculant, approchant, disparaissant, apparaissant, éveillé, dormant, rêveur, errant, errant, restant, flottant, de retour, attendant, cherchant, caché, révélé, abandonné, choisi, béni, maudit, aimé, haï, se souvenant, oubliant, d\'étoiles, de lune, de soleil, de l\'univers, de la terre, de la mer, du ciel, de nuages, du vent, de pluie, de neige, de glace, de feu, d\'eau, de terre, d\'arbres, de forêts, de montagnes, de rivières, de lacs, du temps, de l\'espace, de dimensions, du destin, de la destinée, d\'énergie, d\'ennemis, de magie, de mythe, de légende, de vérité, de mensonges, de fantaisie, de rêves, de cauchemars, de destruction, de création, de vie, de mort, d\'âme, de chair, de raison, d\'émotion, d\'amour, de haine, de chagrin, de joie, de colère, de paix, de guerre, de chaos, d\'ordre, de lumière, d\'obscurité, du crépuscule, de l\'aube, de midi, de minuit, du passé, du présent, du futur, d\'origine, d\'apocalypse, infini, fini, de silence, de bruit, de chant, de danse, de larmes, de rires, de murmures, de cris, de prières, de supplications, de commandements, d\'obéissance, de règne, de service, de direction, de suite, d\'enseignement, d\'apprentissage, de mémoire, de souvenirs, de blessures, de guérison, de poison, de médecine, d\'illusion, de substance, d\'idéal, de réalité, virtuel, naturel, artificiel, primordial, d\'éternité, de moment, éphémère, éternel, de changement, d\'arrêt, coulant, arrêté, brûlant, refroidissant, fleurissant, fanant, croissant, mourant, respirant, suffocant, brillant, subtil, sombre, faible, transparent, pâle, éblouissant, étrange, unique, spécial, noble, pur, corrompu, solitaire, désolé, lointain, rude, cruel, grand, fort, ferme, flexible, rapide, lent, calme, chaotique, de mémoire, imaginaire, silencieux, chuchotant, chantant, dansant, sanglotant, souriant, ricanant, contemplatif, errant, errant, éveillé, endormi, rêvant, rêvassant, faisant, délirant, priant, fervent, déchirant, sublime, maléfique, méchant, arrogant, humble, gentil, chaud, frais, effrayant, bizarre, étrange, extatique, fascinant, vertigineux, doux, aigre-doux, amer, piquant, aiguisé, émoussé, rugueux, doux, confortable, confortable, précaire, mal à l\'aise, insouciant, paisible, languide, ennuyé, passionné, indifférent, calme, féroce, fou, rationnel, émotionnel, lucide, sage, insensé, naïf, rusé, insidieux, blanc pur, noir de jais, doré, argenté, sanglant';
+
+  @override
+  String get nicknameSuffixes =>
+      'Prophète, Sorcier, Sorcière, Chevalier, Guerrier, Archer, Voleur, Assassin, Paladin, Prêtre, Prêtresse, Moine, Chaman, Alchimiste, Nécromancien, Élémentaliste, Invocateur, Illusionniste, Guérisseur, Sage, Érudit, Chercheur, Explorateur, Voyageur, Souverain, Errante, Errante, Pèlerin, Chercheur, Observateur, Chroniqueur, Messager, Gardien, Sentinelle, Garde, Gardien de la porte, Juge, Exécuteur, Dirigeant, Dirigeant, Roi, Reine, Empereur, Impératrice, Noble, Seigneur, Chevalier commandant, Mercenaire, Pirate, Voleur, Trompeur, Clown, Fou, Ermite, Hérétique, Traître, Traître, Héros, Sauveur, Libérateur, Destructeur, Créateur, Dieu, Déesse, Ange, Diable, Esprit, Fée, Monstre, Bête, Dragon, Fantôme, Spectre, Mort-vivant, Vampire, Loup-garou, Sirène, Nymphe, Gobelin, Orc, Troll, Elfe, Nain, Géant, Nain, Humain, Homme-bête, Artisan, Homme-poisson, Dragon, Esprit maléfique, Sura, Abysse, Ciel, Enfers, Autre monde, Abysse, Chaos, Ordre, Lumière, Ténèbres, Chercheur, Pèlerin, Errante, Ermite, Hérétique, Traître, Pionnier, Conquérant, Dirigeant, Coordinateur, Gardien, Guetteur, Observateur, Chroniqueur, Messager, Guide, Guide, Sauveur, Destructeur, Créateur, Fantôme, Fantôme, Fantôme, Esprit maléfique, Esprit, Fée, Bête magique, Bête sacrée, Bête fantôme, Bête divine, Épéiste, Chevalier, Archer, Voleur, Assassin, Sorcier, Chaman, Alchimiste, Nécromancien, Prêtre, Érudit, Chercheur, Explorateur, Voyageur, Artiste, Bouffon, Barde, Marchand, Artisan, Fermier, Corbeau, Hibou, Aigle, Faucon, Loup, Renard, Ours, Lion, Tigre, Léopard, Panthère noire, Chat, Chat, Chiot, Serpent, Lézard, Tortue, Crocodile, Dragon, Licorne, Pégase, Griffon, Gargouille, Gobelin, Orc, Troll, Ogre, Slime, Squelette, Zombie, Goule, Vampire, Loup-garou, Minotaure, Centaure, Harpie, Sirène, Kraken, Léviathan, Épée, Bouclier, Lance, Arc, Bâton, Anneau, Collier, Couronne, Saint Graal';
+
+  @override
+  String get eulaTitle => 'Contrat de Licence Utilisateur Final (CLUF)';
+
+  @override
+  String get eulaArticle1 =>
+      'Article 1 (Octroi de Licence)\nLa permission d\'utiliser cette application (« Tarot Witch ») est accordée uniquement pour un usage personnel et non commercial, et aucun droit de propriété ou de propriété intellectuelle sur l\'application n\'est transféré.';
+
+  @override
+  String get eulaArticle2 =>
+      'Article 2 (Utilisation Interdite)\nLes utilisateurs ne peuvent pas utiliser ce service à des fins illégales ou qui portent atteinte aux droits d\'autrui, et ne peuvent pas manipuler arbitrairement ou faire de l\'ingénierie inverse sur les systèmes ou les données.';
+
+  @override
+  String get eulaArticle3 =>
+      'Article 3 (Collecte de Données et Période de Stockage)\nPour assurer un service fluide, les journaux de tarot et les données de voyance associées rédigées par les utilisateurs sont stockés en toute sécurité pendant trois ans à compter de la date de création.';
+
+  @override
+  String get eulaArticle4 =>
+      'Article 4 (Gestion des comptes inactifs à long terme)\nSi un utilisateur n\'accède pas au service pendant plus d\'un an (365 jours), le compte sera converti en compte dormant, et toutes les données de l\'utilisateur seront automatiquement supprimées sans préavis afin de protéger les informations personnelles et de maintenir un environnement serveur fluide.';
+
+  @override
+  String get eulaArticle5 =>
+      'Article 5 (Destruction irréversible des données)\nLes données dont la période de conservation de l\'article 3 a expiré ou qui ont été supprimées conformément à l\'article 4 seront définitivement détruites et ne pourront en aucun cas être récupérées.';
+
+  @override
+  String get eulaArticle6 =>
+      'Article 6 (Exclusion de Garantie et Indemnisation)\nLes lectures et interprétations de tarot fournies par cette application sont à des fins de divertissement uniquement et ne remplacent en aucun cas un avis juridique, médical ou financier. Le développeur n\'est pas responsable des dommages directs ou indirects découlant de l\'utilisation du service.';
+
+  @override
+  String get eulaAgreement =>
+      'Les contenus du CLUF et la politique de gestion des données ci-dessus sont des éléments obligatoires qui doivent être acceptés pour utiliser l\'application.';
+
+  @override
+  String get closeButton => 'Fermer';
+
+  @override
+  String get pushTermsTitle =>
+      'Accepter de recevoir des notifications d\'événements et de marketing';
+
+  @override
+  String get pushArticle1 =>
+      'Article 1 (Objet)\nCe consentement est destiné au service Tarot Witch pour envoyer des informations publicitaires telles que des événements, des promotions et de nouvelles mises à jour d\'horoscopes qui sont bénéfiques pour les utilisateurs via des notifications push.';
+
+  @override
+  String get pushArticle2 =>
+      'Article 2 (Retrait du consentement)\nLes utilisateurs peuvent retirer ce consentement à tout moment via [Mon Menu > Paramètres de l\'application] dans l\'application. Même si vous retirez votre consentement, vous pouvez toujours utiliser les fonctions de base (services essentiels) du service normalement.';
+
+  @override
+  String get pushArticle3 =>
+      'Article 3 (Contenu de la Notification)\nLes notifications envoyées peuvent inclure des informations publicitaires et marketing, telles que des offres de réduction spéciales in-app, des événements à durée limitée et des recommandations d\'horoscopes personnalisées.';
+
+  @override
+  String get pushAgreement =>
+      'Ce qui précède est facultatif pour l\'utilisateur, et même si le consentement n\'est pas donné, il n\'y a aucun inconvénient à utiliser le service de tarot.';
+
+  @override
+  String get windowsNoGoogleLogin =>
+      'La connexion Google n\'est pas prise en charge dans l\'environnement de prévisualisation (Windows). Veuillez utiliser un appareil Android ou le web.';
+
+  @override
+  String get signupTermsRequired =>
+      'Pour procéder à l\'inscription, vous devez accepter les conditions de stockage des données.';
+
+  @override
+  String googleLoginError(String error) {
+    return 'Erreur de connexion Google : $error';
+  }
+
+  @override
+  String get googleLoginUnknownError =>
+      'Une erreur inconnue est survenue lors de la connexion à Google.';
+
+  @override
+  String get windowsNoFirebase =>
+      'La connexion Firebase n\'est pas prise en charge dans l\'environnement de prévisualisation (Windows).';
+
+  @override
+  String get emailVerificationRequired =>
+      'La vérification de l\'e-mail est requise. Veuillez vérifier l\'e-mail avec lequel vous vous êtes inscrit.';
+
+  @override
+  String get resendEmail => 'Renvoyer';
+
+  @override
+  String get verificationEmailSent =>
+      'L\'e-mail de vérification a été renvoyé.';
+
+  @override
+  String get passwordMismatch =>
+      'Le mot de passe ne correspond pas. Veuillez vérifier à nouveau.';
+
+  @override
+  String get signupSuccess =>
+      'L\'inscription a été complétée. Veuillez vérifier l\'e-mail envoyé pour finaliser la vérification.';
+
+  @override
+  String get authError => 'Une erreur d\'authentification est survenue.';
+
+  @override
+  String get authLoginTitle => 'Se connecter';
+
+  @override
+  String get authSignupTitle => 'S\'inscrire';
+
+  @override
+  String get authTarotNickname => 'Surnoms dans le Monde du Tarot';
+
+  @override
+  String get authRerollNickname => 'Choisir un surnom à nouveau';
+
+  @override
+  String get authEmail => 'E-mail';
+
+  @override
+  String get authPassword => 'Mot de passe';
+
+  @override
+  String get authConfirmPassword => 'Confirmer le mot de passe';
+
+  @override
+  String get authKeepLoggedIn => 'Rester connecté';
+
+  @override
+  String get authAgreeEula =>
+      'J\'accepte le Contrat de Licence Utilisateur Final (CLUF). (essentiel)';
+
+  @override
+  String get authViewContent => '[Voir le contenu]';
+
+  @override
+  String get authAgreePush =>
+      'J\'accepte de recevoir les notifications de nouvelles lectures de tarot et d\'événements. (facultatif)';
+
+  @override
+  String get authBtnLogin => 'Se connecter';
+
+  @override
+  String get authBtnSignup => 'S\'inscrire';
+
+  @override
+  String get authSwitchToSignup => 'Vous n\'avez pas de compte ? S\'inscrire';
+
+  @override
+  String get authSwitchToLogin => 'Vous avez déjà un compte ? Se connecter';
+
+  @override
+  String get authGoogleSignIn => 'Commencer avec Google';
+
+  @override
+  String get cardDetailNotReady =>
+      'Cette interprétation n\'est pas encore prête.';
+
+  @override
+  String get cardDetailLoadError =>
+      'Une erreur est survenue lors du chargement des données.';
+
+  @override
+  String get cardDetailTabUpright => 'Droit';
+
+  @override
+  String get cardDetailTabReversed => 'Inversé';
+
+  @override
+  String get cardDetailNoInterpretation => 'Il n\'y a pas d\'interprétation.';
+
+  @override
+  String get cardDetailSectionKeywords => 'Mots-clés';
+
+  @override
+  String get cardDetailSectionGeneral => 'Interprétation générale';
+
+  @override
+  String get cardDetailSectionLove => 'Chance en amour';
+
+  @override
+  String get cardDetailSectionCareer => 'Argent, carrière';
+
+  @override
+  String get cardDetailSectionHealth => 'Santé';
+
+  @override
+  String get cardDetailSectionSpirituality => 'Spiritualité intérieure';
+
+  @override
+  String get chatDustShortageTitle => 'manque de poudre';
+
+  @override
+  String get chatDustShortageContent =>
+      'Il n\'y a pas assez de poudre magique. La lecture du tarot nécessite 1 poudre.';
+
+  @override
+  String get chatConfirmBtn => 'vérifier';
+
+  @override
+  String get chatStartReadingTitle => 'Commencer la lecture du tarot';
+
+  @override
+  String get chatStartReadingContent =>
+      'Souhaitez-vous dépenser 1 poudre pour commencer une lecture de tarot ?';
+
+  @override
+  String get chatCancelBtn => 'annulation';
+
+  @override
+  String get chatStartBtn => 'commencer';
+
+  @override
+  String get chatShufflingCards => 'Mélanger les cartes de tarot...';
+
+  @override
+  String get profileEditEmptyNickname => 'Veuillez entrer un pseudo.';
+
+  @override
+  String get profileEditDuplicateNickname =>
+      'Le surnom est déjà utilisé. Veuillez saisir un autre pseudo.';
+
+  @override
+  String get profileEditEmptyPassword =>
+      'Veuillez entrer votre mot de passe actuel pour modifier votre adresse e-mail.';
+
+  @override
+  String get profileEditEmailSent =>
+      'L\'e-mail de vérification a été envoyé. Veuillez effectuer la vérification dans votre nouvelle boîte de réception e-mail.';
+
+  @override
+  String get profileEditSuccess => 'Le profil a été enregistré.';
+
+  @override
+  String get profileEditErrorDefault => 'Une erreur s\'est produite.';
+
+  @override
+  String get profileEditErrorWrongPassword => 'Mot de passe incorrect.';
+
+  @override
+  String get profileEditErrorInvalidEmail => 'Format d\'e-mail invalide.';
+
+  @override
+  String get profileEditErrorEmailInUse =>
+      'Le courrier électronique est déjà utilisé.';
+
+  @override
+  String get profileEditErrorRecentLogin =>
+      'Pour des raisons de sécurité, veuillez vous reconnecter et réessayer.';
+
+  @override
+  String profileEditErrorUnknown(String error) {
+    return 'Une erreur inconnue s\'est produite lors de l\'enregistrement : $error';
+  }
+
+  @override
+  String get profileEditTitle => 'Modifier le profil';
+
+  @override
+  String get profileEditPhoto => 'Photo de profil';
+
+  @override
+  String get profileEditNickname => 'Surnom';
+
+  @override
+  String get profileEditEmail => 'Adresse email';
+
+  @override
+  String get profileEditEmailSocialHint =>
+      'Les comptes liés Google/Apple ne peuvent pas modifier l\'adresse e-mail.';
+
+  @override
+  String get profileEditEmailChangeHint =>
+      'Un email de vérification sera envoyé lors du changement d\'e-mail.';
+
+  @override
+  String get profileEditPassword =>
+      'Mot de passe actuel (pour la vérification du changement d\'e-mail)';
+
+  @override
+  String get profileEditCancel => 'Annuler';
+
+  @override
+  String get profileEditSave => 'Sauvegarder';
 }

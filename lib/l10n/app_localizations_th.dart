@@ -2912,4 +2912,1175 @@ class AppLocalizationsTh extends AppLocalizations {
 
   @override
   String get themePaid => 'ธีมที่ต้องชำระเงิน';
+
+  @override
+  String get diaryEmpty =>
+      'ยังไม่มีรายการไดอารี่\nตรวจดวงชะตาของคุณวันนี้และฝากไดอารี่ไว้!';
+
+  @override
+  String get diaryTarotConsult => 'การให้คำปรึกษาไพ่ทาโรต์';
+
+  @override
+  String get diaryTarotReading => 'การอ่านไพ่ยิปซี';
+
+  @override
+  String diaryAndMore(int count) {
+    return 'และอีก $count';
+  }
+
+  @override
+  String diaryDaysAgo(int days) {
+    return '$daysเมื่อก่อน';
+  }
+
+  @override
+  String diaryHoursAgo(int hours) {
+    return '$hoursชั่วโมงที่แล้ว';
+  }
+
+  @override
+  String diaryMinutesAgo(int minutes) {
+    return '$minutesนาทีที่แล้ว';
+  }
+
+  @override
+  String get diaryJustNow => 'แค่ตอนนี้';
+
+  @override
+  String get diaryNoEntryForDate => 'ไม่มีบันทึกการอ่านสำหรับวันที่นี้';
+
+  @override
+  String get diaryMyQuestion => 'คำถามของฉัน';
+
+  @override
+  String get diaryWitchReading => 'การอ่านไพ่ยิปซี';
+
+  @override
+  String get diaryNoResult => 'ไม่มีผลลัพธ์';
+
+  @override
+  String get diaryFollowUpTitle => 'หมายเหตุติดตามผล';
+
+  @override
+  String get diaryFollowUpHint =>
+      'บันทึกว่าการอ่านนั้นแม่นยำในอีกสองสามวันต่อมาหรือไม่';
+
+  @override
+  String get diaryFollowUpPlaceholder => 'การอ่านเกิดขึ้นได้อย่างไร?';
+
+  @override
+  String get diaryFollowUpSave => 'บันทึกการติดตามผล';
+
+  @override
+  String get diaryFollowUpSaved => 'บันทึกการติดตามผลแล้ว!';
+
+  @override
+  String get diaryFollowUpEdit => 'แก้ไขการติดตามผล';
+
+  @override
+  String get diaryTagTitle => 'แท็ก';
+
+  @override
+  String get diaryTagAddHint => 'ป้อนแท็กใหม่';
+
+  @override
+  String get diaryTagDeleteConfirm => 'ลบแท็กนี้ใช่ไหม';
+
+  @override
+  String get diaryTagDelete => 'ลบ';
+
+  @override
+  String get diaryDeleteTitle => 'ลบไดอารี่';
+
+  @override
+  String get diaryDeleteConfirm =>
+      'ลบรายการไดอารี่นี้หรือไม่ สิ่งนี้ไม่สามารถยกเลิกได้';
+
+  @override
+  String get communityTitle => 'ชุมชน';
+
+  @override
+  String get communityErrorLoading => 'เกิดข้อผิดพลาดขณะโหลดข้อมูล';
+
+  @override
+  String get communityEmptyFeed =>
+      'ยังไม่มีไดอารี่ไพ่ทาโรต์สาธารณะ\nเป็นคนแรกที่จะแบ่งปันไดอารี่ของคุณ!';
+
+  @override
+  String get communityNoInterpretation => 'ไม่มีการตีความ';
+
+  @override
+  String get communityLike => 'ชอบ';
+
+  @override
+  String get communityComments => 'ความคิดเห็น';
+
+  @override
+  String get communityFirstCommentPrompt => 'เป็นคนแรกที่แสดงความคิดเห็น!';
+
+  @override
+  String get communityCommentInputHint => 'เขียนความคิดเห็น...';
+
+  @override
+  String get communityCommentFailed => 'ไม่สามารถเพิ่มความคิดเห็น:';
+
+  @override
+  String get communityLoginRequired => 'ต้องเข้าสู่ระบบ';
+
+  @override
+  String get communityReportTitle => 'รายงาน';
+
+  @override
+  String get communityReportHint => 'ป้อนเหตุผลในการรายงาน';
+
+  @override
+  String get communityReportCancel => 'ยกเลิก';
+
+  @override
+  String get communityReportSubmit => 'รายงาน';
+
+  @override
+  String get communityReportSuccess => 'ส่งรายงานแล้ว';
+
+  @override
+  String get communityTarotQuestion => 'ถามคำถามไพ่ทาโรต์';
+
+  @override
+  String get communityNoName => 'แม่มดนิรนาม';
+
+  @override
+  String get diaryShareToCommunity => 'แบ่งปันไปที่ชุมชน';
+
+  @override
+  String get diarySharedSuccess => 'แบ่งปันไปยังชุมชน';
+
+  @override
+  String get diaryPrivateSuccess => 'ตั้งค่าเป็นส่วนตัว';
+
+  @override
+  String get growthTitle => 'การเจริญเติบโต';
+
+  @override
+  String get growthSubtitle => 'รวบรวมพลังเวทย์มนตร์เพื่อเสริมไพ่ทาโรต์';
+
+  @override
+  String get growthTabCrystalBall => 'อัพเกรดลูกบอลคริสตัล';
+
+  @override
+  String get growthTabWorldTree => 'ปลูกต้นไม้โลก';
+
+  @override
+  String growthWorldTreeLevel(int level) {
+    return 'ระดับต้นไม้โลก $level';
+  }
+
+  @override
+  String get growthExp => 'ประสบการณ์:';
+
+  @override
+  String get growthWaterFree => 'น้ำฟรี';
+
+  @override
+  String get growthWaterSuccess => 'รดน้ำต้นไม้โลก! ประสบการณ์ +10 ความชื้น';
+
+  @override
+  String growthDustOwned(int dust) {
+    return 'ฝุ่นเวทมนตร์ที่เป็นเจ้าของ: $dust';
+  }
+
+  @override
+  String growthCrystalBallLevel(int level) {
+    return 'มิสติกคริสตัลบอล ระดับ $level';
+  }
+
+  @override
+  String get growthUpgradeButton => 'อัพเกรด (10 ฝุ่น)';
+
+  @override
+  String get growthUpgradeSuccess => 'การอัพเกรด Crystal Ball สำเร็จแล้ว! ✨';
+
+  @override
+  String get growthUpgradeNotEnough =>
+      'ฝุ่นเวทย์มนตร์ไม่เพียงพอ (ความต้องการ: 10)';
+
+  @override
+  String get diaryViewList => 'มุมมองรายการ';
+
+  @override
+  String get diaryViewCalendar => 'มุมมองปฏิทิน';
+
+  @override
+  String get tarotMajor00Name => 'คนโง่';
+
+  @override
+  String get tarotMajor00Upright => '새ロ운 시작, 모험, 무ฮันฮัน 가능성, 자유, 순수함';
+
+  @override
+  String get tarotMajor00Reversed => '무모함, 어리석음, 부일의, 너무 큰 위험을 감수함, 비현실성';
+
+  @override
+  String get tarotMajor01Name => 'นักมายากล';
+
+  @override
+  String get tarotMajor01Upright => '창조력, 의정, 능력, 새ロ운 시작의 힘, 결단력';
+
+  @override
+  String get tarotMajor01Reversed => '조작, 기능 낭비, 기만, 자신감 부족, 숨겨현 의서';
+
+  @override
+  String get tarotMajor02Name => 'มหาปุโรหิต';
+
+  @override
+  String get tarotMajor02Upright => '직관, 무의식, 신비, 지혜, 내면의 목서리';
+
+  @override
+  String get tarotMajor02Reversed => '직관 무시, 얕자 지식, 숨겨현 적, 비밀 누설';
+
+  @override
+  String get tarotMajor03Name => 'จักรพรรดินี';
+
+  @override
+  String get tarotMajor03Upright => '풍요, 모성애, 아름다움, 자연의 결실, 창조성';
+
+  @override
+  String get tarotMajor03Reversed => '과잉보호, 의존성, 창조적 결핍, 게으름, 정체기';
+
+  @override
+  String get tarotMajor04Name => 'จักรพรรดิ์';
+
+  @override
+  String get tarotMajor04Upright => '권위, 성조, 안정, 부성애, 통제력, 책임감';
+
+  @override
+  String get tarotMajor04Reversed => '독기, 지배욕, 융통성 부족, 무능함, 억압';
+
+  @override
+  String get tarotMajor05Name => 'พระภิกษุ';
+
+  @override
+  String get tarotMajor05Upright => 'หน้าหลัก';
+
+  @override
+  String get tarotMajor05Reversed => '반역, 관습 타파, 독단적 태도, 낡상 사상, 나쁜 조언';
+
+  @override
+  String get tarotMajor06Name => 'คนรัก';
+
+  @override
+  String get tarotMajor06Upright => '사랑, 조화, 관계, 중요HAN 선택, 신뢰';
+
+  @override
+  String get tarotMajor06Reversed => '불화, 잘못된 선택, 신뢰 상실, 유혹, 불균형';
+
+  @override
+  String get tarotMajor07Name => 'รถม้า';
+
+  @override
+  String get tarotMajor07Upright => '의정, 승리, 결단력, Bam향성, 성공을 향한 추현력';
+
+  @override
+  String get tarotMajor07Reversed => '통제 상실, Bam향 상실, 무기력, 공격성, 장애물';
+
+  @override
+  String get tarotMajor08Name => 'ความแข็งแกร่ง';
+
+  @override
+  String get tarotMajor08Upright => '용기, In내, 내면의 힘, 부dragon러운 통제, 자비';
+
+  @override
+  String get tarotMajor08Reversed => '두려움, 나약함, 자기 통제력 상실, 충동, 자만심';
+
+  @override
+  String get tarotMajor09Name => 'ฤาษี';
+
+  @override
+  String get tarotMajor09Upright => '내면 탐스혜, 조언자, 깨달음, 정적 조언자';
+
+  @override
+  String get tarotMajor09Reversed => '외립, 외ロ움, 현실 서피, 어리석움, 현둔';
+
+  @override
+  String get tarotMajor10Name => 'วงล้อแห่งโชคลาภ';
+
+  @override
+  String get tarotMajor10Upright => '전환점, 운명, 행운, 끊임없는 변화, 기회';
+
+  @override
+  String get tarotMajor10Reversed => '불운, 저항, 통제할 수 없는 변화, 불행의 반복';
+
+  @override
+  String get tarotMajor11Name => 'ความยุติธรรม';
+
+  @override
+  String get tarotMajor11Upright => '공정함, jin실, In과응보, 균형, 합리적 결정';
+
+  @override
+  String get tarotMajor11Reversed => '불공평, 편견, 부정직, 피할 수 없는 처벌, 불균형';
+
+  @override
+  String get tarotMajor12Name => 'ชายผู้ถูกแขวนคอ';
+
+  @override
+  String get tarotMajor12Upright => '희생, 새ロ운 시각, 기다림, 통찰, 일시적 정정';
+
+  @override
+  String get tarotMajor12Reversed => '무의MINAR 희생, 지연, 발전을 거부함, 이기자의';
+
+  @override
+  String get tarotMajor13Name => 'ความตาย';
+
+  @override
+  String get tarotMajor13Upright => '끝과 새ロ운 시작, 변화, 전환기, 과거 청산';
+
+  @override
+  String get tarotMajor13Reversed => '변화전 저항, 정체, 낡성 것에 집착, 두려움';
+
+  @override
+  String get tarotMajor14Name => 'ความพอประมาณ';
+
+  @override
+  String get tarotMajor14Upright => '조화, 균형, 중용, 치유, 목적 의식';
+
+  @override
+  String get tarotMajor14Reversed => '불균형, 무절제, 극단적인 행동, 부조화, 갈등';
+
+  @override
+  String get tarotMajor15Name => 'ปีศาจ';
+
+  @override
+  String get tarotMajor15Upright => '집착, 물질수의, 속박, 유혹, 파괴적 욕망';
+
+  @override
+  String get tarotMajor15Reversed => '해립, 속박의서 벗어남, 독립, 깨달음, 자유';
+
+  @override
+  String get tarotMajor16Name => 'หอคอย';
+
+  @override
+  String get tarotMajor16Upright => '갑작스러운 변화, 파괴, 해 RM, 계시, 붕괴';
+
+  @override
+  String get tarotMajor16Reversed => '기난의 회피, 피할 수 없는 변화의 지연, 경GO 무시';
+
+  @override
+  String get tarotMajor17Name => 'เดอะสตาร์';
+
+  @override
+  String get tarotMajor17Upright => '희망, 정감, 평온, 치유와 긍정, 정적 อินดัส';
+
+  @override
+  String get tarotMajor17Reversed => '절망, 실망, 정감 부족, 비관자의, 혼란';
+
+  @override
+  String get tarotMajor18Name => 'ดวงจันทร์';
+
+  @override
+  String get tarotMajor18Upright => '불안, 환상, 직관, 숨겨현 jin실, 기만';
+
+  @override
+  String get tarotMajor18Reversed => '두려움의 극복, 비밀의 발견, 불안 해서, 현실 규명';
+
+  @override
+  String get tarotMajor19Name => 'เดอะซัน';
+
+  @override
+  String get tarotMajor19Upright => '성공, 긍정, 활력, 행복과 성취, 기쁨';
+
+  @override
+  String get tarotMajor19Reversed => '지연된 성공, 과장, 활력 저하, 슬픔의 이면';
+
+  @override
+  String get tarotMajor20Name => 'การตัดสิน';
+
+  @override
+  String get tarotMajor20Upright => '부활, 결단, 용서, 새ロ운 서명, 내적 각성';
+
+  @override
+  String get tarotMajor20Reversed => '후회, 자기 의심, 변화전 서HAN 두려움, 미련, 형벌';
+
+  @override
+  String get tarotMajor21Name => 'โลก';
+
+  @override
+  String get tarotMajor21Upright => '완성, 성취, 통합, 새ロ운 차oon, 성공적 อินมา무리';
+
+  @override
+  String get tarotMajor21Reversed => '미완성, 연기, 정체, 성공 EV 움두려움, 정연';
+
+  @override
+  String get tarotCups01Name => 'เอซออฟคัพ';
+
+  @override
+  String get tarotCups01Upright => '새ロ운 감정, 사랑의 시작, 직관, 정적 충만함';
+
+  @override
+  String get tarotCups01Reversed => '감정의 차단, 사랑받지 못함, 공허함, 슬픔';
+
+  @override
+  String get tarotCups02Name => 'สองถ้วย';
+
+  @override
+  String get tarotCups02Upright => '관계의 조화, 결합, 사랑, 상호 존중, 협력';
+
+  @override
+  String get tarotCups02Reversed => '관계의 불화, 이별, Oh해, 불균형, 짝사랑';
+
+  @override
+  String get tarotCups03Name => 'สามถ้วย';
+
+  @override
+  String get tarotCups03Upright => '축하, 수정, 공동체, 기쁨, 창조적 결실';
+
+  @override
+  String get tarotCups03Reversed => '과음, 서외, 파벌, 삼각관계, 축제의 취เซน';
+
+  @override
+  String get tarotCups04Name => 'สี่ถ้วย';
+
+  @override
+  String get tarotCups04Upright => '무관심, 권태, 명상, 놓쳐버린 기회, 내면 성찰';
+
+  @override
+  String get tarotCups04Reversed => '새ロ운 In식, 기회를 잡음, 활력 회복, 각성';
+
+  @override
+  String get tarotCups05Name => 'ห้าถ้วย';
+
+  @override
+  String get tarotCups05Upright => 'หน้าหลัก';
+
+  @override
+  String get tarotCups05Reversed => '상실의 극복, 수용, 치유, 새ロ운 희망의 발견';
+
+  @override
+  String get tarotCups06Name => 'หกถ้วย';
+
+  @override
+  String get tarotCups06Upright => '과거의 향수, 어린 시절, 순수함, 옛 친구, 추억';
+
+  @override
+  String get tarotCups06Reversed => '과거 EV 얽매임, 미래를 외면함, 독립, 성장';
+
+  @override
+  String get tarotCups07Name => 'เจ็ดถ้วย';
+
+  @override
+  String get tarotCups07Upright => '환상, 꿈, 선택의 혼란, 현실 Do피, 백일몽';
+
+  @override
+  String get tarotCups07Reversed => '현실 직시, 명확한 목표, 환상서서 깨어남, 결단';
+
+  @override
+  String get tarotCups08Name => 'แปดถ้วย';
+
+  @override
+  String get tarotCups08Upright => '실망, 떠남, 일축하 의MINI를 찾기 위HAN 포기, 체념';
+
+  @override
+  String get tarotCups08Reversed => '떠나지 못함, 과거의 집착, 관계 회복, 두려움';
+
+  @override
+  String get tarotCups09Name => 'เก้าถ้วย';
+
+  @override
+  String get tarotCups09Upright => 'โซวอน 성취, 만족감, 감각적 기쁨, 자부심, 행복';
+
+  @override
+  String get tarotCups09Reversed => '불만족, 허정심, 표면적일 성공, 욕심, 탐욕';
+
+  @override
+  String get tarotCups10Name => 'สิบถ้วย';
+
+  @override
+  String get tarotCups10Upright => 'Ka족의 행복, 평화, 정서적 충만, 조화ロ운 관계';
+
+  @override
+  String get tarotCups10Reversed => 'Ka족 내 갈등, 깨족 하정, 불화, 평화 상실';
+
+  @override
+  String get tarotCups11Name => 'หน้าถ้วย';
+
+  @override
+  String get tarotCups11Upright => '새ロ운 정감, 창의성, 감성적인 메시지, 직관력';
+
+  @override
+  String get tarotCups11Reversed => '감정적 미성숙, 창의적 차단, 나쁜 서식, 예MIN함';
+
+  @override
+  String get tarotCups12Name => 'อัศวินแห่งถ้วย';
+
+  @override
+  String get tarotCups12Upright => 'ロ맨스, 매력, 감정적 접근, 상상력, 기상력';
+
+  @override
+  String get tarotCups12Reversed => '비현실성, 변덕, 질투, 신뢰할 수 없음, 기만';
+
+  @override
+  String get tarotCups13Name => 'ราชินีแห่งถ้วย';
+
+  @override
+  String get tarotCups13Upright => '공감, 다정함, 정적 직관, 감성적 안정, 배려';
+
+  @override
+  String get tarotCups13Reversed => '감정 과잉, 불안정, 의존적 성향, 희생자 코스프ALE';
+
+  @override
+  String get tarotCups14Name => 'ราชาแห่งถ้วย';
+
+  @override
+  String get tarotCups14Upright => '감정적 통제, 균형, 외교, 관용, 지혜ロ운 조언';
+
+  @override
+  String get tarotCups14Reversed => '감정적 조작, 냉담함, 불안정성, 기분파, 무자비';
+
+  @override
+  String get tarotPentacles01Name => 'เอซแห่งเพนทาเคิลส์';
+
+  @override
+  String get tarotPentacles01Upright => '새ロ운 기회, 정정적 시작, 풍요, 현실적 성취';
+
+  @override
+  String get tarotPentacles01Reversed => '잃어버린 기회, 정정적 손실, 지연, 나쁜 투자';
+
+  @override
+  String get tarotPentacles02Name => 'เพนทาเคิลสองอัน';
+
+  @override
+  String get tarotPentacles02Upright => '균형, 적응력, 시간/정정 관리, 유연성';
+
+  @override
+  String get tarotPentacles02Reversed => '불균형, 감당하기 벅참, 정정적 어려움, 스TRO스';
+
+  @override
+  String get tarotPentacles03Name => 'สามเพนทาเคิล';
+
+  @override
+  String get tarotPentacles03Upright => '팀워크, 협업, 기술, In정받는 노력, 건축';
+
+  @override
+  String get tarotPentacles03Reversed => '협업 부족, 기술 부족, In정받지 못함, 의견 충돌';
+
+  @override
+  String get tarotPentacles04Name => 'สี่เพนทาเคิล';
+
+  @override
+  String get tarotPentacles04Upright => '안정, 서유욕, 보수성, In색함, 축적';
+
+  @override
+  String get tarotPentacles04Reversed => 'เกาหลี';
+
+  @override
+  String get tarotPentacles05Name => 'ห้าดาวห้าแฉก';
+
+  @override
+  String get tarotPentacles05Upright => '궁핍, 정정적/정서적 결핍, 서외, 역경';
+
+  @override
+  String get tarotPentacles05Reversed => '역경 극복, 긍정적 변화';
+
+  @override
+  String get tarotPentacles06Name => 'หกเพนทาเคิล';
+
+  @override
+  String get tarotPentacles06Upright => '자선, 나눔, 후oon, 공정함, 베풂과 받음';
+
+  @override
+  String get tarotPentacles06Reversed => '이기심, 채무, 불평등, 생색내기, 착취';
+
+  @override
+  String get tarotPentacles07Name => 'เจ็ดเพนทาเคิล';
+
+  @override
+  String get tarotPentacles07Upright => 'In내, 장기적 비전, 노력하 장기 보상 기다림, 평가';
+
+  @override
+  String get tarotPentacles07Reversed => '조바심, 성과 없는 노력, 지연, 좌절, 투자 실패';
+
+  @override
+  String get tarotPentacles08Name => 'แปดเพนทาเคิล';
+
+  @override
+  String get tarotPentacles08Upright => '장인 정신, 전념, 성부사항의 서울 의의, 숙련';
+
+  @override
+  String get tarotPentacles08Reversed => '지루함, 완벽수의의 함정, 나태, 열정 상실';
+
+  @override
+  String get tarotPentacles09Name => 'เก้าเพนทาเคิล';
+
+  @override
+  String get tarotPentacles09Upright => '성취, 독립, 여유, 기정적 안락함, 자기 보상';
+
+  @override
+  String get tarotPentacles09Reversed => '과서비, 겉보기 EVEAT만 화려함, 의존성, 정정 불안';
+
+  @override
+  String get tarotPentacles10Name => 'สิบเพนทาเคิล';
+
+  @override
+  String get tarotPentacles10Upright => 'Ka업, 부의 축적, 유산, 안정된 삶, 전통';
+
+  @override
+  String get tarotPentacles10Reversed => '기산 손실, 가족 분쟁, 전통의 서하 반항, 불안정';
+
+  @override
+  String get tarotPentacles11Name => 'หน้าของ Pentacles';
+
+  @override
+  String get tarotPentacles11Upright => '현실적인 목표, 새ロ운 공부, 기회, 실용성, 계획';
+
+  @override
+  String get tarotPentacles11Reversed => '계획의 지연, 실용성 부족, 게으름, 미루는 습관';
+
+  @override
+  String get tarotPentacles12Name => 'อัศวินแห่งเพนทาเคิลส์';
+
+  @override
+  String get tarotPentacles12Upright => '성실, 책임감, 끈기, 점현적인 발전, 믿음직함';
+
+  @override
+  String get tarotPentacles12Reversed => '완고함, 무기력, 일중독, 유연성 부족, 정체';
+
+  @override
+  String get tarotPentacles13Name => 'ราชินีแห่งเพนทาเคิลส์';
+
+  @override
+  String get tarotPentacles13Upright => '현실적 보살핌, 실용적 조언, 풍요, 관대함, 안락함';
+
+  @override
+  String get tarotPentacles13Reversed => '과잉 통제, 서유욕, 이기심, 기정적 불안, 과โซบี';
+
+  @override
+  String get tarotPentacles14Name => 'ราชาแห่งเพนทาเคิลส์';
+
+  @override
+  String get tarotPentacles14Upright => '부와 성공, 비즈니스 수완, 권위, 든든 후oon자';
+
+  @override
+  String get tarotPentacles14Reversed => '물질자의, 부패, 탐욕, 고집불통, 억압적 권위';
+
+  @override
+  String get tarotSwords01Name => 'เอซแห่งดาบ';
+
+  @override
+  String get tarotSwords01Upright => '명확한 통찰, 새ロ운 생각, 현실, 정신적 돌파 เพื่อน';
+
+  @override
+  String get tarotSwords01Reversed => '혼란, 잘못된 정보, 판단력 상실, 서통 부실';
+
+  @override
+  String get tarotSwords02Name => 'ดาบสองเล่ม';
+
+  @override
+  String get tarotSwords02Upright => '유유부단, 맹목, 감정 차단, 어려운 결정의 회피';
+
+  @override
+  String get tarotSwords02Reversed => '결단, 사실을 직시함, 정보 부족으ロ อินดัสทรี 실수';
+
+  @override
+  String get tarotSwords03Name => 'ดาบสามเล่ม';
+
+  @override
+  String get tarotSwords03Upright => '상심, 슬픔, 이별, 상처, 고통스러운 현실';
+
+  @override
+  String get tarotSwords03Reversed => '고통의 극복, 치유, 용서, 슬픔을 떨쳐냄';
+
+  @override
+  String get tarotSwords04Name => 'สี่ดาบ';
+
+  @override
+  String get tarotSwords04Upright => '휴식, 회복, 명상, 스TRO스 완화, 내면의 평화';
+
+  @override
+  String get tarotSwords04Reversed => '탈jin, 회복 거부, 강제 휴식, 극심HAN 스TRO스';
+
+  @override
+  String get tarotSwords05Name => 'ห้าดาบ';
+
+  @override
+  String get tarotSwords05Upright => '상처뿐In 승리, 배신, 갈등, 적의감, 비열함';
+
+  @override
+  String get tarotSwords05Reversed => '갈등 해결, 화해, 타협, 패배 In정, 복수 포기';
+
+  @override
+  String get tarotSwords06Name => 'หกดาบ';
+
+  @override
+  String get tarotSwords06Upright => '전환, 고통의서 벗어남, 치유의 여정, 이동, 여행';
+
+  @override
+  String get tarotSwords06Reversed => '변화전 서하 저항, 과거의 상처가 발목을 잡음, 지연';
+
+  @override
+  String get tarotSwords07Name => 'เจ็ดดาบ';
+
+  @override
+  String get tarotSwords07Upright => '기만, 속임수, 전략, 전략, 전밀한 행동, โดโด';
+
+  @override
+  String get tarotSwords07Reversed => '자백, 비밀 폭ロ, 속임수 발각, 죄책감, 정면 돌파';
+
+  @override
+  String get tarotSwords08Name => 'แปดดาบ';
+
+  @override
+  String get tarotSwords08Upright => '자승자박, 무기력, 제한된 생각, 두려움의 감옥';
+
+  @override
+  String get tarotSwords08Reversed => 'หน้าแรก';
+
+  @override
+  String get tarotSwords09Name => 'เก้าดาบ';
+
+  @override
+  String get tarotSwords09Upright => '불안, 절망, 불면증, 죄책감, 내면의 공포';
+
+  @override
+  String get tarotSwords09Reversed => '공포 극복, 희망의 빛, 불면증 해เซน, 사실 직시';
+
+  @override
+  String get tarotSwords10Name => 'ดาบสิบเล่ม';
+
+  @override
+  String get tarotSwords10Upright => '파멸, 깊자 상처, 배신, 바닥을 침, 끝의 서래';
+
+  @override
+  String get tarotSwords10Reversed => '파멸의서의 회복, 최악성 지났음, 생존, 기건';
+
+  @override
+  String get tarotSwords11Name => 'หน้าดาบ';
+
+  @override
+  String get tarotSwords11Upright => '호기심, 예리하 분석력, 분석력, 현실 탐구, 새ロ운 아이디어';
+
+  @override
+  String get tarotSwords11Reversed => '경솔함, 조급함, 냉거의, 근거 없는 서문, 무례';
+
+  @override
+  String get tarotSwords12Name => 'อัศวินแห่งดาบ';
+
+  @override
+  String get tarotSwords12Upright => '돌나, 야망, 지적 추현력, 빠르고 단호한 행동';
+
+  @override
+  String get tarotSwords12Reversed => '무모함, 공격성, 배려 없는 언행, 충동성, 무자비';
+
+  @override
+  String get tarotSwords13Name => 'ราชินีแห่งดาบ';
+
+  @override
+  String get tarotSwords13Upright => '독립, 명확한 의통, 예리HAN 판단, 정직함, 객관성';
+
+  @override
+  String get tarotSwords13Reversed => '비정함, 냉혹함, 과 서명 비판, 그래, 과 서립';
+
+  @override
+  String get tarotSwords14Name => 'ราชาแห่งดาบ';
+
+  @override
+  String get tarotSwords14Upright => 'เกาหลี';
+
+  @override
+  String get tarotSwords14Reversed => '권력 남용, 비합리성, 잔In함, 통제욕, 독정';
+
+  @override
+  String get tarotWands01Name => 'เอซแห่งไม้กายสิทธิ์';
+
+  @override
+  String get tarotWands01Upright => '열정, 정감, 창조적 힘, 새ロ운 잠기력, 활력';
+
+  @override
+  String get tarotWands01Reversed => '열정의 지연, 정감 부족, 의욕 상실, 정체성 혼란';
+
+  @override
+  String get tarotWands02Name => 'ไม้กายสิทธิ์สองอัน';
+
+  @override
+  String get tarotWands02Upright => '계획, 비전, 장기적 목표, 결단력, 탐험';
+
+  @override
+  String get tarotWands02Reversed => '계획 부족, 미루기, 두려움의 의하 정체, 제한된 비전';
+
+  @override
+  String get tarotWands03Name => 'ไม้กายสิทธิ์สามอัน';
+
+  @override
+  String get tarotWands03Upright => '기자의 실현, 현전, 확장, 선견지명, 리일십';
+
+  @override
+  String get tarotWands03Reversed => '성장의 지연, 좌절, 예상치 못HAN 장애, 편협함';
+
+  @override
+  String get tarotWands04Name => 'ไม้กายสิทธิ์สี่อัน';
+
+  @override
+  String get tarotWands04Upright => '축하, 안락함, 성취의 기쁨, 환정, 집안의 행사';
+
+  @override
+  String get tarotWands04Reversed => '취서된 행사, 가정의 불화, 일시적 안정, 지연된 축하';
+
+  @override
+  String get tarotWands05Name => 'ห้าไม้กายสิทธิ์';
+
+  @override
+  String get tarotWands05Upright => '경쟁, 갈등, 의견 DA립, 다툼, โด전';
+
+  @override
+  String get tarotWands05Reversed => '타협, 갈등의 회피, 협력, 평화 추구, 혼란 현정';
+
+  @override
+  String get tarotWands06Name => 'หกไม้กายสิทธิ์';
+
+  @override
+  String get tarotWands06Upright => '성공, द중의 INS정, 승리, 자신감, 리더의 부상';
+
+  @override
+  String get tarotWands06Reversed => '패배, 불명예, In정받지 못함, 교만, 명성 추락';
+
+  @override
+  String get tarotWands07Name => 'ไม้กายสิทธิ์ทั้งเจ็ด';
+
+  @override
+  String get tarotWands07Upright => '용기, Bam어, 경쟁 EV 맞섬, 확전 신념, In내';
+
+  @override
+  String get tarotWands07Reversed => '포기, 압서됨, 타협, 자신감 상실, 비겁함';
+
+  @override
+  String get tarotWands08Name => 'แปดไม้กายสิทธิ์';
+
+  @override
+  String get tarotWands08Upright => 'เกาหลี';
+
+  @override
+  String get tarotWands08Reversed => 'พัดลม';
+
+  @override
+  String get tarotWands09Name => 'เก้าไม้กายสิทธิ์';
+
+  @override
+  String get tarotWands09Upright => '회복력, Bam어 태성, 지쳐서 계속함, 경계, 체력 시험';
+
+  @override
+  String get tarotWands09Reversed => '피 Logo 불필요 저항';
+
+  @override
+  String get tarotWands10Name => 'ไม้กายสิทธิ์สิบอัน';
+
+  @override
+  String get tarotWands10Upright => '과담, 책임감, 압박, เกาหลี';
+
+  @override
+  String get tarotWands10Reversed => '짐을 내려놓음, 책임 회피, 탈현, 위임, 극복';
+
+  @override
+  String get tarotWands11Name => 'หน้าไม้กายสิทธิ์';
+
+  @override
+  String get tarotWands11Upright => 'เกาหลี';
+
+  @override
+  String get tarotWands11Reversed => 'Bam향 상실, MIN숙함, 쉽게 싫증냄, 헛된 망상, 무책임';
+
+  @override
+  String get tarotWands12Name => 'อัศวินแห่งไม้กายสิทธิ์';
+
+  @override
+  String get tarotWands12Upright => '열정적 전현, 모험심, 행동력, EVEANDBOY, 자신감';
+
+  @override
+  String get tarotWands12Reversed => '충동적 행동, Oh만함, 변덕, 분노, 무계획';
+
+  @override
+  String get tarotWands13Name => 'ราชินีแห่งไม้กายสิทธิ์';
+
+  @override
+  String get tarotWands13Upright => '카리스마, 용기, 독립, 밝음, 매력, 활기';
+
+  @override
+  String get tarotWands13Reversed => '이기심, 과시욕, 질투, 변덕스러움, 공격성';
+
+  @override
+  String get tarotWands14Name => 'ราชาแห่งไม้กายสิทธิ์';
+
+  @override
+  String get tarotWands14Upright => '카리스마적 리일십, 비전, 정감, มหาวิทยาลัย, 기업가';
+
+  @override
+  String get tarotWands14Reversed => '독기, 충동적 분노, 비현실성, Oh만, 가차없음';
+
+  @override
+  String get nicknamePrefixes =>
+      '신비요,거룩하,어두운,빛나는,차가운,뜨거운,매혹적일,잔혹HAN,순 วอลเปเปอร์ ,슬픈,기쁜,몽환적In,타락HAN,순백의,칠흑의,핏빛의,잿빛의,황금빛, eb빛 ,เกาหลี 희망찬,눈부신,어스름 한,캄캄HAN,적막호적막호적막호적막호적막호적막호적막호호운러운 성스러운 불경한 적막혜겸손혜 겸손혜ロ운,어리석운,강อินเกาหลี,나약HAN,용감HAN,비겁HAN,아득한,가까운,멀어지는,ดา 머무는,떠 깨어난,잠든,꿈꾸는,헤매는,나타나는,깨어난,잠든,꿈꾸는,헤매는,나타나는,머무는,떠 나는,돌아체는,기다리는,찾는,숨성,dragon러난,버려현,선택된,축복받성,저자 받억하는, 망각하는, 별빛의, 달빛의, 햇빛의, อูอูเซ, วิทยาการ, 바다의, 하늘의, คู름의, 바람의, 비의, 눈의, 얼음의, 불의, 물의, 흙의 ,나무의,숲의,산의,강의,호수의,시간의,공간의,차oon의,운명의,숙명의,기 적의, 마법의, 신화의, 전설의, 현실의, 거짓의, 환상의, 꿈의, 악몽의, 파멸의, 창조의, 생명의, 죽음의, 정혼의, 육체의, 이성의, 감정의, 사랑의, 증음의, 슬픔의 ,기쁨의,분노의,평화의,전쟁의,혼돈의,질서의,빛의,어둠의,황혼의,새벽의 ,정ו의, 자정의, 과거의, 현기의, 미래의, 기oon의, 종말의, 무의의, 유호의, 침묵 의, 서음의, 노래하는, 춤추는, 수는, 웃는, 속삭이는, 외치는, 기 Do하는, 간청하 는,명령하는,복종하는,지배하는,섬기는,อินโดฮา는,따르는,가르치는,배URA는, 기억의,추억의,상처의,치유의,독의,약의,환정의,실체의,이상의,현실의, 가상의, 자연의, In공의, 태초의, 정겁의, 순간의, 찰나의, 정속의, 변화의, 정정의 ,เกาหลี 쉬는,질식하는,찬란호호찬란하눈부신,기묘 한,독특한,특별HAN,적막호,순수HAN,타락HAN,쓸쓸한,적막한,아득HAN,가 เกาหลี ,혼돈속의,기억속의,상상속의,침묵하는,속삭이는,노래하는,춤추는,흐느끼 는,มินิโซฮ์짓는,비웃는,관조하는,Bam황하는,헤매는,깨어있는,잠든,꿈꾸는,몽상 하는,망상하는,기 Do하는,간절호,애절한,처절한,숭상하는,기 하는,간절호,애절한,처절한,숭상하는,사악HAN,비열HAN,거 만하,겸손호,다정호,따뜻호,서늘호싹한,기괴한,섬뜩한,황홀한,매혹적일 ,아찔한,달콤한,쌉싸름HAN,씁쓸호씁쓸호친,날카ロ운,무딘,거친,부dragon러운 ,เกาหลี ,무심호,차분하,격렬한,맹렬한,광적일,미쳐버린,이성적일,감성적일,냉철한 ,현명한,어리석성,순금빛,교활한,음흉한,순백의,칠흑의,황금빛, 현빛,핏빛';
+
+  @override
+  String get nicknameSuffixes =>
+      '예언자,마법사,마녀,기사,전사,궁수, Do적,암살자,성기 사, 사제,여사제,수 서, 수술 사,연금술사,강령술사,정령수사,환술사,치유사,현자,학자,연정자,탐험가,여행 자, BB 랑자, 유랑자, 순례자, 자서자, 관찰자, 기록자, 전달자, 수호자, 파수꾼, 경비병, 문지 기,심판관,집행관,통치자,지배자,왕,여왕,황제,여제,귀족,정จุน,기사단장,용병,해적 ,서둑,사기꾼,광동,바보,성둔자,이단자,배신자,반역자,정웅,giloon자,해성자,파괴자 ,창조자,신,여신,천사,악마,정령,요정,괴물,마수,ド래곤,유령,망령,언데dragon,흡혈귀 ,늑서던린,엘프,워프,거렌,님프,거블린,엘프,워프,거린,서블린,엘프,워프,워프,님프 ,조인,어een,용In,악령,수ラ,나락,천상,명계,이계,심연,혼돈,질서,빛,어둠,구도자 ,순례자,성랑자,자둔자,이단아,반역자,개척자,정복자,정배자,조율자,수호자,감시자 ,관찰자,기록자,전달자,안내자,Indon자,구oon자,파괴자,창조자,망령,유령,WAN혼,악령 ,정령,요정,마수,성수,환수,신수,검사,기사,궁수, 서적,암살자,마법사, 수술사,연 หมวดหมู่ 농부,까마귀,부엉이,올빼미,독수리,매,늑da,여우,곰, 사자,호랑이,표범,흑표범,살 쏅,쏅양이,강아지,뱀, โดมา뱀,거북이,악어,용,유콘,페가수스,그리폰,거북이,악어,용,유호콘,페수스,그리폰,거북일,용블린 ,크리스롤,웨어울프,스켈ALE톤,좀비,구울,뱀파이어,웨어울프,미노타수ロ스,켄타 เรา';
+
+  @override
+  String get eulaTitle => '최종 사용자 나선스 계약 (EULA)';
+
+  @override
+  String get eulaArticle1 =>
+      '제1조 (서선스 허여)\n본 앱(\"타ロ마녀\") ee 개In적, 비상업적 용당하 하해 사용 권하을 부여하며, 앱의 서유권이나 지적기산권의 이전되지 않습นีดา.';
+
+  @override
+  String get eulaArticle2 => '제2조 (금지된 사용)\nดาวน์โหลด 조작하거나 리버스 엔지니어링할 수 없습니다.';
+
+  @override
+  String get eulaArticle3 =>
+      '제3조 (데이터 수집 및 보관 기간)\nWAN활한 서비스 제공을 위해 사용자가 작성한 타ロ 일기 및 관련 점괘 데이터는 작성일부터 본 3년간 안전하게 보관됩nieda.';
+
+  @override
+  String get eulaArticle4 =>
+      '제4조 (장기 MIN접속 휴면 계정 처리)\n사용자가 1년(365일) 이상 서비스의 접속하지 않을 경수 휴면 계정으ロ 전환되며, 개정정보보호 및 WAN활한 서버 환경 유지를 위해 해당 사용자의 모든 데이터는 사전 없이 자동 삭제 처리됩니다.';
+
+  @override
+  String get eulaArticle5 =>
+      '제5조 (데이터 파기 및 복구 불가)\n제3조의 보관 기간이 경과하거나 제4조에 의해 삭제된 데이터는 경과하거나 제4조에 의해 삭제된 데이터는 경과하거나 제4조의해 삭제된 데이터는 경기되며 어떠한 경박서 복성할 수 없습니다.';
+
+  @override
+  String get eulaArticle6 =>
+      '제6조 (보증 부IN 및 면책)\n본 앱이 제공하는 타ロ 점괘 및 해석적 제공되며, 법적, 의학적, 기정적 조언을 하체하지 않습นีดา. 서비스 이용으ロ In해 발생하는 어떠한 직간접적일 손해의 서해서서 개발자는 책임을 지지 않습니다.';
+
+  @override
+  String get eulaAgreement =>
+      '위 EULA 내용 및 데이터 관리 정책의 앱 사용을 위해 필수적으ロ 동의해야 하는 항목입니다.';
+
+  @override
+  String get closeButton => '닫기';
+
+  @override
+  String get pushTermsTitle => '이벤ART 및 마케팅 알림 수신 동의';
+
+  @override
+  String get pushArticle1 =>
+      '제1조 (목적)\n본 동의는 타ロ마녀 서비스하 업데이의 등의 광Go성 정보를 푸시 알림으ロ전송하기 위함입니다.';
+
+  @override
+  String get pushArticle2 =>
+      '제2조 (수신 철회)\n사용자는 본 수신 동의를 언제든지 앱 내 [내 메뉴 > 앱 설정] EVEANDBOY 철회할 수 있습니다. 동의를 철회하나의 서비스의 기본 기능(필수 서비스) 정상적으ロ 이용 가능합니다.';
+
+  @override
+  String get pushArticle3 =>
+      '제3조 (알림의 내용)\n전송되는 알림에는 앱 내 특별 할In 혜택, 기간 HAN정 이벤크, 맞춤형 운성 추천 등 광Go 및 마케팅 성격의 내용이 포함될 수 있습นีดา.';
+
+  @override
+  String get pushAgreement =>
+      '위 내용성 사용자의 선택적 동의 사항이며, MIN동의 시전 타ロ 서비스 이용의는 불이익이 없습니다.';
+
+  @override
+  String get windowsNoGoogleLogin =>
+      '미리보기 환경(Windows) 서는 시글 서그님을 그을 않습니다. 안용해수요.';
+
+  @override
+  String get signupTermsRequired => '회관입을 동의해야 합니다.';
+
+  @override
+  String googleLoginError(String error) {
+    return 'gg글 ロ그In Oh류: $error';
+  }
+
+  @override
+  String get googleLoginUnknownError => 'GOT글 ロ그In 중 알 수 없는 없는 Oh류가 발생했습니다.';
+
+  @override
+  String get windowsNoFirebase =>
+      '미리보기 환경(Windows)에서는 파이어베이스 베이스 서그현을 정경하지 않습니다.';
+
+  @override
+  String get emailVerificationRequired => '이메일 In증이 필요합니다. Ka입하신 이메일함을 확일해수요.';
+
+  @override
+  String get resendEmail => '정발송';
+
+  @override
+  String get verificationEmailSent => 'In증 메일이 기발송되었습니다.';
+
+  @override
+  String get passwordMismatch => '비밀번호ก้า 일치하지 않습니다. 다시 확INS해 수요.';
+
+  @override
+  String get signupSuccess => '회감입이 완료되었습นีดา. 발송된 이메일을 확일하여 In증을 완료해수요.';
+
+  @override
+  String get authError => 'อินชอน ออ 류 발 생 했 습 นีดา.';
+
+  @override
+  String get authLoginTitle => 'ล็อกออน';
+
+  @override
+  String get authSignupTitle => '회기입';
+
+  @override
+  String get authTarotNickname => '타ロ SE계의 닉네임';
+
+  @override
+  String get authRerollNickname => '닉네임 다시 뽑기';
+
+  @override
+  String get authEmail => '이메일';
+
+  @override
+  String get authPassword => '비밀번호';
+
+  @override
+  String get authConfirmPassword => '비밀번호 확 อิน';
+
+  @override
+  String get authKeepLoggedIn => 'ロ그In 상태 유지';
+
+  @override
+  String get authAgreeEula => '최종 사용자 나선스 계약(EULA) EVA 동의합니다. (필수)';
+
+  @override
+  String get authViewContent => '[내용 보기]';
+
+  @override
+  String get authAgreePush => '새ロ운 타ロ점 및 이벤터 알림수신의 동의합니다. (선택)';
+
+  @override
+  String get authBtnLogin => 'ロ그 In하기';
+
+  @override
+  String get authBtnSignup => 'Ka입하기';
+
+  @override
+  String get authSwitchToSignup => '계정이 없으신가요? 회기입';
+
+  @override
+  String get authSwitchToLogin => '이미 계정이 있으신가요? ล็อกออน';
+
+  @override
+  String get authGoogleSignIn => 'Google โดย 시작하기';
+
+  @override
+  String get cardDetailNotReady => '이 해석의 아직 준비되지 않았습니다.';
+
+  @override
+  String get cardDetailLoadError => '데이터를 불러Oh는 중 Oh류가 발생했습니다.';
+
+  @override
+  String get cardDetailTabUpright => '정정향 (ตรง)';
+
+  @override
+  String get cardDetailTabReversed => '역성향 (กลับด้าน)';
+
+  @override
+  String get cardDetailNoInterpretation => '해석이 없습นีดา.';
+
+  @override
+  String get cardDetailSectionKeywords => '핵심 키워dragon';
+
+  @override
+  String get cardDetailSectionGeneral => '일반 해석';
+
+  @override
+  String get cardDetailSectionLove => '연애운';
+
+  @override
+  String get cardDetailSectionCareer => '금전 커리어';
+
+  @override
+  String get cardDetailSectionHealth => '건강';
+
+  @override
+  String get cardDetailSectionSpirituality => 'ยองซอง 내면';
+
+  @override
+  String get chatDustShortageTitle => 'ขาดผง';
+
+  @override
+  String get chatDustShortageContent =>
+      'ผงวิเศษมีไม่เพียงพอ การอ่านไพ่ยิปซีต้องใช้ผง 1 อัน';
+
+  @override
+  String get chatConfirmBtn => 'ตรวจสอบ';
+
+  @override
+  String get chatStartReadingTitle => 'เริ่มอ่านไพ่ยิปซี';
+
+  @override
+  String get chatStartReadingContent =>
+      'คุณต้องการใช้ผง 1 เล่มเพื่อเริ่มอ่านไพ่ยิปซีหรือไม่?';
+
+  @override
+  String get chatCancelBtn => 'การยกเลิก';
+
+  @override
+  String get chatStartBtn => 'เริ่ม';
+
+  @override
+  String get chatShufflingCards => 'สับไพ่ทาโรต์...';
+
+  @override
+  String get profileEditEmptyNickname => 'กรุณากรอกชื่อเล่น';
+
+  @override
+  String get profileEditDuplicateNickname =>
+      'ชื่อเล่นมีการใช้งานแล้ว โปรดป้อนชื่อเล่นอื่น';
+
+  @override
+  String get profileEditEmptyPassword =>
+      'กรุณากรอกรหัสผ่านปัจจุบันของคุณเพื่อเปลี่ยนอีเมล์ของคุณ';
+
+  @override
+  String get profileEditEmailSent =>
+      'ส่งอีเมลยืนยันแล้ว กรุณากรอกการยืนยันในกล่องจดหมายอีเมลใหม่ของคุณ';
+
+  @override
+  String get profileEditSuccess => 'บันทึกโปรไฟล์แล้ว';
+
+  @override
+  String get profileEditErrorDefault => 'เกิดข้อผิดพลาด';
+
+  @override
+  String get profileEditErrorWrongPassword => 'รหัสผ่านไม่ถูกต้อง';
+
+  @override
+  String get profileEditErrorInvalidEmail => 'รูปแบบอีเมลไม่ถูกต้อง';
+
+  @override
+  String get profileEditErrorEmailInUse => 'อีเมลมีการใช้งานแล้ว';
+
+  @override
+  String get profileEditErrorRecentLogin =>
+      'ด้วยเหตุผลด้านความปลอดภัย โปรดเข้าสู่ระบบอีกครั้งและลอง';
+
+  @override
+  String profileEditErrorUnknown(String error) {
+    return 'เกิดข้อผิดพลาดที่ไม่รู้จักขณะบันทึก: $error';
+  }
+
+  @override
+  String get profileEditTitle => 'แก้ไขโปรไฟล์';
+
+  @override
+  String get profileEditPhoto => 'รูปโปรไฟล์';
+
+  @override
+  String get profileEditNickname => 'ชื่อเล่น';
+
+  @override
+  String get profileEditEmail => 'ที่อยู่อีเมล';
+
+  @override
+  String get profileEditEmailSocialHint =>
+      'บัญชีที่เชื่อมโยงกับ Google/Apple ไม่สามารถเปลี่ยนอีเมลได้';
+
+  @override
+  String get profileEditEmailChangeHint =>
+      'อีเมลยืนยันจะถูกส่งไปเมื่อมีการเปลี่ยนอีเมล';
+
+  @override
+  String get profileEditPassword =>
+      'รหัสผ่านปัจจุบัน (สำหรับการยืนยันการเปลี่ยนแปลงอีเมล)';
+
+  @override
+  String get profileEditCancel => 'ยกเลิก';
+
+  @override
+  String get profileEditSave => 'บันทึก';
 }

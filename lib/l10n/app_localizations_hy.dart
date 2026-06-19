@@ -2923,4 +2923,1344 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String get themePaid => 'Վճարովի թեմա';
+
+  @override
+  String get diaryEmpty =>
+      'Դեռևս օրագրային գրառումներ չկան:\nՍտուգեք ձեր բախտն այսօր և թողեք օրագիր:';
+
+  @override
+  String get diaryTarotConsult => 'Tarot խորհրդատվություն';
+
+  @override
+  String get diaryTarotReading => 'Tarot ընթերցում';
+
+  @override
+  String diaryAndMore(int count) {
+    return 'և ավելին $count';
+  }
+
+  @override
+  String diaryDaysAgo(int days) {
+    return '$days օր առաջ';
+  }
+
+  @override
+  String diaryHoursAgo(int hours) {
+    return '$hours ժամ առաջ';
+  }
+
+  @override
+  String diaryMinutesAgo(int minutes) {
+    return '$minutes ր առաջ';
+  }
+
+  @override
+  String get diaryJustNow => 'Հենց հիմա';
+
+  @override
+  String get diaryNoEntryForDate =>
+      'Այս ամսաթվի համար ընթերցման գրառումներ չկան:';
+
+  @override
+  String get diaryMyQuestion => 'Իմ Հարցը';
+
+  @override
+  String get diaryWitchReading => 'Tarot ընթերցանություն';
+
+  @override
+  String get diaryNoResult => 'Արդյունքներ չկան:';
+
+  @override
+  String get diaryFollowUpTitle => 'Հետևողական նշում';
+
+  @override
+  String get diaryFollowUpHint =>
+      'Գրանցեք, թե արդյոք ընթերցումը ճշգրիտ էր մի քանի օր անց:';
+
+  @override
+  String get diaryFollowUpPlaceholder => 'Ինչպե՞ս ստացվեց ընթերցումը:';
+
+  @override
+  String get diaryFollowUpSave => 'Պահպանեք Հետագա գործողությունները';
+
+  @override
+  String get diaryFollowUpSaved => 'Հետագա աշխատանքը պահպանվեց:';
+
+  @override
+  String get diaryFollowUpEdit => 'Խմբագրել Հետևողականությունը';
+
+  @override
+  String get diaryTagTitle => 'Պիտակներ';
+
+  @override
+  String get diaryTagAddHint => 'Մուտքագրեք նոր պիտակ';
+
+  @override
+  String get diaryTagDeleteConfirm => 'Ջնջե՞լ այս թեգը:';
+
+  @override
+  String get diaryTagDelete => 'Ջնջել';
+
+  @override
+  String get diaryDeleteTitle => 'Ջնջել օրագիրը';
+
+  @override
+  String get diaryDeleteConfirm =>
+      'Ջնջե՞լ այս օրագրային գրառումը: Սա հնարավոր չէ հետարկել:';
+
+  @override
+  String get communityTitle => 'Համայնք';
+
+  @override
+  String get communityErrorLoading => 'Տվյալները բեռնելիս սխալ է տեղի ունեցել:';
+
+  @override
+  String get communityEmptyFeed =>
+      'Տառոյի հանրային օրագրեր դեռ չկան:\nԵղիր առաջինը, ով կկիսվի քո օրագրով:';
+
+  @override
+  String get communityNoInterpretation => 'Ոչ մի մեկնաբանություն.';
+
+  @override
+  String get communityLike => 'Հավանել';
+
+  @override
+  String get communityComments => 'Մեկնաբանություններ';
+
+  @override
+  String get communityFirstCommentPrompt =>
+      'Եղիր առաջինը, ով թողնում է մեկնաբանություն:';
+
+  @override
+  String get communityCommentInputHint => 'Գրեք մեկնաբանություն...';
+
+  @override
+  String get communityCommentFailed => 'Չհաջողվեց ավելացնել մեկնաբանություն.';
+
+  @override
+  String get communityLoginRequired => 'Մուտք պահանջվում է:';
+
+  @override
+  String get communityReportTitle => 'Հաշվետվություն';
+
+  @override
+  String get communityReportHint => 'Մուտքագրեք հաշվետվության պատճառը';
+
+  @override
+  String get communityReportCancel => 'Չեղարկել';
+
+  @override
+  String get communityReportSubmit => 'Հաշվետվություն';
+
+  @override
+  String get communityReportSuccess => 'Զեկույցը ներկայացվել է։';
+
+  @override
+  String get communityTarotQuestion => 'Q. Tarot Հարց';
+
+  @override
+  String get communityNoName => 'Անանուն կախարդ';
+
+  @override
+  String get diaryShareToCommunity => 'Կիսվել համայնքում';
+
+  @override
+  String get diarySharedSuccess => 'Համօգտագործվում է համայնքին:';
+
+  @override
+  String get diaryPrivateSuccess => 'Սահմանել մասնավոր:';
+
+  @override
+  String get growthTitle => 'Աճ';
+
+  @override
+  String get growthSubtitle =>
+      'Հավաքեք կախարդական ուժ՝ ամրապնդելու tarot քարտերը';
+
+  @override
+  String get growthTabCrystalBall => 'Բյուրեղյա գնդակի թարմացում';
+
+  @override
+  String get growthTabWorldTree => 'Աճեցրեք համաշխարհային ծառը';
+
+  @override
+  String growthWorldTreeLevel(int level) {
+    return 'Ծառերի համաշխարհային մակարդակ $level';
+  }
+
+  @override
+  String get growthExp => 'Exp.';
+
+  @override
+  String get growthWaterFree => 'Ջուր անվճար';
+
+  @override
+  String get growthWaterSuccess => 'Ջրեցրե՛ք համաշխարհային ծառը: Ժամկետ +10 💧';
+
+  @override
+  String growthDustOwned(int dust) {
+    return 'Կախարդական փոշին պատկանող՝ $dust';
+  }
+
+  @override
+  String growthCrystalBallLevel(int level) {
+    return 'Mystic Crystal Ball մակարդակ $level';
+  }
+
+  @override
+  String get growthUpgradeButton => 'Թարմացում (10 փոշի)';
+
+  @override
+  String get growthUpgradeSuccess => 'Բյուրեղյա գնդակի բարելավումը հաջողվեց: ✨';
+
+  @override
+  String get growthUpgradeNotEnough =>
+      'Բավական չէ կախարդական փոշին: (Անհրաժեշտ է: 10)';
+
+  @override
+  String get diaryViewList => 'Ցուցակի տեսք';
+
+  @override
+  String get diaryViewCalendar => 'Օրացույցի դիտում';
+
+  @override
+  String get tarotMajor00Name => 'Հիմարը';
+
+  @override
+  String get tarotMajor00Upright =>
+      'Նոր սկիզբներ, արկածներ, անսահման հնարավորություններ, ազատություն, անմեղություն';
+
+  @override
+  String get tarotMajor00Reversed =>
+      'Անխոհեմություն, հիմարություն, անզգուշություն, չափազանց մեծ ռիսկի դիմելը, անիրագործելիություն։';
+
+  @override
+  String get tarotMajor01Name => 'Կախարդը';
+
+  @override
+  String get tarotMajor01Upright =>
+      'Ստեղծագործականություն, կամք, կարողություն, նոր սկիզբների ուժ, վճռականություն';
+
+  @override
+  String get tarotMajor01Reversed =>
+      'Մանիպուլյացիա, վատնված տաղանդ, խաբեություն, ինքնավստահության պակաս, թաքնված օրակարգեր։';
+
+  @override
+  String get tarotMajor02Name => 'Բարձր քրմուհին';
+
+  @override
+  String get tarotMajor02Upright =>
+      'Ինտուիցիա, անգիտակցություն, առեղծված, իմաստություն, ներքին ձայն';
+
+  @override
+  String get tarotMajor02Reversed =>
+      'Ինտուիցիայի անտեսում, մակերեսային գիտելիքներ, թաքնված թշնամիներ, գաղտնիքների արտահոսք';
+
+  @override
+  String get tarotMajor03Name => 'Կայսրուհին';
+
+  @override
+  String get tarotMajor03Upright =>
+      'Առատություն, մայրական սեր, գեղեցկություն, բնական պտղաբերություն, ստեղծագործականություն';
+
+  @override
+  String get tarotMajor03Reversed =>
+      'Գերպաշտպանություն, կախվածություն, ստեղծագործական անբավարարություն, ծուլություն, լճացում';
+
+  @override
+  String get tarotMajor04Name => 'Կայսրը';
+
+  @override
+  String get tarotMajor04Upright =>
+      'Իշխանություն, կառուցվածք, կայունություն, հայրական սեր, վերահսկողություն, պատասխանատվություն';
+
+  @override
+  String get tarotMajor04Reversed =>
+      'Բռնապետություն, տիրելու ցանկություն, ճկունության բացակայություն, անգործունակություն, ճնշում';
+
+  @override
+  String get tarotMajor05Name => 'Հիերոֆանտը';
+
+  @override
+  String get tarotMajor05Upright =>
+      'Ավանդույթ, հավատք, կրթություն, հոգևոր առաջնորդություն, պահպանողականություն';
+
+  @override
+  String get tarotMajor05Reversed =>
+      'Ապստամբություն, համաձայնության խախտում, դոգմատիզմ, հին գաղափարներ, վատ խորհուրդներ։';
+
+  @override
+  String get tarotMajor06Name => 'Սիրահարները';
+
+  @override
+  String get tarotMajor06Upright =>
+      'Սեր, ներդաշնակություն, հարաբերություններ, կարևոր ընտրություններ, վստահություն';
+
+  @override
+  String get tarotMajor06Reversed =>
+      'Անհամաձայնություն, վատ ընտրություններ, վստահության կորուստ, գայթակղություն, անհավասարակշռություն։';
+
+  @override
+  String get tarotMajor07Name => 'Կառքը';
+
+  @override
+  String get tarotMajor07Upright =>
+      'Կամք, հաղթանակ, վճռականություն, ուղղություն, հաջողության հասնելու ձգտում';
+
+  @override
+  String get tarotMajor07Reversed =>
+      'Վերահսկողության կորուստ, ապակողմնորոշում, անօգնականություն, ագրեսիա, խոչընդոտներ';
+
+  @override
+  String get tarotMajor08Name => 'Ուժ';
+
+  @override
+  String get tarotMajor08Upright =>
+      'Արիություն, տոկունություն, ներքին ուժ, մեղմ վերահսկողություն, ողորմություն։';
+
+  @override
+  String get tarotMajor08Reversed =>
+      'Վախ, թուլություն, ինքնատիրապետման կորուստ, իմպուլսիվություն, հպարտություն։';
+
+  @override
+  String get tarotMajor09Name => 'Ճգնավորը';
+
+  @override
+  String get tarotMajor09Upright =>
+      'Ներքին հետազոտություն, իմաստություն, մենակություն, լուսավորություն, հոգևոր խորհրդատու';
+
+  @override
+  String get tarotMajor09Reversed =>
+      'Մեկուսացում, միայնություն, փախուստ իսկությունից, հիմար համառություն, մեկուսացում';
+
+  @override
+  String get tarotMajor10Name => 'Բախտի անիվը';
+
+  @override
+  String get tarotMajor10Upright =>
+      'Շրջադարձային կետ, ճակատագիր, բախտ, մշտական փոփոխություն, հնարավորություն';
+
+  @override
+  String get tarotMajor10Reversed =>
+      'Դժբախտություն, դիմադրություն, անկառավարելի փոփոխություն, դժբախտության կրկնություն';
+
+  @override
+  String get tarotMajor11Name => 'Արդարություն';
+
+  @override
+  String get tarotMajor11Upright =>
+      'Արդարություն, ճշմարտություն, հատուցում, հավասարակշռություն, ռացիոնալ որոշում';
+
+  @override
+  String get tarotMajor11Reversed =>
+      'Անարդարություն, նախապաշարմունք, անազնվություն, անխուսափելի պատիժ, անհավասարակշռություն';
+
+  @override
+  String get tarotMajor12Name => 'Կախված մարդը';
+
+  @override
+  String get tarotMajor12Upright =>
+      'Զոհաբերություն, նոր հեռանկար, սպասում, խորաթափանցություն, ժամանակավոր դադար։';
+
+  @override
+  String get tarotMajor12Reversed =>
+      'Անիմաստ զոհաբերություն, ուշացում, առաջընթացից հրաժարում, եսասիրություն';
+
+  @override
+  String get tarotMajor13Name => 'Մահ';
+
+  @override
+  String get tarotMajor13Upright =>
+      'Վերջ և նոր սկիզբ, փոփոխություն, անցում, անցյալի մաքրում';
+
+  @override
+  String get tarotMajor13Reversed =>
+      'Փոփոխություններին դիմադրություն, լճացում, հնի հանդեպ մոլուցք, վախ';
+
+  @override
+  String get tarotMajor14Name => 'Չափավորություն';
+
+  @override
+  String get tarotMajor14Upright =>
+      'Ներդաշնակություն, հավասարակշռություն, չափավորություն, բուժում, նպատակասլացություն';
+
+  @override
+  String get tarotMajor14Reversed =>
+      'Անհավասարակշռություն, անզսպություն, ծայրահեղ պահվածք, աններդաշնակություն, կոնֆլիկտ';
+
+  @override
+  String get tarotMajor15Name => 'Սատանան';
+
+  @override
+  String get tarotMajor15Upright =>
+      'Մոլուցք, մատերիալիզմ, կապանքներ, գայթակղություն, կործանարար ցանկություններ։';
+
+  @override
+  String get tarotMajor15Reversed =>
+      'Ազատագրում, կապանքներից ազատություն, անկախություն, լուսավորություն, ազատություն';
+
+  @override
+  String get tarotMajor16Name => 'Աշտարակը';
+
+  @override
+  String get tarotMajor16Upright =>
+      'Հանկարծակի փոփոխություն, կործանում, ազատագրում, հայտնություն, փլուզում';
+
+  @override
+  String get tarotMajor16Reversed =>
+      'Աղետից խուսափելը, անխուսափելի փոփոխության հետաձգումը, նախազգուշացումների անտեսումը';
+
+  @override
+  String get tarotMajor17Name => 'Աստղը';
+
+  @override
+  String get tarotMajor17Upright =>
+      'Հույս, ոգեշնչում, անդորրություն, բուժում և հաստատում, հոգևոր առաջնորդություն';
+
+  @override
+  String get tarotMajor17Reversed =>
+      'Հուսահատություն, հիասթափություն, ոգեշնչման պակաս, հոռետեսություն, շփոթություն';
+
+  @override
+  String get tarotMajor18Name => 'Լուսինը';
+
+  @override
+  String get tarotMajor18Upright =>
+      'Անհանգստություն, պատրանք, ինտուիցիա, թաքնված ճշմարտություն, խաբեություն';
+
+  @override
+  String get tarotMajor18Reversed =>
+      'Վախի հաղթահարում, գաղտնիքների բացահայտում, անհանգստության թեթևացում, ճշմարտության բացահայտում';
+
+  @override
+  String get tarotMajor19Name => 'Արևը';
+
+  @override
+  String get tarotMajor19Upright =>
+      'Հաջողություն, դրականություն, կենսունակություն, երջանկություն և ձեռքբերում, ուրախություն';
+
+  @override
+  String get tarotMajor19Reversed =>
+      'Հետաձգված հաջողության մյուս կողմը, չափազանցություն, էներգիայի պակաս և տխրություն։';
+
+  @override
+  String get tarotMajor20Name => 'Դատաստան';
+
+  @override
+  String get tarotMajor20Upright =>
+      'Հարություն, վճռականություն, ներում, նոր կոչում, ներքին արթնացում';
+
+  @override
+  String get tarotMajor20Reversed =>
+      'Զղջում, ինքնակասկած, փոփոխության վախ, զղջում, պատիժ';
+
+  @override
+  String get tarotMajor21Name => 'Աշխարհը';
+
+  @override
+  String get tarotMajor21Upright =>
+      'Ավարտ, ձեռքբերում, ինտեգրում, նոր մակարդակ, հաջող ավարտ';
+
+  @override
+  String get tarotMajor21Reversed =>
+      'Անավարտություն, հետաձգում, լճացում, հաջողության վախ, հետաձգում։';
+
+  @override
+  String get tarotCups01Name => 'Բաժակների մեկը';
+
+  @override
+  String get tarotCups01Upright =>
+      'Նոր զգացմունքներ, սիրո սկիզբ, ինտուիցիա, հոգևոր իրականացում';
+
+  @override
+  String get tarotCups01Reversed =>
+      'Արգելափակված զգացմունքներ, անսիրահարված զգալ, դատարկություն զգալ, տխուր լինել։';
+
+  @override
+  String get tarotCups02Name => 'Բաժակների երկուսը';
+
+  @override
+  String get tarotCups02Upright =>
+      'Ներդաշնակություն հարաբերություններում, միություն, սեր, փոխադարձ հարգանք, համագործակցություն';
+
+  @override
+  String get tarotCups02Reversed =>
+      'Հարաբերությունների անհամաձայնություն, բաժանում, թյուրիմացություն, անհավասարակշռություն, անպատասխան սեր';
+
+  @override
+  String get tarotCups03Name => 'Բաժակների երեքը';
+
+  @override
+  String get tarotCups03Upright =>
+      'Տոնակատարություն, բարեկամություն, համայնք, ուրախություն, ստեղծագործական պտղաբերություն։';
+
+  @override
+  String get tarotCups03Reversed =>
+      'Ավելորդ խմիչք, օտարացում, խմբակցություններ, սիրային եռանկյունիներ, փառատոների չեղարկում։';
+
+  @override
+  String get tarotCups04Name => 'Բաժակների չորսը';
+
+  @override
+  String get tarotCups04Upright =>
+      'Անտարբերություն, ձանձրույթ, մեդիտացիա, բաց թողնված հնարավորություններ, ներքին անդրադարձ։';
+
+  @override
+  String get tarotCups04Reversed =>
+      'Նոր իրազեկություն, հնարավորություններից օգտվելը, վերականգնում, արթնացում';
+
+  @override
+  String get tarotCups05Name => 'Բաժակների հինգը';
+
+  @override
+  String get tarotCups05Upright =>
+      'Կորուստ, տխրություն, անցյալի համար զղջում, հոռետեսություն';
+
+  @override
+  String get tarotCups05Reversed =>
+      'Կորստի հաղթահարում, ընդունում, բուժում և նոր հույս գտնելը';
+
+  @override
+  String get tarotCups06Name => 'Բաժակների վեցը';
+
+  @override
+  String get tarotCups06Upright =>
+      'Անցյալի կարոտ, մանկություն, անմեղություն, հին ընկերներ, հիշողություններ';
+
+  @override
+  String get tarotCups06Reversed =>
+      'Մնալ անցյալում, անտեսել ապագան, անկախություն, աճ';
+
+  @override
+  String get tarotCups07Name => 'Բաժակների յոթը';
+
+  @override
+  String get tarotCups07Upright =>
+      'Ֆանտազիա, երազանք, ընտրության շփոթություն, փախուստ իսկությունից, երազում';
+
+  @override
+  String get tarotCups07Reversed =>
+      'Իրականությանը դեմ առնելը, հստակ նպատակներ, պատրանքներից արթնանալը, վճռականություն';
+
+  @override
+  String get tarotCups08Name => 'Բաժակների ութը';
+
+  @override
+  String get tarotCups08Upright =>
+      'Հիասթափություն, հեռանալը, հրաժարումը և հրաժարականը՝ ավելի խորը իմաստ փնտրելու համար։';
+
+  @override
+  String get tarotCups08Reversed =>
+      'Անկարողություն հեռանալու, անցյալին կառչելը, հարաբերությունների վերականգնում, վախ';
+
+  @override
+  String get tarotCups09Name => 'Բաժակների ինը';
+
+  @override
+  String get tarotCups09Upright =>
+      'Ցանկությունների իրականացում, բավարարվածություն, զգայական հաճույք, ինքնագնահատական, երջանկություն';
+
+  @override
+  String get tarotCups09Reversed =>
+      'Անբավարարվածություն, ունայնություն, մակերեսային հաջողություն, ագահություն, ագահություն։';
+
+  @override
+  String get tarotCups10Name => 'Բաժակների տասը';
+
+  @override
+  String get tarotCups10Upright =>
+      'Ընտանեկան երջանկություն, խաղաղություն, էմոցիոնալ իրականացում, ներդաշնակ հարաբերություններ';
+
+  @override
+  String get tarotCups10Reversed =>
+      'Ընտանիքում կոնֆլիկտ, կոտրված տուն, անհամաձայնություն, խաղաղության կորուստ';
+
+  @override
+  String get tarotCups11Name => 'Բաժակների Պաժը';
+
+  @override
+  String get tarotCups11Upright =>
+      'Նոր ոգեշնչում, ստեղծագործականություն, էմոցիոնալ հաղորդագրություն, ինտուիցիա';
+
+  @override
+  String get tarotCups11Reversed =>
+      'Զգացմունքային անհասունություն, ստեղծագործական արգելք, վատ նորություններ, գրգռվածություն։';
+
+  @override
+  String get tarotCups12Name => 'Բաժակների Ասպետը';
+
+  @override
+  String get tarotCups12Upright =>
+      'Ռոմանտիկա, հմայք, էմոցիոնալ մուտք, երևակայություն, ասպետություն';
+
+  @override
+  String get tarotCups12Reversed =>
+      'Իրականությունից դուրս, փոփոխականություն, խանդ, անվստահություն, խաբեություն';
+
+  @override
+  String get tarotCups13Name => 'Բաժակների Թագուհին';
+
+  @override
+  String get tarotCups13Upright =>
+      'Էմպատիա, բարություն, հոգևոր ինտուիցիա, էմոցիոնալ կայունություն, ուշադրություն';
+
+  @override
+  String get tarotCups13Reversed =>
+      'Հիպերէմոցիոնալություն, անկայունություն, կախվածություն, զոհի կերպարանավորում';
+
+  @override
+  String get tarotCups14Name => 'Բաժակների Թագավորը';
+
+  @override
+  String get tarotCups14Upright =>
+      'Զգացմունքային վերահսկողություն, հավասարակշռություն, դիվանագիտություն, հանդուրժողականություն, իմաստուն խորհուրդ։';
+
+  @override
+  String get tarotCups14Reversed =>
+      'Զգացմունքորեն մանիպուլյատիվ, անխիղճ, անկայուն, տրամադրությունից կախված, անխիղճ։';
+
+  @override
+  String get tarotPentacles01Name => 'Պենտակլների մեկը';
+
+  @override
+  String get tarotPentacles01Upright =>
+      'Նոր հնարավորություններ, ֆինանսական սկիզբ, առատություն, իրատեսական ձեռքբերումներ։';
+
+  @override
+  String get tarotPentacles01Reversed =>
+      'Կորցրած հնարավորություններ, ֆինանսական կորուստներ, ուշացումներ, վատ ներդրումներ։';
+
+  @override
+  String get tarotPentacles02Name => 'Պենտակլների երկուսը';
+
+  @override
+  String get tarotPentacles02Upright =>
+      'Հավասարակշռություն, հարմարվողականություն, ժամանակի/ֆինանսների կառավարում, ճկունություն';
+
+  @override
+  String get tarotPentacles02Reversed =>
+      'Անհավասարակշռություն, ճնշող, ֆինանսական դժվարություններ, սթրես';
+
+  @override
+  String get tarotPentacles03Name => 'Պենտակլների երեքը';
+
+  @override
+  String get tarotPentacles03Upright =>
+      'Թիմային աշխատանք, համագործակցություն, տեխնոլոգիա, ճանաչված ջանքեր, ճարտարապետություն';
+
+  @override
+  String get tarotPentacles03Reversed =>
+      'Համագործակցության բացակայություն, հմտությունների պակաս, ճանաչման բացակայություն, կարծիքների կոնֆլիկտ։';
+
+  @override
+  String get tarotPentacles04Name => 'Պենտակլների չորսը';
+
+  @override
+  String get tarotPentacles04Upright =>
+      'Կայունություն, սեփականատիրություն, պահպանողականություն, ժլատություն, կուտակում';
+
+  @override
+  String get tarotPentacles04Reversed =>
+      'Բաց թողնել ագահության, կորստի, ֆինանսական անտեսման և մոլուցքի գինը։';
+
+  @override
+  String get tarotPentacles05Name => 'Պենտակլների հինգը';
+
+  @override
+  String get tarotPentacles05Upright =>
+      'Զրկանք, ֆինանսական/էմոցիոնալ զրկանք, օտարացում, դժբախտություն';
+
+  @override
+  String get tarotPentacles05Reversed =>
+      'Ֆինանսական վերականգնում, օգնող ձեռք, դժվարությունների հաղթահարում, դրական փոփոխություն։';
+
+  @override
+  String get tarotPentacles06Name => 'Պենտակլների վեցը';
+
+  @override
+  String get tarotPentacles06Upright =>
+      'Բարեգործություն, փոխանակում, հովանավորություն, արդարություն, տալը և ստանալը';
+
+  @override
+  String get tarotPentacles06Reversed =>
+      'Եսասիրություն, պարտք, անհավասարություն, հովանավորություն, շահագործում';
+
+  @override
+  String get tarotPentacles07Name => 'Պենտակլների յոթը';
+
+  @override
+  String get tarotPentacles07Upright =>
+      'Համբերություն, երկարաժամկետ տեսլական, ջանքերի համար պարգևների սպասում, գնահատում';
+
+  @override
+  String get tarotPentacles07Reversed =>
+      'Անհամբերություն, անարդյունք ջանքեր, ուշացումներ, հիասթափություն և ձախողված ներդրումներ։';
+
+  @override
+  String get tarotPentacles08Name => 'Պենտակլների ութը';
+
+  @override
+  String get tarotPentacles08Upright =>
+      'Արհեստագործություն, հանձնառություն, մանրամասների նկատմամբ ուշադրություն, հմտություն։';
+
+  @override
+  String get tarotPentacles08Reversed =>
+      'Ձանձրույթ, պերֆեկցիոնիզմի ծուղակը, ծուլություն, կրքի կորուստ։';
+
+  @override
+  String get tarotPentacles09Name => 'Պենտակլների ինը';
+
+  @override
+  String get tarotPentacles09Upright =>
+      'Ձեռքբերում, անկախություն, հանգիստ, ֆինանսական հարմարավետություն, ինքնապարգևատրում';
+
+  @override
+  String get tarotPentacles09Reversed =>
+      'Ավելորդ ծախսեր, մակերեսային շռայլություն, կախվածություն, ֆինանսական անապահովություն';
+
+  @override
+  String get tarotPentacles10Name => 'Պենտակլների տասը';
+
+  @override
+  String get tarotPentacles10Upright =>
+      'Ընտանեկան բիզնես, հարստության կուտակում, ժառանգություն, կայուն կյանք, ավանդույթ';
+
+  @override
+  String get tarotPentacles10Reversed =>
+      'Գույքի կորուստ, ընտանեկան վեճեր, ավանդույթների դեմ ապստամբություն, անկայունություն։';
+
+  @override
+  String get tarotPentacles11Name => 'Պենտակլների Պաժը';
+
+  @override
+  String get tarotPentacles11Upright =>
+      'Իրատեսական նպատակներ, նոր ուսումնասիրություններ, հնարավորություններ, գործնականություն, պլանավորում';
+
+  @override
+  String get tarotPentacles11Reversed =>
+      'Պլանավորման ուշացում, գործնականության բացակայություն, ծուլություն, հետաձգում։';
+
+  @override
+  String get tarotPentacles12Name => 'Պենտակլների Ասպետը';
+
+  @override
+  String get tarotPentacles12Upright =>
+      'Անկեղծություն, պատասխանատվություն, համառություն, աստիճանական զարգացում, հուսալիություն';
+
+  @override
+  String get tarotPentacles12Reversed =>
+      'Համառություն, լեթարգիա, աշխատամոլություն, ճկունության բացակայություն, լճացում';
+
+  @override
+  String get tarotPentacles13Name => 'Պենտակլների Թագուհին';
+
+  @override
+  String get tarotPentacles13Upright =>
+      'Գործնական խնամք, գործնական խորհուրդներ, առատություն, առատաձեռնություն, հարմարավետություն։';
+
+  @override
+  String get tarotPentacles13Reversed =>
+      'Գերվերահսկողություն, սեփականատիրություն, եսասիրություն, ֆինանսական անապահովություն, ավելորդ ծախսեր։';
+
+  @override
+  String get tarotPentacles14Name => 'Պենտակլների Թագավորը';
+
+  @override
+  String get tarotPentacles14Upright =>
+      'Հարստություն, հաջողություն, բիզնեսի հնարամտություն, հեղինակություն և ուժեղ աջակցող։';
+
+  @override
+  String get tarotPentacles14Reversed =>
+      'Մատերիալիզմ, կոռուպցիա, ագահություն, համառություն, ճնշող իշխանություն';
+
+  @override
+  String get tarotSwords01Name => 'Սրերի մեկը';
+
+  @override
+  String get tarotSwords01Upright =>
+      'Հստակ պատկերացում, նոր մտքեր, ճշմարտություն, հոգևոր բեկում';
+
+  @override
+  String get tarotSwords01Reversed =>
+      'Շփոթություն, ապատեղեկատվություն, դատողության կորուստ, հաղորդակցության բացակայություն';
+
+  @override
+  String get tarotSwords02Name => 'Սրերի երկուսը';
+
+  @override
+  String get tarotSwords02Upright =>
+      'Անվճռականություն, կուրություն, զգացմունքների արգելափակում, դժվար որոշումներից խուսափելը։';
+
+  @override
+  String get tarotSwords02Reversed =>
+      'Որոշումներ կայացնելը, փաստերին դեմ առնելը, սխալներ գործելը տեղեկատվության բացակայության պատճառով';
+
+  @override
+  String get tarotSwords03Name => 'Սրերի երեքը';
+
+  @override
+  String get tarotSwords03Upright =>
+      'Սրտի ցավ, տխրություն, բաժանում, ցավ, ցավոտ ճշմարտություն։';
+
+  @override
+  String get tarotSwords03Reversed =>
+      'Ցավի հաղթահարում, բուժում, ներում, տխրությունից ազատվել';
+
+  @override
+  String get tarotSwords04Name => 'Սրերի չորսը';
+
+  @override
+  String get tarotSwords04Upright =>
+      'Հանգիստ, վերականգնում, մեդիտացիա, սթրեսի թեթևացում, ներքին խաղաղություն';
+
+  @override
+  String get tarotSwords04Reversed =>
+      'Հյուծում, վերականգնումից հրաժարում, հարկադիր հանգիստ, ծայրահեղ սթրես։';
+
+  @override
+  String get tarotSwords05Name => 'Սրերի հինգը';
+
+  @override
+  String get tarotSwords05Upright =>
+      'Հաղթանակ, որը միայն ցավ է պատճառում, դավաճանություն, կոնֆլիկտ, թշնամություն և չարություն։';
+
+  @override
+  String get tarotSwords05Reversed =>
+      'Կոնֆլիկտի լուծում, հաշտեցում, փոխզիջում, պարտությունը ընդունելը, վրեժխնդրությունից հրաժարվելը';
+
+  @override
+  String get tarotSwords06Name => 'Սրերի վեցը';
+
+  @override
+  String get tarotSwords06Upright =>
+      'Անցում, ցավից ազատում, բուժիչ ճանապարհորդություն, շարժում, ճանապարհորդություն';
+
+  @override
+  String get tarotSwords06Reversed =>
+      'Փոփոխություններին դիմադրություն, անցյալի ցավերը, որոնք հետ են պահում, հետաձգում';
+
+  @override
+  String get tarotSwords07Name => 'Սրերի յոթը';
+
+  @override
+  String get tarotSwords07Upright =>
+      'Խաբեություն, խորամանկություն, ռազմավարություն, գաղտնիություն, փախուստ';
+
+  @override
+  String get tarotSwords07Reversed =>
+      'Խոստովանություն, գաղտնիքների բացահայտում, խաբեության հայտնաբերում, մեղք, դիմակայել իրերին դեմ առ դեմ։';
+
+  @override
+  String get tarotSwords08Name => 'Սրերի ութը';
+
+  @override
+  String get tarotSwords08Upright =>
+      'Ինքնակենտրոնություն, անօգնականություն, սահմանափակ մտածելակերպ, վախի բանտ';
+
+  @override
+  String get tarotSwords08Reversed =>
+      'Ազատագրում, սեփական բանտից ազատվելը, նոր հեռանկար';
+
+  @override
+  String get tarotSwords09Name => 'Սրերի ինը';
+
+  @override
+  String get tarotSwords09Upright =>
+      'Անհանգստություն, հուսահատություն, անքնություն, մեղք, ներքին վախ։';
+
+  @override
+  String get tarotSwords09Reversed =>
+      'Վախի հաղթահարում, հույսի ճառագայթ, անքնության թեթևացում, փաստերին դեմ առնելը';
+
+  @override
+  String get tarotSwords10Name => 'Սրերի տասը';
+
+  @override
+  String get tarotSwords10Upright =>
+      'Կործանում, խորը վերքեր, դավաճանություն, հատակին հասնելը, վերջը գալիս է։';
+
+  @override
+  String get tarotSwords10Reversed =>
+      'Կործանումից վերականգնում, վատագույնը անցել է, գոյատևում, վերակառուցում';
+
+  @override
+  String get tarotSwords11Name => 'Սրերի Պաժը';
+
+  @override
+  String get tarotSwords11Upright =>
+      'Հետաքրքրասիրություն, սուր վերլուծական հմտություններ, ճշմարտության որոնում, նոր գաղափարներ';
+
+  @override
+  String get tarotSwords11Reversed =>
+      'Անխոհեմություն, անհամբերություն, ցինիզմ, անհիմն լուրեր, կոպտություն';
+
+  @override
+  String get tarotSwords12Name => 'Սրերի Ասպետը';
+
+  @override
+  String get tarotSwords12Upright =>
+      'Անկասելիություն, հավակնություն, մտավոր ձգտում, արագ և վճռական գործողություններ';
+
+  @override
+  String get tarotSwords12Reversed =>
+      'Անխոհեմություն, ագրեսիա, անմտածված խոսքեր ու գործողություններ, իմպուլսիվություն, անխիղճություն';
+
+  @override
+  String get tarotSwords13Name => 'Սրերի Թագուհին';
+
+  @override
+  String get tarotSwords13Upright =>
+      'Անկախություն, հստակ հաղորդակցություն, սուր դատողություն, ազնվություն, օբյեկտիվություն';
+
+  @override
+  String get tarotSwords13Reversed =>
+      'Անսիրտություն, անխիղճություն, չափազանց քննադատություն, վրդովմունք, մեկուսացում';
+
+  @override
+  String get tarotSwords14Name => 'Սրերի Թագավորը';
+
+  @override
+  String get tarotSwords14Upright =>
+      'Իշխանություն, մտավոր խորաթափանցություն, տրամաբանություն, արդարություն, սկզբունքներ, փորձագետ';
+
+  @override
+  String get tarotSwords14Reversed =>
+      'Իշխանության չարաշահում, իռացիոնալություն, դաժանություն, վերահսկողության ցանկություն, բռնապետություն';
+
+  @override
+  String get tarotWands01Name => 'Ձողերի մեկը';
+
+  @override
+  String get tarotWands01Upright =>
+      'Կիրք, ոգեշնչում, ստեղծագործական ուժ, նոր ներուժ, կենսունակություն';
+
+  @override
+  String get tarotWands01Reversed =>
+      'Հետաձգված ոգևորություն, ոգեշնչման պակաս, մոտիվացիայի կորուստ և ինքնության շփոթություն։';
+
+  @override
+  String get tarotWands02Name => 'Ձողերի երկուսը';
+
+  @override
+  String get tarotWands02Upright =>
+      'Պլանավորում, տեսլական, երկարաժամկետ նպատակներ, վճռականություն, հետազոտություն';
+
+  @override
+  String get tarotWands02Reversed =>
+      'Պլանավորման բացակայություն, հետաձգում, վախի պատճառով լճացում, սահմանափակ տեսլական։';
+
+  @override
+  String get tarotWands03Name => 'Ձողերի երեքը';
+
+  @override
+  String get tarotWands03Upright =>
+      'Ակնկալիքների իրականացում, առաջընթաց, ընդլայնում, հեռատեսություն, առաջնորդություն';
+
+  @override
+  String get tarotWands03Reversed =>
+      'Աճի հետաձգում, անհաջողություններ, անսպասելի հաշմանդամություններ, անհանդուրժողականություն';
+
+  @override
+  String get tarotWands04Name => 'Ձողերի չորսը';
+
+  @override
+  String get tarotWands04Upright =>
+      'Տոնակատարություն, հարմարավետություն, ձեռքբերումների ուրախություն, ողջույն, տնային միջոցառումներ';
+
+  @override
+  String get tarotWands04Reversed =>
+      'Չեղարկված իրադարձություններ, ընտանեկան վեճեր, ժամանակավոր կայունություն, հետաձգված տոնակատարություններ։';
+
+  @override
+  String get tarotWands05Name => 'Ձողերի հինգը';
+
+  @override
+  String get tarotWands05Upright =>
+      'Մրցակցություն, կոնֆլիկտ, անհամաձայնություն, վեճ, մարտահրավեր';
+
+  @override
+  String get tarotWands05Reversed =>
+      'Փոխզիջում, կոնֆլիկտից խուսափելը, համագործակցություն, խաղաղության ձգտում, քաոսի հանգստացում';
+
+  @override
+  String get tarotWands06Name => 'Ձողերի վեցը';
+
+  @override
+  String get tarotWands06Upright =>
+      'Հաջողություն, հանրային ճանաչում, հաղթանակ, վստահություն, առաջնորդի վերելք։';
+
+  @override
+  String get tarotWands06Reversed =>
+      'Պարտություն, անարգանք, անհավանություն, հպարտություն, հեղինակության կորուստ';
+
+  @override
+  String get tarotWands07Name => 'Ձողերի յոթը';
+
+  @override
+  String get tarotWands07Upright =>
+      'Արիություն, պաշտպանություն, մրցակցությանը դիմակայելը, հաստատակամ համոզմունք, տոկունություն։';
+
+  @override
+  String get tarotWands07Reversed =>
+      'Հանձնվելը, ճնշվելը, փոխզիջումը, վստահության կորուստը, վախկոտությունը։';
+
+  @override
+  String get tarotWands08Name => 'Ձողերի ութը';
+
+  @override
+  String get tarotWands08Upright =>
+      'Արագ տեմպերով, արագ ավարտ, նորություններ, ճկունություն, արագություն։';
+
+  @override
+  String get tarotWands08Reversed =>
+      'Ուշացումներ, շփոթություն, շտապողականության պատճառով սխալներ, հաղորդակցվելու անկարողություն';
+
+  @override
+  String get tarotWands09Name => 'Ձողերի ինը';
+
+  @override
+  String get tarotWands09Upright =>
+      'Ճկունություն, պաշտպանողականություն, շարունակել նույնիսկ հյուծված լինելիս, զգոնություն, տոկունության փորձարկում։';
+
+  @override
+  String get tarotWands09Reversed =>
+      'Հոգնածություն, պարանոյա, հանձնվելը, համառություն, անհարկի դիմադրություն։';
+
+  @override
+  String get tarotWands10Name => 'Ձողերի տասը';
+
+  @override
+  String get tarotWands10Upright =>
+      'Ավելորդ բեռ, ծայրահեղ ճնշում, պատասխանատվություն, ճնշում, սահմանափակումներ։';
+
+  @override
+  String get tarotWands10Reversed =>
+      'Բաց թողնելը, պատասխանատվությունից խուսափելը, հյուծվածություն, լիազորելը, հաղթահարելը։';
+
+  @override
+  String get tarotWands11Name => 'Ձողերի Պաժը';
+
+  @override
+  String get tarotWands11Upright =>
+      'Հետազոտություն, հայտնագործություն, կրքոտ գաղափարներ, էներգիա, հմայք';
+
+  @override
+  String get tarotWands11Reversed =>
+      'Ուղղության կորուստ, անհասունություն, հեշտությամբ ձանձրանալը, ունայն պատրանքներ, անպատասխանատվություն';
+
+  @override
+  String get tarotWands12Name => 'Ձողերի Ասպետը';
+
+  @override
+  String get tarotWands12Upright =>
+      'Կրքոտ առաջընթաց, արկածային ոգի, գործողություն, էներգիա, վստահություն';
+
+  @override
+  String get tarotWands12Reversed =>
+      'Իմպուլսիվ պահվածք, ամբարտավանություն, քմահաճություն, զայրույթ և պլանավորման բացակայություն։';
+
+  @override
+  String get tarotWands13Name => 'Ձողերի Թագուհին';
+
+  @override
+  String get tarotWands13Upright =>
+      'Հմայք, արիություն, անկախություն, պայծառություն, հմայք, կենսունակություն';
+
+  @override
+  String get tarotWands13Reversed =>
+      'Եսասիրություն, էքսհիբիցիոնիզմ, խանդ, քմահաճություն, ագրեսիա';
+
+  @override
+  String get tarotWands14Name => 'Ձողերի Թագավորը';
+
+  @override
+  String get tarotWands14Upright =>
+      'Հմայիչ առաջնորդություն, տեսլական, ոգեշնչում, համարձակություն, ձեռներեց';
+
+  @override
+  String get tarotWands14Reversed =>
+      'Բռնապետություն, իմպուլսիվ զայրույթ, անիրականություն, ամբարտավանություն, անխիղճություն';
+
+  @override
+  String get nicknamePrefixes =>
+      'Խորհրդավոր, անդորր, սուրբ, մութ, փայլուն, սառը, տաք, գերող, դաժան, մաքուր, կոպիտ, նուրբ, գեղեցիկ, տարօրինակ, մեծ, խղճուկ, հավերժական, մոռացված, փայլուն, տխուր, ուրախ, երազկոտ, անկումային, մաքուր սպիտակ, սև, արյունոտ կարմիր, մոխրագույն, ոսկեգույն, արծաթագույն, կապույտ, կարմիր, դեղին, սև, սպիտակ, թափանցիկ, մենակ, աղմկոտ, հանգիստ, տաք, սառը։ մենակ, մենակ, ուրախ, երջանիկ, մռայլ, անհույս, հույսերով լի, շլացուցիչ, մթնշաղ, մութ, ամայի, գաղտնի, գաղտնի, սրբազան, պիղծ, ամբարտավան, խոնարհ, իմաստուն մենակ, հիմար, ուժեղ, թույլ, քաջ, վախկոտ, հեռու, մոտ, նահանջող, մոտեցող, անհետացող, հայտնվող, արթուն, քնած, երազող, թափառող, շրջող, մնացող, լողացող։ Ես վերադառնում եմ, սպասում, փնտրում, թաքնված, բացահայտված, լքված, ընտրված, օրհնված, անիծված, սիրված, ատված, հիշող, մոռացող, աստղալույսի, լուսնի լույսի, արևի լույսի, տիեզերքի, Երկրի, ծովի, երկնքի, ամպերի, քամու, անձրևի, ձյան, սառույցի, կրակի, ջրի, հողի, ծառերի, անտառների, լեռների, գետերի, լճերի, ժամանակի, տարածության, չափսերի, ճակատագրի, ճակատագրի, էներգիայի Թշնամիների, մոգության, առասպելների, լեգենդների, ճշմարտության, ստերի, ֆանտազիայի, երազների, մղձավանջների, կործանման, ստեղծագործության, կյանքի, մահվան, հոգու, մարմնի, բանականության, էմոցիայի, սիրո, ատելության, տխրության։ Ուրախության, զայրույթի, խաղաղության, պատերազմի, քաոսի, կարգուկանոնի, լույսի, խավարի, մթնշաղի, արշալույսի, կեսօրի, կեսգիշեր, անցյալի, ներկայի, ապագայի, ծագման, ապոկալիպսիսի, անսահման, վերջավոր, լռության։ աղմուկի, երգելու, պարելու, լացելու, ծիծաղելու, շշնջալու, բղավելու, աղոթելու, աղաչելու, հրամայելու, հնազանդվելու, կառավարելու, ծառայելու, առաջնորդելու, հետևելու, սովորեցնելու, սովորելու, Հիշողության, հիշողությունների, վերքերի, բուժման, թույնի, դեղամիջոցի, պատրանքի, նյութի, իդեալի, իրականության, վիրտուալ, բնական, արհեստական, նախնական, հավերժություն, պահ, անցողիկ, հավերժական, փոփոխություն, կանգ։ , հոսող, կանգնած, այրվող, սառչող, ծաղկող, թառամող, աճող, մահացող, շնչող, շնչահեղձվող, փայլուն, նուրբ, մութ, մթնշաղ, թափանցիկ, թույլ, շլացուցիչ, տարօրինակ։ յուրօրինակ, հատուկ, ազնիվ, մաքուր, կոռումպացված, մենավոր, միայնակ, ամայի, հեռավոր, կոշտ, դաժան, դաժան, մեծ, ուժեղ, ամուր, ճկուն, արագ, դանդաղ, հանգիստ, քաոսային, հիշողություն, երևակայական, լուռ, շշնջացող, երգող, պարող, հեծկլտացող, ժպտացող, կծկտացող, մտածող, թափառող, շրջող, արթուն, քնած, երազող, երազում։ Անող, մոլորված, աղոթող, անկեղծ, սրտաճմլիկ, սրտաճմլիկ, վսեմ, չար, նշանակող, ամբարտավան, խոնարհ, բարի, տաք, սառը, սարսափելի, տարօրինակ, անհանգիստ, էքստատիկ, հմայիչ, գլխապտույտ առաջացնող, քաղցր, դառը-քաղցր, դառը, փշոտ, սուր, բութ, կոպիտ, փափուկ, հարմարավետ, հարմարավետ, անկայուն, անհանգիստ, անհոգ, խաղաղ, թույլ, ձանձրացած, կրքոտ, անտարբեր, հանգիստ, կատաղի, կատաղի, խելագար, խելագար, ռացիոնալ, էմոցիոնալ, սառնասիրտ, իմաստուն, հիմար, միամիտ, խորամանկ, նենգ, մաքուր սպիտակ, սև, ոսկեգույն, արծաթագույն, արյունոտ';
+
+  @override
+  String get nicknameSuffixes =>
+      'Մարգարե, կախարդ, վհուկ, ասպետ, մարտիկ, նետաձիգ, խաբեբա, մարդասպան, պալադին, քահանա, քրմուհի, վանական, շաման, ալքիմիկոս, նեկրոմանտ, էլեմենտալիստ, կանչող, պատրանքաբան, բուժող, իմաստուն, գիտնական, հետազոտող, հետախույզ, ճանապարհորդ, կառավարիչ, թափառող, թափառող, ուխտագնաց, որոնող, դիտորդ, գրանցող, սուրհանդակ, պահապան, պահակ, դարպասապահ, դատավոր, դահիճ, կառավարիչ, կառավարիչ, թագավոր, թագուհի, կայսր, կայսրուհի, ազնվական, լորդ, ասպետի հրամանատար, վարձկան, ծովահեն, գող, խաբեբա, ծաղրածու, հիմար, ճգնավոր, հերետիկոս, դավաճան, դավաճան, հերոս, փրկիչ, ազատարար, կործանարար, ստեղծող, աստված, աստվածուհի, հրեշտակ, սատանա, ոգի, փերի, հրեշ, գազան, վիշապ, ուրվական, ստվեր, անմահ, վամպիր։ , մարդագայլ, ջրահարս, սիրեն, նիմֆա, գոբլին, օրկ, տրոլ, էլֆ, թզուկ, հսկա, թզուկ, մարդ, գազանամարդ, միացող, ձկնամարդ, վիշապ, չար ոգի, Սուրա, անդունդ, դրախտ, ստորերկրյա աշխարհ, այլ աշխարհ, անդունդ, քաոս, կարգուկանոն, լույս, խավար, որոնող, ուխտավոր, թափառող, ճգնավոր, հերետիկոս, դավաճան, պիոներ, նվաճող, կառավարիչ, համակարգող, պահապան, դիտորդ, դիտորդ, գրանցող, սուրհանդակ, ուղեցույց, ուղեցույց, փրկիչ, կործանարար, ստեղծող, ուրվական, ուրվական, ուրվական, չար ոգի։ , ոգի, փերի, կախարդական գազան, սուրբ գազան, ֆանտոմային գազան, աստվածային գազան, սրամարտիկ, ասպետ, նետաձիգ, գող, մարդասպան, կախարդ, շաման, ալքիմիկոս, նեկրոմանտ, քահանա, գիտնական, հետազոտող, հետախույզ, ճանապարհորդ, նկարիչ, ծաղրածու, բարդ, վաճառական, արհեստավոր, Ֆերմեր, ագռավ, բու, արծիվ, բազե, գայլ, աղվես, արջ, առյուծ, վագր, ընձառյուծ, սև հովազ, կատու, կատու, քոթոթ, օձ, մողես, կրիա, կոկորդիլոս, վիշապ, միաեղջյուր, պեգաս, գրիֆոն, գարգոյլ, գոբլին։ , Օրկ, Տրոլ, Օգր, Սլայմ, Կմախք, Զոմբի, Ղուլ, Վամպիր, Մարդագայլ, Մինոտավր, Կենտավր, Հարպիա, Սիրեն, Կրակեն, Լևիաթան, Սուր, Վահան, Նիզակ, Աղեղ, Ձեռնափայտ, Մատանի, Վզնոց, Թագ, Սուրբ Գրալ։';
+
+  @override
+  String get eulaTitle => 'Վերջնական օգտագործողի լիցենզիայի պայմանագիր (EULA)';
+
+  @override
+  String get eulaArticle1 =>
+      'Հոդված 1 (Լիցենզիայի տրամադրում)\nԱյս հավելվածը («Tarot Witch») օգտագործելու թույլտվությունը տրվում է միայն անձնական, ոչ առևտրային օգտագործման համար, և հավելվածի նկատմամբ սեփականության կամ մտավոր սեփականության իրավունքներ չեն փոխանցվում։';
+
+  @override
+  String get eulaArticle2 =>
+      'Հոդված 2 (Արգելված օգտագործում)\nՕգտատերերին արգելվում է այս ծառայությունը օգտագործել անօրինական կամ ուրիշների իրավունքները խախտող նպատակներով, ինչպես նաև չի կարող կամայականորեն շահարկել կամ հակադարձ ինժեներացնել համակարգերը կամ տվյալները։';
+
+  @override
+  String get eulaArticle3 =>
+      'Հոդված 3 (Տվյալների հավաքագրում և պահպանման ժամկետ)\nՀարթ ծառայություն ապահովելու համար, օգտատերերի կողմից գրված տարոյի օրագրերը և հարակից գուշակության տվյալները ապահով պահպանվում են երեք տարի ստեղծման օրվանից։';
+
+  @override
+  String get eulaArticle4 =>
+      'Հոդված 4 (Երկարաժամկետ չօգտագործվող դադարեցված հաշիվների կառավարում)\nԵթե օգտատերը մեկ տարուց (365 օր) ավելի չի մուտք գործում ծառայություն, հաշիվը կվերածվի դադարեցված հաշվի, և օգտատիրոջ բոլոր տվյալները ավտոմատ կերպով կջնջվեն առանց նախնական ծանուցման՝ անձնական տեղեկությունները պաշտպանելու և սերվերի հարթ միջավայր պահպանելու համար։';
+
+  @override
+  String get eulaArticle5 =>
+      'Հոդված 5 (Տվյալների ոչնչացում և անվերադարձելիություն)\nՀոդված 3-ում նշված պահպանման ժամկետը լրացած կամ Հոդված 4-ի համաձայն ջնջված տվյալները մշտապես կոչնչացվեն և ոչ մի հանգամանքում հնարավոր չի լինի վերականգնել։';
+
+  @override
+  String get eulaArticle6 =>
+      'Հոդված 6 (Երաշխիքից հրաժարում և հատուցում)\nԱյս հավելվածի կողմից տրամադրվող տարոյի ընթերցումները և մեկնաբանությունները նախատեսված են միայն զվարճանքի նպատակով և չեն փոխարինում իրավական, բժշկական կամ ֆինանսական խորհրդատվությանը։ Մշակողը պատասխանատվություն չի կրում ծառայության օգտագործումից բխող որևէ ուղղակի կամ անուղղակի վնասի համար։';
+
+  @override
+  String get eulaAgreement =>
+      'Վերոնշյալ EULA-ի բովանդակությունը և տվյալների կառավարման քաղաքականությունը պարտադիր կետեր են, որոնց պետք է համաձայնվել հավելվածն օգտագործելու համար։';
+
+  @override
+  String get closeButton => 'փակել';
+
+  @override
+  String get pushTermsTitle =>
+      'Միանալ իրադարձությունների և մարքեթինգային ծանուցումներ ստանալուն';
+
+  @override
+  String get pushArticle1 =>
+      'Հոդված 1 (Նպատակ)\nԱյս համաձայնությունը Tarot Witch ծառայության համար է՝ գովազդային տեղեկություններ, ինչպիսիք են իրադարձությունները, առաջխաղացումները և նոր հորոսկոպի թարմացումները, որոնք օգտակար են օգտատերերին, ուղարկելու push ծանուցումների միջոցով։';
+
+  @override
+  String get pushArticle2 =>
+      'Հոդված 2 (Ստացման դուրսբերում)\nՕգտատերերը կարող են ցանկացած պահի հանել այս համաձայնությունը հավելվածի ներսում գտնվող [Իմ Մենյու > Հավելվածի Կարգավորումներ] միջոցով։ Նույնիսկ եթե դուք հետ եք վերցնում ձեր համաձայնությունը, դուք դեռ կարող եք օգտվել ծառայության հիմնական գործառույթներից (էական ծառայություններ) ինչպես սովորաբան։';
+
+  @override
+  String get pushArticle3 =>
+      'Հոդված 3 (Ծանուցման բովանդակություն)\nՈւղարկված ծանուցումները կարող են ներառել գովազդային և մարքեթինգային բնույթի տեղեկություններ, ինչպիսիք են հավելվածի հատուկ զեղչային առաջարկները, սահմանափակ ժամանակով իրադարձությունները և անհատականացված հորոսկոպի առաջարկությունները։';
+
+  @override
+  String get pushAgreement =>
+      'Վերոնշյալը կամընտիր է օգտատիրոջ համար, և նույնիսկ եթե համաձայնություն չտրվի, տարոյի ծառայությունից օգտվելու առումով թերություն չկա։';
+
+  @override
+  String get windowsNoGoogleLogin =>
+      'Google մուտքը չի աջակցվում նախադիտման միջավայրում (Windows): Խնդրում ենք օգտագործել Android սարք կամ վեբ։';
+
+  @override
+  String get signupTermsRequired =>
+      'Անդամակցության գրանցումը շարունակելու համար դուք պետք է համաձայնեք տվյալների պահպանման պայմաններին։';
+
+  @override
+  String googleLoginError(String error) {
+    return 'Google մուտքի սխալ. $error';
+  }
+
+  @override
+  String get googleLoginUnknownError =>
+      'Google-ի մուտքի ժամանակ անհայտ սխալ տեղի ունեցավ։';
+
+  @override
+  String get windowsNoFirebase =>
+      'Firebase մուտքը չի աջակցվում նախադիտման միջավայրում (Windows):';
+
+  @override
+  String get emailVerificationRequired =>
+      'Էլ․ փոստի հաստատումը պարտադիր է: Խնդրում ենք ստուգել այն էլ․ փոստը, որով գրանցվել եք։';
+
+  @override
+  String get resendEmail => 'Նորից ուղարկել';
+
+  @override
+  String get verificationEmailSent => 'Հաստատման էլ․ փոստը նորից ուղարկվել է։';
+
+  @override
+  String get passwordMismatch =>
+      'Գաղտնաբառը չի համընկնում։ Խնդրում ենք նորից ստուգել։';
+
+  @override
+  String get signupSuccess =>
+      'Անդամակցության գրանցումը ավարտվել է։ Խնդրում ենք ստուգել ուղարկված էլ․ փոստը՝ հաստատումն ավարտելու համար։';
+
+  @override
+  String get authError => 'Աուտենտիֆիկացիայի սխալ տեղի ունեցավ։';
+
+  @override
+  String get authLoginTitle => 'մուտք';
+
+  @override
+  String get authSignupTitle => 'անդամակցություն';
+
+  @override
+  String get authTarotNickname => 'Մականուններ Տարոյի աշխարհում';
+
+  @override
+  String get authRerollNickname => 'Նորից ընտրել մականունը';
+
+  @override
+  String get authEmail => 'էլ․ փոստ';
+
+  @override
+  String get authPassword => 'գաղտնաբառ';
+
+  @override
+  String get authConfirmPassword => 'հաստատել գաղտնաբառը';
+
+  @override
+  String get authKeepLoggedIn => 'Մնալ մուտք գործած';
+
+  @override
+  String get authAgreeEula =>
+      'Ես համաձայն եմ Վերջնական Օգտագործողի Լիցենզիայի Պայմանագրին (EULA)։ (էական)';
+
+  @override
+  String get authViewContent => '[Դիտել բովանդակությունը]';
+
+  @override
+  String get authAgreePush =>
+      'Ես համաձայն եմ ստանալ նոր տարոյի ընթերցումների և իրադարձությունների ծանուցումներ։ (ընտրովի)';
+
+  @override
+  String get authBtnLogin => 'Մուտք գործել';
+
+  @override
+  String get authBtnSignup => 'Գրանցվել';
+
+  @override
+  String get authSwitchToSignup => 'Հաշիվ չունե՞ք։ միանալ անդամակցությանը';
+
+  @override
+  String get authSwitchToLogin => 'Արդեն հաշիվ ունե՞ք։ մուտք գործել';
+
+  @override
+  String get authGoogleSignIn => 'Սկսել Google-ով';
+
+  @override
+  String get cardDetailNotReady => 'Այս մեկնաբանությունը դեռ պատրաստ չէ։';
+
+  @override
+  String get cardDetailLoadError =>
+      'Տվյալների բեռնման ժամանակ սխալ տեղի ունեցավ։';
+
+  @override
+  String get cardDetailTabUpright => 'Ուղիղ';
+
+  @override
+  String get cardDetailTabReversed => 'Շրջված';
+
+  @override
+  String get cardDetailNoInterpretation => 'Մեկնաբանություն չկա։';
+
+  @override
+  String get cardDetailSectionKeywords => 'Հիմնաբառեր';
+
+  @override
+  String get cardDetailSectionGeneral => 'Ընդհանուր մեկնաբանություն';
+
+  @override
+  String get cardDetailSectionLove => 'սիրո բախտ';
+
+  @override
+  String get cardDetailSectionCareer => 'փողի կարիերա';
+
+  @override
+  String get cardDetailSectionHealth => 'առողջություն';
+
+  @override
+  String get cardDetailSectionSpirituality => 'ներքին հոգևորություն';
+
+  @override
+  String get chatDustShortageTitle => 'փոշու բացակայություն';
+
+  @override
+  String get chatDustShortageContent =>
+      'Կախարդական փոշին բավարար չէ: Tarot ընթերցանությունը պահանջում է 1 փոշի:';
+
+  @override
+  String get chatConfirmBtn => 'ստուգել';
+
+  @override
+  String get chatStartReadingTitle => 'Սկսեք tarot կարդալ';
+
+  @override
+  String get chatStartReadingContent =>
+      'Կցանկանայի՞ք ծախսել 1 փոշի՝ Tarot ընթերցանություն սկսելու համար:';
+
+  @override
+  String get chatCancelBtn => 'չեղարկում';
+
+  @override
+  String get chatStartBtn => 'սկսել';
+
+  @override
+  String get chatShufflingCards => 'Tarot քարտերի խառնում...';
+
+  @override
+  String get profileEditEmptyNickname => 'Խնդրում ենք մուտքագրել մականուն:';
+
+  @override
+  String get profileEditDuplicateNickname =>
+      'Մականունն արդեն օգտագործվում է: Խնդրում ենք մուտքագրել այլ մականուն:';
+
+  @override
+  String get profileEditEmptyPassword =>
+      'Խնդրում ենք մուտքագրել ձեր ընթացիկ գաղտնաբառը՝ ձեր էլ.փոստը փոխելու համար:';
+
+  @override
+  String get profileEditEmailSent =>
+      'Հաստատման նամակն ուղարկվել է: Խնդրում ենք լրացնել հաստատումը ձեր նոր էլփոստի մուտքի արկղում:';
+
+  @override
+  String get profileEditSuccess => 'Պրոֆիլը պահպանվել է:';
+
+  @override
+  String get profileEditErrorDefault => 'Սխալ է տեղի ունեցել:';
+
+  @override
+  String get profileEditErrorWrongPassword => 'Սխալ գաղտնաբառը:';
+
+  @override
+  String get profileEditErrorInvalidEmail => 'Էլփոստի անվավեր ձևաչափ:';
+
+  @override
+  String get profileEditErrorEmailInUse => 'Էլփոստն արդեն օգտագործվում է:';
+
+  @override
+  String get profileEditErrorRecentLogin =>
+      'Անվտանգության նկատառումներից ելնելով, խնդրում ենք նորից մուտք գործել և փորձել:';
+
+  @override
+  String profileEditErrorUnknown(String error) {
+    return 'Պահելիս անհայտ սխալ առաջացավ՝ $error';
+  }
+
+  @override
+  String get profileEditTitle => 'Խմբագրել պրոֆիլը';
+
+  @override
+  String get profileEditPhoto => 'Պրոֆիլի լուսանկար';
+
+  @override
+  String get profileEditNickname => 'Մականուն';
+
+  @override
+  String get profileEditEmail => 'Էլփոստի հասցե';
+
+  @override
+  String get profileEditEmailSocialHint =>
+      'Google/Apple-ի հետ կապված հաշիվները չեն կարող փոխել էլ.';
+
+  @override
+  String get profileEditEmailChangeHint =>
+      'Էլփոստը փոխելիս կուղարկվի հաստատման նամակ:';
+
+  @override
+  String get profileEditPassword =>
+      'Ընթացիկ գաղտնաբառը (էլեկտրոնային փոստի փոփոխության ստուգման համար)';
+
+  @override
+  String get profileEditCancel => 'Չեղարկել';
+
+  @override
+  String get profileEditSave => 'Պահպանել';
 }

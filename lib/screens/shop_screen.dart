@@ -30,7 +30,11 @@ class ShopScreen extends StatelessWidget {
                           Text(
                             AppLocalizations.of(context)!.shopTitle,
                             textAlign: TextAlign.center,
-                            style: Theme.of(context).textTheme.displayLarge,
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 24,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                           const SizedBox(height: 8),
                           Text(

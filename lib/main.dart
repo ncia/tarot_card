@@ -15,6 +15,7 @@ import 'screens/shop_screen.dart';
 import 'screens/growth_screen.dart';
 import 'services/theme_manager.dart';
 import 'services/language_manager.dart';
+import 'services/diary_service.dart';
 
 final GlobalKey<NavigatorState> globalNavigatorKey = GlobalKey<NavigatorState>();
 
@@ -56,6 +57,18 @@ void main() async {
 
   await ThemeManager.instance.init();
   await LanguageManager.instance.init();
+  await DiaryService.instance.init();
+
+  // 로그인 유저면 기존 Firestore 데이터를 로컬로 마이그레이션
+  try {
+    final migrated = await DiaryService.instance.migrateFromCloud();
+    if (migrated > 0) {
+      debugPrint('Migrated $migrated diaries from cloud to local.');
+    }
+  } catch (e) {
+    debugPrint('Cloud migration skipped: $e');
+  }
+
 
   runApp(const TarotApp());
 }

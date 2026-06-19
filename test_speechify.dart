@@ -9,12 +9,16 @@ void main() async {
       'Content-Type': 'application/json'
     },
     body: jsonEncode({
-      'input': '테스트',
+      'input': 'Hello there, my name is Morgan. Nice to meet you.',
       'voice_id': 'min-seo',
       'audio_format': 'mp3',
       'model': 'simba-multilingual'
     })
   );
   print(response.statusCode);
-  print(response.body);
+  if (response.statusCode == 200) {
+      print('SUCCESS, size: ${response.bodyBytes.length}');
+  } else {
+      print(response.body);
+  }
 }

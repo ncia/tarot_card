@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter_tarot/l10n/app_localizations.dart';
+import 'dart:math';
+import '../data/nickname_data.dart';
 import 'glass_container.dart';
 
 class ProfileEditDialog extends StatefulWidget {
@@ -76,6 +79,20 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
     super.dispose();
   }
 
+  void _generateRandomNickname() {
+    final random = Random();
+    final prefixes = getNicknamePrefixes(context);
+    final suffixes = getNicknameSuffixes(context);
+    _prefixIndex = random.nextInt(prefixes.length);
+    _suffixIndex = random.nextInt(suffixes.length);
+    final prefix = prefixes[_prefixIndex!];
+    final suffix = suffixes[_suffixIndex!];
+    setState(() {
+      _nicknameController.text = '$prefix $suffix';
+      _isCustomNickname = false;
+    });
+  }
+
   Future<void> _saveProfile() async {
     setState(() => _isLoading = true);
 
@@ -85,7 +102,7 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
 
       // 1. 닉네임 중복 검사 및 정보 업데이트
       if (newNickname.isEmpty) {
-        if (mounted) ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('닉네임을 입력해주세요.')));
+        if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.profileEditEmptyNickname)));
         setState(() => _isLoading = false);
         return;
       }
@@ -99,7 +116,7 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
         if (querySnapshot.docs.isNotEmpty) {
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(content: Text('이미 사용 중인 닉네임입니다. 다른 닉네임을 입력해주세요.')),
+              SnackBar(content: Text(AppLocalizations.of(context)!.profileEditDuplicateNickname)),
             );
           }
           setState(() => _isLoading = false);
@@ -120,7 +137,7 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
         // 비밀번호 확인
         final password = _passwordController.text;
         if (password.isEmpty) {
-          if (mounted) ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('이메일 변경을 위해 현재 비밀번호를 입력해주세요.')));
+          if (mounted) ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.profileEditEmptyPassword)));
           setState(() => _isLoading = false);
           return;
         }
@@ -139,27 +156,27 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
         // 안내 메시지 표시
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('인증 메일이 발송되었습니다. 새 이메일함에서 인증을 완료해주세요.'), duration: Duration(seconds: 5)),
+            SnackBar(content: Text(AppLocalizations.of(context)!.profileEditEmailSent), duration: const Duration(seconds: 5)),
           );
         }
       }
 
       if (mounted) {
         Navigator.pop(context);
-        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('프로필이 저장되었습니다.')));
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.profileEditSuccess)));
       }
     } on FirebaseAuthException catch (e) {
       if (mounted) {
-        String msg = '오류가 발생했습니다.';
-        if (e.code == 'wrong-password') { msg = '비밀번호가 틀렸습니다.'; }
-        else if (e.code == 'invalid-email') { msg = '유효하지 않은 이메일 형식입니다.'; }
-        else if (e.code == 'email-already-in-use') { msg = '이미 사용 중인 이메일입니다.'; }
-        else if (e.code == 'requires-recent-login') { msg = '보안을 위해 다시 로그인 후 시도해주세요.'; }
+        String msg = AppLocalizations.of(context)!.profileEditErrorDefault;
+        if (e.code == 'wrong-password') { msg = AppLocalizations.of(context)!.profileEditErrorWrongPassword; }
+        else if (e.code == 'invalid-email') { msg = AppLocalizations.of(context)!.profileEditErrorInvalidEmail; }
+        else if (e.code == 'email-already-in-use') { msg = AppLocalizations.of(context)!.profileEditErrorEmailInUse; }
+        else if (e.code == 'requires-recent-login') { msg = AppLocalizations.of(context)!.profileEditErrorRecentLogin; }
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(msg)));
       }
     } catch (e) {
       if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('저장 중 알 수 없는 오류가 발생했습니다: $e')));
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(AppLocalizations.of(context)!.profileEditErrorUnknown(e.toString()))));
       }
     } finally {
       if (mounted) setState(() => _isLoading = false);
@@ -178,11 +195,11 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Text('프로필 수정', style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
+              Text(AppLocalizations.of(context)!.profileEditTitle, style: const TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
               const SizedBox(height: 20),
               
               // 사진 선택
-              const Text('프로필 사진', style: TextStyle(color: Colors.white70, fontSize: 12)),
+              Text(AppLocalizations.of(context)!.profileEditPhoto, style: const TextStyle(color: Colors.white70, fontSize: 12)),
               const SizedBox(height: 12),
               SizedBox(
                 height: 80,
@@ -220,11 +237,15 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
                     setState(() => _isCustomNickname = true);
                   }
                 },
-                decoration: const InputDecoration(
-                  labelText: '닉네임',
-                  labelStyle: TextStyle(color: Colors.white70),
-                  enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
-                  focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                decoration: InputDecoration(
+                  labelText: AppLocalizations.of(context)!.profileEditNickname,
+                  labelStyle: const TextStyle(color: Colors.white70),
+                  enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
+                  focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                  suffixIcon: IconButton(
+                    icon: const Icon(Icons.refresh, color: Colors.white70),
+                    onPressed: _generateRandomNickname,
+                  ),
                 ),
               ),
               const SizedBox(height: 16),
@@ -235,11 +256,11 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
                 enabled: !_isSocialLoginUser,
                 style: TextStyle(color: _isSocialLoginUser ? Colors.white54 : Colors.white),
                 decoration: InputDecoration(
-                  labelText: '이메일 주소',
+                  labelText: AppLocalizations.of(context)!.profileEditEmail,
                   labelStyle: const TextStyle(color: Colors.white70),
                   enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.white30)),
                   focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
-                  helperText: _isSocialLoginUser ? '구글/애플 연동 계정은 이메일을 변경할 수 없습니다.' : '이메일 변경 시 확인 메일이 발송됩니다.',
+                  helperText: _isSocialLoginUser ? AppLocalizations.of(context)!.profileEditEmailSocialHint : AppLocalizations.of(context)!.profileEditEmailChangeHint,
                   helperStyle: TextStyle(color: _isSocialLoginUser ? Colors.redAccent : Colors.amberAccent, fontSize: 11),
                 ),
                 onChanged: (val) {
@@ -257,11 +278,11 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
                   controller: _passwordController,
                   obscureText: true,
                   style: const TextStyle(color: Colors.white),
-                  decoration: const InputDecoration(
-                    labelText: '현재 비밀번호 (이메일 변경 확인용)',
-                    labelStyle: TextStyle(color: Colors.redAccent),
-                    enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.redAccent)),
-                    focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
+                  decoration: InputDecoration(
+                    labelText: AppLocalizations.of(context)!.profileEditPassword,
+                    labelStyle: const TextStyle(color: Colors.redAccent),
+                    enabledBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.redAccent)),
+                    focusedBorder: const UnderlineInputBorder(borderSide: BorderSide(color: Colors.amberAccent)),
                   ),
                 ),
               ],
@@ -274,7 +295,7 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
                 children: [
                   TextButton(
                     onPressed: _isLoading ? null : () => Navigator.pop(context),
-                    child: const Text('취소', style: TextStyle(color: Colors.white54)),
+                    child: Text(AppLocalizations.of(context)!.profileEditCancel, style: const TextStyle(color: Colors.white54)),
                   ),
                   const SizedBox(width: 8),
                   ElevatedButton(
@@ -285,7 +306,7 @@ class _ProfileEditDialogState extends State<ProfileEditDialog> {
                     ),
                     child: _isLoading 
                       ? const SizedBox(width: 16, height: 16, child: CircularProgressIndicator(color: Colors.white, strokeWidth: 2))
-                      : const Text('저장'),
+                      : Text(AppLocalizations.of(context)!.profileEditSave),
                   ),
                 ],
               ),

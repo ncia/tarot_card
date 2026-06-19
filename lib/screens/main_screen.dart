@@ -37,7 +37,7 @@ class MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
   final List<Widget> _screens = [
     const ReadingTabNavigator(),
     const ChatScreen(),
-    const DiaryScreen(),
+    DiaryScreen(),
     const MeaningsScreen(),
     const MyMenuTabNavigator(),
   ];

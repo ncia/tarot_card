@@ -2917,4 +2917,1343 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get themePaid => 'Tema Berbayar';
+
+  @override
+  String get diaryEmpty =>
+      'Belum ada entri buku harian.\nPeriksa keberuntungan Anda hari ini dan tinggalkan buku harian!';
+
+  @override
+  String get diaryTarotConsult => 'Konsultasi Tarot';
+
+  @override
+  String get diaryTarotReading => 'Bacaan Tarot';
+
+  @override
+  String diaryAndMore(int count) {
+    return 'dan $count lainnya';
+  }
+
+  @override
+  String diaryDaysAgo(int days) {
+    return '${days}tanggal yang lalu';
+  }
+
+  @override
+  String diaryHoursAgo(int hours) {
+    return '${hours}jam yang lalu';
+  }
+
+  @override
+  String diaryMinutesAgo(int minutes) {
+    return '${minutes}m yang lalu';
+  }
+
+  @override
+  String get diaryJustNow => 'Baru saja';
+
+  @override
+  String get diaryNoEntryForDate =>
+      'Tidak ada catatan bacaan untuk tanggal ini.';
+
+  @override
+  String get diaryMyQuestion => 'Pertanyaan saya';
+
+  @override
+  String get diaryWitchReading => 'Bacaan Tarot';
+
+  @override
+  String get diaryNoResult => 'Tidak ada hasil yang tersedia.';
+
+  @override
+  String get diaryFollowUpTitle => 'Catatan Tindak Lanjut';
+
+  @override
+  String get diaryFollowUpHint =>
+      'Catat apakah pembacaannya akurat beberapa hari kemudian.';
+
+  @override
+  String get diaryFollowUpPlaceholder => 'Bagaimana hasil bacaannya?';
+
+  @override
+  String get diaryFollowUpSave => 'Simpan Tindak Lanjut';
+
+  @override
+  String get diaryFollowUpSaved => 'Tindak lanjut disimpan!';
+
+  @override
+  String get diaryFollowUpEdit => 'Sunting Tindak Lanjut';
+
+  @override
+  String get diaryTagTitle => 'Tag';
+
+  @override
+  String get diaryTagAddHint => 'Masukkan tag baru';
+
+  @override
+  String get diaryTagDeleteConfirm => 'Hapus tanda ini?';
+
+  @override
+  String get diaryTagDelete => 'Menghapus';
+
+  @override
+  String get diaryDeleteTitle => 'Hapus Buku Harian';
+
+  @override
+  String get diaryDeleteConfirm =>
+      'Hapus entri buku harian ini? Hal ini tidak dapat dibatalkan.';
+
+  @override
+  String get communityTitle => 'Masyarakat';
+
+  @override
+  String get communityErrorLoading => 'Terjadi kesalahan saat memuat data.';
+
+  @override
+  String get communityEmptyFeed =>
+      'Belum ada buku harian tarot publik.\nJadilah orang pertama yang membagikan buku harian Anda!';
+
+  @override
+  String get communityNoInterpretation => 'Tidak ada interpretasi.';
+
+  @override
+  String get communityLike => 'Menyukai';
+
+  @override
+  String get communityComments => 'Komentar';
+
+  @override
+  String get communityFirstCommentPrompt =>
+      'Jadilah orang pertama yang meninggalkan komentar!';
+
+  @override
+  String get communityCommentInputHint => 'Tulis komentar...';
+
+  @override
+  String get communityCommentFailed => 'Gagal menambahkan komentar:';
+
+  @override
+  String get communityLoginRequired => 'Diperlukan login.';
+
+  @override
+  String get communityReportTitle => 'Laporan';
+
+  @override
+  String get communityReportHint => 'Masukkan alasan pelaporan';
+
+  @override
+  String get communityReportCancel => 'Membatalkan';
+
+  @override
+  String get communityReportSubmit => 'Laporan';
+
+  @override
+  String get communityReportSuccess => 'Laporan telah diserahkan.';
+
+  @override
+  String get communityTarotQuestion => 'T. Pertanyaan Tarot';
+
+  @override
+  String get communityNoName => 'Penyihir Tanpa Nama';
+
+  @override
+  String get diaryShareToCommunity => 'Bagikan ke Komunitas';
+
+  @override
+  String get diarySharedSuccess => 'Dibagikan ke komunitas.';
+
+  @override
+  String get diaryPrivateSuccess => 'Setel ke pribadi.';
+
+  @override
+  String get growthTitle => 'Pertumbuhan';
+
+  @override
+  String get growthSubtitle =>
+      'Kumpulkan kekuatan sihir untuk memperkuat kartu tarot';
+
+  @override
+  String get growthTabCrystalBall => 'Peningkatan Bola Kristal';
+
+  @override
+  String get growthTabWorldTree => 'Tumbuhkan Pohon Dunia';
+
+  @override
+  String growthWorldTreeLevel(int level) {
+    return 'Tingkat Pohon Dunia $level';
+  }
+
+  @override
+  String get growthExp => 'Kedaluwarsa:';
+
+  @override
+  String get growthWaterFree => 'Air Gratis';
+
+  @override
+  String get growthWaterSuccess => 'Menyiram Pohon Dunia! Kemunculan +10 💧';
+
+  @override
+  String growthDustOwned(int dust) {
+    return 'Debu Ajaib yang Dimiliki: $dust';
+  }
+
+  @override
+  String growthCrystalBallLevel(int level) {
+    return 'Level Bola Kristal Mistik $level';
+  }
+
+  @override
+  String get growthUpgradeButton => 'Tingkatkan (10 Debu)';
+
+  @override
+  String get growthUpgradeSuccess => 'Peningkatan Bola Kristal Berhasil! ✨';
+
+  @override
+  String get growthUpgradeNotEnough =>
+      'Debu ajaib tidak cukup. (Kebutuhan: 10)';
+
+  @override
+  String get diaryViewList => 'Tampilan Daftar';
+
+  @override
+  String get diaryViewCalendar => 'Tampilan Kalender';
+
+  @override
+  String get tarotMajor00Name => 'Si Bodoh';
+
+  @override
+  String get tarotMajor00Upright =>
+      'Awal baru, petualangan, kemungkinan tak terbatas, kebebasan, kepolosan';
+
+  @override
+  String get tarotMajor00Reversed =>
+      'Kecerobohan, kebodohan, kelalaian, mengambil risiko terlalu besar, ketidakpraktisan.';
+
+  @override
+  String get tarotMajor01Name => 'Sang Pesulap';
+
+  @override
+  String get tarotMajor01Upright =>
+      'Kreativitas, kemauan, kemampuan, kekuatan awal baru, determinasi';
+
+  @override
+  String get tarotMajor01Reversed =>
+      'Manipulasi, bakat terbuang, penipuan, kurang percaya diri, agenda tersembunyi.';
+
+  @override
+  String get tarotMajor02Name => 'Imam Agung Wanita';
+
+  @override
+  String get tarotMajor02Upright =>
+      'Intuisi, ketidaksadaran, misteri, kebijaksanaan, suara hati';
+
+  @override
+  String get tarotMajor02Reversed =>
+      'Mengabaikan intuisi, pengetahuan dangkal, musuh tersembunyi, membocorkan rahasia';
+
+  @override
+  String get tarotMajor03Name => 'Sang Permaisuri';
+
+  @override
+  String get tarotMajor03Upright =>
+      'Kelimpahan, cinta keibuan, kecantikan, hasil alami, kreativitas';
+
+  @override
+  String get tarotMajor03Reversed =>
+      'Proteksi berlebihan, ketergantungan, defisiensi kreatif, kemalasan, stagnasi';
+
+  @override
+  String get tarotMajor04Name => 'Sang Kaisar';
+
+  @override
+  String get tarotMajor04Upright =>
+      'Otoritas, struktur, stabilitas, cinta kebapakan, kontrol, tanggung jawab';
+
+  @override
+  String get tarotMajor04Reversed =>
+      'Diktator, keinginan untuk mendominasi, kurangnya fleksibilitas, ketidakmampuan, penindasan';
+
+  @override
+  String get tarotMajor05Name => 'Hierophant';
+
+  @override
+  String get tarotMajor05Upright =>
+      'Tradisi, keyakinan, pendidikan, bimbingan spiritual, konservatisme';
+
+  @override
+  String get tarotMajor05Reversed =>
+      'Pemberontakan, melanggar konvensi, dogmatisme, ide-ide lama, nasihat buruk.';
+
+  @override
+  String get tarotMajor06Name => 'Sang Kekasih';
+
+  @override
+  String get tarotMajor06Upright =>
+      'Cinta, harmoni, hubungan, pilihan penting, kepercayaan';
+
+  @override
+  String get tarotMajor06Reversed =>
+      'Perselisihan, pilihan buruk, kehilangan kepercayaan, godaan, ketidakseimbangan.';
+
+  @override
+  String get tarotMajor07Name => 'Kereta Kuda';
+
+  @override
+  String get tarotMajor07Upright =>
+      'Kemauan, kemenangan, tekad, arah, dorongan menuju sukses';
+
+  @override
+  String get tarotMajor07Reversed =>
+      'Kehilangan kendali, disorientasi, ketidakberdayaan, agresi, hambatan';
+
+  @override
+  String get tarotMajor08Name => 'Kekuatan';
+
+  @override
+  String get tarotMajor08Upright =>
+      'Keberanian, ketekunan, kekuatan batin, kontrol lembut, belas kasihan.';
+
+  @override
+  String get tarotMajor08Reversed =>
+      'Ketakutan, kelemahan, kehilangan kendali diri, impulsivitas, kesombongan.';
+
+  @override
+  String get tarotMajor09Name => 'Sang Pertapa';
+
+  @override
+  String get tarotMajor09Upright =>
+      'Eksplorasi batin, kebijaksanaan, kesendirian, pencerahan, penasihat spiritual';
+
+  @override
+  String get tarotMajor09Reversed =>
+      'Isolasi, kesepian, pelarian, keras kepala bodoh, pengasingan';
+
+  @override
+  String get tarotMajor10Name => 'Roda Keberuntungan';
+
+  @override
+  String get tarotMajor10Upright =>
+      'Titik balik, takdir, keberuntungan, perubahan konstan, peluang';
+
+  @override
+  String get tarotMajor10Reversed =>
+      'Kemalangan, perlawanan, perubahan tak terkendali, pengulangan kemalangan';
+
+  @override
+  String get tarotMajor11Name => 'Keadilan';
+
+  @override
+  String get tarotMajor11Upright =>
+      'Keadilan, kebenaran, pembalasan, keseimbangan, keputusan rasional';
+
+  @override
+  String get tarotMajor11Reversed =>
+      'Ketidakadilan, prasangka, ketidakjujuran, hukuman yang tak terhindarkan, ketidakseimbangan';
+
+  @override
+  String get tarotMajor12Name => 'Si Digantung';
+
+  @override
+  String get tarotMajor12Upright =>
+      'Pengorbanan, perspektif baru, menunggu, wawasan, jeda sementara.';
+
+  @override
+  String get tarotMajor12Reversed =>
+      'Pengorbanan yang tidak berarti, penundaan, penolakan untuk maju, keegoisan';
+
+  @override
+  String get tarotMajor13Name => 'Kematian';
+
+  @override
+  String get tarotMajor13Upright =>
+      'Akhir dan awal baru, perubahan, transisi, membersihkan masa lalu';
+
+  @override
+  String get tarotMajor13Reversed =>
+      'Resistensi terhadap perubahan, stagnasi, obsesi dengan yang lama, ketakutan';
+
+  @override
+  String get tarotMajor14Name => 'Kesederhanaan';
+
+  @override
+  String get tarotMajor14Upright =>
+      'Harmoni, keseimbangan, moderasi, penyembuhan, ketegasan tujuan';
+
+  @override
+  String get tarotMajor14Reversed =>
+      'Ketidakseimbangan, ketidakteraturan, perilaku ekstrem, disharmoni, konflik';
+
+  @override
+  String get tarotMajor15Name => 'Iblis';
+
+  @override
+  String get tarotMajor15Upright =>
+      'Obsesi, materialisme, ikatan, godaan, keinginan destruktif.';
+
+  @override
+  String get tarotMajor15Reversed =>
+      'Pembebasan, kebebasan dari ikatan, kemerdekaan, pencerahan, kebebasan';
+
+  @override
+  String get tarotMajor16Name => 'Menara';
+
+  @override
+  String get tarotMajor16Upright =>
+      'Perubahan mendadak, kehancuran, pembebasan, wahyu, keruntuhan';
+
+  @override
+  String get tarotMajor16Reversed =>
+      'Menghindari bencana, menunda perubahan tak terhindarkan, mengabaikan peringatan';
+
+  @override
+  String get tarotMajor17Name => 'Bintang';
+
+  @override
+  String get tarotMajor17Upright =>
+      'Harapan, Inspirasi, Ketenangan, Penyembuhan dan Afirmasi, Bimbingan Spiritual';
+
+  @override
+  String get tarotMajor17Reversed =>
+      'Keputusasaan, kekecewaan, kurangnya inspirasi, pesimisme, kebingungan';
+
+  @override
+  String get tarotMajor18Name => 'Bulan';
+
+  @override
+  String get tarotMajor18Upright =>
+      'Kecemasan, ilusi, intuisi, kebenaran tersembunyi, penipuan';
+
+  @override
+  String get tarotMajor18Reversed =>
+      'Mengatasi ketakutan, menemukan rahasia, meredakan kecemasan, mengungkap kebenaran';
+
+  @override
+  String get tarotMajor19Name => 'Matahari';
+
+  @override
+  String get tarotMajor19Upright =>
+      'Kesuksesan, positivitas, vitalitas, kebahagiaan dan pencapaian, kegembiraan';
+
+  @override
+  String get tarotMajor19Reversed =>
+      'Sisi lain dari kesuksesan yang tertunda, berlebihan, kurang energi, dan kesedihan.';
+
+  @override
+  String get tarotMajor20Name => 'Penghakiman';
+
+  @override
+  String get tarotMajor20Upright =>
+      'Kebangkitan, tekad, pengampunan, panggilan baru, kebangkitan batin';
+
+  @override
+  String get tarotMajor20Reversed =>
+      'Penyesalan, keraguan diri, ketakutan akan perubahan, penyesalan, hukuman';
+
+  @override
+  String get tarotMajor21Name => 'Dunia';
+
+  @override
+  String get tarotMajor21Upright =>
+      'Penyelesaian, pencapaian, integrasi, tingkat baru, penyelesaian yang sukses';
+
+  @override
+  String get tarotMajor21Reversed =>
+      'Ketidaklengkapan, penundaan, stagnasi, ketakutan akan kesuksesan, penundaan.';
+
+  @override
+  String get tarotCups01Name => 'As Cawan';
+
+  @override
+  String get tarotCups01Upright =>
+      'Emosi baru, awal cinta, intuisi, kepuasan spiritual';
+
+  @override
+  String get tarotCups01Reversed =>
+      'Emosi terblokir, merasa tidak dicintai, merasa kosong, sedih.';
+
+  @override
+  String get tarotCups02Name => 'Dua Cawan';
+
+  @override
+  String get tarotCups02Upright =>
+      'Harmoni dalam hubungan, persatuan, cinta, saling menghormati, kerja sama';
+
+  @override
+  String get tarotCups02Reversed =>
+      'Perselisihan hubungan, perpisahan, kesalahpahaman, ketidakseimbangan, cinta tak berbalas';
+
+  @override
+  String get tarotCups03Name => 'Tiga Cawan';
+
+  @override
+  String get tarotCups03Upright =>
+      'Perayaan, persahabatan, komunitas, kegembiraan, hasil kreatif.';
+
+  @override
+  String get tarotCups03Reversed =>
+      'Minum berlebihan, pengasingan, klik, cinta segitiga, pembatalan festival.';
+
+  @override
+  String get tarotCups04Name => 'Empat Cawan';
+
+  @override
+  String get tarotCups04Upright =>
+      'Apatisme, kebosanan, meditasi, peluang terlewatkan, refleksi batin.';
+
+  @override
+  String get tarotCups04Reversed =>
+      'Kesadaran baru, memanfaatkan peluang, revitalisasi, kebangkitan';
+
+  @override
+  String get tarotCups05Name => 'Lima Cawan';
+
+  @override
+  String get tarotCups05Upright =>
+      'Kehilangan, kesedihan, penyesalan tentang masa lalu, pesimisme';
+
+  @override
+  String get tarotCups05Reversed =>
+      'Mengatasi kehilangan, penerimaan, penyembuhan, dan menemukan harapan baru';
+
+  @override
+  String get tarotCups06Name => 'Enam Cawan';
+
+  @override
+  String get tarotCups06Upright =>
+      'Nostalgia masa lalu, masa kanak-kanak, kepolosan, teman lama, kenangan';
+
+  @override
+  String get tarotCups06Reversed =>
+      'Terjebak di masa lalu, mengabaikan masa depan, kemandirian, pertumbuhan';
+
+  @override
+  String get tarotCups07Name => 'Tujuh Cawan';
+
+  @override
+  String get tarotCups07Upright =>
+      'Fantasi, mimpi, kebingungan pilihan, pelarian, lamunan';
+
+  @override
+  String get tarotCups07Reversed =>
+      'Menghadapi kenyataan, tujuan jelas, bangun dari ilusi, tekad';
+
+  @override
+  String get tarotCups08Name => 'Delapan Cawan';
+
+  @override
+  String get tarotCups08Upright =>
+      'Kekecewaan, pergi, menyerah dan pasrah dalam mencari makna yang lebih dalam.';
+
+  @override
+  String get tarotCups08Reversed =>
+      'Tidak bisa pergi, berpegangan pada masa lalu, memulihkan hubungan, ketakutan';
+
+  @override
+  String get tarotCups09Name => 'Sembilan Cawan';
+
+  @override
+  String get tarotCups09Upright =>
+      'Pemenuhan keinginan, kepuasan, kesenangan indrawi, harga diri, kebahagiaan';
+
+  @override
+  String get tarotCups09Reversed =>
+      'Ketidakpuasan, kesombongan, kesuksesan dangkal, keserakahan, keserakahan.';
+
+  @override
+  String get tarotCups10Name => 'Sepuluh Cawan';
+
+  @override
+  String get tarotCups10Upright =>
+      'Kebahagiaan keluarga, kedamaian, pemenuhan emosional, hubungan harmonis';
+
+  @override
+  String get tarotCups10Reversed =>
+      'Konflik dalam keluarga, rumah tangga yang rusak, perselisihan, hilangnya kedamaian';
+
+  @override
+  String get tarotCups11Name => 'Putra Cawan';
+
+  @override
+  String get tarotCups11Upright =>
+      'Inspirasi baru, kreativitas, pesan emosional, intuisi';
+
+  @override
+  String get tarotCups11Reversed =>
+      'Ketidakdewasaan emosional, blokir kreatif, berita buruk, lekas marah.';
+
+  @override
+  String get tarotCups12Name => 'Ksatria Cawan';
+
+  @override
+  String get tarotCups12Upright =>
+      'Romansa, pesona, akses emosional, imajinasi, kesatriaan';
+
+  @override
+  String get tarotCups12Reversed =>
+      'Ketidaknyataan, ketidakstabilan, kecemburuan, ketidakandalan, penipuan';
+
+  @override
+  String get tarotCups13Name => 'Ratu Cawan';
+
+  @override
+  String get tarotCups13Upright =>
+      'Empati, kebaikan, intuisi spiritual, stabilitas emosional, pertimbangan';
+
+  @override
+  String get tarotCups13Reversed =>
+      'Hipersensitivitas, ketidakstabilan, ketergantungan, cosplay korban';
+
+  @override
+  String get tarotCups14Name => 'Raja Cawan';
+
+  @override
+  String get tarotCups14Upright =>
+      'Kontrol emosional, keseimbangan, diplomasi, toleransi, nasihat bijak.';
+
+  @override
+  String get tarotCups14Reversed =>
+      'Manipulatif secara emosional, tidak berperasaan, tidak stabil, murung, kejam.';
+
+  @override
+  String get tarotPentacles01Name => 'As Koin';
+
+  @override
+  String get tarotPentacles01Upright =>
+      'Peluang baru, awal finansial, kelimpahan, pencapaian realistis.';
+
+  @override
+  String get tarotPentacles01Reversed =>
+      'Peluang yang hilang, kerugian finansial, penundaan, investasi buruk.';
+
+  @override
+  String get tarotPentacles02Name => 'Dua Koin';
+
+  @override
+  String get tarotPentacles02Upright =>
+      'Keseimbangan, adaptasi, manajemen waktu/finansial, fleksibilitas';
+
+  @override
+  String get tarotPentacles02Reversed =>
+      'Ketidakseimbangan, kewalahan, kesulitan finansial, stres';
+
+  @override
+  String get tarotPentacles03Name => 'Tiga Koin';
+
+  @override
+  String get tarotPentacles03Upright =>
+      'Kerja tim, kolaborasi, teknologi, upaya yang diakui, arsitektur';
+
+  @override
+  String get tarotPentacles03Reversed =>
+      'Kurangnya kolaborasi, kurangnya keterampilan, kurangnya pengakuan, konflik pendapat.';
+
+  @override
+  String get tarotPentacles04Name => 'Empat Koin';
+
+  @override
+  String get tarotPentacles04Upright =>
+      'Stabilitas, posesif, konservatisme, kekikiran, akumulasi';
+
+  @override
+  String get tarotPentacles04Reversed =>
+      'Melepaskan harga keserakahan, kehilangan, kelalaian finansial, dan obsesi.';
+
+  @override
+  String get tarotPentacles05Name => 'Lima Koin';
+
+  @override
+  String get tarotPentacles05Upright =>
+      'Kekurangan, kekurangan finansial/emosional, pengasingan, kesulitan';
+
+  @override
+  String get tarotPentacles05Reversed =>
+      'Pemulihan finansial, uluran tangan, mengatasi kesulitan, perubahan positif.';
+
+  @override
+  String get tarotPentacles06Name => 'Enam Koin';
+
+  @override
+  String get tarotPentacles06Upright =>
+      'Amal, berbagi, sponsor, keadilan, memberi dan menerima';
+
+  @override
+  String get tarotPentacles06Reversed =>
+      'Keegoisan, hutang, ketidaksetaraan, sikap merendahkan, eksploitasi';
+
+  @override
+  String get tarotPentacles07Name => 'Tujuh Koin';
+
+  @override
+  String get tarotPentacles07Upright =>
+      'Kesabaran, visi jangka panjang, menunggu imbalan atas usaha, evaluasi';
+
+  @override
+  String get tarotPentacles07Reversed =>
+      'Ketidaksabaran, usaha sia-sia, penundaan, frustrasi, dan investasi yang gagal.';
+
+  @override
+  String get tarotPentacles08Name => 'Delapan Koin';
+
+  @override
+  String get tarotPentacles08Upright =>
+      'Keahlian, komitmen, perhatian terhadap detail, keterampilan.';
+
+  @override
+  String get tarotPentacles08Reversed =>
+      'Kebosanan, jebakan perfeksionisme, kemalasan, hilangnya gairah.';
+
+  @override
+  String get tarotPentacles09Name => 'Sembilan Koin';
+
+  @override
+  String get tarotPentacles09Upright =>
+      'Pencapaian, kemandirian, waktu luang, kenyamanan finansial, penghargaan diri';
+
+  @override
+  String get tarotPentacles09Reversed =>
+      'Pengeluaran berlebihan, kemewahan dangkal, ketergantungan, ketidakamanan finansial';
+
+  @override
+  String get tarotPentacles10Name => 'Sepuluh Koin';
+
+  @override
+  String get tarotPentacles10Upright =>
+      'Bisnis keluarga, akumulasi kekayaan, warisan, kehidupan stabil, tradisi';
+
+  @override
+  String get tarotPentacles10Reversed =>
+      'Kehilangan properti, perselisihan keluarga, pemberontakan terhadap tradisi, ketidakstabilan.';
+
+  @override
+  String get tarotPentacles11Name => 'Putra Koin';
+
+  @override
+  String get tarotPentacles11Upright =>
+      'Tujuan realistis, studi baru, peluang, kepraktisan, perencanaan';
+
+  @override
+  String get tarotPentacles11Reversed =>
+      'Penundaan dalam perencanaan, kurangnya kepraktisan, kemalasan, penundaan.';
+
+  @override
+  String get tarotPentacles12Name => 'Ksatria Koin';
+
+  @override
+  String get tarotPentacles12Upright =>
+      'Ketulusan, tanggung jawab, ketekunan, perkembangan bertahap, keandalan';
+
+  @override
+  String get tarotPentacles12Reversed =>
+      'Keras kepala, kelesuan, gila kerja, kurangnya fleksibilitas, stagnasi';
+
+  @override
+  String get tarotPentacles13Name => 'Ratu Koin';
+
+  @override
+  String get tarotPentacles13Upright =>
+      'Perawatan praktis, nasihat praktis, kelimpahan, kemurahan hati, kenyamanan.';
+
+  @override
+  String get tarotPentacles13Reversed =>
+      'Kontrol berlebihan, posesif, keegoisan, ketidakamanan finansial, pengeluaran berlebihan.';
+
+  @override
+  String get tarotPentacles14Name => 'Raja Koin';
+
+  @override
+  String get tarotPentacles14Upright =>
+      'Kekayaan, kesuksesan, kejelian bisnis, otoritas, dan pendukung kuat.';
+
+  @override
+  String get tarotPentacles14Reversed =>
+      'Materialisme, korupsi, keserakahan, keras kepala, otoritas menindas';
+
+  @override
+  String get tarotSwords01Name => 'As Pedang';
+
+  @override
+  String get tarotSwords01Upright =>
+      'Wawasan yang jelas, pemikiran baru, kebenaran, terobosan spiritual';
+
+  @override
+  String get tarotSwords01Reversed =>
+      'Kebingungan, informasi yang salah, kehilangan penilaian, kurangnya komunikasi';
+
+  @override
+  String get tarotSwords02Name => 'Dua Pedang';
+
+  @override
+  String get tarotSwords02Upright =>
+      'Ketidakyakinan, kebutaan, pemblokiran emosi, penghindaran keputusan sulit.';
+
+  @override
+  String get tarotSwords02Reversed =>
+      'Membuat keputusan, menghadapi fakta, membuat kesalahan karena kurangnya informasi';
+
+  @override
+  String get tarotSwords03Name => 'Tiga Pedang';
+
+  @override
+  String get tarotSwords03Upright =>
+      'Sakit hati, kesedihan, perpisahan, luka, kebenaran yang menyakitkan.';
+
+  @override
+  String get tarotSwords03Reversed =>
+      'Mengatasi rasa sakit, penyembuhan, pengampunan, melepaskan kesedihan';
+
+  @override
+  String get tarotSwords04Name => 'Empat Pedang';
+
+  @override
+  String get tarotSwords04Upright =>
+      'Relaksasi, pemulihan, meditasi, penghilang stres, kedamaian batin';
+
+  @override
+  String get tarotSwords04Reversed =>
+      'Kelelahan, penolakan untuk pulih, istirahat paksa, stres ekstrem.';
+
+  @override
+  String get tarotSwords05Name => 'Lima Pedang';
+
+  @override
+  String get tarotSwords05Upright =>
+      'Kemenangan yang hanya menyakitkan, pengkhianatan, konflik, permusuhan, dan kekejaman.';
+
+  @override
+  String get tarotSwords05Reversed =>
+      'Penyelesaian konflik, rekonsiliasi, kompromi, mengakui kekalahan, melepaskan balas dendam';
+
+  @override
+  String get tarotSwords06Name => 'Enam Pedang';
+
+  @override
+  String get tarotSwords06Upright =>
+      'Transisi, pelepasan dari rasa sakit, perjalanan penyembuhan, pergerakan, perjalanan';
+
+  @override
+  String get tarotSwords06Reversed =>
+      'Resistensi terhadap perubahan, luka masa lalu yang menghambat, penundaan';
+
+  @override
+  String get tarotSwords07Name => 'Tujuh Pedang';
+
+  @override
+  String get tarotSwords07Upright =>
+      'Penipuan, tipuan, strategi, sembunyi-sembunyi, melarikan diri';
+
+  @override
+  String get tarotSwords07Reversed =>
+      'Pengakuan, mengungkapkan rahasia, menemukan penipuan, rasa bersalah, menghadapi masalah secara langsung.';
+
+  @override
+  String get tarotSwords08Name => 'Delapan Pedang';
+
+  @override
+  String get tarotSwords08Upright =>
+      'Egosentris, ketidakberdayaan, pemikiran terbatas, penjara ketakutan';
+
+  @override
+  String get tarotSwords08Reversed =>
+      'Pembebasan, membebaskan diri dari penjara sendiri, perspektif baru';
+
+  @override
+  String get tarotSwords09Name => 'Sembilan Pedang';
+
+  @override
+  String get tarotSwords09Upright =>
+      'Kecemasan, keputusasaan, insomnia, rasa bersalah, ketakutan batin.';
+
+  @override
+  String get tarotSwords09Reversed =>
+      'Mengatasi ketakutan, secercah harapan, meredakan insomnia, menghadapi fakta';
+
+  @override
+  String get tarotSwords10Name => 'Sepuluh Pedang';
+
+  @override
+  String get tarotSwords10Upright =>
+      'Kehancuran, luka yang dalam, pengkhianatan, mencapai titik terendah, akhir tiba.';
+
+  @override
+  String get tarotSwords10Reversed =>
+      'Pemulihan dari kehancuran, yang terburuk telah berlalu, bertahan, membangun kembali';
+
+  @override
+  String get tarotSwords11Name => 'Putra Pedang';
+
+  @override
+  String get tarotSwords11Upright =>
+      'Rasa ingin tahu, keterampilan analitis yang tajam, mencari kebenaran, ide-ide baru';
+
+  @override
+  String get tarotSwords11Reversed =>
+      'Ketidakbijaksanaan, ketidaksabaran, sinisme, rumor tak berdasar, kekasaran';
+
+  @override
+  String get tarotSwords12Name => 'Ksatria Pedang';
+
+  @override
+  String get tarotSwords12Upright =>
+      'Gerak cepat, ambisi, dorongan intelektual, tindakan cepat dan tegas';
+
+  @override
+  String get tarotSwords12Reversed =>
+      'Kecerobohan, agresi, kata-kata dan tindakan yang tidak bijaksana, impulsivitas, kekejaman';
+
+  @override
+  String get tarotSwords13Name => 'Ratu Pedang';
+
+  @override
+  String get tarotSwords13Upright =>
+      'Kemandirian, komunikasi yang jelas, penilaian tajam, kejujuran, objektivitas';
+
+  @override
+  String get tarotSwords13Reversed =>
+      'Kekejaman, kekejaman, kritik berlebihan, kebencian, isolasi';
+
+  @override
+  String get tarotSwords14Name => 'Raja Pedang';
+
+  @override
+  String get tarotSwords14Upright =>
+      'Otoritas, wawasan intelektual, logika, keadilan, prinsip, ahli';
+
+  @override
+  String get tarotSwords14Reversed =>
+      'Penyalahgunaan kekuasaan, irasionalitas, kekejaman, keinginan untuk mengendalikan, kediktatoran';
+
+  @override
+  String get tarotWands01Name => 'As Tongkat';
+
+  @override
+  String get tarotWands01Upright =>
+      'Gairah, inspirasi, kekuatan kreatif, potensi baru, vitalitas';
+
+  @override
+  String get tarotWands01Reversed =>
+      'Antusiasme tertunda, kurang inspirasi, kehilangan motivasi, dan kebingungan identitas.';
+
+  @override
+  String get tarotWands02Name => 'Dua Tongkat';
+
+  @override
+  String get tarotWands02Upright =>
+      'Perencanaan, visi, tujuan jangka panjang, tekad, eksplorasi';
+
+  @override
+  String get tarotWands02Reversed =>
+      'Kurangnya perencanaan, penundaan, stagnasi karena ketakutan, visi terbatas.';
+
+  @override
+  String get tarotWands03Name => 'Tiga Tongkat';
+
+  @override
+  String get tarotWands03Upright =>
+      'Realisasi harapan, kemajuan, ekspansi, pandangan ke depan, kepemimpinan';
+
+  @override
+  String get tarotWands03Reversed =>
+      'Perlambatan pertumbuhan, kemunduran, cacat tak terduga, intoleransi';
+
+  @override
+  String get tarotWands04Name => 'Empat Tongkat';
+
+  @override
+  String get tarotWands04Upright =>
+      'Perayaan, kenyamanan, kegembiraan pencapaian, sambutan, acara rumah tangga';
+
+  @override
+  String get tarotWands04Reversed =>
+      'Acara dibatalkan, perselisihan keluarga, stabilitas sementara, perayaan tertunda.';
+
+  @override
+  String get tarotWands05Name => 'Lima Tongkat';
+
+  @override
+  String get tarotWands05Upright =>
+      'Persaingan, konflik, ketidaksepakatan, pertengkaran, tantangan';
+
+  @override
+  String get tarotWands05Reversed =>
+      'Kompromi, penghindaran konflik, kerja sama, pencarian perdamaian, menenangkan kekacauan';
+
+  @override
+  String get tarotWands06Name => 'Enam Tongkat';
+
+  @override
+  String get tarotWands06Upright =>
+      'Kesuksesan, pengakuan publik, kemenangan, kepercayaan diri, munculnya pemimpin.';
+
+  @override
+  String get tarotWands06Reversed =>
+      'Kekalahan, aib, ketidaksetujuan, kesombongan, hilangnya reputasi';
+
+  @override
+  String get tarotWands07Name => 'Tujuh Tongkat';
+
+  @override
+  String get tarotWands07Upright =>
+      'Keberanian, pertahanan, menghadapi persaingan, keyakinan teguh, ketekunan.';
+
+  @override
+  String get tarotWands07Reversed =>
+      'Menyerah, kewalahan, berkompromi, kehilangan kepercayaan diri, kepengecutan.';
+
+  @override
+  String get tarotWands08Name => 'Delapan Tongkat';
+
+  @override
+  String get tarotWands08Upright =>
+      'Cepat, akhir cepat, berita, kelincahan, kecepatan.';
+
+  @override
+  String get tarotWands08Reversed =>
+      'Penundaan, kebingungan, kesalahan karena tergesa-gesa, ketidakmampuan untuk berkomunikasi';
+
+  @override
+  String get tarotWands09Name => 'Sembilan Tongkat';
+
+  @override
+  String get tarotWands09Upright =>
+      'Ketahanan, defensif, terus berlanjut meski kelelahan, kewaspadaan, uji stamina.';
+
+  @override
+  String get tarotWands09Reversed =>
+      'Kelelahan, paranoia, menyerah, keras kepala, perlawanan yang tidak perlu.';
+
+  @override
+  String get tarotWands10Name => 'Sepuluh Tongkat';
+
+  @override
+  String get tarotWands10Upright =>
+      'Beban berlebihan, tekanan ekstrem, tanggung jawab, tekanan, batasan.';
+
+  @override
+  String get tarotWands10Reversed =>
+      'Melepaskan, menghindari tanggung jawab, kelelahan, mendelegasikan, mengatasi.';
+
+  @override
+  String get tarotWands11Name => 'Putra Tongkat';
+
+  @override
+  String get tarotWands11Upright =>
+      'Eksplorasi, penemuan, ide-ide penuh gairah, energi, pesona';
+
+  @override
+  String get tarotWands11Reversed =>
+      'Kehilangan arah, ketidakdewasaan, mudah bosan, delusi sia-sia, ketidakbertanggungjawaban';
+
+  @override
+  String get tarotWands12Name => 'Ksatria Tongkat';
+
+  @override
+  String get tarotWands12Upright =>
+      'Gerakan maju yang penuh gairah, semangat petualang, tindakan, energi, kepercayaan diri';
+
+  @override
+  String get tarotWands12Reversed =>
+      'Perilaku impulsif, kesombongan, ketidakstabilan, kemarahan, dan kurangnya perencanaan.';
+
+  @override
+  String get tarotWands13Name => 'Ratu Tongkat';
+
+  @override
+  String get tarotWands13Upright =>
+      'Kharisma, keberanian, kemandirian, kecerahan, pesona, vitalitas';
+
+  @override
+  String get tarotWands13Reversed =>
+      'Keegoisan, pamer, kecemburuan, ketidakstabilan, agresi';
+
+  @override
+  String get tarotWands14Name => 'Raja Tongkat';
+
+  @override
+  String get tarotWands14Upright =>
+      'Kepemimpinan karismatik, visi, inspirasi, keberanian, wirausahawan';
+
+  @override
+  String get tarotWands14Reversed =>
+      'Kediktatoran, kemarahan impulsif, ketidaknyataan, kesombongan, kekejaman';
+
+  @override
+  String get nicknamePrefixes =>
+      'Misterius, tenang, suci, gelap, bersinar, dingin, panas, memikat, brutal, murni, kasar, lembut, indah, aneh, agung, lusuh, abadi, terlupakan, cemerlang, sedih, bahagia, melamun, dekaden, putih murni, hitam pekat, merah darah, abu-abu, keemasan, keperakan, biru, merah, kuning, hitam, putih, transparan, kesepian, berisik, sunyi, hangat, dingin, kesepian, kesepian, gembira, bahagia, murung, tanpa harapan, penuh harapan, mempesona, remang-remang, gelap, sunyi, rahasia, rahasia, sakral, profan, arogan, rendah hati, bijaksana, bodoh, kuat, lemah, berani, pengecut, jauh, dekat, surut, mendekat, menghilang, muncul, bangun, tidur, bermimpi, mengembara, mengembara, tinggal, melayang, kembali, menunggu, mencari, tersembunyi, terungkap, ditinggalkan, terpilih, diberkati, terkutuk, dicintai, dibenci, mengingat, melupakan, bintang, bulan, matahari, alam semesta, bumi, laut, langit, awan, angin, hujan, salju, es, api, air, tanah, pohon, hutan, gunung, sungai, danau, waktu, ruang, dimensi, takdir, nasib, energi musuh, sihir, mitos, legenda, kebenaran, kebohongan, fantasi, mimpi, mimpi buruk, kehancuran, penciptaan, kehidupan, kematian, jiwa, daging, akal, emosi, cinta, benci, kesedihan. kegembiraan, kemarahan, kedamaian, perang, kekacauan, ketertiban, terang, gelap, senja, fajar, tengah hari, tengah malam, masa lalu, masa kini, masa depan, asal, kiamat, tak terbatas, terbatas, keheningan. kebisingan, menyanyi, menari, menangis, tertawa, berbisik, berteriak, berdoa, memohon, memerintah, mematuhi, memerintah, melayani, memimpin, mengikuti, mengajar, belajar, kenangan, kenangan, luka, penyembuhan, racun, obat, ilusi, substansi, ideal, realitas, virtual, alami, buatan, primordial, keabadian, momen, sekilas, abadi, perubahan, berhenti. mengalir, berhenti, membakar, mendingin, mekar, layu, tumbuh, mati, bernapas, sesak, cemerlang, halus, gelap, redup, transparan, samar, mempesona, aneh. unik, istimewa, mulia, murni, rusak, soliter, kesepian, terpencil, jauh, keras, kejam, kejam, agung, kuat, tegas, fleksibel, cepat, lambat, tenang, kacau, ingatan, imajiner, diam, berbisik, menyanyi, menari, terisak, tersenyum, menyeringai, merenung, mengembara, mengembara, terjaga, tertidur, bermimpi, melamun. Melakukan, delusi, berdoa, sungguh-sungguh, memilukan, memilukan, luhur, jahat, kejam, arogan, rendah hati, baik hati, hangat, dingin, menyeramkan, aneh, menakutkan, ekstatis, memukau, memusingkan, manis, pahit manis, pahit, berduri, tajam, tumpul, kasar, lembut, nyaman, nyaman, genting, tidak nyaman, riang, damai, lesu, bosan, penuh gairah, acuh tak acuh, tenang, garang, garang, gila, gila, rasional, emosional, berkepala dingin, bijaksana, bodoh, naif, licik, licik, putih murni, hitam pekat, emas, perak, berdarah';
+
+  @override
+  String get nicknameSuffixes =>
+      'Nabi, Penyihir, Penyihir Wanita, Ksatria, Prajurit, Pemanah, Penjahat, Pembunuh Bayaran, Paladin, Imam, Imam Wanita, Biksu, Dukun, Alkemis, Necromancer, Elementalist, Pemanggil, Illusionist, Penyembuh, Orang Bijak, Cendekiawan, Peneliti, Penjelajah, Pengembara, Penguasa, pengembara, pengembara, peziarah, pencari, pengamat, perekam, pembawa pesan, penjaga, penjaga, penjaga, penjaga gerbang, hakim, algojo, penguasa, penguasa, raja, ratu, kaisar, permaisuri, bangsawan, bangsawan, komandan ksatria, tentara bayaran, bajak laut, pencuri, penipu, badut, bodoh, pertapa, bidat, pengkhianat, pengkhianat, pahlawan, penyelamat, pembebas, penghancur, pencipta, dewa, dewi, malaikat, iblis, roh, peri, monster, binatang, naga, hantu, wraith, undead, vampir. , manusia serigala, putri duyung, siren, nimfa, goblin, orc, troll, elf, kurcaci, raksasa, kurcaci, manusia, beastman, penyambung, fishman, naga, roh jahat, Sura, jurang, surga, dunia bawah, dunia lain, jurang, kekacauan, ketertiban, terang, gelap, pencari, peziarah, pengembara, pertapa, bidat, pengkhianat, pelopor, penakluk, penguasa, koordinator, penjaga, pengawas, pengamat, perekam, pembawa pesan, pemandu, pemandu, penyelamat, penghancur, pencipta, hantu, hantu, hantu, roh jahat. , roh, peri, binatang ajaib, binatang suci, binatang hantu, binatang ilahi, pendekar pedang, ksatria, pemanah, pencuri, pembunuh bayaran, penyihir, dukun, alkemis, necromancer, imam, cendekiawan, peneliti, penjelajah, pengembara, seniman, badut, bard, pedagang, pengrajin, Petani, gagak, burung hantu, elang, elang, serigala, rubah, beruang, singa, harimau, macan tutul, macan kumbang, kucing, kucing, anjing, ular, kadal, kura-kura, buaya, naga, unicorn, pegasus, griffon, gargoyle, goblin. , Orc, Troll, Ogre, Slime, Kerangka, Zombie, Ghoul, Vampir, Manusia Serigala, Minotaur, Centaur, Harpy, Siren, Kraken, Leviathan, Pedang, Perisai, Tombak, Busur, Tongkat, Cincin, Kalung, Mahkota, Cawan Suci.';
+
+  @override
+  String get eulaTitle => 'Perjanjian Lisensi Pengguna Akhir (EULA)';
+
+  @override
+  String get eulaArticle1 =>
+      'Pasal 1 (Pemberian Lisensi)\nIzin untuk menggunakan aplikasi ini (“Tarot Witch”) diberikan hanya untuk penggunaan pribadi, non-komersial, dan tidak ada kepemilikan atau hak kekayaan intelektual dalam aplikasi yang dialihkan.';
+
+  @override
+  String get eulaArticle2 =>
+      'Pasal 2 (Penggunaan Terlarang)\nPengguna tidak boleh menggunakan layanan ini untuk tujuan yang ilegal atau melanggar hak orang lain, dan tidak boleh secara sewenang-wenang memanipulasi atau merekayasa ulang sistem atau data.';
+
+  @override
+  String get eulaArticle3 =>
+      'Pasal 3 (Pengumpulan data dan periode penyimpanan)\nUntuk memberikan layanan yang lancar, buku harian tarot dan data ramalan terkait yang ditulis oleh pengguna disimpan dengan aman selama tiga tahun sejak tanggal pembuatan.';
+
+  @override
+  String get eulaArticle4 =>
+      'Pasal 4 (Penanganan akun dorman tidak aktif jangka panjang)\nJika pengguna tidak mengakses layanan selama lebih dari satu tahun (365 hari), akun akan diubah menjadi akun dorman, dan semua data pengguna akan dihapus secara otomatis tanpa pemberitahuan sebelumnya untuk melindungi informasi pribadi dan menjaga lingkungan server yang lancar.';
+
+  @override
+  String get eulaArticle5 =>
+      'Pasal 5 (Penghancuran data dan pemulihan tidak mungkin)\nData yang telah melewati periode retensi di Pasal 3 atau telah dihapus sesuai dengan Pasal 4 akan dihancurkan secara permanen dan tidak dapat dipulihkan dalam keadaan apa pun.';
+
+  @override
+  String get eulaArticle6 =>
+      'Pasal 6 (Penafian Jaminan dan Ganti Rugi)\nBacaan dan interpretasi tarot yang disediakan oleh aplikasi ini hanya untuk tujuan hiburan dan bukan pengganti nasihat hukum, medis, atau keuangan. Pengembang tidak bertanggung jawab atas kerugian langsung atau tidak langsung yang timbul dari penggunaan layanan.';
+
+  @override
+  String get eulaAgreement =>
+      'Isi EULA dan kebijakan pengelolaan data di atas adalah item wajib yang harus disetujui untuk dapat menggunakan aplikasi.';
+
+  @override
+  String get closeButton => 'tutup';
+
+  @override
+  String get pushTermsTitle =>
+      'Ikut serta untuk menerima notifikasi acara dan pemasaran';
+
+  @override
+  String get pushArticle1 =>
+      'Pasal 1 (Tujuan)\nPersetujuan ini adalah agar layanan Tarot Witch dapat mengirimkan informasi iklan seperti acara, promosi, dan pembaruan horoskop baru yang bermanfaat bagi pengguna melalui notifikasi push.';
+
+  @override
+  String get pushArticle2 =>
+      'Pasal 2 (Penarikan penerimaan)\nPengguna dapat menarik persetujuan ini kapan saja melalui [Menu Saya > Pengaturan Aplikasi] di dalam aplikasi. Meskipun Anda menarik persetujuan Anda, Anda masih dapat menggunakan fungsi dasar (layanan penting) dari layanan seperti biasa.';
+
+  @override
+  String get pushArticle3 =>
+      'Pasal 3 (Isi Notifikasi)\nNotifikasi yang dikirimkan mungkin bersifat iklan dan pemasaran, seperti penawaran diskon khusus dalam aplikasi, acara waktu terbatas, dan rekomendasi horoskop yang dipersonalisasi.';
+
+  @override
+  String get pushAgreement =>
+      'Di atas adalah opsional bagi pengguna, dan bahkan jika tidak ada persetujuan yang diberikan, tidak ada kerugian dalam menggunakan layanan tarot.';
+
+  @override
+  String get windowsNoGoogleLogin =>
+      'Login Google tidak didukung di lingkungan pratinjau (Windows). Harap gunakan perangkat Android atau web.';
+
+  @override
+  String get signupTermsRequired =>
+      'Untuk melanjutkan pendaftaran keanggotaan, Anda harus menyetujui syarat dan ketentuan penyimpanan data.';
+
+  @override
+  String googleLoginError(String error) {
+    return 'Kesalahan masuk Google: $error';
+  }
+
+  @override
+  String get googleLoginUnknownError =>
+      'Terjadi kesalahan tidak dikenal saat masuk ke Google.';
+
+  @override
+  String get windowsNoFirebase =>
+      'Login Firebase tidak didukung di lingkungan pratinjau (Windows).';
+
+  @override
+  String get emailVerificationRequired =>
+      'Verifikasi email diperlukan. Harap periksa email yang Anda gunakan untuk mendaftar.';
+
+  @override
+  String get resendEmail => 'Kirim ulang';
+
+  @override
+  String get verificationEmailSent => 'Email verifikasi telah dikirim ulang.';
+
+  @override
+  String get passwordMismatch => 'Kata sandi tidak cocok. Harap periksa lagi.';
+
+  @override
+  String get signupSuccess =>
+      'Pendaftaran keanggotaan telah selesai. Harap periksa email yang dikirim untuk menyelesaikan verifikasi.';
+
+  @override
+  String get authError => 'Terjadi kesalahan otentikasi.';
+
+  @override
+  String get authLoginTitle => 'masuk';
+
+  @override
+  String get authSignupTitle => 'bergabung dengan keanggotaan';
+
+  @override
+  String get authTarotNickname => 'Nama panggilan di Dunia Tarot';
+
+  @override
+  String get authRerollNickname => 'Pilih nama panggilan lagi';
+
+  @override
+  String get authEmail => 'email';
+
+  @override
+  String get authPassword => 'kata sandi';
+
+  @override
+  String get authConfirmPassword => 'verifikasi kata sandi';
+
+  @override
+  String get authKeepLoggedIn => 'Tetap masuk';
+
+  @override
+  String get authAgreeEula =>
+      'Saya menyetujui Perjanjian Lisensi Pengguna Akhir (EULA). (penting)';
+
+  @override
+  String get authViewContent => '[Lihat konten]';
+
+  @override
+  String get authAgreePush =>
+      'Saya setuju untuk menerima notifikasi bacaan tarot dan acara baru. (pilih)';
+
+  @override
+  String get authBtnLogin => 'Masuk';
+
+  @override
+  String get authBtnSignup => 'Daftar';
+
+  @override
+  String get authSwitchToSignup =>
+      'Belum punya akun? bergabung dengan keanggotaan';
+
+  @override
+  String get authSwitchToLogin => 'Sudah punya akun? masuk';
+
+  @override
+  String get authGoogleSignIn => 'Mulai dengan Google';
+
+  @override
+  String get cardDetailNotReady => 'Interpretasi ini belum siap.';
+
+  @override
+  String get cardDetailLoadError => 'Terjadi kesalahan saat memuat data.';
+
+  @override
+  String get cardDetailTabUpright => 'Tegak';
+
+  @override
+  String get cardDetailTabReversed => 'Terbalik';
+
+  @override
+  String get cardDetailNoInterpretation => 'Tidak ada interpretasi.';
+
+  @override
+  String get cardDetailSectionKeywords => 'Kata Kunci';
+
+  @override
+  String get cardDetailSectionGeneral => 'Interpretasi umum';
+
+  @override
+  String get cardDetailSectionLove => 'keberuntungan cinta';
+
+  @override
+  String get cardDetailSectionCareer => 'karier uang';
+
+  @override
+  String get cardDetailSectionHealth => 'kesehatan';
+
+  @override
+  String get cardDetailSectionSpirituality => 'spiritualitas batin';
+
+  @override
+  String get chatDustShortageTitle => 'kekurangan bedak';
+
+  @override
+  String get chatDustShortageContent =>
+      'Bubuk ajaib tidak cukup. Pembacaan tarot membutuhkan 1 bedak.';
+
+  @override
+  String get chatConfirmBtn => 'memeriksa';
+
+  @override
+  String get chatStartReadingTitle => 'Mulai membaca tarot';
+
+  @override
+  String get chatStartReadingContent =>
+      'Apakah Anda ingin menghabiskan 1 bedak untuk memulai pembacaan tarot?';
+
+  @override
+  String get chatCancelBtn => 'pembatalan';
+
+  @override
+  String get chatStartBtn => 'awal';
+
+  @override
+  String get chatShufflingCards => 'Mengocok kartu tarot...';
+
+  @override
+  String get profileEditEmptyNickname => 'Silakan masukkan nama panggilan.';
+
+  @override
+  String get profileEditDuplicateNickname =>
+      'Nama panggilan sudah digunakan. Silakan masukkan nama panggilan yang berbeda.';
+
+  @override
+  String get profileEditEmptyPassword =>
+      'Silakan masukkan kata sandi Anda saat ini untuk mengubah email Anda.';
+
+  @override
+  String get profileEditEmailSent =>
+      'Email verifikasi telah dikirim. Silakan selesaikan verifikasi di kotak masuk email baru Anda.';
+
+  @override
+  String get profileEditSuccess => 'Profil telah disimpan.';
+
+  @override
+  String get profileEditErrorDefault => 'Terjadi kesalahan.';
+
+  @override
+  String get profileEditErrorWrongPassword => 'Kata sandi salah.';
+
+  @override
+  String get profileEditErrorInvalidEmail => 'Format email tidak valid.';
+
+  @override
+  String get profileEditErrorEmailInUse => 'Email sudah digunakan.';
+
+  @override
+  String get profileEditErrorRecentLogin =>
+      'Demi alasan keamanan, silakan masuk lagi dan coba.';
+
+  @override
+  String profileEditErrorUnknown(String error) {
+    return 'Terjadi kesalahan yang tidak diketahui saat menyimpan: $error';
+  }
+
+  @override
+  String get profileEditTitle => 'Sunting Profil';
+
+  @override
+  String get profileEditPhoto => 'Foto Profil';
+
+  @override
+  String get profileEditNickname => 'Nama panggilan';
+
+  @override
+  String get profileEditEmail => 'Alamat Surel';
+
+  @override
+  String get profileEditEmailSocialHint =>
+      'Akun tertaut Google/Apple tidak dapat mengubah email.';
+
+  @override
+  String get profileEditEmailChangeHint =>
+      'Email verifikasi akan dikirim saat mengganti email.';
+
+  @override
+  String get profileEditPassword =>
+      'Kata Sandi Saat Ini (untuk verifikasi perubahan email)';
+
+  @override
+  String get profileEditCancel => 'Membatalkan';
+
+  @override
+  String get profileEditSave => 'Menyimpan';
 }

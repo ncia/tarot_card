@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import '../widgets/gradient_background.dart';
 import '../widgets/glass_container.dart';
 import '../data/tarot_data.dart';
+import '../data/tarot_diary.dart';
+import '../services/diary_service.dart';
 import 'package:flutter_tarot/l10n/tarot_localizations.dart';
 
 class DiaryEditScreen extends StatefulWidget {
@@ -37,29 +37,22 @@ class _DiaryEditScreenState extends State<DiaryEditScreen> {
   }
 
   Future<void> _saveDiary() async {
-    final user = FirebaseAuth.instance.currentUser;
-    if (user == null) {
-      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('로그인이 필요합니다.')));
-      return;
-    }
-
     setState(() => _isSaving = true);
     try {
-      await FirebaseFirestore.instance
-          .collection('users')
-          .doc(user.uid)
-          .collection('diaries')
-          .add({
-        'cardId': widget.cards.isNotEmpty ? widget.cards[0].id : '',
-        'spreadType': widget.spreadType,
-        'myNote': _noteController.text,
-        'resultText': widget.cardMeanings.isNotEmpty ? widget.cardMeanings[0] : '',
-        'date': FieldValue.serverTimestamp(),
-        'cardIds': widget.cards.map((c) => c.id).toList(),
-        'cardReversals': widget.cardReversals,
-        'positionLabels': widget.positionLabels,
-        'cardMeanings': widget.cardMeanings,
-      });
+      final diary = TarotDiary(
+        id: DateTime.now().millisecondsSinceEpoch.toString(),
+        cardId: widget.cards.isNotEmpty ? widget.cards[0].id : '',
+        spreadType: widget.spreadType,
+        myNote: _noteController.text,
+        resultText: widget.cardMeanings.isNotEmpty ? widget.cardMeanings[0] : '',
+        date: DateTime.now(),
+        cardIds: widget.cards.map((c) => c.id).toList(),
+        cardReversals: widget.cardReversals,
+        positionLabels: widget.positionLabels,
+        cardMeanings: widget.cardMeanings,
+      );
+
+      await DiaryService.instance.saveDiary(diary);
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('일기가 저장되었습니다!')));
         Navigator.pop(context);

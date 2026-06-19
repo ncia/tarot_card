@@ -9,6 +9,8 @@ import '../services/economy_service.dart';
 import '../data/witch_data.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import '../services/diary_service.dart';
+import '../data/tarot_diary.dart';
 
 class ChatMessage {
   final String text;
@@ -212,7 +214,7 @@ class _ChatScreenState extends State<ChatScreen> {
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(ctx),
-              child: const Text('확인', style: TextStyle(color: Colors.amberAccent)),
+              child: Text(AppLocalizations.of(context)!.chatConfirmBtn, style: TextStyle(color: Colors.amberAccent)),
             ),
           ],
         ),
@@ -229,7 +231,7 @@ class _ChatScreenState extends State<ChatScreen> {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx, false),
-            child: const Text('취소', style: TextStyle(color: Colors.white54)),
+            child: Text(AppLocalizations.of(context)!.chatCancelBtn, style: TextStyle(color: Colors.white54)),
           ),
           ElevatedButton(
             onPressed: () => Navigator.pop(ctx, true),
@@ -338,26 +340,21 @@ class _ChatScreenState extends State<ChatScreen> {
 
   void _autoSaveDiary(List<String> pickedCards, String cleanText) async {
     try {
-      final user = FirebaseAuth.instance.currentUser;
-      if (user != null) {
-        await FirebaseFirestore.instance
-            .collection('users')
-            .doc(user.uid)
-            .collection('diaries')
-            .add({
-          'cardId': pickedCards.isNotEmpty ? pickedCards[0] : '',
-          'spreadType': '타로 상담',
-          'myNote': _currentQuestion,
-          'resultText': cleanText,
-          'date': FieldValue.serverTimestamp(),
-          'expiresAt': Timestamp.fromDate(DateTime.now().add(const Duration(days: 365 * 3))), // 3년 뒤 개별 데이터 자동 파기
-          'cardIds': pickedCards,
-          'cardReversals': List.generate(pickedCards.length, (_) => false), // 현재 채팅에서는 역방향 지원 미구현이므로 전부 false
-          'positionLabels': List.generate(pickedCards.length, (i) => '포지션 ${i + 1}'),
-          'cardMeanings': List.generate(pickedCards.length, (_) => ''), // 의미는 상담 내용 안에 포함됨
-          'witchId': _selectedWitch.id,
-        });
-      }
+      final diary = TarotDiary(
+        id: DateTime.now().millisecondsSinceEpoch.toString(),
+        cardId: pickedCards.isNotEmpty ? pickedCards[0] : '',
+        spreadType: '타로 상담',
+        myNote: _currentQuestion,
+        resultText: cleanText,
+        date: DateTime.now(),
+        cardIds: pickedCards,
+        cardReversals: List.generate(pickedCards.length, (_) => false),
+        positionLabels: List.generate(pickedCards.length, (i) => '포지션 ${i + 1}'),
+        cardMeanings: List.generate(pickedCards.length, (_) => ''),
+        witchId: _selectedWitch.id,
+      );
+
+      await DiaryService.instance.saveDiary(diary);
     } catch (e) {
       debugPrint('Error auto-saving diary: $e');
     }

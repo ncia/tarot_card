@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../screens/shop_screen.dart';
 import '../screens/growth_screen.dart';
+import '../screens/community_screen.dart';
 import 'animated_volume_control.dart';
 import 'magic_dust_widget.dart';
 import 'coin_widget.dart';
@@ -81,15 +82,42 @@ class TopFloatingIcons extends StatelessWidget {
                         child: const Icon(Icons.spa_outlined, color: Colors.lightGreenAccent, size: 20),
                       ),
                     ),
+                    const SizedBox(width: 8),
+                    // 커뮤니티 아이콘
+                    Container(
+                      width: 38,
+                      height: 38,
+                      decoration: BoxDecoration(
+                        color: Colors.black.withOpacity(0.5),
+                        shape: BoxShape.circle,
+                        border: Border.all(color: Colors.white24),
+                      ),
+                      child: InkWell(
+                        borderRadius: BorderRadius.circular(19),
+                        onTap: () {
+                          if (ModalRoute.of(context)?.settings.name == '/community') return;
+
+                          final route = MaterialPageRoute(
+                            builder: (context) => const CommunityScreen(),
+                            settings: const RouteSettings(name: '/community'),
+                          );
+
+                          Navigator.push(context, route);
+                        },
+                        child: const Icon(Icons.people_outline, color: Colors.cyanAccent, size: 20),
+                      ),
+                    ),
+                    const SizedBox(width: 8),
+                    // 스피커 (볼륨 조절) 아이콘
+                    const AnimatedVolumeControl(),
                   ],
                 ),
               ],
             ),
-            // 우측 상단 플로팅 아이콘들 (스피커, 마력, 코인)
+            // 우측 상단 플로팅 아이콘들 (마력, 코인)
             const Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                AnimatedVolumeControl(),
                 MagicDustWidget(),
                 CoinWidget(),
               ],
