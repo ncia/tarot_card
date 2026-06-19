@@ -1643,7 +1643,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get nicknamePrefix75 => 'छोड़कर';
 
   @override
-  String get nicknamePrefix76 => 'coming back';
+  String get nicknamePrefix76 => 'लौट रहा है';
 
   @override
   String get nicknamePrefix77 => 'इंतज़ार में';
@@ -2882,7 +2882,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get nicknameSuffix188 => 'भोंपू';
 
   @override
-  String get nicknameSuffix189 => 'Kraken';
+  String get nicknameSuffix189 => 'क्रैकन';
 
   @override
   String get nicknameSuffix190 => 'लिविअफ़ान';
@@ -3125,25 +3125,30 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotMajor00Name => 'मूर्ख';
 
   @override
-  String get tarotMajor00Upright => '새로운 시작, 모험, 무한한 가능성, 자유, 순수함';
+  String get tarotMajor00Upright =>
+      'नई शुरुआत, रोमांच, अनंत संभावनाएँ, स्वतंत्रता, पवित्रता';
 
   @override
-  String get tarotMajor00Reversed => '무모함, 어리석음, 부주의, 너무 큰 위험을 감수함, 비현실성';
+  String get tarotMajor00Reversed =>
+      'लापरवाही, मूर्खता, असावधानी, बहुत अधिक जोखिम लेना, अवास्तविकता';
 
   @override
   String get tarotMajor01Name => 'जादूगर';
 
   @override
-  String get tarotMajor01Upright => '창조력, 의지, 능력, 새로운 시작의 힘, 결단력';
+  String get tarotMajor01Upright =>
+      'रचनात्मकता, इच्छाशक्ति, क्षमता, नई शुरुआत की शक्ति, दृढ़ संकल्प';
 
   @override
-  String get tarotMajor01Reversed => '조작, 재능 낭비, 기만, 자신감 부족, 숨겨진 의도';
+  String get tarotMajor01Reversed =>
+      'हेरफेर, प्रतिभा की बर्बादी, छल, आत्मविश्वास की कमी, छिपे हुए इरादे';
 
   @override
   String get tarotMajor02Name => 'महायाजक';
 
   @override
-  String get tarotMajor02Upright => '직관, 무의식, 신비, 지혜, 내면의 목소리';
+  String get tarotMajor02Upright =>
+      'अंतर्ज्ञान, अचेतन, रहस्य, ज्ञान, आंतरिक आवाज';
 
   @override
   String get tarotMajor02Reversed =>
@@ -3153,91 +3158,111 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotMajor03Name => 'महारानी';
 
   @override
-  String get tarotMajor03Upright => '풍요, 모성애, 아름다움, 자연의 결실, 창조성';
+  String get tarotMajor03Upright =>
+      'प्रचुरता, मातृत्व, सौंदर्य, प्रकृति का फल, रचनात्मकता';
 
   @override
-  String get tarotMajor03Reversed => '잉보호, 의존성, 창조적 결핍, 게으름, 정체기';
+  String get tarotMajor03Reversed =>
+      'अति-संरक्षण, निर्भरता, रचनात्मक कमी, आलस्य, ठहराव';
 
   @override
   String get tarotMajor04Name => 'सम्राट';
 
   @override
-  String get tarotMajor04Upright => '권위, 구조, 안정, 부성애, 통제력, 책임감';
+  String get tarotMajor04Upright =>
+      'अधिकार, संरचना, स्थिरता, पितृत्व, नियंत्रण, जिम्मेदारी';
 
   @override
-  String get tarotMajor04Reversed => '독재, 지배욕, 융통성 부족, 무능함, 억압';
+  String get tarotMajor04Reversed =>
+      'तानाशाही, प्रभुत्व की इच्छा, लचीलेपन की कमी, अक्षमता, दमन';
 
   @override
   String get tarotMajor05Name => 'हीरोफ़ैन्ट';
 
   @override
-  String get tarotMajor05Upright => '전통, 믿음, 교육, 영적인 인도, 보수주의';
+  String get tarotMajor05Upright =>
+      'परंपरा, विश्वास, शिक्षा, आध्यात्मिक मार्गदर्शन, रूढ़िवादिता';
 
   @override
-  String get tarotMajor05Reversed => '반역, 나습 타파, 독단적 태도, 낡은 사상, 나쁜 조언';
+  String get tarotMajor05Reversed =>
+      'विद्रोह, परंपरा तोड़ना, हठी रवैया, पुराने विचार, बुरी सलाह';
 
   @override
   String get tarotMajor06Name => 'प्रेमी';
 
   @override
-  String get tarotMajor06Upright => '사랑, 조화, 관계, 중요한 선택, 신뢰';
+  String get tarotMajor06Upright =>
+      'प्यार, सद्भाव, रिश्ते, महत्वपूर्ण विकल्प, विश्वास';
 
   @override
-  String get tarotMajor06Reversed => '불화, 잘못된 선택, 신뢰 상실, 유혹, 불균형';
+  String get tarotMajor06Reversed =>
+      'कलह, गलत चुनाव, विश्वास का नुकसान, प्रलोभन, असंतुलन';
 
   @override
   String get tarotMajor07Name => 'रथ';
 
   @override
-  String get tarotMajor07Upright => '의지, 승리, 결단력, 방향성, 성공을 향한 추진력';
+  String get tarotMajor07Upright =>
+      'इच्छाशक्ति, विजय, दृढ़ संकल्प, दिशा, सफलता की ओर प्रेरणा';
 
   @override
-  String get tarotMajor07Reversed => '통제 상실, 방향 상실, 무기력, 공격성, 장애물';
+  String get tarotMajor07Reversed =>
+      'नियंत्रण खोना, दिशा खोना, शक्तिहीनता, आक्रामकता, बाधाएँ';
 
   @override
   String get tarotMajor08Name => 'ताकत';
 
   @override
-  String get tarotMajor08Upright => '용기, 인내, 내면의 힘, 부드러운 통제, 자비';
+  String get tarotMajor08Upright =>
+      'साहस, धैर्य, आंतरिक शक्ति, कोमल नियंत्रण, करुणा';
 
   @override
-  String get tarotMajor08Reversed => '두려움, 나약함, 자기 통제력 상실, 충동, 자만심';
+  String get tarotMajor08Reversed =>
+      'भय, कमजोरी, आत्म-नियंत्रण खोना, आवेग, अभिमान';
 
   @override
   String get tarotMajor09Name => 'साधु';
 
   @override
-  String get tarotMajor09Upright => '내면 탐구, 지혜, 고독, 깨달음, 영적 조언자';
+  String get tarotMajor09Upright =>
+      'आत्म-खोज, ज्ञान, एकांत, आत्मज्ञान, आध्यात्मिक सलाहकार';
 
   @override
-  String get tarotMajor09Reversed => '고립, 외로움, 현실 도피, 어리석은 고집, 은둔';
+  String get tarotMajor09Reversed =>
+      'अलगाव, अकेलापन, वास्तविकता से पलायन, मूर्खतापूर्ण हठ, एकांतवास';
 
   @override
   String get tarotMajor10Name => 'भाग्य का पहिया';
 
   @override
-  String get tarotMajor10Upright => '전환점, 운명, 행운, 끊임 없는 변화, 기회';
+  String get tarotMajor10Upright =>
+      'मोड़, भाग्य, सौभाग्य, निरंतर परिवर्तन, अवसर';
 
   @override
-  String get tarotMajor10Reversed => '불운, 저항, 통제할 수 없는 변화, 불행의 반복';
+  String get tarotMajor10Reversed =>
+      'दुर्भाग्य, प्रतिरोध, अनियंत्रित परिवर्तन, दुर्भाग्य की पुनरावृत्ति';
 
   @override
   String get tarotMajor11Name => 'न्याय';
 
   @override
-  String get tarotMajor11Upright => '진실, 진실, 인과응보, 균형, 합리적 결정';
+  String get tarotMajor11Upright =>
+      'निष्पक्षता, सत्य, कर्म, संतुलन, तर्कसंगत निर्णय';
 
   @override
-  String get tarotMajor11Reversed => '불공평, 편견, 부정직, 피할 수 없는 처벌, 불균형';
+  String get tarotMajor11Reversed =>
+      'अन्याय, पूर्वाग्रह, बेईमानी, अपरिहार्य दंड, असंतुलन';
 
   @override
   String get tarotMajor12Name => 'टांगा गया आदमी';
 
   @override
-  String get tarotMajor12Upright => '희생, 새로운 시각, 기다림, 통찰, 일시적 정지';
+  String get tarotMajor12Upright =>
+      'बलिदान, नया दृष्टिकोण, प्रतीक्षा, अंतर्दृष्टि, अस्थायी ठहराव';
 
   @override
-  String get tarotMajor12Reversed => '무의미한 희생, 지연, 발전을 거부함, 이기주의';
+  String get tarotMajor12Reversed =>
+      'व्यर्थ बलिदान, देरी, प्रगति से इनकार, स्वार्थ';
 
   @override
   String get tarotMajor13Name => 'मौत';
@@ -3247,31 +3272,37 @@ class AppLocalizationsHi extends AppLocalizations {
       'मेरे पास क्या है, क्या है, क्या है, क्या नहीं है';
 
   @override
-  String get tarotMajor13Reversed => '변화에 대한 저항, 정체, 낡은 것에 집착, 두려움';
+  String get tarotMajor13Reversed =>
+      'परिवर्तन का प्रतिरोध, ठहराव, पुराने से चिपके रहना, भय';
 
   @override
   String get tarotMajor14Name => 'संयम';
 
   @override
-  String get tarotMajor14Upright => '조화, 균형, 중용, 치유, 목적 의식';
+  String get tarotMajor14Upright =>
+      'सद्भाव, संतुलन, संयम, उपचार, उद्देश्य की भावना';
 
   @override
-  String get tarotMajor14Reversed => '불균형, 무절제, 극단적인 행동, 부조화, 갈등';
+  String get tarotMajor14Reversed =>
+      'असंतुलन, अतिवाद, चरम व्यवहार, असंगति, संघर्ष';
 
   @override
   String get tarotMajor15Name => 'शैतान';
 
   @override
-  String get tarotMajor15Upright => '집착, 물질 주의, 속박, 유혹, 파괴적 욕망';
+  String get tarotMajor15Upright =>
+      'जुनून, भौतिकवाद, बंधन, प्रलोभन, विनाशकारी इच्छाएँ';
 
   @override
-  String get tarotMajor15Reversed => '해방, 속박에서 벗어남, 독립, 깨달음, 자유';
+  String get tarotMajor15Reversed =>
+      'मुक्ति, बंधन से मुक्ति, स्वतंत्रता, आत्मज्ञान, आजादी';
 
   @override
   String get tarotMajor16Name => 'मीनार';
 
   @override
-  String get tarotMajor16Upright => '갑작스러운 변화, 파괴, 해방, 계시, 붕괴';
+  String get tarotMajor16Upright =>
+      'अचानक परिवर्तन, विनाश, मुक्ति, रहस्योद्घाटन, पतन';
 
   @override
   String get tarotMajor16Reversed => 'इस लेख को पढ़ें, क्या आप जानते हैं';
@@ -3280,16 +3311,19 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotMajor17Name => 'तारा';
 
   @override
-  String get tarotMajor17Upright => '희망, 영감, 평온, 치유와 긍정, 영적 인도';
+  String get tarotMajor17Upright =>
+      'आशा, प्रेरणा, शांति, उपचार और सकारात्मकता, आध्यात्मिक मार्गदर्शन';
 
   @override
-  String get tarotMajor17Reversed => '절망, 실망, 영감 부족, 비관주의, 혼란';
+  String get tarotMajor17Reversed =>
+      'निराशा, हताशा, प्रेरणा की कमी, निराशावाद, भ्रम';
 
   @override
   String get tarotMajor18Name => 'चांद';
 
   @override
-  String get tarotMajor18Upright => '불안, 환상, 직관, 숨겨진 진실, 기만';
+  String get tarotMajor18Upright =>
+      'चिंता, भ्रम, अंतर्ज्ञान, छिपा हुआ सत्य, छल';
 
   @override
   String get tarotMajor18Reversed =>
@@ -3299,28 +3333,33 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotMajor19Name => 'सूरज';
 
   @override
-  String get tarotMajor19Upright => '성공, 긍정, 활력, 행복과 성취, 기쁨';
+  String get tarotMajor19Upright =>
+      'सफलता, सकारात्मकता, जीवन शक्ति, खुशी और उपलब्धि, आनंद';
 
   @override
-  String get tarotMajor19Reversed => '지연된 성공, 과장, 활력 저하, 슬픔의 이면';
+  String get tarotMajor19Reversed =>
+      'विलंबित सफलता, अतिशयोक्ति, जीवन शक्ति में कमी, दुख का दूसरा पहलू';
 
   @override
   String get tarotMajor20Name => 'प्रलय';
 
   @override
-  String get tarotMajor20Upright => '부활, 결단, 용서, 새로운 소명, 내적 각성';
+  String get tarotMajor20Upright =>
+      'पुनरुत्थान, दृढ़ संकल्प, क्षमा, नई पुकार, आंतरिक जागरण';
 
   @override
-  String get tarotMajor20Reversed => '후회, 자기 의심, 변화에 대한 두려움, 미련, 형벌';
+  String get tarotMajor20Reversed =>
+      'पछतावा, आत्म-संदेह, परिवर्तन का भय, पछतावा, दंड';
 
   @override
   String get tarotMajor21Name => 'विश्व';
 
   @override
-  String get tarotMajor21Upright => '완성, 성취, 통합, 새로운 차원, 성공적인 마무리';
+  String get tarotMajor21Upright =>
+      'पूर्णता, उपलब्धि, एकीकरण, नया आयाम, सफल समापन';
 
   @override
-  String get tarotMajor21Reversed => '미완성, 연기, 정체, 성공에 대한 두려움, 지연';
+  String get tarotMajor21Reversed => 'अधूरापन, स्थगन, ठहराव, सफलता का भय, देरी';
 
   @override
   String get tarotCups01Name => 'कप का इक्का';
@@ -3337,7 +3376,8 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotCups02Name => 'दो कप';
 
   @override
-  String get tarotCups02Upright => '관계의 조화, 결합, 사랑, 상호 존중, 협력';
+  String get tarotCups02Upright =>
+      'रिश्तों में सद्भाव, मिलन, प्यार, आपसी सम्मान, सहयोग';
 
   @override
   String get tarotCups02Reversed =>
@@ -3347,16 +3387,18 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotCups03Name => 'तीन कप';
 
   @override
-  String get tarotCups03Upright => '축하, 우정, 공동체, 기쁨, 창조적 결실';
+  String get tarotCups03Upright => 'उत्सव, दोस्ती, समुदाय, खुशी, रचनात्मक फल';
 
   @override
-  String get tarotCups03Reversed => '삼음, 소외, 파벌, 삼각관계, 축제의 취소';
+  String get tarotCups03Reversed =>
+      'अत्यधिक शराब पीना, अलगाव, गुटबाजी, प्रेम त्रिकोण, उत्सव का रद्द होना';
 
   @override
   String get tarotCups04Name => 'चार कप';
 
   @override
-  String get tarotCups04Upright => '무관심, 권태, 명상, 놓쳐버린 기회, 내면 성찰';
+  String get tarotCups04Upright =>
+      'उदासीनता, ऊब, ध्यान, छूटे हुए अवसर, आत्म-चिंतन';
 
   @override
   String get tarotCups04Reversed =>
@@ -3366,10 +3408,11 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotCups05Name => 'पांच कप';
 
   @override
-  String get tarotCups05Upright => '상실, 슬픔, 과거에 대한 후회, 비관주의';
+  String get tarotCups05Upright => 'नुकसान, दुख, अतीत पर पछतावा, निराशावाद';
 
   @override
-  String get tarotCups05Reversed => '상실의 희망의 발견, 수용, 치유, 새로운 희망의 발견';
+  String get tarotCups05Reversed =>
+      'नुकसान पर काबू पाना, स्वीकृति, उपचार, नई आशा की खोज';
 
   @override
   String get tarotCups06Name => 'छह कप';
@@ -3379,16 +3422,19 @@ class AppLocalizationsHi extends AppLocalizations {
       'क्या हुआ, क्या हुआ, क्या हुआ, क्या हुआ, क्या हुआ';
 
   @override
-  String get tarotCups06Reversed => '얽매임 얽매임, 미래를 외면함, 독립, 성장';
+  String get tarotCups06Reversed =>
+      'अतीत से बंधे रहना, भविष्य को नजरअंदाज करना, स्वतंत्रता, विकास';
 
   @override
   String get tarotCups07Name => 'सात कप';
 
   @override
-  String get tarotCups07Upright => '환상, 꿈, 선택의 혼란, 현실 도피, 백일몽';
+  String get tarotCups07Upright =>
+      'भ्रम, सपने, विकल्पों का भ्रम, वास्तविकता से पलायन, दिवास्वप्न';
 
   @override
-  String get tarotCups07Reversed => '현실 직시, 명확한 목표, 환상에서 깨어남, 결단';
+  String get tarotCups07Reversed =>
+      'वास्तविकता का सामना करना, स्पष्ट लक्ष्य, भ्रम से जागना, दृढ़ संकल्प';
 
   @override
   String get tarotCups08Name => 'आठ कप';
@@ -3405,16 +3451,18 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotCups09Name => 'नौ कप';
 
   @override
-  String get tarotCups09Upright => '소원 성취, 만족감, 감각적 기쁨, 자부심, 행복';
+  String get tarotCups09Upright =>
+      'इच्छा पूर्ति, संतुष्टि, संवेदी आनंद, गर्व, खुशी';
 
   @override
-  String get tarotCups09Reversed => '불만족, 허영심, 표면적인 성공, 욕심, 탐욕';
+  String get tarotCups09Reversed => 'असंतुष्टि, घमंड, सतही सफलता, लालच, लोभ';
 
   @override
   String get tarotCups10Name => 'दस कप';
 
   @override
-  String get tarotCups10Upright => '정족의 행복, 평화, 정서적 충만, 조화로운 관계';
+  String get tarotCups10Upright =>
+      'पारिवारिक खुशी, शांति, भावनात्मक पूर्णता, सामंजस्यपूर्ण संबंध';
 
   @override
   String get tarotCups10Reversed =>
@@ -3424,7 +3472,8 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotCups11Name => 'कप का पृष्ठ';
 
   @override
-  String get tarotCups11Upright => '새로운 영감, 창의성, 감성적인 메시지, 직관력';
+  String get tarotCups11Upright =>
+      'नई प्रेरणा, रचनात्मकता, भावनात्मक संदेश, अंतर्ज्ञान';
 
   @override
   String get tarotCups11Reversed =>
@@ -3434,16 +3483,19 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotCups12Name => 'कपों का शूरवीर';
 
   @override
-  String get tarotCups12Upright => '로맨스, 매력, 감정적 접근, 상상력, 기사도';
+  String get tarotCups12Upright =>
+      'रोमांस, आकर्षण, भावनात्मक दृष्टिकोण, कल्पना, शिष्टता';
 
   @override
-  String get tarotCups12Reversed => '비현실성, 변덕, 질투, 신뢰할 수 없음, 기만';
+  String get tarotCups12Reversed =>
+      'अवास्तविकता, मनमौजीपन, ईर्ष्या, अविश्वसनीयता, छल';
 
   @override
   String get tarotCups13Name => 'कप की रानी';
 
   @override
-  String get tarotCups13Upright => '공감, 다정함, 영적 직관, 감성적 안정, 배려';
+  String get tarotCups13Upright =>
+      'सहानुभूति, कोमलता, आध्यात्मिक अंतर्ज्ञान, भावनात्मक स्थिरता, देखभाल';
 
   @override
   String get tarotCups13Reversed =>
@@ -3453,10 +3505,12 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotCups14Name => 'कपों का राजा';
 
   @override
-  String get tarotCups14Upright => '감정적 통제, 균형, 외교, 관용, 지혜로운 조언';
+  String get tarotCups14Upright =>
+      'भावनात्मक नियंत्रण, संतुलन, कूटनीति, सहिष्णुता, बुद्धिमान सलाह';
 
   @override
-  String get tarotCups14Reversed => '감정적 조작, 냉담함, 불안정성, 기분파, 무자비';
+  String get tarotCups14Reversed =>
+      'भावनात्मक हेरफेर, उदासीनता, अस्थिरता, मनमौजी, निर्ममता';
 
   @override
   String get tarotPentacles01Name => 'पेंटाकल्स का इक्का';
@@ -3473,16 +3527,19 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotPentacles02Name => 'पेंटाकल्स के दो';
 
   @override
-  String get tarotPentacles02Upright => '적형, 적응력, 시간/재정 관리, 유연성';
+  String get tarotPentacles02Upright =>
+      'संतुलन, अनुकूलनशीलता, समय/वित्तीय प्रबंधन, लचीलापन';
 
   @override
-  String get tarotPentacles02Reversed => '불균형, 감당하기 벅참, 재정적 어려움, 스트레스';
+  String get tarotPentacles02Reversed =>
+      'असंतुलन, अभिभूत होना, वित्तीय कठिनाइयाँ, तनाव';
 
   @override
   String get tarotPentacles03Name => 'तीन पेंटाकल्स';
 
   @override
-  String get tarotPentacles03Upright => '팀워크, 협업, 기술, 인정받는 노력, 건축';
+  String get tarotPentacles03Upright =>
+      'टीमवर्क, सहयोग, कौशल, मान्यता प्राप्त प्रयास, वास्तुकला';
 
   @override
   String get tarotPentacles03Reversed =>
@@ -3492,7 +3549,8 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotPentacles04Name => 'पेंटाकल्स के चार';
 
   @override
-  String get tarotPentacles04Upright => '안정, 소유욕, 보수성, 인색함, 축적';
+  String get tarotPentacles04Upright =>
+      'स्थिरता, स्वामित्व, रूढ़िवादिता, कंजूसी, संचय';
 
   @override
   String get tarotPentacles04Reversed =>
@@ -3502,7 +3560,8 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotPentacles05Name => 'पांच पेंटाकल्स';
 
   @override
-  String get tarotPentacles05Upright => '궁핍, 재정적/정서적 결핍, 소외, 역경';
+  String get tarotPentacles05Upright =>
+      'कमी, वित्तीय/भावनात्मक अभाव, अलगाव, प्रतिकूलता';
 
   @override
   String get tarotPentacles05Reversed =>
@@ -3512,19 +3571,22 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotPentacles06Name => 'छह पेंटाकल्स';
 
   @override
-  String get tarotPentacles06Upright => '자선, 나눔, 후원, 공정함, 베풂과 받음';
+  String get tarotPentacles06Upright =>
+      'दान, साझा करना, प्रायोजन, निष्पक्षता, देना और लेना';
 
   @override
-  String get tarotPentacles06Reversed => '이기심, 채무, 불평등, 생색내기, 착취';
+  String get tarotPentacles06Reversed => 'स्वार्थ, ऋण, असमानता, दिखावा, शोषण';
 
   @override
   String get tarotPentacles07Name => 'पेंटाकल्स के सात';
 
   @override
-  String get tarotPentacles07Upright => '인내, 장기적 비전, 노력에 대한 보상 기다림, 평가';
+  String get tarotPentacles07Upright =>
+      'धैर्य, दीर्घकालिक दृष्टि, प्रयासों के लिए इनाम की प्रतीक्षा, मूल्यांकन';
 
   @override
-  String get tarotPentacles07Reversed => '조바심, 성과 없는 노력, 지연, 좌절, 투자 실패';
+  String get tarotPentacles07Reversed =>
+      'अधीरता, निष्फल प्रयास, देरी, निराशा, निवेश की विफलता';
 
   @override
   String get tarotPentacles08Name => 'पेंटाकल्स के आठ';
@@ -3534,16 +3596,19 @@ class AppLocalizationsHi extends AppLocalizations {
       'मेरे पास क्या है, क्या नहीं, क्या नहीं';
 
   @override
-  String get tarotPentacles08Reversed => '지루함, 완벽주의의 함정, 나태, 열정 상실';
+  String get tarotPentacles08Reversed =>
+      'ऊब, पूर्णतावाद का जाल, आलस्य, जुनून का नुकसान';
 
   @override
   String get tarotPentacles09Name => 'पेंटाकल्स के नौ';
 
   @override
-  String get tarotPentacles09Upright => '성취, 독립, 여유, 재정적 안락함, 자기 보상';
+  String get tarotPentacles09Upright =>
+      'उपलब्धि, स्वतंत्रता, आराम, वित्तीय आराम, आत्म-पुरस्कार';
 
   @override
-  String get tarotPentacles09Reversed => '재소비, 재정 불안, 의존성, 재정 불안';
+  String get tarotPentacles09Reversed =>
+      'अत्यधिक खर्च, केवल दिखावटी चमक, निर्भरता, वित्तीय अस्थिरता';
 
   @override
   String get tarotPentacles10Name => 'दस पेंटाकल्स';
@@ -3560,7 +3625,8 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotPentacles11Name => 'पेंटाकल्स का पृष्ठ';
 
   @override
-  String get tarotPentacles11Upright => '현실적인 목표, 새로운 공부, 기회, 실용성, 계획';
+  String get tarotPentacles11Upright =>
+      'यथार्थवादी लक्ष्य, नया अध्ययन, अवसर, व्यावहारिकता, योजना';
 
   @override
   String get tarotPentacles11Reversed =>
@@ -3570,19 +3636,23 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotPentacles12Name => 'पेंटाकल्स का शूरवीर';
 
   @override
-  String get tarotPentacles12Upright => '성실, 책임감, 끈기, 점진적인 발전, 믿음직함';
+  String get tarotPentacles12Upright =>
+      'ईमानदारी, जिम्मेदारी, दृढ़ता, क्रमिक विकास, विश्वसनीयता';
 
   @override
-  String get tarotPentacles12Reversed => '완고함, 무기력, 일 중독, 유연성 부족, 정체';
+  String get tarotPentacles12Reversed =>
+      'हठ, शक्तिहीनता, काम की लत, लचीलेपन की कमी, ठहराव';
 
   @override
   String get tarotPentacles13Name => 'पेंटाकल्स की रानी';
 
   @override
-  String get tarotPentacles13Upright => '현실적 보살핌, 실용적 조언, 풍요, 관대함, 안락함';
+  String get tarotPentacles13Upright =>
+      'यथार्थवादी देखभाल, व्यावहारिक सलाह, प्रचुरता, उदारता, आराम';
 
   @override
-  String get tarotPentacles13Reversed => '과잉 통제, 소유욕, 이기심, 재정적 불안, 과소비';
+  String get tarotPentacles13Reversed =>
+      'अत्यधिक नियंत्रण, स्वामित्व, स्वार्थ, वित्तीय अस्थिरता, अत्यधिक खर्च';
 
   @override
   String get tarotPentacles14Name => 'पेंटाकल्स का राजा';
@@ -3592,22 +3662,26 @@ class AppLocalizationsHi extends AppLocalizations {
       'मेरे बारे में मत सोचो, कैसे काम करो, कैसे काम करो, कैसे काम करो';
 
   @override
-  String get tarotPentacles14Reversed => '물질주의, 부패, 탐욕, 고집불통, 억압적 권위';
+  String get tarotPentacles14Reversed =>
+      'भौतिकवाद, भ्रष्टाचार, लालच, हठधर्मिता, दमनकारी अधिकार';
 
   @override
   String get tarotSwords01Name => 'तलवारों का इक्का';
 
   @override
-  String get tarotSwords01Upright => '명확한 통찰, 새로운 생각, 진실, 정신적 돌파구';
+  String get tarotSwords01Upright =>
+      'स्पष्ट अंतर्दृष्टि, नए विचार, सत्य, मानसिक सफलता';
 
   @override
-  String get tarotSwords01Reversed => '혼란, 잘못된 정보, 판단력 상실, 소통 부재';
+  String get tarotSwords01Reversed =>
+      'भ्रम, गलत सूचना, निर्णय खोना, संचार की कमी';
 
   @override
   String get tarotSwords02Name => 'दो तलवारें';
 
   @override
-  String get tarotSwords02Upright => '우유부단, 맹목, 감정 차단, 어려운 결정의 회피';
+  String get tarotSwords02Upright =>
+      'अनिर्णय, अंधापन, भावनाओं को अवरुद्ध करना, कठिन निर्णयों से बचना';
 
   @override
   String get tarotSwords02Reversed =>
@@ -3617,7 +3691,8 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotSwords03Name => 'तीन तलवारें';
 
   @override
-  String get tarotSwords03Upright => '상심, 슬픔, 이별, 상처, 고통스러운 진실';
+  String get tarotSwords03Upright =>
+      'दिल टूटना, दुख, अलगाव, चोट, दर्दनाक सच्चाई';
 
   @override
   String get tarotSwords03Reversed =>
@@ -3627,16 +3702,19 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotSwords04Name => 'चार तलवारें';
 
   @override
-  String get tarotSwords04Upright => '휴식, 회복, 명상, 스트레스 완화, 내면의 평화';
+  String get tarotSwords04Upright =>
+      'आराम, पुनर्प्राप्ति, ध्यान, तनाव से राहत, आंतरिक शांति';
 
   @override
-  String get tarotSwords04Reversed => '탈진, 회복 거부, 강제 휴식, 극심한 스트레스';
+  String get tarotSwords04Reversed =>
+      'थकावट, ठीक होने से इनकार, जबरन आराम, अत्यधिक तनाव';
 
   @override
   String get tarotSwords05Name => 'पांच तलवारें';
 
   @override
-  String get tarotSwords05Upright => '상처뿐인 승리, 배신, 갈등, 적의감, 비열함';
+  String get tarotSwords05Upright =>
+      'पराजित जीत, विश्वासघात, संघर्ष, शत्रुता, नीचता';
 
   @override
   String get tarotSwords05Reversed => 'और भी बहुत कुछ';
@@ -3645,34 +3723,40 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotSwords06Name => 'छह तलवारें';
 
   @override
-  String get tarotSwords06Upright => '전환, 고통에서 벗어남, 치유의 여정, 이동, 여행';
+  String get tarotSwords06Upright =>
+      'संक्रमण, दर्द से मुक्ति, उपचार की यात्रा, आंदोलन, यात्रा';
 
   @override
-  String get tarotSwords06Reversed => '변화에 대한 저항, 과거의 상처가 발목을 잡음, 지연';
+  String get tarotSwords06Reversed =>
+      'परिवर्तन का प्रतिरोध, अतीत के घाव जो आपको रोके हुए हैं, देरी';
 
   @override
   String get tarotSwords07Name => 'सात तलवारें';
 
   @override
-  String get tarotSwords07Upright => '속임수, 전략, 은밀한 행동, 도주';
+  String get tarotSwords07Upright => 'धोखा, छल, रणनीति, गुप्त कार्रवाई, पलायन';
 
   @override
-  String get tarotSwords07Reversed => '자백, 비밀 폭로, 속임수 발각, 죄책감, 정면 돌파';
+  String get tarotSwords07Reversed =>
+      'कबूलनामा, रहस्योद्घाटन, धोखे का पता चलना, अपराधबोध, सीधा सामना';
 
   @override
   String get tarotSwords08Name => 'आठ तलवारें';
 
   @override
-  String get tarotSwords08Upright => '자승자박, 무기력, 제한된 생각, 두려움의 감옥';
+  String get tarotSwords08Upright =>
+      'आत्म-जाल, शक्तिहीनता, सीमित सोच, भय की जेल';
 
   @override
-  String get tarotSwords08Reversed => '해방, 스스로의 감옥에서 벗어남, 새로운 관점';
+  String get tarotSwords08Reversed =>
+      'मुक्ति, अपनी ही जेल से बाहर निकलना, नया दृष्टिकोण';
 
   @override
   String get tarotSwords09Name => 'नौ तलवारें';
 
   @override
-  String get tarotSwords09Upright => '불안, 절망, 불면증, 죄책감, 내면의 공포';
+  String get tarotSwords09Upright =>
+      'चिंता, निराशा, अनिद्रा, अपराधबोध, आंतरिक भय';
 
   @override
   String get tarotSwords09Reversed =>
@@ -3682,16 +3766,19 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotSwords10Name => 'दस तलवारें';
 
   @override
-  String get tarotSwords10Upright => '파멸, 끝은 상처, 배신, 바닥 을 침, 끝의 도래';
+  String get tarotSwords10Upright =>
+      'विनाश, गहरा घाव, विश्वासघात, सबसे निचले स्तर पर पहुंचना, अंत का आगमन';
 
   @override
-  String get tarotSwords10Reversed => '파멸에서의 회복, 최악은 지났음, 생존, 재건';
+  String get tarotSwords10Reversed =>
+      'विनाश से उबरना, सबसे बुरा बीत चुका है, अस्तित्व, पुनर्निर्माण';
 
   @override
   String get tarotSwords11Name => 'तलवारों का पन्ना';
 
   @override
-  String get tarotSwords11Upright => '호기심, 예리한 분석력, 진실 탐구, 새로운 아이디어';
+  String get tarotSwords11Upright =>
+      'जिज्ञासा, तीव्र विश्लेषणात्मक कौशल, सत्य की खोज, नए विचार';
 
   @override
   String get tarotSwords11Reversed => 'लाभ, लाभ, लाभ, लाभ और लाभ, लाभ';
@@ -3700,34 +3787,41 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotSwords12Name => 'तलवारों का शूरवीर';
 
   @override
-  String get tarotSwords12Upright => '돌진, 야망, 지적 추진력, 빠르고 단호한 행동';
+  String get tarotSwords12Upright =>
+      'तेजी, महत्वाकांक्षा, बौद्धिक प्रेरणा, त्वरित और निर्णायक कार्रवाई';
 
   @override
-  String get tarotSwords12Reversed => '무모함, 공격성, 배려 없는 언행, 충동성, 무자비';
+  String get tarotSwords12Reversed =>
+      'लापरवाही, आक्रामकता, विचारहीन शब्द और कार्य, आवेग, निर्ममता';
 
   @override
   String get tarotSwords13Name => 'तलवारों की रानी';
 
   @override
-  String get tarotSwords13Upright => '독립, 명확한 의사소통, 예리한 판단, 정직함, 객관성';
+  String get tarotSwords13Upright =>
+      'स्वतंत्रता, स्पष्ट संचार, तीव्र निर्णय, ईमानदारी, निष्पक्षता';
 
   @override
-  String get tarotSwords13Reversed => '비정함, 냉혹함, 과도한 비판, 원한, 고립';
+  String get tarotSwords13Reversed =>
+      'निर्ममता, कठोरता, अत्यधिक आलोचना, प्रतिशोध, अलगाव';
 
   @override
   String get tarotSwords14Name => 'तलवारों का राजा';
 
   @override
-  String get tarotSwords14Upright => '권위, 지적 통찰, 논리, 공정함, 원칙, 전문가';
+  String get tarotSwords14Upright =>
+      'अधिकार, बौद्धिक अंतर्दृष्टि, तर्क, निष्पक्षता, सिद्धांत, विशेषज्ञ';
 
   @override
-  String get tarotSwords14Reversed => '권력 남용, 비합리성, 잔인함, 통제욕, 독재';
+  String get tarotSwords14Reversed =>
+      'सत्ता का दुरुपयोग, अतार्किकता, क्रूरता, नियंत्रण की इच्छा, तानाशाही';
 
   @override
   String get tarotWands01Name => 'ऐस ऑफ वैंड्स';
 
   @override
-  String get tarotWands01Upright => '열정, 영감, 창조적 힘, 새로운 잠재력, 활력';
+  String get tarotWands01Upright =>
+      'जुनून, प्रेरणा, रचनात्मक शक्ति, नई क्षमता, जीवन शक्ति';
 
   @override
   String get tarotWands01Reversed => 'इस लेख को पढ़ें:';
@@ -3736,7 +3830,8 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotWands02Name => 'दो छड़ी';
 
   @override
-  String get tarotWands02Upright => '계획, 비전, 장기적 목표, 결단력, 탐험';
+  String get tarotWands02Upright =>
+      'योजना, दृष्टि, दीर्घकालिक लक्ष्य, दृढ़ संकल्प, अन्वेषण';
 
   @override
   String get tarotWands02Reversed =>
@@ -3746,16 +3841,19 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotWands03Name => 'थ्री ऑफ़ वैंड्स';
 
   @override
-  String get tarotWands03Upright => '선대의 실현, 진전, 확장, 선견지명, 리더십';
+  String get tarotWands03Upright =>
+      'अपेक्षाओं की पूर्ति, प्रगति, विस्तार, दूरदर्शिता, नेतृत्व';
 
   @override
-  String get tarotWands03Reversed => '성장의 지연, 좌절, 예상치 못한 장애, 편협함';
+  String get tarotWands03Reversed =>
+      'विकास में देरी, निराशा, अप्रत्याशित बाधाएँ, संकीर्णता';
 
   @override
   String get tarotWands04Name => 'फोर ऑफ वैंड्स';
 
   @override
-  String get tarotWands04Upright => '축하, 안락함, 성취의 기쁨, 환영, 집안의 행사';
+  String get tarotWands04Upright =>
+      'उत्सव, आराम, उपलब्धि का आनंद, स्वागत, पारिवारिक कार्यक्रम';
 
   @override
   String get tarotWands04Reversed =>
@@ -3765,28 +3863,34 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotWands05Name => 'फाइव ऑफ वैंड्स';
 
   @override
-  String get tarotWands05Upright => '의견 대립, 다툼, 도전';
+  String get tarotWands05Upright =>
+      'प्रतिस्पर्धा, संघर्ष, मतभेद, झगड़ा, चुनौती';
 
   @override
-  String get tarotWands05Reversed => '타협, 갈등의 회피, 협력, 평화 추구, 혼란 진정';
+  String get tarotWands05Reversed =>
+      'समझौता, संघर्ष से बचना, सहयोग, शांति की खोज, भ्रम को शांत करना';
 
   @override
   String get tarotWands06Name => 'सिक्स ऑफ़ वैंड्स';
 
   @override
-  String get tarotWands06Upright => '성공, 대중의 인정, 승리, 자신감, 리더의 부상';
+  String get tarotWands06Upright =>
+      'सफलता, सार्वजनिक मान्यता, विजय, आत्मविश्वास, नेता का उदय';
 
   @override
-  String get tarotWands06Reversed => '패배, 불명예, 인정받지 못함, 교만, 명성 추락';
+  String get tarotWands06Reversed =>
+      'हार, बदनामी, मान्यता न मिलना, अभिमान, प्रतिष्ठा का पतन';
 
   @override
   String get tarotWands07Name => 'सेवेन ऑफ वैंड्स';
 
   @override
-  String get tarotWands07Upright => '용기, 방어, 경쟁에 맞섬, 확고한 신념, 인내';
+  String get tarotWands07Upright =>
+      'साहस, रक्षा, प्रतिस्पर्धा का सामना करना, दृढ़ विश्वास, धैर्य';
 
   @override
-  String get tarotWands07Reversed => '포기, 압도됨, 타협, 자신감 상실, 비겁함';
+  String get tarotWands07Reversed =>
+      'हार मानना, अभिभूत होना, समझौता, आत्मविश्वास खोना, कायरता';
 
   @override
   String get tarotWands08Name => 'आठ छड़ी';
@@ -3796,31 +3900,37 @@ class AppLocalizationsHi extends AppLocalizations {
       'मेरे पास आओ, मुझे बताओ, मुझे बताओ, कैसे, मुझे बताओ';
 
   @override
-  String get tarotWands08Reversed => '지연, 혼란, 서두름으로 인한 실수, 소통 불능';
+  String get tarotWands08Reversed =>
+      'देरी, भ्रम, जल्दबाजी के कारण गलतियाँ, संचार विफलता';
 
   @override
   String get tarotWands09Name => 'नाइन ऑफ वैंड्स';
 
   @override
-  String get tarotWands09Upright => '회복력, 방어 태세, 지쳐도 계속함, 경계, 체력 시험';
+  String get tarotWands09Upright =>
+      'लचीलापन, रक्षात्मक मुद्रा, थके होने पर भी जारी रखना, सतर्कता, सहनशक्ति परीक्षण';
 
   @override
-  String get tarotWands09Reversed => '피로, 편집증, 포기, 완고함, 불필요한 저항';
+  String get tarotWands09Reversed =>
+      'थकान, व्यामोह, हार मानना, हठ, अनावश्यक प्रतिरोध';
 
   @override
   String get tarotWands10Name => 'दस छड़ी';
 
   @override
-  String get tarotWands10Upright => '과도한 짐, 극심한 부담, 책임감, 압박, 한계점';
+  String get tarotWands10Upright =>
+      'अत्यधिक बोझ, अत्यधिक दबाव, जिम्मेदारी, दबाव, सीमा बिंदु';
 
   @override
-  String get tarotWands10Reversed => '짐을 내려놓음, 책임 회피, 탈진, 위임, 극복';
+  String get tarotWands10Reversed =>
+      'बोझ उतारना, जिम्मेदारी से बचना, थकावट, प्रत्यायोजन, काबू पाना';
 
   @override
   String get tarotWands11Name => 'पेज ऑफ़ वैंड्स';
 
   @override
-  String get tarotWands11Upright => '탐험, 발견, 열정적인 아이디어, 에너지, 매력';
+  String get tarotWands11Upright =>
+      'अन्वेषण, खोज, उत्साही विचार, ऊर्जा, आकर्षण';
 
   @override
   String get tarotWands11Reversed =>
@@ -3830,63 +3940,69 @@ class AppLocalizationsHi extends AppLocalizations {
   String get tarotWands12Name => 'नाइट ऑफ वैंड्स';
 
   @override
-  String get tarotWands12Upright => '열정적 전진, 모험심, 행동력, 에너지, 자신감';
+  String get tarotWands12Upright =>
+      'उत्साही प्रगति, साहसिक भावना, कार्रवाई, ऊर्जा, आत्मविश्वास';
 
   @override
-  String get tarotWands12Reversed => '충동적 행동, 오만함, 변덕, 분노, 무계획';
+  String get tarotWands12Reversed =>
+      'आवेगी व्यवहार, अभिमान, मनमौजीपन, क्रोध, योजनाहीनता';
 
   @override
   String get tarotWands13Name => 'वंड्स की रानी';
 
   @override
-  String get tarotWands13Upright => '카리스마, 용기, 독립, 밝음, 매력, 활기';
+  String get tarotWands13Upright =>
+      'करिश्मा, साहस, स्वतंत्रता, चमक, आकर्षण, जीवंतता';
 
   @override
-  String get tarotWands13Reversed => '이기심, 과시욕, 질투, 변덕스러움, 공격성';
+  String get tarotWands13Reversed =>
+      'स्वार्थ, दिखावा, ईर्ष्या, मनमौजीपन, आक्रामकता';
 
   @override
   String get tarotWands14Name => 'वैंड्स का राजा';
 
   @override
-  String get tarotWands14Upright => '카리스마적 리더십, 비전, 영감, 대담함, 기업가';
+  String get tarotWands14Upright =>
+      'करिश्माई नेतृत्व, दृष्टि, प्रेरणा, साहस, उद्यमी';
 
   @override
-  String get tarotWands14Reversed => '독재, 충동적 분노, 비현 실성, 오만, 가차없음';
+  String get tarotWands14Reversed =>
+      'तानाशाही, आवेगी क्रोध, अवास्तविकता, अभिमान, निर्ममता';
 
   @override
   String get nicknamePrefixes =>
-      '신비한,고요한,거룩한,어두운,빛나는,차가운,뜨거운,매혹적인,잔혹한,순 विज्ञापन ,슬픈,기쁜,몽환적인,타락한,순백의,칠흑의,핏빛의,잿빛의,황금빛,은빛 ,푸른,붉은,노란,검은,하얀,투명한,고독한,시끄러운,조용한,따뜻한,싸늘 한,외로운,쓸쓸한,즐거운,행복한,우울한,절망적인,희망찬,눈부신,어스름 한,캄캄한,적막한,은밀한,비밀스러운,성스러운,불경한,오만한,겸손한,지혜 로운, 어리석은, 강인한, 나약한, 용감한, 비겁한, 아득한, 가까운, 멀어 지는, 다 가오는,사라지는,나타나는,깨어난,잠든,꿈꾸는,헤매는,방황하는,머무는,떠 나는, 돌아오는, 축복받은, 저주, 드러난, 선택된, 축복받은, 저주 받은, 사랑받는, 미움받는, 기억하는, 망각하는, 별빛의, 달빛의, 햇빛의, 우주의, 대지의,바다의,불의,물의,흙의 ,나무의,숲의,산의,강의,호수의,시간의,공간의,차원의,운명의,숙명의,기 적의,마법의,신화의,전설의,진실의,거짓의,환상의,꿈의,악몽의,파멸의, विज्ञापन , 질서의, 빛의, 어둠의, 황혼의, 새벽의 ,정오의,자정의,과거의,현재의,미래의,기원의,종말의,무한의,유한의,침묵 의,소음의,노래하는,춤추는,우는,웃는,속삭이는,외치는,기도하는,간청하 는,명령하는,복종하는,지배하는,섬기는,인도하는,따르는,가르치는,배우는, विज्ञापन लाभ, लाभ, लाभ, लाभ, लाभ, लाभ ,흐르는,멈춘,타오르는,식어가는,피어나는,시드는,자라나는,죽어가는,숨 쉬는,질식하는,찬란한,은은한,아스라한,아련한,투명한,희미한,눈부신,기묘 한,독특한,특별한,고귀한,순수한,타락한,고독한,쓸쓸한,적막한,아득한,가 혹한,냉혹한,잔인한,위대한,강인한,굳건한,유연한,재빠른,느릿한,고요속의 ,혼돈속의,기억속의,상상속의,침묵하는,속삭이는,노래하는,춤추는,흐느끼 는,미소짓는,비웃는,관조하는,방황하는,헤매는,깨어있는,잠든,꿈꾸는,몽상 하는,망상하는,사악한,비열한,거 만한, 섬뜩한, 황홀한, 매혹적인 ,아찔한,달콤한,쌉싸름한,씁쓸한,가시돋친,날카로운,무딘,거친,부드러운 ,포근한,안락한,위태로운,불안한,평온한,안온한,나른한,권태로운,열정적인 ,무심한,차분한,격렬한,맹렬한,광적인,미쳐버린,이성적인,감성적인,냉철한 ,현명한,어리석은,순진한,교활한,음흉한,순백의,칠흑의,황금빛,은빛,핏빛';
+      'रहस्यमय, शांत, पवित्र, गहरा, चमकदार, ठंडा, गर्म, आकर्षक, क्रूर, शुद्ध, खुरदुरा, नरम, सुंदर, अजीब, महान, तुच्छ, शाश्वत, भूला हुआ, शानदार, दुखद, हर्षित, स्वप्निल, पतित, शुद्ध सफेद, गहरा काला, खूनी, राख जैसा, सुनहरा, चांदी जैसा, नीला, लाल, पीला, काला, सफेद, पारदर्शी, अकेला, शोरगुल वाला, शांत, गर्म, ठंडा, अकेला, उदास, आनंदमय, खुश, उदास, निराशाजनक, आशावादी, चमकदार, धुंधला, अंधेरा, शांत, गुप्त, रहस्यमय, पवित्र, अपवित्र, अभिमानी, विनम्र, बुद्धिमान, मूर्ख, मजबूत, कमजोर, बहादुर, कायर, दूर का, पास का, दूर जा रहा, आ रहा, गायब हो रहा, प्रकट हो रहा, जागा हुआ, सोया हुआ, सपने देखने वाला, भटक रहा, घूम रहा, रुका हुआ, जा रहा, लौट रहा, इंतजार कर रहा, ढूंढ रहा, छिपा हुआ, प्रकट, त्यागा हुआ, चुना हुआ, धन्य, शापित, प्रिय, घृणित, याद रखने वाला, भूलने वाला, तारों की रोशनी का, चाँद की रोशनी का, सूरज की रोशनी का, ब्रह्मांड का, पृथ्वी का, समुद्र का, आकाश का, बादलों का, हवा का, बारिश का, बर्फ का, बर्फ का, आग का, पानी का, मिट्टी का, पेड़ का, जंगल का, पहाड़ का, नदी का, झील का, समय का, स्थान का, आयाम का, भाग्य का, नियति का, चमत्कार का, जादू का, मिथक का, किंवदंती का, सत्य का, झूठ का, भ्रम का, सपने का, दुःस्वप्न का, विनाश का, सृजन का, जीवन का, मृत्यु का, आत्मा का, शरीर का, तर्क का, भावना का, प्यार का, घृणा का, दुख का, खुशी का, क्रोध का, शांति का, युद्ध का, अराजकता का, व्यवस्था का, प्रकाश का, अंधेरे का, गोधूलि का, भोर का, दोपहर का, आधी रात का, अतीत का, वर्तमान का, भविष्य का, उत्पत्ति का, अंत का, अनंत का, सीमित का, मौन का, शोर का, गाता हुआ, नाचता हुआ, रोता हुआ, हँसता हुआ, फुसफुसाता हुआ, चिल्लाता हुआ, प्रार्थना करता हुआ, विनती करता हुआ, आदेश देता हुआ, आज्ञाकारी, शासन करता हुआ, सेवा करता हुआ, मार्गदर्शन करता हुआ, अनुसरण करता हुआ, सिखाता हुआ, सीखता हुआ, स्मृति का, यादों का, घाव का, उपचार का, जहर का, दवा का, भ्रम का, वास्तविकता का, आदर्श का, यथार्थ का, आभासी का, प्रकृति का, कृत्रिम का, आदिम का, शाश्वत का, क्षण का, पल का, निरंतरता का, परिवर्तन का, ठहराव का, बहता हुआ, रुका हुआ, जलता हुआ, ठंडा होता हुआ, खिलता हुआ, मुरझाता हुआ, बढ़ता हुआ, मरता हुआ, साँस लेता हुआ, दम घुटता हुआ, शानदार, सूक्ष्म, धुंधला, अस्पष्ट, पारदर्शी, मंद, चमकदार, अजीब, अद्वितीय, विशेष, महान, शुद्ध, पतित, अकेला, उदास, शांत, दूर का, कठोर, निर्मम, क्रूर, महान, मजबूत, दृढ़, लचीला, तेज, धीमा, शांति में, अराजकता में, यादों में, कल्पना में, मौन, फुसफुसाता हुआ, गाता हुआ, नाचता हुआ, सिसकता हुआ, मुस्कुराता हुआ, उपहास करता हुआ, चिंतन करता हुआ, भटकता हुआ, घूमता हुआ, जागा हुआ, सोया हुआ, सपने देखने वाला, दिवास्वप्न देखने वाला, भ्रमित, प्रार्थना करता हुआ, उत्कट, मार्मिक, भीषण, उदात्त, दुष्ट, नीच, अभिमानी, विनम्र, स्नेही, गर्म, ठंडा, भयावह, विचित्र, डरावना, परमानंदित, आकर्षक, चक्करदार, मीठा, कड़वा, कसैला, कांटेदार, तेज, कुंद, खुरदुरा, नरम, आरामदायक, सुरक्षित, खतरनाक, अस्थिर, शांत, आरामदायक, सुस्त, ऊबा हुआ, भावुक, उदासीन, शांत, उग्र, प्रचंड, उन्मत्त, पागल, तर्कसंगत, भावनात्मक, शांत, बुद्धिमान, मूर्ख, मासूम, चालाक, धूर्त, शुद्ध सफेद, गहरा काला, सुनहरा, चांदी जैसा, खूनी';
 
   @override
   String get nicknameSuffixes =>
-      '예언자, 마법사, 마녀, 여사제, 수도사, 주술 사,연금술사,강령술사,정령사,소환사,환술사,치유사,현자,학자,연구자,탐험가,여행 자,방랑자,유랑자,순례자,구도자,관찰자,기록자,전달자,수호자,파수꾼,경비병,문지 기,심판관,집행관,통치자,지배자,왕,여왕,황제,여제,귀족,영주,기사단장,용병,해적 ,도둑,사기꾼,광대,바보,은둔자,이단자,배신자,반역자,영웅,구원자,해방자,파괴자 ,창조자,신,여신,천사,악마,정령,요정,괴물,마수,드래곤,유령,망령,언데드,흡혈귀 ,늑대인간,인어,세이렌,님프,고블린,오크,트롤,엘프,드워프,거인,소인,인간,수인 ,조인,어인,용인,악령,수라,나락,천상,명계,이계,심연,혼돈,질서,빛,어둠,구도자 ,순례자,방랑자,은둔자,이단아,반역자,개척자,정복자,지배자,조율자,수호자,감시자 ,관찰자,창조자,망령,유령,원혼,악령 ,정령,요정,마수,성수,환수,신수,검사,기사,궁수,도적,암살자,마법사,주술사,연 금술사,강령술사,사제,학자,연구자,탐험가,여행가,예술가,광대,음유시인,상인,장인, 농부,까마귀,부엉이,올빼미,독수리,매,늑대,여우,곰,사자,호랑이,표범,흑표범,살 쏅,고양이,강아지,뱀,도마뱀,거북이,악어,용,유니콘,페가수스,그리폰,가고일,고블린 ,오크,트롤,오거,슬라임,스켈레톤,좀비,구울,뱀파이어,웨어울프,미노타우로스,켄타 우로스,하피,세이렌,크라켄,레비아탄,검,방패,창,활,지팡이,반지,목걸이,왕관,성배';
+      'भविष्यवक्ता, जादूगर, चुड़ैल, शूरवीर, योद्धा, धनुर्धर, चोर, हत्यारा, पवित्र शूरवीर, पुजारी, पुजारिन, भिक्षु, जादूगर, कीमियागर, नेक्रोमैंसर, आत्मा मास्टर, समनर, भ्रमवादी, मरहम लगाने वाला, ऋषि, विद्वान, शोधकर्ता, खोजकर्ता, यात्री, भटकने वाला, खानाबदोश, तीर्थयात्री, साधक, पर्यवेक्षक, रिकॉर्डर, संदेशवाहक, संरक्षक, प्रहरी, गार्ड, द्वारपाल, न्यायाधीश, निष्पादक, शासक, प्रभु, राजा, रानी, सम्राट, महारानी, कुलीन, सामंत, शूरवीर कमांडर, भाड़े का सैनिक, समुद्री डाकू, चोर, धोखेबाज, विदूषक, मूर्ख, एकांतवासी, विधर्मी, गद्दार, विद्रोही, नायक, उद्धारकर्ता, मुक्तिदाता, विध्वंसक, निर्माता, भगवान, देवी, देवदूत, दानव, आत्मा, परी, राक्षस, जादुई जानवर, ड्रैगन, भूत, प्रेत, मरे हुए, पिशाच, वेयरवोल्फ, मत्स्यांगना, सायरन, अप्सरा, गोब्लिन, ओर्क, ट्रोल, एल्फ, बौना, विशाल, बौना, मानव, पशु मानव, पक्षी मानव, मछली मानव, ड्रैगन मानव, दुष्ट आत्मा, असुर, नरक, स्वर्ग, अंडरवर्ल्ड, अन्य दुनिया, रसातल, अराजकता, व्यवस्था, प्रकाश, अंधेरा, साधक, तीर्थयात्री, भटकने वाला, एकांतवासी, विधर्मी, विद्रोही, अग्रणी, विजेता, शासक, नियंत्रक, संरक्षक, पर्यवेक्षक, रिकॉर्डर, संदेशवाहक, मार्गदर्शक, उद्धारकर्ता, विध्वंसक, निर्माता, प्रेत, भूत, प्रतिशोधक आत्मा, दुष्ट आत्मा, आत्मा, परी, जादुई जानवर, पवित्र जानवर, काल्पनिक जानवर, दिव्य जानवर, तलवारबाज, शूरवीर, धनुर्धर, चोर, हत्यारा, जादूगर, जादूगर, कीमियागर, नेक्रोमैंसर, पुजारी, विद्वान, शोधकर्ता, खोजकर्ता, यात्री, कलाकार, विदूषक, बार्ड, व्यापारी, शिल्पकार, किसान, कौवा, उल्लू, उल्लू, चील, बाज, भेड़िया, लोमड़ी, भालू, शेर, बाघ, तेंदुआ, काला तेंदुआ, तेंदुआ, बिल्ली, कुत्ता, साँप, छिपकली, कछुआ, मगरमच्छ, ड्रैगन, यूनिकॉर्न, पेगासस, ग्रिफिन, गार्गॉयल, गोब्लिन, ओर्क, ट्रोल, ओग्रे, स्लाइम, कंकाल, ज़ोंबी, घोल, पिशाच, वेयरवोल्फ, मिनोटौर, सेंटौर, हार्पी, सायरन, क्रैकन, लेविथान, तलवार, ढाल, भाला, धनुष, छड़ी, अंगूठी, हार, मुकुट, पवित्र प्याला';
 
   @override
-  String get eulaTitle => '최종 사용자 라이선스 계약 (EULA)';
+  String get eulaTitle => 'अंतिम उपयोगकर्ता लाइसेंस समझौता (EULA)';
 
   @override
   String get eulaArticle1 =>
-      '제1조 (라이선스 허여)\n본 앱(\"타로마녀\")은 개인적, 비상업적 용도에 한해 사용 권한을 부여하며, 앱의 यह एक नया उत्पाद है।';
+      'अनुच्छेद 1 (लाइसेंस का अनुदान)\nयह ऐप (\"टैरो विच\") केवल व्यक्तिगत, गैर-व्यावसायिक उपयोग के लिए उपयोग का अधिकार प्रदान करता है, और ऐप का स्वामित्व या बौद्धिक संपदा अधिकार हस्तांतरित नहीं किए जाते हैं।\n\n';
 
   @override
   String get eulaArticle2 =>
-      '제2조 (제지된 사용)\nइस लेख को पढ़ें और पढ़ें फिर भी, आप अपने व्यवसाय के बारे में अधिक जानकारी प्राप्त कर सकते हैं।';
+      'अनुच्छेद 2 (निषिद्ध उपयोग)\nउपयोगकर्ता इस सेवा का उपयोग अवैध या दूसरों के अधिकारों का उल्लंघन करने वाले उद्देश्यों के लिए नहीं कर सकता है, और सिस्टम या डेटा को मनमाने ढंग से हेरफेर या रिवर्स इंजीनियर नहीं कर सकता है।\n\n';
 
   @override
   String get eulaArticle3 =>
-      '제3조 (데이터 수집 및 보관 기간)\nइस लेख को पढ़ें और पढ़ें हमने 3 महीने पहले ही अपना काम पूरा कर लिया था।';
+      'अनुच्छेद 3 (डेटा संग्रह और भंडारण अवधि)\nसुचारू सेवा प्रदान करने के लिए, उपयोगकर्ता द्वारा बनाए गए टैरो डायरी और संबंधित भविष्यवाणियों का डेटा निर्माण की तारीख से मूल रूप से 3 साल के लिए सुरक्षित रूप से संग्रहीत किया जाता है।\n\n';
 
   @override
   String get eulaArticle4 =>
-      '제4조 (장기 미접속 휴면 계정 처리)\n1 वर्ष (365 वर्ष) के अंतिम वर्ष में एक वर्ष से अधिक समय तक ऋण प्राप्त करना, इस लेख को पढ़ें और पढ़ें यह आपके लिए एक अच्छा विकल्प है।';
+      'अनुच्छेद 4 (दीर्घकालिक निष्क्रिय खाते का प्रबंधन)\nयदि कोई उपयोगकर्ता 1 वर्ष (365 दिन) से अधिक समय तक सेवा में लॉग इन नहीं करता है, तो उसे निष्क्रिय खाते में बदल दिया जाएगा, और व्यक्तिगत जानकारी की सुरक्षा और एक सुचारू सर्वर वातावरण बनाए रखने के लिए, उस उपयोगकर्ता का सभी डेटा बिना किसी पूर्व सूचना के स्वचालित रूप से हटा दिया जाएगा।\n\n';
 
   @override
   String get eulaArticle5 =>
-      '제5조 (데이터 파기 및 복구 불가)\n3 वर्ष से अधिक समय पहले से ही 4 वर्ष से अधिक समय तक ऋण प्राप्त करने का प्रयास किया जाता है मेरे पास एक अच्छा विकल्प है।';
+      'अनुच्छेद 5 (डेटा का विनाश और अप्राप्यता)\nअनुच्छेद 3 में निर्दिष्ट भंडारण अवधि समाप्त होने या अनुच्छेद 4 के तहत हटाए गए डेटा को स्थायी रूप से नष्ट कर दिया जाएगा और किसी भी परिस्थिति में पुनर्प्राप्त नहीं किया जा सकता है।\n\n';
 
   @override
   String get eulaArticle6 =>
-      '제6조 (보증 부인 및 면책)\nइस लेख को पढ़ें यह आपके लिए एक अच्छा विकल्प है। इस लेख को पढ़ें यह सब ठीक है.';
+      'अनुच्छेद 6 (वारंटी का अस्वीकरण और क्षतिपूर्ति)\nइस ऐप द्वारा प्रदान किए गए टैरो रीडिंग और व्याख्याएं केवल मनोरंजन के उद्देश्य से हैं और कानूनी, चिकित्सा या वित्तीय सलाह का विकल्प नहीं हैं। डेवलपर सेवा के उपयोग से होने वाले किसी भी प्रत्यक्ष या अप्रत्यक्ष नुकसान के लिए जिम्मेदार नहीं होगा।\n\n';
 
   @override
   String get eulaAgreement => 'EULA के बारे में और पढ़ें धन्यवाद.';
@@ -3899,15 +4015,15 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get pushArticle1 =>
-      '제1조 (목적)\nएक और लेख पढ़ें यह एक ऐसा उत्पाद है जिसे आप अपने व्यवसाय के बारे में जानने के लिए उपयोग कर सकते हैं।';
+      'अनुच्छेद 1 (उद्देश्य)\nयह सहमति टैरो विच सेवा द्वारा उपयोगकर्ताओं को उपयोगी घटनाओं, प्रचारों और नए राशिफल अपडेट जैसी विज्ञापन संबंधी जानकारी पुश नोटिफिकेशन के माध्यम से भेजने के लिए है।\n\n';
 
   @override
   String get pushArticle2 =>
-      '제2조 (수신 철회)\nयह एक ऐसा उत्पाद है जो आपके लिए एक अच्छा विकल्प है [अंग्रेज़ी में > आपके पास] आपके पास कोई और विकल्प नहीं है। मेरे पास अभी भी एक नया उत्पाद है।';
+      'अनुच्छेद 2 (प्राप्ति रद्द करना)\nउपयोगकर्ता ऐप के भीतर [मेरा मेनू > ऐप सेटिंग्स] में किसी भी समय इस प्राप्ति सहमति को रद्द कर सकता है। सहमति रद्द करने पर भी, सेवा की बुनियादी कार्यक्षमता (आवश्यक सेवाएं) सामान्य रूप से उपलब्ध रहेगी।\n\n';
 
   @override
   String get pushArticle3 =>
-      '제3조 (알림의 내용)\nआपके पास जो कुछ भी है उसके बारे में अधिक जानकारी प्राप्त करने के लिए, आप अपने व्यवसाय के बारे में अधिक जानकारी प्राप्त कर सकते हैं। मेरे पास अभी भी एक नया उत्पाद है।';
+      'अनुच्छेद 3 (सूचना की सामग्री)\nभेजी गई सूचनाओं में ऐप के भीतर विशेष छूट, सीमित समय के इवेंट और व्यक्तिगत राशिफल सिफारिशें जैसी विज्ञापन और मार्केटिंग संबंधी सामग्री शामिल हो सकती है।\n\n';
 
   @override
   String get pushAgreement => 'इस लेख को पढ़ें यह एक अच्छा विचार है।';
@@ -3979,13 +4095,14 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get authAgreeEula =>
-      'हम आपको ईयूएलए (EULA) खरीदने की सलाह देते हैं। (필수)';
+      'मैं अंतिम उपयोगकर्ता लाइसेंस समझौते (EULA) से सहमत हूँ। (अनिवार्य)';
 
   @override
-  String get authViewContent => '[내용 보기]';
+  String get authViewContent => '[सामग्री देखें]';
 
   @override
-  String get authAgreePush => 'मेरे पास एक नया उत्पाद है। (선택)';
+  String get authAgreePush =>
+      'मैं नए टैरो रीडिंग और इवेंट नोटिफिकेशन प्राप्त करने के लिए सहमत हूँ। (वैकल्पिक)';
 
   @override
   String get authBtnLogin => 'धन्यवाद';
@@ -4131,27 +4248,27 @@ class AppLocalizationsHi extends AppLocalizations {
   String get profileEditSave => 'बचाना';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'सिक्कों की कमी';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'आपके पास पर्याप्त सिक्के नहीं हैं। टैरो रीडिंग के लिए 1 सिक्के की आवश्यकता है।';
 
   @override
-  String get dialogOk => 'OK';
+  String get dialogOk => 'ठीक है';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'टैरो रीडिंग जारी रखें';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'क्या आप 1 सिक्का खर्च करके रीडिंग जारी रखना चाहेंगे?';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'रद्द करें';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'आगे बढ़ें';
 
   @override
   String pickCardsText(int count) {
@@ -4169,7 +4286,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return '$witchName का टैरो रीडिंग';
   }
 
   @override
@@ -4203,4 +4320,25 @@ class AppLocalizationsHi extends AppLocalizations {
   String translateFailed(String error) {
     return 'अनुवाद विफल रहा: $error';
   }
+
+  @override
+  String get tagLove => 'प्यार';
+
+  @override
+  String get tagMoney => 'धन';
+
+  @override
+  String get tagHealth => 'स्वास्थ्य';
+
+  @override
+  String get tagCareer => 'करियर';
+
+  @override
+  String get tagToday => 'आज का भाग्य';
+
+  @override
+  String get tagRelationship => 'रिश्ते';
+
+  @override
+  String get tagSelfReflection => 'आत्म-चिंतन';
 }

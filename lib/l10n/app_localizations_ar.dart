@@ -4227,10 +4227,31 @@ class AppLocalizationsAr extends AppLocalizations {
       '✨ تحقق من نتيجة قراءة التاروت الخاصة بي!\\n\\nإذا كنت ترغب في معرفة المزيد من التفاصيل حول قراءتك، قم بتثبيت تطبيق ساحرة التاروت وتحقق من قراءة التاروت بنفسك!\\n👉 تحميل: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 
   @override
-  String get buttonTranslate => 'ترجمة';
+  String get buttonTranslate => 'ترجم';
 
   @override
   String translateFailed(String error) {
     return 'فشل الترجمة: $error';
   }
+
+  @override
+  String get tagLove => 'حب';
+
+  @override
+  String get tagMoney => 'مال';
+
+  @override
+  String get tagHealth => 'صحة';
+
+  @override
+  String get tagCareer => 'مهنة';
+
+  @override
+  String get tagToday => 'حظ اليوم';
+
+  @override
+  String get tagRelationship => 'علاقات';
+
+  @override
+  String get tagSelfReflection => 'تأمل ذاتي';
 }

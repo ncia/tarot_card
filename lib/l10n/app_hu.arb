@@ -1417,7 +1417,7 @@
   "layoutStacked": "Halmozott",
   "readingFateFragments": "A sors töredékeit olvasom.",
   "magicDustObtained": "Varázspor +{amount} szerezve! ✨",
-  "buttonTranslate": "Fordítás",
+  "buttonTranslate": "Fordít",
   "translateFailed": "Fordítás sikertelen: {error}",
   "@translateFailed": {
     "placeholders": {

@@ -3971,6 +3971,27 @@ class AppLocalizationsZh extends AppLocalizations {
   String translateFailed(String error) {
     return '翻译失败：$error';
   }
+
+  @override
+  String get tagLove => '爱';
+
+  @override
+  String get tagMoney => '财富';
+
+  @override
+  String get tagHealth => '健康';
+
+  @override
+  String get tagCareer => '事业';
+
+  @override
+  String get tagToday => '今日运势';
+
+  @override
+  String get tagRelationship => '感情';
+
+  @override
+  String get tagSelfReflection => '反思';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hans`).
@@ -7917,6 +7938,27 @@ class AppLocalizationsZhHans extends AppLocalizationsZh {
   String translateFailed(String error) {
     return '翻译失败：$error';
   }
+
+  @override
+  String get tagLove => '爱';
+
+  @override
+  String get tagMoney => '财富';
+
+  @override
+  String get tagHealth => '健康';
+
+  @override
+  String get tagCareer => '事业';
+
+  @override
+  String get tagToday => '今日运势';
+
+  @override
+  String get tagRelationship => '人际关系';
+
+  @override
+  String get tagSelfReflection => '自我反思';
 }
 
 /// The translations for Chinese, using the Han script (`zh_Hant`).
@@ -11859,4 +11901,25 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String translateFailed(String error) {
     return '翻譯失敗：$error';
   }
+
+  @override
+  String get tagLove => '愛情';
+
+  @override
+  String get tagMoney => '財富';
+
+  @override
+  String get tagHealth => '健康';
+
+  @override
+  String get tagCareer => '事業';
+
+  @override
+  String get tagToday => '今日運勢';
+
+  @override
+  String get tagRelationship => '人際關係';
+
+  @override
+  String get tagSelfReflection => '自我反思';
 }

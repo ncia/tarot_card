@@ -4167,4 +4167,25 @@ class AppLocalizationsTr extends AppLocalizations {
   String translateFailed(String error) {
     return 'Çeviri başarısız oldu: $error';
   }
+
+  @override
+  String get tagLove => 'Aşk';
+
+  @override
+  String get tagMoney => 'Para';
+
+  @override
+  String get tagHealth => 'Sağlık';
+
+  @override
+  String get tagCareer => 'Kariyer';
+
+  @override
+  String get tagToday => 'Günlük Fal';
+
+  @override
+  String get tagRelationship => 'İlişkiler';
+
+  @override
+  String get tagSelfReflection => 'Öz Yansıma';
 }

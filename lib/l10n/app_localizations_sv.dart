@@ -4166,4 +4166,25 @@ class AppLocalizationsSv extends AppLocalizations {
   String translateFailed(String error) {
     return 'Översättning misslyckades: $error';
   }
+
+  @override
+  String get tagLove => 'Kärlek';
+
+  @override
+  String get tagMoney => 'Pengar';
+
+  @override
+  String get tagHealth => 'Hälsa';
+
+  @override
+  String get tagCareer => 'Karriär';
+
+  @override
+  String get tagToday => 'Dagens tur';
+
+  @override
+  String get tagRelationship => 'Relationer';
+
+  @override
+  String get tagSelfReflection => 'Självreflektion';
 }

@@ -4157,4 +4157,25 @@ class AppLocalizationsTh extends AppLocalizations {
   String translateFailed(String error) {
     return 'การแปลล้มเหลว: $error';
   }
+
+  @override
+  String get tagLove => 'ความรัก';
+
+  @override
+  String get tagMoney => 'การเงิน';
+
+  @override
+  String get tagHealth => 'สุขภาพ';
+
+  @override
+  String get tagCareer => 'การงาน';
+
+  @override
+  String get tagToday => 'ดวงวันนี้';
+
+  @override
+  String get tagRelationship => 'ความสัมพันธ์';
+
+  @override
+  String get tagSelfReflection => 'การใคร่ครวญ';
 }

@@ -1950,7 +1950,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknamePrefix178 => 'substansi';
 
   @override
-  String get nicknamePrefix179 => 'ideal';
+  String get nicknamePrefix179 => 'Lebih dari';
 
   @override
   String get nicknamePrefix180 => 'nyata';
@@ -2040,7 +2040,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknameSuffix7 => 'pembunuh';
 
   @override
-  String get nicknameSuffix8 => 'paladin';
+  String get nicknameSuffix8 => 'Ksatria Suci';
 
   @override
   String get nicknameSuffix9 => 'pendeta';
@@ -2250,13 +2250,13 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknameSuffix77 => 'peri';
 
   @override
-  String get nicknameSuffix78 => 'goblin';
+  String get nicknameSuffix78 => 'Goblin';
 
   @override
   String get nicknameSuffix79 => 'ek';
 
   @override
-  String get nicknameSuffix80 => 'troll';
+  String get nicknameSuffix80 => 'Troll';
 
   @override
   String get nicknameSuffix81 => 'peri';
@@ -2445,7 +2445,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknamePrefix242 => 'tertidur';
 
   @override
-  String get nicknamePrefix243 => 'dreaming';
+  String get nicknamePrefix243 => 'Pemimpi';
 
   @override
   String get nicknamePrefix244 => 'melamun';
@@ -2550,7 +2550,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknamePrefix277 => 'tenang';
 
   @override
-  String get nicknamePrefix278 => 'drowsy';
+  String get nicknamePrefix278 => 'Lesu';
 
   @override
   String get nicknamePrefix279 => 'bosan';
@@ -2574,7 +2574,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknamePrefix285 => 'gila';
 
   @override
-  String get nicknamePrefix286 => 'gone crazy';
+  String get nicknamePrefix286 => 'Gila';
 
   @override
   String get nicknamePrefix287 => 'rasional';
@@ -2643,7 +2643,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknameSuffix109 => 'penggaris';
 
   @override
-  String get nicknameSuffix110 => 'orchestrator';
+  String get nicknameSuffix110 => 'Penyelaras';
 
   @override
   String get nicknameSuffix111 => 'yg mengawasi';
@@ -2688,13 +2688,13 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknameSuffix124 => 'roh jahat';
 
   @override
-  String get nicknameSuffix125 => 'government ordinance';
+  String get nicknameSuffix125 => 'Roh';
 
   @override
   String get nicknameSuffix126 => 'peri';
 
   @override
-  String get nicknameSuffix127 => 'demon beast';
+  String get nicknameSuffix127 => 'Binatang Iblis';
 
   @override
   String get nicknameSuffix128 => 'air suci';
@@ -2703,7 +2703,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknameSuffix129 => 'pengembalian dana';
 
   @override
-  String get nicknameSuffix130 => 'Shinsu';
+  String get nicknameSuffix130 => 'Binatang Suci';
 
   @override
   String get nicknameSuffix131 => 'tes';
@@ -2826,7 +2826,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknameSuffix170 => 'naga';
 
   @override
-  String get nicknameSuffix171 => 'unicorn';
+  String get nicknameSuffix171 => 'Unicorn';
 
   @override
   String get nicknameSuffix172 => 'Pegasus';
@@ -2835,16 +2835,16 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknameSuffix173 => 'grifon';
 
   @override
-  String get nicknameSuffix174 => 'gargoyle';
+  String get nicknameSuffix174 => 'Gargoyle';
 
   @override
-  String get nicknameSuffix175 => 'goblin';
+  String get nicknameSuffix175 => 'Goblin';
 
   @override
   String get nicknameSuffix176 => 'ek';
 
   @override
-  String get nicknameSuffix177 => 'troll';
+  String get nicknameSuffix177 => 'Troll';
 
   @override
   String get nicknameSuffix178 => 'bor';
@@ -2868,7 +2868,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get nicknameSuffix184 => 'manusia serigala';
 
   @override
-  String get nicknameSuffix185 => 'minotaur';
+  String get nicknameSuffix185 => 'Minotaur';
 
   @override
   String get nicknameSuffix186 => 'centaurus';
@@ -4091,7 +4091,7 @@ class AppLocalizationsId extends AppLocalizations {
   String get authRerollNickname => 'Pilih nama panggilan lagi';
 
   @override
-  String get authEmail => 'email';
+  String get authEmail => 'Email';
 
   @override
   String get authPassword => 'kata sandi';
@@ -4258,27 +4258,27 @@ class AppLocalizationsId extends AppLocalizations {
   String get profileEditSave => 'Menyimpan';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'Koin Kurang';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'Koin Anda kurang. Pembacaan tarot membutuhkan 1 koin.';
 
   @override
-  String get dialogOk => 'OK';
+  String get dialogOk => 'Oke';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'Lanjutkan Pembacaan Tarot';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'Apakah Anda ingin melanjutkan pembacaan dengan mengonsumsi 1 koin?';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'Batal';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'Lanjutkan';
 
   @override
   String pickCardsText(int count) {
@@ -4296,7 +4296,7 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return 'Pembacaan Tarot $witchName';
   }
 
   @override
@@ -4330,4 +4330,25 @@ class AppLocalizationsId extends AppLocalizations {
   String translateFailed(String error) {
     return 'Terjemahan gagal: $error';
   }
+
+  @override
+  String get tagLove => 'Cinta';
+
+  @override
+  String get tagMoney => 'Uang';
+
+  @override
+  String get tagHealth => 'Kesehatan';
+
+  @override
+  String get tagCareer => 'Karier';
+
+  @override
+  String get tagToday => 'Hari Ini';
+
+  @override
+  String get tagRelationship => 'Hubungan';
+
+  @override
+  String get tagSelfReflection => 'Refleksi Diri';
 }

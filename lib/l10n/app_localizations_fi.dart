@@ -1325,7 +1325,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get myMenuSectionCustomerSupport => 'Asiakastuki';
 
   @override
-  String get myMenuFaq => 'FAQ';
+  String get myMenuFaq => 'Usein kysytyt kysymykset (UKK)';
 
   @override
   String get myMenuAppInfo => 'Sovelluksen tiedot';
@@ -1356,19 +1356,20 @@ class AppLocalizationsFi extends AppLocalizations {
   String get myMenuEmailErrorMsg => 'Liian monta pyyntöä tai tapahtui virhe.';
 
   @override
-  String get myMenuEmailVerified => 'Email Verified';
+  String get myMenuEmailVerified => 'Sähköpostivahvistus valmis';
 
   @override
-  String get myMenuEmailNotVerified => 'Email Not Verified (Tap to verify)';
+  String get myMenuEmailNotVerified =>
+      'Sähköpostia ei vahvistettu (kosketa vahvistaaksesi)';
 
   @override
-  String get languageSystemDefault => 'System Default';
+  String get languageSystemDefault => 'Oletus (järjestelmäasetukset)';
 
   @override
   String get shopTitle => 'Kauppa';
 
   @override
-  String get shopSubtitle => 'Purchase Coins and Themes';
+  String get shopSubtitle => 'Osta kolikoita ja teemoja';
 
   @override
   String get shopTabCoin => 'Kolikko';
@@ -1380,39 +1381,39 @@ class AppLocalizationsFi extends AppLocalizations {
   String get shopPayButton => 'Maksaa';
 
   @override
-  String get themeOriginalDeck => 'Original Classic Deck';
+  String get themeOriginalDeck => 'Alkuperäinen klassinen pakka';
 
   @override
-  String get themeGoldenSunDeck => 'Golden Sun Deck';
+  String get themeGoldenSunDeck => 'Kultaisen auringon pakka';
 
   @override
-  String get themeDarkAbyssDeck => 'Dark Abyss Deck';
+  String get themeDarkAbyssDeck => 'Pimeän syvyyden pakka';
 
   @override
-  String get themeSpringSpiritDeck => 'Spring Spirit Deck';
+  String get themeSpringSpiritDeck => 'Kevään hengen pakka';
 
   @override
   String shopCoinNotReady(int coins) {
-    return 'Payment for $coins coins is coming soon.';
+    return '$coins kolikon maksutoiminto on valmisteilla.';
   }
 
   @override
   String shopThemeNotReady(String name) {
-    return 'Purchase/apply for $name is coming soon.';
+    return '$name osto-/käyttötoiminto on valmisteilla.';
   }
 
   @override
-  String get readingIntroSelectWitch => 'Select a witch to see your destiny';
+  String get readingIntroSelectWitch => 'Valitse noita ja tarkista kohtalosi';
 
   @override
   String get readingIntroGreeting =>
-      'What destiny shall we look into?\nI am curious about your future.';
+      'Mitä kohtaloa katsotaan?\nOlen utelias tulevaisuudestasi.';
 
   @override
-  String get readingIntroStart => 'Select Spread';
+  String get readingIntroStart => 'Valitse asettelutapa';
 
   @override
-  String get tabMajorArcana => 'Major Arcana';
+  String get tabMajorArcana => 'Suuri Arkana';
 
   @override
   String get tabMinorArcana => 'Pieni arkaani';
@@ -1490,7 +1491,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknamePrefix23 => 'puhdas valkoinen';
 
   @override
-  String get nicknamePrefix24 => 'jet black';
+  String get nicknamePrefix24 => 'Pimeyden';
 
   @override
   String get nicknamePrefix25 => 'verinen';
@@ -1868,154 +1869,154 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknamePrefix149 => 'alkuperästä';
 
   @override
-  String get nicknamePrefix150 => 'apocalyptic';
+  String get nicknamePrefix150 => 'Tuomion';
 
   @override
-  String get nicknamePrefix151 => 'infinite';
+  String get nicknamePrefix151 => 'Äärettömän';
 
   @override
-  String get nicknamePrefix152 => 'finite';
+  String get nicknamePrefix152 => 'Äärellisen';
 
   @override
-  String get nicknamePrefix153 => 'silent';
+  String get nicknamePrefix153 => 'Hiljaisuuden';
 
   @override
-  String get nicknamePrefix154 => 'of noise';
+  String get nicknamePrefix154 => 'Melun';
 
   @override
-  String get nicknamePrefix155 => 'singing';
+  String get nicknamePrefix155 => 'Laulava';
 
   @override
-  String get nicknamePrefix156 => 'dancing';
+  String get nicknamePrefix156 => 'Tanssiva';
 
   @override
-  String get nicknamePrefix157 => 'crying';
+  String get nicknamePrefix157 => 'Itkevä';
 
   @override
-  String get nicknamePrefix158 => 'smiling';
+  String get nicknamePrefix158 => 'Naurava';
 
   @override
-  String get nicknamePrefix159 => 'whispering';
+  String get nicknamePrefix159 => 'Kuiskaava';
 
   @override
-  String get nicknamePrefix160 => 'crying';
+  String get nicknamePrefix160 => 'Huutava';
 
   @override
-  String get nicknamePrefix161 => 'praying';
+  String get nicknamePrefix161 => 'Rukoileva';
 
   @override
-  String get nicknamePrefix162 => 'pleading';
+  String get nicknamePrefix162 => 'Anova';
 
   @override
-  String get nicknamePrefix163 => 'commanding';
+  String get nicknamePrefix163 => 'Käskevä';
 
   @override
-  String get nicknamePrefix164 => 'submissive';
+  String get nicknamePrefix164 => 'Tottelevainen';
 
   @override
-  String get nicknamePrefix165 => 'ruling';
+  String get nicknamePrefix165 => 'Hallitseva';
 
   @override
-  String get nicknamePrefix166 => 'serving';
+  String get nicknamePrefix166 => 'Palveleva';
 
   @override
-  String get nicknamePrefix167 => 'guiding';
+  String get nicknamePrefix167 => 'Opastava';
 
   @override
-  String get nicknamePrefix168 => 'accompanying';
+  String get nicknamePrefix168 => 'Seuraava';
 
   @override
-  String get nicknamePrefix169 => 'teaching';
+  String get nicknamePrefix169 => 'Opettava';
 
   @override
-  String get nicknamePrefix170 => 'learning';
+  String get nicknamePrefix170 => 'Oppiva';
 
   @override
-  String get nicknamePrefix171 => 'of memory';
+  String get nicknamePrefix171 => 'Muistin';
 
   @override
-  String get nicknamePrefix172 => 'of memories';
+  String get nicknamePrefix172 => 'Muistojen';
 
   @override
-  String get nicknamePrefix173 => 'of wounds';
+  String get nicknamePrefix173 => 'Haavan';
 
   @override
-  String get nicknamePrefix174 => 'healing';
+  String get nicknamePrefix174 => 'Parannuksen';
 
   @override
-  String get nicknamePrefix175 => 'poisonous';
+  String get nicknamePrefix175 => 'Myrkyn';
 
   @override
-  String get nicknamePrefix176 => 'medicine';
+  String get nicknamePrefix176 => 'Lääkkeen';
 
   @override
-  String get nicknamePrefix177 => 'welcome';
+  String get nicknamePrefix177 => 'Illuusion';
 
   @override
-  String get nicknamePrefix178 => 'of substance';
+  String get nicknamePrefix178 => 'Todellisuuden';
 
   @override
-  String get nicknamePrefix179 => 'ideal';
+  String get nicknamePrefix179 => 'Ihanteen';
 
   @override
-  String get nicknamePrefix180 => 'real';
+  String get nicknamePrefix180 => 'Todellisuuden';
 
   @override
-  String get nicknamePrefix181 => 'imaginary';
+  String get nicknamePrefix181 => 'Virtuaalisen';
 
   @override
-  String get nicknamePrefix182 => 'natural';
+  String get nicknamePrefix182 => 'Luonnon';
 
   @override
-  String get nicknamePrefix183 => 'artificial';
+  String get nicknamePrefix183 => 'Keinotekoisen';
 
   @override
-  String get nicknamePrefix184 => 'in the beginning';
+  String get nicknamePrefix184 => 'Alkuperäisen';
 
   @override
-  String get nicknamePrefix185 => 'eternity';
+  String get nicknamePrefix185 => 'Iankaikkisuuden';
 
   @override
-  String get nicknamePrefix186 => 'of the moment';
+  String get nicknamePrefix186 => 'Hetken';
 
   @override
-  String get nicknamePrefix187 => 'fleeting';
+  String get nicknamePrefix187 => 'Silmänräpäyksen';
 
   @override
-  String get nicknamePrefix188 => 'eternal';
+  String get nicknamePrefix188 => 'Pysyvyyden';
 
   @override
-  String get nicknamePrefix189 => 'of change';
+  String get nicknamePrefix189 => 'Muutoksen';
 
   @override
-  String get nicknamePrefix190 => 'still';
+  String get nicknamePrefix190 => 'Pysähdyksen';
 
   @override
-  String get nicknamePrefix191 => 'flowing';
+  String get nicknamePrefix191 => 'Virtaava';
 
   @override
-  String get nicknamePrefix192 => 'rundown';
+  String get nicknamePrefix192 => 'Pysähtynyt';
 
   @override
-  String get nicknamePrefix193 => 'blazing';
+  String get nicknamePrefix193 => 'Palava';
 
   @override
-  String get nicknamePrefix194 => 'cooling down';
+  String get nicknamePrefix194 => 'Jäähtyvä';
 
   @override
-  String get nicknamePrefix195 => 'blooming';
+  String get nicknamePrefix195 => 'Kukkiva';
 
   @override
-  String get nicknamePrefix196 => 'withering';
+  String get nicknamePrefix196 => 'Lakastuva';
 
   @override
-  String get nicknamePrefix197 => 'growing up';
+  String get nicknamePrefix197 => 'Kasvava';
 
   @override
-  String get nicknamePrefix198 => 'dying';
+  String get nicknamePrefix198 => 'Kuoleva';
 
   @override
-  String get nicknamePrefix199 => 'breathing';
+  String get nicknamePrefix199 => 'Hengittävä';
 
   @override
   String get nicknamePrefix200 => 'tukahduttava';
@@ -2045,7 +2046,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknameSuffix7 => 'salamurhaaja';
 
   @override
-  String get nicknameSuffix8 => 'paladin';
+  String get nicknameSuffix8 => 'Pyhä ritari';
 
   @override
   String get nicknameSuffix9 => 'pappi';
@@ -2285,7 +2286,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknameSuffix87 => 'allekirjoitus';
 
   @override
-  String get nicknameSuffix88 => 'Fishman';
+  String get nicknameSuffix88 => 'Kalaihminen';
 
   @override
   String get nicknameSuffix89 => 'työntekijä';
@@ -2294,7 +2295,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknameSuffix90 => 'paha henki';
 
   @override
-  String get nicknameSuffix91 => 'Sura';
+  String get nicknameSuffix91 => 'Asura';
 
   @override
   String get nicknameSuffix92 => 'helvetti';
@@ -2609,7 +2610,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknamePrefix295 => 'puhdas valkoinen';
 
   @override
-  String get nicknamePrefix296 => 'jet black';
+  String get nicknamePrefix296 => 'Pimeyden';
 
   @override
   String get nicknamePrefix297 => 'kultainen';
@@ -2633,7 +2634,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknameSuffix104 => 'erakko';
 
   @override
-  String get nicknameSuffix105 => 'Ethan';
+  String get nicknameSuffix105 => 'Harhaoppinen';
 
   @override
   String get nicknameSuffix106 => 'petturi';
@@ -2708,7 +2709,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknameSuffix129 => 'palauttaa';
 
   @override
-  String get nicknameSuffix130 => 'Shinsu';
+  String get nicknameSuffix130 => 'Pyhä peto';
 
   @override
   String get nicknameSuffix131 => 'testata';
@@ -2807,7 +2808,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknameSuffix162 => 'musta pantteri';
 
   @override
-  String get nicknameSuffix163 => 'Salsssop';
+  String get nicknameSuffix163 => 'Villikissa';
 
   @override
   String get nicknameSuffix164 => 'kissa';
@@ -2837,7 +2838,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknameSuffix172 => 'Pegasus';
 
   @override
-  String get nicknameSuffix173 => 'griffon';
+  String get nicknameSuffix173 => 'Grifoni';
 
   @override
   String get nicknameSuffix174 => 'irvikuva';
@@ -2888,7 +2889,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get nicknameSuffix189 => 'Kraken';
 
   @override
-  String get nicknameSuffix190 => 'leviathan';
+  String get nicknameSuffix190 => 'Leviathan';
 
   @override
   String get nicknameSuffix191 => 'veitsi';
@@ -4191,7 +4192,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get chatShufflingCards => 'Tarot-korttien sekoittaminen...';
 
   @override
-  String get profileEditEmptyNickname => 'Please enter a nickname.';
+  String get profileEditEmptyNickname => 'Syötä lempinimi.';
 
   @override
   String get profileEditDuplicateNickname =>
@@ -4260,27 +4261,27 @@ class AppLocalizationsFi extends AppLocalizations {
   String get profileEditSave => 'Tallentaa';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'Kolikot vähissä';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'Kolikot ovat vähissä. Tarot-lukemiseen tarvitaan 1 kolikko.';
 
   @override
   String get dialogOk => 'OK';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'Jatka tarot-lukemista';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'Haluatko jatkaa lukemista kuluttamalla 1 kolikon?';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'Peruuta';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'Jatka';
 
   @override
   String pickCardsText(int count) {
@@ -4298,7 +4299,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return '${witchName}n tarot-ennustus';
   }
 
   @override
@@ -4332,4 +4333,25 @@ class AppLocalizationsFi extends AppLocalizations {
   String translateFailed(String error) {
     return 'Käännös epäonnistui: $error';
   }
+
+  @override
+  String get tagLove => 'Rakkaus';
+
+  @override
+  String get tagMoney => 'Rikkaus';
+
+  @override
+  String get tagHealth => 'Terveys';
+
+  @override
+  String get tagCareer => 'Ura';
+
+  @override
+  String get tagToday => 'Päivän onni';
+
+  @override
+  String get tagRelationship => 'Suhteet';
+
+  @override
+  String get tagSelfReflection => 'Itsereflektio';
 }

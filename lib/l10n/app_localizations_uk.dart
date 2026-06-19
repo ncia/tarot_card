@@ -4173,4 +4173,25 @@ class AppLocalizationsUk extends AppLocalizations {
   String translateFailed(String error) {
     return 'Переклад не вдався: $error';
   }
+
+  @override
+  String get tagLove => 'Кохання';
+
+  @override
+  String get tagMoney => 'Багатство';
+
+  @override
+  String get tagHealth => 'Здоров\'я';
+
+  @override
+  String get tagCareer => 'Кар\'єра';
+
+  @override
+  String get tagToday => 'Сьогодні';
+
+  @override
+  String get tagRelationship => 'Стосунки';
+
+  @override
+  String get tagSelfReflection => 'Саморефлексія';
 }

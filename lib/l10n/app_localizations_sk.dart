@@ -1323,7 +1323,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get myMenuSectionCustomerSupport => 'Zákaznícka podpora';
 
   @override
-  String get myMenuFaq => 'FAQ';
+  String get myMenuFaq => 'Často kladené otázky (FAQ)';
 
   @override
   String get myMenuAppInfo => 'Informácie o aplikácii';
@@ -1386,7 +1386,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get themeGoldenSunDeck => 'Zlatá slnečná paluba';
 
   @override
-  String get themeDarkAbyssDeck => 'Dark Abyss Deck';
+  String get themeDarkAbyssDeck => 'Balíček temnej priepasti';
 
   @override
   String get themeSpringSpiritDeck => 'Jarná duchovná paluba';
@@ -1413,7 +1413,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get readingIntroStart => 'Vyberte možnosť Rozložiť';
 
   @override
-  String get tabMajorArcana => 'Major Arcana';
+  String get tabMajorArcana => 'Hlavná arkána';
 
   @override
   String get tabMinorArcana => 'Malá Arkána';
@@ -1503,7 +1503,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknamePrefix27 => 'zlatá';
 
   @override
-  String get nicknamePrefix28 => 'argent';
+  String get nicknamePrefix28 => 'Strieborný';
 
   @override
   String get nicknamePrefix29 => 'modrá';
@@ -1833,7 +1833,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknamePrefix137 => 'vojny';
 
   @override
-  String get nicknamePrefix138 => 'chaos';
+  String get nicknamePrefix138 => 'Chaotický';
 
   @override
   String get nicknamePrefix139 => 'usporiadaný';
@@ -2037,7 +2037,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix4 => 'bojovník';
 
   @override
-  String get nicknameSuffix5 => 'Archer';
+  String get nicknameSuffix5 => 'Lukostrelec';
 
   @override
   String get nicknameSuffix6 => 'zlodej';
@@ -2046,7 +2046,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix7 => 'nájomný vrah';
 
   @override
-  String get nicknameSuffix8 => 'paladin';
+  String get nicknameSuffix8 => 'Paladin';
 
   @override
   String get nicknameSuffix9 => 'kňaz';
@@ -2058,7 +2058,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix11 => 'mních';
 
   @override
-  String get nicknameSuffix12 => 'powwow';
+  String get nicknameSuffix12 => 'Šaman';
 
   @override
   String get nicknameSuffix13 => 'alchymista';
@@ -2256,13 +2256,13 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix77 => 'nymfa';
 
   @override
-  String get nicknameSuffix78 => 'goblin';
+  String get nicknameSuffix78 => 'Goblin';
 
   @override
   String get nicknameSuffix79 => 'dub';
 
   @override
-  String get nicknameSuffix80 => 'troll';
+  String get nicknameSuffix80 => 'Troll';
 
   @override
   String get nicknameSuffix81 => 'škriatok';
@@ -2295,7 +2295,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix90 => 'zlý duch';
 
   @override
-  String get nicknameSuffix91 => 'Sura';
+  String get nicknameSuffix91 => 'Asura';
 
   @override
   String get nicknameSuffix92 => 'peklo';
@@ -2313,7 +2313,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix96 => 'priepasť';
 
   @override
-  String get nicknameSuffix97 => 'chaos';
+  String get nicknameSuffix97 => 'Chaos';
 
   @override
   String get nicknameSuffix98 => 'poriadku';
@@ -2325,7 +2325,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix100 => 'tmavé';
 
   @override
-  String get nicknamePrefix201 => 'brilliant';
+  String get nicknamePrefix201 => 'Žiarivý';
 
   @override
   String get nicknamePrefix202 => 'jemný';
@@ -2487,7 +2487,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknamePrefix254 => 'skromný';
 
   @override
-  String get nicknamePrefix255 => 'fond';
+  String get nicknamePrefix255 => 'Láskavý';
 
   @override
   String get nicknamePrefix256 => 'teplý';
@@ -2616,7 +2616,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknamePrefix297 => 'zlatá';
 
   @override
-  String get nicknamePrefix298 => 'argent';
+  String get nicknamePrefix298 => 'Strieborný';
 
   @override
   String get nicknamePrefix299 => 'krvavý';
@@ -2634,7 +2634,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix104 => 'pustovník';
 
   @override
-  String get nicknameSuffix105 => 'Ethan';
+  String get nicknameSuffix105 => 'Kacíř';
 
   @override
   String get nicknameSuffix106 => 'zradca';
@@ -2667,13 +2667,13 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix115 => 'komunikátor';
 
   @override
-  String get nicknameSuffix116 => 'guide';
+  String get nicknameSuffix116 => 'Sprievodca';
 
   @override
-  String get nicknameSuffix117 => 'leader';
+  String get nicknameSuffix117 => 'Vodca';
 
   @override
-  String get nicknameSuffix118 => 'saver';
+  String get nicknameSuffix118 => 'Spasiteľ';
 
   @override
   String get nicknameSuffix119 => 'ničiteľ';
@@ -2685,10 +2685,10 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix121 => 'tieň';
 
   @override
-  String get nicknameSuffix122 => 'ghost';
+  String get nicknameSuffix122 => 'Duch';
 
   @override
-  String get nicknameSuffix123 => 'ghost';
+  String get nicknameSuffix123 => 'Blúdiaca duša';
 
   @override
   String get nicknameSuffix124 => 'zlý duch';
@@ -2697,160 +2697,160 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix125 => 'vládne nariadenie';
 
   @override
-  String get nicknameSuffix126 => 'fairy';
+  String get nicknameSuffix126 => 'Víla';
 
   @override
-  String get nicknameSuffix127 => 'demon beast';
+  String get nicknameSuffix127 => 'Démonická šelma';
 
   @override
-  String get nicknameSuffix128 => 'holy water';
+  String get nicknameSuffix128 => 'Posvätná šelma';
 
   @override
-  String get nicknameSuffix129 => 'refund';
+  String get nicknameSuffix129 => 'Fantastická šelma';
 
   @override
-  String get nicknameSuffix130 => 'Shinsu';
+  String get nicknameSuffix130 => 'Božská šelma';
 
   @override
   String get nicknameSuffix131 => 'testovať';
 
   @override
-  String get nicknameSuffix132 => 'article';
+  String get nicknameSuffix132 => 'Rytier';
 
   @override
-  String get nicknameSuffix133 => 'Archer';
+  String get nicknameSuffix133 => 'Lukostrelec';
 
   @override
-  String get nicknameSuffix134 => 'thief';
+  String get nicknameSuffix134 => 'Zlodej';
 
   @override
-  String get nicknameSuffix135 => 'assassin';
+  String get nicknameSuffix135 => 'Vrah';
 
   @override
-  String get nicknameSuffix136 => 'wizard';
+  String get nicknameSuffix136 => 'Čarodejník';
 
   @override
-  String get nicknameSuffix137 => 'powwow';
+  String get nicknameSuffix137 => 'Šaman';
 
   @override
-  String get nicknameSuffix138 => 'alchemist';
+  String get nicknameSuffix138 => 'Alchymista';
 
   @override
-  String get nicknameSuffix139 => 'necromancer';
+  String get nicknameSuffix139 => 'Nekromant';
 
   @override
-  String get nicknameSuffix140 => 'priest';
+  String get nicknameSuffix140 => 'Kňaz';
 
   @override
   String get nicknameSuffix141 => 'učenec';
 
   @override
-  String get nicknameSuffix142 => 'researcher';
+  String get nicknameSuffix142 => 'Výskumník';
 
   @override
-  String get nicknameSuffix143 => 'explorer';
+  String get nicknameSuffix143 => 'Prieskumník';
 
   @override
-  String get nicknameSuffix144 => 'traveler';
+  String get nicknameSuffix144 => 'Cestovateľ';
 
   @override
-  String get nicknameSuffix145 => 'artist';
+  String get nicknameSuffix145 => 'Umelec';
 
   @override
-  String get nicknameSuffix146 => 'jester';
+  String get nicknameSuffix146 => 'Klaun';
 
   @override
-  String get nicknameSuffix147 => 'bard';
+  String get nicknameSuffix147 => 'Bárd';
 
   @override
-  String get nicknameSuffix148 => 'merchant';
+  String get nicknameSuffix148 => 'Obchodník';
 
   @override
-  String get nicknameSuffix149 => 'craftsman';
+  String get nicknameSuffix149 => 'Remeselník';
 
   @override
-  String get nicknameSuffix150 => 'peasant';
+  String get nicknameSuffix150 => 'Farmár';
 
   @override
-  String get nicknameSuffix151 => 'crow';
+  String get nicknameSuffix151 => 'Vrana';
 
   @override
-  String get nicknameSuffix152 => 'owl';
+  String get nicknameSuffix152 => 'Sova';
 
   @override
-  String get nicknameSuffix153 => 'owl';
+  String get nicknameSuffix153 => 'Sova';
 
   @override
-  String get nicknameSuffix154 => 'eagle';
+  String get nicknameSuffix154 => 'Orol';
 
   @override
-  String get nicknameSuffix155 => 'hawk';
+  String get nicknameSuffix155 => 'Sokol';
 
   @override
-  String get nicknameSuffix156 => 'wolf';
+  String get nicknameSuffix156 => 'Vlk';
 
   @override
-  String get nicknameSuffix157 => 'fox';
+  String get nicknameSuffix157 => 'Líška';
 
   @override
-  String get nicknameSuffix158 => 'bear';
+  String get nicknameSuffix158 => 'Medveď';
 
   @override
-  String get nicknameSuffix159 => 'lion';
+  String get nicknameSuffix159 => 'Lev';
 
   @override
-  String get nicknameSuffix160 => 'tiger';
+  String get nicknameSuffix160 => 'Tiger';
 
   @override
-  String get nicknameSuffix161 => 'leopard';
+  String get nicknameSuffix161 => 'Leopard';
 
   @override
-  String get nicknameSuffix162 => 'black panther';
+  String get nicknameSuffix162 => 'Čierny panter';
 
   @override
-  String get nicknameSuffix163 => 'Salsssop';
+  String get nicknameSuffix163 => 'Rys';
 
   @override
-  String get nicknameSuffix164 => 'cat';
+  String get nicknameSuffix164 => 'Mačka';
 
   @override
-  String get nicknameSuffix165 => 'puppy';
+  String get nicknameSuffix165 => 'Pes';
 
   @override
-  String get nicknameSuffix166 => 'snake';
+  String get nicknameSuffix166 => 'Had';
 
   @override
   String get nicknameSuffix167 => 'jašterica';
 
   @override
-  String get nicknameSuffix168 => 'turtle';
+  String get nicknameSuffix168 => 'Korytnačka';
 
   @override
   String get nicknameSuffix169 => 'krokodíl';
 
   @override
-  String get nicknameSuffix170 => 'dragon';
+  String get nicknameSuffix170 => 'Drak';
 
   @override
   String get nicknameSuffix171 => 'jednorožec';
 
   @override
-  String get nicknameSuffix172 => 'Pegasus';
+  String get nicknameSuffix172 => 'Pegas';
 
   @override
-  String get nicknameSuffix173 => 'griffon';
+  String get nicknameSuffix173 => 'Gryf';
 
   @override
   String get nicknameSuffix174 => 'chrlič';
 
   @override
-  String get nicknameSuffix175 => 'goblin';
+  String get nicknameSuffix175 => 'Goblin';
 
   @override
   String get nicknameSuffix176 => 'dub';
 
   @override
-  String get nicknameSuffix177 => 'troll';
+  String get nicknameSuffix177 => 'Troll';
 
   @override
   String get nicknameSuffix178 => 'šnek';
@@ -2874,7 +2874,7 @@ class AppLocalizationsSk extends AppLocalizations {
   String get nicknameSuffix184 => 'vlkolak';
 
   @override
-  String get nicknameSuffix185 => 'minotaur';
+  String get nicknameSuffix185 => 'Minotaurus';
 
   @override
   String get nicknameSuffix186 => 'kentaura';
@@ -3108,7 +3108,7 @@ class AppLocalizationsSk extends AppLocalizations {
   }
 
   @override
-  String get growthUpgradeButton => 'Upgrade (10 Dust)';
+  String get growthUpgradeButton => 'Vylepšiť (10 práškov)';
 
   @override
   String get growthUpgradeSuccess =>
@@ -3128,854 +3128,1018 @@ class AppLocalizationsSk extends AppLocalizations {
   String get tarotMajor00Name => 'Blázon';
 
   @override
-  String get tarotMajor00Upright => '새로운 시작, 모험, 무한한 가능성, 자유, 순수함';
+  String get tarotMajor00Upright =>
+      'Nový začiatok, dobrodružstvo, nekonečné možnosti, sloboda, čistota';
 
   @override
-  String get tarotMajor00Reversed => '무모함, 어리석음, 부주의, 너무 큰 위험을 감수함, 비현실성';
+  String get tarotMajor00Reversed =>
+      'Bezohľadnosť, hlúposť, neopatrnosť, prílišné riskovanie, nereálnosť';
 
   @override
   String get tarotMajor01Name => 'Kúzelník';
 
   @override
-  String get tarotMajor01Upright => '창조력, 의지, 능력, 새로운 시작의 힘, 결단력';
+  String get tarotMajor01Upright =>
+      'Tvorivosť, vôľa, schopnosť, sila nového začiatku, odhodlanie';
 
   @override
-  String get tarotMajor01Reversed => '조작, 재능 낭비, 기만, 자신감 부족, 숨겨진 의도';
+  String get tarotMajor01Reversed =>
+      'Manipulácia, plytvanie talentom, podvod, nedostatok sebavedomia, skryté úmysly';
 
   @override
   String get tarotMajor02Name => 'Veľkňažka';
 
   @override
-  String get tarotMajor02Upright => '직관, 무의식, 신비, 지혜, 내면의 목소리';
+  String get tarotMajor02Upright =>
+      'Intuícia, podvedomie, tajomstvo, múdrosť, vnútorný hlas';
 
   @override
-  String get tarotMajor02Reversed => '직관 무시, 얕은 지식, 숨겨진 적, 비밀 누설';
+  String get tarotMajor02Reversed =>
+      'Ignorovanie intuície, plytké vedomosti, skrytý nepriateľ, prezradenie tajomstva';
 
   @override
   String get tarotMajor03Name => 'Cisárovná';
 
   @override
-  String get tarotMajor03Upright => '풍요, 모성애, 아름다움, 자연의 결실, 창조성';
+  String get tarotMajor03Upright =>
+      'Hojnosť, materstvo, krása, plody prírody, tvorivosť';
 
   @override
-  String get tarotMajor03Reversed => '과잉보호, 의존성, 창조적 결핍, 게으름, 정체기';
+  String get tarotMajor03Reversed =>
+      'Prehnaná ochrana, závislosť, tvorivý nedostatok, lenivosť, stagnácia';
 
   @override
   String get tarotMajor04Name => 'Cisár';
 
   @override
-  String get tarotMajor04Upright => '권위, 구조, 안정, 부성애, 통제력, 책임감';
+  String get tarotMajor04Upright =>
+      'Autorita, štruktúra, stabilita, otcovstvo, kontrola, zodpovednosť';
 
   @override
-  String get tarotMajor04Reversed => '독재, 지배욕, 융통성 부족, 무능함, 억압';
+  String get tarotMajor04Reversed =>
+      'Diktatúra, túžba po dominancii, nedostatok flexibility, neschopnosť, útlak';
 
   @override
   String get tarotMajor05Name => 'Hierofant';
 
   @override
-  String get tarotMajor05Upright => '전통, 믿음, 교육, 영적인 인도, 보수주의';
+  String get tarotMajor05Upright =>
+      'Tradícia, viera, vzdelanie, duchovné vedenie, konzervativizmus';
 
   @override
-  String get tarotMajor05Reversed => '반역, 관습 타파, 독단적 태도, 낡은 사상, 나쁜 조언';
+  String get tarotMajor05Reversed =>
+      'Vzbura, porušenie konvencií, dogmatický postoj, zastarané myšlienky, zlá rada';
 
   @override
   String get tarotMajor06Name => 'Milenci';
 
   @override
-  String get tarotMajor06Upright => '사랑, 조화, 관계, 중요한 선택, 신뢰';
+  String get tarotMajor06Upright =>
+      'Láska, harmónia, vzťahy, dôležitá voľba, dôvera';
 
   @override
-  String get tarotMajor06Reversed => '불화, 잘못된 선택, 신뢰 상실, 유혹, 불균형';
+  String get tarotMajor06Reversed =>
+      'Nezhody, zlá voľba, strata dôvery, pokušenie, nerovnováha';
 
   @override
   String get tarotMajor07Name => 'Chariot';
 
   @override
-  String get tarotMajor07Upright => '의지, 승리, 결단력, 방향성, 성공을 향한 추진력';
+  String get tarotMajor07Upright =>
+      'Vôľa, víťazstvo, odhodlanie, smer, hybná sila k úspechu';
 
   @override
-  String get tarotMajor07Reversed => '통제 상실, 방향 상실, 무기력, 공격성, 장애물';
+  String get tarotMajor07Reversed =>
+      'Strata kontroly, strata smeru, bezmocnosť, agresia, prekážky';
 
   @override
   String get tarotMajor08Name => 'Pevnosť';
 
   @override
-  String get tarotMajor08Upright => '용기, 인내, 내면의 힘, 부드러운 통제, 자비';
+  String get tarotMajor08Upright =>
+      'Odvaha, trpezlivosť, vnútorná sila, jemná kontrola, súcit';
 
   @override
-  String get tarotMajor08Reversed => '두려움, 나약함, 자기 통제력 상실, 충동, 자만심';
+  String get tarotMajor08Reversed =>
+      'Strach, slabosť, strata sebaovládania, impulzívnosť, arogancia';
 
   @override
   String get tarotMajor09Name => 'Pustovník';
 
   @override
-  String get tarotMajor09Upright => '내면 탐구, 지혜, 고독, 깨달음, 영적 조언자';
+  String get tarotMajor09Upright =>
+      'Vnútorné hľadanie, múdrosť, samota, osvietenie, duchovný poradca';
 
   @override
-  String get tarotMajor09Reversed => '고립, 외로움, 현실 도피, 어리석은 고집, 은둔';
+  String get tarotMajor09Reversed =>
+      'Izolácia, osamelosť, únik z reality, tvrdohlavosť, ústranie';
 
   @override
   String get tarotMajor10Name => 'Koleso šťastia';
 
   @override
-  String get tarotMajor10Upright => '전환점, 운명, 행운, 끊임없는 변화, 기회';
+  String get tarotMajor10Upright =>
+      'Bod obratu, osud, šťastie, neustála zmena, príležitosť';
 
   @override
-  String get tarotMajor10Reversed => '불운, 저항, 통제할 수 없는 변화, 불행의 반복';
+  String get tarotMajor10Reversed =>
+      'Smola, odpor, nekontrolovateľné zmeny, opakovanie nešťastia';
 
   @override
   String get tarotMajor11Name => 'Spravodlivosť';
 
   @override
-  String get tarotMajor11Upright => '공정함, 진실, 인과응보, 균형, 합리적 결정';
+  String get tarotMajor11Upright =>
+      'Spravodlivosť, pravda, karma, rovnováha, racionálne rozhodnutie';
 
   @override
-  String get tarotMajor11Reversed => '불공평, 편견, 부정직, 피할 수 없는 처벌, 불균형';
+  String get tarotMajor11Reversed =>
+      'Nespravodlivosť, predsudky, nečestnosť, nevyhnutný trest, nerovnováha';
 
   @override
   String get tarotMajor12Name => 'Obesenec';
 
   @override
-  String get tarotMajor12Upright => '희생, 새로운 시각, 기다림, 통찰, 일시적 정지';
+  String get tarotMajor12Upright =>
+      'Obeta, nový pohľad, čakanie, vhľad, dočasná pauza';
 
   @override
-  String get tarotMajor12Reversed => '무의미한 희생, 지연, 발전을 거부함, 이기주의';
+  String get tarotMajor12Reversed =>
+      'Nezmyselná obeta, oneskorenie, odmietanie pokroku, egoizmus';
 
   @override
   String get tarotMajor13Name => 'Smrť';
 
   @override
-  String get tarotMajor13Upright => '끝과 새로운 시작, 변화, 전환기, 과거 청산';
+  String get tarotMajor13Upright =>
+      'Koniec a nový začiatok, zmena, prechodné obdobie, vyrovnanie sa s minulosťou';
 
   @override
-  String get tarotMajor13Reversed => '변화에 대한 저항, 정체, 낡은 것에 집착, 두려움';
+  String get tarotMajor13Reversed =>
+      'Odpor voči zmene, stagnácia, lipnutie na starom, strach';
 
   @override
   String get tarotMajor14Name => 'Umiernenosť';
 
   @override
-  String get tarotMajor14Upright => '조화, 균형, 중용, 치유, 목적 의식';
+  String get tarotMajor14Upright =>
+      'Harmónia, rovnováha, umiernenosť, liečenie, zmysel pre účel';
 
   @override
-  String get tarotMajor14Reversed => '불균형, 무절제, 극단적인 행동, 부조화, 갈등';
+  String get tarotMajor14Reversed =>
+      'Nerovnováha, nestriedmosť, extrémne správanie, disharmónia, konflikt';
 
   @override
   String get tarotMajor15Name => 'Diabol';
 
   @override
-  String get tarotMajor15Upright => '집착, 물질주의, 속박, 유혹, 파괴적 욕망';
+  String get tarotMajor15Upright =>
+      'Posedlosť, materializmus, zviazanosť, pokušenie, deštruktívna túžba';
 
   @override
-  String get tarotMajor15Reversed => '해방, 속박에서 벗어남, 독립, 깨달음, 자유';
+  String get tarotMajor15Reversed =>
+      'Oslobodenie, zbavenie sa pút, nezávislosť, osvietenie, sloboda';
 
   @override
   String get tarotMajor16Name => 'Veža';
 
   @override
-  String get tarotMajor16Upright => '갑작스러운 변화, 파괴, 해방, 계시, 붕괴';
+  String get tarotMajor16Upright =>
+      'Náhla zmena, deštrukcia, oslobodenie, zjavenie, kolaps';
 
   @override
-  String get tarotMajor16Reversed => '재난의 회피, 피할 수 없는 변화의 지연, 경고 무시';
+  String get tarotMajor16Reversed =>
+      'Vyhýbanie sa katastrofe, oddialenie nevyhnutnej zmeny, ignorovanie varovania';
 
   @override
   String get tarotMajor17Name => 'Hviezda';
 
   @override
-  String get tarotMajor17Upright => '희망, 영감, 평온, 치유와 긍정, 영적 인도';
+  String get tarotMajor17Upright =>
+      'Nádej, inšpirácia, pokoj, uzdravenie a pozitivita, duchovné vedenie';
 
   @override
-  String get tarotMajor17Reversed => '절망, 실망, 영감 부족, 비관주의, 혼란';
+  String get tarotMajor17Reversed =>
+      'Zúfalstvo, sklamanie, nedostatok inšpirácie, pesimizmus, zmätok';
 
   @override
   String get tarotMajor18Name => 'Mesiac';
 
   @override
-  String get tarotMajor18Upright => '불안, 환상, 직관, 숨겨진 진실, 기만';
+  String get tarotMajor18Upright =>
+      'Úzkosť, ilúzie, intuícia, skrytá pravda, podvod';
 
   @override
-  String get tarotMajor18Reversed => '두려움의 극복, 비밀의 발견, 불안 해소, 진실 규명';
+  String get tarotMajor18Reversed =>
+      'Prekonanie strachu, objavenie tajomstva, zmiernenie úzkosti, odhalenie pravdy';
 
   @override
   String get tarotMajor19Name => 'Slnko';
 
   @override
-  String get tarotMajor19Upright => '성공, 긍정, 활력, 행복과 성취, 기쁨';
+  String get tarotMajor19Upright =>
+      'Úspech, pozitivita, vitalita, šťastie a naplnenie, radosť';
 
   @override
-  String get tarotMajor19Reversed => '지연된 성공, 과장, 활력 저하, 슬픔의 이면';
+  String get tarotMajor19Reversed =>
+      'Oneskorený úspech, preháňanie, znížená vitalita, odvrátená strana smútku';
 
   @override
   String get tarotMajor20Name => 'Rozsudok';
 
   @override
-  String get tarotMajor20Upright => '부활, 결단, 용서, 새로운 소명, 내적 각성';
+  String get tarotMajor20Upright =>
+      'Vzkriesenie, rozhodnutie, odpustenie, nové povolanie, vnútorné prebudenie';
 
   @override
-  String get tarotMajor20Reversed => '후회, 자기 의심, 변화에 대한 두려움, 미련, 형벌';
+  String get tarotMajor20Reversed =>
+      'Ľútosť, pochybnosti o sebe, strach zo zmeny, pretrvávajúca náklonnosť, trest';
 
   @override
   String get tarotMajor21Name => 'Svet';
 
   @override
-  String get tarotMajor21Upright => '완성, 성취, 통합, 새로운 차원, 성공적인 마무리';
+  String get tarotMajor21Upright =>
+      'Dokončenie, úspech, integrácia, nová dimenzia, úspešné ukončenie';
 
   @override
-  String get tarotMajor21Reversed => '미완성, 연기, 정체, 성공에 대한 두려움, 지연';
+  String get tarotMajor21Reversed =>
+      'Nedokončenie, odklad, stagnácia, strach z úspechu, oneskorenie';
 
   @override
   String get tarotCups01Name => 'Eso pohárov';
 
   @override
-  String get tarotCups01Upright => '새로운 감정, 사랑의 시작, 직관, 영적 충만함';
+  String get tarotCups01Upright =>
+      'Nové emócie, začiatok lásky, intuícia, duchovné naplnenie';
 
   @override
-  String get tarotCups01Reversed => '감정의 차단, 사랑받지 못함, 공허함, 슬픔';
+  String get tarotCups01Reversed =>
+      'Emocionálna blokáda, pocit nemilovanosti, prázdnota, smútok';
 
   @override
   String get tarotCups02Name => 'Dva poháre';
 
   @override
-  String get tarotCups02Upright => '관계의 조화, 결합, 사랑, 상호 존중, 협력';
+  String get tarotCups02Upright =>
+      'Harmónia vo vzťahoch, spojenie, láska, vzájomný rešpekt, spolupráca';
 
   @override
-  String get tarotCups02Reversed => '관계의 불화, 이별, 오해, 불균형, 짝사랑';
+  String get tarotCups02Reversed =>
+      'Nezhody vo vzťahoch, rozchod, nedorozumenie, nerovnováha, neopätovaná láska';
 
   @override
   String get tarotCups03Name => 'Tri poháre';
 
   @override
-  String get tarotCups03Upright => '축하, 우정, 공동체, 기쁨, 창조적 결실';
+  String get tarotCups03Upright =>
+      'Oslava, priateľstvo, spoločenstvo, radosť, tvorivé plody';
 
   @override
-  String get tarotCups03Reversed => '과음, 소외, 파벌, 삼각관계, 축제의 취소';
+  String get tarotCups03Reversed =>
+      'Prehnané pitie, vylúčenie, frakcie, milostný trojuholník, zrušenie oslavy';
 
   @override
   String get tarotCups04Name => 'Štyri poháre';
 
   @override
-  String get tarotCups04Upright => '무관심, 권태, 명상, 놓쳐버린 기회, 내면 성찰';
+  String get tarotCups04Upright =>
+      'Apatia, nuda, meditácia, zmeškaná príležitosť, vnútorná reflexia';
 
   @override
-  String get tarotCups04Reversed => '새로운 인식, 기회를 잡음, 활력 회복, 각성';
+  String get tarotCups04Reversed =>
+      'Nové vedomie, využitie príležitosti, obnova vitality, prebudenie';
 
   @override
   String get tarotCups05Name => 'Päťka pohárov';
 
   @override
-  String get tarotCups05Upright => '상실, 슬픔, 과거에 대한 후회, 비관주의';
+  String get tarotCups05Upright =>
+      'Strata, smútok, ľútosť nad minulosťou, pesimizmus';
 
   @override
-  String get tarotCups05Reversed => '상실의 극복, 수용, 치유, 새로운 희망의 발견';
+  String get tarotCups05Reversed =>
+      'Prekonanie straty, prijatie, uzdravenie, objavenie novej nádeje';
 
   @override
   String get tarotCups06Name => 'Šesť pohárov';
 
   @override
-  String get tarotCups06Upright => '과거의 향수, 어린 시절, 순수함, 옛 친구, 추억';
+  String get tarotCups06Upright =>
+      'Nostalgia za minulosťou, detstvo, čistota, starí priatelia, spomienky';
 
   @override
-  String get tarotCups06Reversed => '과거에 얽매임, 미래를 외면함, 독립, 성장';
+  String get tarotCups06Reversed =>
+      'Uviaznutie v minulosti, ignorovanie budúcnosti, nezávislosť, rast';
 
   @override
   String get tarotCups07Name => 'Sedem pohárov';
 
   @override
-  String get tarotCups07Upright => '환상, 꿈, 선택의 혼란, 현실 도피, 백일몽';
+  String get tarotCups07Upright =>
+      'Ilúzie, sny, zmätok vo voľbách, únik z reality, denné snívanie';
 
   @override
-  String get tarotCups07Reversed => '현실 직시, 명확한 목표, 환상에서 깨어남, 결단';
+  String get tarotCups07Reversed =>
+      'Čeliť realite, jasné ciele, prebudenie z ilúzií, rozhodnosť';
 
   @override
   String get tarotCups08Name => 'Osem pohárov';
 
   @override
-  String get tarotCups08Upright => '실망, 떠남, 더 깊은 의미를 찾기 위한 포기, 체념';
+  String get tarotCups08Upright =>
+      'Sklamanie, odchod, vzdanie sa hľadania hlbšieho zmyslu, rezignácia';
 
   @override
-  String get tarotCups08Reversed => '떠나지 못함, 과거에 집착, 관계 회복, 두려움';
+  String get tarotCups08Reversed =>
+      'Neschopnosť odísť, lipnutie na minulosti, obnova vzťahov, strach';
 
   @override
   String get tarotCups09Name => 'Deväť pohárov';
 
   @override
-  String get tarotCups09Upright => '소원 성취, 만족감, 감각적 기쁨, 자부심, 행복';
+  String get tarotCups09Upright =>
+      'Splnenie prianí, spokojnosť, zmyslová radosť, hrdosť, šťastie';
 
   @override
-  String get tarotCups09Reversed => '불만족, 허영심, 표면적인 성공, 욕심, 탐욕';
+  String get tarotCups09Reversed =>
+      'Nespokojnosť, márnivosť, povrchný úspech, chamtivosť, lakomstvo';
 
   @override
   String get tarotCups10Name => 'Desať pohárov';
 
   @override
-  String get tarotCups10Upright => '가족의 행복, 평화, 정서적 충만, 조화로운 관계';
+  String get tarotCups10Upright =>
+      'Rodinné šťastie, mier, emocionálne naplnenie, harmonické vzťahy';
 
   @override
-  String get tarotCups10Reversed => '가족 내 갈등, 깨진 가정, 불화, 평화 상실';
+  String get tarotCups10Reversed =>
+      'Konflikty v rodine, rozbitá rodina, nezhody, strata mieru';
 
   @override
   String get tarotCups11Name => 'Strana pohárov';
 
   @override
-  String get tarotCups11Upright => '새로운 영감, 창의성, 감성적인 메시지, 직관력';
+  String get tarotCups11Upright =>
+      'Nová inšpirácia, kreativita, emocionálna správa, intuícia';
 
   @override
-  String get tarotCups11Reversed => '감정적 미성숙, 창의적 차단, 나쁜 소식, 예민함';
+  String get tarotCups11Reversed =>
+      'Emocionálna nezrelosť, tvorivá blokáda, zlé správy, precitlivenosť';
 
   @override
   String get tarotCups12Name => 'Rytier pohárov';
 
   @override
-  String get tarotCups12Upright => '로맨스, 매력, 감정적 접근, 상상력, 기사도';
+  String get tarotCups12Upright =>
+      'Romantika, šarm, emocionálny prístup, predstavivosť, rytierstvo';
 
   @override
-  String get tarotCups12Reversed => '비현실성, 변덕, 질투, 신뢰할 수 없음, 기만';
+  String get tarotCups12Reversed =>
+      'Nereálnosť, rozmary, žiarlivosť, nespoľahlivosť, podvod';
 
   @override
   String get tarotCups13Name => 'Kráľovná pohárov';
 
   @override
-  String get tarotCups13Upright => '공감, 다정함, 영적 직관, 감성적 안정, 배려';
+  String get tarotCups13Upright =>
+      'Empatia, nežnosť, duchovná intuícia, emocionálna stabilita, ohľaduplnosť';
 
   @override
-  String get tarotCups13Reversed => '감정 과잉, 불안정, 의존적 성향, 희생자 코스프레';
+  String get tarotCups13Reversed =>
+      'Prehnané emócie, nestabilita, závislosť, hranie sa na obeť';
 
   @override
   String get tarotCups14Name => 'Kráľ pohárov';
 
   @override
-  String get tarotCups14Upright => '감정적 통제, 균형, 외교, 관용, 지혜로운 조언';
+  String get tarotCups14Upright =>
+      'Emocionálna kontrola, rovnováha, diplomacia, tolerancia, múdra rada';
 
   @override
-  String get tarotCups14Reversed => '감정적 조작, 냉담함, 불안정성, 기분파, 무자비';
+  String get tarotCups14Reversed =>
+      'Emocionálna manipulácia, chlad, nestabilita, náladovosť, bezohľadnosť';
 
   @override
   String get tarotPentacles01Name => 'Eso pentaklov';
 
   @override
-  String get tarotPentacles01Upright => '새로운 기회, 재정적 시작, 풍요, 현실적 성취';
+  String get tarotPentacles01Upright =>
+      'Nová príležitosť, finančný začiatok, hojnosť, realistický úspech';
 
   @override
-  String get tarotPentacles01Reversed => '잃어버린 기회, 재정적 손실, 지연, 나쁜 투자';
+  String get tarotPentacles01Reversed =>
+      'Stratená príležitosť, finančná strata, oneskorenie, zlá investícia';
 
   @override
   String get tarotPentacles02Name => 'Dva z Pentaklov';
 
   @override
-  String get tarotPentacles02Upright => '균형, 적응력, 시간/재정 관리, 유연성';
+  String get tarotPentacles02Upright =>
+      'Rovnováha, prispôsobivosť, riadenie času/financií, flexibilita';
 
   @override
-  String get tarotPentacles02Reversed => '불균형, 감당하기 벅참, 재정적 어려움, 스트레스';
+  String get tarotPentacles02Reversed =>
+      'Nerovnováha, preťaženie, finančné ťažkosti, stres';
 
   @override
   String get tarotPentacles03Name => 'Tri z Pentaklov';
 
   @override
-  String get tarotPentacles03Upright => '팀워크, 협업, 기술, 인정받는 노력, 건축';
+  String get tarotPentacles03Upright =>
+      'Tímová práca, spolupráca, zručnosti, uznávané úsilie, architektúra';
 
   @override
-  String get tarotPentacles03Reversed => '협업 부족, 기술 부족, 인정받지 못함, 의견 충돌';
+  String get tarotPentacles03Reversed =>
+      'Nedostatok spolupráce, nedostatok zručností, neuznanie, názorové nezhody';
 
   @override
   String get tarotPentacles04Name => 'Štyri z Pentaklov';
 
   @override
-  String get tarotPentacles04Upright => '안정, 소유욕, 보수성, 인색함, 축적';
+  String get tarotPentacles04Upright =>
+      'Stabilita, posadnutosť majetkom, konzervatizmus, lakomstvo, hromadenie';
 
   @override
-  String get tarotPentacles04Reversed => '탐욕의 대가, 손실, 재정 방만, 집착을 버림';
+  String get tarotPentacles04Reversed =>
+      'Cena chamtivosti, strata, finančná nedbanlivosť, opustenie posadnutosti';
 
   @override
   String get tarotPentacles05Name => 'Päť pentaklov';
 
   @override
-  String get tarotPentacles05Upright => '궁핍, 재정적/정서적 결핍, 소외, 역경';
+  String get tarotPentacles05Upright =>
+      'Chudoba, finančný/emocionálny nedostatok, vylúčenie, nepriazeň osudu';
 
   @override
-  String get tarotPentacles05Reversed => '재정 회복, 도움의 손길, 역경 극복, 긍정적 변화';
+  String get tarotPentacles05Reversed =>
+      'Finančné zotavenie, pomocná ruka, prekonanie nepriazne, pozitívna zmena';
 
   @override
   String get tarotPentacles06Name => 'Šesť pentaklov';
 
   @override
-  String get tarotPentacles06Upright => '자선, 나눔, 후원, 공정함, 베풂과 받음';
+  String get tarotPentacles06Upright =>
+      'Charita, zdieľanie, sponzorstvo, spravodlivosť, dávanie a prijímanie';
 
   @override
-  String get tarotPentacles06Reversed => '이기심, 채무, 불평등, 생색내기, 착취';
+  String get tarotPentacles06Reversed =>
+      'Egoizmus, dlhy, nerovnosť, predvádzanie sa, vykorisťovanie';
 
   @override
   String get tarotPentacles07Name => 'Sedem pentaklov';
 
   @override
-  String get tarotPentacles07Upright => '인내, 장기적 비전, 노력에 대한 보상 기다림, 평가';
+  String get tarotPentacles07Upright =>
+      'Trpezlivosť, dlhodobá vízia, čakanie na odmenu za úsilie, hodnotenie';
 
   @override
-  String get tarotPentacles07Reversed => '조바심, 성과 없는 노력, 지연, 좌절, 투자 실패';
+  String get tarotPentacles07Reversed =>
+      'Netrpezlivosť, neproduktívne úsilie, oneskorenie, frustrácia, zlyhanie investície';
 
   @override
   String get tarotPentacles08Name => 'Osem pentaklov';
 
   @override
-  String get tarotPentacles08Upright => '장인 정신, 전념, 세부사항에 대한 주의, 숙련';
+  String get tarotPentacles08Upright =>
+      'Remeselná zručnosť, oddanosť, pozornosť k detailom, zručnosť';
 
   @override
-  String get tarotPentacles08Reversed => '지루함, 완벽주의의 함정, 나태, 열정 상실';
+  String get tarotPentacles08Reversed =>
+      'Nuda, pasca perfekcionizmu, lenivosť, strata vášne';
 
   @override
   String get tarotPentacles09Name => 'Deväť pentaklov';
 
   @override
-  String get tarotPentacles09Upright => '성취, 독립, 여유, 재정적 안락함, 자기 보상';
+  String get tarotPentacles09Upright =>
+      'Úspech, nezávislosť, voľný čas, finančné pohodlie, sebaodmena';
 
   @override
-  String get tarotPentacles09Reversed => '과소비, 겉보기에만 화려함, 의존성, 재정 불안';
+  String get tarotPentacles09Reversed =>
+      'Prehnané míňanie, len povrchný lesk, závislosť, finančná nestabilita';
 
   @override
   String get tarotPentacles10Name => 'Desať pentaklov';
 
   @override
-  String get tarotPentacles10Upright => '가업, 부의 축적, 유산, 안정된 삶, 전통';
+  String get tarotPentacles10Upright =>
+      'Rodinný podnik, hromadenie bohatstva, dedičstvo, stabilný život, tradícia';
 
   @override
-  String get tarotPentacles10Reversed => '재산 손실, 가족 분쟁, 전통에 대한 반항, 불안정';
+  String get tarotPentacles10Reversed =>
+      'Strata majetku, rodinné spory, vzbura proti tradícii, nestabilita';
 
   @override
   String get tarotPentacles11Name => 'Stránka Pentaklov';
 
   @override
-  String get tarotPentacles11Upright => '현실적인 목표, 새로운 공부, 기회, 실용성, 계획';
+  String get tarotPentacles11Upright =>
+      'Realistické ciele, nové štúdium, príležitosť, praktickosť, plán';
 
   @override
-  String get tarotPentacles11Reversed => '계획의 지연, 실용성 부족, 게으름, 미루는 습관';
+  String get tarotPentacles11Reversed =>
+      'Oneskorenie plánov, nedostatok praktickosti, lenivosť, prokrastinácia';
 
   @override
   String get tarotPentacles12Name => 'Rytier Pentaklov';
 
   @override
-  String get tarotPentacles12Upright => '성실, 책임감, 끈기, 점진적인 발전, 믿음직함';
+  String get tarotPentacles12Upright =>
+      'Svedomitosť, zodpovednosť, vytrvalosť, postupný pokrok, spoľahlivosť';
 
   @override
-  String get tarotPentacles12Reversed => '완고함, 무기력, 일 중독, 유연성 부족, 정체';
+  String get tarotPentacles12Reversed =>
+      'Tvrdohlavosť, bezmocnosť, workoholizmus, nedostatok flexibility, stagnácia';
 
   @override
   String get tarotPentacles13Name => 'Kráľovná pentaklov';
 
   @override
-  String get tarotPentacles13Upright => '현실적 보살핌, 실용적 조언, 풍요, 관대함, 안락함';
+  String get tarotPentacles13Upright =>
+      'Realistická starostlivosť, praktická rada, hojnosť, štedrosť, pohodlie';
 
   @override
-  String get tarotPentacles13Reversed => '과잉 통제, 소유욕, 이기심, 재정적 불안, 과소비';
+  String get tarotPentacles13Reversed =>
+      'Prehnaná kontrola, posadnutosť majetkom, egoizmus, finančná nestabilita, prehnané míňanie';
 
   @override
   String get tarotPentacles14Name => 'Kráľ Pentaklov';
 
   @override
-  String get tarotPentacles14Upright => '부와 성공, 비즈니스 수완, 권위, 든든한 후원자';
+  String get tarotPentacles14Upright =>
+      'Bohatstvo a úspech, obchodná zručnosť, autorita, silný sponzor';
 
   @override
-  String get tarotPentacles14Reversed => '물질주의, 부패, 탐욕, 고집불통, 억압적 권위';
+  String get tarotPentacles14Reversed =>
+      'Materializmus, korupcia, chamtivosť, tvrdohlavosť, utláčateľská autorita';
 
   @override
   String get tarotSwords01Name => 'Eso mečov';
 
   @override
-  String get tarotSwords01Upright => '명확한 통찰, 새로운 생각, 진실, 정신적 돌파구';
+  String get tarotSwords01Upright =>
+      'Jasný vhľad, nové myšlienky, pravda, mentálny prelom';
 
   @override
-  String get tarotSwords01Reversed => '혼란, 잘못된 정보, 판단력 상실, 소통 부재';
+  String get tarotSwords01Reversed =>
+      'Zmätok, nesprávne informácie, strata úsudku, nedostatok komunikácie';
 
   @override
   String get tarotSwords02Name => 'Dva meče';
 
   @override
-  String get tarotSwords02Upright => '우유부단, 맹목, 감정 차단, 어려운 결정의 회피';
+  String get tarotSwords02Upright =>
+      'Nerozhodnosť, slepota, emocionálna blokáda, vyhýbanie sa ťažkým rozhodnutiam';
 
   @override
-  String get tarotSwords02Reversed => '결단, 사실을 직시함, 정보 부족으로 인한 실수';
+  String get tarotSwords02Reversed =>
+      'Rozhodnosť, čeliť faktom, chyba spôsobená nedostatkom informácií';
 
   @override
   String get tarotSwords03Name => 'Tri meče';
 
   @override
-  String get tarotSwords03Upright => '상심, 슬픔, 이별, 상처, 고통스러운 진실';
+  String get tarotSwords03Upright =>
+      'Zlomené srdce, smútok, rozchod, zranenie, bolestivá pravda';
 
   @override
-  String get tarotSwords03Reversed => '고통의 극복, 치유, 용서, 슬픔을 떨쳐냄';
+  String get tarotSwords03Reversed =>
+      'Prekonanie bolesti, uzdravenie, odpustenie, zbavenie sa smútku';
 
   @override
   String get tarotSwords04Name => 'Štyri meče';
 
   @override
-  String get tarotSwords04Upright => '휴식, 회복, 명상, 스트레스 완화, 내면의 평화';
+  String get tarotSwords04Upright =>
+      'Odpočinok, zotavenie, meditácia, zmiernenie stresu, vnútorný pokoj';
 
   @override
-  String get tarotSwords04Reversed => '탈진, 회복 거부, 강제 휴식, 극심한 스트레스';
+  String get tarotSwords04Reversed =>
+      'Vyčerpanie, odmietanie zotavenia, nútený odpočinok, extrémny stres';
 
   @override
   String get tarotSwords05Name => 'Päťka mečov';
 
   @override
-  String get tarotSwords05Upright => '상처뿐인 승리, 배신, 갈등, 적의감, 비열함';
+  String get tarotSwords05Upright =>
+      'Pyrrhovo víťazstvo, zrada, konflikt, nepriateľstvo, podlosť';
 
   @override
-  String get tarotSwords05Reversed => '갈등 해결, 화해, 타협, 패배 인정, 복수 포기';
+  String get tarotSwords05Reversed =>
+      'Riešenie konfliktu, zmierenie, kompromis, uznanie porážky, vzdanie sa pomsty';
 
   @override
   String get tarotSwords06Name => 'Šesť mečov';
 
   @override
-  String get tarotSwords06Upright => '전환, 고통에서 벗어남, 치유의 여정, 이동, 여행';
+  String get tarotSwords06Upright =>
+      'Prechod, únik z bolesti, cesta uzdravenia, pohyb, cestovanie';
 
   @override
-  String get tarotSwords06Reversed => '변화에 대한 저항, 과거의 상처가 발목을 잡음, 지연';
+  String get tarotSwords06Reversed =>
+      'Odpor voči zmene, zranenia z minulosti, ktoré bránia pokroku, oneskorenie';
 
   @override
   String get tarotSwords07Name => 'Sedem mečov';
 
   @override
-  String get tarotSwords07Upright => '기만, 속임수, 전략, 은밀한 행동, 도주';
+  String get tarotSwords07Upright =>
+      'Podvod, klamstvo, stratégia, tajné konanie, útek';
 
   @override
-  String get tarotSwords07Reversed => '자백, 비밀 폭로, 속임수 발각, 죄책감, 정면 돌파';
+  String get tarotSwords07Reversed =>
+      'Priznanie, odhalenie tajomstva, odhalenie podvodu, pocit viny, priama konfrontácia';
 
   @override
   String get tarotSwords08Name => 'Osem mečov';
 
   @override
-  String get tarotSwords08Upright => '자승자박, 무기력, 제한된 생각, 두려움의 감옥';
+  String get tarotSwords08Upright =>
+      'Pasca, bezmocnosť, obmedzené myslenie, väzenie strachu';
 
   @override
-  String get tarotSwords08Reversed => '해방, 스스로의 감옥에서 벗어남, 새로운 관점';
+  String get tarotSwords08Reversed =>
+      'Oslobodenie, únik z vlastného väzenia, nový pohľad';
 
   @override
   String get tarotSwords09Name => 'Deväť mečov';
 
   @override
-  String get tarotSwords09Upright => '불안, 절망, 불면증, 죄책감, 내면의 공포';
+  String get tarotSwords09Upright =>
+      'Úzkosť, zúfalstvo, nespavosť, pocit viny, vnútorný strach';
 
   @override
-  String get tarotSwords09Reversed => '공포 극복, 희망의 빛, 불면증 해소, 사실 직시';
+  String get tarotSwords09Reversed =>
+      'Prekonanie strachu, svetlo nádeje, zmiernenie nespavosti, čeliť faktom';
 
   @override
   String get tarotSwords10Name => 'Desať mečov';
 
   @override
-  String get tarotSwords10Upright => '파멸, 깊은 상처, 배신, 바닥을 침, 끝의 도래';
+  String get tarotSwords10Upright =>
+      'Skaza, hlboká rana, zrada, dosiahnutie dna, príchod konca';
 
   @override
-  String get tarotSwords10Reversed => '파멸에서의 회복, 최악은 지났음, 생존, 재건';
+  String get tarotSwords10Reversed =>
+      'Zotavenie zo skazy, najhoršie je za nami, prežitie, obnova';
 
   @override
   String get tarotSwords11Name => 'Strana mečov';
 
   @override
-  String get tarotSwords11Upright => '호기심, 예리한 분석력, 진실 탐구, 새로운 아이디어';
+  String get tarotSwords11Upright =>
+      'Zvedavosť, ostrá analytická schopnosť, hľadanie pravdy, nové nápady';
 
   @override
-  String get tarotSwords11Reversed => '경솔함, 조급함, 냉소주의, 근거 없는 소문, 무례';
+  String get tarotSwords11Reversed =>
+      'Bezohľadnosť, unáhlenosť, cynizmus, nepodložené klebety, neúcta';
 
   @override
   String get tarotSwords12Name => 'Rytier mečov';
 
   @override
-  String get tarotSwords12Upright => '돌진, 야망, 지적 추진력, 빠르고 단호한 행동';
+  String get tarotSwords12Upright =>
+      'Nápor, ambície, intelektuálna hybná sila, rýchle a rozhodné konanie';
 
   @override
-  String get tarotSwords12Reversed => '무모함, 공격성, 배려 없는 언행, 충동성, 무자비';
+  String get tarotSwords12Reversed =>
+      'Bezohľadnosť, agresia, neohľaduplné správanie, impulzívnosť, bezcitnosť';
 
   @override
   String get tarotSwords13Name => 'Kráľovná mečov';
 
   @override
-  String get tarotSwords13Upright => '독립, 명확한 의사소통, 예리한 판단, 정직함, 객관성';
+  String get tarotSwords13Upright =>
+      'Nezávislosť, jasná komunikácia, ostrý úsudok, čestnosť, objektivita';
 
   @override
-  String get tarotSwords13Reversed => '비정함, 냉혹함, 과도한 비판, 원한, 고립';
+  String get tarotSwords13Reversed =>
+      'Bezcitnosť, krutosť, prehnaná kritika, zášť, izolácia';
 
   @override
   String get tarotSwords14Name => 'Kráľ mečov';
 
   @override
-  String get tarotSwords14Upright => '권위, 지적 통찰, 논리, 공정함, 원칙, 전문가';
+  String get tarotSwords14Upright =>
+      'Autorita, intelektuálny vhľad, logika, spravodlivosť, princípy, expert';
 
   @override
-  String get tarotSwords14Reversed => '권력 남용, 비합리성, 잔인함, 통제욕, 독재';
+  String get tarotSwords14Reversed =>
+      'Zneužitie moci, iracionalita, krutosť, túžba po kontrole, diktatúra';
 
   @override
-  String get tarotWands01Name => 'Ace of Wands';
+  String get tarotWands01Name => 'Eso palíc';
 
   @override
-  String get tarotWands01Upright => '열정, 영감, 창조적 힘, 새로운 잠재력, 활력';
+  String get tarotWands01Upright =>
+      'Vášeň, inšpirácia, tvorivá sila, nový potenciál, vitalita';
 
   @override
-  String get tarotWands01Reversed => '열정의 지연, 영감 부족, 의욕 상실, 정체성 혼란';
+  String get tarotWands01Reversed =>
+      'Oneskorenie vášne, nedostatok inšpirácie, strata motivácie, zmätok identity';
 
   @override
   String get tarotWands02Name => 'Dva prútiky';
 
   @override
-  String get tarotWands02Upright => '계획, 비전, 장기적 목표, 결단력, 탐험';
+  String get tarotWands02Upright =>
+      'Plán, vízia, dlhodobé ciele, odhodlanie, prieskum';
 
   @override
-  String get tarotWands02Reversed => '계획 부족, 미루기, 두려움에 의한 정체, 제한된 비전';
+  String get tarotWands02Reversed =>
+      'Nedostatok plánovania, prokrastinácia, stagnácia spôsobená strachom, obmedzená vízia';
 
   @override
   String get tarotWands03Name => 'Tri prútiky';
 
   @override
-  String get tarotWands03Upright => '기대의 실현, 진전, 확장, 선견지명, 리더십';
+  String get tarotWands03Upright =>
+      'Splnenie očakávaní, pokrok, expanzia, predvídavosť, vodcovstvo';
 
   @override
-  String get tarotWands03Reversed => '성장의 지연, 좌절, 예상치 못한 장애, 편협함';
+  String get tarotWands03Reversed =>
+      'Oneskorenie rastu, frustrácia, neočakávané prekážky, úzkoprsosť';
 
   @override
   String get tarotWands04Name => 'Štyri prútiky';
 
   @override
-  String get tarotWands04Upright => '축하, 안락함, 성취의 기쁨, 환영, 집안의 행사';
+  String get tarotWands04Upright =>
+      'Oslava, pohodlie, radosť z úspechu, privítanie, rodinná udalosť';
 
   @override
-  String get tarotWands04Reversed => '취소된 행사, 가정의 불화, 일시적 안정, 지연된 축하';
+  String get tarotWands04Reversed =>
+      'Zrušená udalosť, rodinné nezhody, dočasná stabilita, oneskorená oslava';
 
   @override
   String get tarotWands05Name => 'Päťka prútika';
 
   @override
-  String get tarotWands05Upright => '경쟁, 갈등, 의견 대립, 다툼, 도전';
+  String get tarotWands05Upright =>
+      'Súťaž, konflikt, názorové nezhody, hádka, výzva';
 
   @override
-  String get tarotWands05Reversed => '타협, 갈등의 회피, 협력, 평화 추구, 혼란 진정';
+  String get tarotWands05Reversed =>
+      'Kompromis, vyhýbanie sa konfliktu, spolupráca, hľadanie mieru, upokojenie zmätku';
 
   @override
   String get tarotWands06Name => 'Šesť prútikov';
 
   @override
-  String get tarotWands06Upright => '성공, 대중의 인정, 승리, 자신감, 리더의 부상';
+  String get tarotWands06Upright =>
+      'Úspech, verejné uznanie, víťazstvo, sebavedomie, vzostup lídra';
 
   @override
-  String get tarotWands06Reversed => '패배, 불명예, 인정받지 못함, 교만, 명성 추락';
+  String get tarotWands06Reversed =>
+      'Porážka, hanba, neuznanie, pýcha, pád reputácie';
 
   @override
   String get tarotWands07Name => 'Sedem prútikov';
 
   @override
-  String get tarotWands07Upright => '용기, 방어, 경쟁에 맞섬, 확고한 신념, 인내';
+  String get tarotWands07Upright =>
+      'Odvaha, obrana, čeliť konkurencii, pevné presvedčenie, vytrvalosť';
 
   @override
-  String get tarotWands07Reversed => '포기, 압도됨, 타협, 자신감 상실, 비겁함';
+  String get tarotWands07Reversed =>
+      'Vzdanie sa, preťaženie, kompromis, strata sebavedomia, zbabelosť';
 
   @override
   String get tarotWands08Name => 'Osem prútikov';
 
   @override
-  String get tarotWands08Upright => '신속한 진행, 빠른 결말, 소식, 민첩함, 속도';
+  String get tarotWands08Upright =>
+      'Rýchly pokrok, rýchly koniec, správy, obratnosť, rýchlosť';
 
   @override
-  String get tarotWands08Reversed => '지연, 혼란, 서두름으로 인한 실수, 소통 불능';
+  String get tarotWands08Reversed =>
+      'Oneskorenie, zmätok, chyba spôsobená unáhlenosťou, neschopnosť komunikovať';
 
   @override
   String get tarotWands09Name => 'Deväť prútikov';
 
   @override
-  String get tarotWands09Upright => '회복력, 방어 태세, 지쳐도 계속함, 경계, 체력 시험';
+  String get tarotWands09Upright =>
+      'Odolnosť, obranný postoj, pokračovanie napriek únave, ostražitosť, test vytrvalosti';
 
   @override
-  String get tarotWands09Reversed => '피로, 편집증, 포기, 완고함, 불필요한 저항';
+  String get tarotWands09Reversed =>
+      'Únava, paranoja, vzdanie sa, tvrdohlavosť, zbytočný odpor';
 
   @override
   String get tarotWands10Name => 'Desať prútikov';
 
   @override
-  String get tarotWands10Upright => '과도한 짐, 극심한 부담, 책임감, 압박, 한계점';
+  String get tarotWands10Upright =>
+      'Prehnaná záťaž, extrémny tlak, zodpovednosť, tlak, limit';
 
   @override
-  String get tarotWands10Reversed => '짐을 내려놓음, 책임 회피, 탈진, 위임, 극복';
+  String get tarotWands10Reversed =>
+      'Zloženie bremena, vyhýbanie sa zodpovednosti, vyčerpanie, delegovanie, prekonanie';
 
   @override
   String get tarotWands11Name => 'Strana prútika';
 
   @override
-  String get tarotWands11Upright => '탐험, 발견, 열정적인 아이디어, 에너지, 매력';
+  String get tarotWands11Upright =>
+      'Prieskum, objav, vášnivé nápady, energia, šarm';
 
   @override
-  String get tarotWands11Reversed => '방향 상실, 미숙함, 쉽게 싫증냄, 헛된 망상, 무책임';
+  String get tarotWands11Reversed =>
+      'Strata smeru, nezrelosť, rýchle znudenie, márne ilúzie, nezodpovednosť';
 
   @override
   String get tarotWands12Name => 'Rytier prútikov';
 
   @override
-  String get tarotWands12Upright => '열정적 전진, 모험심, 행동력, 에너지, 자신감';
+  String get tarotWands12Upright =>
+      'Vášnivý pokrok, dobrodružný duch, akčnosť, energia, sebavedomie';
 
   @override
-  String get tarotWands12Reversed => '충동적 행동, 오만함, 변덕, 분노, 무계획';
+  String get tarotWands12Reversed =>
+      'Impulzívne správanie, arogancia, rozmary, hnev, neplánovanie';
 
   @override
   String get tarotWands13Name => 'Kráľovná prútikov';
 
   @override
-  String get tarotWands13Upright => '카리스마, 용기, 독립, 밝음, 매력, 활기';
+  String get tarotWands13Upright =>
+      'Charizma, odvaha, nezávislosť, jasnosť, šarm, vitalita';
 
   @override
-  String get tarotWands13Reversed => '이기심, 과시욕, 질투, 변덕스러움, 공격성';
+  String get tarotWands13Reversed =>
+      'Egoizmus, exhibicionizmus, žiarlivosť, rozmary, agresia';
 
   @override
   String get tarotWands14Name => 'Kráľ prútikov';
 
   @override
-  String get tarotWands14Upright => '카리스마적 리더십, 비전, 영감, 대담함, 기업가';
+  String get tarotWands14Upright =>
+      'Charizmatické vodcovstvo, vízia, inšpirácia, odvaha, podnikateľ';
 
   @override
-  String get tarotWands14Reversed => '독재, 충동적 분노, 비현실성, 오만, 가차없음';
+  String get tarotWands14Reversed =>
+      'Diktatúra, impulzívny hnev, nereálnosť, arogancia, neúprosť';
 
   @override
   String get nicknamePrefixes =>
-      '신비한,고요한,거룩한,어두운,빛나는,차가운,뜨거운,매혹적인,잔혹한,순 수한,거친,부드러운,아름다운,기묘한,위대한,초라한,영원한,잊혀진,찬란 ,슬픈,기쁜,몽환적인,타락한,순백의,칠흑의,핏빛의,잿빛의,황금빛,은빛 ,푸른,붉은,노란,검은,하얀,투명한,고독한,시끄러운,조용한,따뜻한,싸늘 한,외로운,쓸쓸한,즐거운,행복한,우울한,절망적인,희망찬,눈부신,어스름 한,캄캄한,적막한,은밀한,비밀스러운,성스러운,불경한,오만한,겸손한,지스러운,성스러운,불경한,오만한,겸손한,지스러운,성스러운, 로운,어리석은,강인한,나약한,용감한,비겁한,아득한,가까운,멀어지는,다 가오는,사라지는,나타나는,깨어난,잠든,꿈꾸는,헤매는,방황하는,머떴는,머떴는,머떴는 나는,돌아오는,기다리는,찾는,숨은,드러난,버려진,선택된,축복받은,저주 받은,사랑받는,미움받는,기억하는,망각하는,별빛의,달빛의,햇빛의,우주의,우주의,우주의,우주 대지의,바다의,하늘의,구름의,바람의,비의,눈의,얼음의,불의,물의,흙의 ,나무의,숲의,산의,강의,호수의,시간의,공간의,차원의,운명의,숙명의,기 적의,마법의,신화의,전설의,진실의,거짓의,환상의,꿈의,악몽의,파멸의, 창조의,생명의,죽음의,영혼의,육체의,이성의,감정의,사랑의,증오읔,슬피 ,기쁨의,분노의,평화의,전쟁의,혼돈의,질서의,빛의,어둠의,황혼의,샘벽의,샘벽의,샘벽의 ,정오의,자정의,과거의,현재의,미래의,기원의,종말의,무한의,유한쬝,칵의 의,소음의,노래하는,춤추는,우는,웃는,속삭이는,외치는,기도하는,갘청핕 는,명령하는,복종하는,지배하는,섬기는,인도하는,따르는,가르치는,늰,우 기억의,추억의,상처의,치유의,독의,약의,환영의,실체의,이상의,현실의, 가상의,자연의,인공의,태초의,영겁의,순간의,찰나의,영속의,변화의,정지 ,흐르는,멈춘,타오르는,식어가는,피어나는,시드는,자라나는,죽어가는,숔 쉬는,질식하는,찬란한,은은한,아스라한,아련한,투명한,희미한,눈부신,기 한,독특한,특별한,고귀한,순수한,타락한,고독한,쓸쓸한,적막한,아득한,가 혹한,냉혹한,잔인한,위대한,강인한,굳건한,유연한,재빠른,느릿한,의요속 ,혼돈속의,기억속의,상상속의,침묵하는,속삭이는,노래하는,춤추는,큝느 는,미소짓는,비웃는,관조하는,방황하는,헤매는,깨어있는,잠든,꿈꾸는,몽꾸늁,몽 하는,망상하는,기도하는,간절한,애절한,처절한,숭고한,사악한,비열한,거 만한,겸손한,다정한,따뜻한,서늘한,오싹한,기괴한,섬뜩한,황홀한,인혹적,매혹적,매혹적,매한 ,아찔한,달콤한,쌉싸름한,씁쓸한,가시돋친,날카로운,무딘,거친,부드러운 ,포근한,안락한,위태로운,불안한,평온한,안온한,나른한,권태로운,열정적,열정정 ,무심한,차분한,격렬한,맹렬한,광적인,미쳐버린,이성적인,감성적인,냉철,냉철 ,현명한,어리석은,순진한,교활한,음흉한,순백의,칠흑의,황금빛,은빛,핏멩금빛,은빛,핏백의';
+      'Mystický,Tichý,Svätý,Temný,Žiarivý,Chladný,Horúci,Očarujúci,Krutý,Čistý,Drsný,Jemný,Krásny,Podivný,Veľký,Úbohý,Večný,Zabudnutý,Žiarivý,Smutný,Radostný,Snový,Padlý,Čistobiely,Čierny ako smola,Krvavý,Popolavý,Zlatý,Strieborný,Modrý,Červený,Žltý,Čierny,Biely,Priehľadný,Osamelý,Hlučný,Tichý,Teplý,Chladný,Osamelý,Opustený,Radostný,Šťastný,Melancholický,Zúfalý,Nádejný,Oslnivý,Súmračný,Tmavý,Tichý,Tajný,Záhadný,Posvätný,Bezbožný,Arogantný,Pokorný,Múdry,Hlúpy,Silný,Slabý,Odvážny,Zbabelý,Vzdialený,Blízky,Vzďaľujúci sa,Prichádzajúci,Miznúci,Objavujúci sa,Prebudený,Spiaci,Snívajúci,Blúdiaci,Túlavý,Zostávajúci,Odchádzajúci,Vraciaci sa,Čakajúci,Hľadajúci,Skrytý,Odhalený,Opustený,Vyvolený,Požehnaný,Prekliaty,Milovaný,Nenávidený,Pamätajúci,Zabúdajúci,Hviezdny,Mesačný,Slnečný,Vesmírny,Zemský,Morský,Nebeský,Oblačný,Veterný,Daždivý,Snežný,Ľadový,Ohnivý,Vodný,Hlinený,Stromový,Lesný,Horský,Riečny,Jazerný,Časový,Priestorový,Dimenzionálny,Osudový,Predurčený,Zázračný,Magický,Mytologický,Legendárny,Pravdivý,Klamný,Iluzórny,Snový,Nočný,Skazy,Tvorivý,Životný,Smrtiaci,Duševný,Telesný,Rozumový,Emocionálny,Lásky,Nenávisti,Smútku,Radosti,Hnevu,Mieru,Vojny,Chaosu,Poriadku,Svetla,Tmy,Súmraku,Úsvitu,Poludnia,Polnoci,Minulosti,Súčasnosti,Budúcnosti,Pôvodu,Konca,Nekonečný,Konečný,Tichý,Hlučný,Spievajúci,Tancujúci,Plačúci,Smejúci sa,Šepkajúci,Kričiaci,Modliaci sa,Prosiaci,Rozkazujúci,Poslušný,Dominujúci,Slúžiaci,Vedúci,Nasledujúci,Učiaci,Učiaci sa,Pamäťový,Spomienkový,Zranený,Liečivý,Jedovatý,Liečivý,Iluzórny,Skutočný,Ideálny,Reálny,Virtuálny,Prírodný,Umelý,Prvotný,Večný,Okamžitý,Prchavý,Trvalý,Meniaci sa,Stacionárny,Tečúci,Zastavený,Horúci,Chladnúci,Kvitnúci,Vädnúci,Rastúci,Umierajúci,Dýchajúci,Dusiaci sa,Žiarivý,Jemný,Vzdialený,Nejasný,Priehľadný,Slabý,Oslnivý,Podivný,Jedinečný,Špeciálny,Vznešený,Čistý,Padlý,Osamelý,Opustený,Tichý,Vzdialený,Krutý,Bezcitný,Brutálny,Veľký,Silný,Pevný,Flexibilný,Rýchly,Pomalý,V tichu,V chaose,V pamäti,V predstavách,Tichý,Šepkajúci,Spievajúci,Tancujúci,Vzlykajúci,Usmievajúci sa,Vysmievajúci sa,Kontemplatívny,Blúdiaci,Túlavý,Bdelý,Spiaci,Snívajúci,Snívajúci,Klamný,Modliaci sa,Úprimný,Žalostný,Zúfalý,Vznešený,Zlý,Podlý,Arogantný,Pokorný,Láskavý,Teplý,Chladný,Strašidelný,Bizardný,Desivý,Extatický,Očarujúci,Závratný,Sladký,Horkosladký,Horký,Tŕnistý,Ostrý,Tupý,Drsný,Jemný,Útulný,Pohodlný,Neistý,Nepokojný,Pokojný,Mierny,Letargický,Znudený,Vášnivý,Ľahostajný,Pokojný,Násilný,Zúrivý,Šialený,Šialený,Racionálny,Emocionálny,Chladnokrvný,Múdry,Hlúpy,Naivný,Prefíkaný,Zákerný,Čistobiely,Čierny ako smola,Zlatý,Strieborný,Krvavý';
 
   @override
   String get nicknameSuffixes =>
-      '예언자,마법사,마녀,기사,전사,궁수,도적,암살자,성기사,사제,여사제,삼,사제,수 사,연금술사,강령술사,정령사,소환사,환술사,치유사,치유사,현자,학자,연구잗,연구잗,탗구잗,탗구자, 자,방랑자,유랑자,순례자,구도자,관찰자,기록자,전달자,수호자,파수꾼,븑 기,심판관,집행관,통치자,지배자,왕,여왕,황제,여제,귀족,영주,기사단장,사단장,사단장,사단장 ,도둑,사기꾼,광대,바보,은둔자,이단자,배신자,반역자,영웅,구원자,해,방자,해,방자,해,방 ,창조자,신,여신,천사,악마,정령,요정,괴물,마수,드래곤,유령,망령,언,툝듀,언,툝뀀 ,늑대인간,인어,세이렌,님프,고블린,오크,트롤,엘프,드워프,거인,소옰,츝 ,조인,어인,용인,악령,수라,나락,천상,명계,이계,심연,혼돈,질서,빐,잴돈,질서,빛,ꖴ도,쬬둠 ,순례자,방랑자,은둔자,이단아,반역자,개척자,정복자,지배자,조율자,자,한국 ,관찰자,기록자,전달자,안내자,인도자,구원자,파괴자,창조자,망령,유령,젹,유령,령, ,정령,요정,마수,성수,환수,신수,검사,기사,궁수,도적,암살자,마법숬,주,수,주,수,주,수,주,수,주,수,주,수 금술사,강령술사,사제,학자,연구자,탐험가,여행가,예술가,광대,음유싁,음유싁 농부,까마귀,부엉이,올빼미,독수리,매,늑대,여우,곰,사자,호랑이,표벜,킑 쏅,고양이,강아지,뱀,도마뱀,거북이,악어,용,유니콘,페가수스,그리폰,가,리폰,가,렸씸 ,오크,트롤,오거,슬라임,스켈레톤,좀비,구울,뱀파이어,웨어울프,섚노타,섚노타,섚노타 우로스,하피,세이렌,크라켄,레비아탄,검,방패,창,활,지팡이,반지,목걕건이,챰걸이,챰걸이,챰걸이,우';
+      'Prorok,Čarodejník,Čarodejnica,Rytier,Bojovník,Lukostrelec,Zlodej,Vrah,Paladin,Kňaz,Kňažka,Mních,Šaman,Alchymista,Nekromant,Elementalista,Vyvolávač,Iluzionista,Liečiteľ,Mudrc,Učenec,Výskumník,Prieskumník,Cestovateľ,Tulák,Pútnik,Hľadač,Pozorovateľ,Kronikár,Posol,Strážca,Hliadka,Strážnik,Bránca,Sudca,Vykonávateľ,Vládca,Panovník,Kráľ,Kráľovná,Cisár,Cisárovná,Šľachtic,Lord,Kapitán rytierov,Žoldnier,Pirát,Zlodej,Podvodník,Klaun,Blázon,Pustovník,Kacíř,Zradca,Rebel,Hrdina,Spasiteľ,Osloboditeľ,Ničiteľ,Stvoriteľ,Boh,Bohyňa,Anjel,Démon,Duch,Víla,Monštrum,Démonická šelma,Drak,Duch,Prízrak,Nemŕtvy,Upír,Vlkodlak,Morská panna,Siréna,Nymfa,Goblin,Ork,Troll,Elf,Trpaslík,Obor,Trpaslík,Človek,Zvierací človek,Vtáčí človek,Rybí človek,Dračí človek,Zlý duch,Asura,Podsvetie,Nebesia,Podsvetie,Iný svet,Priepasť,Chaos,Poriadok,Svetlo,Tma,Hľadač,Pútnik,Tulák,Pustovník,Kacíř,Rebel,Priekopník,Dobyvateľ,Vládca,Regulátor,Strážca,Pozorovateľ,Kronikár,Posol,Sprievodca,Vodca,Spasiteľ,Ničiteľ,Stvoriteľ,Prízrak,Duch,Blúdiaca duša,Zlý duch,Duch,Víla,Démonická šelma,Posvätná šelma,Fantastická šelma,Božská šelma,Šermiar,Rytier,Lukostrelec,Zlodej,Vrah,Čarodejník,Šaman,Alchymista,Nekromant,Kňaz,Učenec,Výskumník,Prieskumník,Cestovateľ,Umelec,Klaun,Bárd,Obchodník,Remeselník,Farmár,Vrana,Sova,Sova,Orol,Sokol,Vlk,Líška,Medveď,Lev,Tiger,Leopard,Čierny panter,Rys,Mačka,Pes,Had,Jašterica,Korytnačka,Krokodíl,Drak,Jednorožec,Pegas,Gryf,Gargojl,Goblin,Ork,Troll,Oger,Sliz,Kostra,Zombie,Ghoul,Upír,Vlkodlak,Minotaurus,Kentaur,Harpyja,Siréna,Kraken,Leviatan,Meč,Štít,Kopija,Luk,Palica,Prsteň,Náhrdelník,Koruna,Svätý grál';
 
   @override
-  String get eulaTitle => '최종 사용자 라이선스 계약 (EULA)';
+  String get eulaTitle => 'Licenčná zmluva s koncovým používateľom (EULA)';
 
   @override
   String get eulaArticle1 =>
-      '제1조 (라이선스 허여)\n본 앱(\"타로마녀\")은 개인적, 비상업적 용도에 한해 사용 권한을 부여옱붌여옱 소유권이나 지적재산권은 이전되지 않습니다.';
+      'Článok 1 (Udelenie licencie)\nTáto aplikácia (\"Tarotová čarodejnica\") udeľuje právo na používanie len na osobné, nekomerčné účely a vlastníctvo ani práva duševného vlastníctva aplikácie sa neprenášajú.\n\n';
 
   @override
   String get eulaArticle2 =>
-      '제2조 (금지된 사용)\n사용자는 본 서비스를 불법적이거나 타인의 권리를 침해하는 목적사윩로 없으며, 시스템이나 데이터를 임의로 조작하거나 리버스 엔지니어수스 엔지니어수싗.';
+      'Článok 2 (Zakázané použitie)\nPoužívateľ nesmie používať túto službu na nezákonné účely alebo na účely porušovania práv iných, ani nesmie svojvoľne manipulovať so systémom alebo dátami, ani vykonávať reverzné inžinierstvo.\n\n';
 
   @override
   String get eulaArticle3 =>
-      '제3조 (데이터 수집 및 보관 기간)\n원활한 서비스 제공을 위해 사용자가 작성한 타로 일기 및 관련 점이픘 넍 작성일로부터 기본 3년간 안전하게 보관됩니다.';
+      'Článok 3 (Zber a uchovávanie údajov)\nPre plynulé poskytovanie služieb sa údaje z tarotového denníka a súvisiace údaje o veštení, ktoré používateľ vytvoril, bezpečne uchovávajú po dobu 3 rokov od dátumu vytvorenia.\n\n';
 
   @override
   String get eulaArticle4 =>
-      '제4조 (장기 미접속 휴면 계정 처리)\n사용자가 1년(365일) 이상 서비스에 접속하지 않을 경우 휴면 계정으로 멩,멐로 멐 개인정보 보호 및 원활한 서버 환경 유지를 위해 위해 해당 사용자의 모자의 모자의 모든 넰 고지 없이 자동 삭제 처리됩니다.';
+      'Článok 4 (Spracovanie neaktívnych účtov s dlhodobou nečinnosťou)\nAk sa používateľ neprihlási do služby po dobu dlhšiu ako 1 rok (365 dní), účet sa zmení na neaktívny a všetky údaje tohto používateľa budú automaticky vymazané bez predchádzajúceho upozornenia, aby sa chránili osobné údaje a udržalo sa plynulé prostredie servera.\n\n';
 
   @override
   String get eulaArticle5 =>
-      '제5조 (데이터 파기 및 복구 불가)\n제3조의 보관 기간이 경과하거나 제4조에 의해 삭제된 데이터는 영ꖴ렰 영ꖴ 렕 경우에도 복구할 수 없습니다.';
+      'Článok 5 (Zničenie údajov a nemožnosť obnovy)\nÚdaje, ktorých doba uchovávania podľa článku 3 uplynula alebo ktoré boli vymazané podľa článku 4, budú trvalo zničené a za žiadnych okolností ich nebude možné obnoviť.\n\n';
 
   @override
   String get eulaArticle6 =>
-      '제6조 (보증 부인 및 면책)\n본 앱이 제공하는 타로 점괘 및 해석은 오락 목적으로만 제공되며, 의되며, 벘적 재정적 조언을 대체하지 않습니다. 서비스 이용으로 인해 발생하는 어떠한 직간접적인 손해에 대해서손해로 대해서돞임 간뱔임쐜 지지 않습니다.';
+      'Článok 6 (Zrieknutie sa záruky a obmedzenie zodpovednosti)\nTarotové veštenie a interpretácie poskytované touto aplikáciou sú určené len na zábavné účely a nenahrádzajú právne, lekárske ani finančné poradenstvo. Vývojár nenesie zodpovednosť za žiadne priame ani nepriame škody vzniknuté používaním služby.\n\n';
 
   @override
   String get eulaAgreement =>
-      '위 EULA 내용 및 데이터 관리 정책은 앱 사용을 위해 필수적으로 동의하슔 항목입니다.';
+      'Vyššie uvedený obsah EULA a zásady správy údajov sú položky, s ktorými je potrebné súhlasiť pre používanie aplikácie.';
 
   @override
-  String get closeButton => '닫기';
+  String get closeButton => 'Zavrieť';
 
   @override
-  String get pushTermsTitle => '이벤트 및 마케팅 알림 수신 동의';
+  String get pushTermsTitle =>
+      'Súhlas s prijímaním upozornení na udalosti a marketing';
 
   @override
   String get pushArticle1 =>
-      '제1조 (목적)\n본 동의는 타로마녀 서비스가 사용자에게 유익한 이벤트, 프로모션츴, 새넼 업데이트 등의 광고성 정보를 푸시 알림으로 전송하기 위함입니다.';
+      'Článok 1 (Účel)\nTento súhlas slúži na to, aby služba Tarotová čarodejnica mohla používateľovi posielať reklamné informácie, ako sú užitočné udalosti, propagačné akcie a aktualizácie nových horoskopov, prostredníctvom push notifikácií.\n\n';
 
   @override
   String get pushArticle2 =>
-      '제2조 (수신 철회)\n사용자는 본 수신 동의를 언제든지 앱 내 [내 메뉴 > 앱 설정]에서 철회잤. 동의를 철회하더라도 서비스의 기본 기능 (필수 서비스) 은 정상적으로 은 정상적으로 읤.';
+      'Článok 2 (Odvolanie súhlasu)\nPoužívateľ môže tento súhlas kedykoľvek odvolať v aplikácii v časti [Moje menu > Nastavenia aplikácie]. Aj po odvolaní súhlasu je možné normálne používať základné funkcie služby (základné služby).\n\n';
 
   @override
   String get pushArticle3 =>
-      '제3조 (알림의 내용)\n전송되는 알림에는 앱 내 특별 할인 혜택, 기간 한정 이벤트, 맞춤져 및 마케팅 성격의 내용이 포함될 수 있습니다.';
+      'Článok 3 (Obsah upozornení)\nOdosielané upozornenia môžu obsahovať reklamný a marketingový obsah, ako sú špeciálne zľavy v aplikácii, časovo obmedzené udalosti a prispôsobené odporúčania horoskopov.\n\n';
 
   @override
   String get pushAgreement =>
-      '위 내용은 사용자의 선택적 동의 사항이며, 미동의 시에도 타로 서비스 뗩읩스 불이익이 없습니다.';
+      'Vyššie uvedený obsah je voliteľný súhlas používateľa a nesúhlas s ním neovplyvní používanie tarotovej služby.';
 
   @override
   String get windowsNoGoogleLogin =>
-      '미리보기 환경(Windows)에서는 구글 로그인을 지원하지 않습니다. 안드로이드 기기나 웹을 이용해주세요.';
+      'Prostredie náhľadu (Windows) nepodporuje prihlásenie cez Google. Použite zariadenie Android alebo web.';
 
   @override
-  String get signupTermsRequired => '회원가입을 진행하려면 데이터 보관 약관에 동의해야 합니다.';
+  String get signupTermsRequired =>
+      'Pre pokračovanie v registrácii musíte súhlasiť s podmienkami uchovávania údajov.';
 
   @override
   String googleLoginError(String error) {
-    return '구글 로그인 오류: $error';
+    return 'Chyba pri prihlásení cez Google: $error';
   }
 
   @override
-  String get googleLoginUnknownError => '구글 로그인 중 알 수 없는 오류가 발생했습니다.';
+  String get googleLoginUnknownError =>
+      'Počas prihlásenia cez Google nastala neznáma chyba.';
 
   @override
-  String get windowsNoFirebase => '미리보기 환경(Windows)에서는 파이어베이스 로그인을 지원하지 않습니다.';
+  String get windowsNoFirebase =>
+      'Prostredie náhľadu (Windows) nepodporuje prihlásenie cez Firebase.';
 
   @override
-  String get emailVerificationRequired => '이메일 인증이 필요합니다. 가입하신 이메일함을 확인해주세요.';
+  String get emailVerificationRequired =>
+      'Je potrebné overenie e-mailu. Skontrolujte si schránku e-mailu, ktorú ste použili pri registrácii.';
 
   @override
-  String get resendEmail => '재발송';
+  String get resendEmail => 'Znova odoslať';
 
   @override
-  String get verificationEmailSent => '인증 메일이 재발송되었습니다.';
+  String get verificationEmailSent => 'Overovací e-mail bol znova odoslaný.';
 
   @override
-  String get passwordMismatch => '비밀번호가 일치하지 않습니다. 다시 확인해 주세요.';
+  String get passwordMismatch => 'Heslá sa nezhodujú. Skontrolujte ich znova.';
 
   @override
-  String get signupSuccess => '회원가입이 완료되었습니다. 발송된 이메일을 확인하여 인증을 완료해주세요.';
+  String get signupSuccess =>
+      'Registrácia bola dokončená. Skontrolujte si odoslaný e-mail a dokončite overenie.';
 
   @override
-  String get authError => '인증 오류가 발생했습니다.';
+  String get authError => 'Nastala chyba overenia.';
 
   @override
-  String get authLoginTitle => '로그인';
+  String get authLoginTitle => 'Prihlásenie';
 
   @override
-  String get authSignupTitle => '회원가입';
+  String get authSignupTitle => 'Registrácia';
 
   @override
-  String get authTarotNickname => '타로 세계의 닉네임';
+  String get authTarotNickname => 'Prezývka vo svete tarotu';
 
   @override
-  String get authRerollNickname => '닉네임 다시 뽑기';
+  String get authRerollNickname => 'Znova vybrať prezývku';
 
   @override
-  String get authEmail => '이메일';
+  String get authEmail => 'E-mail';
 
   @override
-  String get authPassword => '비밀번호';
+  String get authPassword => 'Heslo';
 
   @override
-  String get authConfirmPassword => '비밀번호 확인';
+  String get authConfirmPassword => 'Potvrdiť heslo';
 
   @override
-  String get authKeepLoggedIn => '로그인 상태 유지';
+  String get authKeepLoggedIn => 'Zostať prihlásený';
 
   @override
-  String get authAgreeEula => '최종 사용자 라이선스 계약 (EULA)에 동의합니다. (필수)';
+  String get authAgreeEula =>
+      'Súhlasím s Licenčnou zmluvou s koncovým používateľom (EULA). (Povinné)';
 
   @override
-  String get authViewContent => '[내용 보기]';
+  String get authViewContent => '[Zobraziť obsah]';
 
   @override
-  String get authAgreePush => '새로운 타로점 및 이벤터 알림수신에 동의합니다. (선택)';
+  String get authAgreePush =>
+      'Súhlasím s prijímaním upozornení na nové tarotové čítania a udalosti. (Voliteľné)';
 
   @override
-  String get authBtnLogin => '로그인하기';
+  String get authBtnLogin => 'Prihlásiť sa';
 
   @override
-  String get authBtnSignup => '가입하기';
+  String get authBtnSignup => 'Zaregistrovať sa';
 
   @override
-  String get authSwitchToSignup => '계정이 없으신가요? 회원가입';
+  String get authSwitchToSignup => 'Nemáte účet? Zaregistrujte sa';
 
   @override
-  String get authSwitchToLogin => '이미 계정이 있으신가요? 로그인';
+  String get authSwitchToLogin => 'Už máte účet? Prihláste sa';
 
   @override
-  String get authGoogleSignIn => 'Google로 시작하기';
+  String get authGoogleSignIn => 'Začať s Google';
 
   @override
-  String get cardDetailNotReady => '이 해석은 아직 준비되지 않았습니다.';
+  String get cardDetailNotReady => 'Táto interpretácia ešte nie je pripravená.';
 
   @override
-  String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
+  String get cardDetailLoadError => 'Pri načítavaní údajov nastala chyba.';
 
   @override
   String get cardDetailTabUpright => 'Vzpriamená (Upright)';
@@ -3984,25 +4148,25 @@ class AppLocalizationsSk extends AppLocalizations {
   String get cardDetailTabReversed => 'Obrátená (Reversed)';
 
   @override
-  String get cardDetailNoInterpretation => '해석이 없습니다.';
+  String get cardDetailNoInterpretation => 'Žiadna interpretácia.';
 
   @override
-  String get cardDetailSectionKeywords => '핵심 키워드';
+  String get cardDetailSectionKeywords => 'Kľúčové slová';
 
   @override
-  String get cardDetailSectionGeneral => '일반 해석';
+  String get cardDetailSectionGeneral => 'Všeobecná interpretácia';
 
   @override
-  String get cardDetailSectionLove => '연애 운';
+  String get cardDetailSectionLove => 'Láska';
 
   @override
-  String get cardDetailSectionCareer => '금전 커리어';
+  String get cardDetailSectionCareer => 'Peniaze a kariéra';
 
   @override
-  String get cardDetailSectionHealth => '건강';
+  String get cardDetailSectionHealth => 'Zdravie';
 
   @override
-  String get cardDetailSectionSpirituality => '영성 내면';
+  String get cardDetailSectionSpirituality => 'Spiritualita a vnútorný svet';
 
   @override
   String get chatDustShortageTitle => 'nedostatok prášku';
@@ -4100,27 +4264,27 @@ class AppLocalizationsSk extends AppLocalizations {
   String get profileEditSave => 'Uložiť';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'Nedostatok mincí';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'Nemáte dostatok mincí. Na tarotové čítanie je potrebná 1 minca.';
 
   @override
   String get dialogOk => 'OK';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'Pokračovať v tarotovom čítaní';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'Chcete pokračovať v čítaní spotrebovaním 1 mince?';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'Zrušiť';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'Pokračovať';
 
   @override
   String pickCardsText(int count) {
@@ -4138,7 +4302,7 @@ class AppLocalizationsSk extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return 'Tarotové čítanie od $witchName';
   }
 
   @override
@@ -4172,4 +4336,25 @@ class AppLocalizationsSk extends AppLocalizations {
   String translateFailed(String error) {
     return 'Preklad zlyhal: $error';
   }
+
+  @override
+  String get tagLove => 'Láska';
+
+  @override
+  String get tagMoney => 'Bohatstvo';
+
+  @override
+  String get tagHealth => 'Zdravie';
+
+  @override
+  String get tagCareer => 'Kariéra';
+
+  @override
+  String get tagToday => 'Dnes';
+
+  @override
+  String get tagRelationship => 'Vzťahy';
+
+  @override
+  String get tagSelfReflection => 'Sebareflexia';
 }

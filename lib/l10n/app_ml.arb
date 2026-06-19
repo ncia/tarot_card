@@ -1417,7 +1417,7 @@
   "layoutStacked": "അടുക്കിയ രൂപം",
   "readingFateFragments": "വിധി ശകലങ്ങൾ വായിക്കുന്നു.",
   "magicDustObtained": "മാന്ത്രിക പൊടി +{amount} ലഭിച്ചു! ✨",
-  "buttonTranslate": "පරිවර්තනය කරන්න",
+  "buttonTranslate": "വിവർത്തനം ചെയ്യുക",
   "translateFailed": "පරිවර්තනය අසාර්ථක විය: {error}",
   "@translateFailed": {
     "placeholders": {
@@ -1432,5 +1432,21 @@
   "tagCareer": "തൊഴിൽ",
   "tagToday": "ഭാഗ്യം",
   "tagRelationship": "ബന്ധം",
-  "tagSelfReflection": "ആത്മചിന്ത"
+  "tagSelfReflection": "ആത്മചിന്ത",
+  "diaryListView": "ലിസ്റ്റ് കാണുക",
+  "coinShortageTitle": "കോയിൻ കുറവ്",
+  "coinShortageContent": "കോയിൻ കുറവാണ്. ടാരോട്ട് റീഡിംഗിന് 1 കോയിൻ ആവശ്യമാണ്.",
+  "dialogOk": "ശരി",
+  "proceedReadingTitle": "ടാരോട്ട് റീഡിംഗ് തുടരുക",
+  "proceedReadingContent": "1 കോയിൻ ഉപയോഗിച്ച് റീഡിംഗ് തുടരണോ?",
+  "dialogCancel": "റദ്ദാക്കുക",
+  "dialogProceed": "തുടരുക",
+  "witchTarotReading": "{witchName}ന്റെ ടാരോട്ട് റീഡിംഗ്",
+  "@witchTarotReading": {
+    "placeholders": {
+      "witchName": {
+        "type": "String"
+      }
+    }
+  }
 }

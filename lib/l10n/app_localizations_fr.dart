@@ -64,7 +64,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get positionOneCard => 'La carte du jour';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Situation actuelle';
 
   @override
   String get positionTwoCard2 => '2. Conseils';
@@ -82,7 +82,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get positionFourCard1 => '1. Problème';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Cause du problème';
 
   @override
   String get positionFourCard3 => '3. Conseils';
@@ -1320,7 +1320,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get myMenuSectionCustomerSupport => 'Assistance client';
 
   @override
-  String get myMenuFaq => 'FAQ';
+  String get myMenuFaq => 'Foire aux questions (FAQ)';
 
   @override
   String get myMenuAppInfo => 'Informations sur l\'application';
@@ -1440,7 +1440,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix7 => 'fascinant';
 
   @override
-  String get nicknamePrefix8 => 'cruel';
+  String get nicknamePrefix8 => 'Cruel';
 
   @override
   String get nicknamePrefix9 => 'pur';
@@ -1500,7 +1500,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix27 => 'doré';
 
   @override
-  String get nicknamePrefix28 => 'argent';
+  String get nicknamePrefix28 => 'Argenté';
 
   @override
   String get nicknamePrefix29 => 'bleu';
@@ -1518,7 +1518,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix33 => 'blanc';
 
   @override
-  String get nicknamePrefix34 => 'transparent';
+  String get nicknamePrefix34 => 'Transparent';
 
   @override
   String get nicknamePrefix35 => 'seul';
@@ -1578,7 +1578,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix53 => 'sacré';
 
   @override
-  String get nicknamePrefix54 => 'profane';
+  String get nicknamePrefix54 => 'Profane';
 
   @override
   String get nicknamePrefix55 => 'supérieur';
@@ -1749,7 +1749,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix110 => 'de l\'espace';
 
   @override
-  String get nicknamePrefix111 => 'dimension';
+  String get nicknamePrefix111 => 'Dimensionnel';
 
   @override
   String get nicknamePrefix112 => 'fatidique';
@@ -1830,7 +1830,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix137 => 'de guerre';
 
   @override
-  String get nicknamePrefix138 => 'chaos';
+  String get nicknamePrefix138 => 'Chaotique';
 
   @override
   String get nicknamePrefix139 => 'ordonné';
@@ -2028,7 +2028,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix2 => 'sorcière';
 
   @override
-  String get nicknameSuffix3 => 'article';
+  String get nicknameSuffix3 => 'Chevalier';
 
   @override
   String get nicknameSuffix4 => 'guerrier';
@@ -2040,10 +2040,10 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix6 => 'voleur';
 
   @override
-  String get nicknameSuffix7 => 'assassin';
+  String get nicknameSuffix7 => 'Assassin';
 
   @override
-  String get nicknameSuffix8 => 'paladin';
+  String get nicknameSuffix8 => 'Paladin';
 
   @override
   String get nicknameSuffix9 => 'prêtre';
@@ -2091,10 +2091,10 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix23 => 'voyageur';
 
   @override
-  String get nicknameSuffix24 => 'vagabond';
+  String get nicknameSuffix24 => 'Vagabond';
 
   @override
-  String get nicknameSuffix25 => 'vagabond';
+  String get nicknameSuffix25 => 'Nomade';
 
   @override
   String get nicknameSuffix26 => 'pèlerin';
@@ -2160,7 +2160,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix46 => 'mercenaire';
 
   @override
-  String get nicknameSuffix47 => 'pirate';
+  String get nicknameSuffix47 => 'Pirate';
 
   @override
   String get nicknameSuffix48 => 'voleur';
@@ -2226,7 +2226,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix68 => 'bête démon';
 
   @override
-  String get nicknameSuffix69 => 'dragon';
+  String get nicknameSuffix69 => 'Dragon';
 
   @override
   String get nicknameSuffix70 => 'fantôme';
@@ -2238,7 +2238,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix72 => 'mort-vivant';
 
   @override
-  String get nicknameSuffix73 => 'vampire';
+  String get nicknameSuffix73 => 'Vampire';
 
   @override
   String get nicknameSuffix74 => 'loup-garou';
@@ -2259,7 +2259,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix79 => 'chêne';
 
   @override
-  String get nicknameSuffix80 => 'troll';
+  String get nicknameSuffix80 => 'Troll';
 
   @override
   String get nicknameSuffix81 => 'elfe';
@@ -2280,7 +2280,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix86 => 'prisonnier';
 
   @override
-  String get nicknameSuffix87 => 'signature';
+  String get nicknameSuffix87 => 'Homme-oiseau';
 
   @override
   String get nicknameSuffix88 => 'Homme-poisson';
@@ -2310,7 +2310,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix96 => 'abîme';
 
   @override
-  String get nicknameSuffix97 => 'chaos';
+  String get nicknameSuffix97 => 'Chaos';
 
   @override
   String get nicknameSuffix98 => 'commande';
@@ -2334,7 +2334,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix204 => 's\'évanouir';
 
   @override
-  String get nicknamePrefix205 => 'transparent';
+  String get nicknamePrefix205 => 'Transparent';
 
   @override
   String get nicknamePrefix206 => 's\'évanouir';
@@ -2352,7 +2352,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix210 => 'spécial';
 
   @override
-  String get nicknamePrefix211 => 'noble';
+  String get nicknamePrefix211 => 'Noble';
 
   @override
   String get nicknamePrefix212 => 'pur';
@@ -2379,7 +2379,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix219 => 'impitoyable';
 
   @override
-  String get nicknamePrefix220 => 'cruel';
+  String get nicknamePrefix220 => 'Cruel';
 
   @override
   String get nicknamePrefix221 => 'grand';
@@ -2469,7 +2469,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix249 => 'misérable';
 
   @override
-  String get nicknamePrefix250 => 'sublime';
+  String get nicknamePrefix250 => 'Sublime';
 
   @override
   String get nicknamePrefix251 => 'méchant';
@@ -2478,7 +2478,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix252 => 'signifier';
 
   @override
-  String get nicknamePrefix253 => 'arrogant';
+  String get nicknamePrefix253 => 'Arrogant';
 
   @override
   String get nicknamePrefix254 => 'modeste';
@@ -2490,13 +2490,13 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix256 => 'chaud';
 
   @override
-  String get nicknamePrefix257 => 'cool';
+  String get nicknamePrefix257 => 'Frais';
 
   @override
   String get nicknamePrefix258 => 'froid';
 
   @override
-  String get nicknamePrefix259 => 'bizarre';
+  String get nicknamePrefix259 => 'Bizarre';
 
   @override
   String get nicknamePrefix260 => 'étonnant';
@@ -2562,13 +2562,13 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix280 => 'passionné';
 
   @override
-  String get nicknamePrefix281 => 'nonchalant';
+  String get nicknamePrefix281 => 'Indifférent';
 
   @override
   String get nicknamePrefix282 => 'tranquille';
 
   @override
-  String get nicknamePrefix283 => 'violent';
+  String get nicknamePrefix283 => 'Féroce';
 
   @override
   String get nicknamePrefix284 => 'féroce';
@@ -2589,13 +2589,13 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix289 => 'tête froide';
 
   @override
-  String get nicknamePrefix290 => 'sensible';
+  String get nicknamePrefix290 => 'Sage';
 
   @override
   String get nicknamePrefix291 => 'idiot';
 
   @override
-  String get nicknamePrefix292 => 'innocent';
+  String get nicknamePrefix292 => 'Naïf';
 
   @override
   String get nicknamePrefix293 => 'rusé';
@@ -2613,7 +2613,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknamePrefix297 => 'doré';
 
   @override
-  String get nicknamePrefix298 => 'argent';
+  String get nicknamePrefix298 => 'Argenté';
 
   @override
   String get nicknamePrefix299 => 'sanglant';
@@ -2625,7 +2625,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix102 => 'pèlerin';
 
   @override
-  String get nicknameSuffix103 => 'vagabond';
+  String get nicknameSuffix103 => 'Vagabond';
 
   @override
   String get nicknameSuffix104 => 'ermite';
@@ -2664,7 +2664,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix115 => 'communicateur';
 
   @override
-  String get nicknameSuffix116 => 'guide';
+  String get nicknameSuffix116 => 'Guide';
 
   @override
   String get nicknameSuffix117 => 'chef';
@@ -2706,13 +2706,13 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix129 => 'remboursement';
 
   @override
-  String get nicknameSuffix130 => 'Shinsu';
+  String get nicknameSuffix130 => 'Bête divine';
 
   @override
-  String get nicknameSuffix131 => 'test';
+  String get nicknameSuffix131 => 'Épéiste';
 
   @override
-  String get nicknameSuffix132 => 'article';
+  String get nicknameSuffix132 => 'Chevalier';
 
   @override
   String get nicknameSuffix133 => 'Archer';
@@ -2721,7 +2721,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix134 => 'voleur';
 
   @override
-  String get nicknameSuffix135 => 'assassin';
+  String get nicknameSuffix135 => 'Assassin';
 
   @override
   String get nicknameSuffix136 => 'magicien';
@@ -2793,7 +2793,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix158 => 'ours';
 
   @override
-  String get nicknameSuffix159 => 'lion';
+  String get nicknameSuffix159 => 'Lion';
 
   @override
   String get nicknameSuffix160 => 'tigre';
@@ -2823,10 +2823,10 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix168 => 'tortue';
 
   @override
-  String get nicknameSuffix169 => 'crocodile';
+  String get nicknameSuffix169 => 'Crocodile';
 
   @override
-  String get nicknameSuffix170 => 'dragon';
+  String get nicknameSuffix170 => 'Dragon';
 
   @override
   String get nicknameSuffix171 => 'licorne';
@@ -2835,7 +2835,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix172 => 'Pégase';
 
   @override
-  String get nicknameSuffix173 => 'griffon';
+  String get nicknameSuffix173 => 'Griffon';
 
   @override
   String get nicknameSuffix174 => 'gargouille';
@@ -2847,7 +2847,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix176 => 'chêne';
 
   @override
-  String get nicknameSuffix177 => 'troll';
+  String get nicknameSuffix177 => 'Troll';
 
   @override
   String get nicknameSuffix178 => 'tarière';
@@ -2859,13 +2859,13 @@ class AppLocalizationsFr extends AppLocalizations {
   String get nicknameSuffix180 => 'squelette';
 
   @override
-  String get nicknameSuffix181 => 'zombi';
+  String get nicknameSuffix181 => 'Zombie';
 
   @override
   String get nicknameSuffix182 => 'goule';
 
   @override
-  String get nicknameSuffix183 => 'vampire';
+  String get nicknameSuffix183 => 'Vampire';
 
   @override
   String get nicknameSuffix184 => 'loup-garou';
@@ -4268,27 +4268,27 @@ class AppLocalizationsFr extends AppLocalizations {
   String get profileEditSave => 'Sauvegarder';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'Manque de pièces';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'Vous manquez de pièces. Une lecture de tarot nécessite 1 pièce.';
 
   @override
-  String get dialogOk => 'OK';
+  String get dialogOk => 'Confirmer';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'Procéder à la lecture de tarot';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'Voulez-vous procéder à la lecture en utilisant 1 pièce ?';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'Annuler';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'Procéder';
 
   @override
   String pickCardsText(int count) {
@@ -4306,7 +4306,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return 'Lecture de tarot de $witchName';
   }
 
   @override
@@ -4340,4 +4340,25 @@ class AppLocalizationsFr extends AppLocalizations {
   String translateFailed(String error) {
     return 'Échec de la traduction : $error';
   }
+
+  @override
+  String get tagLove => 'Amour';
+
+  @override
+  String get tagMoney => 'Argent';
+
+  @override
+  String get tagHealth => 'Santé';
+
+  @override
+  String get tagCareer => 'Carrière';
+
+  @override
+  String get tagToday => 'Aujourd\'hui';
+
+  @override
+  String get tagRelationship => 'Relations';
+
+  @override
+  String get tagSelfReflection => 'Réflexion';
 }

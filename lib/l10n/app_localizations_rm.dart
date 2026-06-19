@@ -9,131 +9,131 @@ class AppLocalizationsRm extends AppLocalizations {
   AppLocalizationsRm([String locale = 'rm']) : super(locale);
 
   @override
-  String get appTitle => 'Tarot Reading';
+  String get appTitle => 'Chasa da tarot';
 
   @override
-  String get spreadSelectionTitle => 'Select a Spread';
+  String get spreadSelectionTitle => 'Tscherna da spread';
 
   @override
   String get spreadSelectionSubtitle =>
-      'Choose a tarot spread that fits your question';
+      'Tschernai la metoda da posiziunament da tarot che correspunda il meglier a vossa dumonda.';
 
   @override
-  String get spreadOneCardName => 'One Card';
+  String get spreadOneCardName => 'Charta singula';
 
   @override
   String get spreadOneCardDesc =>
-      'A single card for a quick answer or daily guidance.';
+      'Questa è ina metoda da posiziunament d\'ina charta per dumondas simplas u per guardar l\'orachel dal di.';
 
   @override
-  String get spreadTwoCardName => 'Two Card';
+  String get spreadTwoCardName => 'Duas chartas';
 
   @override
   String get spreadTwoCardDesc =>
-      'A 2-card spread to simply grasp the current situation and advice.';
+      'Questa è ina metoda da posiziunament da duas chartas, buna per chapir svelt la situaziun actuala e per survegnir cussegls.';
 
   @override
-  String get spreadThreeCardName => 'Three Card';
+  String get spreadThreeCardName => 'Trais chartas';
 
   @override
   String get spreadThreeCardDesc =>
-      'A 3-card spread to understand the flow of past, present, and future.';
+      'Questa è ina metoda da posiziunament da trais chartas, buna per chapir il fluss dal passà, dal preschent e dal futur.';
 
   @override
-  String get spreadFourCardName => 'Four Card';
+  String get spreadFourCardName => 'Quatter chartas';
 
   @override
   String get spreadFourCardDesc =>
-      'A 4-card spread to clearly diagnose the cause of a problem, get advice, and see the outcome.';
+      'Questa è ina metoda da posiziunament da quatter chartas che diagnostitgescha cleramain da la causa dal problem fin al cussegl e al resultat.';
 
   @override
-  String get spreadFiveCardName => 'Five Card';
+  String get spreadFiveCardName => 'Tschintg chartas';
 
   @override
   String get spreadFiveCardDesc =>
-      'A 5-card spread examining the core of the situation, its causes, and potential outcomes.';
+      'Questa è ina metoda da posiziunament da tschintg chartas che examinescha cumplettamain il cor dal problem, la causa e ils resultats potenzials.';
 
   @override
-  String get spreadCelticCrossName => 'Celtic Cross';
+  String get spreadCelticCrossName => 'Crusch celtica';
 
   @override
   String get spreadCelticCrossDesc =>
-      '10 cards for an in-depth analysis of a complex problem.';
+      'Questa è ina metoda da posiziunament da diesch chartas per in\'analisa profunda da problems cumplexs e per chattar soluziuns.';
 
   @override
-  String get positionOneCard => 'Today\'s Card';
+  String get positionOneCard => 'Charta dal di';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Situaziun actuala';
 
   @override
-  String get positionTwoCard2 => '2. Advice';
+  String get positionTwoCard2 => '2. Cussegl';
 
   @override
-  String get positionThreeCard1 => 'Past';
+  String get positionThreeCard1 => 'Passà';
 
   @override
-  String get positionThreeCard2 => 'Present';
+  String get positionThreeCard2 => 'Preschent';
 
   @override
-  String get positionThreeCard3 => 'Future';
+  String get positionThreeCard3 => 'Futur';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Situaziun actuala e problem';
 
   @override
-  String get positionFourCard2 => '2. Cause';
+  String get positionFourCard2 => '2. Causa dal problem';
 
   @override
-  String get positionFourCard3 => '3. Advice';
+  String get positionFourCard3 => '3. Cussegl per la schliaziun';
 
   @override
-  String get positionFourCard4 => '4. Outcome';
+  String get positionFourCard4 => '4. Resultat spetgà';
 
   @override
-  String get positionFiveCard1 => '1. Present';
+  String get positionFiveCard1 => '1. Situaziun actuala';
 
   @override
-  String get positionFiveCard2 => '2. Past Influences';
+  String get positionFiveCard2 => '2. Influenzi dal passà';
 
   @override
-  String get positionFiveCard3 => '3. Future Direction';
+  String get positionFiveCard3 => '3. Direcziun dal futur';
 
   @override
-  String get positionFiveCard4 => '4. Core Reason';
+  String get positionFiveCard4 => '4. Causa dal problem';
 
   @override
-  String get positionFiveCard5 => '5. Potential Outcome';
+  String get positionFiveCard5 => '5. Resultat potenzial';
 
   @override
-  String get positionCelticCross1 => '1. Present (Querent)';
+  String get positionCelticCross1 => '1. Situaziun actuala (dumandader)';
 
   @override
-  String get positionCelticCross2 => '2. The Challenge';
+  String get positionCelticCross2 => '2. Elements disturbants (sfida)';
 
   @override
-  String get positionCelticCross3 => '3. The Past';
+  String get positionCelticCross3 => '3. Influenzi dal passà';
 
   @override
-  String get positionCelticCross4 => '4. The Future';
+  String get positionCelticCross4 => '4. Futur vischin';
 
   @override
-  String get positionCelticCross5 => '5. Conscious';
+  String get positionCelticCross5 => '5. Scopus conscient';
 
   @override
-  String get positionCelticCross6 => '6. Subconscious';
+  String get positionCelticCross6 => '6. Fundament inconscient';
 
   @override
-  String get positionCelticCross7 => '7. Advice';
+  String get positionCelticCross7 => '7. Attegiament persunal (cussegl)';
 
   @override
-  String get positionCelticCross8 => '8. External Influences';
+  String get positionCelticCross8 => '8. Ambient';
 
   @override
-  String get positionCelticCross9 => '9. Hopes and Fears';
+  String get positionCelticCross9 => '9. Speranza e tema';
 
   @override
-  String get positionCelticCross10 => '10. Outcome';
+  String get positionCelticCross10 => '10. Resultat final';
 
   @override
   String get navReading => 'Lecziun da Tarot';
@@ -145,7 +145,7 @@ class AppLocalizationsRm extends AppLocalizations {
   String get navMeanings => 'Senzas';
 
   @override
-  String get navMyMenu => 'My Menu';
+  String get navMyMenu => 'Miun menu';
 
   @override
   String get readingIntroTitle => 'Susts\ndel Destin';
@@ -1210,52 +1210,52 @@ class AppLocalizationsRm extends AppLocalizations {
       'Tschappai l\'image dal profil per vesair detagls';
 
   @override
-  String get themeName1 => 'Theme 1';
+  String get themeName1 => 'Tema 1';
 
   @override
-  String get themeName2 => 'Theme 2';
+  String get themeName2 => 'Tema 2';
 
   @override
-  String get themeName3 => 'Theme 3';
+  String get themeName3 => 'Tema 3';
 
   @override
-  String get themeMagicBook => 'Magic Book';
+  String get themeMagicBook => 'Cudesch magic';
 
   @override
-  String get themeBlackCat => 'Black Cat';
+  String get themeBlackCat => 'Gat nair';
 
   @override
   String get themeEmptyPaidThemes =>
-      'Purchase themes in the shop\nto fill this space!';
+      'Cumprà temas en la butia per emplenir quest lieu!';
 
   @override
-  String get shopThemePurchaseTitle => 'Purchase Theme';
+  String get shopThemePurchaseTitle => 'Cumprar tema';
 
   @override
   String shopThemePurchaseContent(String skinName, int cost) {
-    return 'Do you want to purchase the $skinName theme for $cost coins?';
+    return 'Vulais cumprar il tema $skinName per $cost coins?';
   }
 
   @override
-  String get shopCancel => 'Cancel';
+  String get shopCancel => 'Annullar';
 
   @override
-  String get shopPurchase => 'Purchase';
+  String get shopPurchase => 'Cumprar';
 
   @override
   String get shopAlreadyOwned =>
-      'Already owned. Try applying it in theme settings!';
+      'Gia en possess. Applitgai en las configuraziuns dal tema!';
 
   @override
   String shopPurchaseSuccess(String skinName) {
-    return '$skinName purchased successfully! Check theme settings.';
+    return 'Cumprà $skinName cun success! Verifitgai en las configuraziuns dal tema.';
   }
 
   @override
-  String get shopNotEnoughCoins => 'Not enough coins.';
+  String get shopNotEnoughCoins => 'Betg avunda coins.';
 
   @override
-  String get shopOwned => 'Owned';
+  String get shopOwned => 'En possess';
 
   @override
   String shopCoinPrice(int cost) {
@@ -1263,2708 +1263,2892 @@ class AppLocalizationsRm extends AppLocalizations {
   }
 
   @override
-  String get navDiary => 'Tarot Diary';
+  String get navDiary => 'Diari da tarot';
 
   @override
-  String get myMenuFirebaseNotConnected => 'Firebase Not Connected';
+  String get myMenuFirebaseNotConnected => 'Firebase betg connectà';
 
   @override
-  String get myMenuWindowsSetupNeeded => 'Windows Setup Needed (Preview)';
+  String get myMenuWindowsSetupNeeded =>
+      'Configuraziun da Windows necessaria (prevista)';
 
   @override
-  String get myMenuTouchToViewLogin => 'Tap to view Login UI';
+  String get myMenuTouchToViewLogin =>
+      'Tutschar per guardar l\'interfatscha d\'utilisader da la pagina da login';
 
   @override
-  String get myMenuNoName => 'No Name';
+  String get myMenuNoName => 'Senza num';
 
   @override
-  String get myMenuPleaseLogin => 'Please Log In';
+  String get myMenuPleaseLogin => 'Per plaschair, loghettai';
 
   @override
-  String get myMenuTouchToSignupLogin => 'Tap to Sign Up & Log In';
+  String get myMenuTouchToSignupLogin =>
+      'Tutschar per s\'inscriver e loghettar';
 
   @override
-  String get myMenuSectionMyRecords => 'My Records';
+  String get myMenuSectionMyRecords => 'Mia registraziun';
 
   @override
-  String get myMenuDiaryStorage => 'Diary Storage';
+  String get myMenuDiaryStorage => 'Archiv dal diari da tarot';
 
   @override
-  String get myMenuCheckSavedDiary => 'Check your saved diaries.';
+  String get myMenuCheckSavedDiary => 'Verifitgai ils diarins memorisads.';
 
   @override
-  String get myMenuFavoriteCards => 'Favorite Cards';
+  String get myMenuFavoriteCards => 'Chartas preferidas';
 
   @override
-  String get myMenuMyFavoriteCardsList => 'List of my favorite cards';
+  String get myMenuMyFavoriteCardsList => 'Mia glista da chartas preferidas';
 
   @override
-  String get myMenuSectionAppSettings => 'App Settings';
+  String get myMenuSectionAppSettings => 'Configuraziuns da l\'app';
 
   @override
-  String get myMenuPushNotifications => 'Push Notifications';
+  String get myMenuPushNotifications => 'Recepziun da notificaziuns push';
 
   @override
-  String get myMenuPushNotificationsDesc => 'New horoscopes and events';
+  String get myMenuPushNotificationsDesc =>
+      'Notificaziuns per novs orachels ed eveniments';
 
   @override
-  String get myMenuLanguageSettings => 'Language Settings';
+  String get myMenuLanguageSettings => 'Configuraziuns da lingua';
 
   @override
-  String get myMenuThemeSettings => 'Theme Settings';
+  String get myMenuThemeSettings => 'Configuraziuns dal tema';
 
   @override
-  String get myMenuChangeBackground => 'Change background image';
+  String get myMenuChangeBackground => 'Midar l\'image da fund';
 
   @override
-  String get myMenuSectionCustomerSupport => 'Customer Support';
+  String get myMenuSectionCustomerSupport => 'Support per clients';
 
   @override
-  String get myMenuFaq => 'FAQ';
+  String get myMenuFaq => 'Dumondas frequentas (FAQ)';
 
   @override
-  String get myMenuAppInfo => 'App Info';
+  String get myMenuAppInfo => 'Infurmaziuns davart l\'app';
 
   @override
-  String get myMenuSectionAccountManagement => 'Account Management';
+  String get myMenuSectionAccountManagement => 'Administraziun dal conto';
 
   @override
-  String get myMenuLogout => 'Log Out';
+  String get myMenuLogout => 'Logout';
 
   @override
-  String get myMenuLogoutDesc => 'Log out from the current device.';
+  String get myMenuLogoutDesc => 'Logout da quest apparat.';
 
   @override
-  String get myMenuEmailVerifiedMsg => 'Email verification confirmed! ✨';
+  String get myMenuEmailVerifiedMsg =>
+      'L\'autentificaziun da l\'e-mail è vegnida confermada! ✨';
 
   @override
-  String get myMenuEmailSendTitle => 'Send Verification Email';
+  String get myMenuEmailSendTitle => 'Trametter e-mail d\'autentificaziun';
 
   @override
   String get myMenuEmailSendContent =>
-      'Verification email has been sent.\nPlease check your inbox, click the link, and press this button again!';
+      'In e-mail d\'autentificaziun è vegnì tramess.\nVerifitgai voss e-mail, cliccai sin il link e tutschai anc ina giada quest buttun!';
 
   @override
-  String get myMenuConfirm => 'Confirm';
+  String get myMenuConfirm => 'Confermar';
 
   @override
-  String get myMenuEmailErrorMsg => 'Too many requests or an error occurred.';
+  String get myMenuEmailErrorMsg => 'Troppas dumondas u in sbagl è capità.';
 
   @override
-  String get myMenuEmailVerified => 'Email Verified';
+  String get myMenuEmailVerified => 'Autentificaziun d\'e-mail terminada';
 
   @override
-  String get myMenuEmailNotVerified => 'Email Not Verified (Tap to verify)';
+  String get myMenuEmailNotVerified =>
+      'E-mail betg autentifitgà (tutschar per autentifitgar)';
 
   @override
-  String get languageSystemDefault => 'System Default';
+  String get languageSystemDefault => 'Standard (configuraziun dal sistem)';
 
   @override
-  String get shopTitle => 'Shop';
+  String get shopTitle => 'Butia';
 
   @override
-  String get shopSubtitle => 'Purchase Coins and Themes';
+  String get shopSubtitle => 'Cumprà coins e temas';
 
   @override
-  String get shopTabCoin => 'Coin';
+  String get shopTabCoin => 'Coins';
 
   @override
-  String get shopTabTheme => 'Theme';
+  String get shopTabTheme => 'Temas';
 
   @override
-  String get shopPayButton => 'Pay';
+  String get shopPayButton => 'Pagar';
 
   @override
-  String get themeOriginalDeck => 'Original Classic Deck';
+  String get themeOriginalDeck => 'Deck classic original';
 
   @override
-  String get themeGoldenSunDeck => 'Golden Sun Deck';
+  String get themeGoldenSunDeck => 'Deck dal sulegl dad aur';
 
   @override
-  String get themeDarkAbyssDeck => 'Dark Abyss Deck';
+  String get themeDarkAbyssDeck => 'Deck da l\'abiss stgir';
 
   @override
-  String get themeSpringSpiritDeck => 'Spring Spirit Deck';
+  String get themeSpringSpiritDeck => 'Deck dals spierts da primavaira';
 
   @override
   String shopCoinNotReady(int coins) {
-    return 'Payment for $coins coins is coming soon.';
+    return 'La funcziun da pajament da $coins coins è en preparaziun.';
   }
 
   @override
   String shopThemeNotReady(String name) {
-    return 'Purchase/apply for $name is coming soon.';
+    return 'La funcziun da cumprar/applitgar $name è en preparaziun.';
   }
 
   @override
-  String get readingIntroSelectWitch => 'Select a witch to see your destiny';
+  String get readingIntroSelectWitch =>
+      'Tschernai ina striegn per verifitgar vossa destinaziun';
 
   @override
   String get readingIntroGreeting =>
-      'What destiny shall we look into?\nI am curious about your future.';
+      'Tge destin duain nus guardar?\nVoss futur ma curiusescha.';
 
   @override
-  String get readingIntroStart => 'Select Spread';
+  String get readingIntroStart => 'Tschernair metoda da posiziunament';
 
   @override
-  String get tabMajorArcana => 'Major Arcana';
+  String get tabMajorArcana => 'Arcana maiura';
 
   @override
-  String get tabMinorArcana => 'Minor Arcana';
+  String get tabMinorArcana => 'Arcana minura';
 
   @override
-  String get nicknamePrefix0 => 'occult';
+  String get nicknamePrefix0 => 'Misterius';
 
   @override
-  String get nicknamePrefix1 => 'serene';
+  String get nicknamePrefix1 => 'Tranquil';
 
   @override
-  String get nicknamePrefix2 => 'holy';
+  String get nicknamePrefix2 => 'Sontg';
 
   @override
-  String get nicknamePrefix3 => 'dark';
+  String get nicknamePrefix3 => 'Stgir';
 
   @override
-  String get nicknamePrefix4 => 'shining';
+  String get nicknamePrefix4 => 'Splendent';
 
   @override
-  String get nicknamePrefix5 => 'bleak';
+  String get nicknamePrefix5 => 'Fraid';
 
   @override
-  String get nicknamePrefix6 => 'hot';
+  String get nicknamePrefix6 => 'Cald';
 
   @override
-  String get nicknamePrefix7 => 'fascinating';
+  String get nicknamePrefix7 => 'Fascinant';
 
   @override
-  String get nicknamePrefix8 => 'cruel';
+  String get nicknamePrefix8 => 'Crudel';
 
   @override
-  String get nicknamePrefix9 => 'pure';
+  String get nicknamePrefix9 => 'Pur';
 
   @override
-  String get nicknamePrefix10 => 'harsh';
+  String get nicknamePrefix10 => 'Ruvid';
 
   @override
-  String get nicknamePrefix11 => 'soft';
+  String get nicknamePrefix11 => 'Moll';
 
   @override
-  String get nicknamePrefix12 => 'beautiful';
+  String get nicknamePrefix12 => 'Bel';
 
   @override
-  String get nicknamePrefix13 => 'weird';
+  String get nicknamePrefix13 => 'Strani';
 
   @override
-  String get nicknamePrefix14 => 'big';
+  String get nicknamePrefix14 => 'Grond';
 
   @override
-  String get nicknamePrefix15 => 'shabby';
+  String get nicknamePrefix15 => 'Pover';
 
   @override
-  String get nicknamePrefix16 => 'eternal';
+  String get nicknamePrefix16 => 'Etern';
 
   @override
-  String get nicknamePrefix17 => 'forgotten';
+  String get nicknamePrefix17 => 'Dimenticà';
 
   @override
-  String get nicknamePrefix18 => 'brilliant';
+  String get nicknamePrefix18 => 'Brillant';
 
   @override
-  String get nicknamePrefix19 => 'sad';
+  String get nicknamePrefix19 => 'Trist';
 
   @override
-  String get nicknamePrefix20 => 'glad';
+  String get nicknamePrefix20 => 'Allegro';
 
   @override
-  String get nicknamePrefix21 => 'dreamy';
+  String get nicknamePrefix21 => 'Fantastic';
 
   @override
-  String get nicknamePrefix22 => 'fallen';
+  String get nicknamePrefix22 => 'Decadent';
 
   @override
-  String get nicknamePrefix23 => 'pure white';
+  String get nicknamePrefix23 => 'Alv pur';
 
   @override
-  String get nicknamePrefix24 => 'jet black';
+  String get nicknamePrefix24 => 'Nair sco pichel';
 
   @override
-  String get nicknamePrefix25 => 'bloody';
+  String get nicknamePrefix25 => 'Sanguinus';
 
   @override
-  String get nicknamePrefix26 => 'grayish';
+  String get nicknamePrefix26 => 'Tschaiver';
 
   @override
-  String get nicknamePrefix27 => 'golden';
+  String get nicknamePrefix27 => 'Dad aur';
 
   @override
-  String get nicknamePrefix28 => 'argent';
+  String get nicknamePrefix28 => 'D\'argient';
 
   @override
-  String get nicknamePrefix29 => 'blue';
+  String get nicknamePrefix29 => 'Blau';
 
   @override
-  String get nicknamePrefix30 => 'red';
+  String get nicknamePrefix30 => 'Cotschen';
 
   @override
-  String get nicknamePrefix31 => 'yellow';
+  String get nicknamePrefix31 => 'Gialv';
 
   @override
-  String get nicknamePrefix32 => 'black';
+  String get nicknamePrefix32 => 'Nair';
 
   @override
-  String get nicknamePrefix33 => 'white';
+  String get nicknamePrefix33 => 'Alv';
 
   @override
-  String get nicknamePrefix34 => 'transparent';
+  String get nicknamePrefix34 => 'Transparent';
 
   @override
-  String get nicknamePrefix35 => 'lone';
+  String get nicknamePrefix35 => 'Solitar';
 
   @override
-  String get nicknamePrefix36 => 'noisy';
+  String get nicknamePrefix36 => 'Stgargliant';
 
   @override
-  String get nicknamePrefix37 => 'quiet';
+  String get nicknamePrefix37 => 'Silenzius';
 
   @override
-  String get nicknamePrefix38 => 'warm';
+  String get nicknamePrefix38 => 'Tepel';
 
   @override
-  String get nicknamePrefix39 => 'frosty';
+  String get nicknamePrefix39 => 'Fraid';
 
   @override
-  String get nicknamePrefix40 => 'solitary';
+  String get nicknamePrefix40 => 'Solitar';
 
   @override
-  String get nicknamePrefix41 => 'lonesome';
+  String get nicknamePrefix41 => 'Malinconic';
 
   @override
-  String get nicknamePrefix42 => 'happy';
+  String get nicknamePrefix42 => 'Giavischaivel';
 
   @override
-  String get nicknamePrefix43 => 'happy';
+  String get nicknamePrefix43 => 'Cuntent';
 
   @override
-  String get nicknamePrefix44 => 'gloomy';
+  String get nicknamePrefix44 => 'Deprimì';
 
   @override
-  String get nicknamePrefix45 => 'desperate';
+  String get nicknamePrefix45 => 'Desperà';
 
   @override
-  String get nicknamePrefix46 => 'hopeful';
+  String get nicknamePrefix46 => 'Sperant';
 
   @override
-  String get nicknamePrefix47 => 'dazzling';
+  String get nicknamePrefix47 => 'Splendent';
 
   @override
-  String get nicknamePrefix48 => 'dusky';
+  String get nicknamePrefix48 => 'Stgirenta';
 
   @override
-  String get nicknamePrefix49 => 'midnight';
+  String get nicknamePrefix49 => 'Stgirenta';
 
   @override
-  String get nicknamePrefix50 => 'desolate';
+  String get nicknamePrefix50 => 'Silenzius';
 
   @override
-  String get nicknamePrefix51 => 'secret';
+  String get nicknamePrefix51 => 'Secret';
 
   @override
-  String get nicknamePrefix52 => 'secret';
+  String get nicknamePrefix52 => 'Secret';
 
   @override
-  String get nicknamePrefix53 => 'sacred';
+  String get nicknamePrefix53 => 'Sontg';
 
   @override
-  String get nicknamePrefix54 => 'profane';
+  String get nicknamePrefix54 => 'Profan';
 
   @override
-  String get nicknamePrefix55 => 'superior';
+  String get nicknamePrefix55 => 'Arrogant';
 
   @override
-  String get nicknamePrefix56 => 'modest';
+  String get nicknamePrefix56 => 'Modest';
 
   @override
-  String get nicknamePrefix57 => 'wise';
+  String get nicknamePrefix57 => 'Sagent';
 
   @override
-  String get nicknamePrefix58 => 'foolish';
+  String get nicknamePrefix58 => 'Stupì';
 
   @override
-  String get nicknamePrefix59 => 'tough';
+  String get nicknamePrefix59 => 'Robust';
 
   @override
-  String get nicknamePrefix60 => 'weak';
+  String get nicknamePrefix60 => 'Flaivel';
 
   @override
-  String get nicknamePrefix61 => 'brave';
+  String get nicknamePrefix61 => 'Curaschus';
 
   @override
-  String get nicknamePrefix62 => 'dastardly';
+  String get nicknamePrefix62 => 'Codard';
 
   @override
-  String get nicknamePrefix63 => 'Distant';
+  String get nicknamePrefix63 => 'Lontan';
 
   @override
-  String get nicknamePrefix64 => 'near';
+  String get nicknamePrefix64 => 'Vicin';
 
   @override
-  String get nicknamePrefix65 => 'moving away';
+  String get nicknamePrefix65 => 'S\'allontanond';
 
   @override
-  String get nicknamePrefix66 => 'oncoming';
+  String get nicknamePrefix66 => 'S\'avischinond';
 
   @override
-  String get nicknamePrefix67 => 'disappearing';
+  String get nicknamePrefix67 => 'Sparind';
 
   @override
-  String get nicknamePrefix68 => 'emergent';
+  String get nicknamePrefix68 => 'Cumparind';
 
   @override
-  String get nicknamePrefix69 => 'awakened';
+  String get nicknamePrefix69 => 'Sveglià';
 
   @override
-  String get nicknamePrefix70 => 'asleep';
+  String get nicknamePrefix70 => 'Durmì';
 
   @override
-  String get nicknamePrefix71 => 'dreaming';
+  String get nicknamePrefix71 => 'Sognond';
 
   @override
-  String get nicknamePrefix72 => 'wandering';
+  String get nicknamePrefix72 => 'Errond';
 
   @override
-  String get nicknamePrefix73 => 'wandering';
+  String get nicknamePrefix73 => 'Errond';
 
   @override
-  String get nicknamePrefix74 => 'staying';
+  String get nicknamePrefix74 => 'Restond';
 
   @override
-  String get nicknamePrefix75 => 'leaving';
+  String get nicknamePrefix75 => 'Partind';
 
   @override
-  String get nicknamePrefix76 => 'coming back';
+  String get nicknamePrefix76 => 'Turnond';
 
   @override
-  String get nicknamePrefix77 => 'waiting';
+  String get nicknamePrefix77 => 'Spetgond';
 
   @override
-  String get nicknamePrefix78 => 'looking for';
+  String get nicknamePrefix78 => 'Tschertgond';
 
   @override
-  String get nicknamePrefix79 => 'cryptic';
+  String get nicknamePrefix79 => 'Zuppà';
 
   @override
-  String get nicknamePrefix80 => 'exposed';
+  String get nicknamePrefix80 => 'Revelà';
 
   @override
-  String get nicknamePrefix81 => 'abandoned';
+  String get nicknamePrefix81 => 'Bandunà';
 
   @override
-  String get nicknamePrefix82 => 'selected';
+  String get nicknamePrefix82 => 'Tschernì';
 
   @override
-  String get nicknamePrefix83 => 'blessed';
+  String get nicknamePrefix83 => 'Bendigà';
 
   @override
-  String get nicknamePrefix84 => 'cursed';
+  String get nicknamePrefix84 => 'Maledì';
 
   @override
-  String get nicknamePrefix85 => 'loved';
+  String get nicknamePrefix85 => 'Amà';
 
   @override
-  String get nicknamePrefix86 => 'hated';
+  String get nicknamePrefix86 => 'Odì';
 
   @override
-  String get nicknamePrefix87 => 'remember';
+  String get nicknamePrefix87 => 'Memorisond';
 
   @override
-  String get nicknamePrefix88 => 'oblivious';
+  String get nicknamePrefix88 => 'Dimenticond';
 
   @override
-  String get nicknamePrefix89 => 'starlight';
+  String get nicknamePrefix89 => 'Da stailas';
 
   @override
-  String get nicknamePrefix90 => 'moonlight';
+  String get nicknamePrefix90 => 'Da glina';
 
   @override
-  String get nicknamePrefix91 => 'of sunlight';
+  String get nicknamePrefix91 => 'Da sulegl';
 
   @override
-  String get nicknamePrefix92 => 'cosmic';
+  String get nicknamePrefix92 => 'Cosmic';
 
   @override
-  String get nicknamePrefix93 => 'of the earth';
+  String get nicknamePrefix93 => 'Da la terra';
 
   @override
-  String get nicknamePrefix94 => 'of the sea';
+  String get nicknamePrefix94 => 'Da la mar';
 
   @override
-  String get nicknamePrefix95 => 'heavenly';
+  String get nicknamePrefix95 => 'Dal tschiel';
 
   @override
-  String get nicknamePrefix96 => 'of the clouds';
+  String get nicknamePrefix96 => 'Da nivels';
 
   @override
-  String get nicknamePrefix97 => 'of the wind';
+  String get nicknamePrefix97 => 'Dal vent';
 
   @override
-  String get nicknamePrefix98 => 'rain';
+  String get nicknamePrefix98 => 'Da plievgia';
 
   @override
-  String get nicknamePrefix99 => 'of the eye';
+  String get nicknamePrefix99 => 'Da naiv';
 
   @override
-  String get nicknamePrefix100 => 'icy';
+  String get nicknamePrefix100 => 'Da glatsch';
 
   @override
-  String get nicknamePrefix101 => 'fiery';
+  String get nicknamePrefix101 => 'Da fieu';
 
   @override
-  String get nicknamePrefix102 => 'water';
+  String get nicknamePrefix102 => 'D\'aua';
 
   @override
-  String get nicknamePrefix103 => 'earthen';
+  String get nicknamePrefix103 => 'Da terra';
 
   @override
-  String get nicknamePrefix104 => 'wooden';
+  String get nicknamePrefix104 => 'Da lain';
 
   @override
-  String get nicknamePrefix105 => 'forest';
+  String get nicknamePrefix105 => 'Da guaud';
 
   @override
-  String get nicknamePrefix106 => 'mountainous';
+  String get nicknamePrefix106 => 'Da muntogna';
 
   @override
-  String get nicknamePrefix107 => 'lecture';
+  String get nicknamePrefix107 => 'Da flum';
 
   @override
-  String get nicknamePrefix108 => 'of the lake';
+  String get nicknamePrefix108 => 'Da lai';
 
   @override
-  String get nicknamePrefix109 => 'of time';
+  String get nicknamePrefix109 => 'Dal temp';
 
   @override
-  String get nicknamePrefix110 => 'of space';
+  String get nicknamePrefix110 => 'Da spazi';
 
   @override
-  String get nicknamePrefix111 => 'dimension';
+  String get nicknamePrefix111 => 'Da dimensiun';
 
   @override
-  String get nicknamePrefix112 => 'fateful';
+  String get nicknamePrefix112 => 'Dal destin';
 
   @override
-  String get nicknamePrefix113 => 'fateful';
+  String get nicknamePrefix113 => 'Dal destin';
 
   @override
-  String get nicknamePrefix114 => 'miraculous';
+  String get nicknamePrefix114 => 'Da miracul';
 
   @override
-  String get nicknamePrefix115 => 'magical';
+  String get nicknamePrefix115 => 'Da magia';
 
   @override
-  String get nicknamePrefix116 => 'mythical';
+  String get nicknamePrefix116 => 'Da mitus';
 
   @override
-  String get nicknamePrefix117 => 'legendary';
+  String get nicknamePrefix117 => 'Da legenda';
 
   @override
-  String get nicknamePrefix118 => 'of truth';
+  String get nicknamePrefix118 => 'Da vardad';
 
   @override
-  String get nicknamePrefix119 => 'false';
+  String get nicknamePrefix119 => 'Da fauss';
 
   @override
-  String get nicknamePrefix120 => 'fantasy';
+  String get nicknamePrefix120 => 'D\'illusiun';
 
   @override
-  String get nicknamePrefix121 => 'dream';
+  String get nicknamePrefix121 => 'Da sogn';
 
   @override
-  String get nicknamePrefix122 => 'nightmare';
+  String get nicknamePrefix122 => 'Da sogn d\'anguscha';
 
   @override
-  String get nicknamePrefix123 => 'ruin';
+  String get nicknamePrefix123 => 'Da ruina';
 
   @override
-  String get nicknamePrefix124 => 'of creation';
+  String get nicknamePrefix124 => 'Da creaziun';
 
   @override
-  String get nicknamePrefix125 => 'of life';
+  String get nicknamePrefix125 => 'Da vita';
 
   @override
-  String get nicknamePrefix126 => 'of death';
+  String get nicknamePrefix126 => 'Da mort';
 
   @override
-  String get nicknamePrefix127 => 'soul';
+  String get nicknamePrefix127 => 'D\'olma';
 
   @override
-  String get nicknamePrefix128 => 'physical';
+  String get nicknamePrefix128 => 'Da corp';
 
   @override
-  String get nicknamePrefix129 => 'of reason';
+  String get nicknamePrefix129 => 'Da raschun';
 
   @override
-  String get nicknamePrefix130 => 'emotional';
+  String get nicknamePrefix130 => 'D\'emotiun';
 
   @override
-  String get nicknamePrefix131 => 'of love';
+  String get nicknamePrefix131 => 'D\'amur';
 
   @override
-  String get nicknamePrefix132 => 'of hate';
+  String get nicknamePrefix132 => 'D\'odi';
 
   @override
-  String get nicknamePrefix133 => 'of sadness';
+  String get nicknamePrefix133 => 'Da tristezza';
 
   @override
-  String get nicknamePrefix134 => 'of joy';
+  String get nicknamePrefix134 => 'Da legria';
 
   @override
-  String get nicknamePrefix135 => 'angry';
+  String get nicknamePrefix135 => 'Da rabia';
 
   @override
-  String get nicknamePrefix136 => 'of peace';
+  String get nicknamePrefix136 => 'Da pasch';
 
   @override
-  String get nicknamePrefix137 => 'of war';
+  String get nicknamePrefix137 => 'Da guerra';
 
   @override
-  String get nicknamePrefix138 => 'chaos';
+  String get nicknamePrefix138 => 'Da caos';
 
   @override
-  String get nicknamePrefix139 => 'orderly';
+  String get nicknamePrefix139 => 'D\'urden';
 
   @override
-  String get nicknamePrefix140 => 'of light';
+  String get nicknamePrefix140 => 'Da glisch';
 
   @override
-  String get nicknamePrefix141 => 'dark';
+  String get nicknamePrefix141 => 'Da stgiraglia';
 
   @override
-  String get nicknamePrefix142 => 'twilight';
+  String get nicknamePrefix142 => 'Da stgiraglia';
 
   @override
-  String get nicknamePrefix143 => 'dawn';
+  String get nicknamePrefix143 => 'D\'aurora';
 
   @override
-  String get nicknamePrefix144 => 'noon';
+  String get nicknamePrefix144 => 'Da mezdi';
 
   @override
-  String get nicknamePrefix145 => 'midnight';
+  String get nicknamePrefix145 => 'Da mesanotg';
 
   @override
-  String get nicknamePrefix146 => 'past';
+  String get nicknamePrefix146 => 'Dal passà';
 
   @override
-  String get nicknamePrefix147 => 'present';
+  String get nicknamePrefix147 => 'Dal preschent';
 
   @override
-  String get nicknamePrefix148 => 'future';
+  String get nicknamePrefix148 => 'Dal futur';
 
   @override
-  String get nicknamePrefix149 => 'of origin';
+  String get nicknamePrefix149 => 'D\'origin';
 
   @override
-  String get nicknamePrefix150 => 'apocalyptic';
+  String get nicknamePrefix150 => 'Da fin';
 
   @override
-  String get nicknamePrefix151 => 'infinite';
+  String get nicknamePrefix151 => 'Infinit';
 
   @override
-  String get nicknamePrefix152 => 'finite';
+  String get nicknamePrefix152 => 'Finit';
 
   @override
-  String get nicknamePrefix153 => 'silent';
+  String get nicknamePrefix153 => 'Da silenzi';
 
   @override
-  String get nicknamePrefix154 => 'of noise';
+  String get nicknamePrefix154 => 'Da rumur';
 
   @override
-  String get nicknamePrefix155 => 'singing';
+  String get nicknamePrefix155 => 'Chantond';
 
   @override
-  String get nicknamePrefix156 => 'dancing';
+  String get nicknamePrefix156 => 'Saltond';
 
   @override
-  String get nicknamePrefix157 => 'crying';
+  String get nicknamePrefix157 => 'Criond';
 
   @override
-  String get nicknamePrefix158 => 'smiling';
+  String get nicknamePrefix158 => 'Riond';
 
   @override
-  String get nicknamePrefix159 => 'whispering';
+  String get nicknamePrefix159 => 'Tschitschond';
 
   @override
-  String get nicknamePrefix160 => 'crying';
+  String get nicknamePrefix160 => 'Clamond';
 
   @override
-  String get nicknamePrefix161 => 'praying';
+  String get nicknamePrefix161 => 'Preghond';
 
   @override
-  String get nicknamePrefix162 => 'pleading';
+  String get nicknamePrefix162 => 'Supplitgond';
 
   @override
-  String get nicknamePrefix163 => 'commanding';
+  String get nicknamePrefix163 => 'Cumandond';
 
   @override
-  String get nicknamePrefix164 => 'submissive';
+  String get nicknamePrefix164 => 'Ubidind';
 
   @override
-  String get nicknamePrefix165 => 'ruling';
+  String get nicknamePrefix165 => 'Dominond';
 
   @override
-  String get nicknamePrefix166 => 'serving';
+  String get nicknamePrefix166 => 'Servind';
 
   @override
-  String get nicknamePrefix167 => 'guiding';
+  String get nicknamePrefix167 => 'Manond';
 
   @override
-  String get nicknamePrefix168 => 'accompanying';
+  String get nicknamePrefix168 => 'Suandond';
 
   @override
-  String get nicknamePrefix169 => 'teaching';
+  String get nicknamePrefix169 => 'Instruind';
 
   @override
-  String get nicknamePrefix170 => 'learning';
+  String get nicknamePrefix170 => 'Emprendond';
 
   @override
-  String get nicknamePrefix171 => 'of memory';
+  String get nicknamePrefix171 => 'Da memoria';
 
   @override
-  String get nicknamePrefix172 => 'of memories';
+  String get nicknamePrefix172 => 'Da regurdientscha';
 
   @override
-  String get nicknamePrefix173 => 'of wounds';
+  String get nicknamePrefix173 => 'Da plaga';
 
   @override
-  String get nicknamePrefix174 => 'healing';
+  String get nicknamePrefix174 => 'Da guariziun';
 
   @override
-  String get nicknamePrefix175 => 'poisonous';
+  String get nicknamePrefix175 => 'Da tschigna';
 
   @override
-  String get nicknamePrefix176 => 'medicine';
+  String get nicknamePrefix176 => 'Da medicament';
 
   @override
-  String get nicknamePrefix177 => 'welcome';
+  String get nicknamePrefix177 => 'D\'hallucinaziun';
 
   @override
-  String get nicknamePrefix178 => 'of substance';
+  String get nicknamePrefix178 => 'D\'entitad';
 
   @override
-  String get nicknamePrefix179 => 'ideal';
+  String get nicknamePrefix179 => 'D\'ideal';
 
   @override
-  String get nicknamePrefix180 => 'real';
+  String get nicknamePrefix180 => 'Da realitad';
 
   @override
-  String get nicknamePrefix181 => 'imaginary';
+  String get nicknamePrefix181 => 'Virtual';
 
   @override
-  String get nicknamePrefix182 => 'natural';
+  String get nicknamePrefix182 => 'Da natira';
 
   @override
-  String get nicknamePrefix183 => 'artificial';
+  String get nicknamePrefix183 => 'Artifizial';
 
   @override
-  String get nicknamePrefix184 => 'in the beginning';
+  String get nicknamePrefix184 => 'Primordial';
 
   @override
-  String get nicknamePrefix185 => 'eternity';
+  String get nicknamePrefix185 => 'D\'eternitad';
 
   @override
-  String get nicknamePrefix186 => 'of the moment';
+  String get nicknamePrefix186 => 'D\'in mument';
 
   @override
-  String get nicknamePrefix187 => 'fleeting';
+  String get nicknamePrefix187 => 'D\'in mument';
 
   @override
-  String get nicknamePrefix188 => 'eternal';
+  String get nicknamePrefix188 => 'Da persistenza';
 
   @override
-  String get nicknamePrefix189 => 'of change';
+  String get nicknamePrefix189 => 'Da midada';
 
   @override
-  String get nicknamePrefix190 => 'still';
+  String get nicknamePrefix190 => 'Da staziun';
 
   @override
-  String get nicknamePrefix191 => 'flowing';
+  String get nicknamePrefix191 => 'Currend';
 
   @override
-  String get nicknamePrefix192 => 'rundown';
+  String get nicknamePrefix192 => 'Stoppà';
 
   @override
-  String get nicknamePrefix193 => 'blazing';
+  String get nicknamePrefix193 => 'Ardent';
 
   @override
-  String get nicknamePrefix194 => 'cooling down';
+  String get nicknamePrefix194 => 'Refredond';
 
   @override
-  String get nicknamePrefix195 => 'blooming';
+  String get nicknamePrefix195 => 'Flurind';
 
   @override
-  String get nicknamePrefix196 => 'withering';
+  String get nicknamePrefix196 => 'Svanind';
 
   @override
-  String get nicknamePrefix197 => 'growing up';
+  String get nicknamePrefix197 => 'Creschend';
 
   @override
-  String get nicknamePrefix198 => 'dying';
+  String get nicknamePrefix198 => 'Murind';
 
   @override
-  String get nicknamePrefix199 => 'breathing';
+  String get nicknamePrefix199 => 'Respirond';
 
   @override
-  String get nicknamePrefix200 => 'suffocating';
+  String get nicknamePrefix200 => 'Suffocond';
 
   @override
-  String get nicknameSuffix0 => 'prophet';
+  String get nicknameSuffix0 => 'Profet';
 
   @override
-  String get nicknameSuffix1 => 'wizard';
+  String get nicknameSuffix1 => 'Mag';
 
   @override
-  String get nicknameSuffix2 => 'witch';
+  String get nicknameSuffix2 => 'Striegn';
 
   @override
-  String get nicknameSuffix3 => 'article';
+  String get nicknameSuffix3 => 'Chavalier';
 
   @override
-  String get nicknameSuffix4 => 'warrior';
+  String get nicknameSuffix4 => 'Guerrier';
 
   @override
-  String get nicknameSuffix5 => 'Archer';
+  String get nicknameSuffix5 => 'Arschier';
 
   @override
-  String get nicknameSuffix6 => 'thief';
+  String get nicknameSuffix6 => 'Bandit';
 
   @override
-  String get nicknameSuffix7 => 'assassin';
+  String get nicknameSuffix7 => 'Assassino';
 
   @override
-  String get nicknameSuffix8 => 'paladin';
+  String get nicknameSuffix8 => 'Paladin';
 
   @override
-  String get nicknameSuffix9 => 'priest';
+  String get nicknameSuffix9 => 'Sacerdot';
 
   @override
-  String get nicknameSuffix10 => 'priestess';
+  String get nicknameSuffix10 => 'Sacerdotessa';
 
   @override
-  String get nicknameSuffix11 => 'monk';
+  String get nicknameSuffix11 => 'Mona';
 
   @override
-  String get nicknameSuffix12 => 'powwow';
+  String get nicknameSuffix12 => 'Stregliader';
 
   @override
-  String get nicknameSuffix13 => 'alchemist';
+  String get nicknameSuffix13 => 'Alchemist';
 
   @override
-  String get nicknameSuffix14 => 'necromancer';
+  String get nicknameSuffix14 => 'Necromant';
 
   @override
-  String get nicknameSuffix15 => 'spiritist';
+  String get nicknameSuffix15 => 'Spiritist';
 
   @override
-  String get nicknameSuffix16 => 'summoner';
+  String get nicknameSuffix16 => 'Evocader';
 
   @override
-  String get nicknameSuffix17 => 'illusionist';
+  String get nicknameSuffix17 => 'Illusionist';
 
   @override
-  String get nicknameSuffix18 => 'healer';
+  String get nicknameSuffix18 => 'Guarider';
 
   @override
-  String get nicknameSuffix19 => 'wise man';
+  String get nicknameSuffix19 => 'Sagent';
 
   @override
-  String get nicknameSuffix20 => 'scholar';
+  String get nicknameSuffix20 => 'Scolar';
 
   @override
-  String get nicknameSuffix21 => 'researcher';
+  String get nicknameSuffix21 => 'Investigader';
 
   @override
-  String get nicknameSuffix22 => 'explorer';
+  String get nicknameSuffix22 => 'Explorader';
 
   @override
-  String get nicknameSuffix23 => 'traveler';
+  String get nicknameSuffix23 => 'Viatgader';
 
   @override
-  String get nicknameSuffix24 => 'vagabond';
+  String get nicknameSuffix24 => 'Vagabund';
 
   @override
-  String get nicknameSuffix25 => 'vagabond';
+  String get nicknameSuffix25 => 'Vagabund';
 
   @override
-  String get nicknameSuffix26 => 'pilgrim';
+  String get nicknameSuffix26 => 'Pelegrin';
 
   @override
-  String get nicknameSuffix27 => 'seeker';
+  String get nicknameSuffix27 => 'Tschertgader';
 
   @override
-  String get nicknameSuffix28 => 'observer';
+  String get nicknameSuffix28 => 'Observader';
 
   @override
-  String get nicknameSuffix29 => 'recorder';
+  String get nicknameSuffix29 => 'Registrader';
 
   @override
-  String get nicknameSuffix30 => 'communicator';
+  String get nicknameSuffix30 => 'Transmettader';
 
   @override
-  String get nicknameSuffix31 => 'tutelar';
+  String get nicknameSuffix31 => 'Guardia';
 
   @override
-  String get nicknameSuffix32 => 'warden';
+  String get nicknameSuffix32 => 'Guardia';
 
   @override
-  String get nicknameSuffix33 => 'guard';
+  String get nicknameSuffix33 => 'Guardia';
 
   @override
-  String get nicknameSuffix34 => 'gatekeeper';
+  String get nicknameSuffix34 => 'Portier';
 
   @override
-  String get nicknameSuffix35 => 'judge';
+  String get nicknameSuffix35 => 'Giudicader';
 
   @override
-  String get nicknameSuffix36 => 'bailiff';
+  String get nicknameSuffix36 => 'Executader';
 
   @override
-  String get nicknameSuffix37 => 'governor';
+  String get nicknameSuffix37 => 'Regent';
 
   @override
-  String get nicknameSuffix38 => 'ruler';
+  String get nicknameSuffix38 => 'Dominader';
 
   @override
-  String get nicknameSuffix39 => 'king';
+  String get nicknameSuffix39 => 'Retg';
 
   @override
-  String get nicknameSuffix40 => 'queen';
+  String get nicknameSuffix40 => 'Regina';
 
   @override
-  String get nicknameSuffix41 => 'emperor';
+  String get nicknameSuffix41 => 'Imperatur';
 
   @override
-  String get nicknameSuffix42 => 'empress';
+  String get nicknameSuffix42 => 'Imperatura';
 
   @override
-  String get nicknameSuffix43 => 'nobility';
+  String get nicknameSuffix43 => 'Nobil';
 
   @override
-  String get nicknameSuffix44 => 'permanent residence';
+  String get nicknameSuffix44 => 'Signur';
 
   @override
-  String get nicknameSuffix45 => 'knight commander';
+  String get nicknameSuffix45 => 'Cumandant da chavalier';
 
   @override
-  String get nicknameSuffix46 => 'mercenary';
+  String get nicknameSuffix46 => 'Mercenari';
 
   @override
-  String get nicknameSuffix47 => 'pirate';
+  String get nicknameSuffix47 => 'Pirat';
 
   @override
-  String get nicknameSuffix48 => 'thief';
+  String get nicknameSuffix48 => 'Lader';
 
   @override
-  String get nicknameSuffix49 => 'fraud';
+  String get nicknameSuffix49 => 'Engianader';
 
   @override
-  String get nicknameSuffix50 => 'jester';
+  String get nicknameSuffix50 => 'Buffun';
 
   @override
-  String get nicknameSuffix51 => 'fool';
+  String get nicknameSuffix51 => 'Stupì';
 
   @override
-  String get nicknameSuffix52 => 'hermit';
+  String get nicknameSuffix52 => 'Eremit';
 
   @override
-  String get nicknameSuffix53 => 'heretic';
+  String get nicknameSuffix53 => 'Eretic';
 
   @override
-  String get nicknameSuffix54 => 'betrayer';
+  String get nicknameSuffix54 => 'Traditur';
 
   @override
-  String get nicknameSuffix55 => 'traitor';
+  String get nicknameSuffix55 => 'Rebel';
 
   @override
-  String get nicknameSuffix56 => 'hero';
+  String get nicknameSuffix56 => 'Eroe';
 
   @override
-  String get nicknameSuffix57 => 'saver';
+  String get nicknameSuffix57 => 'Salvader';
 
   @override
-  String get nicknameSuffix58 => 'liberator';
+  String get nicknameSuffix58 => 'Liberader';
 
   @override
-  String get nicknameSuffix59 => 'destroyer';
+  String get nicknameSuffix59 => 'Destructur';
 
   @override
-  String get nicknameSuffix60 => 'creator';
+  String get nicknameSuffix60 => 'Creatur';
 
   @override
-  String get nicknameSuffix61 => 'god';
+  String get nicknameSuffix61 => 'Dieu';
 
   @override
-  String get nicknameSuffix62 => 'goddess';
+  String get nicknameSuffix62 => 'Dieua';
 
   @override
-  String get nicknameSuffix63 => 'angel';
+  String get nicknameSuffix63 => 'Anghel';
 
   @override
-  String get nicknameSuffix64 => 'devil';
+  String get nicknameSuffix64 => 'Diavel';
 
   @override
-  String get nicknameSuffix65 => 'government ordinance';
+  String get nicknameSuffix65 => 'Spirt';
 
   @override
-  String get nicknameSuffix66 => 'fairy';
+  String get nicknameSuffix66 => 'Fada';
 
   @override
-  String get nicknameSuffix67 => 'monster';
+  String get nicknameSuffix67 => 'Monstrum';
 
   @override
-  String get nicknameSuffix68 => 'demon beast';
+  String get nicknameSuffix68 => 'Bestia magica';
 
   @override
-  String get nicknameSuffix69 => 'dragon';
+  String get nicknameSuffix69 => 'Dragon';
 
   @override
-  String get nicknameSuffix70 => 'ghost';
+  String get nicknameSuffix70 => 'Fantasma';
 
   @override
-  String get nicknameSuffix71 => 'shade';
+  String get nicknameSuffix71 => 'Spirt';
 
   @override
-  String get nicknameSuffix72 => 'undead';
+  String get nicknameSuffix72 => 'Undead';
 
   @override
-  String get nicknameSuffix73 => 'vampire';
+  String get nicknameSuffix73 => 'Vampir';
 
   @override
-  String get nicknameSuffix74 => 'werewolf';
+  String get nicknameSuffix74 => 'Lup-uman';
 
   @override
-  String get nicknameSuffix75 => 'mermaid';
+  String get nicknameSuffix75 => 'Nixa';
 
   @override
-  String get nicknameSuffix76 => 'siren';
+  String get nicknameSuffix76 => 'Sirena';
 
   @override
-  String get nicknameSuffix77 => 'nymph';
+  String get nicknameSuffix77 => 'Nimfa';
 
   @override
-  String get nicknameSuffix78 => 'goblin';
+  String get nicknameSuffix78 => 'Goblin';
 
   @override
-  String get nicknameSuffix79 => 'oak';
+  String get nicknameSuffix79 => 'Orc';
 
   @override
-  String get nicknameSuffix80 => 'troll';
+  String get nicknameSuffix80 => 'Troll';
 
   @override
-  String get nicknameSuffix81 => 'elf';
+  String get nicknameSuffix81 => 'Elf';
 
   @override
-  String get nicknameSuffix82 => 'dwarf';
+  String get nicknameSuffix82 => 'Nan';
 
   @override
-  String get nicknameSuffix83 => 'giant';
+  String get nicknameSuffix83 => 'Gigant';
 
   @override
-  String get nicknameSuffix84 => 'postmark';
+  String get nicknameSuffix84 => 'Nan';
 
   @override
-  String get nicknameSuffix85 => 'human being';
+  String get nicknameSuffix85 => 'Uman';
 
   @override
-  String get nicknameSuffix86 => 'prisoner';
+  String get nicknameSuffix86 => 'Uman-bestia';
 
   @override
-  String get nicknameSuffix87 => 'signature';
+  String get nicknameSuffix87 => 'Uman-utschè';
 
   @override
-  String get nicknameSuffix88 => 'Fishman';
+  String get nicknameSuffix88 => 'Uman-pesch';
 
   @override
-  String get nicknameSuffix89 => 'employee';
+  String get nicknameSuffix89 => 'Uman-dragon';
 
   @override
-  String get nicknameSuffix90 => 'evil spirit';
+  String get nicknameSuffix90 => 'Spirt malign';
 
   @override
-  String get nicknameSuffix91 => 'Sura';
+  String get nicknameSuffix91 => 'Asura';
 
   @override
-  String get nicknameSuffix92 => 'hell';
+  String get nicknameSuffix92 => 'Abiss';
 
   @override
-  String get nicknameSuffix93 => 'heaven';
+  String get nicknameSuffix93 => 'Tschiel';
 
   @override
-  String get nicknameSuffix94 => 'underworld';
+  String get nicknameSuffix94 => 'Mund sutterra';
 
   @override
-  String get nicknameSuffix95 => 'Otherworld';
+  String get nicknameSuffix95 => 'Auter mund';
 
   @override
-  String get nicknameSuffix96 => 'abyss';
+  String get nicknameSuffix96 => 'Abiss';
 
   @override
-  String get nicknameSuffix97 => 'chaos';
+  String get nicknameSuffix97 => 'Caos';
 
   @override
-  String get nicknameSuffix98 => 'order';
+  String get nicknameSuffix98 => 'Urden';
 
   @override
-  String get nicknameSuffix99 => 'light';
+  String get nicknameSuffix99 => 'Glisch';
 
   @override
-  String get nicknameSuffix100 => 'dark';
+  String get nicknameSuffix100 => 'Stgiraglia';
 
   @override
-  String get nicknamePrefix201 => 'brilliant';
+  String get nicknamePrefix201 => 'Brillant';
 
   @override
-  String get nicknamePrefix202 => 'subtle';
+  String get nicknamePrefix202 => 'Delicat';
 
   @override
-  String get nicknamePrefix203 => 'hazy';
+  String get nicknamePrefix203 => 'Vag';
 
   @override
-  String get nicknamePrefix204 => 'faint';
+  String get nicknamePrefix204 => 'Vag';
 
   @override
-  String get nicknamePrefix205 => 'transparent';
+  String get nicknamePrefix205 => 'Transparent';
 
   @override
-  String get nicknamePrefix206 => 'faint';
+  String get nicknamePrefix206 => 'Vag';
 
   @override
-  String get nicknamePrefix207 => 'dazzling';
+  String get nicknamePrefix207 => 'Splendent';
 
   @override
-  String get nicknamePrefix208 => 'weird';
+  String get nicknamePrefix208 => 'Strani';
 
   @override
-  String get nicknamePrefix209 => 'peculiar';
+  String get nicknamePrefix209 => 'Unic';
 
   @override
-  String get nicknamePrefix210 => 'special';
+  String get nicknamePrefix210 => 'Special';
 
   @override
-  String get nicknamePrefix211 => 'noble';
+  String get nicknamePrefix211 => 'Nobil';
 
   @override
-  String get nicknamePrefix212 => 'pure';
+  String get nicknamePrefix212 => 'Pur';
 
   @override
-  String get nicknamePrefix213 => 'fallen';
+  String get nicknamePrefix213 => 'Decadent';
 
   @override
-  String get nicknamePrefix214 => 'lone';
+  String get nicknamePrefix214 => 'Solitar';
 
   @override
-  String get nicknamePrefix215 => 'lonesome';
+  String get nicknamePrefix215 => 'Malinconic';
 
   @override
-  String get nicknamePrefix216 => 'desolate';
+  String get nicknamePrefix216 => 'Silenzius';
 
   @override
-  String get nicknamePrefix217 => 'Distant';
+  String get nicknamePrefix217 => 'Lontan';
 
   @override
-  String get nicknamePrefix218 => 'harsh';
+  String get nicknamePrefix218 => 'Sever';
 
   @override
-  String get nicknamePrefix219 => 'ruthless';
+  String get nicknamePrefix219 => 'Crudel';
 
   @override
-  String get nicknamePrefix220 => 'cruel';
+  String get nicknamePrefix220 => 'Crudel';
 
   @override
-  String get nicknamePrefix221 => 'big';
+  String get nicknamePrefix221 => 'Grond';
 
   @override
-  String get nicknamePrefix222 => 'tough';
+  String get nicknamePrefix222 => 'Robust';
 
   @override
-  String get nicknamePrefix223 => 'firm';
+  String get nicknamePrefix223 => 'Ferm';
 
   @override
-  String get nicknamePrefix224 => 'sinuous';
+  String get nicknamePrefix224 => 'Flexibel';
 
   @override
-  String get nicknamePrefix225 => 'quick';
+  String get nicknamePrefix225 => 'Svelt';
 
   @override
-  String get nicknamePrefix226 => 'slow';
+  String get nicknamePrefix226 => 'Lent';
 
   @override
-  String get nicknamePrefix227 => 'in silence';
+  String get nicknamePrefix227 => 'En il silenzi';
 
   @override
-  String get nicknamePrefix228 => 'in chaos';
+  String get nicknamePrefix228 => 'En il caos';
 
   @override
-  String get nicknamePrefix229 => 'in memory';
+  String get nicknamePrefix229 => 'En la memoria';
 
   @override
-  String get nicknamePrefix230 => 'imaginary';
+  String get nicknamePrefix230 => 'En l\'imaginaziun';
 
   @override
-  String get nicknamePrefix231 => 'silent';
+  String get nicknamePrefix231 => 'Silenziond';
 
   @override
-  String get nicknamePrefix232 => 'whispering';
+  String get nicknamePrefix232 => 'Tschitschond';
 
   @override
-  String get nicknamePrefix233 => 'singing';
+  String get nicknamePrefix233 => 'Chantond';
 
   @override
-  String get nicknamePrefix234 => 'dancing';
+  String get nicknamePrefix234 => 'Saltond';
 
   @override
-  String get nicknamePrefix235 => 'sobbing';
+  String get nicknamePrefix235 => 'Criond';
 
   @override
-  String get nicknamePrefix236 => 'smiling';
+  String get nicknamePrefix236 => 'Riond';
 
   @override
-  String get nicknamePrefix237 => 'mocking';
+  String get nicknamePrefix237 => 'Riond ora';
 
   @override
-  String get nicknamePrefix238 => 'contemplating';
+  String get nicknamePrefix238 => 'Contemplond';
 
   @override
-  String get nicknamePrefix239 => 'wandering';
+  String get nicknamePrefix239 => 'Errond';
 
   @override
-  String get nicknamePrefix240 => 'wandering';
+  String get nicknamePrefix240 => 'Errond';
 
   @override
-  String get nicknamePrefix241 => 'awake';
+  String get nicknamePrefix241 => 'Sveglià';
 
   @override
-  String get nicknamePrefix242 => 'asleep';
+  String get nicknamePrefix242 => 'Durmì';
 
   @override
-  String get nicknamePrefix243 => 'dreaming';
+  String get nicknamePrefix243 => 'Sognond';
 
   @override
-  String get nicknamePrefix244 => 'daydreaming';
+  String get nicknamePrefix244 => 'Sognond';
 
   @override
-  String get nicknamePrefix245 => 'delusional';
+  String get nicknamePrefix245 => 'Delirond';
 
   @override
-  String get nicknamePrefix246 => 'praying';
+  String get nicknamePrefix246 => 'Preghond';
 
   @override
-  String get nicknamePrefix247 => 'earnest';
+  String get nicknamePrefix247 => 'Ardents';
 
   @override
-  String get nicknamePrefix248 => 'sorrowful';
+  String get nicknamePrefix248 => 'Dolorus';
 
   @override
-  String get nicknamePrefix249 => 'miserable';
+  String get nicknamePrefix249 => 'Desperà';
 
   @override
-  String get nicknamePrefix250 => 'sublime';
+  String get nicknamePrefix250 => 'Sublim';
 
   @override
-  String get nicknamePrefix251 => 'wicked';
+  String get nicknamePrefix251 => 'Malegn';
 
   @override
-  String get nicknamePrefix252 => 'mean';
+  String get nicknamePrefix252 => 'Vile';
 
   @override
-  String get nicknamePrefix253 => 'arrogant';
+  String get nicknamePrefix253 => 'Arrogant';
 
   @override
-  String get nicknamePrefix254 => 'modest';
+  String get nicknamePrefix254 => 'Modest';
 
   @override
-  String get nicknamePrefix255 => 'fond';
+  String get nicknamePrefix255 => 'Dultsch';
 
   @override
-  String get nicknamePrefix256 => 'warm';
+  String get nicknamePrefix256 => 'Tepel';
 
   @override
-  String get nicknamePrefix257 => 'cool';
+  String get nicknamePrefix257 => 'Fraid';
 
   @override
-  String get nicknamePrefix258 => 'chilly';
+  String get nicknamePrefix258 => 'Spaventaivel';
 
   @override
-  String get nicknamePrefix259 => 'bizarre';
+  String get nicknamePrefix259 => 'Strani';
 
   @override
-  String get nicknamePrefix260 => 'uncanny';
+  String get nicknamePrefix260 => 'Spaventaivel';
 
   @override
-  String get nicknamePrefix261 => 'rapt';
+  String get nicknamePrefix261 => 'Extatic';
 
   @override
-  String get nicknamePrefix262 => 'fascinating';
+  String get nicknamePrefix262 => 'Fascinant';
 
   @override
-  String get nicknamePrefix263 => 'dizzying';
+  String get nicknamePrefix263 => 'Vertiginus';
 
   @override
-  String get nicknamePrefix264 => 'sweetish';
+  String get nicknamePrefix264 => 'Dultsch';
 
   @override
-  String get nicknamePrefix265 => 'bitter';
+  String get nicknamePrefix265 => 'Amar';
 
   @override
-  String get nicknamePrefix266 => 'bitterish';
+  String get nicknamePrefix266 => 'Amar';
 
   @override
-  String get nicknamePrefix267 => 'barbed';
+  String get nicknamePrefix267 => 'Spinusch';
 
   @override
-  String get nicknamePrefix268 => 'sharp';
+  String get nicknamePrefix268 => 'Tagliant';
 
   @override
-  String get nicknamePrefix269 => 'dull';
+  String get nicknamePrefix269 => 'Stupì';
 
   @override
-  String get nicknamePrefix270 => 'harsh';
+  String get nicknamePrefix270 => 'Ruvid';
 
   @override
-  String get nicknamePrefix271 => 'soft';
+  String get nicknamePrefix271 => 'Moll';
 
   @override
-  String get nicknamePrefix272 => 'cozy';
+  String get nicknamePrefix272 => 'Confortabel';
 
   @override
-  String get nicknamePrefix273 => 'comfortable';
+  String get nicknamePrefix273 => 'Confortabel';
 
   @override
-  String get nicknamePrefix274 => 'precarious';
+  String get nicknamePrefix274 => 'Periculus';
 
   @override
-  String get nicknamePrefix275 => 'uneasy';
+  String get nicknamePrefix275 => 'Inquiet';
 
   @override
-  String get nicknamePrefix276 => 'calm';
+  String get nicknamePrefix276 => 'Paschaivel';
 
   @override
-  String get nicknamePrefix277 => 'calm';
+  String get nicknamePrefix277 => 'Confortabel';
 
   @override
-  String get nicknamePrefix278 => 'drowsy';
+  String get nicknamePrefix278 => 'Lent';
 
   @override
-  String get nicknamePrefix279 => 'bored';
+  String get nicknamePrefix279 => 'Tedius';
 
   @override
-  String get nicknamePrefix280 => 'passionate';
+  String get nicknamePrefix280 => 'Passiunà';
 
   @override
-  String get nicknamePrefix281 => 'nonchalant';
+  String get nicknamePrefix281 => 'Indifferent';
 
   @override
-  String get nicknamePrefix282 => 'tranquil';
+  String get nicknamePrefix282 => 'Calm';
 
   @override
-  String get nicknamePrefix283 => 'violent';
+  String get nicknamePrefix283 => 'Intensiv';
 
   @override
-  String get nicknamePrefix284 => 'fierce';
+  String get nicknamePrefix284 => 'Furius';
 
   @override
-  String get nicknamePrefix285 => 'crazy';
+  String get nicknamePrefix285 => 'Fanatic';
 
   @override
-  String get nicknamePrefix286 => 'gone crazy';
+  String get nicknamePrefix286 => 'Furius';
 
   @override
-  String get nicknamePrefix287 => 'rational';
+  String get nicknamePrefix287 => 'Raziunal';
 
   @override
-  String get nicknamePrefix288 => 'emotional';
+  String get nicknamePrefix288 => 'Emoziunal';
 
   @override
-  String get nicknamePrefix289 => 'cool-headed';
+  String get nicknamePrefix289 => 'Cler';
 
   @override
-  String get nicknamePrefix290 => 'sensible';
+  String get nicknamePrefix290 => 'Sagent';
 
   @override
-  String get nicknamePrefix291 => 'foolish';
+  String get nicknamePrefix291 => 'Stupì';
 
   @override
-  String get nicknamePrefix292 => 'innocent';
+  String get nicknamePrefix292 => 'Naiv';
 
   @override
-  String get nicknamePrefix293 => 'cunning';
+  String get nicknamePrefix293 => 'Malizius';
 
   @override
-  String get nicknamePrefix294 => 'serpentine';
+  String get nicknamePrefix294 => 'Malizius';
 
   @override
-  String get nicknamePrefix295 => 'pure white';
+  String get nicknamePrefix295 => 'Alv pur';
 
   @override
-  String get nicknamePrefix296 => 'jet black';
+  String get nicknamePrefix296 => 'Nair sco pichel';
 
   @override
-  String get nicknamePrefix297 => 'golden';
+  String get nicknamePrefix297 => 'Dad aur';
 
   @override
-  String get nicknamePrefix298 => 'argent';
+  String get nicknamePrefix298 => 'D\'argient';
 
   @override
-  String get nicknamePrefix299 => 'bloody';
+  String get nicknamePrefix299 => 'Sanguinus';
 
   @override
-  String get nicknameSuffix101 => 'seeker';
+  String get nicknameSuffix101 => 'Tschertgader';
 
   @override
-  String get nicknameSuffix102 => 'pilgrim';
+  String get nicknameSuffix102 => 'Pelegrin';
 
   @override
-  String get nicknameSuffix103 => 'vagabond';
+  String get nicknameSuffix103 => 'Vagabund';
 
   @override
-  String get nicknameSuffix104 => 'hermit';
+  String get nicknameSuffix104 => 'Eremit';
 
   @override
-  String get nicknameSuffix105 => 'Ethan';
+  String get nicknameSuffix105 => 'Eretic';
 
   @override
-  String get nicknameSuffix106 => 'traitor';
+  String get nicknameSuffix106 => 'Rebel';
 
   @override
-  String get nicknameSuffix107 => 'pioneer';
+  String get nicknameSuffix107 => 'Pionier';
 
   @override
-  String get nicknameSuffix108 => 'conqueror';
+  String get nicknameSuffix108 => 'Conquistader';
 
   @override
-  String get nicknameSuffix109 => 'ruler';
+  String get nicknameSuffix109 => 'Dominader';
 
   @override
-  String get nicknameSuffix110 => 'orchestrator';
+  String get nicknameSuffix110 => 'Coordinader';
 
   @override
-  String get nicknameSuffix111 => 'tutelar';
+  String get nicknameSuffix111 => 'Guardia';
 
   @override
-  String get nicknameSuffix112 => 'observer';
+  String get nicknameSuffix112 => 'Survegliader';
 
   @override
-  String get nicknameSuffix113 => 'observer';
+  String get nicknameSuffix113 => 'Observader';
 
   @override
-  String get nicknameSuffix114 => 'recorder';
+  String get nicknameSuffix114 => 'Registrader';
 
   @override
-  String get nicknameSuffix115 => 'communicator';
+  String get nicknameSuffix115 => 'Transmettader';
 
   @override
-  String get nicknameSuffix116 => 'guide';
+  String get nicknameSuffix116 => 'Guid';
 
   @override
-  String get nicknameSuffix117 => 'leader';
+  String get nicknameSuffix117 => 'Manader';
 
   @override
-  String get nicknameSuffix118 => 'saver';
+  String get nicknameSuffix118 => 'Salvader';
 
   @override
-  String get nicknameSuffix119 => 'destroyer';
+  String get nicknameSuffix119 => 'Destructur';
 
   @override
-  String get nicknameSuffix120 => 'creator';
+  String get nicknameSuffix120 => 'Creatur';
 
   @override
-  String get nicknameSuffix121 => 'shade';
+  String get nicknameSuffix121 => 'Spirt';
 
   @override
-  String get nicknameSuffix122 => 'ghost';
+  String get nicknameSuffix122 => 'Fantasma';
 
   @override
-  String get nicknameSuffix123 => 'ghost';
+  String get nicknameSuffix123 => 'Spirt';
 
   @override
-  String get nicknameSuffix124 => 'evil spirit';
+  String get nicknameSuffix124 => 'Spirt malign';
 
   @override
-  String get nicknameSuffix125 => 'government ordinance';
+  String get nicknameSuffix125 => 'Spirt';
 
   @override
-  String get nicknameSuffix126 => 'fairy';
+  String get nicknameSuffix126 => 'Fada';
 
   @override
-  String get nicknameSuffix127 => 'demon beast';
+  String get nicknameSuffix127 => 'Bestia magica';
 
   @override
-  String get nicknameSuffix128 => 'holy water';
+  String get nicknameSuffix128 => 'Bestia sontga';
 
   @override
-  String get nicknameSuffix129 => 'refund';
+  String get nicknameSuffix129 => 'Bestia fantastica';
 
   @override
-  String get nicknameSuffix130 => 'Shinsu';
+  String get nicknameSuffix130 => 'Bestia divina';
 
   @override
-  String get nicknameSuffix131 => 'test';
+  String get nicknameSuffix131 => 'Spadist';
 
   @override
-  String get nicknameSuffix132 => 'article';
+  String get nicknameSuffix132 => 'Chavalier';
 
   @override
-  String get nicknameSuffix133 => 'Archer';
+  String get nicknameSuffix133 => 'Arschier';
 
   @override
-  String get nicknameSuffix134 => 'thief';
+  String get nicknameSuffix134 => 'Lader';
 
   @override
-  String get nicknameSuffix135 => 'assassin';
+  String get nicknameSuffix135 => 'Assassino';
 
   @override
-  String get nicknameSuffix136 => 'wizard';
+  String get nicknameSuffix136 => 'Mag';
 
   @override
-  String get nicknameSuffix137 => 'powwow';
+  String get nicknameSuffix137 => 'Stregliader';
 
   @override
-  String get nicknameSuffix138 => 'alchemist';
+  String get nicknameSuffix138 => 'Alchemist';
 
   @override
-  String get nicknameSuffix139 => 'necromancer';
+  String get nicknameSuffix139 => 'Necromant';
 
   @override
-  String get nicknameSuffix140 => 'priest';
+  String get nicknameSuffix140 => 'Sacerdot';
 
   @override
-  String get nicknameSuffix141 => 'scholar';
+  String get nicknameSuffix141 => 'Scolar';
 
   @override
-  String get nicknameSuffix142 => 'researcher';
+  String get nicknameSuffix142 => 'Investigader';
 
   @override
-  String get nicknameSuffix143 => 'explorer';
+  String get nicknameSuffix143 => 'Viatgader';
 
   @override
-  String get nicknameSuffix144 => 'traveler';
+  String get nicknameSuffix144 => 'Viatgader';
 
   @override
-  String get nicknameSuffix145 => 'artist';
+  String get nicknameSuffix145 => 'Artist';
 
   @override
-  String get nicknameSuffix146 => 'jester';
+  String get nicknameSuffix146 => 'Buffun';
 
   @override
-  String get nicknameSuffix147 => 'bard';
+  String get nicknameSuffix147 => 'Menestrel';
 
   @override
-  String get nicknameSuffix148 => 'merchant';
+  String get nicknameSuffix148 => 'Vendider';
 
   @override
-  String get nicknameSuffix149 => 'craftsman';
+  String get nicknameSuffix149 => 'Artisan';
 
   @override
-  String get nicknameSuffix150 => 'peasant';
+  String get nicknameSuffix150 => 'Pur';
 
   @override
-  String get nicknameSuffix151 => 'crow';
+  String get nicknameSuffix151 => 'Corv';
 
   @override
-  String get nicknameSuffix152 => 'owl';
+  String get nicknameSuffix152 => 'Tschuetta';
 
   @override
-  String get nicknameSuffix153 => 'owl';
+  String get nicknameSuffix153 => 'Tschuetta';
 
   @override
-  String get nicknameSuffix154 => 'eagle';
+  String get nicknameSuffix154 => 'Evla';
 
   @override
-  String get nicknameSuffix155 => 'hawk';
+  String get nicknameSuffix155 => 'Falcun';
 
   @override
-  String get nicknameSuffix156 => 'wolf';
+  String get nicknameSuffix156 => 'Lup';
 
   @override
-  String get nicknameSuffix157 => 'fox';
+  String get nicknameSuffix157 => 'Vulpa';
 
   @override
-  String get nicknameSuffix158 => 'bear';
+  String get nicknameSuffix158 => 'Urs';
 
   @override
-  String get nicknameSuffix159 => 'lion';
+  String get nicknameSuffix159 => 'Liun';
 
   @override
-  String get nicknameSuffix160 => 'tiger';
+  String get nicknameSuffix160 => 'Tigra';
 
   @override
-  String get nicknameSuffix161 => 'leopard';
+  String get nicknameSuffix161 => 'Pantera';
 
   @override
-  String get nicknameSuffix162 => 'black panther';
+  String get nicknameSuffix162 => 'Pantera naira';
 
   @override
-  String get nicknameSuffix163 => 'Salsssop';
+  String get nicknameSuffix163 => 'Lup';
 
   @override
-  String get nicknameSuffix164 => 'cat';
+  String get nicknameSuffix164 => 'Gat';
 
   @override
-  String get nicknameSuffix165 => 'puppy';
+  String get nicknameSuffix165 => 'Chaun';
 
   @override
-  String get nicknameSuffix166 => 'snake';
+  String get nicknameSuffix166 => 'Serp';
 
   @override
-  String get nicknameSuffix167 => 'lizard';
+  String get nicknameSuffix167 => 'Lizard';
 
   @override
-  String get nicknameSuffix168 => 'turtle';
+  String get nicknameSuffix168 => 'Tartaruga';
 
   @override
-  String get nicknameSuffix169 => 'crocodile';
+  String get nicknameSuffix169 => 'Crocodil';
 
   @override
-  String get nicknameSuffix170 => 'dragon';
+  String get nicknameSuffix170 => 'Dragon';
 
   @override
-  String get nicknameSuffix171 => 'unicorn';
+  String get nicknameSuffix171 => 'Unicorn';
 
   @override
   String get nicknameSuffix172 => 'Pegasus';
 
   @override
-  String get nicknameSuffix173 => 'griffon';
+  String get nicknameSuffix173 => 'Grifon';
 
   @override
-  String get nicknameSuffix174 => 'gargoyle';
+  String get nicknameSuffix174 => 'Garguglia';
 
   @override
-  String get nicknameSuffix175 => 'goblin';
+  String get nicknameSuffix175 => 'Goblin';
 
   @override
-  String get nicknameSuffix176 => 'oak';
+  String get nicknameSuffix176 => 'Orc';
 
   @override
-  String get nicknameSuffix177 => 'troll';
+  String get nicknameSuffix177 => 'Troll';
 
   @override
-  String get nicknameSuffix178 => 'auger';
+  String get nicknameSuffix178 => 'Oger';
 
   @override
-  String get nicknameSuffix179 => 'slime';
+  String get nicknameSuffix179 => 'Slime';
 
   @override
-  String get nicknameSuffix180 => 'skeleton';
+  String get nicknameSuffix180 => 'Schelet';
 
   @override
-  String get nicknameSuffix181 => 'zombi';
+  String get nicknameSuffix181 => 'Zombie';
 
   @override
-  String get nicknameSuffix182 => 'ghoul';
+  String get nicknameSuffix182 => 'Ghoul';
 
   @override
-  String get nicknameSuffix183 => 'vampire';
+  String get nicknameSuffix183 => 'Vampir';
 
   @override
-  String get nicknameSuffix184 => 'werewolf';
+  String get nicknameSuffix184 => 'Lup-uman';
 
   @override
-  String get nicknameSuffix185 => 'minotaur';
+  String get nicknameSuffix185 => 'Minotaur';
 
   @override
-  String get nicknameSuffix186 => 'centaur';
+  String get nicknameSuffix186 => 'Centaur';
 
   @override
-  String get nicknameSuffix187 => 'harpy';
+  String get nicknameSuffix187 => 'Harpia';
 
   @override
-  String get nicknameSuffix188 => 'siren';
+  String get nicknameSuffix188 => 'Sirena';
 
   @override
   String get nicknameSuffix189 => 'Kraken';
 
   @override
-  String get nicknameSuffix190 => 'leviathan';
+  String get nicknameSuffix190 => 'Leviathan';
 
   @override
-  String get nicknameSuffix191 => 'knife';
+  String get nicknameSuffix191 => 'Spada';
 
   @override
-  String get nicknameSuffix192 => 'shield';
+  String get nicknameSuffix192 => 'Scut';
 
   @override
-  String get nicknameSuffix193 => 'window';
+  String get nicknameSuffix193 => 'Lantscha';
 
   @override
-  String get nicknameSuffix194 => 'bow';
+  String get nicknameSuffix194 => 'Artg';
 
   @override
-  String get nicknameSuffix195 => 'cane';
+  String get nicknameSuffix195 => 'Bastun';
 
   @override
-  String get nicknameSuffix196 => 'ring';
+  String get nicknameSuffix196 => 'Anel';
 
   @override
-  String get nicknameSuffix197 => 'necklace';
+  String get nicknameSuffix197 => 'Collana';
 
   @override
-  String get nicknameSuffix198 => 'crown';
+  String get nicknameSuffix198 => 'Curuna';
 
   @override
-  String get nicknameSuffix199 => 'Holy Grail';
+  String get nicknameSuffix199 => 'Sontg Graal';
 
   @override
-  String get themeFree => 'Free Theme';
+  String get themeFree => 'Tema gratuit';
 
   @override
-  String get themePaid => 'Paid Theme';
+  String get themePaid => 'Tema a pajament';
 
   @override
   String get diaryEmpty =>
-      'No diary entries yet.\nCheck your fortune today and leave a diary!';
+      'Anc nagin diari scrit.\nVerifitgai l\'orachel dal di e scrivi in diari!';
 
   @override
-  String get diaryTarotConsult => 'Tarot Consultation';
+  String get diaryTarotConsult => 'Cussegl da tarot';
 
   @override
-  String get diaryTarotReading => 'Tarot Reading';
+  String get diaryTarotReading => 'Lectura da tarot';
 
   @override
   String diaryAndMore(int count) {
-    return 'and $count more';
+    return 'e $count chartas';
   }
 
   @override
   String diaryDaysAgo(int days) {
-    return '${days}d ago';
+    return 'Avant $days dis';
   }
 
   @override
   String diaryHoursAgo(int hours) {
-    return '${hours}h ago';
+    return 'Avant $hours uras';
   }
 
   @override
   String diaryMinutesAgo(int minutes) {
-    return '${minutes}m ago';
+    return 'Avant $minutes minutas';
   }
 
   @override
-  String get diaryJustNow => 'Just now';
+  String get diaryJustNow => 'Gist ussa';
 
   @override
-  String get diaryNoEntryForDate => 'No reading records for this date.';
+  String get diaryNoEntryForDate =>
+      'Per questa data n\'èn registrads nagins orachels.';
 
   @override
-  String get diaryMyQuestion => 'My Question';
+  String get diaryMyQuestion => 'Mia dumonda';
 
   @override
-  String get diaryWitchReading => '\'s Tarot Reading';
+  String get diaryWitchReading => 'Orachel da tarot da';
 
   @override
-  String get diaryNoResult => 'No results available.';
+  String get diaryNoResult => 'Nagin resultat.';
 
   @override
-  String get diaryFollowUpTitle => 'Follow-up Note';
+  String get diaryFollowUpTitle => 'Nota da postscriptum';
 
   @override
   String get diaryFollowUpHint =>
-      'Record whether the reading was accurate a few days later.';
+      'Registrai suenter intgins dis, sche l\'orachel è stà correct e co ch\'il resultat è stà.';
 
   @override
-  String get diaryFollowUpPlaceholder => 'How did the reading turn out?';
+  String get diaryFollowUpPlaceholder =>
+      'Co è stà il resultat da l\'orachel che Vus avais vis lura?';
 
   @override
-  String get diaryFollowUpSave => 'Save Follow-up';
+  String get diaryFollowUpSave => 'Memorisar postscriptum';
 
   @override
-  String get diaryFollowUpSaved => 'Follow-up saved!';
+  String get diaryFollowUpSaved => 'Il postscriptum è vegnì memorisà!';
 
   @override
-  String get diaryFollowUpEdit => 'Edit Follow-up';
+  String get diaryFollowUpEdit => 'Modifitgar postscriptum';
 
   @override
   String get diaryTagTitle => 'Tags';
 
   @override
-  String get diaryTagAddHint => 'Enter new tag';
+  String get diaryTagAddHint => 'Entrar nov tag';
 
   @override
-  String get diaryTagDeleteConfirm => 'Delete this tag?';
+  String get diaryTagDeleteConfirm => 'Vulais stizzar quest tag?';
 
   @override
-  String get diaryTagDelete => 'Delete';
+  String get diaryTagDelete => 'Stizzar';
 
   @override
-  String get diaryDeleteTitle => 'Delete Diary';
+  String get diaryDeleteTitle => 'Stizzar diari';
 
   @override
   String get diaryDeleteConfirm =>
-      'Delete this diary entry? This cannot be undone.';
+      'Vulais stizzar quest diari? Suenter la stizzada na po el betg pli vegnir restabilì.';
 
   @override
-  String get communityTitle => 'Community';
+  String get communityTitle => 'Communitad';
 
   @override
-  String get communityErrorLoading => 'An error occurred while loading data.\n';
+  String get communityErrorLoading =>
+      'In sbagl è capità durant chargiar las datas.\n';
 
   @override
   String get communityEmptyFeed =>
-      'No public tarot diaries yet.\nBe the first to share your diary!';
+      'Anc nagin diari da tarot publicà.\nPartagiai voss emprim diari!';
 
   @override
-  String get communityNoInterpretation => 'No interpretation.';
+  String get communityNoInterpretation => 'Nagina interpretaziun.';
 
   @override
-  String get communityLike => 'Like';
+  String get communityLike => 'Simpatia';
 
   @override
-  String get communityComments => 'Comments';
+  String get communityComments => 'Commentaris';
 
   @override
-  String get communityFirstCommentPrompt => 'Be the first to leave a comment!';
+  String get communityFirstCommentPrompt => 'Laschai voss emprim commentari!';
 
   @override
-  String get communityCommentInputHint => 'Write a comment...';
+  String get communityCommentInputHint => 'Entrai in commentari...';
 
   @override
-  String get communityCommentFailed => 'Failed to add comment: ';
+  String get communityCommentFailed => 'Registraziun dal commentari fallida: ';
 
   @override
-  String get communityLoginRequired => 'Login required.';
+  String get communityLoginRequired => 'Login necessari.';
 
   @override
-  String get communityReportTitle => 'Report';
+  String get communityReportTitle => 'Annunziar';
 
   @override
-  String get communityReportHint => 'Enter the reason for reporting';
+  String get communityReportHint => 'Entrai la raschun per l\'annunzia';
 
   @override
-  String get communityReportCancel => 'Cancel';
+  String get communityReportCancel => 'Annullar';
 
   @override
-  String get communityReportSubmit => 'Report';
+  String get communityReportSubmit => 'Annunzia';
 
   @override
-  String get communityReportSuccess => 'Report has been submitted.';
+  String get communityReportSuccess => 'L\'annunzia è vegnida acceptada.';
 
   @override
-  String get communityTarotQuestion => 'Q. Tarot Question';
+  String get communityTarotQuestion => 'Q. Dumonda da tarot';
 
   @override
-  String get communityNoName => 'Nameless Witch';
+  String get communityNoName => 'Striegn senza num';
 
   @override
-  String get diaryShareToCommunity => 'Share to Community';
+  String get diaryShareToCommunity => 'Publitgar en la communitad';
 
   @override
-  String get diarySharedSuccess => 'Shared to the community.';
+  String get diarySharedSuccess => 'Publitgà en la communitad.';
 
   @override
-  String get diaryPrivateSuccess => 'Set to private.';
+  String get diaryPrivateSuccess => 'Midà a privat.';
 
   @override
-  String get growthTitle => 'Growth';
+  String get growthTitle => 'Creschientscha';
 
   @override
-  String get growthSubtitle => 'Gather magic power to strengthen tarot cards';
+  String get growthSubtitle =>
+      'Culligiad energia magica per rinforzar la forza dal tarot.';
 
   @override
-  String get growthTabCrystalBall => 'Crystal Ball Upgrade';
+  String get growthTabCrystalBall => 'Rinforzar culla da cristall';
 
   @override
-  String get growthTabWorldTree => 'Grow World Tree';
+  String get growthTabWorldTree => 'Cultivar l\'Arber dal Mund';
 
   @override
   String growthWorldTreeLevel(int level) {
-    return 'World Tree Level $level';
+    return 'Nivel da l\'Arber dal Mund $level';
   }
 
   @override
-  String get growthExp => 'Exp: ';
+  String get growthExp => 'Experientscha: ';
 
   @override
-  String get growthWaterFree => 'Water for Free';
+  String get growthWaterFree => 'Duvrar aua gratuitamain';
 
   @override
-  String get growthWaterSuccess => 'Watered the World Tree! Exp +10 💧';
+  String get growthWaterSuccess =>
+      'L\'Arber dal Mund è vegnì auà e l\'experientscha è creschida per 10! 💧';
 
   @override
   String growthDustOwned(int dust) {
-    return 'Magic Dust Owned: $dust';
+    return 'Pulver magic en possess: $dust tocs';
   }
 
   @override
   String growthCrystalBallLevel(int level) {
-    return 'Mystic Crystal Ball Level $level';
+    return 'Nivel da la culla da cristall misteriusa $level';
   }
 
   @override
-  String get growthUpgradeButton => 'Upgrade (10 Dust)';
+  String get growthUpgradeButton => 'Rinforzar (10 pulver)';
 
   @override
-  String get growthUpgradeSuccess => 'Crystal Ball Upgrade Successful! ✨';
+  String get growthUpgradeSuccess =>
+      'Rinforzament da la culla da cristall cun success! ✨';
 
   @override
-  String get growthUpgradeNotEnough => 'Not enough magic dust. (Need: 10)';
+  String get growthUpgradeNotEnough =>
+      'Betg avunda pulver magic. (Necessari: 10 tocs)';
 
   @override
-  String get diaryViewList => 'List View';
+  String get diaryViewList => 'Guardar glista';
 
   @override
-  String get diaryViewCalendar => 'Calendar View';
+  String get diaryViewCalendar => 'Guardar chalender';
 
   @override
-  String get tarotMajor00Name => 'The Fool';
+  String get tarotMajor00Name => '0. Il Nar (The Fool)';
 
   @override
-  String get tarotMajor00Upright => '새로운 시작, 모험, 무한한 가능성, 자유, 순수함';
+  String get tarotMajor00Upright =>
+      'Nov cumenzament, aventura, pussaivladads infinitas, libertad, purezza';
 
   @override
-  String get tarotMajor00Reversed => '무모함, 어리석음, 부주의, 너무 큰 위험을 감수함, 비현실성';
+  String get tarotMajor00Reversed =>
+      'Temerariadad, stupiditad, negligientscha, riscar memia bler, irrealtad';
 
   @override
-  String get tarotMajor01Name => 'The Magician';
+  String get tarotMajor01Name => 'I. Il Mag (The Magician)';
 
   @override
-  String get tarotMajor01Upright => '창조력, 의지, 능력, 새로운 시작의 힘, 결단력';
+  String get tarotMajor01Upright =>
+      'Creativitad, voluntad, abilitad, forza d\'in nov cumenzament, decisivdad';
 
   @override
-  String get tarotMajor01Reversed => '조작, 재능 낭비, 기만, 자신감 부족, 숨겨진 의도';
+  String get tarotMajor01Reversed =>
+      'Manipulaziun, sperdita da talent, engianament, mancanza da fidanza, intenziuns zuppadas';
 
   @override
-  String get tarotMajor02Name => 'The High Priestess';
+  String get tarotMajor02Name =>
+      'II. La Sacerdotessa Gronda (The High Priestess)';
 
   @override
-  String get tarotMajor02Upright => '직관, 무의식, 신비, 지혜, 내면의 목소리';
+  String get tarotMajor02Upright =>
+      'Intuitiziun, inconscient, misteri, savida, vusch interna';
 
   @override
-  String get tarotMajor02Reversed => '직관 무시, 얕은 지식, 숨겨진 적, 비밀 누설';
+  String get tarotMajor02Reversed =>
+      'Ignorar l\'intuitiziun, savida superficiala, inimis zuppads, revelaziun da secrets';
 
   @override
-  String get tarotMajor03Name => 'The Empress';
+  String get tarotMajor03Name => 'III. L\'Imperatura (The Empress)';
 
   @override
-  String get tarotMajor03Upright => '풍요, 모성애, 아름다움, 자연의 결실, 창조성';
+  String get tarotMajor03Upright =>
+      'Abundanza, amur materna, bellezza, fritgs da la natira, creativitad';
 
   @override
-  String get tarotMajor03Reversed => '과잉보호, 의존성, 창조적 결핍, 게으름, 정체기';
+  String get tarotMajor03Reversed =>
+      'Surprotecziun, dependenza, mancanza creativa, pigrizia, stagnaziun';
 
   @override
-  String get tarotMajor04Name => 'The Emperor';
+  String get tarotMajor04Name => 'IV. L\'Imperatur (The Emperor)';
 
   @override
-  String get tarotMajor04Upright => '권위, 구조, 안정, 부성애, 통제력, 책임감';
+  String get tarotMajor04Upright =>
+      'Autoritad, structura, stabilitad, amur paterna, controlla, responsabladad';
 
   @override
-  String get tarotMajor04Reversed => '독재, 지배욕, 융통성 부족, 무능함, 억압';
+  String get tarotMajor04Reversed =>
+      'Dictatura, brama da dominar, mancanza da flexibilitad, inabilitad, suppressiun';
 
   @override
-  String get tarotMajor05Name => 'The Hierophant';
+  String get tarotMajor05Name => 'V. Il Papa (The Hierophant)';
 
   @override
-  String get tarotMajor05Upright => '전통, 믿음, 교육, 영적인 인도, 보수주의';
+  String get tarotMajor05Upright =>
+      'Tradiziun, cretta, educaziun, guida spirituala, conservatissem';
 
   @override
-  String get tarotMajor05Reversed => '반역, 관습 타파, 독단적 태도, 낡은 사상, 나쁜 조언';
+  String get tarotMajor05Reversed =>
+      'Rebelliun, rumper cun las convenziuns, attituda dogmatica, veglias ideas, mal cussegl';
 
   @override
-  String get tarotMajor06Name => 'The Lovers';
+  String get tarotMajor06Name => 'VI. Ils Amants (The Lovers)';
 
   @override
-  String get tarotMajor06Upright => '사랑, 조화, 관계, 중요한 선택, 신뢰';
+  String get tarotMajor06Upright =>
+      'Amur, armonia, relaziuns, impurtanta tscherna, fidanza';
 
   @override
-  String get tarotMajor06Reversed => '불화, 잘못된 선택, 신뢰 상실, 유혹, 불균형';
+  String get tarotMajor06Reversed =>
+      'Discordia, tscherna fallada, perdita da fidanza, tentaziun, sbilantscha';
 
   @override
-  String get tarotMajor07Name => 'The Chariot';
+  String get tarotMajor07Name => 'VII. Il Chariot (The Chariot)';
 
   @override
-  String get tarotMajor07Upright => '의지, 승리, 결단력, 방향성, 성공을 향한 추진력';
+  String get tarotMajor07Upright =>
+      'Voluntad, victoria, decisivdad, direcziun, forza per il success';
 
   @override
-  String get tarotMajor07Reversed => '통제 상실, 방향 상실, 무기력, 공격성, 장애물';
+  String get tarotMajor07Reversed =>
+      'Perdita da controlla, perdita da direcziun, impotenza, agressiun, obstachels';
 
   @override
-  String get tarotMajor08Name => 'Strength';
+  String get tarotMajor08Name => 'VIII. Forza (Strength)';
 
   @override
-  String get tarotMajor08Upright => '용기, 인내, 내면의 힘, 부드러운 통제, 자비';
+  String get tarotMajor08Upright =>
+      'Curaschi, pazienza, forza interna, controlla dultschanta, cumplainta';
 
   @override
-  String get tarotMajor08Reversed => '두려움, 나약함, 자기 통제력 상실, 충동, 자만심';
+  String get tarotMajor08Reversed =>
+      'Tema, flaivlezza, perdita d\'autocontrolla, impuls, superbia';
 
   @override
-  String get tarotMajor09Name => 'The Hermit';
+  String get tarotMajor09Name => 'IX. L\'Eremit (The Hermit)';
 
   @override
-  String get tarotMajor09Upright => '내면 탐구, 지혜, 고독, 깨달음, 영적 조언자';
+  String get tarotMajor09Upright =>
+      'Exploraziun interna, savida, solitariadad, illuminaziun, cusseglier spiritual';
 
   @override
-  String get tarotMajor09Reversed => '고립, 외로움, 현실 도피, 어리석은 고집, 은둔';
+  String get tarotMajor09Reversed =>
+      'Isolaziun, solitariadad, fugia da la realitad, testardad stupida, eremitadi';
 
   @override
-  String get tarotMajor10Name => 'Wheel of Fortune';
+  String get tarotMajor10Name => 'X. La roda da la fortuna (Wheel of Fortune)';
 
   @override
-  String get tarotMajor10Upright => '전환점, 운명, 행운, 끊임없는 변화, 기회';
+  String get tarotMajor10Upright =>
+      'Punct da midada, destin, fortuna, midada cuntinuanta, chaschun';
 
   @override
-  String get tarotMajor10Reversed => '불운, 저항, 통제할 수 없는 변화, 불행의 반복';
+  String get tarotMajor10Reversed =>
+      'Sfortuna, resistenza, midada nuncontrollabla, repetiziun da malaveglia';
 
   @override
-  String get tarotMajor11Name => 'Justice';
+  String get tarotMajor11Name => 'XI. Giustia (Justice)';
 
   @override
-  String get tarotMajor11Upright => '공정함, 진실, 인과응보, 균형, 합리적 결정';
+  String get tarotMajor11Upright =>
+      'Fairness, vardad, karma, bilantscha, decisiun raziunala';
 
   @override
-  String get tarotMajor11Reversed => '불공평, 편견, 부정직, 피할 수 없는 처벌, 불균형';
+  String get tarotMajor11Reversed =>
+      'Ingiustia, pregiudizi, disonestà, chastì inevitabel, sbilantscha';
 
   @override
-  String get tarotMajor12Name => 'The Hanged Man';
+  String get tarotMajor12Name => 'XII. L\'Um pendì (The Hanged Man)';
 
   @override
-  String get tarotMajor12Upright => '희생, 새로운 시각, 기다림, 통찰, 일시적 정지';
+  String get tarotMajor12Upright =>
+      'Sacrifizi, nova perspectiva, spetga, perspicacitad, pausa temporara';
 
   @override
-  String get tarotMajor12Reversed => '무의미한 희생, 지연, 발전을 거부함, 이기주의';
+  String get tarotMajor12Reversed =>
+      'Sacrifizi senza senn, retard, refusa da progress, egoissem';
 
   @override
-  String get tarotMajor13Name => 'Death';
+  String get tarotMajor13Name => 'XIII. Mort (Death)';
 
   @override
-  String get tarotMajor13Upright => '끝과 새로운 시작, 변화, 전환기, 과거 청산';
+  String get tarotMajor13Upright =>
+      'Fin e nov cumenzament, midada, perioda da transiziun, liquidaziun dal passà';
 
   @override
-  String get tarotMajor13Reversed => '변화에 대한 저항, 정체, 낡은 것에 집착, 두려움';
+  String get tarotMajor13Reversed =>
+      'Resistenza cunter midada, stagnaziun, s\'agrippar al vegl, tema';
 
   @override
-  String get tarotMajor14Name => 'Temperance';
+  String get tarotMajor14Name => 'XIV. Temperanza (Temperance)';
 
   @override
-  String get tarotMajor14Upright => '조화, 균형, 중용, 치유, 목적 의식';
+  String get tarotMajor14Upright =>
+      'Armonia, bilantscha, moderaziun, guariziun, senn da scop';
 
   @override
-  String get tarotMajor14Reversed => '불균형, 무절제, 극단적인 행동, 부조화, 갈등';
+  String get tarotMajor14Reversed =>
+      'Sbilantscha, intemperanza, acziuns extremas, disarmonia, conflict';
 
   @override
-  String get tarotMajor15Name => 'The Devil';
+  String get tarotMajor15Name => 'XV. Il Diavel (The Devil)';
 
   @override
-  String get tarotMajor15Upright => '집착, 물질주의, 속박, 유혹, 파괴적 욕망';
+  String get tarotMajor15Upright =>
+      'Obsessiun, materialissem, liom, tentaziun, desideri destructiv';
 
   @override
-  String get tarotMajor15Reversed => '해방, 속박에서 벗어남, 독립, 깨달음, 자유';
+  String get tarotMajor15Reversed =>
+      'Liberaziun, s\'allontanar da lioms, independenza, illuminaziun, libertad';
 
   @override
-  String get tarotMajor16Name => 'The Tower';
+  String get tarotMajor16Name => 'XVI. La Tur (The Tower)';
 
   @override
-  String get tarotMajor16Upright => '갑작스러운 변화, 파괴, 해방, 계시, 붕괴';
+  String get tarotMajor16Upright =>
+      'Midada subitana, destrucziun, liberaziun, revelaziun, collaps';
 
   @override
-  String get tarotMajor16Reversed => '재난의 회피, 피할 수 없는 변화의 지연, 경고 무시';
+  String get tarotMajor16Reversed =>
+      'Evitar catastrofas, retardar midada inevitabla, ignorar avertiments';
 
   @override
-  String get tarotMajor17Name => 'The Star';
+  String get tarotMajor17Name => 'XVII. La Staila (The Star)';
 
   @override
-  String get tarotMajor17Upright => '희망, 영감, 평온, 치유와 긍정, 영적 인도';
+  String get tarotMajor17Upright =>
+      'Speranza, inspiraziun, pasch, guariziun e positivadad, guida spirituala';
 
   @override
-  String get tarotMajor17Reversed => '절망, 실망, 영감 부족, 비관주의, 혼란';
+  String get tarotMajor17Reversed =>
+      'Desperaziun, dischillusiun, mancanza d\'inspiraziun, pessimissem, confusiun';
 
   @override
-  String get tarotMajor18Name => 'The Moon';
+  String get tarotMajor18Name => 'XVIII. La Glina (The Moon)';
 
   @override
-  String get tarotMajor18Upright => '불안, 환상, 직관, 숨겨진 진실, 기만';
+  String get tarotMajor18Upright =>
+      'Inquietud, illusiun, intuitiziun, vardad zuppada, engianament';
 
   @override
-  String get tarotMajor18Reversed => '두려움의 극복, 비밀의 발견, 불안 해소, 진실 규명';
+  String get tarotMajor18Reversed =>
+      'Survegnir la tema, scuvrir secrets, schliar inquietud, chattar la vardad';
 
   @override
-  String get tarotMajor19Name => 'The Sun';
+  String get tarotMajor19Name => 'XIX. Il Sulegl (The Sun)';
 
   @override
-  String get tarotMajor19Upright => '성공, 긍정, 활력, 행복과 성취, 기쁨';
+  String get tarotMajor19Upright =>
+      'Success, positivadad, vitalitad, fortuna e realisaziun, legria';
 
   @override
-  String get tarotMajor19Reversed => '지연된 성공, 과장, 활력 저하, 슬픔의 이면';
+  String get tarotMajor19Reversed =>
+      'Success retardà, exageraziun, vitalitad reducida, l\'autra vart da la tristezza';
 
   @override
-  String get tarotMajor20Name => 'Judgement';
+  String get tarotMajor20Name => 'XX. Il Giudizi (The Judgement)';
 
   @override
-  String get tarotMajor20Upright => '부활, 결단, 용서, 새로운 소명, 내적 각성';
+  String get tarotMajor20Upright =>
+      'Resurrecziun, decisiun, perdun, nova vocaziun, svegl intern';
 
   @override
-  String get tarotMajor20Reversed => '후회, 자기 의심, 변화에 대한 두려움, 미련, 형벌';
+  String get tarotMajor20Reversed =>
+      'Regret, dubi da sasez, tema da midada, nostalgia, chastì';
 
   @override
-  String get tarotMajor21Name => 'The World';
+  String get tarotMajor21Name => 'XXI. Il Mund (The World)';
 
   @override
-  String get tarotMajor21Upright => '완성, 성취, 통합, 새로운 차원, 성공적인 마무리';
+  String get tarotMajor21Upright =>
+      'Cumplettaziun, realisaziun, integraziun, nova dimensiun, finiziun cun success';
 
   @override
-  String get tarotMajor21Reversed => '미완성, 연기, 정체, 성공에 대한 두려움, 지연';
+  String get tarotMajor21Reversed =>
+      'Nunfinì, retard, stagnaziun, tema dal success, retard';
 
   @override
-  String get tarotCups01Name => 'Ace of Cups';
+  String get tarotCups01Name => 'As da Cuppas (Ace of Cups)';
 
   @override
-  String get tarotCups01Upright => '새로운 감정, 사랑의 시작, 직관, 영적 충만함';
+  String get tarotCups01Upright =>
+      'Novas emoziuns, cumenzament d\'amur, intuitiziun, cumplettadad spirituala';
 
   @override
-  String get tarotCups01Reversed => '감정의 차단, 사랑받지 못함, 공허함, 슬픔';
+  String get tarotCups01Reversed =>
+      'Bloccada d\'emoziuns, betg amà, videt, tristezza';
 
   @override
-  String get tarotCups02Name => 'Two of Cups';
+  String get tarotCups02Name => '2 da Cuppas (Two of Cups)';
 
   @override
-  String get tarotCups02Upright => '관계의 조화, 결합, 사랑, 상호 존중, 협력';
+  String get tarotCups02Upright =>
+      'Armonia en relaziuns, uniun, amur, respect mutual, collavuraziun';
 
   @override
-  String get tarotCups02Reversed => '관계의 불화, 이별, 오해, 불균형, 짝사랑';
+  String get tarotCups02Reversed =>
+      'Discordia en relaziuns, separaziun, malchapientscha, sbilantscha, amur nunreciproca';
 
   @override
-  String get tarotCups03Name => 'Three of Cups';
+  String get tarotCups03Name => '3 da Cuppas (Three of Cups)';
 
   @override
-  String get tarotCups03Upright => '축하, 우정, 공동체, 기쁨, 창조적 결실';
+  String get tarotCups03Upright =>
+      'Festivitad, amicizia, cuminanza, legria, fritgs creativs';
 
   @override
-  String get tarotCups03Reversed => '과음, 소외, 파벌, 삼각관계, 축제의 취소';
+  String get tarotCups03Reversed =>
+      'Bavr memia bler, isolaziun, fracziun, relaziun triangulara, annullaziun da la festa';
 
   @override
-  String get tarotCups04Name => 'Four of Cups';
+  String get tarotCups04Name => '4 da Cuppas (Four of Cups)';
 
   @override
-  String get tarotCups04Upright => '무관심, 권태, 명상, 놓쳐버린 기회, 내면 성찰';
+  String get tarotCups04Upright =>
+      'Indifferenza, tedium, meditaziun, chaschun persa, introspecziun';
 
   @override
-  String get tarotCups04Reversed => '새로운 인식, 기회를 잡음, 활력 회복, 각성';
+  String get tarotCups04Reversed =>
+      'Nova percepziun, tschiffar la chaschun, restabilir vitalitad, svegl';
 
   @override
-  String get tarotCups05Name => 'Five of Cups';
+  String get tarotCups05Name => '5 da Cuppas (Five of Cups)';
 
   @override
-  String get tarotCups05Upright => '상실, 슬픔, 과거에 대한 후회, 비관주의';
+  String get tarotCups05Upright =>
+      'Perdita, tristezza, regret per il passà, pessimissem';
 
   @override
-  String get tarotCups05Reversed => '상실의 극복, 수용, 치유, 새로운 희망의 발견';
+  String get tarotCups05Reversed =>
+      'Survegnir la perdita, acceptanza, guariziun, scuvrir nova speranza';
 
   @override
-  String get tarotCups06Name => 'Six of Cups';
+  String get tarotCups06Name => '6 da Cuppas (Six of Cups)';
 
   @override
-  String get tarotCups06Upright => '과거의 향수, 어린 시절, 순수함, 옛 친구, 추억';
+  String get tarotCups06Upright =>
+      'Nostalgia dal passà, uffanza, purezza, vegls amis, regurdientschas';
 
   @override
-  String get tarotCups06Reversed => '과거에 얽매임, 미래를 외면함, 독립, 성장';
+  String get tarotCups06Reversed =>
+      'S\'agrippar al passà, ignorar il futur, independenza, creschientscha';
 
   @override
-  String get tarotCups07Name => 'Seven of Cups';
+  String get tarotCups07Name => '7 da Cuppas (Seven of Cups)';
 
   @override
-  String get tarotCups07Upright => '환상, 꿈, 선택의 혼란, 현실 도피, 백일몽';
+  String get tarotCups07Upright =>
+      'Illusiun, sogns, confusiun da tschernas, fugia da la realitad, sogn da di';
 
   @override
-  String get tarotCups07Reversed => '현실 직시, 명확한 목표, 환상에서 깨어남, 결단';
+  String get tarotCups07Reversed =>
+      'Affrontar la realitad, clers gols, svegliar da l\'illusiun, decisiun';
 
   @override
-  String get tarotCups08Name => 'Eight of Cups';
+  String get tarotCups08Name => '8 da Cuppas (Eight of Cups)';
 
   @override
-  String get tarotCups08Upright => '실망, 떠남, 더 깊은 의미를 찾기 위한 포기, 체념';
+  String get tarotCups08Upright =>
+      'Dischillusiun, partir, bandunar per chattar in senn pli profund, resignaziun';
 
   @override
-  String get tarotCups08Reversed => '떠나지 못함, 과거에 집착, 관계 회복, 두려움';
+  String get tarotCups08Reversed =>
+      'Betg pudair partir, s\'agrippar al passà, restabilir relaziuns, tema';
 
   @override
-  String get tarotCups09Name => 'Nine of Cups';
+  String get tarotCups09Name => '9 da Cuppas (Nine of Cups)';
 
   @override
-  String get tarotCups09Upright => '소원 성취, 만족감, 감각적 기쁨, 자부심, 행복';
+  String get tarotCups09Upright =>
+      'Realisaziun da giavischs, satisfacziun, plaschair sensual, superbia, fortuna';
 
   @override
-  String get tarotCups09Reversed => '불만족, 허영심, 표면적인 성공, 욕심, 탐욕';
+  String get tarotCups09Reversed =>
+      'Malcuntentientscha, vanitad, success superficial, brama, avarizia';
 
   @override
-  String get tarotCups10Name => 'Ten of Cups';
+  String get tarotCups10Name => '10 da Cuppas (Ten of Cups)';
 
   @override
-  String get tarotCups10Upright => '가족의 행복, 평화, 정서적 충만, 조화로운 관계';
+  String get tarotCups10Upright =>
+      'Fortuna da famiglia, pasch, cumplettadad emoziunala, relaziuns armonicas';
 
   @override
-  String get tarotCups10Reversed => '가족 내 갈등, 깨진 가정, 불화, 평화 상실';
+  String get tarotCups10Reversed =>
+      'Conflicts en famiglia, famiglia rumida, discordia, perdita da pasch';
 
   @override
-  String get tarotCups11Name => 'Page of Cups';
+  String get tarotCups11Name => 'Pagi da Cuppas (Page of Cups)';
 
   @override
-  String get tarotCups11Upright => '새로운 영감, 창의성, 감성적인 메시지, 직관력';
+  String get tarotCups11Upright =>
+      'Nova inspiraziun, creativitad, messadi emoziunal, intuitiziun';
 
   @override
-  String get tarotCups11Reversed => '감정적 미성숙, 창의적 차단, 나쁜 소식, 예민함';
+  String get tarotCups11Reversed =>
+      'Immaturitad emoziunala, bloccada creativa, nauschas novitads, sensibilitad';
 
   @override
-  String get tarotCups12Name => 'Knight of Cups';
+  String get tarotCups12Name => 'Chavalier da Cuppas (Knight of Cups)';
 
   @override
-  String get tarotCups12Upright => '로맨스, 매력, 감정적 접근, 상상력, 기사도';
+  String get tarotCups12Upright =>
+      'Romanza, attracziun, approsch emoziunal, imaginaziun, chavaleria';
 
   @override
-  String get tarotCups12Reversed => '비현실성, 변덕, 질투, 신뢰할 수 없음, 기만';
+  String get tarotCups12Reversed =>
+      'Irrealtad, capriciusadad, gelusia, nunfidabel, engianament';
 
   @override
-  String get tarotCups13Name => 'Queen of Cups';
+  String get tarotCups13Name => 'Regina da Cuppas (Queen of Cups)';
 
   @override
-  String get tarotCups13Upright => '공감, 다정함, 영적 직관, 감성적 안정, 배려';
+  String get tarotCups13Upright =>
+      'Empatia, dultschezza, intuitiziun spirituala, stabilitad emoziunala, premura';
 
   @override
-  String get tarotCups13Reversed => '감정 과잉, 불안정, 의존적 성향, 희생자 코스프레';
+  String get tarotCups13Reversed =>
+      'Emoziuns excessivas, instabilitad, tendenza dependenta, rolla da victima';
 
   @override
-  String get tarotCups14Name => 'King of Cups';
+  String get tarotCups14Name => 'Retg da Cuppas (King of Cups)';
 
   @override
-  String get tarotCups14Upright => '감정적 통제, 균형, 외교, 관용, 지혜로운 조언';
+  String get tarotCups14Upright =>
+      'Controlla emoziunala, bilantscha, diplomazia, toleranza, cussegl sagent';
 
   @override
-  String get tarotCups14Reversed => '감정적 조작, 냉담함, 불안정성, 기분파, 무자비';
+  String get tarotCups14Reversed =>
+      'Manipulaziun emoziunala, freddezza, instabilitad, umor varià, senza misericordia';
 
   @override
-  String get tarotPentacles01Name => 'Ace of Pentacles';
+  String get tarotPentacles01Name => 'As da Pentaculs (Ace of Pentacles)';
 
   @override
-  String get tarotPentacles01Upright => '새로운 기회, 재정적 시작, 풍요, 현실적 성취';
+  String get tarotPentacles01Upright =>
+      'Nova chaschun, cumenzament finanzial, abundanza, realisaziun pratica';
 
   @override
-  String get tarotPentacles01Reversed => '잃어버린 기회, 재정적 손실, 지연, 나쁜 투자';
+  String get tarotPentacles01Reversed =>
+      'Chaschun persa, perdita finanziala, retard, investiziun nauscha';
 
   @override
-  String get tarotPentacles02Name => 'Two of Pentacles';
+  String get tarotPentacles02Name => '2 da Pentaculs (Two of Pentacles)';
 
   @override
-  String get tarotPentacles02Upright => '균형, 적응력, 시간/재정 관리, 유연성';
+  String get tarotPentacles02Upright =>
+      'Bilantscha, adattabladad, administraziun da temp/finanzas, flexibilitad';
 
   @override
-  String get tarotPentacles02Reversed => '불균형, 감당하기 벅참, 재정적 어려움, 스트레스';
+  String get tarotPentacles02Reversed =>
+      'Sbilantscha, surchargià, difficultads finanzialas, stress';
 
   @override
-  String get tarotPentacles03Name => 'Three of Pentacles';
+  String get tarotPentacles03Name => '3 da Pentaculs (Three of Pentacles)';
 
   @override
-  String get tarotPentacles03Upright => '팀워크, 협업, 기술, 인정받는 노력, 건축';
+  String get tarotPentacles03Upright =>
+      'Lavur en team, collavuraziun, abilitad, lavur renconuschida, architectura';
 
   @override
-  String get tarotPentacles03Reversed => '협업 부족, 기술 부족, 인정받지 못함, 의견 충돌';
+  String get tarotPentacles03Reversed =>
+      'Mancanza da collavuraziun, mancanza d\'abilitad, betg renconuschì, conflicts d\'opiniun';
 
   @override
-  String get tarotPentacles04Name => 'Four of Pentacles';
+  String get tarotPentacles04Name => '4 da Pentaculs (Four of Pentacles)';
 
   @override
-  String get tarotPentacles04Upright => '안정, 소유욕, 보수성, 인색함, 축적';
+  String get tarotPentacles04Upright =>
+      'Stabilitad, brama da possess, conservatissem, avarizia, accumulaziun';
 
   @override
-  String get tarotPentacles04Reversed => '탐욕의 대가, 손실, 재정 방만, 집착을 버림';
+  String get tarotPentacles04Reversed =>
+      'Pretsch da l\'avarizia, perdita, maladministraziun finanziala, bandunar l\'obsessiun';
 
   @override
-  String get tarotPentacles05Name => 'Five of Pentacles';
+  String get tarotPentacles05Name => '5 da Pentaculs (Five of Pentacles)';
 
   @override
-  String get tarotPentacles05Upright => '궁핍, 재정적/정서적 결핍, 소외, 역경';
+  String get tarotPentacles05Upright =>
+      'Povertad, mancanza finanziala/emoziunala, isolaziun, adversitad';
 
   @override
-  String get tarotPentacles05Reversed => '재정 회복, 도움의 손길, 역경 극복, 긍정적 변화';
+  String get tarotPentacles05Reversed =>
+      'Restabilir finanzas, maun d\'agid, survegnir adversitad, midada positiva';
 
   @override
-  String get tarotPentacles06Name => 'Six of Pentacles';
+  String get tarotPentacles06Name => '6 da Pentaculs (Six of Pentacles)';
 
   @override
-  String get tarotPentacles06Upright => '자선, 나눔, 후원, 공정함, 베풂과 받음';
+  String get tarotPentacles06Upright =>
+      'Caritad, partiziun, sustegn, fairness, dar e retschaiver';
 
   @override
-  String get tarotPentacles06Reversed => '이기심, 채무, 불평등, 생색내기, 착취';
+  String get tarotPentacles06Reversed =>
+      'Egoissem, debits, inegualitad, far parad, explotaziun';
 
   @override
-  String get tarotPentacles07Name => 'Seven of Pentacles';
+  String get tarotPentacles07Name => '7 da Pentaculs (Seven of Pentacles)';
 
   @override
-  String get tarotPentacles07Upright => '인내, 장기적 비전, 노력에 대한 보상 기다림, 평가';
+  String get tarotPentacles07Upright =>
+      'Pazienza, visiun a lunga vista, spetgar la recompensa per la lavur, evaluaziun';
 
   @override
-  String get tarotPentacles07Reversed => '조바심, 성과 없는 노력, 지연, 좌절, 투자 실패';
+  String get tarotPentacles07Reversed =>
+      'Impazienza, lavur senza resultat, retard, frustraziun, investiziun fallida';
 
   @override
-  String get tarotPentacles08Name => 'Eight of Pentacles';
+  String get tarotPentacles08Name => '8 da Pentaculs (Eight of Pentacles)';
 
   @override
-  String get tarotPentacles08Upright => '장인 정신, 전념, 세부사항에 대한 주의, 숙련';
+  String get tarotPentacles08Upright =>
+      'Artisanat, dedicaziun, attenziun als detagls, maistria';
 
   @override
-  String get tarotPentacles08Reversed => '지루함, 완벽주의의 함정, 나태, 열정 상실';
+  String get tarotPentacles08Reversed =>
+      'Tedium, trapla dal perfecziunissem, pigrizia, perdita da passiun';
 
   @override
-  String get tarotPentacles09Name => 'Nine of Pentacles';
+  String get tarotPentacles09Name => '9 da Pentaculs (Nine of Pentacles)';
 
   @override
-  String get tarotPentacles09Upright => '성취, 독립, 여유, 재정적 안락함, 자기 보상';
+  String get tarotPentacles09Upright =>
+      'Realisaziun, independenza, temp liber, bainstar finanzial, autocumpensaziun';
 
   @override
-  String get tarotPentacles09Reversed => '과소비, 겉보기에만 화려함, 의존성, 재정 불안';
+  String get tarotPentacles09Reversed =>
+      'Surconsum, be apparentamain splendid, dependenza, instabilitad finanziala';
 
   @override
-  String get tarotPentacles10Name => 'Ten of Pentacles';
+  String get tarotPentacles10Name => '10 da Pentaculs (Ten of Pentacles)';
 
   @override
-  String get tarotPentacles10Upright => '가업, 부의 축적, 유산, 안정된 삶, 전통';
+  String get tarotPentacles10Upright =>
+      'Affar da famiglia, accumulaziun da ritgezza, ierta, vita stabila, tradiziun';
 
   @override
-  String get tarotPentacles10Reversed => '재산 손실, 가족 분쟁, 전통에 대한 반항, 불안정';
+  String get tarotPentacles10Reversed =>
+      'Perdita da facultad, conflicts da famiglia, rebelliun cunter la tradiziun, instabilitad';
 
   @override
-  String get tarotPentacles11Name => 'Page of Pentacles';
+  String get tarotPentacles11Name => 'Pagi da Pentaculs (Page of Pentacles)';
 
   @override
-  String get tarotPentacles11Upright => '현실적인 목표, 새로운 공부, 기회, 실용성, 계획';
+  String get tarotPentacles11Upright =>
+      'Gols realistics, nov studi, chaschun, praticitad, plan';
 
   @override
-  String get tarotPentacles11Reversed => '계획의 지연, 실용성 부족, 게으름, 미루는 습관';
+  String get tarotPentacles11Reversed =>
+      'Retard dal plan, mancanza da praticitad, pigrizia, abituaziun da differir';
 
   @override
-  String get tarotPentacles12Name => 'Knight of Pentacles';
+  String get tarotPentacles12Name =>
+      'Chavalier da Pentaculs (Knight of Pentacles)';
 
   @override
-  String get tarotPentacles12Upright => '성실, 책임감, 끈기, 점진적인 발전, 믿음직함';
+  String get tarotPentacles12Upright =>
+      'Fideltad, responsabladad, persistenza, svilup progressiv, fidabel';
 
   @override
-  String get tarotPentacles12Reversed => '완고함, 무기력, 일 중독, 유연성 부족, 정체';
+  String get tarotPentacles12Reversed =>
+      'Testardad, impotenza, lavuromania, mancanza da flexibilitad, stagnaziun';
 
   @override
-  String get tarotPentacles13Name => 'Queen of Pentacles';
+  String get tarotPentacles13Name => 'Regina da Pentaculs (Queen of Pentacles)';
 
   @override
-  String get tarotPentacles13Upright => '현실적 보살핌, 실용적 조언, 풍요, 관대함, 안락함';
+  String get tarotPentacles13Upright =>
+      'Cura pratica, cussegl practic, abundanza, generusadad, bainstar';
 
   @override
-  String get tarotPentacles13Reversed => '과잉 통제, 소유욕, 이기심, 재정적 불안, 과소비';
+  String get tarotPentacles13Reversed =>
+      'Surcontrolla, brama da possess, egoissem, instabilitad finanziala, surconsom';
 
   @override
-  String get tarotPentacles14Name => 'King of Pentacles';
+  String get tarotPentacles14Name => 'Retg da Pentaculs (King of Pentacles)';
 
   @override
-  String get tarotPentacles14Upright => '부와 성공, 비즈니스 수완, 권위, 든든한 후원자';
+  String get tarotPentacles14Upright =>
+      'Ritgezza e success, abilitad d\'affars, autoritad, sustegnader fidaivel';
 
   @override
-  String get tarotPentacles14Reversed => '물질주의, 부패, 탐욕, 고집불통, 억압적 권위';
+  String get tarotPentacles14Reversed =>
+      'Materialissem, corrupziun, avarizia, testardad, autoritad oppressiva';
 
   @override
-  String get tarotSwords01Name => 'Ace of Swords';
+  String get tarotSwords01Name => 'As da Spadas (Ace of Swords)';
 
   @override
-  String get tarotSwords01Upright => '명확한 통찰, 새로운 생각, 진실, 정신적 돌파구';
+  String get tarotSwords01Upright =>
+      'Clera perspicacitad, novas ideas, vardad, scuverta mentala';
 
   @override
-  String get tarotSwords01Reversed => '혼란, 잘못된 정보, 판단력 상실, 소통 부재';
+  String get tarotSwords01Reversed =>
+      'Confusiun, infurmaziun fallada, perdita da giudizi, mancanza da communicaziun';
 
   @override
-  String get tarotSwords02Name => 'Two of Swords';
+  String get tarotSwords02Name => '2 da Spadas (Two of Swords)';
 
   @override
-  String get tarotSwords02Upright => '우유부단, 맹목, 감정 차단, 어려운 결정의 회피';
+  String get tarotSwords02Upright =>
+      'Indecisiun, tschorvadad, bloccada emoziunala, evitar decisiuns difficilas';
 
   @override
-  String get tarotSwords02Reversed => '결단, 사실을 직시함, 정보 부족으로 인한 실수';
+  String get tarotSwords02Reversed =>
+      'Decisiun, affrontar ils fatgs, sbagl per mancanza d\'infurmaziun';
 
   @override
-  String get tarotSwords03Name => 'Three of Swords';
+  String get tarotSwords03Name => '3 da Spadas (Three of Swords)';
 
   @override
-  String get tarotSwords03Upright => '상심, 슬픔, 이별, 상처, 고통스러운 진실';
+  String get tarotSwords03Upright =>
+      'Cor rumì, tristezza, separaziun, plaga, vardad dolurusa';
 
   @override
-  String get tarotSwords03Reversed => '고통의 극복, 치유, 용서, 슬픔을 떨쳐냄';
+  String get tarotSwords03Reversed =>
+      'Survegnir la dolur, guariziun, perdun, scatschar la tristezza';
 
   @override
-  String get tarotSwords04Name => 'Four of Swords';
+  String get tarotSwords04Name => '4 da Spadas (Four of Swords)';
 
   @override
-  String get tarotSwords04Upright => '휴식, 회복, 명상, 스트레스 완화, 내면의 평화';
+  String get tarotSwords04Upright =>
+      'Paussa, restabilir, meditaziun, reducziun da stress, pasch interna';
 
   @override
-  String get tarotSwords04Reversed => '탈진, 회복 거부, 강제 휴식, 극심한 스트레스';
+  String get tarotSwords04Reversed =>
+      'Exhaustiun, refusa da restabilir, paussa sfurzada, stress extrem';
 
   @override
-  String get tarotSwords05Name => 'Five of Swords';
+  String get tarotSwords05Name => '5 da Spadas (Five of Swords)';
 
   @override
-  String get tarotSwords05Upright => '상처뿐인 승리, 배신, 갈등, 적의감, 비열함';
+  String get tarotSwords05Upright =>
+      'Victoria cun plagas, tradiment, conflict, ostilitad, viltad';
 
   @override
-  String get tarotSwords05Reversed => '갈등 해결, 화해, 타협, 패배 인정, 복수 포기';
+  String get tarotSwords05Reversed =>
+      'Schliar conflicts, reconciliaziun, cumpromiss, acceptar la sconfitta, bandunar vendetga';
 
   @override
-  String get tarotSwords06Name => 'Six of Swords';
+  String get tarotSwords06Name => '6 da Spadas (Six of Swords)';
 
   @override
-  String get tarotSwords06Upright => '전환, 고통에서 벗어남, 치유의 여정, 이동, 여행';
+  String get tarotSwords06Upright =>
+      'Transiziun, s\'allontanar da la dolur, viadi da guariziun, moviment, viadi';
 
   @override
-  String get tarotSwords06Reversed => '변화에 대한 저항, 과거의 상처가 발목을 잡음, 지연';
+  String get tarotSwords06Reversed =>
+      'Resistenza cunter midada, plagas dal passà che tegnan en frain, retard';
 
   @override
-  String get tarotSwords07Name => 'Seven of Swords';
+  String get tarotSwords07Name => '7 da Spadas (Seven of Swords)';
 
   @override
-  String get tarotSwords07Upright => '기만, 속임수, 전략, 은밀한 행동, 도주';
+  String get tarotSwords07Upright =>
+      'Engianament, truffa, strategia, acziun secreta, fugia';
 
   @override
-  String get tarotSwords07Reversed => '자백, 비밀 폭로, 속임수 발각, 죄책감, 정면 돌파';
+  String get tarotSwords07Reversed =>
+      'Confessiun, revelaziun da secrets, scuvrir truffa, culpa, affrontar directamain';
 
   @override
-  String get tarotSwords08Name => 'Eight of Swords';
+  String get tarotSwords08Name => '8 da Spadas (Eight of Swords)';
 
   @override
-  String get tarotSwords08Upright => '자승자박, 무기력, 제한된 생각, 두려움의 감옥';
+  String get tarotSwords08Upright =>
+      'Autocaptivaziun, impotenza, pensiers limitads, praschun da la tema';
 
   @override
-  String get tarotSwords08Reversed => '해방, 스스로의 감옥에서 벗어남, 새로운 관점';
+  String get tarotSwords08Reversed =>
+      'Liberaziun, s\'allontanar da la praschun persunala, nova perspectiva';
 
   @override
-  String get tarotSwords09Name => 'Nine of Swords';
+  String get tarotSwords09Name => '9 da Spadas (Nine of Swords)';
 
   @override
-  String get tarotSwords09Upright => '불안, 절망, 불면증, 죄책감, 내면의 공포';
+  String get tarotSwords09Upright =>
+      'Inquietud, desperaziun, insomnium, culpa, tema interna';
 
   @override
-  String get tarotSwords09Reversed => '공포 극복, 희망의 빛, 불면증 해소, 사실 직시';
+  String get tarotSwords09Reversed =>
+      'Survegnir la tema, glisch da speranza, schliar insomnium, affrontar ils fatgs';
 
   @override
-  String get tarotSwords10Name => 'Ten of Swords';
+  String get tarotSwords10Name => '10 da Spadas (Ten of Swords)';
 
   @override
-  String get tarotSwords10Upright => '파멸, 깊은 상처, 배신, 바닥을 침, 끝의 도래';
+  String get tarotSwords10Upright =>
+      'Ruina, plaga profunda, tradiment, arrivar al fund, fin che vegn';
 
   @override
-  String get tarotSwords10Reversed => '파멸에서의 회복, 최악은 지났음, 생존, 재건';
+  String get tarotSwords10Reversed =>
+      'Restabilir da la ruina, il pli nausch è passà, surviver, reconstrucziun';
 
   @override
-  String get tarotSwords11Name => 'Page of Swords';
+  String get tarotSwords11Name => 'Pagi da Spadas (Page of Swords)';
 
   @override
-  String get tarotSwords11Upright => '호기심, 예리한 분석력, 진실 탐구, 새로운 아이디어';
+  String get tarotSwords11Upright =>
+      'Curiusadad, abilitad d\'analisa acuta, tschertga da la vardad, novas ideas';
 
   @override
-  String get tarotSwords11Reversed => '경솔함, 조급함, 냉소주의, 근거 없는 소문, 무례';
+  String get tarotSwords11Reversed =>
+      'Levitadad, precipitaziun, cinissem, rumurs senza basa, malgarbadezza';
 
   @override
-  String get tarotSwords12Name => 'Knight of Swords';
+  String get tarotSwords12Name => 'Chavalier da Spadas (Knight of Swords)';
 
   @override
-  String get tarotSwords12Upright => '돌진, 야망, 지적 추진력, 빠르고 단호한 행동';
+  String get tarotSwords12Upright =>
+      'Attacca, ambiziun, forza intellectuala, acziun svelta e decisiva';
 
   @override
-  String get tarotSwords12Reversed => '무모함, 공격성, 배려 없는 언행, 충동성, 무자비';
+  String get tarotSwords12Reversed =>
+      'Temerariadad, agressiun, pleds e fats senza premura, impulsivitad, senza misericordia';
 
   @override
-  String get tarotSwords13Name => 'Queen of Swords';
+  String get tarotSwords13Name => 'Regina da Spadas (Queen of Swords)';
 
   @override
-  String get tarotSwords13Upright => '독립, 명확한 의사소통, 예리한 판단, 정직함, 객관성';
+  String get tarotSwords13Upright =>
+      'Independenza, communicaziun clera, giudizi acut, onestà, objectivitad';
 
   @override
-  String get tarotSwords13Reversed => '비정함, 냉혹함, 과도한 비판, 원한, 고립';
+  String get tarotSwords13Reversed =>
+      'Durezza, crudeltad, critica excessiva, rancur, isolaziun';
 
   @override
-  String get tarotSwords14Name => 'King of Swords';
+  String get tarotSwords14Name => 'Retg da Spadas (King of Swords)';
 
   @override
-  String get tarotSwords14Upright => '권위, 지적 통찰, 논리, 공정함, 원칙, 전문가';
+  String get tarotSwords14Upright =>
+      'Autoritad, perspicacitad intellectuala, logica, fairness, princips, expert';
 
   @override
-  String get tarotSwords14Reversed => '권력 남용, 비합리성, 잔인함, 통제욕, 독재';
+  String get tarotSwords14Reversed =>
+      'Abus da pussanza, irraziunalitad, crudeltad, brama da controlla, dictatura';
 
   @override
-  String get tarotWands01Name => 'Ace of Wands';
+  String get tarotWands01Name => 'As da Bastuns (Ace of Wands)';
 
   @override
-  String get tarotWands01Upright => '열정, 영감, 창조적 힘, 새로운 잠재력, 활력';
+  String get tarotWands01Upright =>
+      'Passiun, inspiraziun, forza creativa, nov potenzial, vitalitad';
 
   @override
-  String get tarotWands01Reversed => '열정의 지연, 영감 부족, 의욕 상실, 정체성 혼란';
+  String get tarotWands01Reversed =>
+      'Retard da passiun, mancanza d\'inspiraziun, perdita da motivaziun, confusiun d\'identitad';
 
   @override
-  String get tarotWands02Name => 'Two of Wands';
+  String get tarotWands02Name => '2 da Bastuns (Two of Wands)';
 
   @override
-  String get tarotWands02Upright => '계획, 비전, 장기적 목표, 결단력, 탐험';
+  String get tarotWands02Upright =>
+      'Plan, visiun, gols a lunga vista, decisivdad, exploraziun';
 
   @override
-  String get tarotWands02Reversed => '계획 부족, 미루기, 두려움에 의한 정체, 제한된 비전';
+  String get tarotWands02Reversed =>
+      'Mancanza da plan, differir, stagnaziun per tema, visiun limitada';
 
   @override
-  String get tarotWands03Name => 'Three of Wands';
+  String get tarotWands03Name => '3 da Bastuns (Three of Wands)';
 
   @override
-  String get tarotWands03Upright => '기대의 실현, 진전, 확장, 선견지명, 리더십';
+  String get tarotWands03Upright =>
+      'Realisaziun d\'aspectativas, progress, extensiun, previsiun, leadership';
 
   @override
-  String get tarotWands03Reversed => '성장의 지연, 좌절, 예상치 못한 장애, 편협함';
+  String get tarotWands03Reversed =>
+      'Retard da creschientscha, frustraziun, obstachels nunspetgads, stretgezza';
 
   @override
-  String get tarotWands04Name => 'Four of Wands';
+  String get tarotWands04Name => '4 da Bastuns (Four of Wands)';
 
   @override
-  String get tarotWands04Upright => '축하, 안락함, 성취의 기쁨, 환영, 집안의 행사';
+  String get tarotWands04Upright =>
+      'Festivitad, bainstar, legria da realisaziun, bainvegni, eveniment da famiglia';
 
   @override
-  String get tarotWands04Reversed => '취소된 행사, 가정의 불화, 일시적 안정, 지연된 축하';
+  String get tarotWands04Reversed =>
+      'Eveniment annullà, discordia en famiglia, stabilitad temporara, festa retardada';
 
   @override
-  String get tarotWands05Name => 'Five of Wands';
+  String get tarotWands05Name => '5 da Bastuns (Five of Wands)';
 
   @override
-  String get tarotWands05Upright => '경쟁, 갈등, 의견 대립, 다툼, 도전';
+  String get tarotWands05Upright =>
+      'Concurrenza, conflict, opiniuns divergentas, dispita, sfida';
 
   @override
-  String get tarotWands05Reversed => '타협, 갈등의 회피, 협력, 평화 추구, 혼란 진정';
+  String get tarotWands05Reversed =>
+      'Cumpromiss, evitar conflicts, collavuraziun, tschertga da pasch, calmar la confusiun';
 
   @override
-  String get tarotWands06Name => 'Six of Wands';
+  String get tarotWands06Name => '6 da Bastuns (Six of Wands)';
 
   @override
-  String get tarotWands06Upright => '성공, 대중의 인정, 승리, 자신감, 리더의 부상';
+  String get tarotWands06Upright =>
+      'Success, renconuschientscha publica, victoria, fidanza, ascensiun d\'in leader';
 
   @override
-  String get tarotWands06Reversed => '패배, 불명예, 인정받지 못함, 교만, 명성 추락';
+  String get tarotWands06Reversed =>
+      'Sconfitta, disonur, betg renconuschì, superbia, perdita da reputaziun';
 
   @override
-  String get tarotWands07Name => 'Seven of Wands';
+  String get tarotWands07Name => '7 da Bastuns (Seven of Wands)';
 
   @override
-  String get tarotWands07Upright => '용기, 방어, 경쟁에 맞섬, 확고한 신념, 인내';
+  String get tarotWands07Upright =>
+      'Curaschi, defensiun, confruntar la concurrenza, ferma cretta, persistenza';
 
   @override
-  String get tarotWands07Reversed => '포기, 압도됨, 타협, 자신감 상실, 비겁함';
+  String get tarotWands07Reversed =>
+      'Bandunar, surchargià, cumpromiss, perdita da fidanza, codardia';
 
   @override
-  String get tarotWands08Name => 'Eight of Wands';
+  String get tarotWands08Name => '8 da Bastuns (Eight of Wands)';
 
   @override
-  String get tarotWands08Upright => '신속한 진행, 빠른 결말, 소식, 민첩함, 속도';
+  String get tarotWands08Upright =>
+      'Progress svelt, fin svelta, novitads, agilitad, sveltezza';
 
   @override
-  String get tarotWands08Reversed => '지연, 혼란, 서두름으로 인한 실수, 소통 불능';
+  String get tarotWands08Reversed =>
+      'Retard, confusiun, sbagls per precipitaziun, mancanza da communicaziun';
 
   @override
-  String get tarotWands09Name => 'Nine of Wands';
+  String get tarotWands09Name => '9 da Bastuns (Nine of Wands)';
 
   @override
-  String get tarotWands09Upright => '회복력, 방어 태세, 지쳐도 계속함, 경계, 체력 시험';
+  String get tarotWands09Upright =>
+      'Resilienza, posiziun defensiva, cuntinuar mal stanchezza, vigilanza, test da forza';
 
   @override
-  String get tarotWands09Reversed => '피로, 편집증, 포기, 완고함, 불필요한 저항';
+  String get tarotWands09Reversed =>
+      'Stanchezza, paranoia, bandunar, testardad, resistenza nunnecessaria';
 
   @override
-  String get tarotWands10Name => 'Ten of Wands';
+  String get tarotWands10Name => '10 da Bastuns (Ten of Wands)';
 
   @override
-  String get tarotWands10Upright => '과도한 짐, 극심한 부담, 책임감, 압박, 한계점';
+  String get tarotWands10Upright =>
+      'Chargia excessiva, greva chargia, responsabladad, pressiun, limit';
 
   @override
-  String get tarotWands10Reversed => '짐을 내려놓음, 책임 회피, 탈진, 위임, 극복';
+  String get tarotWands10Reversed =>
+      'Deponer la chargia, evitar responsabladad, exhaustiun, delegaziun, survegnir';
 
   @override
-  String get tarotWands11Name => 'Page of Wands';
+  String get tarotWands11Name => 'Pagi da Bastuns (Page of Wands)';
 
   @override
-  String get tarotWands11Upright => '탐험, 발견, 열정적인 아이디어, 에너지, 매력';
+  String get tarotWands11Upright =>
+      'Exploraziun, scuverta, ideas passiunadas, energia, attracziun';
 
   @override
-  String get tarotWands11Reversed => '방향 상실, 미숙함, 쉽게 싫증냄, 헛된 망상, 무책임';
+  String get tarotWands11Reversed =>
+      'Perdita da direcziun, immaturitad, s\'ennuiar svelt, illusiuns vanas, irresponsabladad';
 
   @override
-  String get tarotWands12Name => 'Knight of Wands';
+  String get tarotWands12Name => 'Chavalier da Bastuns (Knight of Wands)';
 
   @override
-  String get tarotWands12Upright => '열정적 전진, 모험심, 행동력, 에너지, 자신감';
+  String get tarotWands12Upright =>
+      'Progress passiunà, spiert d\'aventura, forza d\'agir, energia, fidanza';
 
   @override
-  String get tarotWands12Reversed => '충동적 행동, 오만함, 변덕, 분노, 무계획';
+  String get tarotWands12Reversed =>
+      'Acziun impulsiva, arroganza, capriciusadad, rabia, senza plan';
 
   @override
-  String get tarotWands13Name => 'Queen of Wands';
+  String get tarotWands13Name => 'Regina da Bastuns (Queen of Wands)';
 
   @override
-  String get tarotWands13Upright => '카리스마, 용기, 독립, 밝음, 매력, 활기';
+  String get tarotWands13Upright =>
+      'Carisma, curaschi, independenza, clarezza, attracziun, vitalitad';
 
   @override
-  String get tarotWands13Reversed => '이기심, 과시욕, 질투, 변덕스러움, 공격성';
+  String get tarotWands13Reversed =>
+      'Egoissem, brama da mussar, gelusia, capriciusadad, agressiun';
 
   @override
-  String get tarotWands14Name => 'King of Wands';
+  String get tarotWands14Name => 'Retg da Bastuns (King of Wands)';
 
   @override
-  String get tarotWands14Upright => '카리스마적 리더십, 비전, 영감, 대담함, 기업가';
+  String get tarotWands14Upright =>
+      'Leadership carismatic, visiun, inspiraziun, curaschi, interprendider';
 
   @override
-  String get tarotWands14Reversed => '독재, 충동적 분노, 비현실성, 오만, 가차없음';
+  String get tarotWands14Reversed =>
+      'Dictatura, rabia impulsiva, irrealtad, arroganza, senza cumpromiss';
 
   @override
   String get nicknamePrefixes =>
-      '신비한,고요한,거룩한,어두운,빛나는,차가운,뜨거운,매혹적인,잔혹한,순수한,거친,부드러운,아름다운,기묘한,위대한,초라한,영원한,잊혀진,찬란한,슬픈,기쁜,몽환적인,타락한,순백의,칠흑의,핏빛의,잿빛의,황금빛,은빛,푸른,붉은,노란,검은,하얀,투명한,고독한,시끄러운,조용한,따뜻한,싸늘한,외로운,쓸쓸한,즐거운,행복한,우울한,절망적인,희망찬,눈부신,어스름한,캄캄한,적막한,은밀한,비밀스러운,성스러운,불경한,오만한,겸손한,지혜로운,어리석은,강인한,나약한,용감한,비겁한,아득한,가까운,멀어지는,다가오는,사라지는,나타나는,깨어난,잠든,꿈꾸는,헤매는,방황하는,머무는,떠나는,돌아오는,기다리는,찾는,숨은,드러난,버려진,선택된,축복받은,저주받은,사랑받는,미움받는,기억하는,망각하는,별빛의,달빛의,햇빛의,우주의,대지의,바다의,하늘의,구름의,바람의,비의,눈의,얼음의,불의,물의,흙의,나무의,숲의,산의,강의,호수의,시간의,공간의,차원의,운명의,숙명의,기적의,마법의,신화의,전설의,진실의,거짓의,환상의,꿈의,악몽의,파멸의,창조의,생명의,죽음의,영혼의,육체의,이성의,감정의,사랑의,증오의,슬픔의,기쁨의,분노의,평화의,전쟁의,혼돈의,질서의,빛의,어둠의,황혼의,새벽의,정오의,자정의,과거의,현재의,미래의,기원의,종말의,무한의,유한의,침묵의,소음의,노래하는,춤추는,우는,웃는,속삭이는,외치는,기도하는,간청하는,명령하는,복종하는,지배하는,섬기는,인도하는,따르는,가르치는,배우는,기억의,추억의,상처의,치유의,독의,약의,환영의,실체의,이상의,현실의,가상의,자연의,인공의,태초의,영겁의,순간의,찰나의,영속의,변화의,정지의,흐르는,멈춘,타오르는,식어가는,피어나는,시드는,자라나는,죽어가는,숨쉬는,질식하는,찬란한,은은한,아스라한,아련한,투명한,희미한,눈부신,기묘한,독특한,특별한,고귀한,순수한,타락한,고독한,쓸쓸한,적막한,아득한,가혹한,냉혹한,잔인한,위대한,강인한,굳건한,유연한,재빠른,느릿한,고요속의,혼돈속의,기억속의,상상속의,침묵하는,속삭이는,노래하는,춤추는,흐느끼는,미소짓는,비웃는,관조하는,방황하는,헤매는,깨어있는,잠든,꿈꾸는,몽상하는,망상하는,기도하는,간절한,애절한,처절한,숭고한,사악한,비열한,거만한,겸손한,다정한,따뜻한,서늘한,오싹한,기괴한,섬뜩한,황홀한,매혹적인,아찔한,달콤한,쌉싸름한,씁쓸한,가시돋친,날카로운,무딘,거친,부드러운,포근한,안락한,위태로운,불안한,평온한,안온한,나른한,권태로운,열정적인,무심한,차분한,격렬한,맹렬한,광적인,미쳐버린,이성적인,감성적인,냉철한,현명한,어리석은,순진한,교활한,음흉한,순백의,칠흑의,황금빛,은빛,핏빛';
+      'Misterius,Tranquil,Sontg,Stgir,Splendent,Fraid,Cald,Fascinant,Crudel,Pur,Ruvid,Moll,Bel,Strani,Grond,Pover,Etern,Dimenticà,Brillant,Trist,Allegro,Fantastic,Decadent,Alv pur,Nair sco pichel,Sanguinus,Tschaiver,Dad aur,D\'argient,Blau,Cotschen,Gialv,Nair,Alv,Transparent,Solitar,Stgargliant,Silenzius,Tepel,Fraid,Solitar,Malinconic,Giavischaivel,Cuntent,Deprimì,Desperà,Sperant,Splendent,Stgirenta,Stgirenta,Silenzius,Secret,Secret,Sontg,Profan,Arrogant,Modest,Sagent,Stupì,Robust,Flaivel,Curaschus,Codard,Lontan,Vicin,S\'allontanond,S\'avischinond,Sparind,Cumparind,Sveglià,Durmì,Sognond,Errond,Errond,Restond,Partind,Turnond,Spetgond,Tschertgond,Zuppà,Revelà,Bandunà,Tschernì,Bendigà,Maledì,Amà,Odì,Memorisond,Dimenticond,Da stailas,Da glina,Da sulegl,Cosmic,Da la terra,Da la mar,Dal tschiel,Da nivels,Dal vent,Da plievgia,Da naiv,Da glatsch,Da fieu,D\'aua,Da terra,Da lain,Da guaud,Da muntogna,Da flum,Da lai,Dal temp,Da spazi,Da dimensiun,Dal destin,Dal destin,Da miracul,Da magia,Da mitus,Da legenda,Da vardad,Da fauss,D\'illusiun,Da sogn,Da sogn d\'anguscha,Da ruina,Da creaziun,Da vita,Da mort,D\'olma,Da corp,Da raschun,D\'emotiun,D\'amur,D\'odi,Da tristezza,Da legria,Da rabia,Da pasch,Da guerra,Da caos,D\'urden,Da glisch,Da stgiraglia,Da stgiraglia,D\'aurora,Da mezdi,Da mesanotg,Dal passà,Dal preschent,Dal futur,D\'origin,Da fin,Infinit,Finit,Da silenzi,Da rumur,Chantond,Saltond,Criond,Riond,Tschitschond,Clamond,Preghond,Supplitgond,Cumandond,Ubidind,Dominond,Servind,Manond,Suandond,Instruind,Emprendond,Da memoria,Da regurdientscha,Da plaga,Da guariziun,Da tschigna,Da medicament,D\'hallucinaziun,D\'entitad,D\'ideal,Da realitad,Virtual,Da natira,Artifizial,Primordial,D\'eternitad,D\'in mument,D\'in mument,Da persistenza,Da midada,Da staziun,Currend,Stoppà,Ardent,Refredond,Flurind,Svanind,Creschend,Murind,Respirond,Suffocond,Brillant,Delicat,Vag,Vag,Transparent,Vag,Splendent,Strani,Unic,Special,Nobil,Pur,Decadent,Solitar,Malinconic,Silenzius,Lontan,Sever,Crudel,Crudel,Grond,Robust,Ferm,Flexibel,Svelt,Lent,En il silenzi,En il caos,En la memoria,En l\'imaginaziun,Silenziond,Tschitschond,Chantond,Saltond,Criond,Riond,Riond ora,Contemplond,Errond,Errond,Sveglià,Durmì,Sognond,Sognond,Delirond,Preghond,Ardents,Dolorus,Desperà,Sublim,Malegn,Vile,Arrogant,Modest,Dultsch,Tepel,Fraid,Spaventaivel,Strani,Spaventaivel,Extatic,Fascinant,Vertiginus,Dultsch,Amar,Amar,Spinusch,Tagliant,Stupì,Ruvid,Moll,Confortabel,Confortabel,Periculus,Inquiet,Paschaivel,Confortabel,Lent,Tedius,Passiunà,Indifferent,Calm,Intensiv,Furius,Fanatic,Furius,Raziunal,Emoziunal,Cler,Sagent,Stupì,Naiv,Malizius,Malizius,Alv pur,Nair sco pichel,Dad aur,D\'argient,Sanguinus';
 
   @override
   String get nicknameSuffixes =>
-      '예언자,마법사,마녀,기사,전사,궁수,도적,암살자,성기사,사제,여사제,수도사,주술사,연금술사,강령술사,정령사,소환사,환술사,치유사,현자,학자,연구자,탐험가,여행자,방랑자,유랑자,순례자,구도자,관찰자,기록자,전달자,수호자,파수꾼,경비병,문지기,심판관,집행관,통치자,지배자,왕,여왕,황제,여제,귀족,영주,기사단장,용병,해적,도둑,사기꾼,광대,바보,은둔자,이단자,배신자,반역자,영웅,구원자,해방자,파괴자,창조자,신,여신,천사,악마,정령,요정,괴물,마수,드래곤,유령,망령,언데드,흡혈귀,늑대인간,인어,세이렌,님프,고블린,오크,트롤,엘프,드워프,거인,소인,인간,수인,조인,어인,용인,악령,수라,나락,천상,명계,이계,심연,혼돈,질서,빛,어둠,구도자,순례자,방랑자,은둔자,이단아,반역자,개척자,정복자,지배자,조율자,수호자,감시자,관찰자,기록자,전달자,안내자,인도자,구원자,파괴자,창조자,망령,유령,원혼,악령,정령,요정,마수,성수,환수,신수,검사,기사,궁수,도적,암살자,마법사,주술사,연금술사,강령술사,사제,학자,연구자,탐험가,여행가,예술가,광대,음유시인,상인,장인,농부,까마귀,부엉이,올빼미,독수리,매,늑대,여우,곰,사자,호랑이,표범,흑표범,살쏅,고양이,강아지,뱀,도마뱀,거북이,악어,용,유니콘,페가수스,그리폰,가고일,고블린,오크,트롤,오거,슬라임,스켈레톤,좀비,구울,뱀파이어,웨어울프,미노타우로스,켄타우로스,하피,세이렌,크라켄,레비아탄,검,방패,창,활,지팡이,반지,목걸이,왕관,성배';
+      'Profet,Mag,Striegn,Chavalier,Guerrier,Arschier,Bandit,Assassino,Paladin,Sacerdot,Sacerdotessa,Mona,Stregliader,Alchemist,Necromant,Spiritist,Evocader,Illusionist,Guarider,Sagent,Scolar,Investigader,Explorader,Viatgader,Vagabund,Vagabund,Pelegrin,Tschertgader,Observader,Registrader,Transmettader,Guardia,Guardia,Guardia,Portier,Giudicader,Executader,Regent,Dominader,Retg,Regina,Imperatur,Imperatura,Nobil,Signur,Cumandant da chavalier,Mercenari,Pirat,Lader,Engianader,Buffun,Stupì,Eremit,Eretic,Traditur,Rebel,Eroe,Salvader,Liberader,Destructur,Creatur,Dieu,Dieua,Anghel,Diavel,Spirt,Fada,Monstrum,Bestia magica,Dragon,Fantasma,Spirt,Undead,Vampir,Lup-uman,Nixa,Sirena,Nimfa,Goblin,Orc,Troll,Elf,Nan,Gigant,Nan,Uman,Uman-bestia,Uman-utschè,Uman-pesch,Uman-dragon,Spirt malign,Asura,Abiss,Tschiel,Mund sutterra,Auter mund,Abiss,Caos,Urden,Glisch,Stgiraglia,Tschertgader,Pelegrin,Vagabund,Eremit,Eretic,Rebel,Pionier,Conquistader,Dominader,Coordinader,Guardia,Survegliader,Observader,Registrader,Transmettader,Guid,Manader,Salvader,Destructur,Creatur,Spirt,Fantasma,Spirt,Spirt malign,Spirt,Fada,Bestia magica,Bestia sontga,Bestia fantastica,Bestia divina,Spadist,Chavalier,Arschier,Lader,Assassino,Mag,Stregliader,Alchemist,Necromant,Sacerdot,Scolar,Investigader,Viatgader,Viatgader,Artist,Buffun,Menestrel,Vendider,Artisan,Pur,Corv,Tschuetta,Tschuetta,Evla,Falcun,Lup,Vulpa,Urs,Liun,Tigra,Pantera,Pantera naira,Lup,Gat,Chaun,Serp,Lizard,Tartaruga,Crocodil,Dragon,Unicorn,Pegasus,Grifon,Garguglia,Goblin,Orc,Troll,Oger,Slime,Schelet,Zombie,Ghoul,Vampir,Lup-uman,Minotaur,Centaur,Harpia,Sirena,Kraken,Leviathan,Spada,Scut,Lantscha,Artg,Bastun,Anel,Collana,Curuna,Sontg Graal';
 
   @override
-  String get eulaTitle => '최종 사용자 라이선스 계약 (EULA)';
+  String get eulaTitle => 'Cuntract da licenza per utilisaders finals (EULA)';
 
   @override
   String get eulaArticle1 =>
-      '제1조 (라이선스 허여)\n본 앱(\"타로마녀\")은 개인적, 비상업적 용도에 한해 사용 권한을 부여하며, 앱의 소유권이나 지적재산권은 이전되지 않습니다.\n\n';
+      'Art. 1 (Concessiun da licenza)\nQuesta app (\"Striegn da Tarot\") conceda il dretg d\'utilisaziun be per intents persunals e betg commerzials, e la proprietad u ils dretgs da proprietad intellectuala da l\'app na vegnan betg transferids.\n\n';
 
   @override
   String get eulaArticle2 =>
-      '제2조 (금지된 사용)\n사용자는 본 서비스를 불법적이거나 타인의 권리를 침해하는 목적으로 사용할 수 없으며, 시스템이나 데이터를 임의로 조작하거나 리버스 엔지니어링할 수 없습니다.\n\n';
+      'Art. 2 (Utilisaziun scumandada)\nL\'utilisader na dastga betg utilisar quest servetsch per intents illegals u che violeschan ils dretgs d\'auters, e na dastga betg manipular il sistem u las datas arbitrariamain u far reverse engineering.\n\n';
 
   @override
   String get eulaArticle3 =>
-      '제3조 (데이터 수집 및 보관 기간)\n원활한 서비스 제공을 위해 사용자가 작성한 타로 일기 및 관련 점괘 데이터는 작성일로부터 기본 3년간 안전하게 보관됩니다.\n\n';
+      'Art. 3 (Culliziun da datas e temp da conservaziun)\nPer garantir in servetsch senza impediments vegnan ils diarins da tarot e las datas d\'orachel correspundentas, scrits da l\'utilisader, conservads segiramain per in temp da basa da 3 onns a partir da la data da scrit.\n\n';
 
   @override
   String get eulaArticle4 =>
-      '제4조 (장기 미접속 휴면 계정 처리)\n사용자가 1년(365일) 이상 서비스에 접속하지 않을 경우 휴면 계정으로 전환되며, 개인정보 보호 및 원활한 서버 환경 유지를 위해 해당 사용자의 모든 데이터는 사전 고지 없이 자동 삭제 처리됩니다.\n\n';
+      'Art. 4 (Tractament da contos inactivs per lunga nunutilisaziun)\nSche l\'utilisader na sa loghetta betg al servetsch per dapli che 1 onn (365 dis), vegn il conto convertì en in conto inactiv, e tut las datas da quest utilisader vegnan stizzadas automaticamain senza preavisch, per proteger las datas persunalas e mantegnair in ambient da server optimal.\n\n';
 
   @override
   String get eulaArticle5 =>
-      '제5조 (데이터 파기 및 복구 불가)\n제3조의 보관 기간이 경과하거나 제4조에 의해 삭제된 데이터는 영구 파기되며 어떠한 경우에도 복구할 수 없습니다.\n\n';
+      'Art. 5 (Distrucziun da datas e nunrestaurabladad)\nDatas che surpassan il temp da conservaziun tenor l\'art. 3 u che vegnan stizzadas tenor l\'art. 4 vegnan destruidas permanentamain e na pon betg vegnir restabilidas en nagin cas.\n\n';
 
   @override
   String get eulaArticle6 =>
-      '제6조 (보증 부인 및 면책)\n본 앱이 제공하는 타로 점괘 및 해석은 오락 목적으로만 제공되며, 법적, 의학적, 재정적 조언을 대체하지 않습니다. 서비스 이용으로 인해 발생하는 어떠한 직간접적인 손해에 대해서도 개발자는 책임을 지지 않습니다.\n\n';
+      'Art. 6 (Exclusiun da garanzia e responsabladad)\nIls orachels da tarot e las interpretaziuns che questa app porscha vegnan mess a disposiziun be per intents d\'intratgniment e na remplazzan betg cussegls legals, medicals u finanzials. Il svilupader na surpiglia nagina responsabladad per donn direct u indirect che resulta da l\'utilisaziun dal servetsch.\n\n';
 
   @override
   String get eulaAgreement =>
-      '위 EULA 내용 및 데이터 관리 정책은 앱 사용을 위해 필수적으로 동의해야 하는 항목입니다.';
+      'Il cuntegn da l\'EULA e las directivas per la gestiun da datas menziunadas survart èn puncts che ston vegnir acceptads obligatoriamain per utilisar l\'app.';
 
   @override
-  String get closeButton => '닫기';
+  String get closeButton => 'Serrar';
 
   @override
-  String get pushTermsTitle => '이벤트 및 마케팅 알림 수신 동의';
+  String get pushTermsTitle =>
+      'Acceptaziun da retschaiver notificaziuns per eveniments e marketing';
 
   @override
   String get pushArticle1 =>
-      '제1조 (목적)\n본 동의는 타로마녀 서비스가 사용자에게 유익한 이벤트, 프로모션, 새로운 운세 업데이트 등의 광고성 정보를 푸시 알림으로 전송하기 위함입니다.\n\n';
+      'Art. 1 (Scopus)\nQuesta acceptaziun serva a trametter a l\'utilisader infurmaziuns da reclama sco eveniments utils, promoziuns e novs orachels da tarot sco notificaziuns push dal servetsch da Striegn da Tarot.\n\n';
 
   @override
   String get pushArticle2 =>
-      '제2조 (수신 철회)\n사용자는 본 수신 동의를 언제든지 앱 내 [내 메뉴 > 앱 설정]에서 철회할 수 있습니다. 동의를 철회하더라도 서비스의 기본 기능(필수 서비스)은 정상적으로 이용 가능합니다.\n\n';
+      'Art. 2 (Revocaziun da la recepziun)\nL\'utilisader po revocar questa acceptaziun da recepziun en mintga mument en l\'app sut [Miun menu > Configuraziuns da l\'app]. Er sch\'il consentiment vegn revocà, pon las funcziuns fundamentalas dal servetsch (servetschs essenzials) vegnir utilisadas normalmain.\n\n';
 
   @override
   String get pushArticle3 =>
-      '제3조 (알림의 내용)\n전송되는 알림에는 앱 내 특별 할인 혜택, 기간 한정 이벤트, 맞춤형 운세 추천 등 광고 및 마케팅 성격의 내용이 포함될 수 있습니다.\n\n';
+      'Art. 3 (Cuntegn da las notificaziuns)\nLas notificaziuns tramessas pon cuntegnair cuntegns da reclama e marketing sco purschidas spezialas en l\'app, eveniments a temp limità e recumandaziuns d\'orachel persunalisadas.\n\n';
 
   @override
   String get pushAgreement =>
-      '위 내용은 사용자의 선택적 동의 사항이며, 미동의 시에도 타로 서비스 이용에는 불이익이 없습니다.';
+      'Il cuntegn menziunà survart è in punct d\'acceptaziun facultativ da l\'utilisader, e sch\'el na vegn betg acceptà, na datti nagins disavantatgs per l\'utilisaziun dal servetsch da tarot.';
 
   @override
   String get windowsNoGoogleLogin =>
-      '미리보기 환경(Windows)에서는 구글 로그인을 지원하지 않습니다. 안드로이드 기기나 웹을 이용해주세요.';
+      'En l\'ambient da prevista (Windows) na vegn il login da Google betg sustegnì. Per plaschair, utilisai in apparat Android u il web.';
 
   @override
-  String get signupTermsRequired => '회원가입을 진행하려면 데이터 보관 약관에 동의해야 합니다.';
+  String get signupTermsRequired =>
+      'Per cuntinuar cun l\'inscripziun, ston las cundiziuns da conservaziun da datas vegnir acceptadas.';
 
   @override
   String googleLoginError(String error) {
-    return '구글 로그인 오류: $error';
+    return 'Sbagl da login da Google: $error';
   }
 
   @override
-  String get googleLoginUnknownError => '구글 로그인 중 알 수 없는 오류가 발생했습니다.';
+  String get googleLoginUnknownError =>
+      'In sbagl nunenconuschent è capità durant il login da Google.';
 
   @override
-  String get windowsNoFirebase => '미리보기 환경(Windows)에서는 파이어베이스 로그인을 지원하지 않습니다.';
+  String get windowsNoFirebase =>
+      'En l\'ambient da prevista (Windows) na vegn il login da Firebase betg sustegnì.';
 
   @override
-  String get emailVerificationRequired => '이메일 인증이 필요합니다. 가입하신 이메일함을 확인해주세요.';
+  String get emailVerificationRequired =>
+      'Autentificaziun d\'e-mail necessaria. Verifitgai voss e-mail d\'inscripziun.';
 
   @override
-  String get resendEmail => '재발송';
+  String get resendEmail => 'Trametter danovamain';
 
   @override
-  String get verificationEmailSent => '인증 메일이 재발송되었습니다.';
+  String get verificationEmailSent =>
+      'L\'e-mail d\'autentificaziun è vegnida tramessa danovamain.';
 
   @override
-  String get passwordMismatch => '비밀번호가 일치하지 않습니다. 다시 확인해 주세요.';
+  String get passwordMismatch =>
+      'La password na correspunda betg. Per plaschair, verifitgai danovamain.';
 
   @override
-  String get signupSuccess => '회원가입이 완료되었습니다. 발송된 이메일을 확인하여 인증을 완료해주세요.';
+  String get signupSuccess =>
+      'L\'inscripziun è terminada. Verifitgai l\'e-mail tramess per terminar l\'autentificaziun.';
 
   @override
-  String get authError => '인증 오류가 발생했습니다.';
+  String get authError => 'In sbagl d\'autentificaziun è capità.';
 
   @override
-  String get authLoginTitle => '로그인';
+  String get authLoginTitle => 'Login';
 
   @override
-  String get authSignupTitle => '회원가입';
+  String get authSignupTitle => 'Inscripziun';
 
   @override
-  String get authTarotNickname => '타로 세계의 닉네임';
+  String get authTarotNickname => 'Num d\'utilisader dal mund da tarot';
 
   @override
-  String get authRerollNickname => '닉네임 다시 뽑기';
+  String get authRerollNickname => 'Tirar danovamain il num d\'utilisader';
 
   @override
-  String get authEmail => '이메일';
+  String get authEmail => 'E-mail';
 
   @override
-  String get authPassword => '비밀번호';
+  String get authPassword => 'Password';
 
   @override
-  String get authConfirmPassword => '비밀번호 확인';
+  String get authConfirmPassword => 'Confermar password';
 
   @override
-  String get authKeepLoggedIn => '로그인 상태 유지';
+  String get authKeepLoggedIn => 'Restar loggà';
 
   @override
-  String get authAgreeEula => '최종 사용자 라이선스 계약(EULA)에 동의합니다. (필수)';
+  String get authAgreeEula =>
+      'Jau accept il Cuntract da licenza per utilisaders finals (EULA). (obligatoric)';
 
   @override
-  String get authViewContent => '[내용 보기]';
+  String get authViewContent => '[Guardar cuntegn]';
 
   @override
-  String get authAgreePush => '새로운 타로점 및 이벤터 알림수신에 동의합니다. (선택)';
+  String get authAgreePush =>
+      'Jau accept da retschaiver notificaziuns per novs orachels da tarot ed eveniments. (facultativ)';
 
   @override
-  String get authBtnLogin => '로그인하기';
+  String get authBtnLogin => 'Loghettar';
 
   @override
-  String get authBtnSignup => '가입하기';
+  String get authBtnSignup => 'S\'inscriver';
 
   @override
-  String get authSwitchToSignup => '계정이 없으신가요? 회원가입';
+  String get authSwitchToSignup => 'Nagin conto? S\'inscriver';
 
   @override
-  String get authSwitchToLogin => '이미 계정이 있으신가요? 로그인';
+  String get authSwitchToLogin => 'Gia in conto? Login';
 
   @override
-  String get authGoogleSignIn => 'Google로 시작하기';
+  String get authGoogleSignIn => 'Cumenzar cun Google';
 
   @override
-  String get cardDetailNotReady => '이 해석은 아직 준비되지 않았습니다.';
+  String get cardDetailNotReady =>
+      'Questa interpretaziun n\'è anc betg pronta.';
 
   @override
-  String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
+  String get cardDetailLoadError =>
+      'In sbagl è capità durant chargiar las datas.';
 
   @override
   String get cardDetailTabUpright => 'Dretg (Upright)';
@@ -3973,143 +4157,144 @@ class AppLocalizationsRm extends AppLocalizations {
   String get cardDetailTabReversed => 'Invertì (Reversed)';
 
   @override
-  String get cardDetailNoInterpretation => '해석이 없습니다.';
+  String get cardDetailNoInterpretation => 'Nagina interpretaziun.';
 
   @override
-  String get cardDetailSectionKeywords => '핵심 키워드';
+  String get cardDetailSectionKeywords => 'Cudeschs-clav essenzials';
 
   @override
-  String get cardDetailSectionGeneral => '일반 해석';
+  String get cardDetailSectionGeneral => 'Interpretaziun generala';
 
   @override
-  String get cardDetailSectionLove => '연애 운';
+  String get cardDetailSectionLove => 'Orachel d\'amur';
 
   @override
-  String get cardDetailSectionCareer => '금전 커리어';
+  String get cardDetailSectionCareer => 'Finanzas e carriera';
 
   @override
-  String get cardDetailSectionHealth => '건강';
+  String get cardDetailSectionHealth => 'Sanadad';
 
   @override
-  String get cardDetailSectionSpirituality => '영성 내면';
+  String get cardDetailSectionSpirituality => 'Spiritualitad interna';
 
   @override
-  String get chatDustShortageTitle => 'lack of powder';
+  String get chatDustShortageTitle => 'Mancanza da pulver';
 
   @override
   String get chatDustShortageContent =>
-      'There is not enough magic powder. Tarot reading requires 1 powder.';
+      'Betg avunda pulver magic. Per ina lectura da tarot è necessari 1 toc pulver.';
 
   @override
-  String get chatConfirmBtn => 'check';
+  String get chatConfirmBtn => 'Confermar';
 
   @override
-  String get chatStartReadingTitle => 'Start tarot reading';
+  String get chatStartReadingTitle => 'Cumenzar lectura da tarot';
 
   @override
   String get chatStartReadingContent =>
-      'Would you like to spend 1 powder to start a tarot reading?';
+      'Vulais cumenzar la lectura da tarot cun consumar 1 toc pulver?';
 
   @override
-  String get chatCancelBtn => 'cancellation';
+  String get chatCancelBtn => 'Annullar';
 
   @override
-  String get chatStartBtn => 'start';
+  String get chatStartBtn => 'Cumenzar';
 
   @override
-  String get chatShufflingCards => 'Shuffling tarot cards...';
+  String get chatShufflingCards => 'Las chartas da tarot vegnan maschadadas...';
 
   @override
-  String get profileEditEmptyNickname => 'Please enter a nickname.';
+  String get profileEditEmptyNickname =>
+      'Per plaschair, entrai in num d\'utilisader.';
 
   @override
   String get profileEditDuplicateNickname =>
-      'Nickname is already in use. Please enter a different nickname.';
+      'Quest num d\'utilisader è gia en utilisaziun. Per plaschair, entrai in auter num d\'utilisader.';
 
   @override
   String get profileEditEmptyPassword =>
-      'Please enter your current password to change your email.';
+      'Per midar l\'e-mail, per plaschair, entrai la password actuala.';
 
   @override
   String get profileEditEmailSent =>
-      'Verification email has been sent. Please complete verification in your new email inbox.';
+      'In e-mail d\'autentificaziun è vegnì tramess. Per plaschair, terminai l\'autentificaziun en voss nov e-mail.';
 
   @override
-  String get profileEditSuccess => 'Profile has been saved.';
+  String get profileEditSuccess => 'Il profil è vegnì memorisà.';
 
   @override
-  String get profileEditErrorDefault => 'An error occurred.';
+  String get profileEditErrorDefault => 'In sbagl è capità.';
 
   @override
-  String get profileEditErrorWrongPassword => 'Incorrect password.';
+  String get profileEditErrorWrongPassword => 'La password è fallada.';
 
   @override
-  String get profileEditErrorInvalidEmail => 'Invalid email format.';
+  String get profileEditErrorInvalidEmail => 'Format d\'e-mail nunvalid.';
 
   @override
-  String get profileEditErrorEmailInUse => 'Email is already in use.';
+  String get profileEditErrorEmailInUse => 'Quest e-mail è gia en utilisaziun.';
 
   @override
   String get profileEditErrorRecentLogin =>
-      'For security reasons, please log in again and try.';
+      'Per raschuns da segirezza, per plaschair, loghettai danovamain ed emprovai.';
 
   @override
   String profileEditErrorUnknown(String error) {
-    return 'Unknown error occurred while saving: $error';
+    return 'In sbagl nunenconuschent è capità durant la memorisaziun: $error';
   }
 
   @override
-  String get profileEditTitle => 'Edit Profile';
+  String get profileEditTitle => 'Modifitgar profil';
 
   @override
-  String get profileEditPhoto => 'Profile Photo';
+  String get profileEditPhoto => 'Fotografia da profil';
 
   @override
-  String get profileEditNickname => 'Nickname';
+  String get profileEditNickname => 'Num d\'utilisader';
 
   @override
-  String get profileEditEmail => 'Email Address';
+  String get profileEditEmail => 'Adressa d\'e-mail';
 
   @override
   String get profileEditEmailSocialHint =>
-      'Google/Apple linked accounts cannot change email.';
+      'Contos colliads cun Google/Apple na pon betg midar l\'e-mail.';
 
   @override
   String get profileEditEmailChangeHint =>
-      'A verification email will be sent when changing email.';
+      'Tar ina midada d\'e-mail vegn tramess in e-mail da conferma.';
 
   @override
   String get profileEditPassword =>
-      'Current Password (for email change verification)';
+      'Password actuala (per confermar la midada d\'e-mail)';
 
   @override
-  String get profileEditCancel => 'Cancel';
+  String get profileEditCancel => 'Annullar';
 
   @override
-  String get profileEditSave => 'Save';
+  String get profileEditSave => 'Memorisar';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'Mancanza da coins';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'Betg avunda coins. Per ina lectura da tarot è necessari 1 coin.';
 
   @override
-  String get dialogOk => 'OK';
+  String get dialogOk => 'Confermar';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'Cuntinuar lectura da tarot';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'Vulais cuntinuar la lectura cun consumar 1 coin?';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'Annullar';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'Cuntinuar';
 
   @override
   String pickCardsText(int count) {
@@ -4127,7 +4312,7 @@ class AppLocalizationsRm extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return 'Orachel da tarot da $witchName';
   }
 
   @override
@@ -4155,10 +4340,31 @@ class AppLocalizationsRm extends AppLocalizations {
       '✨ Guarda mes resultats da la lectura da tarot!\\n\\nSche ti vul savair dapli davart la lectura, installescha l\'app Tarot Witch e controlla la lectura da tarot per te sez!\\n👉 Telechargiar: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 
   @override
-  String get buttonTranslate => 'Traducir';
+  String get buttonTranslate => 'Translatescha';
 
   @override
   String translateFailed(String error) {
     return 'La traducziun è fallada: $error';
   }
+
+  @override
+  String get tagLove => 'Amur';
+
+  @override
+  String get tagMoney => 'Bain';
+
+  @override
+  String get tagHealth => 'Salid';
+
+  @override
+  String get tagCareer => 'Carriera';
+
+  @override
+  String get tagToday => 'Oz';
+
+  @override
+  String get tagRelationship => 'Relaziuns';
+
+  @override
+  String get tagSelfReflection => 'Reflexiun';
 }

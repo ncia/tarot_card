@@ -4322,4 +4322,25 @@ class AppLocalizationsEn extends AppLocalizations {
   String translateFailed(String error) {
     return 'Translation failed: $error';
   }
+
+  @override
+  String get tagLove => 'Love';
+
+  @override
+  String get tagMoney => 'Wealth';
+
+  @override
+  String get tagHealth => 'Health';
+
+  @override
+  String get tagCareer => 'Career';
+
+  @override
+  String get tagToday => 'Today\'s Fortune';
+
+  @override
+  String get tagRelationship => 'Relationships';
+
+  @override
+  String get tagSelfReflection => 'Self-Reflection';
 }

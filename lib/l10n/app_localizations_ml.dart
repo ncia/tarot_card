@@ -4271,27 +4271,26 @@ class AppLocalizationsMl extends AppLocalizations {
   String get profileEditSave => 'സംരക്ഷിക്കുക';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'കോയിൻ കുറവ്';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'കോയിൻ കുറവാണ്. ടാരോട്ട് റീഡിംഗിന് 1 കോയിൻ ആവശ്യമാണ്.';
 
   @override
-  String get dialogOk => 'OK';
+  String get dialogOk => 'ശരി';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'ടാരോട്ട് റീഡിംഗ് തുടരുക';
 
   @override
-  String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+  String get proceedReadingContent => '1 കോയിൻ ഉപയോഗിച്ച് റീഡിംഗ് തുടരണോ?';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'റദ്ദാക്കുക';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'തുടരുക';
 
   @override
   String pickCardsText(int count) {
@@ -4309,7 +4308,7 @@ class AppLocalizationsMl extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return '$witchNameന്റെ ടാരോട്ട് റീഡിംഗ്';
   }
 
   @override
@@ -4337,10 +4336,31 @@ class AppLocalizationsMl extends AppLocalizations {
       '✨ എന്റെ ടാരോട്ട് ഫലം പരിശോധിക്കുക!\\n\\nവിശദമായ ഫലം അറിയണമെങ്കിൽ, ടാരോട്ട് വിച്ച് ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്ത് നിങ്ങളുടെ ടാരോട്ട് ഫലം നേരിട്ട് പരിശോധിക്കുക!\\n👉 ഡൗൺലോഡ്: https://play.google.com/store/apps/details?id=com.ncia.tarot_card';
 
   @override
-  String get buttonTranslate => 'පරිවර්තනය කරන්න';
+  String get buttonTranslate => 'വിവർത്തനം ചെയ്യുക';
 
   @override
   String translateFailed(String error) {
     return 'පරිවර්තනය අසාර්ථක විය: $error';
   }
+
+  @override
+  String get tagLove => 'സ്നേഹം';
+
+  @override
+  String get tagMoney => 'സമ്പത്ത്';
+
+  @override
+  String get tagHealth => 'ആരോഗ്യം';
+
+  @override
+  String get tagCareer => 'തൊഴിൽ';
+
+  @override
+  String get tagToday => 'ഭാഗ്യം';
+
+  @override
+  String get tagRelationship => 'ബന്ധം';
+
+  @override
+  String get tagSelfReflection => 'ആത്മചിന്ത';
 }

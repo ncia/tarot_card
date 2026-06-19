@@ -1417,7 +1417,7 @@
   "layoutStacked": "مكدس",
   "readingFateFragments": "جاري قراءة شظايا القدر.",
   "magicDustObtained": "تم الحصول على غبار سحري +{amount}! ✨",
-  "buttonTranslate": "ترجمة",
+  "buttonTranslate": "ترجم",
   "translateFailed": "فشل الترجمة: {error}",
   "@translateFailed": {
     "placeholders": {

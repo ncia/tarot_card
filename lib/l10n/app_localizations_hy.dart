@@ -1304,7 +1304,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get myMenuSectionAppSettings => 'Հավելվածի կարգավորումներ';
 
   @override
-  String get myMenuPushNotifications => 'Push Notifications';
+  String get myMenuPushNotifications => 'Ստանալ ծանուցումներ';
 
   @override
   String get myMenuPushNotificationsDesc =>
@@ -1383,13 +1383,13 @@ class AppLocalizationsHy extends AppLocalizations {
   String get themeOriginalDeck => 'Օրիգինալ դասական տախտակամած';
 
   @override
-  String get themeGoldenSunDeck => 'Golden Sun Deck';
+  String get themeGoldenSunDeck => 'Ոսկե արևի տախտակամած';
 
   @override
-  String get themeDarkAbyssDeck => 'Dark Abyss Deck';
+  String get themeDarkAbyssDeck => 'Մութ անդունդի տախտակամած';
 
   @override
-  String get themeSpringSpiritDeck => 'Spring Spirit Deck';
+  String get themeSpringSpiritDeck => 'Գարնանային ոգու տախտակամած';
 
   @override
   String shopCoinNotReady(int coins) {
@@ -1581,7 +1581,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknamePrefix53 => 'սուրբ';
 
   @override
-  String get nicknamePrefix54 => 'profane';
+  String get nicknamePrefix54 => 'Անբարեպաշտ';
 
   @override
   String get nicknamePrefix55 => 'վերադաս';
@@ -2250,7 +2250,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknameSuffix75 => 'ջրահարս';
 
   @override
-  String get nicknameSuffix76 => 'siren';
+  String get nicknameSuffix76 => 'Սիրեն';
 
   @override
   String get nicknameSuffix77 => 'նիմֆա';
@@ -2283,10 +2283,10 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknameSuffix86 => 'բանտարկյալ';
 
   @override
-  String get nicknameSuffix87 => 'signature';
+  String get nicknameSuffix87 => 'Թռչուն մարդ';
 
   @override
-  String get nicknameSuffix88 => 'Fishman';
+  String get nicknameSuffix88 => 'Ձուկ մարդ';
 
   @override
   String get nicknameSuffix89 => 'աշխատող';
@@ -2295,16 +2295,16 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknameSuffix90 => 'չար ոգի';
 
   @override
-  String get nicknameSuffix91 => 'Sura';
+  String get nicknameSuffix91 => 'Ասուրա';
 
   @override
-  String get nicknameSuffix92 => 'hell';
+  String get nicknameSuffix92 => 'Դժոխք';
 
   @override
-  String get nicknameSuffix93 => 'heaven';
+  String get nicknameSuffix93 => 'Երկնային';
 
   @override
-  String get nicknameSuffix94 => 'underworld';
+  String get nicknameSuffix94 => 'Ստորգետնյա աշխար0հ';
 
   @override
   String get nicknameSuffix95 => 'Այլաշխարհ';
@@ -2319,7 +2319,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknameSuffix98 => 'պատվեր';
 
   @override
-  String get nicknameSuffix99 => 'light';
+  String get nicknameSuffix99 => 'Լույս';
 
   @override
   String get nicknameSuffix100 => 'մութ';
@@ -2328,10 +2328,10 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknamePrefix201 => 'փայլուն';
 
   @override
-  String get nicknamePrefix202 => 'subtle';
+  String get nicknamePrefix202 => 'Նուրբ';
 
   @override
-  String get nicknamePrefix203 => 'hazy';
+  String get nicknamePrefix203 => 'Մշուշոտ';
 
   @override
   String get nicknamePrefix204 => 'ուշաթափվել';
@@ -2406,7 +2406,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknamePrefix227 => 'լռության մեջ';
 
   @override
-  String get nicknamePrefix228 => 'in chaos';
+  String get nicknamePrefix228 => 'Քաոսի մեջ';
 
   @override
   String get nicknamePrefix229 => 'հիշողության մեջ';
@@ -2514,10 +2514,10 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknamePrefix263 => 'գլխապտույտ առաջացնող';
 
   @override
-  String get nicknamePrefix264 => 'sweetish';
+  String get nicknamePrefix264 => 'Քաղցր';
 
   @override
-  String get nicknamePrefix265 => 'bitter';
+  String get nicknamePrefix265 => 'Դառը-քաղցր';
 
   @override
   String get nicknamePrefix266 => 'դառը';
@@ -2592,7 +2592,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknamePrefix289 => 'սառնասրտ';
 
   @override
-  String get nicknamePrefix290 => 'sensible';
+  String get nicknamePrefix290 => 'Իմաստուն';
 
   @override
   String get nicknamePrefix291 => 'հիմար';
@@ -2883,7 +2883,7 @@ class AppLocalizationsHy extends AppLocalizations {
   String get nicknameSuffix187 => 'հարպիա';
 
   @override
-  String get nicknameSuffix188 => 'siren';
+  String get nicknameSuffix188 => 'Սիրեն';
 
   @override
   String get nicknameSuffix189 => 'Կրակեն';
@@ -4265,27 +4265,27 @@ class AppLocalizationsHy extends AppLocalizations {
   String get profileEditSave => 'Պահպանել';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'Մետաղադրամների պակաս';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'Մետաղադրամները բավարար չեն։ Տարոյի ընթերցման համար անհրաժեշտ է 1 մետաղադրամ։';
 
   @override
-  String get dialogOk => 'OK';
+  String get dialogOk => 'Հաստատել';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'Շարունակել տարոյի ընթերցումը';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'Ցանկանու՞մ եք շարունակել ընթերցումը՝ ծախսելով 1 մետաղադրամ։';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'Չեղարկել';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'Շարունակել';
 
   @override
   String pickCardsText(int count) {
@@ -4303,7 +4303,7 @@ class AppLocalizationsHy extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return '$witchName-ի տարոյի գուշակություն';
   }
 
   @override
@@ -4337,4 +4337,25 @@ class AppLocalizationsHy extends AppLocalizations {
   String translateFailed(String error) {
     return 'Թարգմանությունը ձախողվեց: $error';
   }
+
+  @override
+  String get tagLove => 'Սեր';
+
+  @override
+  String get tagMoney => 'Հարստություն';
+
+  @override
+  String get tagHealth => 'Առողջություն';
+
+  @override
+  String get tagCareer => 'Կարիերա';
+
+  @override
+  String get tagToday => 'Օրվա բախտ';
+
+  @override
+  String get tagRelationship => 'Հարաբերություններ';
+
+  @override
+  String get tagSelfReflection => 'Ինքնաքննություն';
 }

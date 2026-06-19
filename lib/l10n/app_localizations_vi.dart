@@ -4162,4 +4162,25 @@ class AppLocalizationsVi extends AppLocalizations {
   String translateFailed(String error) {
     return 'Dịch thất bại: $error';
   }
+
+  @override
+  String get tagLove => 'Tình yêu';
+
+  @override
+  String get tagMoney => 'Tài lộc';
+
+  @override
+  String get tagHealth => 'Sức khỏe';
+
+  @override
+  String get tagCareer => 'Sự nghiệp';
+
+  @override
+  String get tagToday => 'Vận may hôm nay';
+
+  @override
+  String get tagRelationship => 'Mối quan hệ';
+
+  @override
+  String get tagSelfReflection => 'Tự vấn';
 }

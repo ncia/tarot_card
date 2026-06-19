@@ -64,7 +64,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get positionOneCard => 'Die heutige Karte';
 
   @override
-  String get positionTwoCard1 => '1. Situation';
+  String get positionTwoCard1 => '1. Aktuelle Situation';
 
   @override
   String get positionTwoCard2 => '2. Ratschläge';
@@ -79,7 +79,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get positionThreeCard3 => 'Zukunft';
 
   @override
-  String get positionFourCard1 => '1. Problem';
+  String get positionFourCard1 => '1. Aktuelle Situation und Probleme';
 
   @override
   String get positionFourCard2 => '2. Ursache';
@@ -1325,7 +1325,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get myMenuSectionCustomerSupport => 'Kundensupport';
 
   @override
-  String get myMenuFaq => 'FAQ';
+  String get myMenuFaq => 'Häufig gestellte Fragen (FAQ)';
 
   @override
   String get myMenuAppInfo => 'App-Info';
@@ -1502,7 +1502,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix26 => 'gräulich';
 
   @override
-  String get nicknamePrefix27 => 'golden';
+  String get nicknamePrefix27 => 'Golden';
 
   @override
   String get nicknamePrefix28 => 'Silber';
@@ -1523,7 +1523,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix33 => 'Weiß';
 
   @override
-  String get nicknamePrefix34 => 'transparent';
+  String get nicknamePrefix34 => 'Transparent';
 
   @override
   String get nicknamePrefix35 => 'einsam';
@@ -1535,7 +1535,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix37 => 'ruhig';
 
   @override
-  String get nicknamePrefix38 => 'warm';
+  String get nicknamePrefix38 => 'Warm';
 
   @override
   String get nicknamePrefix39 => 'eisig';
@@ -1811,7 +1811,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix129 => 'der Vernunft';
 
   @override
-  String get nicknamePrefix130 => 'emotional';
+  String get nicknamePrefix130 => 'Der Emotionen';
 
   @override
   String get nicknamePrefix131 => 'der Liebe';
@@ -1961,7 +1961,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix179 => 'Ideal';
 
   @override
-  String get nicknamePrefix180 => 'real';
+  String get nicknamePrefix180 => 'Der Realität';
 
   @override
   String get nicknamePrefix181 => 'imaginär';
@@ -2339,7 +2339,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix204 => 'schwach';
 
   @override
-  String get nicknamePrefix205 => 'transparent';
+  String get nicknamePrefix205 => 'Transparent';
 
   @override
   String get nicknamePrefix206 => 'schwach';
@@ -2483,7 +2483,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix252 => 'bedeuten';
 
   @override
-  String get nicknamePrefix253 => 'arrogant';
+  String get nicknamePrefix253 => 'Arrogant';
 
   @override
   String get nicknamePrefix254 => 'bescheiden';
@@ -2492,7 +2492,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix255 => 'gern';
 
   @override
-  String get nicknamePrefix256 => 'warm';
+  String get nicknamePrefix256 => 'Warm';
 
   @override
   String get nicknamePrefix257 => 'Cool';
@@ -2519,7 +2519,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix264 => 'süßlich';
 
   @override
-  String get nicknamePrefix265 => 'bitter';
+  String get nicknamePrefix265 => 'Bitter-süß';
 
   @override
   String get nicknamePrefix266 => 'bitter';
@@ -2567,7 +2567,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix280 => 'leidenschaftlich';
 
   @override
-  String get nicknamePrefix281 => 'nonchalant';
+  String get nicknamePrefix281 => 'Gleichgültig';
 
   @override
   String get nicknamePrefix282 => 'still';
@@ -2585,10 +2585,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix286 => 'verrückt geworden';
 
   @override
-  String get nicknamePrefix287 => 'rational';
+  String get nicknamePrefix287 => 'Rational';
 
   @override
-  String get nicknamePrefix288 => 'emotional';
+  String get nicknamePrefix288 => 'Emotional';
 
   @override
   String get nicknamePrefix289 => 'kühl im Kopf';
@@ -2615,7 +2615,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknamePrefix296 => 'tiefschwarz';
 
   @override
-  String get nicknamePrefix297 => 'golden';
+  String get nicknamePrefix297 => 'Golden';
 
   @override
   String get nicknamePrefix298 => 'Silber';
@@ -2636,7 +2636,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknameSuffix104 => 'Einsiedler';
 
   @override
-  String get nicknameSuffix105 => 'Ethan';
+  String get nicknameSuffix105 => 'Außenseiter';
 
   @override
   String get nicknameSuffix106 => 'Verräter';
@@ -2711,7 +2711,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get nicknameSuffix129 => 'Erstattung';
 
   @override
-  String get nicknameSuffix130 => 'Shinsu';
+  String get nicknameSuffix130 => 'Göttliches Tier';
 
   @override
   String get nicknameSuffix131 => 'prüfen';
@@ -3131,16 +3131,19 @@ class AppLocalizationsDe extends AppLocalizations {
   String get tarotMajor00Name => 'Der Narr';
 
   @override
-  String get tarotMajor00Upright => '새로운 모험, 무한한 가능성, 자유, 순수함';
+  String get tarotMajor00Upright =>
+      'Neuanfang, Abenteuer, unendliche Möglichkeiten, Freiheit, Reinheit';
 
   @override
-  String get tarotMajor00Reversed => '무모함, 어리석음, 부주의, 너무 큰 위험을 감수함, 비현실성';
+  String get tarotMajor00Reversed =>
+      'Rücksichtslosigkeit, Torheit, Unachtsamkeit, zu große Risikobereitschaft, Unrealismus';
 
   @override
   String get tarotMajor01Name => 'Der Zauberer';
 
   @override
-  String get tarotMajor01Upright => '창조력, 의지, 능력, 새로운 작의 힘, 창로운';
+  String get tarotMajor01Upright =>
+      'Kreativität, Wille, Fähigkeit, Kraft des Neuanfangs, Entschlossenheit';
 
   @override
   String get tarotMajor01Reversed => 'Zeit, Zeit, Zeit, Zeit, Zeit, Zeit';
@@ -3149,439 +3152,536 @@ class AppLocalizationsDe extends AppLocalizations {
   String get tarotMajor02Name => 'Die Hohepriesterin';
 
   @override
-  String get tarotMajor02Upright => '직관, 무의식, 신비, 지혜, 내면의 목소리';
+  String get tarotMajor02Upright =>
+      'Intuition, Unterbewusstsein, Geheimnis, Weisheit, innere Stimme';
 
   @override
-  String get tarotMajor02Reversed => '직관 무식, 얕은 지식, 숨겨진 적, 비밀 누설';
+  String get tarotMajor02Reversed =>
+      'Ignorieren der Intuition, oberflächliches Wissen, versteckte Feinde, Geheimnisverrat';
 
   @override
   String get tarotMajor03Name => 'Die Kaiserin';
 
   @override
-  String get tarotMajor03Upright => '풍요, 모성애, 아름다움, 자연의 결실, 창조성';
+  String get tarotMajor03Upright =>
+      'Fülle, Mütterlichkeit, Schönheit, Früchte der Natur, Kreativität';
 
   @override
-  String get tarotMajor03Reversed => '볼잉보호, 의존성, 창조적 결핍, 게으름, 정체기';
+  String get tarotMajor03Reversed =>
+      'Überfürsorge, Abhängigkeit, kreativer Mangel, Faulheit, Stagnation';
 
   @override
   String get tarotMajor04Name => 'Der Kaiser';
 
   @override
-  String get tarotMajor04Upright => '붌위, 구조, 안정, 부성애, 통제력, 책임감';
+  String get tarotMajor04Upright =>
+      'Autorität, Struktur, Stabilität, Väterlichkeit, Kontrolle, Verantwortung';
 
   @override
-  String get tarotMajor04Reversed => '독재, 지배욕, 융통성 부족, 무능함, 억압';
+  String get tarotMajor04Reversed =>
+      'Diktatur, Herrschsucht, mangelnde Flexibilität, Inkompetenz, Unterdrückung';
 
   @override
   String get tarotMajor05Name => 'Der Hierophant';
 
   @override
-  String get tarotMajor05Upright => '전통, 믿음, 교육, 영적인 인도, 보수주의';
+  String get tarotMajor05Upright =>
+      'Tradition, Glaube, Bildung, spirituelle Führung, Konservatismus';
 
   @override
-  String get tarotMajor05Reversed => '반역, 나습 타파, 독단적 태도, 낡은 사상, 나쁜 조언';
+  String get tarotMajor05Reversed =>
+      'Rebellion, Bruch mit Konventionen, dogmatische Haltung, veraltete Ideen, schlechter Rat';
 
   @override
   String get tarotMajor06Name => 'Die Liebenden';
 
   @override
-  String get tarotMajor06Upright => '사랑, 조화, 관계, 중요한 선택, 신뢰';
+  String get tarotMajor06Upright =>
+      'Liebe, Harmonie, Beziehungen, wichtige Entscheidungen, Vertrauen';
 
   @override
-  String get tarotMajor06Reversed => '불화, 잘못된 선택, 신뢰 상실, 유혹, 불균형';
+  String get tarotMajor06Reversed =>
+      'Zwietracht, falsche Entscheidungen, Vertrauensverlust, Versuchung, Ungleichgewicht';
 
   @override
   String get tarotMajor07Name => 'Der Streitwagen';
 
   @override
-  String get tarotMajor07Upright => '의지, 승리, 방단력, 방향성, 성공을 향한 추진력';
+  String get tarotMajor07Upright =>
+      'Wille, Sieg, Entschlossenheit, Richtung, Antrieb zum Erfolg';
 
   @override
-  String get tarotMajor07Reversed => '통제 상실, 방향 상실, 무기력, 공격성, 방애물';
+  String get tarotMajor07Reversed =>
+      'Kontrollverlust, Orientierungsverlust, Hilflosigkeit, Aggression, Hindernisse';
 
   @override
   String get tarotMajor08Name => 'Stärke';
 
   @override
-  String get tarotMajor08Upright => '용기, 인내, 내면의 힘, 부드러운 통제, 자비';
+  String get tarotMajor08Upright =>
+      'Mut, Geduld, innere Stärke, sanfte Kontrolle, Barmherzigkeit';
 
   @override
-  String get tarotMajor08Reversed => '두려움, 나약함, 자기 통제력 상실, 충동, 자만심';
+  String get tarotMajor08Reversed =>
+      'Angst, Schwäche, Verlust der Selbstkontrolle, Impulsivität, Arroganz';
 
   @override
   String get tarotMajor09Name => 'Der Einsiedler';
 
   @override
-  String get tarotMajor09Upright => '내면 탐구, 지혜, 날독, 내달음, 영적 조언자';
+  String get tarotMajor09Upright =>
+      'Innere Suche, Weisheit, Einsamkeit, Erleuchtung, spiritueller Berater';
 
   @override
-  String get tarotMajor09Reversed => '어리석은 고집, 은둔';
+  String get tarotMajor09Reversed =>
+      'Isolation, Einsamkeit, Realitätsflucht, dumme Sturheit, Rückzug';
 
   @override
   String get tarotMajor10Name => 'Glücksrad';
 
   @override
-  String get tarotMajor10Upright => '전환점, 운명, 행운, 끊임없는 변화, 기회';
+  String get tarotMajor10Upright =>
+      'Wendepunkt, Schicksal, Glück, ständiger Wandel, Gelegenheit';
 
   @override
-  String get tarotMajor10Reversed => '불운, 저항, 통제할 수 없는 변화, 불행의 반복';
+  String get tarotMajor10Reversed =>
+      'Unglück, Widerstand, unkontrollierbare Veränderungen, Wiederholung des Unglücks';
 
   @override
   String get tarotMajor11Name => 'Gerechtigkeit';
 
   @override
-  String get tarotMajor11Upright => '복정함, 진실, 인과응보, 췠형, 합리적 결정';
+  String get tarotMajor11Upright =>
+      'Gerechtigkeit, Wahrheit, Karma, Gleichgewicht, rationale Entscheidungen';
 
   @override
-  String get tarotMajor11Reversed => '불공평, 편견, 부정직, 피할 수 없는 처벌, 불균형';
+  String get tarotMajor11Reversed =>
+      'Ungerechtigkeit, Vorurteile, Unehrlichkeit, unvermeidliche Bestrafung, Ungleichgewicht';
 
   @override
   String get tarotMajor12Name => 'Der Gehängte';
 
   @override
-  String get tarotMajor12Upright => '희생, 새로운 정지, 다림, 통찰, 일적 정지';
+  String get tarotMajor12Upright =>
+      'Opfer, neue Perspektive, Warten, Einsicht, vorübergehender Stillstand';
 
   @override
-  String get tarotMajor12Reversed => '무의미한 희생, 지연, 발전을 거부함, 이기주의';
+  String get tarotMajor12Reversed =>
+      'Sinnloses Opfer, Verzögerung, Verweigerung des Fortschritts, Egoismus';
 
   @override
   String get tarotMajor13Name => 'Tod';
 
   @override
-  String get tarotMajor13Upright => '끝과 새로운 운작, 변화, 전환기, 과거 청산';
+  String get tarotMajor13Upright =>
+      'Ende und Neuanfang, Veränderung, Übergangszeit, Bereinigung der Vergangenheit';
 
   @override
-  String get tarotMajor13Reversed => '변화에 대한 저항, 정체, 낡은 것에 집착, 두려움';
+  String get tarotMajor13Reversed =>
+      'Widerstand gegen Veränderungen, Stagnation, Festhalten am Alten, Angst';
 
   @override
   String get tarotMajor14Name => 'Mäßigkeit';
 
   @override
-  String get tarotMajor14Upright => '조화, 균형, 중용, 치유, 목적 의식';
+  String get tarotMajor14Upright =>
+      'Harmonie, Gleichgewicht, Mäßigung, Heilung, Sinnhaftigkeit';
 
   @override
-  String get tarotMajor14Reversed => '불균형, 무절제, 불단적인 행동, 부조화, 갈등';
+  String get tarotMajor14Reversed =>
+      'Ungleichgewicht, Maßlosigkeit, extremes Verhalten, Disharmonie, Konflikt';
 
   @override
   String get tarotMajor15Name => 'Der Teufel';
 
   @override
-  String get tarotMajor15Upright => '집착, 물질주의, 속박, 유혹, 파괴적 욕망';
+  String get tarotMajor15Upright =>
+      'Besessenheit, Materialismus, Fesselung, Versuchung, destruktive Begierden';
 
   @override
-  String get tarotMajor15Reversed => '해방, 속박에서 벗어남, 독립, 달음, 자유';
+  String get tarotMajor15Reversed =>
+      'Befreiung, Loslösung von Fesseln, Unabhängigkeit, Erleuchtung, Freiheit';
 
   @override
   String get tarotMajor16Name => 'Der Turm';
 
   @override
-  String get tarotMajor16Upright => '갑작스러운 변화, 파괴, 해방, 계러운, 붕괴';
+  String get tarotMajor16Upright =>
+      'Plötzliche Veränderung, Zerstörung, Befreiung, Offenbarung, Zusammenbruch';
 
   @override
-  String get tarotMajor16Reversed => '재난의 회피, 피할 수 없는 변화의 지연, 경고 무연';
+  String get tarotMajor16Reversed =>
+      'Vermeidung einer Katastrophe, Verzögerung unvermeidlicher Veränderungen, Ignorieren von Warnungen';
 
   @override
   String get tarotMajor17Name => 'Der Stern';
 
   @override
-  String get tarotMajor17Upright => '희망, 영감, 평온, 치유와 긍정, 영적 인도';
+  String get tarotMajor17Upright =>
+      'Hoffnung, Inspiration, Gelassenheit, Heilung und Positivität, spirituelle Führung';
 
   @override
-  String get tarotMajor17Reversed => '절망, 실망, 영감 부족, 비관주의, 혼란';
+  String get tarotMajor17Reversed =>
+      'Verzweiflung, Enttäuschung, Mangel an Inspiration, Pessimismus, Verwirrung';
 
   @override
   String get tarotMajor18Name => 'Der Mond';
 
   @override
-  String get tarotMajor18Upright => '불안, 환상, 직관, 숨겨진 진실, 기만';
+  String get tarotMajor18Upright =>
+      'Angst, Illusion, Intuition, verborgene Wahrheit, Täuschung';
 
   @override
-  String get tarotMajor18Reversed => '두려움의 극복, 비밀의 발견, 불안 해소, 진실 규명';
+  String get tarotMajor18Reversed =>
+      'Überwindung der Angst, Entdeckung von Geheimnissen, Auflösung von Ängsten, Aufklärung der Wahrheit';
 
   @override
   String get tarotMajor19Name => 'Die Sonne';
 
   @override
-  String get tarotMajor19Upright => '성공, 긍정, 활력, 행복과 성취, 기쁨';
+  String get tarotMajor19Upright =>
+      'Erfolg, Positivität, Vitalität, Glück und Erfüllung, Freude';
 
   @override
-  String get tarotMajor19Reversed => '지연된 성공, 활력 저하, 슬픔의 이면';
+  String get tarotMajor19Reversed =>
+      'Verzögerter Erfolg, Übertreibung, verminderte Vitalität, die Kehrseite der Traurigkeit';
 
   @override
   String get tarotMajor20Name => 'Urteil';
 
   @override
-  String get tarotMajor20Upright => '부활, 낰단, 용서, 새로운 소명, 내적 각성';
+  String get tarotMajor20Upright =>
+      'Wiedergeburt, Entschlossenheit, Vergebung, neue Berufung, innere Erweckung';
 
   @override
-  String get tarotMajor20Reversed => '후회, 자기 의심, 변화에 대한 두려움, 미련, 형벌';
+  String get tarotMajor20Reversed =>
+      'Reue, Selbstzweifel, Angst vor Veränderungen, Bedauern, Bestrafung';
 
   @override
   String get tarotMajor21Name => 'Die Welt';
 
   @override
-  String get tarotMajor21Upright => '완성, 성취, 통합, 새로운 차원, 성공적인 마무리';
+  String get tarotMajor21Upright =>
+      'Vollendung, Erfüllung, Integration, neue Dimension, erfolgreicher Abschluss';
 
   @override
-  String get tarotMajor21Reversed => '미완성, 연기, 정체, 성공에 대한 두려움, 지연';
+  String get tarotMajor21Reversed =>
+      'Unvollendet, Aufschub, Stagnation, Angst vor Erfolg, Verzögerung';
 
   @override
   String get tarotCups01Name => 'Ass der Pokale';
 
   @override
-  String get tarotCups01Upright => '새로운 감정, 사랑의 Ԁ작, 직관, 영적 충만함';
+  String get tarotCups01Upright =>
+      'Neue Gefühle, Beginn der Liebe, Intuition, spirituelle Fülle';
 
   @override
-  String get tarotCups01Reversed => '찐정의 차단, 사랑받지 못함, 뵬허함, 슬픔';
+  String get tarotCups01Reversed =>
+      'Blockade von Gefühlen, Unerfüllte Liebe, Leere, Traurigkeit';
 
   @override
   String get tarotCups02Name => 'Zwei Pokale';
 
   @override
-  String get tarotCups02Upright => '상호 조화, 결합, 사랑, 상호 존중, 협력';
+  String get tarotCups02Upright =>
+      'Harmonie in Beziehungen, Vereinigung, Liebe, gegenseitiger Respekt, Zusammenarbeit';
 
   @override
-  String get tarotCups02Reversed => '불화, 이별, 오해, 불균형, 짝사랑';
+  String get tarotCups02Reversed =>
+      'Zwietracht in Beziehungen, Trennung, Missverständnisse, Ungleichgewicht, unerwiderte Liebe';
 
   @override
   String get tarotCups03Name => 'Drei Tassen';
 
   @override
-  String get tarotCups03Upright => '축하, 우정, 공동체, 츰쁨, 창조적 결실';
+  String get tarotCups03Upright =>
+      'Feier, Freundschaft, Gemeinschaft, Freude, kreative Früchte';
 
   @override
-  String get tarotCups03Reversed => '축제의 취소';
+  String get tarotCups03Reversed =>
+      'Übermäßiger Alkoholkonsum, Ausgrenzung, Cliquenbildung, Dreiecksbeziehung, Absage des Festes';
 
   @override
   String get tarotCups04Name => 'Vier Tassen';
 
   @override
-  String get tarotCups04Upright => '무관심, 내면, 명상, 놓쳐버린 기회, 내면 성찰';
+  String get tarotCups04Upright =>
+      'Gleichgültigkeit, Langeweile, Meditation, verpasste Gelegenheiten, innere Einkehr';
 
   @override
-  String get tarotCups04Reversed => '새로운 인식, 기회를 잡음, 활력 회복, 각성';
+  String get tarotCups04Reversed =>
+      'Neue Erkenntnis, Ergreifen von Gelegenheiten, Wiederherstellung der Vitalität, Erwachen';
 
   @override
   String get tarotCups05Name => 'Fünf Pokale';
 
   @override
-  String get tarotCups05Upright => '상실, 슬픔, 과거에 대한 후회, 비관주의';
+  String get tarotCups05Upright =>
+      'Verlust, Trauer, Reue über die Vergangenheit, Pessimismus';
 
   @override
-  String get tarotCups05Reversed => '상실의 극복, 수용, 치유, 새로운 희망의 발견';
+  String get tarotCups05Reversed =>
+      'Überwindung des Verlusts, Akzeptanz, Heilung, Entdeckung neuer Hoffnung';
 
   @override
   String get tarotCups06Name => 'Sechs Pokale';
 
   @override
-  String get tarotCups06Upright => '옛친구, 추억';
+  String get tarotCups06Upright =>
+      'Nostalgie der Vergangenheit, Kindheit, Reinheit, alte Freunde, Erinnerungen';
 
   @override
-  String get tarotCups06Reversed => '얽매임, 미래를 외면함, 독립, 성에';
+  String get tarotCups06Reversed =>
+      'Festhalten an der Vergangenheit, Ignorieren der Zukunft, Unabhängigkeit, Wachstum';
 
   @override
   String get tarotCups07Name => 'Sieben Pokale';
 
   @override
-  String get tarotCups07Upright => '환상, 꿈, 선택의 혼란, 현실 도피, 백일몽';
+  String get tarotCups07Upright =>
+      'Illusionen, Träume, Verwirrung bei der Wahl, Realitätsflucht, Tagträume';
 
   @override
-  String get tarotCups07Reversed => '명확한 목표, 환상에서 깨어남, 결단';
+  String get tarotCups07Reversed =>
+      'Der Realität ins Auge blicken, klare Ziele, Erwachen aus Illusionen, Entschlossenheit';
 
   @override
   String get tarotCups08Name => 'Acht Tassen';
 
   @override
-  String get tarotCups08Upright => '실망, 떠남, 더 깊은 의미를 찾기 위한 포기, 체념';
+  String get tarotCups08Upright =>
+      'Enttäuschung, Abschied, Aufgabe auf der Suche nach tieferem Sinn, Resignation';
 
   @override
-  String get tarotCups08Reversed => '떠나지 못함, 과거에 집착, 관계 회복, 두려움';
+  String get tarotCups08Reversed =>
+      'Nicht gehen können, Festhalten an der Vergangenheit, Wiederherstellung von Beziehungen, Angst';
 
   @override
   String get tarotCups09Name => 'Neun Tassen';
 
   @override
-  String get tarotCups09Upright => '소원 성취, 만족감, 감각적 기쁨, 자부심, 행복';
+  String get tarotCups09Upright =>
+      'Wunscherfüllung, Zufriedenheit, sinnliche Freude, Stolz, Glück';
 
   @override
-  String get tarotCups09Reversed => '불만족, 허영심, 표면적인 성공, 욕심, 탐욕';
+  String get tarotCups09Reversed =>
+      'Unzufriedenheit, Eitelkeit, oberflächlicher Erfolg, Gier, Habgier';
 
   @override
   String get tarotCups10Name => 'Zehn Pokale';
 
   @override
-  String get tarotCups10Upright => '조족의 행복, 평화, 정서적 충만, 조화로운 관계';
+  String get tarotCups10Upright =>
+      'Familienglück, Frieden, emotionale Erfüllung, harmonische Beziehungen';
 
   @override
-  String get tarotCups10Reversed => '내 내 등, 깨진 가정, 불화, 평화 상실';
+  String get tarotCups10Reversed =>
+      'Familienkonflikte, zerbrochene Familie, Zwietracht, Verlust des Friedens';
 
   @override
   String get tarotCups11Name => 'Seite der Pokale';
 
   @override
-  String get tarotCups11Upright => '새로운 영감, 창의성, 감성적인 메적지, 직관력';
+  String get tarotCups11Upright =>
+      'Neue Inspiration, Kreativität, emotionale Botschaft, Intuition';
 
   @override
-  String get tarotCups11Reversed => '찐정적 미성숙, 창의적 차단, 나쁜 소식, 예민함';
+  String get tarotCups11Reversed =>
+      'Emotionale Unreife, kreative Blockade, schlechte Nachrichten, Empfindlichkeit';
 
   @override
   String get tarotCups12Name => 'Ritter der Pokale';
 
   @override
-  String get tarotCups12Upright => '로맨스, 매력, 접정적 접근, 상상력, 매사도';
+  String get tarotCups12Upright =>
+      'Romantik, Anziehungskraft, emotionaler Zugang, Vorstellungskraft, Ritterlichkeit';
 
   @override
-  String get tarotCups12Reversed => '비현실성, 변덕, 질투, 신뢰할 수 없음, 기만';
+  String get tarotCups12Reversed =>
+      'Unrealismus, Launenhaftigkeit, Eifersucht, Unzuverlässigkeit, Täuschung';
 
   @override
   String get tarotCups13Name => 'Königin der Pokale';
 
   @override
-  String get tarotCups13Upright => '다정함, 영적 직관, 밐성적 안정, 배려';
+  String get tarotCups13Upright =>
+      'Empathie, Zärtlichkeit, spirituelle Intuition, emotionale Stabilität, Rücksichtnahme';
 
   @override
-  String get tarotCups13Reversed => '의존적 성향, 희생자 코스프레';
+  String get tarotCups13Reversed =>
+      'Emotionale Überladung, Instabilität, abhängige Neigung, Opferrolle';
 
   @override
   String get tarotCups14Name => 'König der Pokale';
 
   @override
-  String get tarotCups14Upright => '지정적 통제, 균형, 외교, 관용, 지혜로운 조언';
+  String get tarotCups14Upright =>
+      'Emotionale Kontrolle, Gleichgewicht, Diplomatie, Toleranz, weiser Rat';
 
   @override
-  String get tarotCups14Reversed => '밐정적 조작, 냉담함, 불안정성, 분분파, 무자비';
+  String get tarotCups14Reversed =>
+      'Emotionale Manipulation, Kälte, Instabilität, Launenhaftigkeit, Rücksichtslosigkeit';
 
   @override
   String get tarotPentacles01Name => 'Ass der Pentacles';
 
   @override
-  String get tarotPentacles01Upright => '새로운 기회, 재정적 Ԁ작, 풍요, 현실적 성취';
+  String get tarotPentacles01Upright =>
+      'Neue Chancen, finanzieller Neuanfang, Fülle, realistische Erfolge';
 
   @override
-  String get tarotPentacles01Reversed => '잃어버린 기회, 재정적 손실, 지연, 나쁜 투자';
+  String get tarotPentacles01Reversed =>
+      'Verpasste Gelegenheiten, finanzielle Verluste, Verzögerung, schlechte Investition';
 
   @override
   String get tarotPentacles02Name => 'Zwei Pentacles';
 
   @override
-  String get tarotPentacles02Upright => '적응력, 재정 관리, 유연성';
+  String get tarotPentacles02Upright =>
+      'Gleichgewicht, Anpassungsfähigkeit, Zeit-/Finanzmanagement, Flexibilität';
 
   @override
-  String get tarotPentacles02Reversed => '불당하기 벅참, 재정적 어려움, 스트레스';
+  String get tarotPentacles02Reversed =>
+      'Ungleichgewicht, Überforderung, finanzielle Schwierigkeiten, Stress';
 
   @override
   String get tarotPentacles03Name => 'Drei der Pentacles';
 
   @override
-  String get tarotPentacles03Upright => '팀워크, 협업, 기술, 인정받는 노력, 챴축';
+  String get tarotPentacles03Upright =>
+      'Teamwork, Zusammenarbeit, Fähigkeiten, anerkannte Bemühungen, Architektur';
 
   @override
-  String get tarotPentacles03Reversed => '협업 부족, 인정받지 못함, 의견 충돌';
+  String get tarotPentacles03Reversed =>
+      'Mangelnde Zusammenarbeit, mangelnde Fähigkeiten, mangelnde Anerkennung, Meinungsverschiedenheiten';
 
   @override
   String get tarotPentacles04Name => 'Vier der Pentacles';
 
   @override
-  String get tarotPentacles04Upright => '안정, 소유욕, 보수성, 인색함, 축적';
+  String get tarotPentacles04Upright =>
+      'Stabilität, Besitzgier, Konservatismus, Geiz, Anhäufung';
 
   @override
-  String get tarotPentacles04Reversed => '탐욕의 대가, 손실, 재정 방만, 집착을 버림';
+  String get tarotPentacles04Reversed =>
+      'Preis der Gier, Verlust, finanzielle Nachlässigkeit, Loslassen von Anhaftungen';
 
   @override
   String get tarotPentacles05Name => 'Fünf der Pentacles';
 
   @override
-  String get tarotPentacles05Upright => '재정적/정서적 결핍, 소외, 역경';
+  String get tarotPentacles05Upright =>
+      'Not, finanzieller/emotionaler Mangel, Ausgrenzung, Widrigkeiten';
 
   @override
-  String get tarotPentacles05Reversed => '재정 회복, 도움의 손길, 역경 극복, 긍정적 변화';
+  String get tarotPentacles05Reversed =>
+      'Finanzielle Erholung, helfende Hand, Überwindung von Widrigkeiten, positive Veränderung';
 
   @override
   String get tarotPentacles06Name => 'Sechs der Pentacles';
 
   @override
-  String get tarotPentacles06Upright => '자선, 나눔, 후원, 공정함, 베풂과 받음';
+  String get tarotPentacles06Upright =>
+      'Wohltätigkeit, Teilen, Unterstützung, Gerechtigkeit, Geben und Nehmen';
 
   @override
-  String get tarotPentacles06Reversed => '이기심, 채무, 불평등, 생색내기, 착취';
+  String get tarotPentacles06Reversed =>
+      'Egoismus, Schulden, Ungleichheit, Angeberei, Ausbeutung';
 
   @override
   String get tarotPentacles07Name => 'Sieben der Pentacles';
 
   @override
-  String get tarotPentacles07Upright => '인내, 적 비전, 노력에 대한 보상 기다림, 평가';
+  String get tarotPentacles07Upright =>
+      'Geduld, langfristige Vision, Warten auf Belohnung für Bemühungen, Bewertung';
 
   @override
-  String get tarotPentacles07Reversed => '조바심, 성과 없는 노력, 지연, 좌절, 투자 실패';
+  String get tarotPentacles07Reversed =>
+      'Ungeduld, fruchtlose Bemühungen, Verzögerung, Frustration, Fehlinvestition';
 
   @override
   String get tarotPentacles08Name => 'Acht der Pentacles';
 
   @override
-  String get tarotPentacles08Upright => '정신, 전념, 세부사항에 대한 주의, 숙련';
+  String get tarotPentacles08Upright =>
+      'Handwerkskunst, Hingabe, Liebe zum Detail, Geschicklichkeit';
 
   @override
-  String get tarotPentacles08Reversed => '지루함, 완벽주의의 함정, 나태, 열정 상실';
+  String get tarotPentacles08Reversed =>
+      'Langeweile, Falle des Perfektionismus, Faulheit, Verlust der Leidenschaft';
 
   @override
   String get tarotPentacles09Name => 'Neun der Pentacles';
 
   @override
-  String get tarotPentacles09Upright => '성취, 독립, 여유, 재정적 안락함, 자기 보상';
+  String get tarotPentacles09Upright =>
+      'Erfolg, Unabhängigkeit, Wohlstand, finanzieller Komfort, Selbstbelohnung';
 
   @override
-  String get tarotPentacles09Reversed => '의소비, 재정 불안';
+  String get tarotPentacles09Reversed =>
+      'Übermäßiger Konsum, nur scheinbar glamourös, Abhängigkeit, finanzielle Instabilität';
 
   @override
   String get tarotPentacles10Name => 'Zehn Pentacles';
 
   @override
-  String get tarotPentacles10Upright => '부업, 부의 축적, 유산, 안정된 삶, 전통';
+  String get tarotPentacles10Upright =>
+      'Familienunternehmen, Vermögensanhäufung, Erbe, stabiles Leben, Tradition';
 
   @override
-  String get tarotPentacles10Reversed => '재산 손실, 가족 분쟁, 전통에 대한 반항, 불안정';
+  String get tarotPentacles10Reversed =>
+      'Vermögensverlust, Familienstreitigkeiten, Rebellion gegen Traditionen, Instabilität';
 
   @override
   String get tarotPentacles11Name => 'Seite der Pentacles';
 
   @override
-  String get tarotPentacles11Upright => '현실적인 목표, 새로운 공부, 기회, 실용성, 계획';
+  String get tarotPentacles11Upright =>
+      'Realistische Ziele, neues Studium, Chancen, Praktikabilität, Planung';
 
   @override
-  String get tarotPentacles11Reversed => '지연, 실용성 부족, 게으름, 미루는 습관';
+  String get tarotPentacles11Reversed =>
+      'Verzögerung der Planung, mangelnde Praktikabilität, Faulheit, Aufschieberitis';
 
   @override
   String get tarotPentacles12Name => 'Ritter der Pentacles';
 
   @override
-  String get tarotPentacles12Upright => '성실, 책임감, 끈기, 점진적인 발전, 믿음직함';
+  String get tarotPentacles12Upright =>
+      'Fleiß, Verantwortungsbewusstsein, Ausdauer, schrittweiser Fortschritt, Zuverlässigkeit';
 
   @override
-  String get tarotPentacles12Reversed => '완고함, 무기력, 일 중독, 유연성 부족, 정체';
+  String get tarotPentacles12Reversed =>
+      'Sturheit, Lethargie, Arbeitssucht, mangelnde Flexibilität, Stagnation';
 
   @override
   String get tarotPentacles13Name => 'Königin der Pentacles';
 
   @override
-  String get tarotPentacles13Upright => '현실적 보살핌, 실용적 조언, 풍요, 관대함, 안락함';
+  String get tarotPentacles13Upright =>
+      'Realistische Fürsorge, praktischer Rat, Fülle, Großzügigkeit, Komfort';
 
   @override
-  String get tarotPentacles13Reversed => '재잉 통제, 소유욕, 이기심, 재정적 불안, 과소비';
+  String get tarotPentacles13Reversed =>
+      'Übermäßige Kontrolle, Besitzgier, Egoismus, finanzielle Instabilität, übermäßiger Konsum';
 
   @override
   String get tarotPentacles14Name => 'König der Pentacles';
 
   @override
-  String get tarotPentacles14Upright => '부와 성공, 비즈니스 수완, 붌위, 든든한 후원자';
+  String get tarotPentacles14Upright =>
+      'Reichtum und Erfolg, Geschäftssinn, Autorität, starker Förderer';
 
   @override
-  String get tarotPentacles14Reversed => '물질주의, 부패, 탐욕, 집불통, 억압적 권위';
+  String get tarotPentacles14Reversed =>
+      'Materialismus, Korruption, Gier, Sturheit, repressive Autorität';
 
   @override
   String get tarotSwords01Name => 'Ass der Schwerter';
 
   @override
-  String get tarotSwords01Upright => '명확한 통찰, 새로운 생각, 진실, 정신적 돌파구';
+  String get tarotSwords01Upright =>
+      'Klare Einsicht, neue Gedanken, Wahrheit, mentaler Durchbruch';
 
   @override
   String get tarotSwords01Reversed => 'Zeit, Zeit, Zeit, Zeit, Zeit';
@@ -3590,115 +3690,140 @@ class AppLocalizationsDe extends AppLocalizations {
   String get tarotSwords02Name => 'Zwei Schwerter';
 
   @override
-  String get tarotSwords02Upright => '우유부단, 맹목, 찐정 차단, 어려운 결정의 회피';
+  String get tarotSwords02Upright =>
+      'Unentschlossenheit, Blindheit, emotionale Blockade, Vermeidung schwieriger Entscheidungen';
 
   @override
-  String get tarotSwords02Reversed => '부족으로 인한 실수';
+  String get tarotSwords02Reversed =>
+      'Entschlossenheit, den Tatsachen ins Auge blicken, Fehler aufgrund mangelnder Informationen';
 
   @override
   String get tarotSwords03Name => 'Drei der Schwerter';
 
   @override
-  String get tarotSwords03Upright => '상심, 슬픔, 이별, 상처, 고통스러운 진실';
+  String get tarotSwords03Upright =>
+      'Herzschmerz, Trauer, Trennung, Wunde, schmerzhafte Wahrheit';
 
   @override
-  String get tarotSwords03Reversed => '치유, 용서, 슬픔을 떨쳐냄';
+  String get tarotSwords03Reversed =>
+      'Überwindung des Leidens, Heilung, Vergebung, Trauer abschütteln';
 
   @override
   String get tarotSwords04Name => 'Vier der Schwerter';
 
   @override
-  String get tarotSwords04Upright => '휴식, 회복, 명상, 스트레스 완화, 내면의 평화';
+  String get tarotSwords04Upright =>
+      'Ruhe, Erholung, Meditation, Stressabbau, innerer Frieden';
 
   @override
-  String get tarotSwords04Reversed => '탈진, 회복 거부, 박제 휴식, 스트레스';
+  String get tarotSwords04Reversed =>
+      'Erschöpfung, Verweigerung der Erholung, erzwungene Pause, extremer Stress';
 
   @override
   String get tarotSwords05Name => 'Fünf der Schwerter';
 
   @override
-  String get tarotSwords05Upright => '상처뿐인 승리, 배신, 밈등, 적의감, 비열함';
+  String get tarotSwords05Upright =>
+      'Pyrrhussieg, Verrat, Konflikt, Feindseligkeit, Gemeinheit';
 
   @override
-  String get tarotSwords05Reversed => '복수 인정, 복수 포기';
+  String get tarotSwords05Reversed =>
+      'Konfliktlösung, Versöhnung, Kompromiss, Niederlage eingestehen, Rache aufgeben';
 
   @override
   String get tarotSwords06Name => 'Sechs der Schwerter';
 
   @override
-  String get tarotSwords06Upright => '전환, 고통에서 벗어남, 치유의 여정, 이동, 여행';
+  String get tarotSwords06Upright =>
+      'Übergang, Befreiung von Leid, Heilungsreise, Bewegung, Reise';
 
   @override
-  String get tarotSwords06Reversed => '변화에 대한 저항, 과거의 상처가 발목을 잡음, 지연';
+  String get tarotSwords06Reversed =>
+      'Widerstand gegen Veränderungen, alte Wunden halten einen zurück, Verzögerung';
 
   @override
   String get tarotSwords07Name => 'Sieben der Schwerter';
 
   @override
-  String get tarotSwords07Upright => '만, 속임수, 전략, 은밀한 행동, 도주';
+  String get tarotSwords07Upright =>
+      'Täuschung, Betrug, Strategie, heimliches Handeln, Flucht';
 
   @override
-  String get tarotSwords07Reversed => '자백, 비밀 폭로, 속임수 발각, 죄책감, 정면 돌파';
+  String get tarotSwords07Reversed =>
+      'Geständnis, Geheimnisenthüllung, Entdeckung des Betrugs, Schuldgefühle, Frontalangriff';
 
   @override
   String get tarotSwords08Name => 'Acht der Schwerter';
 
   @override
-  String get tarotSwords08Upright => '자승자박, 무기력, 제한된 생각, 두려움의 감옥';
+  String get tarotSwords08Upright =>
+      'Selbstfesselung, Hilflosigkeit, eingeschränkte Gedanken, Gefängnis der Angst';
 
   @override
-  String get tarotSwords08Reversed => '해방, 스스로의 감옥에서 벗어남, 새로운 관점';
+  String get tarotSwords08Reversed =>
+      'Befreiung, Ausbruch aus dem eigenen Gefängnis, neue Perspektive';
 
   @override
   String get tarotSwords09Name => 'Neun der Schwerter';
 
   @override
-  String get tarotSwords09Upright => '불안, 절망, 불면증, 죄책감, 내면의 공포';
+  String get tarotSwords09Upright =>
+      'Angst, Verzweiflung, Schlaflosigkeit, Schuldgefühle, innere Ängste';
 
   @override
-  String get tarotSwords09Reversed => '사망의 빛, 불면증 해소, 사실 직사실';
+  String get tarotSwords09Reversed =>
+      'Überwindung der Angst, Licht der Hoffnung, Linderung der Schlaflosigkeit, den Tatsachen ins Auge blicken';
 
   @override
   String get tarotSwords10Name => 'Zehn der Schwerter';
 
   @override
-  String get tarotSwords10Upright => '파멸, 상은 상처, 배신, 바닥을 침, 끝의 도래';
+  String get tarotSwords10Upright =>
+      'Untergang, tiefe Wunde, Verrat, am Tiefpunkt, das Ende naht';
 
   @override
-  String get tarotSwords10Reversed => '파멸에서의 회복, 최악은 지났음, 생존, 재건';
+  String get tarotSwords10Reversed =>
+      'Erholung vom Untergang, das Schlimmste ist vorbei, Überleben, Wiederaufbau';
 
   @override
   String get tarotSwords11Name => 'Seite der Schwerter';
 
   @override
-  String get tarotSwords11Upright => '호기심, 예리한 분석력, 진실 탐구, 새로운 아이디어';
+  String get tarotSwords11Upright =>
+      'Neugier, scharfe Analysefähigkeit, Wahrheitssuche, neue Ideen';
 
   @override
-  String get tarotSwords11Reversed => '없는 소문, 무례';
+  String get tarotSwords11Reversed =>
+      'Leichtsinn, Ungeduld, Zynismus, unbegründete Gerüchte, Unhöflichkeit';
 
   @override
   String get tarotSwords12Name => 'Ritter der Schwerter';
 
   @override
-  String get tarotSwords12Upright => '돌진, 야망, 지적 추진력, 빠르고 단호한 행동';
+  String get tarotSwords12Upright =>
+      'Sturm, Ehrgeiz, intellektueller Antrieb, schnelles und entschlossenes Handeln';
 
   @override
-  String get tarotSwords12Reversed => '무모함, 무모성, 배려 없는 언행, 충동성, 무자비';
+  String get tarotSwords12Reversed =>
+      'Rücksichtslosigkeit, Aggression, rücksichtsloses Verhalten, Impulsivität, Gnadenlosigkeit';
 
   @override
   String get tarotSwords13Name => 'Königin der Schwerter';
 
   @override
-  String get tarotSwords13Upright => '독립, 명확한 의사소통, 예리한 판단, 정직함, 객관성';
+  String get tarotSwords13Upright =>
+      'Unabhängigkeit, klare Kommunikation, scharfes Urteilsvermögen, Ehrlichkeit, Objektivität';
 
   @override
-  String get tarotSwords13Reversed => '비정함, 냉혹함, 비정한 비판, 원한, 원한';
+  String get tarotSwords13Reversed =>
+      'Herzlosigkeit, Grausamkeit, übermäßige Kritik, Groll, Isolation';
 
   @override
   String get tarotSwords14Name => 'König der Schwerter';
 
   @override
-  String get tarotSwords14Upright => '지위, 지적 통찰, 논리, 공정함, 원칙, 전문가';
+  String get tarotSwords14Upright =>
+      'Autorität, intellektuelle Einsicht, Logik, Gerechtigkeit, Prinzipien, Experte';
 
   @override
   String get tarotSwords14Reversed =>
@@ -3708,73 +3833,89 @@ class AppLocalizationsDe extends AppLocalizations {
   String get tarotWands01Name => 'Zauberstab-Ass';
 
   @override
-  String get tarotWands01Upright => '열정, 영감, 창조적 힘, 새로운 잠재력, 활력';
+  String get tarotWands01Upright =>
+      'Leidenschaft, Inspiration, kreative Kraft, neues Potenzial, Vitalität';
 
   @override
-  String get tarotWands01Reversed => '열정의 지연, 영감 부족, 의욕 상실, 정체성 혼란';
+  String get tarotWands01Reversed =>
+      'Verzögerung der Leidenschaft, Mangel an Inspiration, Verlust der Motivation, Identitätskrise';
 
   @override
   String get tarotWands02Name => 'Zwei Zauberstäbe';
 
   @override
-  String get tarotWands02Upright => '비획, 비전, 목표 적적 목표, 단력, 탐험';
+  String get tarotWands02Upright =>
+      'Planung, Vision, langfristige Ziele, Entschlossenheit, Erkundung';
 
   @override
-  String get tarotWands02Reversed => '부족, 미루기, 두려움에 의한 정체, 제한된 비전';
+  String get tarotWands02Reversed =>
+      'Mangelnde Planung, Aufschieberitis, Stagnation durch Angst, eingeschränkte Vision';
 
   @override
   String get tarotWands03Name => 'Drei Zauberstäbe';
 
   @override
-  String get tarotWands03Upright => '실대의 실현, 진전, 확xnxx, 선견지명, 리더십';
+  String get tarotWands03Upright =>
+      'Erfüllung der Erwartungen, Fortschritt, Expansion, Weitsicht, Führung';
 
   @override
-  String get tarotWands03Reversed => '성의 지연, 좌절, 예상치 못한 앜 애, 편협함';
+  String get tarotWands03Reversed =>
+      'Verzögerung des Wachstums, Frustration, unerwartete Hindernisse, Engstirnigkeit';
 
   @override
   String get tarotWands04Name => 'Vier Zauberstäbe';
 
   @override
-  String get tarotWands04Upright => '축하, 안락함, 성취의 기쁨, 환영, 집안의 행사';
+  String get tarotWands04Upright =>
+      'Feier, Komfort, Freude am Erfolg, Willkommen, Familienereignis';
 
   @override
-  String get tarotWands04Reversed => '취소된 행사, 가정의 불화, 일소된 안정, 지연된 축하';
+  String get tarotWands04Reversed =>
+      'Abgesagte Veranstaltung, Familienzwietracht, vorübergehende Stabilität, verzögerte Feier';
 
   @override
   String get tarotWands05Name => 'Fünf Zauberstäbe';
 
   @override
-  String get tarotWands05Upright => '다쟁, 밈등, 의견 대립, 다툼, 도전';
+  String get tarotWands05Upright =>
+      'Wettbewerb, Konflikt, Meinungsverschiedenheit, Streit, Herausforderung';
 
   @override
-  String get tarotWands05Reversed => '타협, 등의 회피, 협력, 평화 추구, 혼란 진정';
+  String get tarotWands05Reversed =>
+      'Kompromiss, Konfliktvermeidung, Zusammenarbeit, Streben nach Frieden, Beruhigung des Chaos';
 
   @override
   String get tarotWands06Name => 'Sechs Zauberstäbe';
 
   @override
-  String get tarotWands06Upright => '성공, 대중의 인정, 승리, 자신감, 리더의 부상';
+  String get tarotWands06Upright =>
+      'Erfolg, öffentliche Anerkennung, Sieg, Selbstvertrauen, Aufstieg eines Anführers';
 
   @override
-  String get tarotWands06Reversed => '패배, 불명예, 인정받지 못함, 교만, 명성 추락';
+  String get tarotWands06Reversed =>
+      'Niederlage, Schande, mangelnde Anerkennung, Hochmut, Fall des Ruhmes';
 
   @override
   String get tarotWands07Name => 'Sieben Zauberstäbe';
 
   @override
-  String get tarotWands07Upright => '용기, 방어, 쟽쟁에 맞섬, 확고한 신념, 인내';
+  String get tarotWands07Upright =>
+      'Mut, Verteidigung, Konkurrenz begegnen, feste Überzeugung, Ausdauer';
 
   @override
-  String get tarotWands07Reversed => '포기, 압도됨, 타협, 자신감 상실, 비겁함';
+  String get tarotWands07Reversed =>
+      'Aufgabe, Überwältigung, Kompromiss, Verlust des Selbstvertrauens, Feigheit';
 
   @override
   String get tarotWands08Name => 'Acht Zauberstäbe';
 
   @override
-  String get tarotWands08Upright => '신속한 진행, 빠른 결말, 소식, 민첩함, 속도';
+  String get tarotWands08Upright =>
+      'Schneller Fortschritt, schnelles Ende, Nachrichten, Agilität, Geschwindigkeit';
 
   @override
-  String get tarotWands08Reversed => '지연, 혼란, 서두름으로 인한 실수, 소통 불능';
+  String get tarotWands08Reversed =>
+      'Verzögerung, Verwirrung, Fehler durch Eile, Kommunikationsunfähigkeit';
 
   @override
   String get tarotWands09Name => 'Neun Zauberstäbe';
@@ -3784,118 +3925,133 @@ class AppLocalizationsDe extends AppLocalizations {
       'Geschwindigkeit, Geschwindigkeit, Geschwindigkeit, Geschwindigkeit, Geschwindigkeit';
 
   @override
-  String get tarotWands09Reversed => '피로, 편집증, 포기, 완고함, 불필요한 저항';
+  String get tarotWands09Reversed =>
+      'Müdigkeit, Paranoia, Aufgabe, Sturheit, unnötiger Widerstand';
 
   @override
   String get tarotWands10Name => 'Zehn Zauberstäbe';
 
   @override
-  String get tarotWands10Upright => '짐도한 짐, 극심한 부담, 책임감, 압박, 한계점';
+  String get tarotWands10Upright =>
+      'Übermäßige Last, extreme Belastung, Verantwortung, Druck, Belastungsgrenze';
 
   @override
-  String get tarotWands10Reversed => '짐을 내려놓음, 책임 회피, 탈진, 위임, 복';
+  String get tarotWands10Reversed =>
+      'Last ablegen, Verantwortung vermeiden, Erschöpfung, Delegation, Überwindung';
 
   @override
   String get tarotWands11Name => 'Seite der Zauberstäbe';
 
   @override
-  String get tarotWands11Upright => '탐험, 발견, 열정적인 아이디어, 에너지, 매력';
+  String get tarotWands11Upright =>
+      'Erkundung, Entdeckung, leidenschaftliche Ideen, Energie, Anziehungskraft';
 
   @override
-  String get tarotWands11Reversed => '방향 상실, 미숙함, 쉽게 싫증냄, 헛된 망상, 무책임';
+  String get tarotWands11Reversed =>
+      'Orientierungsverlust, Unreife, schnelle Langeweile, vergebliche Illusionen, Verantwortungslosigkeit';
 
   @override
   String get tarotWands12Name => 'Ritter der Zauberstäbe';
 
   @override
-  String get tarotWands12Upright => '열정적 전진, 모험심, 행동력, 에너지, 자신감';
+  String get tarotWands12Upright =>
+      'Leidenschaftlicher Fortschritt, Abenteuerlust, Tatkraft, Energie, Selbstvertrauen';
 
   @override
-  String get tarotWands12Reversed => '충동적 행동, 오만함, 변덕, 분노, 무계획';
+  String get tarotWands12Reversed =>
+      'Impulsives Handeln, Arroganz, Launenhaftigkeit, Wut, Planlosigkeit';
 
   @override
   String get tarotWands13Name => 'Königin der Zauberstäbe';
 
   @override
-  String get tarotWands13Upright => '카리스마, 용기, 독립, 밝음, 매력, 활기';
+  String get tarotWands13Upright =>
+      'Charisma, Mut, Unabhängigkeit, Helligkeit, Anziehungskraft, Lebendigkeit';
 
   @override
-  String get tarotWands13Reversed => '이덕스러움, 복격성';
+  String get tarotWands13Reversed =>
+      'Egoismus, Prahlerei, Eifersucht, Launenhaftigkeit, Aggression';
 
   @override
   String get tarotWands14Name => 'König der Zauberstäbe';
 
   @override
-  String get tarotWands14Upright => '카리스마적 리더십, 비전, 영감, 대담함, 기업가';
+  String get tarotWands14Upright =>
+      'Charismatische Führung, Vision, Inspiration, Kühnheit, Unternehmer';
 
   @override
-  String get tarotWands14Reversed => '독재, 충동적 분노, 비현실성, 오만, 가차없음';
+  String get tarotWands14Reversed =>
+      'Diktatur, impulsive Wut, Unrealismus, Arroganz, Rücksichtslosigkeit';
 
   @override
   String get nicknamePrefixes =>
-      '신비한, 신비한, 매혹적인, 잔혹한, 순 수한, 부친, 부드러운, 아름다운, 위묘한, 위대한, 초라한, 영원한, 잊혀진, 찬란한 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, , 한, 외로운, 쓸쓸한, 즐거운, 행복한, 우울한, 절망적인, 희망찬, 눈부신, 어스름 한, 캄캄한, 적막한, 은밀한, 비밀스러운, 성스러운, 불경한, 오만한, 지손한, 지혜 로운, 어리석은, 강인한, 나약한, 용감한, 비겁한, 아득한, 우어지는, 다 사라지는, 나타나는, 남어난, 잠든, 눈꾸는, 헤매는, 방황하는, 머무는, 떠 나는, 돌아오는, 축다리는, 찾는, 숨은, 드러난, 버려진, 선택된, 축복받은, 저주 받은, 사랑받는, 미움받는, 망억하는, 망각하는, 별빛의, 달빛의, 햇빛의, 우주의, 대지의, 바다의, 하늘의, 리름의, 바람의, 비의, 눈의, 얼음의, 불의, 물의, 흙의 ,나무의,숲의,산의,운명의,숙명의,기 적의, 마법의, 신화의, 전설의, 진실의, 챰짓의, 환상의, 의, 악몽의, 파멸의, 창조의, 생명의, 죽음의, 영혼의, 육체의, 이성의, 밐정의, 사랑의, 증오의, 슬픔의 ,,,,,,,,,,,,,,,,,,,,,,,, ; 의, 소음의, 노래하는, 춤추는, 우는, 웃는, 속삭이는, 외치는, 노도하는, 청하 는, 명령하는, 복종하는, 지배하는, 섬기는, 인도하는, 따르는, 밀르치는, 배우는, 추억의,추억의,상처의,치유의,독의,약의,환영의,실체의,이상의,현실의, Deutsch, Englisch, Deutsch, Deutsch, Englisch, Deutsch ,,,,,,,,,,,,,,,,,,,,,,, 쉬는, 질식하는, 찬란한, 은은한, 아스라한, 아련한, 투명한, 희미한, 눈부신, 아묘 Seite, Seite, Seite, Seite, Seite, Seite, Seite, Seite, Seite, Seite, Seite, Seite, Seite 혹한, 냉혹한, 잔인한, 위대한, 박인한, 쵳건한, 유연한, 재빠른, 느릿한, 볠요속의 ; Weitere Informationen finden Sie unter: 하는, 망상하는, 망상하는, 사악한, 비열한, 사악한, 애절한, 처절한, 숭고한, 사악한, 비열한, 망상하는 만한, 손한, 다정한, 따뜻한, 서늘한, 오싹한, 만한늘한, 오싹한, 만한괴한, 섬뜩한, 황홀한, 매혹적인 ,,,,,,,,,,,,,,,,,,,,, ; : ;';
+      'Mysteriös,ruhig,heilig,dunkel,leuchtend,kalt,heiß,faszinierend,grausam,rein,rau,sanft,schön,bizarr,großartig,schäbig,ewig,vergessen,strahlend,traurig,fröhlich,verträumt,gefallen,schneeweiß,pechschwarz,blutrot,aschgrau,golden,silbern,blau,rot,gelb,schwarz,weiß,transparent,einsam,laut,leise,warm,kühl,verlassen,trostlos,fröhlich,glücklich,melancholisch,verzweifelt,hoffnungsvoll,blendend,dämmrig,stockfinster,still,heimlich,geheimnisvoll,heilig,profan,arrogant,bescheiden,weise,dumm,stark,schwach,mutig,feige,fern,nah,sich entfernend,sich nähernd,verschwindend,erscheinend,erwacht,schlafend,träumend,umherirrend,wandernd,verweilend,gehend,zurückkehrend,wartend,suchend,versteckt,enthüllt,verlassen,auserwählt,gesegnet,verflucht,geliebt,gehasst,erinnernd,vergessend,Sternenlicht,Mondlicht,Sonnenlicht,des Universums,der Erde,des Meeres,des Himmels,der Wolken,des Windes,des Regens,des Schnees,des Eises,des Feuers,des Wassers,der Erde,des Baumes,des Waldes,des Berges,des Flusses,des Sees,der Zeit,des Raumes,der Dimension,des Schicksals,des Verhängnisses,des Wunders,der Magie,der Mythologie,der Legende,der Wahrheit,der Lüge,der Illusion,des Traumes,des Albtraums,der Zerstörung,der Schöpfung,des Lebens,des Todes,der Seele,des Körpers,der Vernunft,der Emotionen,der Liebe,des Hasses,der Trauer,der Freude,des Zorns,des Friedens,des Krieges,des Chaos,der Ordnung,des Lichts,der Dunkelheit,der Dämmerung,der Morgendämmerung,des Mittags,der Mitternacht,der Vergangenheit,der Gegenwart,der Zukunft,des Ursprungs,des Endes,der Unendlichkeit,der Endlichkeit,der Stille,des Lärms,singend,tanzend,weinend,lachend,flüsternd,schreiend,betend,flehend,befehlend,gehorchend,herrschend,dienend,führend,folgend,lehrend,lernend,der Erinnerung,der Nostalgie,der Wunde,der Heilung,des Giftes,des Medikaments,der Erscheinung,der Realität,des Ideals,der Realität,der Virtualität,der Natur,der Künstlichkeit,des Ursprünglichen,des Ewigen,des Moments,des Augenblicks,des Dauerhaften,des Wandels,des Stillstands,fließend,gestoppt,brennend,abkühlend,blühend,welkend,wachsend,sterbend,atmend,erstickend,strahlend,sanft,verschwommen,vage,transparent,schwach,blendend,bizarr,einzigartig,besonders,edel,rein,gefallen,einsam,trostlos,still,fern,hart,gnadenlos,grausam,großartig,stark,standhaft,flexibel,schnell,langsam,in der Stille,im Chaos,in der Erinnerung,in der Vorstellung,schweigend,flüsternd,singend,tanzend,schluchzend,lächelnd,spöttisch,kontemplativ,wandernd,umherirrend,wach,schlafend,träumend,phantasierend,wahnhaft,betend,innig,herzzerreißend,erhaben,böse,gemein,arrogant,bescheiden,zärtlich,warm,kühl,gruselig,bizarr,unheimlich,ekstatisch,faszinierend,schwindelerregend,süß,bitter-süß,bitter,dornig,scharf,stumpf,rau,sanft,kuschelig,bequem,prekär,unsicher,friedlich,ruhig,träge,gelangweilt,leidenschaftlich,gleichgültig,gelassen,heftig,wild,fanatisch,verrückt,rational,emotional,nüchtern,weise,dumm,naiv,gerissen,hinterhältig,schneeweiß,pechschwarz,golden,silbern,blutrot';
 
   @override
   String get nicknameSuffixes =>
-      '예언자,마법사,마녀,여사제,수도사,주술 사, 연금술사, 강령술사, 정령사, 소환사, 환술사, 치유사, 현자, 학자, 연구자, 탐험가, 여행 Deutsch, Englisch, Deutsch, Englisch, Englisch 집행관, 통치자, 지배자, 왕, 여왕, 황제, 여제, 집행관, 통치자, 용병, 해적 : ; : ; : ,망령,유령,원혼,악령 ; 사술사, 령술사, 사제, 학자, 연구자, 탐험가, 여행가, 예술가, 광대, 음유인, 상인, 농부, 마귀, 부엉이, 올빼미, 독수리, 매, 늑대, 여우, 볰, 사자, 호랑이, 표범, 흑표범, 살 쏅, 유양이, 박아지, 뱀, 도마뱀, 챰북이, 악어, 용, 유니콘, 페가수스, 췸리폰, 밀북일, 볠블린 ,,,,,,,,,,,,,,,,,,,,,,,, 우로스, 하피, 세이렌, 크라켄, 레비아탄, 검, 방패, 창, 활, 지팡이, 반지, 목걸이, 왕관, 성배';
+      'Prophet,Zauberer,Hexe,Ritter,Krieger,Bogenschütze,Dieb,Assassine,Paladin,Priester,Priesterin,Mönch,Schamane,Alchemist,Nekromant,Elementarist,Beschwörer,Illusionist,Heiler,Weiser,Gelehrter,Forscher,Entdecker,Reisender,Wanderer,Vagabund,Pilger,Sucher,Beobachter,Chronist,Bote,Wächter,Wärter,Wachmann,Torwächter,Richter,Vollstrecker,Herrscher,Regent,König,Königin,Kaiser,Kaiserin,Adeliger,Lehnsherr,Ordensritter,Söldner,Pirat,Dieb,Betrüger,Narr,Dummkopf,Einsiedler,Ketzer,Verräter,Rebell,Held,Retter,Befreier,Zerstörer,Schöpfer,Gott,Göttin,Engel,Dämon,Geist,Fee,Monster,Bestie,Drache,Geist,Gespenst,Untoter,Vampir,Werwolf,Meerjungfrau,Sirene,Nymphe,Goblin,Ork,Troll,Elf,Zwerg,Riese,Zwerg,Mensch,Tiermensch,Vogelmensch,Fischmensch,Drachenmensch,böser Geist,Asura,Abgrund,Himmel,Unterwelt,Anderswelt,Abgrund,Chaos,Ordnung,Licht,Dunkelheit,Sucher,Pilger,Wanderer,Einsiedler,Außenseiter,Rebell,Pionier,Eroberer,Herrscher,Koordinator,Wächter,Aufseher,Beobachter,Chronist,Bote,Führer,Anführer,Retter,Zerstörer,Schöpfer,Gespenst,Geist,Rachegeist,böser Geist,Elementargeist,Fee,Bestie,heiliges Tier,Phantomtier,göttliches Tier,Schwertkämpfer,Ritter,Bogenschütze,Dieb,Assassine,Zauberer,Schamane,Alchemist,Nekromant,Priester,Gelehrter,Forscher,Entdecker,Reisender,Künstler,Narr,Barde,Händler,Handwerker,Bauer,Rabe,Eule,Kauz,Adler,Falke,Wolf,Fuchs,Bär,Löwe,Tiger,Leopard,Schwarzer Panther,Wiesel,Katze,Hund,Schlange,Eidechse,Schildkröte,Krokodil,Drache,Einhorn,Pegasus,Greif,Gargoyle,Goblin,Ork,Troll,Oger,Schleim,Skelett,Zombie,Ghul,Vampir,Werwolf,Minotaurus,Zentaur,Harpyie,Sirene,Kraken,Leviathan,Schwert,Schild,Speer,Bogen,Stab,Ring,Halskette,Krone,Heiliger Gral';
 
   @override
   String get eulaTitle => 'EULA-Lizenzvereinbarung (EULA)';
 
   @override
   String get eulaArticle1 =>
-      '제1조 (라이선스 허여)\n본 앱(„타로마녀“) 소유권이나 지적재산권은 이전되지 않습니다.';
+      'Artikel 1 (Lizenzvergabe)\nDiese App (\"Tarot-Hexe\") gewährt Nutzungsrechte ausschließlich für persönliche, nicht-kommerzielle Zwecke, wobei das Eigentum oder die geistigen Eigentumsrechte der App nicht übertragen werden.\n\n';
 
   @override
   String get eulaArticle2 =>
-      '제2조 (사용)\n사용자는 본 서비스를 불법적이거나 타인의 권리를 침해하는 목적으로 사용할 수 없으며, 없으며, 엔지니어링할 수 없습니다.';
+      'Artikel 2 (Verbotene Nutzung)\nDer Nutzer darf diesen Dienst nicht für illegale Zwecke oder zur Verletzung der Rechte Dritter nutzen und darf das System oder die Daten nicht eigenmächtig manipulieren oder Reverse Engineering betreiben.\n\n';
 
   @override
   String get eulaArticle3 =>
-      '3. Monat\n원활한 서비스 제공을 위해 사용자VP 3 Minuten vor dem Start.';
+      'Artikel 3 (Datenerfassung und Aufbewahrungsfrist)\nZur reibungslosen Bereitstellung des Dienstes werden die vom Nutzer erstellten Tarot-Tagebücher und zugehörigen Wahrsagedaten ab dem Erstellungsdatum für eine Standarddauer von 3 Jahren sicher aufbewahrt.\n\n';
 
   @override
   String get eulaArticle4 =>
-      '제4조 (제접속 휴면 계정 처리)\n1 Monat (365 °) 유인정보 보호 및 원활한 서버 환경 유지를 위해 해당 사용자의 모든 데이터는 사전 없이 자동 삭제 처리됩니다.';
+      'Artikel 4 (Behandlung von inaktiven Konten bei langer Inaktivität)\nWenn ein Nutzer den Dienst länger als 1 Jahr (365 Tage) nicht nutzt, wird das Konto in ein inaktives Konto umgewandelt, und alle Daten des Nutzers werden zum Schutz der persönlichen Daten und zur Aufrechterhaltung einer reibungslosen Serverumgebung ohne vorherige Ankündigung automatisch gelöscht.\n\n';
 
   @override
   String get eulaArticle5 =>
-      '제5조 (데이터 파기 및 복구 불가)\n3. Monat, 2. Monat, 4. Monat, 4. Monat, 4. Monat, 4. Monat, 4. Monat, 4. Monat, 4. Monat, 4. Monat, 4. Monat, 4. Monat, 4. Monat, 4. Monat, 4. Jahr, 4. 의해 삭제된 데이터는 영구 파기되며 어떠한 복구할 수 없습니다.';
+      'Artikel 5 (Datenvernichtung und Unwiederherstellbarkeit)\nDaten, deren Aufbewahrungsfrist gemäß Artikel 3 abgelaufen ist oder die gemäß Artikel 4 gelöscht wurden, werden dauerhaft vernichtet und können unter keinen Umständen wiederhergestellt werden.\n\n';
 
   @override
   String get eulaArticle6 =>
-      '제6조 (보증 부인 및 면책)\n본 앱이 제공하는 타로 점괘 및 해석은 오락 목적으로만 제공되며, 법적, 의학적, 재정적 조언을 대체하지 않습니다. 서비스 이용으로 인해 발생하는 어떠한 직간접적인 손해에 대해서도 개발자는 책임을 Das ist alles.';
+      'Artikel 6 (Gewährleistungsausschluss und Haftungsbeschränkung)\nDie von dieser App bereitgestellten Tarot-Wahrsagungen und Interpretationen dienen ausschließlich Unterhaltungszwecken und ersetzen keine rechtliche, medizinische oder finanzielle Beratung. Der Entwickler übernimmt keine Verantwortung für direkte oder indirekte Schäden, die durch die Nutzung des Dienstes entstehen.\n\n';
 
   @override
   String get eulaAgreement =>
-      'Die EULA-Lizenz ist für die Verwendung in der EULA-Lizenz nicht ausreichend 항목입니다.';
+      'Die oben genannten EULA-Inhalte und die Datenverwaltungsrichtlinie sind Punkte, denen zur Nutzung der App zwingend zugestimmt werden muss.';
 
   @override
-  String get closeButton => '닫기';
+  String get closeButton => 'Schließen';
 
   @override
-  String get pushTermsTitle => '이벤트 및 마케팅 알림 수신 동의';
+  String get pushTermsTitle =>
+      'Zustimmung zum Empfang von Event- und Marketingbenachrichtigungen';
 
   @override
-  String get pushArticle1 => '제1조 (목적)\n본 동의는 타로마녀 DAY 업데이트 등의 위함입니다.';
+  String get pushArticle1 =>
+      'Artikel 1 (Zweck)\nDiese Zustimmung dient dazu, dass der Tarot-Hexe-Dienst dem Nutzer werbliche Informationen wie nützliche Events, Promotionen und neue Horoskop-Updates per Push-Benachrichtigung sendet.\n\n';
 
   @override
   String get pushArticle2 =>
-      '제2조 (수신 철회)\n사용자는 본 수신 동의를 언제든지 앱 내 [내 메뉴 > 앱 설정]에서 철회할 수 있습니다. 동의를 철회하더라도 서비스의 기본 기능(필수 서비스)은 정상적으로 이용 가능합니다.';
+      'Artikel 2 (Widerruf des Empfangs)\nDer Nutzer kann diese Empfangszustimmung jederzeit in der App unter [Mein Menü > App-Einstellungen] widerrufen. Auch nach Widerruf der Zustimmung können die Grundfunktionen des Dienstes (obligatorische Dienste) normal genutzt werden.\n\n';
 
   @override
   String get pushArticle3 =>
-      '제3조 (알림의 내용)\nSobald Sie die gewünschte Funktion erhalten haben, ist die Funktion nicht mehr verfügbar 및 마케팅 성격의 내용이 포함될 수 있습니다.';
+      'Artikel 3 (Inhalt der Benachrichtigungen)\nDie gesendeten Benachrichtigungen können werbliche und marketingbezogene Inhalte wie spezielle In-App-Rabatte, zeitlich begrenzte Events und personalisierte Horoskop-Empfehlungen enthalten.\n\n';
 
   @override
   String get pushAgreement =>
-      'Während meines Aufenthalts in der Stadt, in der ich mich befinde, ist die Zeit, in der ich die Zeit verbracht habe 불이익이 없습니다.';
+      'Die oben genannten Inhalte sind optionale Zustimmungen des Nutzers, und auch bei Nichtzustimmung entstehen keine Nachteile bei der Nutzung des Tarot-Dienstes.';
 
   @override
-  String get windowsNoGoogleLogin => '미리보기 환경 (Windows) 안드로이드 기기나 웹을 이용해주세요.';
+  String get windowsNoGoogleLogin =>
+      'Die Google-Anmeldung wird in der Vorschauumgebung (Windows) nicht unterstützt. Bitte verwenden Sie ein Android-Gerät oder das Web.';
 
   @override
-  String get signupTermsRequired => '회원가입을 진행하려면 데이터 보관 약관에 동의해야 합니다.';
+  String get signupTermsRequired =>
+      'Um sich zu registrieren, müssen Sie den Datenaufbewahrungsbedingungen zustimmen.';
 
   @override
   String googleLoginError(String error) {
@@ -3903,83 +4059,92 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get googleLoginUnknownError => '알수 없는 오류가 발생했습니다.';
+  String get googleLoginUnknownError =>
+      'Während der Google-Anmeldung ist ein unbekannter Fehler aufgetreten.';
 
   @override
-  String get windowsNoFirebase => '미리보기 환경(Windows)';
+  String get windowsNoFirebase =>
+      'Die Firebase-Anmeldung wird in der Vorschauumgebung (Windows) nicht unterstützt.';
 
   @override
-  String get emailVerificationRequired => '이메일 인증이 필요합니다. 이메일함을 확인해주세요.';
+  String get emailVerificationRequired =>
+      'Eine E-Mail-Verifizierung ist erforderlich. Bitte überprüfen Sie Ihren Posteingang.';
 
   @override
-  String get resendEmail => '재발송';
+  String get resendEmail => 'Erneut senden';
 
   @override
-  String get verificationEmailSent => '인증 메일이 재발송되었습니다.';
+  String get verificationEmailSent =>
+      'Die Bestätigungs-E-Mail wurde erneut gesendet.';
 
   @override
-  String get passwordMismatch => '비밀번호가 일치하지 않습니다. 다확인해 주세요.';
+  String get passwordMismatch =>
+      'Die Passwörter stimmen nicht überein. Bitte überprüfen Sie sie erneut.';
 
   @override
-  String get signupSuccess => '회원가입이 완료되었습니다. 발송된 이메일을 확인하여 인증을 완료해주세요.';
+  String get signupSuccess =>
+      'Die Registrierung ist abgeschlossen. Bitte überprüfen Sie die gesendete E-Mail, um die Verifizierung abzuschließen.';
 
   @override
-  String get authError => '인증 오류가 발생했습니다.';
+  String get authError => 'Ein Authentifizierungsfehler ist aufgetreten.';
 
   @override
-  String get authLoginTitle => '로그인';
+  String get authLoginTitle => 'Anmelden';
 
   @override
-  String get authSignupTitle => '회원가입';
+  String get authSignupTitle => 'Registrieren';
 
   @override
   String get authTarotNickname => 'Ich habe keine Ahnung, was ich meine';
 
   @override
-  String get authRerollNickname => '닉네임 다채뽑기';
+  String get authRerollNickname => 'Spitznamen neu würfeln';
 
   @override
-  String get authEmail => '이메일';
+  String get authEmail => 'E-Mail';
 
   @override
-  String get authPassword => '비밀번호';
+  String get authPassword => 'Passwort';
 
   @override
-  String get authConfirmPassword => '비밀번호 확인';
+  String get authConfirmPassword => 'Passwort bestätigen';
 
   @override
-  String get authKeepLoggedIn => '로그인 상태 유지';
+  String get authKeepLoggedIn => 'Angemeldet bleiben';
 
   @override
   String get authAgreeEula =>
       'Bitte beachten Sie, dass die EULA-Lizenz (EULA) nicht verfügbar ist. (Geist)';
 
   @override
-  String get authViewContent => '[내용 보기]';
+  String get authViewContent => '[Inhalt anzeigen]';
 
   @override
-  String get authAgreePush => '새로운 타로점 및 이벤터 알림수신에 동의합니다. (Geburtstag)';
+  String get authAgreePush =>
+      'Ich stimme dem Empfang von Benachrichtigungen über neue Tarot-Lesungen und Events zu. (Optional)';
 
   @override
-  String get authBtnLogin => '로그인하기';
+  String get authBtnLogin => 'Anmelden';
 
   @override
-  String get authBtnSignup => '밀입하기';
+  String get authBtnSignup => 'Registrieren';
 
   @override
-  String get authSwitchToSignup => '없으신가요? 회원가입';
+  String get authSwitchToSignup => 'Sie haben noch kein Konto? Registrieren';
 
   @override
-  String get authSwitchToLogin => 'Warum ist das nicht der Fall? 로그인';
+  String get authSwitchToLogin => 'Sie haben bereits ein Konto? Anmelden';
 
   @override
   String get authGoogleSignIn => 'Google-Suche';
 
   @override
-  String get cardDetailNotReady => '이 해석은 아직 준비되지 않았습니다.';
+  String get cardDetailNotReady =>
+      'Diese Interpretation ist noch nicht bereit.';
 
   @override
-  String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
+  String get cardDetailLoadError =>
+      'Beim Laden der Daten ist ein Fehler aufgetreten.';
 
   @override
   String get cardDetailTabUpright => 'Aufrecht (Upright)';
@@ -3988,16 +4153,16 @@ class AppLocalizationsDe extends AppLocalizations {
   String get cardDetailTabReversed => 'Umgekehrt (Reversed)';
 
   @override
-  String get cardDetailNoInterpretation => '해석이 없습니다.';
+  String get cardDetailNoInterpretation => 'Keine Interpretation verfügbar.';
 
   @override
-  String get cardDetailSectionKeywords => '핵심 키워드';
+  String get cardDetailSectionKeywords => 'Schlüsselwörter';
 
   @override
-  String get cardDetailSectionGeneral => '일반 해석';
+  String get cardDetailSectionGeneral => 'Allgemeine Interpretation';
 
   @override
-  String get cardDetailSectionLove => '연애 운';
+  String get cardDetailSectionLove => 'Liebesglück';
 
   @override
   String get cardDetailSectionCareer => 'Das ist nicht der Fall';
@@ -4006,7 +4171,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get cardDetailSectionHealth => '౴క';
 
   @override
-  String get cardDetailSectionSpirituality => '영성 내면';
+  String get cardDetailSectionSpirituality => 'Spiritualität & Inneres';
 
   @override
   String get chatDustShortageTitle => 'Mangel an Pulver';
@@ -4105,27 +4270,27 @@ class AppLocalizationsDe extends AppLocalizations {
   String get profileEditSave => 'Speichern';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'Münzmangel';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'Sie haben nicht genug Münzen. Für eine Tarot-Lesung wird 1 Münze benötigt.';
 
   @override
   String get dialogOk => 'OK';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'Tarot-Lesung fortsetzen';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'Möchten Sie die Lesung fortsetzen und 1 Münze verbrauchen?';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'Abbrechen';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'Fortfahren';
 
   @override
   String pickCardsText(int count) {
@@ -4143,7 +4308,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return 'Tarot-Lesung von $witchName';
   }
 
   @override
@@ -4177,4 +4342,25 @@ class AppLocalizationsDe extends AppLocalizations {
   String translateFailed(String error) {
     return 'Übersetzung fehlgeschlagen: $error';
   }
+
+  @override
+  String get tagLove => 'Liebe';
+
+  @override
+  String get tagMoney => 'Geld';
+
+  @override
+  String get tagHealth => 'Gesundheit';
+
+  @override
+  String get tagCareer => 'Karriere';
+
+  @override
+  String get tagToday => 'Heute';
+
+  @override
+  String get tagRelationship => 'Beziehungen';
+
+  @override
+  String get tagSelfReflection => 'Selbstreflexion';
 }

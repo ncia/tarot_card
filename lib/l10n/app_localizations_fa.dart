@@ -1291,7 +1291,7 @@ class AppLocalizationsFa extends AppLocalizations {
   String get myMenuSectionAppSettings => 'تنظیمات برنامه';
 
   @override
-  String get myMenuPushNotifications => 'Push Notifications';
+  String get myMenuPushNotifications => 'دریافت اعلان‌های فشاری';
 
   @override
   String get myMenuPushNotificationsDesc => 'طالع بینی و رویدادهای جدید';
@@ -3083,7 +3083,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String growthDustOwned(int dust) {
-    return 'Magic Dust Owned: $dust';
+    return 'گرد و غبار جادویی موجود: $dust عدد';
   }
 
   @override
@@ -3111,854 +3111,995 @@ class AppLocalizationsFa extends AppLocalizations {
   String get tarotMajor00Name => 'احمق';
 
   @override
-  String get tarotMajor00Upright => '새로운 시작، 모험، 무한한 가능성، 자유، 순수함';
+  String get tarotMajor00Upright =>
+      'آغاز جدید، ماجراجویی، پتانسیل بی‌نهایت، آزادی، خلوص';
 
   @override
-  String get tarotMajor00Reversed => '무모함، 어리석음، 부주의، 너무 큰 위험을 감수함، 비현실성';
+  String get tarotMajor00Reversed =>
+      'بی‌احتیاطی، حماقت، بی‌توجهی، ریسک‌پذیری بیش از حد، غیرواقعی بودن';
 
   @override
   String get tarotMajor01Name => 'شعبده باز';
 
   @override
-  String get tarotMajor01Upright => '창조력، 의지، 능력، 새로운 시작의 힘، 결단력';
+  String get tarotMajor01Upright =>
+      'خلاقیت، اراده، توانایی، قدرت شروع‌های جدید، قاطعیت';
 
   @override
-  String get tarotMajor01Reversed => '조작، 재능 낭비، 기만، 자신감 부족، 숨겨진 의도';
+  String get tarotMajor01Reversed =>
+      'دستکاری، هدر دادن استعداد، فریب، کمبود اعتماد به نفس، نیات پنهان';
 
   @override
   String get tarotMajor02Name => 'کاهن اعظم';
 
   @override
-  String get tarotMajor02Upright => '직관، 무의식، 신비، 지혜، 내면의 목소리';
+  String get tarotMajor02Upright =>
+      'شهود، ناخودآگاه، رمز و راز، خرد، صدای درونی';
 
   @override
-  String get tarotMajor02Reversed => '직관 무시، 얕은 지식، 숨겨진 적، 비밀 누설';
+  String get tarotMajor02Reversed =>
+      'نادیده گرفتن شهود، دانش سطحی، دشمن پنهان، افشای راز';
 
   @override
   String get tarotMajor03Name => 'ملکه';
 
   @override
-  String get tarotMajor03Upright => '풍요، 모성애، 아름다움، 자연의 결실، 창조성';
+  String get tarotMajor03Upright =>
+      'فراوانی، مادری، زیبایی، ثمره طبیعت، خلاقیت';
 
   @override
-  String get tarotMajor03Reversed => '과잉보호، 의존성، 창조적 결핍، 게으름، 정체기';
+  String get tarotMajor03Reversed =>
+      'حمایت بیش از حد، وابستگی، کمبود خلاقیت، تنبلی، رکود';
 
   @override
   String get tarotMajor04Name => 'امپراتور';
 
   @override
-  String get tarotMajor04Upright => '권위، 구조، 안정، 부성애، 통제력، 책임감';
+  String get tarotMajor04Upright =>
+      'اقتدار، ساختار، ثبات، پدری، کنترل، مسئولیت‌پذیری';
 
   @override
-  String get tarotMajor04Reversed => '독재، 지배욕، 융통성 부족، 무능함، 억압';
+  String get tarotMajor04Reversed =>
+      'استبداد، میل به تسلط، عدم انعطاف‌پذیری، بی‌کفایتی، سرکوب';
 
   @override
   String get tarotMajor05Name => 'هیروفونت';
 
   @override
-  String get tarotMajor05Upright => '전통، 믿음، 교육، 영적인 인도، 보수주의';
+  String get tarotMajor05Upright =>
+      'سنت، ایمان، آموزش، راهنمایی معنوی، محافظه‌کاری';
 
   @override
-  String get tarotMajor05Reversed => '반역، 관습 타파، 독단적 태도، 낡은 사상، 나쁜 조언';
+  String get tarotMajor05Reversed =>
+      'شورش، شکستن سنت‌ها، نگرش خودسرانه، ایده‌های کهنه، مشاوره بد';
 
   @override
   String get tarotMajor06Name => 'عاشقان';
 
   @override
-  String get tarotMajor06Upright => '사랑، 조화، 관계، 중요한 선택، 신뢰';
+  String get tarotMajor06Upright =>
+      'عشق، هماهنگی، روابط، انتخاب‌های مهم، اعتماد';
 
   @override
-  String get tarotMajor06Reversed => '불화، 잘못된 선택، 신뢰 상실، 유혹، 불균형';
+  String get tarotMajor06Reversed =>
+      'اختلاف، انتخاب اشتباه، از دست دادن اعتماد، وسوسه، عدم تعادل';
 
   @override
   String get tarotMajor07Name => 'ارابه';
 
   @override
-  String get tarotMajor07Upright => '의지، 승리، 결단력، 방향성، 성공을 향한 추진력';
+  String get tarotMajor07Upright =>
+      'اراده، پیروزی، قاطعیت، جهت‌گیری، انگیزه برای موفقیت';
 
   @override
-  String get tarotMajor07Reversed => '통제 상실، 방향 상실، 무기력، 공격성، 장애물';
+  String get tarotMajor07Reversed =>
+      'از دست دادن کنترل، از دست دادن جهت، بی‌حالی، پرخاشگری، موانع';
 
   @override
   String get tarotMajor08Name => 'قدرت';
 
   @override
-  String get tarotMajor08Upright => '용기، 인내، 내면의 힘، 부드러운 통제، 자비';
+  String get tarotMajor08Upright =>
+      'شجاعت، استقامت، قدرت درونی، کنترل ملایم، شفقت';
 
   @override
-  String get tarotMajor08Reversed => '두려움، 나약함، 자기 통제력 상실، 충동، 자만심';
+  String get tarotMajor08Reversed =>
+      'ترس، ضعف، از دست دادن خودکنترلی، تکانشگری، غرور';
 
   @override
   String get tarotMajor09Name => 'زاهد';
 
   @override
-  String get tarotMajor09Upright => '내면 탐구، 지혜، 고독، 깨달음، 영적 조언자';
+  String get tarotMajor09Upright =>
+      'کاوش درونی، خرد، تنهایی، روشنگری، مشاور معنوی';
 
   @override
-  String get tarotMajor09Reversed => '고립، 외로움، 현실 도피، 어리석은 고집، 은둔';
+  String get tarotMajor09Reversed =>
+      'انزوا، تنهایی، فرار از واقعیت، لجاجت احمقانه، گوشه‌نشینی';
 
   @override
   String get tarotMajor10Name => 'چرخ ثروت';
 
   @override
-  String get tarotMajor10Upright => '전환점، 운명، 행운، 끊임없는 변화، 기회';
+  String get tarotMajor10Upright => 'نقطه عطف، سرنوشت، شانس، تغییر مداوم، فرصت';
 
   @override
-  String get tarotMajor10Reversed => '불운، 저항، 통제할 수 없는 변화، 불행의 반복';
+  String get tarotMajor10Reversed =>
+      'بدشانسی، مقاومت، تغییرات غیرقابل کنترل، تکرار بدبختی';
 
   @override
   String get tarotMajor11Name => 'عدالت';
 
   @override
-  String get tarotMajor11Upright => '공정함، 진실، 인과응보، 균형، 합리적 결정';
+  String get tarotMajor11Upright => 'عدالت، حقیقت، کارما، تعادل، تصمیم منطقی';
 
   @override
-  String get tarotMajor11Reversed => '불공평، 편견، 부정직، 피할 수 없는 처벌، 불균형';
+  String get tarotMajor11Reversed =>
+      'بی‌عدالتی، تعصب، عدم صداقت، مجازات اجتناب‌ناپذیر، عدم تعادل';
 
   @override
   String get tarotMajor12Name => 'مرد حلق آویز شده';
 
   @override
-  String get tarotMajor12Upright => '희생، 새로운 시각، 기다림، 통찰، 일시적 정지';
+  String get tarotMajor12Upright =>
+      'فداکاری، دیدگاه جدید، انتظار، بینش، توقف موقت';
 
   @override
-  String get tarotMajor12Reversed => '무의미한 희생، 지연، 발전을 거부함، 이기주의';
+  String get tarotMajor12Reversed =>
+      'فداکاری بی‌معنی، تاخیر، امتناع از پیشرفت، خودخواهی';
 
   @override
   String get tarotMajor13Name => 'مرگ';
 
   @override
-  String get tarotMajor13Upright => '끝과 새로운 시작، 변화، 전환기، 과거 청산';
+  String get tarotMajor13Upright =>
+      'پایان و آغاز جدید، تغییر، دوره گذار، پاکسازی گذشته';
 
   @override
-  String get tarotMajor13Reversed => '변화에 대한 저항، 정체، 낡은 것에 집착، 두려움';
+  String get tarotMajor13Reversed =>
+      'مقاومت در برابر تغییر، رکود، چسبیدن به گذشته، ترس';
 
   @override
   String get tarotMajor14Name => 'اعتدال';
 
   @override
-  String get tarotMajor14Upright => '조화، 균형، 중용، 치유، 목적 의식';
+  String get tarotMajor14Upright => 'هماهنگی، تعادل، اعتدال، شفا، حس هدفمندی';
 
   @override
-  String get tarotMajor14Reversed => '불균형، 무절제، 극단적인 행동، 부조화، 갈등';
+  String get tarotMajor14Reversed =>
+      'عدم تعادل، بی‌اعتدالی، اقدامات افراطی، ناهماهنگی، درگیری';
 
   @override
   String get tarotMajor15Name => 'شیطان';
 
   @override
-  String get tarotMajor15Upright => '집착، 물질주의، 속박، 유혹، 파괴적 욕망';
+  String get tarotMajor15Upright => 'وسواس، مادی‌گرایی، اسارت، وسوسه، میل مخرب';
 
   @override
-  String get tarotMajor15Reversed => '해방، 속박에서 벗어남، 독립، 깨달음، 자유';
+  String get tarotMajor15Reversed =>
+      'رهایی، رهایی از اسارت، استقلال، روشنگری، آزادی';
 
   @override
   String get tarotMajor16Name => 'برج';
 
   @override
-  String get tarotMajor16Upright => '갑작스러운 변화، 파괴، 해방، 계시، 붕괴';
+  String get tarotMajor16Upright =>
+      'تغییر ناگهانی، تخریب، رهایی، مکاشفه، فروپاشی';
 
   @override
-  String get tarotMajor16Reversed => '재난의 회피، 피할 수 없는 변화의 지연، 경고 무시';
+  String get tarotMajor16Reversed =>
+      'اجتناب از فاجعه، تاخیر در تغییر اجتناب‌ناپذیر، نادیده گرفتن هشدار';
 
   @override
   String get tarotMajor17Name => 'ستاره';
 
   @override
-  String get tarotMajor17Upright => '희망، 영감، 평온، 치유와 긍정، 영적 인도';
+  String get tarotMajor17Upright =>
+      'امید، الهام، آرامش، شفا و مثبت‌اندیشی، راهنمایی معنوی';
 
   @override
-  String get tarotMajor17Reversed => '절망، 실망، 영감 부족، 비관주의، 혼란';
+  String get tarotMajor17Reversed =>
+      'ناامیدی، دلسردی، کمبود الهام، بدبینی، سردرگمی';
 
   @override
   String get tarotMajor18Name => 'ماه';
 
   @override
-  String get tarotMajor18Upright => '불안، 환상، 직관، 숨겨진 진실، 기만';
+  String get tarotMajor18Upright => 'اضطراب، توهم، شهود، حقیقت پنهان، فریب';
 
   @override
-  String get tarotMajor18Reversed => '두려움의 극복، 비밀의 발견، 불안 해소، 진실 규명';
+  String get tarotMajor18Reversed =>
+      'غلبه بر ترس، کشف راز، رفع اضطراب، کشف حقیقت';
 
   @override
   String get tarotMajor19Name => 'خورشید';
 
   @override
-  String get tarotMajor19Upright => '성공، 긍정، 활력، 행복과 성취، 기쁨';
+  String get tarotMajor19Upright =>
+      'موفقیت، مثبت‌اندیشی، سرزندگی، شادی و دستاورد، لذت';
 
   @override
-  String get tarotMajor19Reversed => '지연된 성공، 과장، 활력 저하، 슬픔의 이면';
+  String get tarotMajor19Reversed =>
+      'موفقیت به تاخیر افتاده، اغراق، کاهش سرزندگی، روی دیگر غم';
 
   @override
   String get tarotMajor20Name => 'قضاوت';
 
   @override
-  String get tarotMajor20Upright => '부활، 결단، 용서، 새로운 소명، 내적 각성';
+  String get tarotMajor20Upright =>
+      'رستاخیز، قاطعیت، بخشش، فراخوان جدید، بیداری درونی';
 
   @override
-  String get tarotMajor20Reversed => '후회، 자기 의심، 변화에 대한 두려움، 미련، 형벌';
+  String get tarotMajor20Reversed =>
+      'پشیمانی، شک به خود، ترس از تغییر، حسرت، مجازات';
 
   @override
   String get tarotMajor21Name => 'جهان';
 
   @override
-  String get tarotMajor21Upright => '완성، 성취، 통합، 새로운 차원، 성공적인 마무리';
+  String get tarotMajor21Upright =>
+      'تکمیل، دستاورد، یکپارچگی، بعد جدید، پایان موفقیت‌آمیز';
 
   @override
-  String get tarotMajor21Reversed => '미완성، 연기، 정체، 성공에 대한 두려움، 지연';
+  String get tarotMajor21Reversed =>
+      'ناتمامی، تاخیر، رکود، ترس از موفقیت، تعویق';
 
   @override
   String get tarotCups01Name => 'آس از جام';
 
   @override
-  String get tarotCups01Upright => '새로운 감정، 사랑의 시작، 직관، 영적 충만함';
+  String get tarotCups01Upright => 'احساسات جدید، آغاز عشق، شهود، کمال معنوی';
 
   @override
-  String get tarotCups01Reversed => '감정의 차단، 사랑받지 못함، 공허함، 슬픔';
+  String get tarotCups01Reversed => 'انسداد احساسات، دوست داشته نشدن، پوچی، غم';
 
   @override
   String get tarotCups02Name => 'دو تا از جام';
 
   @override
-  String get tarotCups02Upright => '관계의 조화، 결합، 사랑، 상호 존중، 협력';
+  String get tarotCups02Upright =>
+      'هماهنگی در رابطه، اتحاد، عشق، احترام متقابل، همکاری';
 
   @override
-  String get tarotCups02Reversed => '관계의 불화، 이별، 오해، 불균형، 짝사랑';
+  String get tarotCups02Reversed =>
+      'اختلاف در رابطه، جدایی، سوءتفاهم، عدم تعادل، عشق یک‌طرفه';
 
   @override
   String get tarotCups03Name => 'سه تا از جام';
 
   @override
-  String get tarotCups03Upright => '축하، 우정، 공동체، 기쁨، 창조적 결실';
+  String get tarotCups03Upright => 'جشن، دوستی، اجتماع، شادی، ثمره خلاقیت';
 
   @override
-  String get tarotCups03Reversed => '과음، 소외، 파벌، 삼각관계، 축제의 취소';
+  String get tarotCups03Reversed =>
+      'افراط در نوشیدن، طرد شدن، جناح‌بندی، مثلث عشقی، لغو جشن';
 
   @override
   String get tarotCups04Name => 'چهار فنجان';
 
   @override
-  String get tarotCups04Upright => '무관심، 권태، 명상، 놓쳐버린 기회، 내면 성찰';
+  String get tarotCups04Upright =>
+      'بی‌تفاوتی، کسالت، مراقبه، فرصت‌های از دست رفته، درون‌نگری';
 
   @override
-  String get tarotCups04Reversed => '새로운 인식، 기회를 잡음، 활력 회복، 각성';
+  String get tarotCups04Reversed =>
+      'آگاهی جدید، استفاده از فرصت، بازیابی سرزندگی، بیداری';
 
   @override
   String get tarotCups05Name => 'پنج فنجان';
 
   @override
-  String get tarotCups05Upright => '상실، 슬픔، 과거에 대한 후회، 비관주의';
+  String get tarotCups05Upright => 'فقدان، غم، پشیمانی از گذشته، بدبینی';
 
   @override
-  String get tarotCups05Reversed => '상실의 극복، 수용، 치유، 새로운 희망의 발견';
+  String get tarotCups05Reversed => 'غلبه بر فقدان، پذیرش، شفا، کشف امید جدید';
 
   @override
   String get tarotCups06Name => 'شش فنجان';
 
   @override
-  String get tarotCups06Upright => '과거의 향수، 어린 시절، 순수함، 옛 친구، 추억';
+  String get tarotCups06Upright =>
+      'نوستالژی گذشته، دوران کودکی، خلوص، دوستان قدیمی، خاطرات';
 
   @override
-  String get tarotCups06Reversed => '과거에 얽매임، 미래를 외면함، 독립، 성장';
+  String get tarotCups06Reversed =>
+      'درگیر گذشته بودن، نادیده گرفتن آینده، استقلال، رشد';
 
   @override
   String get tarotCups07Name => 'هفت جام';
 
   @override
-  String get tarotCups07Upright => '환상، 꿈، 선택의 혼란، 현실 도피، 백일몽';
+  String get tarotCups07Upright =>
+      'توهم، رویاها، سردرگمی در انتخاب، فرار از واقعیت، خیال‌پردازی';
 
   @override
-  String get tarotCups07Reversed => '현실 직시، 명확한 목표، 환상에서 깨어남، 결단';
+  String get tarotCups07Reversed =>
+      'رویارویی با واقعیت، هدف روشن، بیداری از توهم، قاطعیت';
 
   @override
   String get tarotCups08Name => 'هشت جام';
 
   @override
-  String get tarotCups08Upright => '실망، 떠남، 더 깊은 의미를 찾기 위한 포기، 체념';
+  String get tarotCups08Upright =>
+      'ناامیدی، ترک کردن، رها کردن برای یافتن معنای عمیق‌تر، تسلیم';
 
   @override
-  String get tarotCups08Reversed => '떠나지 못함، 과거에 집착، 관계 회복، 두려움';
+  String get tarotCups08Reversed =>
+      'ناتوانی در ترک کردن، چسبیدن به گذشته، ترمیم رابطه، ترس';
 
   @override
   String get tarotCups09Name => 'نه فنجان';
 
   @override
-  String get tarotCups09Upright => '소원 성취، 만족감، 감각적 기쁨، 자부심، 행복';
+  String get tarotCups09Upright =>
+      'برآورده شدن آرزو، رضایت، لذت حسی، غرور، شادی';
 
   @override
-  String get tarotCups09Reversed => '불만족، 허영심، 표면적인 성공، 욕심، 탐욕';
+  String get tarotCups09Reversed => 'نارضایتی، خودبینی، موفقیت سطحی، طمع، حرص';
 
   @override
   String get tarotCups10Name => 'ده جام';
 
   @override
-  String get tarotCups10Upright => '가족의 행복، 평화، 정서적 충만، 조화로운 관계';
+  String get tarotCups10Upright =>
+      'خوشبختی خانوادگی، صلح، کمال عاطفی، روابط هماهنگ';
 
   @override
-  String get tarotCups10Reversed => '가족 내 갈등، 깨진 가정، 불화، 평화 상실';
+  String get tarotCups10Reversed =>
+      'درگیری‌های خانوادگی، خانواده از هم پاشیده، اختلاف، از دست دادن صلح';
 
   @override
   String get tarotCups11Name => 'صفحه جام';
 
   @override
-  String get tarotCups11Upright => '새로운 영감، 창의성، 감성적인 메시지، 직관력';
+  String get tarotCups11Upright => 'الهام جدید، خلاقیت، پیام‌های عاطفی، شهود';
 
   @override
-  String get tarotCups11Reversed => '감정적 미성숙، 창의적 차단، 나쁜 소식، 예민함';
+  String get tarotCups11Reversed =>
+      'نابالغی عاطفی، انسداد خلاقیت، خبر بد، حساسیت';
 
   @override
   String get tarotCups12Name => 'شوالیه جام ها';
 
   @override
-  String get tarotCups12Upright => '로맨스، 매력، 감정적 접근، 상상력، 기사도';
+  String get tarotCups12Upright =>
+      'عاشقانه، جذابیت، رویکرد عاطفی، تخیل، جوانمردی';
 
   @override
-  String get tarotCups12Reversed => '비현실성، 변덕، 질투، 신뢰할 수 없음، 기만';
+  String get tarotCups12Reversed =>
+      'غیرواقعی بودن، بی‌ثباتی، حسادت، غیرقابل اعتماد بودن، فریب';
 
   @override
   String get tarotCups13Name => 'ملکه جام ها';
 
   @override
-  String get tarotCups13Upright => '공감، 다정함، 영적 직관، 감성적 안정، 배려';
+  String get tarotCups13Upright =>
+      'همدلی، مهربانی، شهود معنوی، ثبات عاطفی، توجه';
 
   @override
-  String get tarotCups13Reversed => '감정 과잉، 불안정، 의존적 성향، 희생자 코스프레';
+  String get tarotCups13Reversed =>
+      'افراط عاطفی، بی‌ثباتی، گرایش به وابستگی، نقش قربانی';
 
   @override
   String get tarotCups14Name => 'پادشاه جام ها';
 
   @override
-  String get tarotCups14Upright => '감정적 통제، 균형، 외교، 관용، 지혜로운 조언';
+  String get tarotCups14Upright =>
+      'کنترل عاطفی، تعادل، دیپلماسی، بردباری، مشاوره خردمندانه';
 
   @override
-  String get tarotCups14Reversed => '감정적 조작، 냉담함، 불안정성، 기분파، 무자비';
+  String get tarotCups14Reversed =>
+      'دستکاری عاطفی، بی‌تفاوتی، بی‌ثباتی، دمدمی مزاجی، بی‌رحمی';
 
   @override
   String get tarotPentacles01Name => 'آس پنتاکلز';
 
   @override
-  String get tarotPentacles01Upright => '새로운 기회، 재정적 시작، 풍요، 현실적 성취';
+  String get tarotPentacles01Upright =>
+      'فرصت جدید، آغاز مالی، فراوانی، دستاورد واقعی';
 
   @override
-  String get tarotPentacles01Reversed => '잃어버린 기회، 재정적 손실، 지연، 나쁜 투자';
+  String get tarotPentacles01Reversed =>
+      'فرصت از دست رفته، ضرر مالی، تاخیر، سرمایه‌گذاری بد';
 
   @override
   String get tarotPentacles02Name => 'دو تا از پنتاکل';
 
   @override
-  String get tarotPentacles02Upright => '균형، 적응력، 시간/재정 관리، 유연성';
+  String get tarotPentacles02Upright =>
+      'تعادل، سازگاری، مدیریت زمان/مالی، انعطاف‌پذیری';
 
   @override
-  String get tarotPentacles02Reversed => '불균형، 감당하기 벅참، 재정적 어려움، 스트레스';
+  String get tarotPentacles02Reversed =>
+      'عدم تعادل، غرق شدن، مشکلات مالی، استرس';
 
   @override
   String get tarotPentacles03Name => 'سه پنتاکل';
 
   @override
-  String get tarotPentacles03Upright => '팀워크، 협업، 기술، 인정받는 노력، 건축';
+  String get tarotPentacles03Upright =>
+      'کار تیمی، همکاری، مهارت، تلاش‌های به رسمیت شناخته شده، ساخت و ساز';
 
   @override
-  String get tarotPentacles03Reversed => '협업 부족، 기술 부족، 인정받지 못함، 의견 충돌';
+  String get tarotPentacles03Reversed =>
+      'کمبود همکاری، کمبود مهارت، به رسمیت شناخته نشدن، اختلاف نظر';
 
   @override
   String get tarotPentacles04Name => 'چهار پنتاکل';
 
   @override
-  String get tarotPentacles04Upright => '안정، 소유욕، 보수성، 인색함، 축적';
+  String get tarotPentacles04Upright =>
+      'ثبات، مالکیت، محافظه‌کاری، خسیس بودن، انباشت';
 
   @override
-  String get tarotPentacles04Reversed => '탐욕의 대가، 손실، 재정 방만، 집착을 버림';
+  String get tarotPentacles04Reversed =>
+      'بهای طمع، ضرر، بی‌مبالاتی مالی، رها کردن وسواس';
 
   @override
   String get tarotPentacles05Name => 'پنج پنتاکل';
 
   @override
-  String get tarotPentacles05Upright => '궁핍، 재정적/정서적 결핍، 소외، 역경';
+  String get tarotPentacles05Upright => 'فقر، کمبود مالی/عاطفی، طرد شدن، سختی';
 
   @override
-  String get tarotPentacles05Reversed => '재정 회복، 도움의 손길، 역경 극복، 긍정적 변화';
+  String get tarotPentacles05Reversed =>
+      'بهبود مالی، دست یاری، غلبه بر سختی، تغییر مثبت';
 
   @override
   String get tarotPentacles06Name => 'شش پنتاکل';
 
   @override
-  String get tarotPentacles06Upright => '자선، 나눔، 후원، 공정함، 베풂과 받음';
+  String get tarotPentacles06Upright =>
+      'خیریه، بخشش، حمایت، عدالت، دادن و گرفتن';
 
   @override
-  String get tarotPentacles06Reversed => '이기심، 채무، 불평등، 생색내기، 착취';
+  String get tarotPentacles06Reversed =>
+      'خودخواهی، بدهی، نابرابری، خودنمایی، استثمار';
 
   @override
   String get tarotPentacles07Name => 'هفت پنتاکل';
 
   @override
-  String get tarotPentacles07Upright => '인내، 장기적 비전، 노력에 대한 보상 기다림، 평가';
+  String get tarotPentacles07Upright =>
+      'صبر، دید بلندمدت، انتظار پاداش تلاش، ارزیابی';
 
   @override
-  String get tarotPentacles07Reversed => '조바심، 성과 없는 노력، 지연، 좌절، 투자 실패';
+  String get tarotPentacles07Reversed =>
+      'بی‌قراری، تلاش بی‌ثمر، تاخیر، ناامیدی، شکست سرمایه‌گذاری';
 
   @override
   String get tarotPentacles08Name => 'هشت پنتاکل';
 
   @override
-  String get tarotPentacles08Upright => '장인 정신، 전념، 세부사항에 대한 주의، 숙련';
+  String get tarotPentacles08Upright => 'صناعت، تعهد، توجه به جزئیات، مهارت';
 
   @override
-  String get tarotPentacles08Reversed => '지루함، 완벽주의의 함정، 나태، 열정 상실';
+  String get tarotPentacles08Reversed =>
+      'کسالت، دام کمال‌گرایی، تنبلی، از دست دادن شور و شوق';
 
   @override
   String get tarotPentacles09Name => 'نه پنتاکل';
 
   @override
-  String get tarotPentacles09Upright => '성취، 독립، 여유، 재정적 안락함، 자기 보상';
+  String get tarotPentacles09Upright =>
+      'دستاورد، استقلال، فراغت، آسایش مالی، پاداش به خود';
 
   @override
-  String get tarotPentacles09Reversed => '과소비، 겉보기에만 화려함، 의존성، 재정 불안';
+  String get tarotPentacles09Reversed =>
+      'مصرف‌گرایی بیش از حد، زرق و برق ظاهری، وابستگی، بی‌ثباتی مالی';
 
   @override
   String get tarotPentacles10Name => 'ده پنتاکل';
 
   @override
-  String get tarotPentacles10Upright => '가업، 부의 축적، 유산، 안정된 삶، 전통';
+  String get tarotPentacles10Upright =>
+      'کسب و کار خانوادگی، انباشت ثروت، میراث، زندگی باثبات، سنت';
 
   @override
-  String get tarotPentacles10Reversed => '재산 손실، 가족 분쟁، 전통에 대한 반항، 불안정';
+  String get tarotPentacles10Reversed =>
+      'از دست دادن دارایی، درگیری خانوادگی، شورش علیه سنت، بی‌ثباتی';
 
   @override
   String get tarotPentacles11Name => 'صفحه پنتاکل ها';
 
   @override
-  String get tarotPentacles11Upright => '현실적인 목표، 새로운 공부، 기회، 실용성، 계획';
+  String get tarotPentacles11Upright =>
+      'اهداف واقع‌بینانه، مطالعه جدید، فرصت، عمل‌گرایی، برنامه‌ریزی';
 
   @override
-  String get tarotPentacles11Reversed => '계획의 지연، 실용성 부족، 게으름، 미루는 습관';
+  String get tarotPentacles11Reversed =>
+      'تاخیر در برنامه‌ها، کمبود عمل‌گرایی، تنبلی، عادت به تعویق انداختن';
 
   @override
   String get tarotPentacles12Name => 'شوالیه پنتاکلس';
 
   @override
-  String get tarotPentacles12Upright => '성실، 책임감، 끈기، 점진적인 발전، 믿음직함';
+  String get tarotPentacles12Upright =>
+      'صداقت، مسئولیت‌پذیری، پشتکار، پیشرفت تدریجی، قابل اعتماد بودن';
 
   @override
-  String get tarotPentacles12Reversed => '완고함، 무기력، 일 중독، 유연성 부족، 정체';
+  String get tarotPentacles12Reversed =>
+      'لجاجت، بی‌حالی، اعتیاد به کار، عدم انعطاف‌پذیری، رکود';
 
   @override
   String get tarotPentacles13Name => 'ملکه پنتاکلس';
 
   @override
-  String get tarotPentacles13Upright => '현실적 보살핌، 실용적 조언، 풍요، 관대함، 안락함';
+  String get tarotPentacles13Upright =>
+      'مراقبت واقع‌بینانه، مشاوره عملی، فراوانی، سخاوت، آسایش';
 
   @override
-  String get tarotPentacles13Reversed => '과잉 통제، 소유욕، 이기심، 재정적 불안، 과소비';
+  String get tarotPentacles13Reversed =>
+      'کنترل بیش از حد، مالکیت، خودخواهی، بی‌ثباتی مالی، مصرف‌گرایی بیش از حد';
 
   @override
   String get tarotPentacles14Name => 'پادشاه پنتاکل ها';
 
   @override
-  String get tarotPentacles14Upright => '부와 성공، 비즈니스 수완، 권위، 든든한 후원자';
+  String get tarotPentacles14Upright =>
+      'ثروت و موفقیت، هوش تجاری، اقتدار، حامی قوی';
 
   @override
-  String get tarotPentacles14Reversed => '물질주의، 부패، 탐욕، 고집불통، 억압적 권위';
+  String get tarotPentacles14Reversed =>
+      'مادی‌گرایی، فساد، طمع، لجبازی، اقتدار سرکوبگر';
 
   @override
   String get tarotSwords01Name => 'آس شمشیر';
 
   @override
-  String get tarotSwords01Upright => '명확한 통찰، 새로운 생각، 진실، 정신적 돌파구';
+  String get tarotSwords01Upright => 'بینش روشن، ایده جدید، حقیقت، پیشرفت ذهنی';
 
   @override
-  String get tarotSwords01Reversed => '혼란، 잘못된 정보، 판단력 상실، 소통 부재';
+  String get tarotSwords01Reversed =>
+      'سردرگمی، اطلاعات غلط، از دست دادن قضاوت، عدم ارتباط';
 
   @override
   String get tarotSwords02Name => 'دو تا از شمشیر';
 
   @override
-  String get tarotSwords02Upright => '우유부단، 맹목، 감정 차단، 어려운 결정의 회피';
+  String get tarotSwords02Upright =>
+      'تردید، کوری، انسداد احساسات، اجتناب از تصمیمات دشوار';
 
   @override
-  String get tarotSwords02Reversed => '결단، 사실을 직시함، 정보 부족으로 인한 실수';
+  String get tarotSwords02Reversed =>
+      'قاطعیت، رویارویی با حقایق، اشتباه ناشی از کمبود اطلاعات';
 
   @override
   String get tarotSwords03Name => 'سه شمشیر';
 
   @override
-  String get tarotSwords03Upright => '상심، 슬픔، 이별، 상처، 고통스러운 진실';
+  String get tarotSwords03Upright => 'دلشکستگی، غم، جدایی، زخم، حقیقت دردناک';
 
   @override
-  String get tarotSwords03Reversed => '고통의 극복، 치유، 용서، 슬픔을 떨쳐냄';
+  String get tarotSwords03Reversed => 'غلبه بر درد، شفا، بخشش، رهایی از غم';
 
   @override
   String get tarotSwords04Name => 'چهار شمشیر';
 
   @override
-  String get tarotSwords04Upright => '휴식، 회복، 명상، 스트레스 완화، 내면의 평화';
+  String get tarotSwords04Upright =>
+      'استراحت، بهبودی، مراقبه، کاهش استرس، آرامش درونی';
 
   @override
-  String get tarotSwords04Reversed => '탈진، 회복 거부، 강제 휴식، 극심한 스트레스';
+  String get tarotSwords04Reversed =>
+      'فرسودگی، امتناع از بهبودی، استراحت اجباری، استرس شدید';
 
   @override
   String get tarotSwords05Name => 'پنج شمشیر';
 
   @override
-  String get tarotSwords05Upright => '상처뿐인 승리، 배신، 갈등، 적의감، 비열함';
+  String get tarotSwords05Upright => 'پیروزی تلخ، خیانت، درگیری، خصومت، پستی';
 
   @override
-  String get tarotSwords05Reversed => '갈등 해결، 화해، 타협، 패배 인정، 복수 포기';
+  String get tarotSwords05Reversed =>
+      'حل و فصل درگیری، آشتی، سازش، پذیرش شکست، رها کردن انتقام';
 
   @override
   String get tarotSwords06Name => 'شش شمشیر';
 
   @override
-  String get tarotSwords06Upright => '전환، 고통에서 벗어남، 치유의 여정، 이동، 여행';
+  String get tarotSwords06Upright => 'گذار، رهایی از درد، سفر شفا، حرکت، سفر';
 
   @override
-  String get tarotSwords06Reversed => '변화에 대한 저항، 과거의 상처가 발목을 잡음، 지연';
+  String get tarotSwords06Reversed =>
+      'مقاومت در برابر تغییر، زخم‌های گذشته مانع می‌شوند، تاخیر';
 
   @override
   String get tarotSwords07Name => 'هفت شمشیر';
 
   @override
-  String get tarotSwords07Upright => '기만، 속임수، 전략، 은밀한 행동، 도주';
+  String get tarotSwords07Upright =>
+      'فریب، حیله‌گری، استراتژی، اقدامات پنهانی، فرار';
 
   @override
-  String get tarotSwords07Reversed => '자백، 비밀 폭로، 속임수 발각، 죄책감، 정면 돌파';
+  String get tarotSwords07Reversed =>
+      'اعتراف، افشای راز، کشف فریب، احساس گناه، رویارویی مستقیم';
 
   @override
   String get tarotSwords08Name => 'هشت شمشیر';
 
   @override
-  String get tarotSwords08Upright => '자승자박، 무기력، 제한된 생각، 두려움의 감옥';
+  String get tarotSwords08Upright =>
+      'خودساخته، بی‌حالی، افکار محدود، زندان ترس';
 
   @override
-  String get tarotSwords08Reversed => '해방، 스스로의 감옥에서 벗어남، 새로운 관점';
+  String get tarotSwords08Reversed => 'رهایی، رهایی از زندان خود، دیدگاه جدید';
 
   @override
   String get tarotSwords09Name => 'نه شمشیر';
 
   @override
-  String get tarotSwords09Upright => '불안، 절망، 불면증، 죄책감، 내면의 공포';
+  String get tarotSwords09Upright =>
+      'اضطراب، ناامیدی، بی‌خوابی، احساس گناه، ترس درونی';
 
   @override
-  String get tarotSwords09Reversed => '공포 극복، 희망의 빛، 불면증 해소، 사실 직시';
+  String get tarotSwords09Reversed =>
+      'غلبه بر ترس، نور امید، رفع بی‌خوابی، رویارویی با حقایق';
 
   @override
   String get tarotSwords10Name => 'ده شمشیر';
 
   @override
-  String get tarotSwords10Upright => '파멸، 깊은 상처، 배신، 바닥을 침، 끝의 도래';
+  String get tarotSwords10Upright =>
+      'ویرانی، زخم عمیق، خیانت، رسیدن به پایین‌ترین نقطه، پایان';
 
   @override
-  String get tarotSwords10Reversed => '파멸에서의 회복، 최악은 지났음، 생존، 재건';
+  String get tarotSwords10Reversed =>
+      'بهبودی از ویرانی، بدترین گذشته است، بقا، بازسازی';
 
   @override
   String get tarotSwords11Name => 'صفحه شمشیرها';
 
   @override
-  String get tarotSwords11Upright => '호기심، 예리한 분석력، 진실 탐구، 새로운 아이디어';
+  String get tarotSwords11Upright =>
+      'کنجکاوی، قدرت تحلیل تیز، جستجوی حقیقت، ایده‌های جدید';
 
   @override
-  String get tarotSwords11Reversed => '경솔함، 조급함، 냉소주의، 근거 없는 소문، 무례';
+  String get tarotSwords11Reversed =>
+      'بی‌احتیاطی، عجله، بدبینی، شایعات بی‌اساس، بی‌ادبی';
 
   @override
   String get tarotSwords12Name => 'شوالیه شمشیرها';
 
   @override
-  String get tarotSwords12Upright => '돌진، 야망، 지적 추진력، 빠르고 단호한 행동';
+  String get tarotSwords12Upright =>
+      'یورش، جاه‌طلبی، انگیزه فکری، اقدام سریع و قاطع';
 
   @override
-  String get tarotSwords12Reversed => '무모함، 공격성، 배려 없는 언행، 충동성، 무자비';
+  String get tarotSwords12Reversed =>
+      'بی‌احتیاطی، پرخاشگری، گفتار بی‌ملاحظه، تکانشگری، بی‌رحمی';
 
   @override
   String get tarotSwords13Name => 'ملکه شمشیرها';
 
   @override
-  String get tarotSwords13Upright => '독립، 명확한 의사소통، 예리한 판단، 정직함، 객관성';
+  String get tarotSwords13Upright =>
+      'استقلال، ارتباط روشن، قضاوت تیز، صداقت، عینیت';
 
   @override
-  String get tarotSwords13Reversed => '비정함، 냉혹함، 과도한 비판، 원한، 고립';
+  String get tarotSwords13Reversed =>
+      'بی‌رحمی، سنگدلی، انتقاد بیش از حد، کینه، انزوا';
 
   @override
   String get tarotSwords14Name => 'پادشاه شمشیرها';
 
   @override
-  String get tarotSwords14Upright => '권위، 지적 통찰، 논리، 공정함، 원칙، 전문가';
+  String get tarotSwords14Upright =>
+      'اقتدار، بینش فکری، منطق، عدالت، اصول، متخصص';
 
   @override
-  String get tarotSwords14Reversed => '권력 남용، 비합리성، 잔인함، 통제욕، 독재';
+  String get tarotSwords14Reversed =>
+      'سوءاستفاده از قدرت، غیرمنطقی بودن، بی‌رحمی، میل به کنترل، استبداد';
 
   @override
-  String get tarotWands01Name => 'Ace of Wands';
+  String get tarotWands01Name => 'تک چوبدست (Ace of Wands)';
 
   @override
-  String get tarotWands01Upright => '열정، 영감، 창조적 힘، 새로운 잠재력، 활력';
+  String get tarotWands01Upright =>
+      'شور و اشتیاق، الهام، قدرت خلاق، پتانسیل جدید، سرزندگی';
 
   @override
-  String get tarotWands01Reversed => '열정의 지연، 영감 부족، 의욕 상실، 정체성 혼란';
+  String get tarotWands01Reversed =>
+      'تاخیر در شور و اشتیاق، کمبود الهام، از دست دادن انگیزه، سردرگمی هویتی';
 
   @override
   String get tarotWands02Name => 'دو تا از گرز';
 
   @override
-  String get tarotWands02Upright => '계획، 비전، 장기적 목표، 결단력، 탐험';
+  String get tarotWands02Upright =>
+      'برنامه‌ریزی، بینش، اهداف بلندمدت، قاطعیت، کاوش';
 
   @override
-  String get tarotWands02Reversed => '계획 부족، 미루기، 두려움에 의한 정체، 제한된 비전';
+  String get tarotWands02Reversed =>
+      'کمبود برنامه‌ریزی، تعویق، رکود ناشی از ترس، بینش محدود';
 
   @override
   String get tarotWands03Name => 'سه عصا';
 
   @override
-  String get tarotWands03Upright => '기대의 실현، 진전، 확장، 선견지명، 리더십';
+  String get tarotWands03Upright =>
+      'تحقق انتظارات، پیشرفت، گسترش، آینده‌نگری، رهبری';
 
   @override
-  String get tarotWands03Reversed => '성장의 지연، 좌절، 예상치 못한 장애، 편협함';
+  String get tarotWands03Reversed =>
+      'تاخیر در رشد، ناامیدی، موانع غیرمنتظره، کوته‌بینی';
 
   @override
   String get tarotWands04Name => 'چهار چوبدستی';
 
   @override
-  String get tarotWands04Upright => '축하، 안락함، 성취의 기쁨، 환영، 집안의 행사';
+  String get tarotWands04Upright =>
+      'جشن، آسایش، شادی از دستاورد، استقبال، رویداد خانوادگی';
 
   @override
-  String get tarotWands04Reversed => '취소된 행사، 가정의 불화، 일시적 안정، 지연된 축하';
+  String get tarotWands04Reversed =>
+      'رویداد لغو شده، اختلاف خانوادگی، ثبات موقت، جشن به تاخیر افتاده';
 
   @override
   String get tarotWands05Name => 'پنج عصا';
 
   @override
-  String get tarotWands05Upright => '경쟁، 갈등، 의견 대립، 다툼، 도전';
+  String get tarotWands05Upright => 'رقابت، درگیری، اختلاف نظر، نزاع، چالش';
 
   @override
-  String get tarotWands05Reversed => '타협، 갈등의 회피، 협력، 평화 추구، 혼란 진정';
+  String get tarotWands05Reversed =>
+      'سازش، اجتناب از درگیری، همکاری، جستجوی صلح، آرامش آشفتگی';
 
   @override
   String get tarotWands06Name => 'شش چوبدستی';
 
   @override
-  String get tarotWands06Upright => '성공، 대중의 인정، 승리، 자신감، 리더의 부상';
+  String get tarotWands06Upright =>
+      'موفقیت، به رسمیت شناخته شدن عمومی، پیروزی، اعتماد به نفس، ظهور رهبر';
 
   @override
-  String get tarotWands06Reversed => '패배، 불명예، 인정받지 못함، 교만، 명성 추락';
+  String get tarotWands06Reversed =>
+      'شکست، بی‌آبرویی، به رسمیت شناخته نشدن، غرور، سقوط شهرت';
 
   @override
   String get tarotWands07Name => 'هفت عصا';
 
   @override
-  String get tarotWands07Upright => '용기، 방어، 경쟁에 맞섬، 확고한 신념، 인내';
+  String get tarotWands07Upright =>
+      'شجاعت، دفاع، مقابله با رقابت، اعتقاد راسخ، استقامت';
 
   @override
-  String get tarotWands07Reversed => '포기، 압도됨، 타협، 자신감 상실، 비겁함';
+  String get tarotWands07Reversed =>
+      'تسلیم، غرق شدن، سازش، از دست دادن اعتماد به نفس، بزدلی';
 
   @override
   String get tarotWands08Name => 'هشت عصا';
 
   @override
-  String get tarotWands08Upright => '신속한 진행، 빠른 결말، 소식، 민첩함، 속도';
+  String get tarotWands08Upright => 'پیشرفت سریع، پایان سریع، خبر، چابکی، سرعت';
 
   @override
-  String get tarotWands08Reversed => '지연، 혼란، 서두름으로 인한 실수، 소통 불능';
+  String get tarotWands08Reversed =>
+      'تاخیر، سردرگمی، اشتباه ناشی از عجله، عدم ارتباط';
 
   @override
   String get tarotWands09Name => 'نه عصا';
 
   @override
-  String get tarotWands09Upright => '회복력، 방어 태세، 지쳐도 계속함، 경계، 체력 시험';
+  String get tarotWands09Upright =>
+      'تاب‌آوری، حالت دفاعی، ادامه دادن با وجود خستگی، هوشیاری، آزمایش استقامت';
 
   @override
-  String get tarotWands09Reversed => '피로، 편집증، 포기، 완고함، 불필요한 저항';
+  String get tarotWands09Reversed =>
+      'خستگی، پارانویا، تسلیم، لجبازی، مقاومت غیرضروری';
 
   @override
   String get tarotWands10Name => 'ده عصا';
 
   @override
-  String get tarotWands10Upright => '과도한 짐، 극심한 부담، 책임감، 압박، 한계점';
+  String get tarotWands10Upright =>
+      'بار بیش از حد، فشار شدید، مسئولیت‌پذیری، فشار، نقطه شکست';
 
   @override
-  String get tarotWands10Reversed => '짐을 내려놓음، 책임 회피، 탈진، 위임، 극복';
+  String get tarotWands10Reversed =>
+      'رها کردن بار، فرار از مسئولیت، فرسودگی، واگذاری، غلبه';
 
   @override
   String get tarotWands11Name => 'صفحه چوبدستی';
 
   @override
-  String get tarotWands11Upright => '탐험، 발견، 열정적인 아이디어، 에너지، 매력';
+  String get tarotWands11Upright => 'کاوش، کشف، ایده‌های پرشور، انرژی، جذابیت';
 
   @override
-  String get tarotWands11Reversed => '방향 상실، 미숙함، 쉽게 싫증냄، 헛된 망상، 무책임';
+  String get tarotWands11Reversed =>
+      'از دست دادن جهت، نابالغی، زود خسته شدن، توهمات بیهوده، بی‌مسئولیتی';
 
   @override
   String get tarotWands12Name => 'شوالیه عصا';
 
   @override
-  String get tarotWands12Upright => '열정적 전진، 모험심، 행동력، 에너지، 자신감';
+  String get tarotWands12Upright =>
+      'پیشروی پرشور، روح ماجراجو، عمل‌گرایی، انرژی، اعتماد به نفس';
 
   @override
-  String get tarotWands12Reversed => '충동적 행동، 오만함، 변덕، 분노، 무계획';
+  String get tarotWands12Reversed =>
+      'اقدامات تکانشی، تکبر، بی‌ثباتی، خشم، بی‌برنامگی';
 
   @override
   String get tarotWands13Name => 'ملکه عصا';
 
   @override
-  String get tarotWands13Upright => '카리스마، 용기، 독립، 밝음، 매력، 활기';
+  String get tarotWands13Upright =>
+      'کاریزما، شجاعت، استقلال، روشنایی، جذابیت، سرزندگی';
 
   @override
-  String get tarotWands13Reversed => '이기심، 과시욕، 질투، 변덕스러움، 공격성';
+  String get tarotWands13Reversed =>
+      'خودخواهی، خودنمایی، حسادت، دمدمی مزاجی، پرخاشگری';
 
   @override
   String get tarotWands14Name => 'پادشاه عصا';
 
   @override
-  String get tarotWands14Upright => '카리스마적 리더십، 비전، 영감، 대담함، 기업가';
+  String get tarotWands14Upright =>
+      'رهبری کاریزماتیک، بینش، الهام، جسارت، کارآفرین';
 
   @override
-  String get tarotWands14Reversed => '독재، 충동적 분노، 비현실성، 오만، 가차없음';
+  String get tarotWands14Reversed =>
+      'استبداد، خشم تکانشی، غیرواقعی بودن، تکبر، بی‌رحمی';
 
   @override
   String get nicknamePrefixes =>
-      '신비한،고요한،거룩한،어두운،빛나는،차가운،뜨거운،매혹적인،잔혹한،순 수한،거친،부드러운،아름다운،기묘한،위대한،초라한،영원한،잊혀진،찬란 ,슬픈,기쁜,몽환적인,타락한,순백의,칠흑의,핏빛의,잿빛의,황금빛,은빛 ,푸른,붉은,노란,검은,하얀,투명한,고독한,시끄러운,조용한,따뜻한,싸늘 한,외로운,쓸쓸한,즐거운,행복한,우울한,절망적인,희망찬,눈부신,어스름 한,캄캄한,적막한,은밀한,비밀스러운,성스러운,불경한,오만한,겸손혜지, 로운,어리석은,강인한,나약한,용감한,비겁한,아득한,가까운,멀어지는,다 가오는,사라지는,나타나는,깨어난,잠든,꿈꾸는,헤매는,방황하는,머무는 나는,돌아오는,기다리는,찾는,숨은,드러난,버려진,선택된,축복받은,저주 받은,사랑받는,미움받는,기억하는,망각하는,별빛의,달빛의,ז빛의,우주 대지의,바다의,하늘의,구름의,바람의,비의,눈의,얼음의,불의,물의,흙의 ,나무의,숲의,산의,강의,호수의,시간의,공간의,차원의,운명의,숙명의,기 적의،마법의،신화의،전설의،진실의،거짓의،환상의،꿈의،악몽의،파멸의، 창조의,생명의,죽음의,영혼의,육체의,이성의,감정의,사랑의,읔오의,슬픘 ,기쁨의,분노의,평화의,전쟁의,혼돈의,질서의,빛의,어둠의,황혼의,새벽의 ,정오의,자정의,과거의,현재의,미래의,기원의,종말의,무한의,유한의,침래의 의,소음의,노래하는,춤추는,우는,웃는,속삭이는,외치는,기도하는,간청하는 는,명령하는,복종하는,지배하는,섬기는,인도하는,따르는,가르치는,배우 기억의,추억의,상처의,치유의,독의,약의,환영의,실체의,이상의,현실의, 가상의,자연의,인공의,태초의,영겁의,순간의,찰나의,영속의,변화의,지 ,흐르는,멈춘,타오르는,식어가는,피어나는,시드는,자라나는,죽어가는, 쉬는,질식하는,찬란한,은은한,아스라한,아련한,투명한,희미한,눈부은한,기 한,독특한,특별한,고귀한,순수한,타락한,고독한,쓸쓸한,적막한,아득한,갰 혹한,냉혹한,잔인한,위대한,강인한,굳건한,유연한,재빠른,느릿한,고요욆 ,혼돈속의,기억속의,상상속의,침묵하는,속삭이는,노래하는,춁추는,흐는 는,미소짓는,비웃는,관조하는,방황하는,헤매는,깨어있는,잠든,꿈꾸는, 하는,망상하는,기도하는,간절한,애절한,처절한,숭고한,사악한,비열한,거 만한،겸손한،다정한،따뜻한،서늘한،오싹한،기괴한،섬뜩한،황한،매혹젠 ,아찔한,달콤한,쌉싸름한,씁쓸한,가시돋친,날카로운,무딘,거친,부드러운 ,포근한,안락한,위태로운,불안한,평온한,안온한,나른한,권태로운,열져적 ,무심한,차분한,격렬한,맹렬한,광적인,미쳐버린,이성적인,감성적인,냜인 ,현명한,어리석은,순진한,교활한,음흉한,순백의,칠흑의,황금빛,은빛,핏';
+      'اسرارآمیز,آرام,مقدس,تاریک,درخشان,سرد,گرم,فریبنده,بی‌رحم,خالص,خشن,نرم,زیبا,عجیب,بزرگ,حقیر,ابدی,فراموش‌شده,درخشان,غمگین,شاد,رویایی,فاسد,سفید خالص,سیاه مطلق,خونین,خاکستری,طلایی,نقره‌ای,آبی,قرمز,زرد,سیاه,سفید,شفاف,تنها,پر سر و صدا,ساکت,گرم,سرد,منزوی,غم‌انگیز,لذت‌بخش,خوشحال,افسرده,ناامید,امیدوار,خیره‌کننده,گرگ و میش,تاریک,خلوت,پنهان,رازآلود,مقدس,نامقدس,متکبر,فروتن,خردمند,احمق,قوی,ضعیف,شجاع,بزدل,دور,نزدیک,دور شونده,نزدیک شونده,ناپدید شونده,ظاهر شونده,بیدار,خوابیده,رویاپرداز,سرگردان,گمراه,ماندگار,ترک کننده,بازگشته,منتظر,جستجوگر,پنهان,آشکار,رها شده,انتخاب شده,برکت یافته,نفرین شده,محبوب,مورد نفرت,به یاد آورنده,فراموش کننده,ستاره‌ای,مهتابی,آفتابی,کیهانی,زمینی,دریایی,آسمانی,ابری,بادی,بارانی,برفی,یخی,آتشی,آبی,خاکی,درختی,جنگلی,کوهستانی,رودخانه‌ای,دریاچه‌ای,زمانی,فضایی,بعدی,سرنوشتی,تقدیر,معجزه‌ای,جادویی,اسطوره‌ای,افسانه‌ای,حقیقی,دروغین,توهمی,رویایی,کابوسی,ویرانگر,خالق,حیاتی,مرگبار,روحی,جسمی,عقلانی,احساسی,عاشقانه,متنفر,غمگین,شاد,خشمگین,صلح‌آمیز,جنگجو,آشفته,منظم,نورانی,تاریک,غروب,طلوع,ظهر,نیمه‌شب,گذشته,حال,آینده,آغازین,پایانی,بی‌نهایت,محدود,خاموش,پر سر و صدا,آوازخوان,رقصنده,گریان,خندان,نجواگر,فریادزن,دعاگو,التماس‌کننده,فرمانده,اطاعت‌کننده,حاکم,خدمتگزار,راهنما,پیرو,آموزنده,یادگیرنده,خاطره‌ای,یادگاری,زخمی,شفا دهنده,سمی,دارویی,توهمی,واقعی,ایده‌آل,حقیقی,مجازی,طبیعی,مصنوعی,اولیه,ابدی,لحظه‌ای,آنی,پایدار,متغیر,ایستا,جاری,متوقف,شعله‌ور,سرد شونده,شکوفا شونده,پژمرده شونده,رشد کننده,در حال مرگ,نفس‌کش,خفه‌کننده,درخشان,ملایم,مبهم,محو,شفاف,کم‌نور,خیره‌کننده,عجیب,منحصر به فرد,خاص,نجیب,خالص,فاسد,تنها,غم‌انگیز,خلوت,دور,سخت,بی‌رحم,ظالم,بزرگ,قوی,استوار,انعطاف‌پذیر,سریع,آهسته,در سکوت,در آشفتگی,در خاطرات,در تخیل,ساکت,نجواگر,آوازخوان,رقصنده,گریان,لبخندزن,تمسخرکننده,متفکر,سرگردان,گمراه,بیدار,خوابیده,رویاپرداز,خیال‌پرداز,توهم‌پرداز,دعاگو,مشتاق,غمگین,دردناک,والا,شیطانی,پست,متکبر,فروتن,مهربان,گرم,خنک,ترسناک,عجیب و غریب,وحشتناک,مسحورکننده,فریبنده,سرگیجه‌آور,شیرین,تلخ و شیرین,تلخ,خاردار,تیز,کند,خشن,نرم,گرم و نرم,راحت,خطرناک,ناآرام,آرام,امن,بی‌حال,کسل‌کننده,پرشور,بی‌تفاوت,آرام,شدید,خشن,دیوانه‌وار,عاقل,احساساتی,سرد,خردمند,احمق,معصوم,حیله‌گر,مکار,سفید خالص,سیاه مطلق,طلایی,نقره‌ای,خونین';
 
   @override
   String get nicknameSuffixes =>
-      '예언자,마법사,마녀,기사,전사,궁수,도적,암살자,성기사,사제,여사제,여사제,수 사,연금술사,강령술사,정령사,소환사,환술사,치유사,현자,학자,연구자자, 자,방랑자,유랑자,순례자,구도자,관찰자,기록자,전달자,수호자,파수꾼,기록자,전달자,수호자,파수꾼 기,심판관,집행관,통치자,지배자,왕,여왕,황제,여제,귀족,영죁,기사앩배장, ,도둑,사기꾼,광대,바보,은둔자,이단자,배신자,반역자,영웅,구원자은둔자,이단자,배신자,반역자,영웅,구원자은둔자,해방 ,창조자,신,여신,천사,악마,정령,요정,괴물,마수,드래곤,유령,망령,언데흓 ,늑대인간,인어,세이렌,님프,고블린,오크,트롤,엘프,드워프,거인,소인,인, ,조인,어인,용인,악령,수라,나락,천상,명계,이계,심연,혼돈,질서,빛,어락, ,순례자,방랑자,은둔자,이단아,반역자,개척자,정복자,지배자,조율자자수필 ,관찰자,기록자,전달자,안내자,인도자,구원자,파괴자,창조자,망령,유령,원혼,악령 ، 금술사,강령술사,사제,학자,연구자,탐험가,여행가,예술가,광띌,음유시인 농부,까마귀,부엉이,올빼미,독수리,매,늑대,여우,곰,사자,호랑이,표랑이,표띜 쏅,고양이,강아지,뱀,도마뱀,거북이,악어,용,유니콘,페가수스,그리폰,가 ,오크,트롤,오거,슬라임,스켈레톤,좀비,구울,뱀파이어,웨어울프,미노타 우로스,하피,세이렌,크라켄,레비아탄,검,방패,창,활,지팡이,반지,목왱챰이';
+      'پیامبر,جادوگر,ساحره,شوالیه,جنگجو,کماندار,دزد,قاتل,شوالیه مقدس,کشیش,کشیش زن,راهب,شمن,کیمیاگر,نکرومانسر,عنصرگرا,احضارکننده,توهم‌گر,شفا دهنده,حکیم,دانشمند,محقق,کاوشگر,مسافر,سرگردان,کوچ‌نشین,زائر,جستجوگر,ناظر,ثبت‌کننده,پیام‌رسان,نگهبان,دیده‌بان,نگهبان,دروازه‌بان,قاضی,مجری,حاکم,فرمانروا,پادشاه,ملکه,امپراتور,امپراتریس,اشراف‌زاده,لرد,فرمانده شوالیه‌ها,مزدور,دزد دریایی,دزد,کلاهبردار,دلقک,احمق,گوشه‌نشین,مرتد,خائن,شورشی,قهرمان,ناجی,آزادکننده,ویرانگر,خالق,خدا,الهه,فرشته,شیطان,روح,پری,هیولا,جانور جادویی,اژدها,شبح,روح سرگردان,مرده متحرک,خون‌آشام,گرگینه,پری دریایی,سیرن,نیمف,گابلین,اورک,ترول,الف,کوتوله,غول,کوتوله,انسان,انسان‌نما,پرنده‌نما,ماهی‌نما,اژدها‌نما,روح شیطانی,آسورا,جهنم,بهشت,عالم اموات,عالم دیگر,ورطه,آشوب,نظم,نور,تاریکی,جستجوگر,زائر,سرگردان,گوشه‌نشین,مرتد,شورشی,پیشگام,فاتح,حاکم,تنظیم‌کننده,نگهبان,ناظر,ثبت‌کننده,پیام‌رسان,راهنما,هدایت‌کننده,ناجی,ویرانگر,خالق,روح سرگردان,شبح,روح کینه‌توز,روح شیطانی,روح,پری,جانور جادویی,جانور مقدس,جانور توهمی,جانور الهی,شمشیرزن,شوالیه,کماندار,دزد,قاتل,جادوگر,شمن,کیمیاگر,نکرومانسر,کشیش,دانشمند,محقق,کاوشگر,مسافر,هنرمند,دلقک,نوازنده,تاجر,صنعتگر,کشاورز,کلاغ,جغد,جغد,عقاب,شاهین,گرگ,روباه,خرس,شیر,ببر,پلنگ,پلنگ سیاه,گربه,سگ,مار,مارمولک,لاک‌پشت,تمساح,اژدها,تک‌شاخ,پگاسوس,گریفون,گارگویل,گابلین,اورک,ترول,اوگر,اسلایم,اسکلت,زامبی,غول,خون‌آشام,گرگینه,مینوتور,قنطورس,هارپی,سیرن,کراکن,لویاتان,شمشیر,سپر,نیزه,کمان,عصا,حلقه,گردنبند,تاج,جام مقدس';
 
   @override
-  String get eulaTitle => '최종 사용자 라이선스 계약 (EULA)';
+  String get eulaTitle => 'قرارداد مجوز کاربر نهایی (EULA)';
 
   @override
   String get eulaArticle1 =>
-      '제1조 (라이선스 허여)\n본 앱(\"타로마녀\")은 개인적، 비상업적 용도에 한해 사용 권한을 부여하도 소유권이나 지적재산권은 이전되지 않습니다.';
+      'ماده ۱ (اعطای مجوز)\nاین برنامه (\"جادوگر تاروت\") فقط برای استفاده شخصی و غیرتجاری مجوز می‌دهد و مالکیت یا حقوق مالکیت فکری برنامه منتقل نمی‌شود.\n\n';
 
   @override
   String get eulaArticle2 =>
-      '제2조 (금지된 사용)\n사용자는 본 서비스를 불법적이거나 타인의 권리를 침해하는 목적윬적이거나 타인의 없으며، 시스템이나 데이터를 임의로 조작하거나 리버스 엔지니어습니어링할.';
+      'ماده ۲ (استفاده ممنوع)\nکاربر نمی‌تواند از این سرویس برای اهداف غیرقانونی یا نقض حقوق دیگران استفاده کند و نمی‌تواند سیستم یا داده‌ها را خودسرانه دستکاری یا مهندسی معکوس کند.\n\n';
 
   @override
   String get eulaArticle3 =>
-      '제3조 (데이터 수집 및 보관 기간)\n원활한 서비스 제공을 위해 사용자가 작성한 타로 일기 및 관띨 점자괘 데자가 작성일로부터 기본 3년간 안전하게 보관됩니다.';
+      'ماده ۳ (جمع‌آوری و مدت نگهداری داده‌ها)\nبرای ارائه خدمات روان، داده‌های دفترچه تاروت و پیشگویی‌های مرتبط که توسط کاربر ایجاد شده‌اند، به مدت ۳ سال از تاریخ ایجاد به طور ایمن نگهداری می‌شوند.\n\n';
 
   @override
   String get eulaArticle4 =>
-      '제4조 (장기 미접속 휴면 계정 처리)\n사용자가 1년(365일) 이상 서비스에 접속하지 않을 경우 휴면 계정으뙘접속하지 개인정보 보호 및 원활한 서버 환경 유지를 위해 해당 사용자의 모든 데지를 고지 없이 자동 삭제 처리됩니다.';
+      'ماده ۴ (رسیدگی به حساب‌های غیرفعال با عدم ورود طولانی‌مدت)\nاگر کاربر بیش از ۱ سال (۳۶۵ روز) به سرویس وارد نشود، حساب او به حالت غیرفعال تبدیل می‌شود و برای حفاظت از اطلاعات شخصی و حفظ محیط سرور روان، تمام داده‌های کاربر بدون اطلاع قبلی به طور خودکار حذف می‌شوند.\n\n';
 
   @override
   String get eulaArticle5 =>
-      '제5조 (데이터 파기 및 복구 불가)\n제3조의 보관 기간이 경과하거나 제4조에 의해 삭제된 데이터는 똁구 똁구 경우에도 복구할 수 없습니다.';
+      'ماده ۵ (حذف داده‌ها و عدم امکان بازیابی)\nداده‌هایی که مدت نگهداری ماده ۳ آنها منقضی شده یا طبق ماده ۴ حذف شده‌اند، به طور دائم از بین می‌روند و تحت هیچ شرایطی قابل بازیابی نیستند.\n\n';
 
   @override
   String get eulaArticle6 =>
-      '제6조 (보증 부인 및 면책)\n본 앱이 제공하는 타로 점괘 및 해석은 오락 목적으로만 제공되며، 첕은 재정적 조언을 대체하지 않습니다. 서비스 이용으로 인해 발생하는 어떠한 직간접적인 손해에 대해서도 대해서도 Ʞ 지지 않습니다.';
+      'ماده ۶ (سلب ضمانت و مسئولیت)\nپیشگویی‌ها و تفسیرهای تاروت ارائه شده توسط این برنامه فقط برای اهداف سرگرمی است و جایگزین مشاوره حقوقی، پزشکی یا مالی نیست. توسعه‌دهنده هیچ مسئولیتی در قبال خسارات مستقیم یا غیرمستقیم ناشی از استفاده از سرویس ندارد.\n\n';
 
   @override
   String get eulaAgreement =>
-      '위 EULA 내용 및 데이터 관리 정책은 앱 사용을 위해 필수적으로 동의해않핼 항목입니다.';
+      'محتوای EULA و سیاست مدیریت داده‌های فوق برای استفاده از برنامه الزامی است.';
 
   @override
-  String get closeButton => '닫기';
+  String get closeButton => 'بستن';
 
   @override
-  String get pushTermsTitle => '이벤트 및 마케팅 알림 수신 동의';
+  String get pushTermsTitle => 'موافقت با دریافت اعلان‌های رویداد و بازاریابی';
 
   @override
   String get pushArticle1 =>
-      '제1조 (목적)\n본 동의는 타로마녀 서비스가 사용자에게 유익한 이벤트، 프로모션، 새용자에게 업데이트 등의 광고성 정보를 푸시 알림으로 전송하기 위함입니다.';
+      'ماده ۱ (هدف)\nاین موافقت برای ارسال اطلاعات تبلیغاتی مانند رویدادهای مفید، تبلیغات، و به‌روزرسانی‌های جدید فال توسط سرویس جادوگر تاروت به کاربر از طریق اعلان‌های فشاری است.\n\n';
 
   @override
   String get pushArticle2 =>
-      '제2조 (수신 철회)\n사용자는 본 수신 동의를 언제든지 앱 내 [내 메뉴 > 앱 설정]에서 철욌할. 동의를 철회하더라도 서비스의 기본 기능(필수 서비스)은 정상적으슩담니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니니님';
+      'ماده ۲ (لغو دریافت)\nکاربر می‌تواند این موافقت را در هر زمان از طریق [منوی من > تنظیمات برنامه] در برنامه لغو کند. حتی با لغو موافقت، عملکردهای اصلی سرویس (خدمات ضروری) به طور عادی قابل استفاده خواهند بود.\n\n';
 
   @override
   String get pushArticle3 =>
-      '제3조 (알림의 내용)\n전송되는 알림에는 앱 내 특별 할인 혜택، 기간 한정 이벤트، 맞춤형 굴춤형 운 및 마케팅 성격의 내용이 포함될 수 있습니다.';
+      'ماده ۳ (محتوای اعلان‌ها)\nاعلان‌های ارسالی ممکن است شامل محتوای تبلیغاتی و بازاریابی مانند تخفیف‌های ویژه در برنامه، رویدادهای محدود زمانی، و توصیه‌های فال شخصی‌سازی شده باشد.\n\n';
 
   @override
   String get pushAgreement =>
-      '위 내용은 사용자의 선택적 동의 사항이며, 미동의 시에도 타로 서비슩 불이익이 없습니다.';
+      'محتوای فوق یک مورد اختیاری برای موافقت کاربر است و عدم موافقت با آن هیچ ضرری برای استفاده از سرویس تاروت ندارد.';
 
   @override
   String get windowsNoGoogleLogin =>
-      '미리보기 환경(ویندوز)에서는 구글 로그인을 지원하지 않습니다. 안드로이드 기기나 웹을 이용해주세요.';
+      'ورود با گوگل در محیط پیش‌نمایش (ویندوز) پشتیبانی نمی‌شود. لطفاً از دستگاه اندروید یا وب استفاده کنید.';
 
   @override
-  String get signupTermsRequired => '회원가입을 진행하려면 데이터 보관 약관에 동의해야 합니다.';
+  String get signupTermsRequired =>
+      'برای ادامه ثبت‌نام، باید با شرایط نگهداری داده‌ها موافقت کنید.';
 
   @override
   String googleLoginError(String error) {
-    return '구글 로그인 오류: $error';
+    return 'خطای ورود با گوگل: $error';
   }
 
   @override
-  String get googleLoginUnknownError => '구글 로그인 중 알 수 없는 오류가 발생했습니다.';
+  String get googleLoginUnknownError =>
+      'خطای ناشناخته‌ای در هنگام ورود با گوگل رخ داد.';
 
   @override
-  String get windowsNoFirebase => '미리보기 환경(ویندوز)에서는 파이어베이스 로그인을 지원하지 않습니다.';
+  String get windowsNoFirebase =>
+      'ورود با فایربیس در محیط پیش‌نمایش (ویندوز) پشتیبانی نمی‌شود.';
 
   @override
-  String get emailVerificationRequired => '이메일 인증이 필요합니다. 가입하신 이메일함을 확인해주세요.';
+  String get emailVerificationRequired =>
+      'تایید ایمیل لازم است. لطفاً صندوق ورودی ایمیل ثبت‌نامی خود را بررسی کنید.';
 
   @override
-  String get resendEmail => '재발송';
+  String get resendEmail => 'ارسال مجدد';
 
   @override
-  String get verificationEmailSent => '인증 메일이 재발송되었습니다.';
+  String get verificationEmailSent => 'ایمیل تایید مجدداً ارسال شد.';
 
   @override
-  String get passwordMismatch => '비밀번호가 일치하지 않습니다. 다시 확인해 주세요.';
+  String get passwordMismatch =>
+      'رمز عبور مطابقت ندارد. لطفاً دوباره بررسی کنید.';
 
   @override
-  String get signupSuccess => '회원가입이 완료되었습니다. 발송된 이메일을 확인하여 인증을 완료해주세요.';
+  String get signupSuccess =>
+      'ثبت‌نام با موفقیت انجام شد. لطفاً ایمیل ارسال شده را برای تکمیل تایید بررسی کنید.';
 
   @override
-  String get authError => '인증 오류가 발생했습니다.';
+  String get authError => 'خطای احراز هویت رخ داد.';
 
   @override
-  String get authLoginTitle => '로그인';
+  String get authLoginTitle => 'ورود';
 
   @override
-  String get authSignupTitle => '회원가입';
+  String get authSignupTitle => 'ثبت‌نام';
 
   @override
-  String get authTarotNickname => '타로 세계의 닉네임';
+  String get authTarotNickname => 'نام کاربری در دنیای تاروت';
 
   @override
-  String get authRerollNickname => '닉네임 다시 뽑기';
+  String get authRerollNickname => 'نام کاربری جدید';
 
   @override
-  String get authEmail => '이메일';
+  String get authEmail => 'ایمیل';
 
   @override
-  String get authPassword => '비밀번호';
+  String get authPassword => 'رمز عبور';
 
   @override
-  String get authConfirmPassword => '비밀번호 확인';
+  String get authConfirmPassword => 'تایید رمز عبور';
 
   @override
-  String get authKeepLoggedIn => '로그인 상태 유지';
+  String get authKeepLoggedIn => 'مرا به خاطر بسپار';
 
   @override
-  String get authAgreeEula => '최종 사용자 라이선스 계약(EULA)에 동의합니다. (필수)';
+  String get authAgreeEula =>
+      'با قرارداد مجوز کاربر نهایی (EULA) موافقم. (الزامی)';
 
   @override
-  String get authViewContent => '[내용 보기]';
+  String get authViewContent => '[مشاهده محتوا]';
 
   @override
-  String get authAgreePush => '새로운 타로점 및 이벤터 알림수신에 동의합니다. (선택)';
+  String get authAgreePush =>
+      'با دریافت اعلان‌های فال جدید و رویدادها موافقم. (اختیاری)';
 
   @override
-  String get authBtnLogin => '로그인하기';
+  String get authBtnLogin => 'ورود';
 
   @override
-  String get authBtnSignup => '가입하기';
+  String get authBtnSignup => 'ثبت‌نام';
 
   @override
-  String get authSwitchToSignup => '계정이 없으신가요؟ 회원가입';
+  String get authSwitchToSignup => 'حساب کاربری ندارید؟ ثبت‌نام کنید';
 
   @override
-  String get authSwitchToLogin => '이미 계정이 있으신가요؟ 로그인';
+  String get authSwitchToLogin => 'قبلاً حساب کاربری دارید؟ ورود';
 
   @override
-  String get authGoogleSignIn => 'Google로 시작하기';
+  String get authGoogleSignIn => 'شروع با گوگل';
 
   @override
-  String get cardDetailNotReady => '이 해석은 아직 준비되지 않았습니다.';
+  String get cardDetailNotReady => 'این تفسیر هنوز آماده نیست.';
 
   @override
-  String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
+  String get cardDetailLoadError => 'خطایی در بارگذاری داده‌ها رخ داد.';
 
   @override
   String get cardDetailTabUpright => 'مستقیم (Upright)';
@@ -3967,25 +4108,25 @@ class AppLocalizationsFa extends AppLocalizations {
   String get cardDetailTabReversed => 'معکوس (Reversed)';
 
   @override
-  String get cardDetailNoInterpretation => '해석이 없습니다.';
+  String get cardDetailNoInterpretation => 'تفسیری وجود ندارد.';
 
   @override
-  String get cardDetailSectionKeywords => '핵심 키워드';
+  String get cardDetailSectionKeywords => 'کلمات کلیدی اصلی';
 
   @override
-  String get cardDetailSectionGeneral => '일반 해석';
+  String get cardDetailSectionGeneral => 'تفسیر عمومی';
 
   @override
-  String get cardDetailSectionLove => '연애 운';
+  String get cardDetailSectionLove => 'فال عشق';
 
   @override
-  String get cardDetailSectionCareer => '금전 커리어';
+  String get cardDetailSectionCareer => 'شغل و پول';
 
   @override
-  String get cardDetailSectionHealth => '건강';
+  String get cardDetailSectionHealth => 'سلامتی';
 
   @override
-  String get cardDetailSectionSpirituality => '영성 내면';
+  String get cardDetailSectionSpirituality => 'معنویت و درون';
 
   @override
   String get chatDustShortageTitle => 'کمبود پودر';
@@ -4083,27 +4224,27 @@ class AppLocalizationsFa extends AppLocalizations {
   String get profileEditSave => 'ذخیره کنید';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'کمبود سکه';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'سکه کافی ندارید. برای خواندن تاروت ۱ سکه لازم است.';
 
   @override
-  String get dialogOk => 'OK';
+  String get dialogOk => 'تایید';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'ادامه خواندن تاروت';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'آیا می‌خواهید با مصرف ۱ سکه خواندن را ادامه دهید؟';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'لغو';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'ادامه';
 
   @override
   String pickCardsText(int count) {
@@ -4121,7 +4262,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return 'فال تاروت $witchName';
   }
 
   @override
@@ -4155,4 +4296,25 @@ class AppLocalizationsFa extends AppLocalizations {
   String translateFailed(String error) {
     return 'ترجمه ناموفق بود: $error';
   }
+
+  @override
+  String get tagLove => 'عشق';
+
+  @override
+  String get tagMoney => 'ثروت';
+
+  @override
+  String get tagHealth => 'سلامت';
+
+  @override
+  String get tagCareer => 'شغل';
+
+  @override
+  String get tagToday => 'فال امروز';
+
+  @override
+  String get tagRelationship => 'روابط';
+
+  @override
+  String get tagSelfReflection => 'تامل';
 }

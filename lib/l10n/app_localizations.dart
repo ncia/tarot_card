@@ -7967,6 +7967,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Translation failed: {error}'**
   String translateFailed(String error);
+
+  /// No description provided for @tagLove.
+  ///
+  /// In en, this message translates to:
+  /// **'Love'**
+  String get tagLove;
+
+  /// No description provided for @tagMoney.
+  ///
+  /// In en, this message translates to:
+  /// **'Wealth'**
+  String get tagMoney;
+
+  /// No description provided for @tagHealth.
+  ///
+  /// In en, this message translates to:
+  /// **'Health'**
+  String get tagHealth;
+
+  /// No description provided for @tagCareer.
+  ///
+  /// In en, this message translates to:
+  /// **'Career'**
+  String get tagCareer;
+
+  /// No description provided for @tagToday.
+  ///
+  /// In en, this message translates to:
+  /// **'Today\'s Fortune'**
+  String get tagToday;
+
+  /// No description provided for @tagRelationship.
+  ///
+  /// In en, this message translates to:
+  /// **'Relationships'**
+  String get tagRelationship;
+
+  /// No description provided for @tagSelfReflection.
+  ///
+  /// In en, this message translates to:
+  /// **'Self-Reflection'**
+  String get tagSelfReflection;
 }
 
 class _AppLocalizationsDelegate

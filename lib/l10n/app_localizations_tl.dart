@@ -4184,4 +4184,25 @@ class AppLocalizationsTl extends AppLocalizations {
   String translateFailed(String error) {
     return 'Nabigo ang pagsasalin: $error';
   }
+
+  @override
+  String get tagLove => 'Pag-ibig';
+
+  @override
+  String get tagMoney => 'Yaman';
+
+  @override
+  String get tagHealth => 'Kalusugan';
+
+  @override
+  String get tagCareer => 'Karera';
+
+  @override
+  String get tagToday => 'Kapalaran Ngayon';
+
+  @override
+  String get tagRelationship => 'Relasyon';
+
+  @override
+  String get tagSelfReflection => 'Pagninilay';
 }

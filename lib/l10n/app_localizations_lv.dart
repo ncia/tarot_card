@@ -1324,7 +1324,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get myMenuSectionCustomerSupport => 'Klientu atbalsts';
 
   @override
-  String get myMenuFaq => 'FAQ';
+  String get myMenuFaq => 'Bieži uzdotie jautājumi (FAQ)';
 
   @override
   String get myMenuAppInfo => 'Lietotnes informācija';
@@ -1413,7 +1413,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get readingIntroStart => 'Atlasiet Spread';
 
   @override
-  String get tabMajorArcana => 'Major Arcana';
+  String get tabMajorArcana => 'Lielie Arkāni';
 
   @override
   String get tabMinorArcana => 'Mazais Arkānis';
@@ -1503,7 +1503,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknamePrefix27 => 'zeltaini';
 
   @override
-  String get nicknamePrefix28 => 'argent';
+  String get nicknamePrefix28 => 'Sudraba';
 
   @override
   String get nicknamePrefix29 => 'zils';
@@ -2046,7 +2046,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknameSuffix7 => 'slepkava';
 
   @override
-  String get nicknameSuffix8 => 'paladin';
+  String get nicknameSuffix8 => 'Paladins';
 
   @override
   String get nicknameSuffix9 => 'priesteris';
@@ -2286,7 +2286,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknameSuffix87 => 'parakstu';
 
   @override
-  String get nicknameSuffix88 => 'Fishman';
+  String get nicknameSuffix88 => 'Zivju cilvēks';
 
   @override
   String get nicknameSuffix89 => 'darbinieks';
@@ -2295,7 +2295,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknameSuffix90 => 'ļaunais gars';
 
   @override
-  String get nicknameSuffix91 => 'Sura';
+  String get nicknameSuffix91 => 'Asura';
 
   @override
   String get nicknameSuffix92 => 'elle';
@@ -2355,7 +2355,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknamePrefix210 => 'īpašs';
 
   @override
-  String get nicknamePrefix211 => 'noble';
+  String get nicknamePrefix211 => 'Cēls';
 
   @override
   String get nicknamePrefix212 => 'tīrs';
@@ -2424,10 +2424,10 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknamePrefix233 => 'dziedāšana';
 
   @override
-  String get nicknamePrefix234 => 'dancing';
+  String get nicknamePrefix234 => 'Dejojošs';
 
   @override
-  String get nicknamePrefix235 => 'sobbing';
+  String get nicknamePrefix235 => 'Vaimanājošs';
 
   @override
   String get nicknamePrefix236 => 'smaidot';
@@ -2616,7 +2616,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknamePrefix297 => 'zeltaini';
 
   @override
-  String get nicknamePrefix298 => 'argent';
+  String get nicknamePrefix298 => 'Sudraba';
 
   @override
   String get nicknamePrefix299 => 'asiņaina';
@@ -2709,7 +2709,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknameSuffix129 => 'atmaksa';
 
   @override
-  String get nicknameSuffix130 => 'Shinsu';
+  String get nicknameSuffix130 => 'Dievišķais zvērs';
 
   @override
   String get nicknameSuffix131 => 'pārbaudi';
@@ -2724,7 +2724,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknameSuffix134 => 'zaglis';
 
   @override
-  String get nicknameSuffix135 => 'assassin';
+  String get nicknameSuffix135 => 'Slepkava';
 
   @override
   String get nicknameSuffix136 => 'vednis';
@@ -2733,7 +2733,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknameSuffix137 => 'wow';
 
   @override
-  String get nicknameSuffix138 => 'alchemist';
+  String get nicknameSuffix138 => 'Alķīmiķis';
 
   @override
   String get nicknameSuffix139 => 'nekromants';
@@ -2841,7 +2841,7 @@ class AppLocalizationsLv extends AppLocalizations {
   String get nicknameSuffix173 => 'grifons';
 
   @override
-  String get nicknameSuffix174 => 'gargoyle';
+  String get nicknameSuffix174 => 'Gargūlija';
 
   @override
   String get nicknameSuffix175 => 'goblins';
@@ -3128,854 +3128,1019 @@ class AppLocalizationsLv extends AppLocalizations {
   String get tarotMajor00Name => 'Muļķis';
 
   @override
-  String get tarotMajor00Upright => '새로운 시작, 모험, 무한한 가능성, 자유, 순수함';
+  String get tarotMajor00Upright =>
+      'Jauns sākums, piedzīvojums, bezgalīgas iespējas, brīvība, tīrība';
 
   @override
-  String get tarotMajor00Reversed => '무모함, 어리석음, 부주의, 너무 큰 위험을 감수함, 비현실성';
+  String get tarotMajor00Reversed =>
+      'Pārgalvība, muļķība, neuzmanība, pārāk liels risks, nereālisms';
 
   @override
   String get tarotMajor01Name => 'Burvis';
 
   @override
-  String get tarotMajor01Upright => '창조력, 의지, 능력, 새로운 시작의 힘, 결단력';
+  String get tarotMajor01Upright =>
+      'Radošums, griba, spējas, jauna sākuma spēks, apņēmība';
 
   @override
-  String get tarotMajor01Reversed => '조작, 재능 낭비, 기만, 자신감 부족, 숨겨진 의도';
+  String get tarotMajor01Reversed =>
+      'Manipulācija, talantu izšķērdēšana, maldināšana, pārliecības trūkums, slēpti nodomi';
 
   @override
   String get tarotMajor02Name => 'Augstā priesteriene';
 
   @override
-  String get tarotMajor02Upright => '직관, 무의식, 신비, 지혜, 내면의 목소리';
+  String get tarotMajor02Upright =>
+      'Intuīcija, zemapziņa, noslēpums, gudrība, iekšējā balss';
 
   @override
-  String get tarotMajor02Reversed => '직관 무시, 얕은 지식, 숨겨진 적, 비밀 누설';
+  String get tarotMajor02Reversed =>
+      'Intuīcijas ignorēšana, virspusējas zināšanas, slēpti ienaidnieki, noslēpumu atklāšana';
 
   @override
   String get tarotMajor03Name => 'Ķeizariene';
 
   @override
-  String get tarotMajor03Upright => '풍요, 모성애, 아름다움, 자연의 결실, 창조성';
+  String get tarotMajor03Upright =>
+      'Pārpilnība, mātes mīlestība, skaistums, dabas auglība, radošums';
 
   @override
-  String get tarotMajor03Reversed => '과잉보호, 의존성, 창조적 결핍, 게으름, 정체기';
+  String get tarotMajor03Reversed =>
+      'Pārmērīga aizsardzība, atkarība, radošuma trūkums, slinkums, stagnācija';
 
   @override
   String get tarotMajor04Name => 'Imperators';
 
   @override
-  String get tarotMajor04Upright => '권위, 구조, 안정, 부성애, 통제력, 책임감';
+  String get tarotMajor04Upright =>
+      'Autoritāte, struktūra, stabilitāte, tēva mīlestība, kontrole, atbildība';
 
   @override
-  String get tarotMajor04Reversed => '독재, 지배욕, 융통성 부족, 무능함, 억압';
+  String get tarotMajor04Reversed =>
+      'Diktatūra, dominēšanas vēlme, elastības trūkums, nespēja, apspiešana';
 
   @override
   String get tarotMajor05Name => 'Hierofants';
 
   @override
-  String get tarotMajor05Upright => '전통, 믿음, 교육, 영적인 인도, 보수주의';
+  String get tarotMajor05Upright =>
+      'Tradīcijas, ticība, izglītība, garīga vadība, konservatīvisms';
 
   @override
-  String get tarotMajor05Reversed => '반역, 관습 타파, 독단적 태도, 낡은 사상, 나쁜 조언';
+  String get tarotMajor05Reversed =>
+      'Sacelšanās, tradīciju laušana, dogmatiska attieksme, novecojušas idejas, slikts padoms';
 
   @override
   String get tarotMajor06Name => 'Mīļotāji';
 
   @override
-  String get tarotMajor06Upright => '사랑, 조화, 관계, 중요한 선택, 신뢰';
+  String get tarotMajor06Upright =>
+      'Mīlestība, harmonija, attiecības, svarīga izvēle, uzticība';
 
   @override
-  String get tarotMajor06Reversed => '불화, 잘못된 선택, 신뢰 상실, 유혹, 불균형';
+  String get tarotMajor06Reversed =>
+      'Nesaskaņas, nepareiza izvēle, uzticības zaudēšana, kārdinājums, nelīdzsvarotība';
 
   @override
   String get tarotMajor07Name => 'Rati';
 
   @override
-  String get tarotMajor07Upright => '의지, 승리, 결단력, 방향성, 성공을 향한 추진력';
+  String get tarotMajor07Upright =>
+      'Griba, uzvara, apņēmība, virziens, virzība uz panākumiem';
 
   @override
-  String get tarotMajor07Reversed => '통제 상실, 방향 상실, 무기력, 공격성, 장애물';
+  String get tarotMajor07Reversed =>
+      'Kontroles zaudēšana, virziena zaudēšana, bezpalīdzība, agresija, šķēršļi';
 
   @override
   String get tarotMajor08Name => 'Spēks';
 
   @override
-  String get tarotMajor08Upright => '용기, 인내, 내면의 힘, 부드러운 통제, 자비';
+  String get tarotMajor08Upright =>
+      'Drosme, pacietība, iekšējais spēks, maiga kontrole, līdzjūtība';
 
   @override
-  String get tarotMajor08Reversed => '두려움, 나약함, 자기 통제력 상실, 충동, 자만심';
+  String get tarotMajor08Reversed =>
+      'Bailes, vājums, paškontroles zaudēšana, impulss, iedomība';
 
   @override
   String get tarotMajor09Name => 'Vientuļnieks';
 
   @override
-  String get tarotMajor09Upright => '내면 탐구, 지혜, 고독, 깨달음, 영적 조언자';
+  String get tarotMajor09Upright =>
+      'Iekšējā izpēte, gudrība, vientulība, apgaismība, garīgais padomdevējs';
 
   @override
-  String get tarotMajor09Reversed => '고립, 외로움, 현실 도피, 어리석은 고집, 은둔';
+  String get tarotMajor09Reversed =>
+      'Izolācija, vientulība, bēgšana no realitātes, stulba spītība, vientulība';
 
   @override
   String get tarotMajor10Name => 'Laimes ritenis';
 
   @override
-  String get tarotMajor10Upright => '전환점, 운명, 행운, 끊임없는 변화, 기회';
+  String get tarotMajor10Upright =>
+      'Pagrieziena punkts, liktenis, veiksme, pastāvīgas pārmaiņas, iespēja';
 
   @override
-  String get tarotMajor10Reversed => '불운, 저항, 통제할 수 없는 변화, 불행의 반복';
+  String get tarotMajor10Reversed =>
+      'Nelaime, pretestība, nekontrolējamas pārmaiņas, nelaimes atkārtošanās';
 
   @override
   String get tarotMajor11Name => 'Taisnīgums';
 
   @override
-  String get tarotMajor11Upright => '공정함, 진실, 인과응보, 균형, 합리적 결정';
+  String get tarotMajor11Upright =>
+      'Taisnīgums, patiesība, karma, līdzsvars, racionāls lēmums';
 
   @override
-  String get tarotMajor11Reversed => '불공평, 편견, 부정직, 피할 수 없는 처벌, 불균형';
+  String get tarotMajor11Reversed =>
+      'Netaisnība, aizspriedumi, negodīgums, neizbēgams sods, nelīdzsvarotība';
 
   @override
   String get tarotMajor12Name => 'Pakārtais cilvēks';
 
   @override
-  String get tarotMajor12Upright => '희생, 새로운 시각, 기다림, 통찰, 일시적 정지';
+  String get tarotMajor12Upright =>
+      'Upuris, jauna perspektīva, gaidīšana, ieskats, īslaicīga apstāšanās';
 
   @override
-  String get tarotMajor12Reversed => '무의미한 희생, 지연, 발전을 거부함, 이기주의';
+  String get tarotMajor12Reversed =>
+      'Bezjēdzīgs upuris, kavēšanās, atteikšanās no attīstības, egoisms';
 
   @override
   String get tarotMajor13Name => 'Nāve';
 
   @override
-  String get tarotMajor13Upright => '끝과 새로운 시작, 변화, 전환기, 과거 청산';
+  String get tarotMajor13Upright =>
+      'Beigas un jauns sākums, pārmaiņas, pārejas periods, pagātnes sakārtošana';
 
   @override
-  String get tarotMajor13Reversed => '변화에 대한 저항, 정체, 낡은 것에 집착, 두려움';
+  String get tarotMajor13Reversed =>
+      'Pretestība pārmaiņām, stagnācija, pieķeršanās vecam, bailes';
 
   @override
   String get tarotMajor14Name => 'Atturība';
 
   @override
-  String get tarotMajor14Upright => '조화, 균형, 중용, 치유, 목적 의식';
+  String get tarotMajor14Upright =>
+      'Harmonija, līdzsvars, mērenība, dziedināšana, mērķtiecība';
 
   @override
-  String get tarotMajor14Reversed => '불균형, 무절제, 극단적인 행동, 부조화, 갈등';
+  String get tarotMajor14Reversed =>
+      'Nelīdzsvarotība, pārmērība, ekstrēma rīcība, disharmonija, konflikts';
 
   @override
   String get tarotMajor15Name => 'Velns';
 
   @override
-  String get tarotMajor15Upright => '집착, 물질주의, 속박, 유혹, 파괴적 욕망';
+  String get tarotMajor15Upright =>
+      'Apsēstība, materiālisms, verdzība, kārdinājums, destruktīvas vēlmes';
 
   @override
-  String get tarotMajor15Reversed => '해방, 속박에서 벗어남, 독립, 깨달음, 자유';
+  String get tarotMajor15Reversed =>
+      'Atbrīvošanās, izkļūšana no verdzības, neatkarība, apgaismība, brīvība';
 
   @override
   String get tarotMajor16Name => 'Tornis';
 
   @override
-  String get tarotMajor16Upright => '갑작스러운 변화, 파괴, 해방, 계시, 붕괴';
+  String get tarotMajor16Upright =>
+      'Pēkšņas pārmaiņas, iznīcība, atbrīvošanās, atklāsme, sabrukums';
 
   @override
-  String get tarotMajor16Reversed => '재난의 회피, 피할 수 없는 변화의 지연, 경고 무시';
+  String get tarotMajor16Reversed =>
+      'Katastrofas izvairīšanās, neizbēgamu pārmaiņu aizkavēšana, brīdinājumu ignorēšana';
 
   @override
   String get tarotMajor17Name => 'Zvaigzne';
 
   @override
-  String get tarotMajor17Upright => '희망, 영감, 평온, 치유와 긍정, 영적 인도';
+  String get tarotMajor17Upright =>
+      'Cerība, iedvesma, miers, dziedināšana un pozitīvisms, garīga vadība';
 
   @override
-  String get tarotMajor17Reversed => '절망, 실망, 영감 부족, 비관주의, 혼란';
+  String get tarotMajor17Reversed =>
+      'Izmisums, vilšanās, iedvesmas trūkums, pesimisms, apjukums';
 
   @override
   String get tarotMajor18Name => 'Mēness';
 
   @override
-  String get tarotMajor18Upright => '불안, 환상, 직관, 숨겨진 진실, 기만';
+  String get tarotMajor18Upright =>
+      'Trauksme, ilūzija, intuīcija, slēpta patiesība, maldināšana';
 
   @override
-  String get tarotMajor18Reversed => '두려움의 극복, 비밀의 발견, 불안 해소, 진실 규명';
+  String get tarotMajor18Reversed =>
+      'Baiļu pārvarēšana, noslēpumu atklāšana, trauksmes mazināšana, patiesības noskaidrošana';
 
   @override
   String get tarotMajor19Name => 'Saule';
 
   @override
-  String get tarotMajor19Upright => '성공, 긍정, 활력, 행복과 성취, 기쁨';
+  String get tarotMajor19Upright =>
+      'Panākumi, pozitīvisms, vitalitāte, laime un piepildījums, prieks';
 
   @override
-  String get tarotMajor19Reversed => '지연된 성공, 과장, 활력 저하, 슬픔의 이면';
+  String get tarotMajor19Reversed =>
+      'Aizkavēti panākumi, pārspīlējums, vitalitātes samazināšanās, skumju aizmugure';
 
   @override
   String get tarotMajor20Name => 'Spriedums';
 
   @override
-  String get tarotMajor20Upright => '부활, 결단, 용서, 새로운 소명, 내적 각성';
+  String get tarotMajor20Upright =>
+      'Augšāmcelšanās, apņēmība, piedošana, jauns aicinājums, iekšēja atmoda';
 
   @override
-  String get tarotMajor20Reversed => '후회, 자기 의심, 변화에 대한 두려움, 미련, 형벌';
+  String get tarotMajor20Reversed =>
+      'Nožēla, paššaubas, bailes no pārmaiņām, nožēla, sods';
 
   @override
   String get tarotMajor21Name => 'Pasaule';
 
   @override
-  String get tarotMajor21Upright => '완성, 성취, 통합, 새로운 차원, 성공적인 마무리';
+  String get tarotMajor21Upright =>
+      'Pabeigšana, sasniegums, integrācija, jauna dimensija, veiksmīgs noslēgums';
 
   @override
-  String get tarotMajor21Reversed => '미완성, 연기, 정체, 성공에 대한 두려움, 지연';
+  String get tarotMajor21Reversed =>
+      'Nepabeigtība, atlikšana, stagnācija, bailes no panākumiem, kavēšanās';
 
   @override
   String get tarotCups01Name => 'Kausu dūzis';
 
   @override
-  String get tarotCups01Upright => '새로운 감정, 사랑의 시작, 직관, 영적 충만함';
+  String get tarotCups01Upright =>
+      'Jaunas emocijas, mīlestības sākums, intuīcija, garīga piepildījums';
 
   @override
-  String get tarotCups01Reversed => '감정의 차단, 사랑받지 못함, 공허함, 슬픔';
+  String get tarotCups01Reversed =>
+      'Emociju bloķēšana, nemīlēšana, tukšums, skumjas';
 
   @override
   String get tarotCups02Name => 'Divi no kausiem';
 
   @override
-  String get tarotCups02Upright => '관계의 조화, 결합, 사랑, 상호 존중, 협력';
+  String get tarotCups02Upright =>
+      'Attiecību harmonija, savienība, mīlestība, savstarpēja cieņa, sadarbība';
 
   @override
-  String get tarotCups02Reversed => '관계의 불화, 이별, 오해, 불균형, 짝사랑';
+  String get tarotCups02Reversed =>
+      'Attiecību nesaskaņas, šķiršanās, pārpratumi, nelīdzsvarotība, neapmierināta mīlestība';
 
   @override
   String get tarotCups03Name => 'Trīs no kausiem';
 
   @override
-  String get tarotCups03Upright => '축하, 우정, 공동체, 기쁨, 창조적 결실';
+  String get tarotCups03Upright =>
+      'Svinības, draudzība, kopiena, prieks, radoši augļi';
 
   @override
-  String get tarotCups03Reversed => '과음, 소외, 파벌, 삼각관계, 축제의 취소';
+  String get tarotCups03Reversed =>
+      'Pārmērīga dzeršana, atsvešināšanās, frakcijas, mīlas trīsstūris, svinību atcelšana';
 
   @override
   String get tarotCups04Name => 'Četri no kausiem';
 
   @override
-  String get tarotCups04Upright => '무관심, 권태, 명상, 놓쳐버린 기회, 내면 성찰';
+  String get tarotCups04Upright =>
+      'Vienaldzība, garlaicība, meditācija, palaistas iespējas, iekšēja pašrefleksija';
 
   @override
-  String get tarotCups04Reversed => '새로운 인식, 기회를 잡음, 활력 회복, 각성';
+  String get tarotCups04Reversed =>
+      'Jauna apziņa, iespējas izmantošana, vitalitātes atjaunošana, atmoda';
 
   @override
   String get tarotCups05Name => 'Pieci no kausiem';
 
   @override
-  String get tarotCups05Upright => '상실, 슬픔, 과거에 대한 후회, 비관주의';
+  String get tarotCups05Upright =>
+      'Zaudējums, skumjas, nožēla par pagātni, pesimisms';
 
   @override
-  String get tarotCups05Reversed => '상실의 극복, 수용, 치유, 새로운 희망의 발견';
+  String get tarotCups05Reversed =>
+      'Zaudējuma pārvarēšana, pieņemšana, dziedināšana, jaunas cerības atklāšana';
 
   @override
   String get tarotCups06Name => 'Seši kausi';
 
   @override
-  String get tarotCups06Upright => '과거의 향수, 어린 시절, 순수함, 옛 친구, 추억';
+  String get tarotCups06Upright =>
+      'Pagātnes nostalģija, bērnība, tīrība, veci draugi, atmiņas';
 
   @override
-  String get tarotCups06Reversed => '과거에 얽매임, 미래를 외면함, 독립, 성장';
+  String get tarotCups06Reversed =>
+      'Iesprūdis pagātnē, nākotnes ignorēšana, neatkarība, izaugsme';
 
   @override
   String get tarotCups07Name => 'Septiņi no kausiem';
 
   @override
-  String get tarotCups07Upright => '환상, 꿈, 선택의 혼란, 현실 도피, 백일몽';
+  String get tarotCups07Upright =>
+      'Ilūzijas, sapņi, izvēles apjukums, bēgšana no realitātes, dienas sapņošana';
 
   @override
-  String get tarotCups07Reversed => '현실 직시, 명확한 목표, 환상에서 깨어남, 결단';
+  String get tarotCups07Reversed =>
+      'Realitātes konfrontācija, skaidri mērķi, atmošanās no ilūzijām, apņēmība';
 
   @override
   String get tarotCups08Name => 'Astoņi kausi';
 
   @override
-  String get tarotCups08Upright => '실망, 떠남, 더 깊은 의미를 찾기 위한 포기, 체념';
+  String get tarotCups08Upright =>
+      'Vilšanās, aiziešana, atteikšanās meklēt dziļāku jēgu, atkāpšanās';
 
   @override
-  String get tarotCups08Reversed => '떠나지 못함, 과거에 집착, 관계 회복, 두려움';
+  String get tarotCups08Reversed =>
+      'Nespēja aiziet, pieķeršanās pagātnei, attiecību atjaunošana, bailes';
 
   @override
   String get tarotCups09Name => 'Deviņi no kausiem';
 
   @override
-  String get tarotCups09Upright => '소원 성취, 만족감, 감각적 기쁨, 자부심, 행복';
+  String get tarotCups09Upright =>
+      'Vēlmju piepildījums, apmierinātība, juteklisks prieks, lepnums, laime';
 
   @override
-  String get tarotCups09Reversed => '불만족, 허영심, 표면적인 성공, 욕심, 탐욕';
+  String get tarotCups09Reversed =>
+      'Neapmierinātība, iedomība, virspusēji panākumi, alkatība, mantkārība';
 
   @override
   String get tarotCups10Name => 'Desmit kausu';
 
   @override
-  String get tarotCups10Upright => '가족의 행복, 평화, 정서적 충만, 조화로운 관계';
+  String get tarotCups10Upright =>
+      'Ģimenes laime, miers, emocionāla piepildījums, harmoniskas attiecības';
 
   @override
-  String get tarotCups10Reversed => '가족 내 갈등, 깨진 가정, 불화, 평화 상실';
+  String get tarotCups10Reversed =>
+      'Ģimenes konflikti, salauzta ģimene, nesaskaņas, miera zaudēšana';
 
   @override
   String get tarotCups11Name => 'Krūzes lapa';
 
   @override
-  String get tarotCups11Upright => '새로운 영감, 창의성, 감성적인 메시지, 직관력';
+  String get tarotCups11Upright =>
+      'Jauna iedvesma, radošums, emocionāls vēstījums, intuīcija';
 
   @override
-  String get tarotCups11Reversed => '감정적 미성숙, 창의적 차단, 나쁜 소식, 예민함';
+  String get tarotCups11Reversed =>
+      'Emocionāla nenobriedušība, radošuma bloķēšana, sliktas ziņas, jutīgums';
 
   @override
   String get tarotCups12Name => 'Kausu bruņinieks';
 
   @override
-  String get tarotCups12Upright => '로맨스, 매력, 감정적 접근, 상상력, 기사도';
+  String get tarotCups12Upright =>
+      'Romantika, pievilcība, emocionāla pieeja, iztēle, bruņniecība';
 
   @override
-  String get tarotCups12Reversed => '비현실성, 변덕, 질투, 신뢰할 수 없음, 기만';
+  String get tarotCups12Reversed =>
+      'Nereālisms, kaprīze, greizsirdība, neuzticamība, maldināšana';
 
   @override
   String get tarotCups13Name => 'Kausu karaliene';
 
   @override
-  String get tarotCups13Upright => '공감, 다정함, 영적 직관, 감성적 안정, 배려';
+  String get tarotCups13Upright =>
+      'Empātija, maigums, garīga intuīcija, emocionāla stabilitāte, rūpes';
 
   @override
-  String get tarotCups13Reversed => '감정 과잉, 불안정, 의존적 성향, 희생자 코스프레';
+  String get tarotCups13Reversed =>
+      'Pārmērīgas emocijas, nestabilitāte, atkarīga tendence, upura tēlošana';
 
   @override
   String get tarotCups14Name => 'Kausu karalis';
 
   @override
-  String get tarotCups14Upright => '감정적 통제, 균형, 외교, 관용, 지혜로운 조언';
+  String get tarotCups14Upright =>
+      'Emocionāla kontrole, līdzsvars, diplomātija, iecietība, gudrs padoms';
 
   @override
-  String get tarotCups14Reversed => '감정적 조작, 냉담함, 불안정성, 기분파, 무자비';
+  String get tarotCups14Reversed =>
+      'Emocionāla manipulācija, aukstums, nestabilitāte, garastāvokļa svārstības, nežēlība';
 
   @override
   String get tarotPentacles01Name => 'Pentaklu dūzis';
 
   @override
-  String get tarotPentacles01Upright => '새로운 기회, 재정적 시작, 풍요, 현실적 성취';
+  String get tarotPentacles01Upright =>
+      'Jaunas iespējas, finansiāls sākums, pārpilnība, reālistisks sasniegums';
 
   @override
-  String get tarotPentacles01Reversed => '잃어버린 기회, 재정적 손실, 지연, 나쁜 투자';
+  String get tarotPentacles01Reversed =>
+      'Zaudētas iespējas, finansiāli zaudējumi, kavēšanās, slikta investīcija';
 
   @override
   String get tarotPentacles02Name => 'Divi no Pentakli';
 
   @override
-  String get tarotPentacles02Upright => '균형, 적응력, 시간/재정 관리, 유연성';
+  String get tarotPentacles02Upright =>
+      'Līdzsvars, pielāgošanās spēja, laika/finanšu pārvaldība, elastība';
 
   @override
-  String get tarotPentacles02Reversed => '불균형, 감당하기 벅참, 재정적 어려움, 스트레스';
+  String get tarotPentacles02Reversed =>
+      'Nelīdzsvarotība, pārslogotība, finansiālas grūtības, stress';
 
   @override
   String get tarotPentacles03Name => 'Trīs no pentakļiem';
 
   @override
-  String get tarotPentacles03Upright => '팀워크, 협업, 기술, 인정받는 노력, 건축';
+  String get tarotPentacles03Upright =>
+      'Komandas darbs, sadarbība, prasmes, atzīts darbs, arhitektūra';
 
   @override
-  String get tarotPentacles03Reversed => '협업 부족, 기술 부족, 인정받지 못함, 의견 충돌';
+  String get tarotPentacles03Reversed =>
+      'Sadarbības trūkums, prasmju trūkums, neatzīšana, viedokļu sadursmes';
 
   @override
   String get tarotPentacles04Name => 'Četri no pentakļiem';
 
   @override
-  String get tarotPentacles04Upright => '안정, 소유욕, 보수성, 인색함, 축적';
+  String get tarotPentacles04Upright =>
+      'Stabilitāte, īpašnieciskums, konservatīvisms, skopums, uzkrāšana';
 
   @override
-  String get tarotPentacles04Reversed => '탐욕의 대가, 손실, 재정 방만, 집착을 버림';
+  String get tarotPentacles04Reversed =>
+      'Alkatības cena, zaudējumi, finansiāla izšķērdība, atteikšanās no pieķeršanās';
 
   @override
   String get tarotPentacles05Name => 'Pieci no pentakļiem';
 
   @override
-  String get tarotPentacles05Upright => '궁핍, 재정적/정서적 결핍, 소외, 역경';
+  String get tarotPentacles05Upright =>
+      'Trūkums, finansiāls/emocionāls deficīts, atsvešināšanās, grūtības';
 
   @override
-  String get tarotPentacles05Reversed => '재정 회복, 도움의 손길, 역경 극복, 긍정적 변화';
+  String get tarotPentacles05Reversed =>
+      'Finansiāla atveseļošanās, palīdzīga roka, grūtību pārvarēšana, pozitīvas pārmaiņas';
 
   @override
   String get tarotPentacles06Name => 'Seši pentakli';
 
   @override
-  String get tarotPentacles06Upright => '자선, 나눔, 후원, 공정함, 베풂과 받음';
+  String get tarotPentacles06Upright =>
+      'Labdarība, dalīšanās, sponsorēšana, taisnīgums, došana un saņemšana';
 
   @override
-  String get tarotPentacles06Reversed => '이기심, 채무, 불평등, 생색내기, 착취';
+  String get tarotPentacles06Reversed =>
+      'Egoisms, parādi, nevienlīdzība, izrādīšanās, ekspluatācija';
 
   @override
   String get tarotPentacles07Name => 'Septiņi pentakli';
 
   @override
-  String get tarotPentacles07Upright => '인내, 장기적 비전, 노력에 대한 보상 기다림, 평가';
+  String get tarotPentacles07Upright =>
+      'Pacietība, ilgtermiņa vīzija, atlīdzības gaidīšana par pūlēm, novērtējums';
 
   @override
-  String get tarotPentacles07Reversed => '조바심, 성과 없는 노력, 지연, 좌절, 투자 실패';
+  String get tarotPentacles07Reversed =>
+      'Nepacietība, bezrezultatīvas pūles, kavēšanās, vilšanās, investīciju neveiksme';
 
   @override
   String get tarotPentacles08Name => 'Astoņi pentakli';
 
   @override
-  String get tarotPentacles08Upright => '장인 정신, 전념, 세부사항에 대한 주의, 숙련';
+  String get tarotPentacles08Upright =>
+      'Meistarība, veltīšanās, uzmanība detaļām, prasme';
 
   @override
-  String get tarotPentacles08Reversed => '지루함, 완벽주의의 함정, 나태, 열정 상실';
+  String get tarotPentacles08Reversed =>
+      'Garlaicība, perfekcionisma slazds, slinkums, kaisles zaudēšana';
 
   @override
   String get tarotPentacles09Name => 'Deviņi pentakli';
 
   @override
-  String get tarotPentacles09Upright => '성취, 독립, 여유, 재정적 안락함, 자기 보상';
+  String get tarotPentacles09Upright =>
+      'Sasniegums, neatkarība, brīvība, finansiāla labklājība, pašatlīdzība';
 
   @override
-  String get tarotPentacles09Reversed => '과소비, 겉보기에만 화려함, 의존성, 재정 불안';
+  String get tarotPentacles09Reversed =>
+      'Pārmērīga tērēšana, tikai virspusējs spožums, atkarība, finansiāla nestabilitāte';
 
   @override
   String get tarotPentacles10Name => 'Desmit Pentakles';
 
   @override
-  String get tarotPentacles10Upright => '가업, 부의 축적, 유산, 안정된 삶, 전통';
+  String get tarotPentacles10Upright =>
+      'Ģimenes bizness, bagātības uzkrāšana, mantojums, stabila dzīve, tradīcijas';
 
   @override
-  String get tarotPentacles10Reversed => '재산 손실, 가족 분쟁, 전통에 대한 반항, 불안정';
+  String get tarotPentacles10Reversed =>
+      'Īpašuma zaudēšana, ģimenes strīdi, sacelšanās pret tradīcijām, nestabilitāte';
 
   @override
   String get tarotPentacles11Name => 'Pentaklu lapa';
 
   @override
-  String get tarotPentacles11Upright => '현실적인 목표, 새로운 공부, 기회, 실용성, 계획';
+  String get tarotPentacles11Upright =>
+      'Reālistiski mērķi, jaunas mācības, iespējas, praktiskums, plānošana';
 
   @override
-  String get tarotPentacles11Reversed => '계획의 지연, 실용성 부족, 게으름, 미루는 습관';
+  String get tarotPentacles11Reversed =>
+      'Plānu kavēšanās, praktiskuma trūkums, slinkums, atlikšanas ieradums';
 
   @override
   String get tarotPentacles12Name => 'Pentaklu bruņinieks';
 
   @override
-  String get tarotPentacles12Upright => '성실, 책임감, 끈기, 점진적인 발전, 믿음직함';
+  String get tarotPentacles12Upright =>
+      'Godīgums, atbildība, neatlaidība, pakāpeniska attīstība, uzticamība';
 
   @override
-  String get tarotPentacles12Reversed => '완고함, 무기력, 일 중독, 유연성 부족, 정체';
+  String get tarotPentacles12Reversed =>
+      'Spītība, bezpalīdzība, darbaholisms, elastības trūkums, stagnācija';
 
   @override
   String get tarotPentacles13Name => 'Pentaklu karaliene';
 
   @override
-  String get tarotPentacles13Upright => '현실적 보살핌, 실용적 조언, 풍요, 관대함, 안락함';
+  String get tarotPentacles13Upright =>
+      'Reālistiskas rūpes, praktiski padomi, pārpilnība, dāsnums, komforts';
 
   @override
-  String get tarotPentacles13Reversed => '과잉 통제, 소유욕, 이기심, 재정적 불안, 과소비';
+  String get tarotPentacles13Reversed =>
+      'Pārmērīga kontrole, īpašnieciskums, egoisms, finansiāla nestabilitāte, pārmērīga tērēšana';
 
   @override
   String get tarotPentacles14Name => 'Pentaklu karalis';
 
   @override
-  String get tarotPentacles14Upright => '부와 성공, 비즈니스 수완, 권위, 든든한 후원자';
+  String get tarotPentacles14Upright =>
+      'Bagātība un panākumi, biznesa asprātība, autoritāte, spēcīgs atbalstītājs';
 
   @override
-  String get tarotPentacles14Reversed => '물질주의, 부패, 탐욕, 고집불통, 억압적 권위';
+  String get tarotPentacles14Reversed =>
+      'Materiālisms, korupcija, alkatība, spītība, apspiedoša autoritāte';
 
   @override
   String get tarotSwords01Name => 'Zobenu dūzis';
 
   @override
-  String get tarotSwords01Upright => '명확한 통찰, 새로운 생각, 진실, 정신적 돌파구';
+  String get tarotSwords01Upright =>
+      'Skaidrs ieskats, jaunas domas, patiesība, garīgs izrāviens';
 
   @override
-  String get tarotSwords01Reversed => '혼란, 잘못된 정보, 판단력 상실, 소통 부재';
+  String get tarotSwords01Reversed =>
+      'Apjukums, nepareiza informācija, sprieduma zaudēšana, komunikācijas trūkums';
 
   @override
   String get tarotSwords02Name => 'Divi no zobeniem';
 
   @override
-  String get tarotSwords02Upright => '우유부단, 맹목, 감정 차단, 어려운 결정의 회피';
+  String get tarotSwords02Upright =>
+      'Neizlēmība, aklums, emociju bloķēšana, izvairīšanās no grūtiem lēmumiem';
 
   @override
-  String get tarotSwords02Reversed => '결단, 사실을 직시함, 정보 부족으로 인한 실수';
+  String get tarotSwords02Reversed =>
+      'Apņēmība, faktu konfrontācija, kļūdas informācijas trūkuma dēļ';
 
   @override
   String get tarotSwords03Name => 'Trīs no zobeniem';
 
   @override
-  String get tarotSwords03Upright => '상심, 슬픔, 이별, 상처, 고통스러운 진실';
+  String get tarotSwords03Upright =>
+      'Sirds sāpes, skumjas, šķiršanās, ievainojums, sāpīga patiesība';
 
   @override
-  String get tarotSwords03Reversed => '고통의 극복, 치유, 용서, 슬픔을 떨쳐냄';
+  String get tarotSwords03Reversed =>
+      'Sāpju pārvarēšana, dziedināšana, piedošana, skumju atmešana';
 
   @override
   String get tarotSwords04Name => 'Četri no zobeniem';
 
   @override
-  String get tarotSwords04Upright => '휴식, 회복, 명상, 스트레스 완화, 내면의 평화';
+  String get tarotSwords04Upright =>
+      'Atpūta, atveseļošanās, meditācija, stresa mazināšana, iekšējais miers';
 
   @override
-  String get tarotSwords04Reversed => '탈진, 회복 거부, 강제 휴식, 극심한 스트레스';
+  String get tarotSwords04Reversed =>
+      'Izdegšana, atteikšanās atveseļoties, piespiedu atpūta, ekstrēms stress';
 
   @override
   String get tarotSwords05Name => 'Pieci no zobeniem';
 
   @override
-  String get tarotSwords05Upright => '상처뿐인 승리, 배신, 갈등, 적의감, 비열함';
+  String get tarotSwords05Upright =>
+      'Pirova uzvara, nodevība, konflikts, naidīgums, zemiskums';
 
   @override
-  String get tarotSwords05Reversed => '갈등 해결, 화해, 타협, 패배 인정, 복수 포기';
+  String get tarotSwords05Reversed =>
+      'Konfliktu risināšana, izlīgums, kompromiss, sakāves atzīšana, atteikšanās no atriebības';
 
   @override
   String get tarotSwords06Name => 'Zobenu sešinieki';
 
   @override
-  String get tarotSwords06Upright => '전환, 고통에서 벗어남, 치유의 여정, 이동, 여행';
+  String get tarotSwords06Upright =>
+      'Pāreja, izkļūšana no sāpēm, dziedināšanas ceļojums, pārvietošanās, ceļojums';
 
   @override
-  String get tarotSwords06Reversed => '변화에 대한 저항, 과거의 상처가 발목을 잡음, 지연';
+  String get tarotSwords06Reversed =>
+      'Pretestība pārmaiņām, pagātnes rētas kavē, kavēšanās';
 
   @override
   String get tarotSwords07Name => 'Septiņi no zobeniem';
 
   @override
-  String get tarotSwords07Upright => '기만, 속임수, 전략, 은밀한 행동, 도주';
+  String get tarotSwords07Upright =>
+      'Maldināšana, viltība, stratēģija, slepena rīcība, bēgšana';
 
   @override
-  String get tarotSwords07Reversed => '자백, 비밀 폭로, 속임수 발각, 죄책감, 정면 돌파';
+  String get tarotSwords07Reversed =>
+      'Atzīšanās, noslēpumu atklāšana, viltības atklāšana, vainas apziņa, tieša konfrontācija';
 
   @override
   String get tarotSwords08Name => 'Astoņi zobenu';
 
   @override
-  String get tarotSwords08Upright => '자승자박, 무기력, 제한된 생각, 두려움의 감옥';
+  String get tarotSwords08Upright =>
+      'Pašuzlikti ierobežojumi, bezpalīdzība, ierobežota domāšana, baiļu cietums';
 
   @override
-  String get tarotSwords08Reversed => '해방, 스스로의 감옥에서 벗어남, 새로운 관점';
+  String get tarotSwords08Reversed =>
+      'Atbrīvošanās, izkļūšana no paša cietuma, jauna perspektīva';
 
   @override
   String get tarotSwords09Name => 'Deviņi no zobeniem';
 
   @override
-  String get tarotSwords09Upright => '불안, 절망, 불면증, 죄책감, 내면의 공포';
+  String get tarotSwords09Upright =>
+      'Trauksme, izmisums, bezmiegs, vainas apziņa, iekšējas bailes';
 
   @override
-  String get tarotSwords09Reversed => '공포 극복, 희망의 빛, 불면증 해소, 사실 직시';
+  String get tarotSwords09Reversed =>
+      'Baiļu pārvarēšana, cerības gaisma, bezmiega atvieglošana, faktu konfrontācija';
 
   @override
   String get tarotSwords10Name => 'Zobenu desmit';
 
   @override
-  String get tarotSwords10Upright => '파멸, 깊은 상처, 배신, 바닥을 침, 끝의 도래';
+  String get tarotSwords10Upright =>
+      'Iznīcība, dziļas rētas, nodevība, sasniegts dibens, beigu iestāšanās';
 
   @override
-  String get tarotSwords10Reversed => '파멸에서의 회복, 최악은 지났음, 생존, 재건';
+  String get tarotSwords10Reversed =>
+      'Atveseļošanās no iznīcības, sliktākais ir garām, izdzīvošana, atjaunošana';
 
   @override
   String get tarotSwords11Name => 'Zobenu lapa';
 
   @override
-  String get tarotSwords11Upright => '호기심, 예리한 분석력, 진실 탐구, 새로운 아이디어';
+  String get tarotSwords11Upright =>
+      'Ziņkārība, asa analītiskā spēja, patiesības meklēšana, jaunas idejas';
 
   @override
-  String get tarotSwords11Reversed => '경솔함, 조급함, 냉소주의, 근거 없는 소문, 무례';
+  String get tarotSwords11Reversed =>
+      'Pārsteidzība, steiga, cinisms, nepamatotas baumas, nepieklājība';
 
   @override
   String get tarotSwords12Name => 'Zobenu bruņinieks';
 
   @override
-  String get tarotSwords12Upright => '돌진, 야망, 지적 추진력, 빠르고 단호한 행동';
+  String get tarotSwords12Upright =>
+      'Steiga, ambīcijas, intelektuāla virzība, ātra un apņēmīga rīcība';
 
   @override
-  String get tarotSwords12Reversed => '무모함, 공격성, 배려 없는 언행, 충동성, 무자비';
+  String get tarotSwords12Reversed =>
+      'Pārgalvība, agresija, neapdomīga runa, impulsivitāte, nežēlība';
 
   @override
   String get tarotSwords13Name => 'Zobenu karaliene';
 
   @override
-  String get tarotSwords13Upright => '독립, 명확한 의사소통, 예리한 판단, 정직함, 객관성';
+  String get tarotSwords13Upright =>
+      'Neatkarība, skaidra komunikācija, ass spriedums, godīgums, objektivitāte';
 
   @override
-  String get tarotSwords13Reversed => '비정함, 냉혹함, 과도한 비판, 원한, 고립';
+  String get tarotSwords13Reversed =>
+      'Nežēlība, aukstums, pārmērīga kritika, aizvainojums, izolācija';
 
   @override
   String get tarotSwords14Name => 'Zobenu karalis';
 
   @override
-  String get tarotSwords14Upright => '권위, 지적 통찰, 논리, 공정함, 원칙, 전문가';
+  String get tarotSwords14Upright =>
+      'Autoritāte, intelektuāls ieskats, loģika, taisnīgums, principi, eksperts';
 
   @override
-  String get tarotSwords14Reversed => '권력 남용, 비합리성, 잔인함, 통제욕, 독재';
+  String get tarotSwords14Reversed =>
+      'Varas ļaunprātīga izmantošana, iracionalitāte, nežēlība, kontroles vēlme, diktatūra';
 
   @override
   String get tarotWands01Name => 'Nūjiņu dūzis';
 
   @override
-  String get tarotWands01Upright => '열정, 영감, 창조적 힘, 새로운 잠재력, 활력';
+  String get tarotWands01Upright =>
+      'Kaisle, iedvesma, radošs spēks, jauns potenciāls, vitalitāte';
 
   @override
-  String get tarotWands01Reversed => '열정의 지연, 영감 부족, 의욕 상실, 정체성 혼란';
+  String get tarotWands01Reversed =>
+      'Kaisles aizkavēšanās, iedvesmas trūkums, motivācijas zaudēšana, identitātes apjukums';
 
   @override
   String get tarotWands02Name => 'Divi zizli';
 
   @override
-  String get tarotWands02Upright => '계획, 비전, 장기적 목표, 결단력, 탐험';
+  String get tarotWands02Upright =>
+      'Plāns, vīzija, ilgtermiņa mērķi, apņēmība, izpēte';
 
   @override
-  String get tarotWands02Reversed => '계획 부족, 미루기, 두려움에 의한 정체, 제한된 비전';
+  String get tarotWands02Reversed =>
+      'Plānu trūkums, atlikšana, stagnācija baiļu dēļ, ierobežota vīzija';
 
   @override
   String get tarotWands03Name => 'Trīs nūjiņas';
 
   @override
-  String get tarotWands03Upright => '기대의 실현, 진전, 확장, 선견지명, 리더십';
+  String get tarotWands03Upright =>
+      'Cerību piepildījums, progress, paplašināšanās, tālredzība, vadība';
 
   @override
-  String get tarotWands03Reversed => '성장의 지연, 좌절, 예상치 못한 장애, 편협함';
+  String get tarotWands03Reversed =>
+      'Izaugsmes kavēšanās, vilšanās, negaidīti šķēršļi, šaurprātība';
 
   @override
   String get tarotWands04Name => 'Četri zizli';
 
   @override
-  String get tarotWands04Upright => '축하, 안락함, 성취의 기쁨, 환영, 집안의 행사';
+  String get tarotWands04Upright =>
+      'Svinības, komforts, sasniegumu prieks, sveiciens, ģimenes pasākums';
 
   @override
-  String get tarotWands04Reversed => '취소된 행사, 가정의 불화, 일시적 안정, 지연된 축하';
+  String get tarotWands04Reversed =>
+      'Atcelts pasākums, ģimenes nesaskaņas, īslaicīga stabilitāte, aizkavētas svinības';
 
   @override
   String get tarotWands05Name => 'Pieci zizli';
 
   @override
-  String get tarotWands05Upright => '경쟁, 갈등, 의견 대립, 다툼, 도전';
+  String get tarotWands05Upright =>
+      'Konkurence, konflikts, viedokļu atšķirības, strīdi, izaicinājums';
 
   @override
-  String get tarotWands05Reversed => '타협, 갈등의 회피, 협력, 평화 추구, 혼란 진정';
+  String get tarotWands05Reversed =>
+      'Kompromiss, konfliktu izvairīšanās, sadarbība, miera meklēšana, apjukuma nomierināšana';
 
   @override
   String get tarotWands06Name => 'Seši nūjiņas';
 
   @override
-  String get tarotWands06Upright => '성공, 대중의 인정, 승리, 자신감, 리더의 부상';
+  String get tarotWands06Upright =>
+      'Panākumi, sabiedrības atzinība, uzvara, pārliecība, līdera izvirzīšanās';
 
   @override
-  String get tarotWands06Reversed => '패배, 불명예, 인정받지 못함, 교만, 명성 추락';
+  String get tarotWands06Reversed =>
+      'Sakāve, negods, neatzīšana, lepnums, reputācijas kritums';
 
   @override
   String get tarotWands07Name => 'Septiņi zizli';
 
   @override
-  String get tarotWands07Upright => '용기, 방어, 경쟁에 맞섬, 확고한 신념, 인내';
+  String get tarotWands07Upright =>
+      'Drosme, aizsardzība, stāšanās pretī konkurencei, stingra pārliecība, pacietība';
 
   @override
-  String get tarotWands07Reversed => '포기, 압도됨, 타협, 자신감 상실, 비겁함';
+  String get tarotWands07Reversed =>
+      'Padošanās, pārslogotība, kompromiss, pārliecības zaudēšana, gļēvums';
 
   @override
   String get tarotWands08Name => 'Astoņi zizli';
 
   @override
-  String get tarotWands08Upright => '신속한 진행, 빠른 결말, 소식, 민첩함, 속도';
+  String get tarotWands08Upright =>
+      'Ātra virzība, ātrs noslēgums, ziņas, veiklība, ātrums';
 
   @override
-  String get tarotWands08Reversed => '지연, 혼란, 서두름으로 인한 실수, 소통 불능';
+  String get tarotWands08Reversed =>
+      'Kavēšanās, apjukums, kļūdas steigas dēļ, komunikācijas trūkums';
 
   @override
-  String get tarotWands09Name => 'Nine of Wands';
+  String get tarotWands09Name => 'Deviņi Zizļi (Nine of Wands)';
 
   @override
-  String get tarotWands09Upright => '회복력, 방어 태세, 지쳐도 계속함, 경계, 체력 시험';
+  String get tarotWands09Upright =>
+      'Izturība, aizsardzības pozīcija, turpināšana, neskatoties uz nogurumu, modrība, izturības pārbaude';
 
   @override
-  String get tarotWands09Reversed => '피로, 편집증, 포기, 완고함, 불필요한 저항';
+  String get tarotWands09Reversed =>
+      'Nogurums, paranoja, padošanās, spītība, nevajadzīga pretestība';
 
   @override
   String get tarotWands10Name => 'Desmit nūjiņas';
 
   @override
-  String get tarotWands10Upright => '과도한 짐, 극심한 부담, 책임감, 압박, 한계점';
+  String get tarotWands10Upright =>
+      'Pārmērīga nasta, ekstrēms slogs, atbildība, spiediens, robežpunkts';
 
   @override
-  String get tarotWands10Reversed => '짐을 내려놓음, 책임 회피, 탈진, 위임, 극복';
+  String get tarotWands10Reversed =>
+      'Nastas nolikšana, atbildības izvairīšanās, izdegšana, deleģēšana, pārvarēšana';
 
   @override
   String get tarotWands11Name => 'Wands lapa';
 
   @override
-  String get tarotWands11Upright => '탐험, 발견, 열정적인 아이디어, 에너지, 매력';
+  String get tarotWands11Upright =>
+      'Izpēte, atklājums, kaislīgas idejas, enerģija, pievilcība';
 
   @override
-  String get tarotWands11Reversed => '방향 상실, 미숙함, 쉽게 싫증냄, 헛된 망상, 무책임';
+  String get tarotWands11Reversed =>
+      'Virziena zaudēšana, nenobriedušība, ātra garlaicība, veltīgas ilūzijas, bezatbildība';
 
   @override
   String get tarotWands12Name => 'Nūjiņu bruņinieks';
 
   @override
-  String get tarotWands12Upright => '열정적 전진, 모험심, 행동력, 에너지, 자신감';
+  String get tarotWands12Upright =>
+      'Kaislīga virzība uz priekšu, piedzīvojumu gars, rīcības spējas, enerģija, pārliecība';
 
   @override
-  String get tarotWands12Reversed => '충동적 행동, 오만함, 변덕, 분노, 무계획';
+  String get tarotWands12Reversed =>
+      'Impulsīva rīcība, augstprātība, kaprīze, dusmas, plānu trūkums';
 
   @override
   String get tarotWands13Name => 'Nūjiņu karaliene';
 
   @override
-  String get tarotWands13Upright => '카리스마, 용기, 독립, 밝음, 매력, 활기';
+  String get tarotWands13Upright =>
+      'Harizma, drosme, neatkarība, gaišums, pievilcība, vitalitāte';
 
   @override
-  String get tarotWands13Reversed => '이기심, 과시욕, 질투, 변덕스러움, 공격성';
+  String get tarotWands13Reversed =>
+      'Egoisms, izrādīšanās, greizsirdība, kaprīze, agresija';
 
   @override
   String get tarotWands14Name => 'Nūjiņu karalis';
 
   @override
-  String get tarotWands14Upright => '카리스마적 리더십, 비전, 영감, 대담함, 기업가';
+  String get tarotWands14Upright =>
+      'Harizmātiska vadība, vīzija, iedvesma, drosme, uzņēmējs';
 
   @override
-  String get tarotWands14Reversed => '독재, 충동적 분노, 비현실성, 오만, 가차없음';
+  String get tarotWands14Reversed =>
+      'Diktatūra, impulsīvas dusmas, nereālisms, augstprātība, nežēlība';
 
   @override
   String get nicknamePrefixes =>
-      '신비한,고요한,거룩한,어두운,빛나는,차가운,뜨거운,매혹적인,잔혹한,순 수한,거친,부드러운,아름다운,기묘한,위대한,초라한,영원한,잊혀진,찜란 ,슬픈,기쁜,몽환적인,타락한,순백의,칠흑의,핏빛의,잿빛의,황금빛, 은빛 ,푸른,붉은,노란,검은,하얀,투명한,고독한,시끄러운,조용한,따뜻한, 싸늘 한,외로운,쓸쓸한,즐거운,행복한,우울한,절망적인,희망찬,눈부신,어스릐 한,캄캄한,적막한,은밀한,비밀스러운,성스러운,불경한,오만한,겸손한,지한 로운,어리석은,강인한,나약한,용감한,비겁한,아득한,가까운,멀어지는,다 가오는,사라지는,나타나는,깨어난,잠든,꿈꾸는,헤매는,방황하는,머무는,떁 나는,돌아오는,기다리는,찾는,숨은,드러난,버려진,선택된,축복받은,저저 받은,사랑받는,미움받는,기억하는,망각하는,별빛의,달빛의,햇빛의,의, 주 대지의,바다의,하늘의,구름의,바람의,비의,눈의,얼음의,불의,물의,흙의 ,나무의,숲의,산의,강의,호수의,시간의,공간의,차원의,운명의,숙명의,기 적의,마법의,신화의,전설의,진실의,거짓의,환상의,꿈의,악몽의,파멸의, 창조의,생명의,죽음의,영혼의,육체의,이성의,감정의,사랑의,증오의,의픔 ,기쁨의,분노의,평화의,전쟁의,혼돈의,질서의,빛의,어둠의,황혼의,새벽 ,정오의,자정의,과거의,현재의,미래의,기원의,종말띘,무한의,유한익,침 의,소음의,노래하는,춤추는,우는,웃는,속삭이는,외치는,기도하는,간청 는,명령하는,복종하는,지배하는,섬기는,인도하는,따르는,가르치는,배,우 기억의,추억의,상처의,치유의,독의,약의,환영의,실체의,이상의,현실의, 가상의,자연의,인공의,태초의, 영겁의, 순간의, 찰나의, 영속의, 변화의, 의지 ,흐르는,멈춘,타오르는,식어가는,피어나는,시드는,자라나는,죽어가는,숨는 쉬는,질식하는,찬란한,은은한,아스라한,아련한,투명한,희미한,눈부신,길 한,독특한,특별한,고귀한,순수한,타락한,고독한,쓸쓸한,적막한,아득한,고귀한,순수한,타락한,고독한,쓸쓸한,적막한,아득한 혹한,냉혹한,잔인한,위대한,강인한,굳건한,유연한,재빠른,느릿한,고의 ,혼돈속의,기억속의,상상속의,침묵하는,속삭이는,노래하는,춤추는,흐느 는,미소짓는,비웃는,관조하는,방황하는,헤매는,깨어있는,잠든,꿈꾸슔,몔 하는,망상하는,기도하는,간절한,애절한,처절한,숭고한,사악한,비열한,걸 만한,겸손한,다정한,따뜻한,서늘한,오싹한,기괴한,섬뜩한,황홀한,끧인 ,아찔한,달콤한,쌉싸름한,씁쓸한,가시돋친,날카로운,무딘,거친,부듴러 ,포근한,안락한,위태로운,불안한,평온한, 안온한,나른한,권태로운,열읠 ,무심한,차분한,격렬한,맹렬한,광적인,미쳐버린,이성적인,감성적인,땜철 ,현명한,어리석은,순진한,교활한,음흉한,순백의,칠의,황금빛,은빛,핏';
+      'Noslēpumains,Kluss,Svēts,Tumšs,Spīdīgs,Auksts,Karsts,Pievilcīgs,Nežēlīgs,Tīrs,Rupjš,Maigs,Skaists,Dīvains,Lielisks,Nabadzīgs,Mūžīgs,Aizmirsts,Spožs,Skumjš,Priecīgs,Sapņains,Kritušais,Tīri balts,Melns kā ogle,Asiņains,Pelēks,Zelta,Sudraba,Zils,Sarkans,Dzeltens,Melns,Balts,Caurspīdīgs,Vientuļš,Trokšņains,Kluss,Silts,Vēss,Vientuļš,Skumjš,Jautrs,Laimīgs,Nomākts,Izmisis,Cerīgs,Žilbinošs,Krēslains,Tumšs,Kluss,Slepenais,Noslēpumainais,Svētais,Nebraucamais,Augstprātīgais,Pazemīgais,Gudrais,Muļķīgais,Spēcīgais,Vājais,Drosmīgais,Gļēvais,Tālais,Tuvais,Attālinātais,Tuvojošais,Pazūdošais,Parādītais,Pamodies,Aizmigušais,Sapņojošais,Klīstošais,Klīstošais,Paliekošais,Aizejošais,Atgriežošais,Gaidošais,Meklējošais,Slēptais,Atklātais,Pamestais,Izvēlētais,Svētītais,Nolemtais,Mīlētais,Nīstais,Atcerētais,Aizmirstais,Zvaigžņu gaismas,Mēness gaismas,Saules gaismas,Visuma,Zemes,Jūras,Debesu,Mākoņu,Vēja,Lietus,Sniega,Ledus,Uguns,Ūdens,Zemes,Koku,Meža,Kalnu,Upes,Ezera,Laika,Telpas,Dimensijas,Likteņa,Likteņa,Brīnuma,Maģijas,Mīta,Leģendas,Patiesības,Melu,Ilūzijas,Sapņa,Murgu,Iznīcības,Radīšanas,Dzīvības,Nāves,Dvēseles,Miesas,Saprāta,Emociju,Mīlestības,Naida,Skumju,Prieka,Dusmu,Miera,Kara,Haosa,Kārtības,Gaismas,Tumsas,Krēslas,Rītausmas,Pusdienas,Pusnakts,Pagātnes,Tagadnes,Nākotnes,Izcelsmes,Beigu,Bezgalības,Ierobežotības,Klusuma,Trokšņa,Dziedošais,Dejojošais,Raudošais,Smejošais,Čukstošais,Kliedzošais,Lūdzošais,Lūgšanās,Pavēlošais,Paklausīgais,Valdošais,Kalpojošais,Vadošais,Sekojošais,Mācošais,Mācītais,Atmiņas,Atmiņu,Rētas,Dziedināšanas,Indes,Zāļu,Ilūzijas,Realitātes,Ideāla,Realitātes,Virtuālā,Dabas,Mākslīgā,Sākotnējā,Mūžīgā,Mirklīgā,Zibens,Mūžīgā,Pārmaiņu,Stagnācijas,Plūstošais,Apstājies,Degošais,Dziestošais,Ziedošais,Vīstošais,Augošais,Mirstošais,Elpojošais,Aizrītais,Spožs,Maigs,Miglains,Tāls,Caurspīdīgs,Blāvs,Žilbinošs,Dīvains,Unikāls,Īpašs,Cēls,Tīrs,Kritušais,Vientuļš,Skumjš,Kluss,Tāls,Skarbs,Nežēlīgs,Cietsirdīgs,Lielisks,Spēcīgs,Stingrs,Elastīgs,Ātrs,Lēns,Klusumā,Haosā,Atmiņās,Iztēlē,Klusējošais,Čukstošais,Dziedošais,Dejojošais,Vaimanājošais,Smaidīgais,Izsmejošais,Kontemplatīvais,Klīstošais,Klīstošais,Nomodā,Aizmigušais,Sapņojošais,Sapņotājs,Iluzionists,Lūdzošais,Dedzīgais,Sāpīgais,Izmisīgais,Cildens,Ļaunais,Zemiskais,Augstprātīgais,Pazemīgais,Laipnais,Siltais,Vēsais,Biedējošais,Dīvainais,Šausminošais,Ekstātisks,Pievilcīgs,Reibinošs,Saldais,Rūgtais,Skābais,Dzeloņains,Asais,Trulais,Rupjais,Maigais,Mīkstais,Mājīgais,Bīstamais,Nemierīgais,Mierīgais,Klusais,Slinks,Kaislīgais,Vienaldzīgais,Mierīgais,Vētrainais,Niknais,Traks,Jukās,Racionālais,Emocionālais,Vēsais,Gudrais,Muļķīgais,Naivais,Viltīgais,Viltīgais,Tīri balts,Melns kā ogle,Zelta,Sudraba,Asiņains';
 
   @override
   String get nicknameSuffixes =>
-      '예언자,마법사,마녀,기사,전사,궁수,도적,암살자,성기사,사제,여사제,수,마녀,기사제, 삘 사,연금술사,강령술사,정령사,소환사,환술사,치유사,현자,학자,연구자,헰구자,헬 자,방랑자,유랑자, 순례자,구도자,관찰자,기록자,전달자,수호자,파수,문,검수꾼 기,심판관,집행관,통치자,지배자,왕,여왕,황제,여제,귀족,영주,기사닩장,지사닩장 ,도둑,사기꾼,광대,바보,은둔자,이단자,배신자,반역자,영웅,구원자,촐,방잴, 해방 ,창조자,신,여신,천사,악마,정령,요정,괴물,마수,드래곤,유령,망령,언띡 ,늑대인간,인어,세이렌,님프,고블린,오크,트롤,엘프,드워ꔄ,거인,소인, 인인,소인,인 ,조인,어인,용인,악령,수라,나락,천상,명계,이계,심연,혼돈,질서,빛,교둠,잴둠 ,순례자,방랑자,은둔자,이단아,반역자,개척자,정복자,지배자ꜜ조율자자,수 ,관찰자,기록자,전달자,안내자,인도자,구원자,파괴자,창조자,망령,유똠,,원똠, ,정령,요정,마수,성수,환수,신수,검사,기사,궁수,도적,암살자,마법사사,주 금술사,강령술사,사제,학자, 연구자,탐험가,여행가,예술가,광대,음유,읜,음유,읜 농부,까마귀,부엉이,올빼미,독수리,매,늑대,여우,곰,사자,똸랑이,표둔,흔 쏅,고양이,강아지,뱀,도마뱀,거북이,악어,용,유니콘,뎘가수스,그리,가갔갔 ,오크,트롤,오거,슬라임,스켈레톤,좀비,구울,뱀쌌이어,웨어울프,미노롤타,타 우로스,하피,세이렌,크라켄,레비아탄,검,방패,창,활,지팡이,반지,목걸이';
+      'Pravietis,Burvis,Ragana,Bruņinieks,Karotājs,Strēlnieks,Zaglis,Slepkava,Paladins,Priesteris,Priesteriene,Mūks,Šamanis,Alķīmiķis,Nekromants,Gara meistars,Izsaucējs,Iluzionists,Dziednieks,Gudrais,Zinātnieks,Pētnieks,Pētnieks,Ceļotājs,Klīstošais,Ceļotājs,Svētceļnieks,Meklētājs,Vērotājs,Ierakstītājs,Pārraidītājs,Sargātājs,Sargātājs,Apsargs,Vārtu sargs,Tiesnesis,Izpildītājs,Valdnieks,Valdnieks,Karalis,Karaliene,Imperators,Imperatore,Muižnieks,Lords,Bruņinieku kapteinis,Algots karavīrs,Pirāts,Zaglis,Krāpnieks,Klauns,Muļķis,Vientuļnieks,Herētiķis,Nodevējs,Dumpinieks,Varonis,Glābējs,Atbrīvotājs,Iznīcinātājs,Radītājs,Dievs,Dieviete,Eņģelis,Dēmons,Gars,Feja,Briesmonis,Dēmonisks zvērs,Pūķis,Spoks,Rēgs,Nedzīvais,Vampīrs,Vilkacis,Nāriņa,Sirēna,Nimfa,Goblins,Orks,Trollis,Elfs,Rūķis,Milzis,Punduris,Cilvēks,Zvērcilvēks,Putncilvēks,Zivjucilvēks,Pūķcilvēks,Ļaunais gars,Asura,Bezgalība,Debesis,Pazeme,Cita pasaule,Bezdibenis,Haoss,Kārtība,Gaisma,Tumsa,Meklētājs,Svētceļnieks,Klīstošais,Vientuļnieks,Herētiķis,Dumpinieks,Pionieris,Iekarotājs,Valdnieks,Regulators,Sargātājs,Uzraugs,Vērotājs,Ierakstītājs,Pārraidītājs,Ceļvedis,Vadītājs,Glābējs,Iznīcinātājs,Radītājs,Rēgs,Spoks,Atriebīgais gars,Ļaunais gars,Gars,Feja,Dēmonisks zvērs,Svētais zvērs,Fantastisks zvērs,Dievišķais zvērs,Zobencīkstonis,Bruņinieks,Strēlnieks,Zaglis,Slepkava,Burvis,Šamanis,Alķīmiķis,Nekromants,Priesteris,Zinātnieks,Pētnieks,Pētnieks,Ceļotājs,Mākslinieks,Klauns,Bards,Tirgotājs,Amatnieks,Zemnieks,Vārna,Pūce,Pūce,Ērglis,Vanags,Vilks,Lapsa,Lācis,Lauva,Tīģeris,Leopards,Melnā pantera,Kaķis,Suns,Čūska,Ķirzaka,Bruņurupucis,Krokodils,Pūķis,Vienradzis,Pegazs,Grifons,Gargūlija,Goblins,Orks,Trollis,Ogre,Gļotas,Skelets,Zombijs,Gūls,Vampīrs,Vilkacis,Minotaurs,Kentaurs,Harpiija,Sirēna,Kraken,Leviatāns,Zobens,Vairogs,Šķēps,Bultas,Zizlis,Gredzens,Kaklarota,Kronis,Svētais Grāls';
 
   @override
-  String get eulaTitle => '최종 사용자 라이선스 계약 (EULA)';
+  String get eulaTitle => 'Galalietotāja licences līgums (EULA)';
 
   @override
   String get eulaArticle1 =>
-      '제1조 (라이선스 허여)\n본 앱(\"타로마녀\")은 개인적, 비상업적 용도에 한해 사용 권한을 부여하 소유권이나 지적재산권은 이전되지 않습니다.';
+      '1. pants (Licences piešķiršana)\nŠī lietotne (\"Tarot Witch\") piešķir lietošanas tiesības tikai personīgai, nekomerciālai lietošanai, un lietotnes īpašumtiesības vai intelektuālā īpašuma tiesības netiek nodotas.\n\n';
 
   @override
   String get eulaArticle2 =>
-      '제2조 (금지된 사용)\n사용자는 본 서비스를 불법적이거나 타인의 권리를 침해 았는 목적으젬똚 없으며, 시스템이나 데이터를 임의로 조작하거나 리버스 뗔지니어슁싈싆.';
+      '2. pants (Aizliegta lietošana)\nLietotājs nedrīkst izmantot šo pakalpojumu nelikumīgiem mērķiem vai mērķiem, kas pārkāpj citu tiesības, kā arī nedrīkst patvaļīgi manipulēt ar sistēmu vai datiem vai veikt reversās inženierijas.\n\n';
 
   @override
   String get eulaArticle3 =>
-      '제3조 (데이터 수집 및 보관 기간)\n원활한 서비스 제공을 위해 사용자가 작성한 타로 일기 및 관련 점이 데 작성일로부터 기본 3년간 안전하게 보관됩니다.';
+      '3. pants (Datu vākšana un glabāšanas periods)\nLai nodrošinātu netraucētu pakalpojumu sniegšanu, lietotāja izveidotie taro dienasgrāmatas un saistītie zīlēšanas dati tiek droši glabāti trīs gadus no izveidošanas datuma.\n\n';
 
   @override
   String get eulaArticle4 =>
-      '제4조 (장기 미접속 휴면 계정 처리)\n사용자가 1년(365일) 이상 서비스에 접속하지 않을 경우 휴면 계정으배또옐 개인정보 보호 및 원활한 서버 환경 유지를 위해 해당 사용랐의 모읊섴 낰 고지 없이 자동 삭제 처리됩니다.';
+      '4. pants (Ilgstoši neaktīvu kontu apstrāde)\nJa lietotājs nepiekļūst pakalpojumam ilgāk par vienu gadu (365 dienām), konts tiks pārveidots par neaktīvu kontu, un, lai aizsargātu personas datus un uzturētu stabilu servera vidi, visi attiecīgā lietotāja dati tiks automātiski dzēsti bez iepriekšēja brīdinājuma.\n\n';
 
   @override
   String get eulaArticle5 =>
-      '제5조 (데이터 파기 및 복구 불가)\n제3조의 보관 기간이 경과하거나 제4조에 의해 삭제된 데이 떜ꖸ 영구 경우에도 복구할 수 없습니다.';
+      '5. pants (Datu iznīcināšana un neatgūstamība)\nDati, kas dzēsti pēc 3. pantā noteiktā glabāšanas perioda beigām vai saskaņā ar 4. pantu, tiek neatgriezeniski iznīcināti un nekādā gadījumā nav atgūstami.\n\n';
 
   @override
   String get eulaArticle6 =>
-      '제6조 (보증 부인 및 면책)\n본 앱이 제공하는 타로 점괘 및 해석은 오락 목적으로만 제공뙘며, 첕영, 타로 재정적 조언을 대체하지 않습니다. 서비스 이용으로 인해 발생하는 어떠한 직간접적인 손해에 대넜밞읜 대해서밞읐 지지 않습니다.';
+      '6. pants (Garantijas atteikums un atbildības ierobežojums)\nŠīs lietotnes sniegtās taro zīlēšanas un interpretācijas ir paredzētas tikai izklaides nolūkiem un neaizstāj juridisku, medicīnisku vai finansiālu padomu. Izstrādātājs nav atbildīgs par jebkādiem tiešiem vai netiešiem zaudējumiem, kas radušies pakalpojuma izmantošanas rezultātā.\n\n';
 
   @override
   String get eulaAgreement =>
-      '위 EULA 내용 및 데이터 관리 정책은 앱 사용을 위해 필수적으로 동의해야 항목입니다.';
+      'Iepriekš minētais EULA saturs un datu pārvaldības politika ir obligāti jāpiekrīt, lai izmantotu lietotni.';
 
   @override
-  String get closeButton => '닫기';
+  String get closeButton => 'Aizvērt';
 
   @override
-  String get pushTermsTitle => '이벤트 및 마케팅 알림 수신 동의';
+  String get pushTermsTitle =>
+      'Piekrišana saņemt pasākumu un mārketinga paziņojumus';
 
   @override
   String get pushArticle1 =>
-      '제1조 (목적)\n본 동의는 타로마녀 서비스가 사용자에게 유익익앜 띴벤트, 프로모션, 촄새 업데이트 등의 광고성 정보를 푸시 알림으로 전송하기 위함입니다.';
+      '1. pants (Mērķis)\nŠīs piekrišanas mērķis ir ļaut Tarot Witch pakalpojumam nosūtīt lietotājam reklāmas informāciju, piemēram, noderīgus pasākumus, akcijas un jaunus horoskopa atjauninājumus, izmantojot push paziņojumus.\n\n';
 
   @override
   String get pushArticle2 =>
-      '제2조 (수신 철회)\n사용자는 본 수신 동의를 언제든지 앱 내 [내 메뉴 > 앱 설정]에서 철슈싵 할. 동의를 철회하더라도 서비스의 기본 기능(필수 서비스)은 정상적으를 읤.';
+      '2. pants (Abonementa atsaukšana)\nLietotājs var atsaukt šo piekrišanu jebkurā laikā lietotnes sadaļā [Mana izvēlne > Lietotnes iestatījumi]. Pat ja piekrišana tiek atsaukta, pakalpojuma pamatfunkcijas (obligātie pakalpojumi) joprojām būs pieejamas.\n\n';
 
   @override
   String get pushArticle3 =>
-      '제3조 (알림의 내용)\n전송되는 알림에는 앱 내 특별 할인 혜택, 기간 앜정 이벤트, 맞춤형 춳 및 마케팅 성격의 내용이 포함될 수 있습니다.';
+      '3. pants (Paziņojumu saturs)\nNosūtītie paziņojumi var ietvert reklāmas un mārketinga saturu, piemēram, īpašus lietotnes atlaižu piedāvājumus, ierobežota laika pasākumus un personalizētus horoskopa ieteikumus.\n\n';
 
   @override
   String get pushAgreement =>
-      '위 내용은 사용자의 선택적 동의 사항이며, 미동의 시에도 냀로 서이슩 서비슩 불이익이 없습니다.';
+      'Iepriekš minētais ir lietotāja izvēles piekrišanas jautājums, un, ja netiek sniegta piekrišana, taro pakalpojuma izmantošanai nav nekādu trūkumu.';
 
   @override
   String get windowsNoGoogleLogin =>
-      '미리보기 환경(Windows)에서는 구글 로그인을 지원하지 않습니다. 안드로이드 기기나 웹을 이용해주세요.';
+      'Google pieteikšanās netiek atbalstīta priekšskatījuma vidē (Windows). Lūdzu, izmantojiet Android ierīci vai tīmekli.';
 
   @override
-  String get signupTermsRequired => '회원가입을 진행하려면 데이터 보관 약관에 동의해야 합니다.';
+  String get signupTermsRequired =>
+      'Lai turpinātu reģistrāciju, jums jāpiekrīt datu glabāšanas noteikumiem.';
 
   @override
   String googleLoginError(String error) {
-    return '구글 로그인 오류: $error';
+    return 'Google pieteikšanās kļūda: $error';
   }
 
   @override
-  String get googleLoginUnknownError => '구글 로그인 중 알 수 없는 오류가 발생했습니다.';
+  String get googleLoginUnknownError =>
+      'Pieteikšanās Google laikā radās nezināma kļūda.';
 
   @override
-  String get windowsNoFirebase => '미리보기 환경(Windows)에서는 파이어베이스 로그인을 지원하지 않습니다.';
+  String get windowsNoFirebase =>
+      'Firebase pieteikšanās netiek atbalstīta priekšskatījuma vidē (Windows).';
 
   @override
-  String get emailVerificationRequired => '이메일 인증이 필요합니다. 가입하신 이메일함을 확인해주세요.';
+  String get emailVerificationRequired =>
+      'Nepieciešama e-pasta verifikācija. Lūdzu, pārbaudiet savu reģistrēto e-pasta iesūtni.';
 
   @override
-  String get resendEmail => '재발송';
+  String get resendEmail => 'Nosūtīt atkārtoti';
 
   @override
-  String get verificationEmailSent => '인증 메일이 재발송되었습니다.';
+  String get verificationEmailSent =>
+      'Verifikācijas e-pasts ir nosūtīts atkārtoti.';
 
   @override
-  String get passwordMismatch => '비밀번호가 일치하지 않습니다. 다시 확인해 주세요.';
+  String get passwordMismatch => 'Paroles nesakrīt. Lūdzu, pārbaudiet vēlreiz.';
 
   @override
-  String get signupSuccess => '회원가입이 완료되었습니다. 발송된 이메일을 확인하여 인증을 완료해주세요.';
+  String get signupSuccess =>
+      'Reģistrācija ir pabeigta. Lūdzu, pārbaudiet nosūtīto e-pastu, lai pabeigtu verifikāciju.';
 
   @override
-  String get authError => '인증 오류가 발생했습니다.';
+  String get authError => 'Radās autentifikācijas kļūda.';
 
   @override
-  String get authLoginTitle => '로그인';
+  String get authLoginTitle => 'Pieteikties';
 
   @override
-  String get authSignupTitle => '회원가입';
+  String get authSignupTitle => 'Reģistrēties';
 
   @override
-  String get authTarotNickname => '타로 세계의 닉네임';
+  String get authTarotNickname => 'Segvārds taro pasaulē';
 
   @override
-  String get authRerollNickname => '닉네임 다시 뽑기';
+  String get authRerollNickname => 'Pārveidot segvārdu';
 
   @override
-  String get authEmail => '이메일';
+  String get authEmail => 'E-pasts';
 
   @override
-  String get authPassword => '비밀번호';
+  String get authPassword => 'Parole';
 
   @override
-  String get authConfirmPassword => '비밀번호 확인';
+  String get authConfirmPassword => 'Apstiprināt paroli';
 
   @override
-  String get authKeepLoggedIn => '로그인 상태 유지';
+  String get authKeepLoggedIn => 'Palikt pieteicies';
 
   @override
-  String get authAgreeEula => '최종 사용자 라이선스 계약(EULA)에 동의합니다. (필수)';
+  String get authAgreeEula =>
+      'Es piekrītu galalietotāja licences līgumam (EULA). (Obligāti)';
 
   @override
-  String get authViewContent => '[내용 보기]';
+  String get authViewContent => '[Skatīt saturu]';
 
   @override
-  String get authAgreePush => '새로운 타로점 및 이벤터 알림수신에 동의합니다. (선택)';
+  String get authAgreePush =>
+      'Es piekrītu saņemt paziņojumus par jauniem taro zīlējumiem un pasākumiem. (Izvēles)';
 
   @override
-  String get authBtnLogin => '로그인하기';
+  String get authBtnLogin => 'Pieteikties';
 
   @override
-  String get authBtnSignup => '가입하기';
+  String get authBtnSignup => 'Reģistrēties';
 
   @override
-  String get authSwitchToSignup => '계정이 없으신가요? 회원가입';
+  String get authSwitchToSignup => 'Nav konta? Reģistrēties';
 
   @override
-  String get authSwitchToLogin => '이미 계정이 있으신가요? 로그인';
+  String get authSwitchToLogin => 'Jau ir konts? Pieteikties';
 
   @override
-  String get authGoogleSignIn => 'Google로 시작하기';
+  String get authGoogleSignIn => 'Pieteikties ar Google';
 
   @override
-  String get cardDetailNotReady => '이 해석은 아직 준비되지 않았습니다.';
+  String get cardDetailNotReady => 'Šī interpretācija vēl nav gatava.';
 
   @override
-  String get cardDetailLoadError => '데이터를 불러오는 중 오류가 발생했습니다.';
+  String get cardDetailLoadError => 'Radās kļūda, ielādējot datus.';
 
   @override
   String get cardDetailTabUpright => 'Taisni (Upright)';
@@ -3984,25 +4149,25 @@ class AppLocalizationsLv extends AppLocalizations {
   String get cardDetailTabReversed => 'Apgriezti (Reversed)';
 
   @override
-  String get cardDetailNoInterpretation => '해석이 없습니다.';
+  String get cardDetailNoInterpretation => 'Nav interpretācijas.';
 
   @override
-  String get cardDetailSectionKeywords => '핵심 키워드';
+  String get cardDetailSectionKeywords => 'Galvenie atslēgvārdi';
 
   @override
-  String get cardDetailSectionGeneral => '일반 해석';
+  String get cardDetailSectionGeneral => 'Vispārīga interpretācija';
 
   @override
-  String get cardDetailSectionLove => '연애 운';
+  String get cardDetailSectionLove => 'Mīlestības veiksme';
 
   @override
-  String get cardDetailSectionCareer => '금전 커리어';
+  String get cardDetailSectionCareer => 'Naudas karjera';
 
   @override
-  String get cardDetailSectionHealth => '건강';
+  String get cardDetailSectionHealth => 'Veselība';
 
   @override
-  String get cardDetailSectionSpirituality => '영성 내면';
+  String get cardDetailSectionSpirituality => 'Garīgums, iekšējais es';
 
   @override
   String get chatDustShortageTitle => 'pulvera trūkums';
@@ -4100,27 +4265,27 @@ class AppLocalizationsLv extends AppLocalizations {
   String get profileEditSave => 'Saglabāt';
 
   @override
-  String get coinShortageTitle => 'Not Enough Coins';
+  String get coinShortageTitle => 'Monētu trūkums';
 
   @override
   String get coinShortageContent =>
-      'You don\'t have enough coins. 1 coin is required for a tarot reading.';
+      'Monētu trūkums. Taro lasīšanai nepieciešama 1 monēta.';
 
   @override
-  String get dialogOk => 'OK';
+  String get dialogOk => 'Labi';
 
   @override
-  String get proceedReadingTitle => 'Proceed Tarot Reading';
+  String get proceedReadingTitle => 'Turpināt taro lasīšanu';
 
   @override
   String get proceedReadingContent =>
-      'Do you want to consume 1 coin to proceed with the reading?';
+      'Vai vēlaties turpināt lasīšanu, iztērējot 1 monētu?';
 
   @override
-  String get dialogCancel => 'Cancel';
+  String get dialogCancel => 'Atcelt';
 
   @override
-  String get dialogProceed => 'Proceed';
+  String get dialogProceed => 'Turpināt';
 
   @override
   String pickCardsText(int count) {
@@ -4138,7 +4303,7 @@ class AppLocalizationsLv extends AppLocalizations {
 
   @override
   String witchTarotReading(String witchName) {
-    return '$witchName\'s Tarot Reading';
+    return '$witchName taro zīlēšana';
   }
 
   @override
@@ -4172,4 +4337,25 @@ class AppLocalizationsLv extends AppLocalizations {
   String translateFailed(String error) {
     return 'Tulkošana neizdevās: $error';
   }
+
+  @override
+  String get tagLove => 'Mīlestība';
+
+  @override
+  String get tagMoney => 'Bagātība';
+
+  @override
+  String get tagHealth => 'Veselība';
+
+  @override
+  String get tagCareer => 'Karjera';
+
+  @override
+  String get tagToday => 'Šodiena';
+
+  @override
+  String get tagRelationship => 'Attiecības';
+
+  @override
+  String get tagSelfReflection => 'Pašrefleksija';
 }
