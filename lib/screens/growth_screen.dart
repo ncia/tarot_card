@@ -71,34 +71,32 @@ class _GrowthScreenState extends State<GrowthScreen> with SingleTickerProviderSt
                       delegate: SliverTabBarDelegate(
                         TabBar(
                           controller: _tabController,
+                          isScrollable: true,
+                          tabAlignment: TabAlignment.center,
                           indicatorColor: Colors.amberAccent,
                           labelColor: Colors.amberAccent,
                           unselectedLabelColor: Colors.white54,
+                          labelStyle: const TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+                          unselectedLabelStyle: const TextStyle(fontSize: 14),
                           tabs: [
                             Tab(
-                              child: FittedBox(
-                                fit: BoxFit.scaleDown,
-                                child: Row(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    const Icon(Icons.lens_blur),
-                                    const SizedBox(width: 8),
-                                    Text(AppLocalizations.of(context)!.growthTabCrystalBall),
-                                  ],
-                                ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  const Icon(Icons.lens_blur),
+                                  const SizedBox(width: 8),
+                                  Text(AppLocalizations.of(context)!.growthTabCrystalBall),
+                                ],
                               ),
                             ),
                             Tab(
-                              child: FittedBox(
-                                fit: BoxFit.scaleDown,
-                                child: Row(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    const Icon(Icons.menu_book),
-                                    const SizedBox(width: 8),
-                                    Text(AppLocalizations.of(context)!.growthTabMagicBook),
-                                  ],
-                                ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  const Icon(Icons.menu_book),
+                                  const SizedBox(width: 8),
+                                  Text(AppLocalizations.of(context)!.growthTabMagicBook),
+                                ],
                               ),
                             ),
                           ],

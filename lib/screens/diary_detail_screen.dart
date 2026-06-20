@@ -90,7 +90,7 @@ class _DiaryDetailScreenState extends State<DiaryDetailScreen> {
     setState(() => _isTranslating = true);
 
     try {
-      final targetLocale = Localizations.localeOf(context).languageCode;
+      final targetLocale = View.of(context).platformDispatcher.locale.languageCode;
       
       String translatedResult = _diary.resultText;
       if (translatedResult.isEmpty && _diary.cardMeanings.isNotEmpty) {

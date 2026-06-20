@@ -196,7 +196,7 @@ class _DiaryListView extends StatelessWidget {
                                   padding: EdgeInsets.all(8),
                                   margin: EdgeInsets.only(bottom: 8),
                                   decoration: BoxDecoration(color: Colors.black26, borderRadius: BorderRadius.circular(8)),
-                                  child: Text('Q: \${diary.myNote}', style: TextStyle(color: Colors.white70, fontSize: 12, fontStyle: FontStyle.italic), maxLines: 2, overflow: TextOverflow.ellipsis),
+                                  child: Text('Q: ${diary.myNote}', style: TextStyle(color: Colors.white70, fontSize: 12, fontStyle: FontStyle.italic), maxLines: 2, overflow: TextOverflow.ellipsis),
                                 ),
                               Text(
                                 diary.resultText.isNotEmpty ? diary.resultText : (diary.cardMeanings.isNotEmpty ? diary.cardMeanings.join('\\n') : ''),

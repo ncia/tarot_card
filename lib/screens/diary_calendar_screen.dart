@@ -230,11 +230,17 @@ class _DiaryCalendarScreenState extends State<DiaryCalendarScreen> {
                                 ),
                               ),
                               const SizedBox(width: 8),
-                              Text(
-                                DateFormat('HH:mm').format(diary.date),
-                                style: const TextStyle(
-                                    color: Colors.amberAccent, fontSize: 12),
-                              ),
+                                Text(
+                                  DateFormat('yyyy.MM.dd HH:mm').format(diary.date),
+                                  style: const TextStyle(
+                                      color: Colors.amberAccent, fontSize: 12),
+                                ),
+                                const SizedBox(width: 8),
+                                Text(
+                                  _getTimeAgo(diary.date, context),
+                                  style: const TextStyle(
+                                      color: Colors.white54, fontSize: 11),
+                                ),
                             ],
                           ),
                           const SizedBox(height: 4),
@@ -291,5 +297,20 @@ class _DiaryCalendarScreenState extends State<DiaryCalendarScreen> {
         );
       },
     );
+  }
+
+  String _getTimeAgo(DateTime date, BuildContext context) {
+    final now = DateTime.now();
+    final difference = now.difference(date);
+
+    if (difference.inDays > 0) {
+      return AppLocalizations.of(context)!.diaryDaysAgo(difference.inDays);
+    } else if (difference.inHours > 0) {
+      return AppLocalizations.of(context)!.diaryHoursAgo(difference.inHours);
+    } else if (difference.inMinutes > 0) {
+      return AppLocalizations.of(context)!.diaryMinutesAgo(difference.inMinutes);
+    } else {
+      return AppLocalizations.of(context)!.diaryJustNow;
+    }
   }
 }

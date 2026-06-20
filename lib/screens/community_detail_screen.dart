@@ -112,7 +112,7 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
       final docRef = FirebaseFirestore.instance.collection('community_posts').doc(widget.post.id);
       
       // 언어 코드를 기기 설정 언어에서 가져오거나 하드코딩
-      final targetLocale = Localizations.localeOf(context).languageCode;
+      final targetLocale = View.of(context).platformDispatcher.locale.languageCode;
       
       String translatedContent = widget.post.content;
       String translatedQuestion = widget.post.question;
@@ -151,7 +151,7 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
           .collection('comments')
           .doc(comment.id);
       
-      final targetLocale = Localizations.localeOf(context).languageCode;
+      final targetLocale = View.of(context).platformDispatcher.locale.languageCode;
       
       final translated = await _translationService.getOrTranslate(docRef, comment.content, targetLocale);
 
@@ -206,7 +206,7 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
     final nickname = post.authorNickname.isNotEmpty ? post.authorNickname : AppLocalizations.of(context)!.communityNoName;
     
     // 번역된 텍스트가 있으면 그걸 보여주고 아니면 원문
-    final targetLocale = Localizations.localeOf(context).languageCode;
+    final targetLocale = View.of(context).platformDispatcher.locale.languageCode;
     final autoTranslatedContent = post.translations[targetLocale] as String?;
     final autoTranslatedQuestion = post.translations['${targetLocale}_q'] as String?;
 
