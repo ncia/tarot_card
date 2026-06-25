@@ -12,6 +12,7 @@ import '../data/spread_type.dart';
 import '../services/community_service.dart';
 import '../services/translation_service.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../widgets/user_profile_avatar.dart';
 import '../widgets/emoji_picker_widget.dart';
 import '../widgets/top_floating_icons.dart';
@@ -352,7 +353,17 @@ class _CommunityDetailScreenState extends State<CommunityDetailScreen> {
                               SpillingLikeButton(
                                 child: ElevatedButton.icon(
                                   onPressed: _isLiking ? null : _toggleLike,
-                                  icon: Icon(isLiked ? Icons.favorite : Icons.favorite_border, color: Colors.pinkAccent),
+                                  icon: ShaderMask(
+                                    shaderCallback: (bounds) => const LinearGradient(
+                                      colors: [Colors.pinkAccent, Colors.purpleAccent],
+                                      begin: Alignment.topLeft,
+                                      end: Alignment.bottomRight,
+                                    ).createShader(bounds),
+                                    child: FaIcon(
+                                      isLiked ? FontAwesomeIcons.solidHeart : FontAwesomeIcons.heart,
+                                      color: Colors.white,
+                                    ),
+                                  ),
                                   label: Text('${AppLocalizations.of(context)!.communityLike} ${likes.length}', style: const TextStyle(color: Colors.white)),
                                   style: ElevatedButton.styleFrom(
                                     backgroundColor: Colors.deepPurple.withOpacity(0.5),

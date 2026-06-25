@@ -17,8 +17,9 @@ void main() {
   final height = image.height;
   final padded = img.Image(width: width, height: height);
   
-  // Get background color from top-left pixel
-  final bgPixel = image.getPixel(0, 0);
+  // Use a brighter, more vivid deep purple for the background instead of the dark edge pixel
+  // R: 60, G: 30, B: 90
+  final bgPixel = img.ColorRgb8(60, 30, 90);
   
   // Fill the new image with the background color
   for (int y = 0; y < height; y++) {

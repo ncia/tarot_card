@@ -12,7 +12,7 @@ void main() {
   for (int y = 0; y < img.height; y++) {
     for (int x = 0; x < img.width; x++) {
       final p = img.getPixel(x, y);
-      final a = p.a as num; 
+      final a = p.a; 
       int alphaValue = a.toInt();
       
       if (alphaValue > maxAlpha) maxAlpha = alphaValue;

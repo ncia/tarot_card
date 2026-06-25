@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class SpillingLikeButton extends StatefulWidget {
   final Widget child; // The actual Like button/icon/text to wrap
@@ -17,9 +18,16 @@ class SpillingLikeButton extends StatefulWidget {
 }
 
 class _SpillingLikeButtonState extends State<SpillingLikeButton> with TickerProviderStateMixin {
-  final List<_FloatingHeart> _hearts = [];
+  final List<_FloatingParticle> _particles = [];
   final Random _random = Random();
   Timer? _timer;
+
+  static const List<dynamic> _particleIcons = [
+    FontAwesomeIcons.solidHeart,
+    FontAwesomeIcons.solidStar,
+    FontAwesomeIcons.wandMagicSparkles,
+    Icons.celebration, // 축포
+  ];
 
   @override
   void initState() {
@@ -40,8 +48,6 @@ class _SpillingLikeButtonState extends State<SpillingLikeButton> with TickerProv
   }
 
   void _startAmbientSpill() {
-    // Periodically spawn a heart to induce clicking
-    // The delay is random so it feels natural, e.g., every 1.5 to 3.5 seconds
     _scheduleNextSpill();
   }
 
@@ -51,15 +57,14 @@ class _SpillingLikeButtonState extends State<SpillingLikeButton> with TickerProv
     final delay = Duration(milliseconds: 1500 + _random.nextInt(2000));
     _timer = Timer(delay, () {
       if (mounted) {
-        _spawnAmbientHeart();
+        _spawnAmbientParticle();
         _scheduleNextSpill();
       }
     });
   }
 
-  void _spawnAmbientHeart() {
-    // Only spawn 1 or 2 hearts at a time to not overwhelm the UI
-    int count = _random.nextInt(100) < 30 ? 2 : 1; // 30% chance for 2 hearts
+  void _spawnAmbientParticle() {
+    int count = _random.nextInt(100) < 40 ? 2 : 1; 
     
     for (int i = 0; i < count; i++) {
       final controller = AnimationController(
@@ -67,23 +72,28 @@ class _SpillingLikeButtonState extends State<SpillingLikeButton> with TickerProv
         duration: Duration(milliseconds: 1500 + _random.nextInt(1500)),
       );
       
-      final heart = _FloatingHeart(
+      final icon = _particleIcons[_random.nextInt(_particleIcons.length)];
+      final isHeart = icon == FontAwesomeIcons.solidHeart;
+      final size = isHeart ? (10 + _random.nextDouble() * 8) : (12 + _random.nextDouble() * 10);
+      
+      final particle = _FloatingParticle(
         controller: controller,
-        startX: -5.0 + _random.nextDouble() * 20, // Spawn near the left side (where the heart icon is)
-        targetX: -15.0 + _random.nextDouble() * 40, // Drift slightly left or right
-        targetY: 40 + _random.nextDouble() * 60, // Float upwards by 40-100 pixels
-        size: 10 + _random.nextDouble() * 8, // Size between 10-18
-        color: Colors.pinkAccent.withOpacity(0.5 + _random.nextDouble() * 0.4), // Slightly transparent
+        startX: -5.0 + _random.nextDouble() * 20, 
+        targetX: -20.0 + _random.nextDouble() * 40, 
+        targetY: 40 + _random.nextDouble() * 80, 
+        size: size,
+        color: Colors.pinkAccent.withOpacity(0.5 + _random.nextDouble() * 0.5), 
+        icon: icon,
       );
       
       setState(() {
-        _hearts.add(heart);
+        _particles.add(particle);
       });
       
       controller.forward().then((_) {
         if (mounted) {
           setState(() {
-            _hearts.remove(heart);
+            _particles.remove(particle);
           });
         }
         controller.dispose();
@@ -94,8 +104,8 @@ class _SpillingLikeButtonState extends State<SpillingLikeButton> with TickerProv
   @override
   void dispose() {
     _timer?.cancel();
-    for (var heart in _hearts) {
-      heart.controller.dispose();
+    for (var particle in _particles) {
+      particle.controller.dispose();
     }
     super.dispose();
   }
@@ -106,35 +116,45 @@ class _SpillingLikeButtonState extends State<SpillingLikeButton> with TickerProv
       clipBehavior: Clip.none,
       alignment: Alignment.centerLeft,
       children: [
-        widget.child, // The base layout
+        widget.child, 
         
-        ..._hearts.map((heart) {
+        ..._particles.map((particle) {
           return AnimatedBuilder(
-            animation: heart.controller,
+            animation: particle.controller,
             builder: (context, child) {
-              final progress = heart.controller.value;
+              final progress = particle.controller.value;
               
-              // Apply easing to the upward movement
               final curve = Curves.easeOut.transform(progress);
+              final y = particle.targetY * curve;
               
-              final y = heart.targetY * curve;
-              
-              // Add a gentle sinusoidal horizontal wobble
               final wobble = sin(progress * pi * 3) * 8;
-              final x = heart.startX + (heart.targetX * progress) + wobble;
+              final x = particle.startX + (particle.targetX * progress) + wobble;
               
-              // Fade out smoothly in the second half of the animation
-              final opacity = progress > 0.5 ? 1.0 - ((progress - 0.5) * 2) : 1.0;
+              final fadeOpacity = progress > 0.5 ? 1.0 - ((progress - 0.5) * 2) : 1.0;
+              final combinedOpacity = fadeOpacity * particle.color.opacity;
               
               return Positioned(
                 left: x,
-                bottom: 8 + y, // Starting slightly above the bottom alignment
+                bottom: 8 + y, 
                 child: Opacity(
-                  opacity: opacity,
-                  child: Icon(
-                    Icons.favorite,
-                    color: heart.color,
-                    size: heart.size,
+                  opacity: combinedOpacity,
+                  child: ShaderMask(
+                    shaderCallback: (bounds) => const LinearGradient(
+                      colors: [Colors.pinkAccent, Colors.purpleAccent],
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                    ).createShader(bounds),
+                    child: particle.icon is IconData
+                        ? Icon(
+                            particle.icon as IconData,
+                            color: Colors.white,
+                            size: particle.size,
+                          )
+                        : FaIcon(
+                            particle.icon,
+                            color: Colors.white,
+                            size: particle.size,
+                          ),
                   ),
                 ),
               );
@@ -146,20 +166,22 @@ class _SpillingLikeButtonState extends State<SpillingLikeButton> with TickerProv
   }
 }
 
-class _FloatingHeart {
+class _FloatingParticle {
   final AnimationController controller;
   final double startX;
   final double targetX;
   final double targetY;
   final double size;
   final Color color;
+  final dynamic icon;
 
-  _FloatingHeart({
+  _FloatingParticle({
     required this.controller,
     required this.startX,
     required this.targetX,
     required this.targetY,
     required this.size,
     required this.color,
+    required this.icon,
   });
 }

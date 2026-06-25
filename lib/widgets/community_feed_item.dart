@@ -8,6 +8,7 @@ import '../screens/community_detail_screen.dart';
 import 'package:flutter_tarot/l10n/app_localizations.dart';
 import 'user_profile_avatar.dart';
 import 'spilling_like_button.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CommunityFeedItem extends StatelessWidget {
   final CommunityPost post;
@@ -153,7 +154,14 @@ class CommunityFeedItem extends StatelessWidget {
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         children: [
-                          const Icon(Icons.favorite, color: Colors.pinkAccent, size: 16),
+                          ShaderMask(
+                            shaderCallback: (bounds) => const LinearGradient(
+                              colors: [Colors.pinkAccent, Colors.purpleAccent],
+                              begin: Alignment.topLeft,
+                              end: Alignment.bottomRight,
+                            ).createShader(bounds),
+                            child: const FaIcon(FontAwesomeIcons.solidHeart, color: Colors.white, size: 16),
+                          ),
                           const SizedBox(width: 4),
                           Text('${AppLocalizations.of(context)!.communityLike} ${post.likeCount}', style: const TextStyle(color: Colors.white70, fontSize: 13)),
                         ],

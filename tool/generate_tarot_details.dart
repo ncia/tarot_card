@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:google_generative_ai/google_generative_ai.dart';
-import '../lib/data/tarot_data.dart';
+import 'package:flutter_tarot/data/tarot_data.dart';
 
 void main() async {
   final envFile = File('.env');

@@ -101,7 +101,7 @@ class _FlipCardWidgetState extends State<FlipCardWidget> with SingleTickerProvid
         border: Border.all(color: Colors.white24, width: 1.5),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.5),
+            color: Colors.black.withValues(alpha: 0.5),
             blurRadius: 8,
             offset: const Offset(0, 4),
           ),
