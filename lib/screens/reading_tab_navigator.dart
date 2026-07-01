@@ -28,3 +28,4 @@ class ReadingTabNavigator extends StatelessWidget {
     );
   }
 }
+

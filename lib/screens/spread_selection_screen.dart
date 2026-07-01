@@ -10,7 +10,8 @@ import '../services/economy_service.dart';
 class SpreadSelectionScreen extends StatelessWidget {
   final bool showBackButton;
   final Witch? selectedWitch;
-  const SpreadSelectionScreen({super.key, this.showBackButton = false, this.selectedWitch});
+  final String? topicPrompt;
+  const SpreadSelectionScreen({super.key, this.showBackButton = false, this.selectedWitch, this.topicPrompt});
 
   @override
   Widget build(BuildContext context) {
@@ -161,7 +162,7 @@ class SpreadSelectionScreen extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => ReadingScreen(spreadType: type, selectedWitch: selectedWitch, skipIntro: true),
+              builder: (context) => ReadingScreen(spreadType: type, selectedWitch: selectedWitch, topicPrompt: topicPrompt, skipIntro: true),
             ),
           );
         }

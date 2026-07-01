@@ -37,6 +37,7 @@ class ReadingScreen extends StatefulWidget {
   final SpreadType spreadType;
   final void Function(List<String>)? onCardsPicked;
   final Witch? selectedWitch;
+  final String? topicPrompt;
   final bool skipIntro;
 
   const ReadingScreen({
@@ -45,6 +46,7 @@ class ReadingScreen extends StatefulWidget {
     this.spreadType = SpreadType.threeCard,
     this.onCardsPicked,
     this.selectedWitch,
+    this.topicPrompt,
     this.skipIntro = false,
   });
 
@@ -237,7 +239,12 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
     }
     
     String spreadName = widget.spreadType.name;
-    String prompt = "사용자가 질문 없이 $spreadName 배열법으로 타로카드를 뽑았습니다. 뽑힌 카드들을 배열법의 각 위치에 맞게 해석하고 전반적인 운세와 조언을 해주세요. 답변은 반드시 당신의 페르소나 톤으로 바로 시작해주세요.";
+    String prompt;
+    if (widget.topicPrompt != null && widget.topicPrompt!.isNotEmpty) {
+      prompt = "${widget.topicPrompt}\n\n위 내용을 바탕으로 사용자가 $spreadName 배열법으로 타로카드를 뽑았습니다. 뽑힌 카드들을 배열법의 각 위치에 맞게 해석하고 질문에 대한 구체적인 조언을 해주세요. 답변은 반드시 당신의 페르소나 톤으로 바로 시작해주세요.";
+    } else {
+      prompt = "사용자가 질문 없이 $spreadName 배열법으로 타로카드를 뽑았습니다. 뽑힌 카드들을 배열법의 각 위치에 맞게 해석하고 전반적인 운세와 조언을 해주세요. 답변은 반드시 당신의 페르소나 톤으로 바로 시작해주세요.";
+    }
     
     final stream = _aiService.getTarotReadingStream(prompt, pickedCards, widget.selectedWitch!.personalityPrompt, Localizations.localeOf(context).languageCode);
     
@@ -295,7 +302,7 @@ class _ReadingScreenState extends State<ReadingScreen> with TickerProviderStateM
         id: DateTime.now().millisecondsSinceEpoch.toString(),
         cardId: pickedCards.isNotEmpty ? pickedCards[0] : '',
         spreadType: widget.spreadType.name,
-        myNote: AppLocalizations.of(context)!.diaryTarotReading,
+        myNote: widget.topicPrompt ?? AppLocalizations.of(context)!.diaryTarotReading,
         resultText: cleanText,
         date: DateTime.now(),
         cardIds: pickedCards,

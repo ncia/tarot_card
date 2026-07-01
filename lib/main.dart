@@ -20,7 +20,11 @@ final GlobalKey<NavigatorState> globalNavigatorKey = GlobalKey<NavigatorState>()
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load(fileName: "assets/env");
+  try {
+    await dotenv.load(fileName: "assets/env");
+  } catch (e) {
+    debugPrint("Failed to load dotenv: $e");
+  }
   
   try {
     await () async {
@@ -56,9 +60,13 @@ void main() async {
     debugPrint('Firebase initialization failed (not configured yet?): $e');
   }
 
+  debugPrint('--- Init ThemeManager ---');
   await ThemeManager.instance.init();
+  debugPrint('--- Init LanguageManager ---');
   await LanguageManager.instance.init();
+  debugPrint('--- Init DiaryService ---');
   await DiaryService.instance.init();
+  debugPrint('--- Init DeckManager ---');
   await DeckManager.instance.init();
 
   // 로그인 유저면 기존 Firestore 데이터를 로컬로 마이그레이션
@@ -73,6 +81,7 @@ void main() async {
   }
 
 
+  debugPrint('--- RUN APP ---');
   runApp(const TarotApp());
 }
 

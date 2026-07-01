@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'reading_tab_navigator.dart';
 import 'chat_screen.dart';
+import 'topic_tab_navigator.dart';
 import 'meanings_screen.dart';
 import 'my_menu_tab_navigator.dart';
 import 'diary_tab_navigator.dart';
@@ -66,7 +67,7 @@ class MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
 
   final List<Widget> _screens = [
     const ReadingTabNavigator(),
-    const ChatScreen(),
+    const TopicTabNavigator(),
     const DiaryTabNavigator(),
     const MeaningsScreen(),
     const MyMenuTabNavigator(),
